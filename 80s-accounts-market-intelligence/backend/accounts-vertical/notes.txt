@@ -1,0 +1,44 @@
+# ── By category (runs only the signals relevant to that category) ──
+python run_all_accounts.py --category "Education & Research"
+python run_all_accounts.py --category "BioPharma"
+python run_all_accounts.py --category "CDMO / CRO"
+python run_all_accounts.py --category "Clinical / Mol Dx"
+python run_all_accounts.py --category "Hospital & Health Systems"
+python run_all_accounts.py --category "Industrial"
+python run_all_accounts.py --category "Government"
+
+# ── Super80 priority accounts (auto-uses each account's category triggers) ──
+python run_all_accounts.py --super80
+
+# ── Single company (auto-detects category + applies correct signals) ──
+python run_all_accounts.py --company "PFIZER"
+python run_all_accounts.py --company "MAYO"
+python run_all_accounts.py --company "LABCORP"
+
+# ── Single company, override to one specific signal ──
+python run_all_accounts.py --company "PFIZER" --signal pipeline
+python run_all_accounts.py --company "NIH" --signal grant
+python run_all_accounts.py --company "MAYO" --signal tender
+
+# ── Category + single signal ──
+python run_all_accounts.py --category "BioPharma" --signal regulatory
+python run_all_accounts.py --category "Government" --signal tender
+
+# ── Save output to JSON ──
+python run_all_accounts.py --category "BioPharma" --output biopharma_results.json
+python run_all_accounts.py --super80 --output super80_results.json
+python run_all_accounts.py --output all_results.json
+
+# ── Signal reference (12 signals × 7 categories matrix) ──
+# grant       → Education & Research, BioPharma, Clinical/Mol Dx, Hospital, Government
+# faculty     → Education & Research, Hospital & Health Systems
+# capital     → ALL categories
+# contract    → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Government
+# pipeline    → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
+# expansion   → ALL categories
+# partnership → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
+# funding     → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
+# project     → ALL categories
+# regulatory  → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
+# hiring      → BioPharma, CDMO/CRO, Industrial
+# tender      → Hospital & Health Systems, Government
