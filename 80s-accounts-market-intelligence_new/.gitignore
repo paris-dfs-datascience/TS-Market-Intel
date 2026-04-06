@@ -1,0 +1,16 @@
+# API keys — never commit
+.env
+
+# Output files
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Excel outputs (optional — remove this line if you want to track the xlsx)
+*.xlsx
