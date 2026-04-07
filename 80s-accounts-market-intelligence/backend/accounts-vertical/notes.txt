@@ -1,44 +1,62 @@
-# ── By category (runs only the signals relevant to that category) ──
-python run_all_accounts.py --category "Education & Research"
-python run_all_accounts.py --category "BioPharma"
-python run_all_accounts.py --category "CDMO / CRO"
-python run_all_accounts.py --category "Clinical / Mol Dx"
-python run_all_accounts.py --category "Hospital & Health Systems"
-python run_all_accounts.py --category "Industrial"
-python run_all_accounts.py --category "Government"
+# ── Category scripts (one per industry) ──────────────────────────
+python run_education.py
+python run_biopharma.py
+python run_cdmo_cro.py
+python run_clinical_dx.py
+python run_hospital.py
+python run_industrial.py
+python run_government.py
+python run_super80.py
 
-# ── Super80 priority accounts (auto-uses each account's category triggers) ──
-python run_all_accounts.py --super80
+# ── Each script supports the same flags ──────────────────────────
 
-# ── Single company (auto-detects category + applies correct signals) ──
-python run_all_accounts.py --company "PFIZER"
-python run_all_accounts.py --company "MAYO"
-python run_all_accounts.py --company "LABCORP"
+# Single signal only
+python run_biopharma.py --signal pipeline
+python run_biopharma.py --signal regulatory
+python run_hospital.py --signal tender
+python run_government.py --signal grant
 
-# ── Single company, override to one specific signal ──
-python run_all_accounts.py --company "PFIZER" --signal pipeline
-python run_all_accounts.py --company "NIH" --signal grant
-python run_all_accounts.py --company "MAYO" --signal tender
+# Single company
+python run_biopharma.py --company "PFIZER"
+python run_clinical_dx.py --company "LABCORP"
+python run_super80.py --company "TAKEDA"
 
-# ── Category + single signal ──
-python run_all_accounts.py --category "BioPharma" --signal regulatory
-python run_all_accounts.py --category "Government" --signal tender
+# Save to custom file (each script has a default output filename)
+python run_biopharma.py --output biopharma_7days.json
+python run_super80.py --output super80_7days.json
 
-# ── Save output to JSON ──
-python run_all_accounts.py --category "BioPharma" --output biopharma_results.json
-python run_all_accounts.py --super80 --output super80_results.json
-python run_all_accounts.py --output all_results.json
+# ── Default output filenames ──────────────────────────────────────
+# run_education.py   → education_results.json
+# run_biopharma.py   → biopharma_results.json
+# run_cdmo_cro.py    → cdmo_cro_results.json
+# run_clinical_dx.py → clinical_dx_results.json
+# run_hospital.py    → hospital_results.json
+# run_industrial.py  → industrial_results.json
+# run_government.py  → government_results.json
+# run_super80.py     → super80_results.json
 
-# ── Signal reference (12 signals × 7 categories matrix) ──
-# grant       → Education & Research, BioPharma, Clinical/Mol Dx, Hospital, Government
-# faculty     → Education & Research, Hospital & Health Systems
-# capital     → ALL categories
+# ── Resume after interruption ─────────────────────────────────────
+# Just re-run the same command — skips completed accounts automatically
+python run_biopharma.py
+
+# ── Change time window ────────────────────────────────────────────
+# Edit DAYS_BACK in prompts.py (currently set to 7)
+
+# ── Core files (do not run directly) ─────────────────────────────
+# runner.py   → shared logic (API calls, retry, save, resume, print)
+# prompts.py  → 12 category-aware signal prompts
+# accounts.py → 237 accounts organised by 7 categories
+
+# ── Signal reference (12 signals × 7 categories) ─────────────────
+# grant       → Education, BioPharma, Clinical/Mol Dx, Hospital, Government
+# faculty     → Education, Hospital
+# capital     → ALL
 # contract    → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Government
 # pipeline    → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
-# expansion   → ALL categories
+# expansion   → ALL
 # partnership → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
 # funding     → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
-# project     → ALL categories
+# project     → ALL
 # regulatory  → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
 # hiring      → BioPharma, CDMO/CRO, Industrial
-# tender      → Hospital & Health Systems, Government
+# tender      → Hospital, Government
