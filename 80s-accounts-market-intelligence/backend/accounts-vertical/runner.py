@@ -17,6 +17,8 @@ from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK
 from accounts import ACCOUNTS, get_category
 
 MODEL = "gemini-2.5-flash"
+CALL_DELAY = 6  # seconds between API calls — keeps under 10 RPM (free tier)
+              # lower to 1-2 if on a paid plan with higher rate limits
 
 SIGNAL_COLORS = {
     "grant":       "\033[94m",
@@ -133,6 +135,7 @@ def run_account(client, account: str, category: str, signals: list,
                     ),
                 )
                 found = parse_signals(response.text)
+                time.sleep(CALL_DELAY)
                 break
             except Exception as e:
                 err = str(e)
