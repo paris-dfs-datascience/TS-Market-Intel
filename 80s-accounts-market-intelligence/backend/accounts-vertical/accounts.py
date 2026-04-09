@@ -18,7 +18,7 @@ ACCOUNTS = {
         "UNIVERSITY OF MIAMI", "UNIVERSITY OF MICHIGAN", "UNIVERSITY OF OREGON",
         "UNIVERSITY OF PENNSYLVANIA", "UNIVERSITY OF TORONTO", "UNIVERSITY OF UTAH",
         "UNIVERSITY OF WASHINGTON", "VANDERBILT UNIVERSITY", "WEILL CORNELL MEDICAL COLLEGE",
-        "WEILL CORNELL MEDICAL COLLE", "YALE UNIVERSITY",
+        "YALE UNIVERSITY",
         "ALLEGHENY SINGER RESEARCH INSTITUTE", "CORIELL INSTITUTE", "ATCC",
         "AMERICAN SOCIETY FOR MICROBIOL", "BHN RESEARCH", "STANFORD LINEAR",
         "STANFORD EQUIPMENT",
@@ -85,7 +85,7 @@ ACCOUNTS = {
         "DEFENSE LOGISTICS (DLA)", "DEFENSE SUPPLY CENTER", "LEIDOS", "NIH",
         "PERATON", "US ARMY", "USDA", "VETERANS ADMINISTRATION",
         "CA DEPT OF JUSTICE", "WV DEPT OF AGRICULTURE", "CITY OF CHICAGO",
-        "CITY OF COLUMBUS", "CITY OF COLUMBUS OHIO", "AMAZON MARKET PLACE", "AMAZON",
+        "CITY OF COLUMBUS", "CITY OF COLUMBUS OHIO", "AMAZON MARKET PLACE",
     ],
 }
 
@@ -182,13 +182,23 @@ SUPER80 = [
 ]
 
 
+# Build O(1) reverse lookup at module load time — avoids O(n²) per call
+_ACCOUNT_CATEGORY_MAP = {
+    acct.upper(): cat
+    for cat, accts in ACCOUNTS.items()
+    for acct in accts
+}
+
+
 def get_category(account: str) -> str:
-    """Return the category for a given account name."""
-    account_upper = account.upper()
-    for cat, accts in ACCOUNTS.items():
-        if account_upper in [a.upper() for a in accts]:
-            return cat
-    return "BioPharma"  # default fallback
+    """Return the category for a given account name.
+    Warns if account not found — never silently miscategorizes."""
+    cat = _ACCOUNT_CATEGORY_MAP.get(account.upper())
+    if cat is None:
+        import sys
+        print(f"  ⚠ get_category(): '{account}' not found in master list — returning 'Unknown'", file=sys.stderr)
+        return "Unknown"
+    return cat
 
 
 def all_accounts_flat() -> list:

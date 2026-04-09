@@ -141,16 +141,23 @@ def search_all_grants(max_records: int = 500, **kwargs) -> list[dict]:
 
     while len(all_results) < max_records:
         data = search_grants(offset=offset, rpp=rpp, **kwargs)
-        awards = data.get("response", {}).get("award", [])
+        response_body = data.get("response", {})
+        awards = response_body.get("award", [])
 
         if not awards:
             break
 
         all_results.extend(awards)
 
-        # NSF API doesn't always return totalCount reliably — stop when empty page
-        if len(awards) < rpp:
+        # Use totalCount when available (more reliable); fall back to page-size check
+        total_count = response_body.get("totalCount") or response_body.get("total", 0)
+        if total_count:
+            if len(all_results) >= min(total_count, max_records):
+                break
+        elif len(awards) < rpp:
+            # Last page heuristic — only used when totalCount unavailable
             break
+
         if len(all_results) >= max_records:
             break
 
@@ -175,54 +182,91 @@ def save_to_json(data, filename: str):
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
 
-    ACCOUNTS = [
-        # Education & Research
-        "Arizona State University", "Baylor College of Medicine", "Broad Institute",
-        "Drexel University", "Duke University", "Emory University",
-        "Harvard University", "Indiana University", "Jackson Laboratory",
-        "Johns Hopkins University", "Louisiana State University",
-        "Massachusetts Institute of Technology", "Michigan State University",
-        "New York University", "Ohio State University", "Pennsylvania State University",
-        "Rockefeller University", "Stanford University", "Temple University",
-        "University of Arizona", "University of Cincinnati",
-        "University of Connecticut", "University of Illinois",
-        "University of Maryland", "University of Miami", "University of Michigan",
-        "University of Oregon", "University of Pennsylvania",
-        "University of Utah", "University of Washington",
-        "Vanderbilt University", "Weill Cornell Medicine", "Yale University",
-        "Coriell Institute", "ATCC",
+    # Search name → canonical accounts.py name mapping
+    # NSF API uses title case; _matched_account must match accounts.py exactly
+    ACCOUNTS = {
+        # Education & Research  (search_name: canonical_name)
+        "Arizona State University":              "ARIZONA STATE UNIVERSITY",
+        "Baylor College of Medicine":            "BAYLOR COLLEGE OF MEDICINE",
+        "Broad Institute":                       "BROAD INSTITUTE",
+        "Drexel University":                     "DREXEL UNIVERSITY",
+        "Duke University":                       "DUKE UNIVERSITY",
+        "Emory University":                      "EMORY UNIVERSITY",
+        "Harvard University":                    "HARVARD UNIVERSITY",
+        "Indiana University":                    "INDIANA UNIVERSITY",
+        "Jackson Laboratory":                    "JACKSON LABS",
+        "Johns Hopkins University":              "JOHNS HOPKINS UNIVERSITY",
+        "Louisiana State University":            "LOUISIANA STATE UNIVERSITY",
+        "Massachusetts Institute of Technology": "MASSACHUSETTS INSTITUTE OF TEC",
+        "Michigan State University":             "MICHIGAN STATE UNIVERSITY",
+        "New York University":                   "NEW YORK UNIVERSITY",
+        "Ohio State University":                 "OHIO STATE UNIVERSITY",
+        "Pennsylvania State University":         "PENN STATE UNIVERSITY",
+        "Rockefeller University":                "ROCKEFELLER UNIVERSITY",
+        "Stanford University":                   "STANFORD UNIVERSITY",
+        "Temple University":                     "TEMPLE UNIVERSITY",
+        "University of Arizona":                 "UNIVERSITY OF ARIZONA",
+        "University of Cincinnati":              "UNIVERSITY OF CINCINNATI",
+        "University of Connecticut":             "UNIVERSITY OF CONNECTICUT",
+        "University of Illinois":                "UNIVERSITY OF ILLINOIS",
+        "University of Maryland":                "UNIVERSITY OF MARYLAND",
+        "University of Miami":                   "UNIVERSITY OF MIAMI",
+        "University of Michigan":                "UNIVERSITY OF MICHIGAN",
+        "University of Oregon":                  "UNIVERSITY OF OREGON",
+        "University of Pennsylvania":            "UNIVERSITY OF PENNSYLVANIA",
+        "University of Utah":                    "UNIVERSITY OF UTAH",
+        "University of Washington":              "UNIVERSITY OF WASHINGTON",
+        "Vanderbilt University":                 "VANDERBILT UNIVERSITY",
+        "Weill Cornell Medicine":                "WEILL CORNELL MEDICAL COLLEGE",
+        "Yale University":                       "YALE UNIVERSITY",
+        "Coriell Institute":                     "CORIELL INSTITUTE",
+        "ATCC":                                  "ATCC",
         # Hospital & Health Systems
-        "Beth Israel Deaconess Medical Center", "Cedars-Sinai Medical Center",
-        "Cincinnati Children's Hospital", "Children's Hospital of Philadelphia",
-        "Dana-Farber Cancer Institute", "H. Lee Moffitt Cancer Center",
-        "Hackensack University Medical Center", "Hospital for Special Surgery",
-        "Kaiser Permanente", "Mayo Clinic", "MD Anderson Cancer Center",
-        "Vanderbilt University Medical Center",
-    ]
+        "Beth Israel Deaconess Medical Center":  "BETH ISRAEL",
+        "Cedars-Sinai Medical Center":           "CEDAR SINAI MEDICAL CENTER",
+        "Cincinnati Children's Hospital":        "CHILDRENS HOSP OF CINCINNATI",
+        "Children's Hospital of Philadelphia":   "CHOP",
+        "Dana-Farber Cancer Institute":          "DANA FARBER CANCER INSTITUTE",
+        "H. Lee Moffitt Cancer Center":          "H LEE MOFFITT CANCER CENTER",
+        "Hackensack University Medical Center":  "HACKENSACK UNIVERSITY MEDICAL",
+        "Hospital for Special Surgery":          "HOSPITAL FOR SPECIAL SURGERY",
+        "Kaiser Permanente":                     "KAISER PERMANENTE",
+        "Mayo Clinic":                           "MAYO",
+        "MD Anderson Cancer Center":             "MD ANDERSON",
+        "Vanderbilt University Medical Center":  "VANDERBILT MEDICAL CENTER",
+    }
 
     DATE_START = "01/01/2024"
     DATE_END   = "12/31/2026"
     MAX_PER_ACCOUNT = 100
+    MAX_RETRIES = 3
     OUTPUT_FILE = "all_nsf_grants.json"
 
     print(f"Thomas Scientific // NSF Grant Fetch")
     print(f"Accounts: {len(ACCOUNTS)} | Period: {DATE_START}–{DATE_END} | Max per account: {MAX_PER_ACCOUNT}\n")
 
     all_grants = []
-    for org in ACCOUNTS:
-        try:
-            grants = search_all_grants(
-                awardee_name=org,
-                date_start=DATE_START,
-                date_end=DATE_END,
-                max_records=MAX_PER_ACCOUNT,
-            )
-            for g in grants:
-                g["_matched_account"] = org
-            all_grants.extend(grants)
-            print(f"  ✅  {org}: {len(grants)} grants")
-        except Exception as e:
-            print(f"  ❌  {org}: {e}")
+    for search_name, canonical_name in ACCOUNTS.items():
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                grants = search_all_grants(
+                    awardee_name=search_name,
+                    date_start=DATE_START,
+                    date_end=DATE_END,
+                    max_records=MAX_PER_ACCOUNT,
+                )
+                for g in grants:
+                    g["_matched_account"] = canonical_name  # always canonical
+                all_grants.extend(grants)
+                print(f"  ✅  {canonical_name}: {len(grants)} grants")
+                break
+            except Exception as e:
+                if attempt < MAX_RETRIES:
+                    wait = attempt * 5
+                    print(f"  ⚠  {canonical_name}: error (attempt {attempt}/{MAX_RETRIES}), retrying in {wait}s — {e}")
+                    time.sleep(wait)
+                else:
+                    print(f"  ❌  {canonical_name}: failed after {MAX_RETRIES} attempts — {e}")
         time.sleep(RATE_LIMIT_DELAY)
 
     save_to_json(all_grants, OUTPUT_FILE)

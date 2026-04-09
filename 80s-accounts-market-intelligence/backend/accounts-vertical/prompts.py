@@ -4,6 +4,7 @@ prompts.py — Thomas Scientific 80s Accounts Market Intelligence
 Each prompt is category-aware so search language is tuned to the account type.
 """
 
+import os
 from datetime import datetime, timedelta
 from accounts import ACCOUNT_ALIASES
 
@@ -16,17 +17,25 @@ def _entity_with_aliases(entity: str) -> str:
         return f"{entity} (also known as {alias_str})"
     return entity
 
-# ── Recency window ────────────────────────────────────────────────
-DAYS_BACK = 30
-cutoff = (datetime.today() - timedelta(days=DAYS_BACK)).strftime("%B %d, %Y")
-TODAY = datetime.today().strftime("%B %d, %Y")
+# ── Recency window ─────────────────────────────────────────────────
+# Override via: export DAYS_BACK=7
+DAYS_BACK = int(os.environ.get("DAYS_BACK", "30"))
 
-RECENCY_INSTRUCTION = (
-    f"Only include results from the last {DAYS_BACK} days (on or after {cutoff}). "
-    f"Today's date is {TODAY}. "
-    f"Focus on press releases, news articles, company announcements, SEC filings, and official publications. "
-    f"Ignore results older than {DAYS_BACK} days."
-)
+
+def _recency_instruction() -> str:
+    """Compute date-aware recency instruction at call time — never stale."""
+    cutoff = (datetime.today() - timedelta(days=DAYS_BACK)).strftime("%B %d, %Y")
+    today  = datetime.today().strftime("%B %d, %Y")
+    return (
+        f"Only include results from the last {DAYS_BACK} days (on or after {cutoff}). "
+        f"Today's date is {today}. "
+        f"Focus on press releases, news articles, company announcements, SEC filings, and official publications. "
+        f"Ignore results older than {DAYS_BACK} days."
+    )
+
+
+# Keep module-level alias for any importers that reference RECENCY_INSTRUCTION directly
+RECENCY_INSTRUCTION = _recency_instruction()
 
 ROLE = (
     "You are a market intelligence analyst for Thomas Scientific, "
@@ -201,7 +210,8 @@ _CLOSURE_CONTEXT = {
 
 # ── Prompt builder ────────────────────────────────────────────────
 def build_prompt(signal: str, entity: str, category: str) -> str:
-    entity = _entity_with_aliases(entity)  # expand to include aliases
+    entity = _entity_with_aliases(entity)          # expand to include aliases
+    RECENCY_INSTRUCTION = _recency_instruction()   # always fresh — never stale
 
     if signal == "grant":
         ctx = _GRANT_CONTEXT.get(category, "NIH, NSF, or government grant awards")

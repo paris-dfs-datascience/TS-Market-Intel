@@ -15,7 +15,14 @@ Usage:
 import argparse
 import json
 import os
+import sys
 from datetime import datetime
+
+try:
+    from accounts import ACCOUNTS as MASTER_ACCOUNTS, ACCOUNT_ALIASES
+except ImportError:
+    MASTER_ACCOUNTS = {}
+    ACCOUNT_ALIASES = {}
 
 # ── Paths ─────────────────────────────────────────────────────────
 BASE = os.path.dirname(os.path.abspath(__file__))
@@ -51,7 +58,7 @@ INSTITUTION_MAP = {
     "YALE":                      ("YALE UNIVERSITY",             "Education & Research"),
     "HARVARD":                   ("HARVARD UNIVERSITY",          "Education & Research"),
     "STANFORD":                  ("STANFORD UNIVERSITY",         "Education & Research"),
-    "MIT ":                      ("MASSACHUSETTS INSTITUTE OF TEC", "Education & Research"),
+    "MIT":                       ("MASSACHUSETTS INSTITUTE OF TEC", "Education & Research"),
     "MASSACHUSETTS INSTITUTE":   ("MASSACHUSETTS INSTITUTE OF TEC", "Education & Research"),
     "MICHIGAN STATE":            ("MICHIGAN STATE UNIVERSITY",   "Education & Research"),
     "UNIVERSITY OF MICHIGAN":    ("UNIVERSITY OF MICHIGAN",      "Education & Research"),
@@ -92,16 +99,12 @@ def match_institution(inst_name: str):
             return account, category
 
     # 2. Try alias reverse lookup — check if inst_name contains any known alias
-    try:
-        from accounts import ACCOUNTS, ACCOUNT_ALIASES
-        for account, aliases in ACCOUNT_ALIASES.items():
-            for alias in aliases:
-                if alias.upper() in upper:
-                    for cat, accts in ACCOUNTS.items():
-                        if account.upper() in [a.upper() for a in accts]:
-                            return account, cat
-    except ImportError:
-        pass
+    for account, aliases in ACCOUNT_ALIASES.items():
+        for alias in aliases:
+            if alias.upper() in upper:
+                for cat, accts in MASTER_ACCOUNTS.items():
+                    if account.upper() in [a.upper() for a in accts]:
+                        return account, cat
 
     return None
 
@@ -112,8 +115,12 @@ def load_accounts_signals() -> list:
     for path in ACCOUNTS_SOURCES:
         if not os.path.exists(path):
             continue
-        with open(path) as f:
-            data = json.load(f)
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"  ⚠ Skipping {os.path.basename(path)} — could not load: {e}")
+            continue
         source_file = os.path.basename(path)
         for entry in data:
             account = entry.get("account", "")
@@ -164,16 +171,21 @@ def load_nih_signals() -> list:
     for path in NIH_SOURCES:
         if not os.path.exists(path):
             continue
-        with open(path) as f:
-            data = json.load(f)
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"  ⚠ Skipping {os.path.basename(path)} — could not load: {e}")
+            continue
 
         for grant in data:
-            # Deduplicate by application ID
+            # Deduplicate by application ID; fall back to title+org hash if no ID
             appl_id = grant.get("appl_id", "")
-            if appl_id and appl_id in seen_appl_ids:
+            if not appl_id:
+                appl_id = f"hash:{grant.get('project_title','')[:60]}|{grant.get('organization',{}).get('org_name','')}"
+            if appl_id in seen_appl_ids:
                 continue
-            if appl_id:
-                seen_appl_ids.add(appl_id)
+            seen_appl_ids.add(appl_id)
 
             # Use _matched_account if present (new files), else fuzzy match
             if grant.get("_matched_account"):
@@ -206,8 +218,8 @@ def load_nih_signals() -> list:
                 "counterparty":   grant.get("agency_code", "NIH"),
                 "pi":             pi,
                 "title":          grant.get("project_title", ""),
-                "start_date":     (grant.get("project_start_date") or "")[:10],
-                "end_date":       (grant.get("project_end_date") or "")[:10],
+                "start_date":     str(grant.get("project_start_date") or "")[:10],
+                "end_date":       str(grant.get("project_end_date") or "")[:10],
                 "source_url":     grant.get("project_detail_url", ""),
                 "timestamp":      datetime.now().isoformat(),
                 "raw":            grant,
@@ -223,16 +235,21 @@ def load_nsf_signals() -> list:
     for path in NSF_SOURCES:
         if not os.path.exists(path):
             continue
-        with open(path) as f:
-            data = json.load(f)
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"  ⚠ Skipping {os.path.basename(path)} — could not load: {e}")
+            continue
 
         for grant in data:
-            # Deduplicate by grant ID
+            # Deduplicate by grant ID; fall back to title+awardee hash if no ID
             gid = grant.get("id", "")
-            if gid and gid in seen_ids:
+            if not gid:
+                gid = f"hash:{grant.get('title','')[:60]}|{grant.get('awardeeName','')}"
+            if gid in seen_ids:
                 continue
-            if gid:
-                seen_ids.add(gid)
+            seen_ids.add(gid)
 
             # Use _matched_account if present (new files), else fuzzy match
             if grant.get("_matched_account"):
@@ -273,29 +290,51 @@ def load_nsf_signals() -> list:
     return records
 
 
-def group_by_account(records: list) -> dict:
-    """Group flat signal records by account for summary stats."""
+def seed_from_master() -> dict:
+    """Initialise grouped dict from the master ACCOUNTS list — account-first approach.
+    Every account appears in the output regardless of whether signals exist yet."""
     grouped = {}
-    for r in records:
-        key = r["account"]
-        if key not in grouped:
-            grouped[key] = {
-                "account":    r["account"],
-                "category":   r["category"],
-                "sources":    set(),
-                "signals":    [],
+    for category, accts in MASTER_ACCOUNTS.items():
+        for acct in accts:
+            grouped[acct] = {
+                "account":      acct,
+                "category":     category,
+                "sources":      [],
+                "signals":      [],
                 "signal_count": 0,
+                "status":       "pending",   # pending = not yet run
             }
-        grouped[key]["signals"].append(r)
-        grouped[key]["sources"].add(r["source"])
-        grouped[key]["signal_count"] += 1
-    # Convert sets to lists for JSON serialisation
-    for v in grouped.values():
-        v["sources"] = sorted(v["sources"])
+    return grouped
+
+
+def attach_signals(grouped: dict, records: list) -> dict:
+    """Attach signal records to the account-first grouped dict."""
+    for r in records:
+        acct = r["account"]
+        if acct not in grouped:
+            # Signal came from an account not in master list — add it anyway
+            grouped[acct] = {
+                "account":      acct,
+                "category":     r.get("category", "Unknown"),
+                "sources":      [],
+                "signals":      [],
+                "signal_count": 0,
+                "status":       "complete",
+            }
+        grouped[acct]["signals"].append(r)
+        grouped[acct]["signal_count"] += 1
+        src = r["source"]
+        if src not in grouped[acct]["sources"]:
+            grouped[acct]["sources"].append(src)
+        grouped[acct]["status"] = "complete"
     return grouped
 
 
 def main(output_file: str):
+    print("Seeding from master account list...")
+    grouped = seed_from_master()
+    print(f"  {len(grouped)} accounts loaded as base")
+
     print("Loading 80s Accounts signals...")
     accounts_records = load_accounts_signals()
     print(f"  {len(accounts_records)} signals from 80s Accounts")
@@ -309,17 +348,16 @@ def main(output_file: str):
     print(f"  {len(nsf_records)} signals from NSF")
 
     all_records = accounts_records + nih_records + nsf_records
-    print(f"\nTotal: {len(all_records)} signals")
-
-    grouped = group_by_account(all_records)
-    print(f"Across: {len(grouped)} accounts\n")
+    attach_signals(grouped, all_records)
+    print(f"\nTotal: {len(all_records)} signals across {len(grouped)} accounts\n")
 
     # Summary by category
     from collections import Counter
     cat_counts = Counter(v["category"] for v in grouped.values())
     for cat, n in sorted(cat_counts.items()):
         cat_signals = sum(v["signal_count"] for v in grouped.values() if v["category"] == cat)
-        print(f"  {cat}: {n} accounts, {cat_signals} signals")
+        pending    = sum(1 for v in grouped.values() if v["category"] == cat and v["status"] == "pending")
+        print(f"  {cat}: {n} accounts ({pending} pending), {cat_signals} signals")
 
     # Accounts with signals from multiple sources
     multi = [(k, v) for k, v in grouped.items() if len(v["sources"]) > 1]
@@ -328,16 +366,21 @@ def main(output_file: str):
         for account, data in sorted(multi, key=lambda x: x[1]["signal_count"], reverse=True):
             print(f"  {account}: {data['signal_count']} signals [{', '.join(data['sources'])}]")
 
+    pending_count  = sum(1 for v in grouped.values() if v["status"] == "pending")
+    complete_count = sum(1 for v in grouped.values() if v["status"] == "complete")
+
     output = {
-        "generated_at": datetime.now().isoformat(),
-        "total_signals": len(all_records),
-        "total_accounts": len(grouped),
+        "generated_at":    datetime.now().isoformat(),
+        "total_signals":   len(all_records),
+        "total_accounts":  len(grouped),
+        "accounts_complete": complete_count,
+        "accounts_pending":  pending_count,
         "sources": {
             "80s_accounts": len(accounts_records),
-            "NIH": len(nih_records),
-            "NSF": len(nsf_records),
+            "NIH":          len(nih_records),
+            "NSF":          len(nsf_records),
         },
-        "accounts": grouped,
+        "accounts":    grouped,
         "all_signals": all_records,
     }
 

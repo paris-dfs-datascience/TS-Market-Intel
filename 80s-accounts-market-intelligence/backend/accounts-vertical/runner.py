@@ -16,9 +16,14 @@ from google.genai.types import GenerateContentConfig, GoogleSearch, HttpOptions,
 from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK
 from accounts import ACCOUNTS, get_category
 
-MODEL = "gemini-flash-latest"
-CALL_DELAY = 6  # seconds between API calls — keeps under 10 RPM (free tier)
-              # lower to 1-2 if on a paid plan with higher rate limits
+# ── Configurable via env vars ─────────────────────────────────────
+# Override any of these in your shell or .env file:
+#   export GEMINI_MODEL=gemini-2.5-flash
+#   export CALL_DELAY=2          (paid plan with higher RPM)
+#   export GEMINI_TEMPERATURE=0.3
+MODEL       = os.environ.get("GEMINI_MODEL",       "gemini-flash-latest")
+CALL_DELAY  = int(os.environ.get("CALL_DELAY",    "6"))   # secs between calls; 6 = ~10 RPM free tier
+TEMPERATURE = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
 
 SIGNAL_COLORS = {
     "grant":       "\033[94m",
@@ -40,6 +45,7 @@ C = {
     "dim":    "\033[90m",
     "bold":   "\033[1m",
     "yellow": "\033[93m",
+    "red":    "\033[91m",
     "header": "\033[97m",
 }
 
@@ -131,11 +137,15 @@ def run_account(client, account: str, category: str, signals: list,
                     contents=prompt,
                     config=GenerateContentConfig(
                         tools=[Tool(google_search=GoogleSearch())],
-                        temperature=0.2,
+                        temperature=TEMPERATURE,
                     ),
                 )
                 if response.text is None:
-                    print(f"\r  \033[93m⚠ [{signal}] Empty response from API, skipping.\033[0m")
+                    candidates = getattr(response, "candidates", [])
+                    finish_reason = candidates[0].finish_reason if candidates else "unknown"
+                    parts = candidates[0].content.parts if candidates and candidates[0].content else []
+                    part_types = [type(p).__name__ for p in parts] if parts else []
+                    print(f"\r  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}, parts={part_types}). Skipping.{C['reset']}")
                     break
                 found = parse_signals(response.text)
                 time.sleep(CALL_DELAY)
@@ -143,7 +153,7 @@ def run_account(client, account: str, category: str, signals: list,
             except Exception as e:
                 err = str(e)
                 if "RESOURCE_EXHAUSTED" in err and "prepayment" in err:
-                    print(f"\r  \033[91m✘ Credits depleted. Top up at aistudio.google.com and re-run.\033[0m")
+                    print(f"\r  {C['red']}✘ Credits depleted. Top up at aistudio.google.com and re-run.{C['reset']}")
                     result["signals"][signal] = []
                     if output_file and all_results is not None:
                         all_results.append(result)
@@ -151,11 +161,11 @@ def run_account(client, account: str, category: str, signals: list,
                         print(f"{d}  Progress saved to {output_file}{r}")
                     sys.exit(1)
                 elif "429" in err or "RATE" in err.upper():
-                    wait = retry_delay * attempt
-                    print(f"\r  \033[93m⚠ Rate limit [{signal}], waiting {wait}s (attempt {attempt}/{retry})...\033[0m", end="", flush=True)
+                    wait = min(retry_delay * attempt, 120)  # cap at 2 minutes
+                    print(f"\r  {C['yellow']}⚠ Rate limit [{signal}], waiting {wait}s (attempt {attempt}/{retry})...{C['reset']}", end="", flush=True)
                     time.sleep(wait)
                 else:
-                    print(f"\r  \033[91mERROR [{signal}]: {e}\033[0m")
+                    print(f"\r  {C['red']}ERROR [{signal}]: {e}{C['reset']}")
                     break
 
         print(f"\r", end="")
@@ -164,8 +174,10 @@ def run_account(client, account: str, category: str, signals: list,
 
     if output_file and all_results is not None:
         all_results.append(result)
-        save_incremental(all_results, output_file)
-        print(f"  {d}✔ saved → {output_file}{r}")
+        # Save every 5 accounts to reduce disk I/O — always save on first and last
+        if len(all_results) % 5 == 0 or len(all_results) == 1:
+            save_incremental(all_results, output_file)
+            print(f"  {d}✔ saved → {output_file} ({len(all_results)} accounts){r}")
 
     return result
 
@@ -198,7 +210,22 @@ def run_category(category: str, output_file: str, signal_override: str = None,
         pass
 
     client = get_client(api_key)
-    signals = [signal_override] if signal_override else CATEGORY_TRIGGERS[category]
+    signals = [signal_override] if signal_override else CATEGORY_TRIGGERS.get(category, [])
+
+    if not signals:
+        print(f"{C['red']}ERROR: No signals defined for category '{category}'. Check CATEGORY_TRIGGERS in prompts.py.{C['reset']}")
+        sys.exit(1)
+
+    # Validate all signal names are known before starting any API calls
+    unknown = [s for s in signals if s not in FIELD_MAPS]
+    if unknown:
+        print(f"{C['red']}ERROR: Unknown signal(s): {unknown}. Check FIELD_MAPS in prompts.py.{C['reset']}")
+        sys.exit(1)
+
+    if category not in ACCOUNTS:
+        print(f"{C['red']}ERROR: Category '{category}' not found in accounts.py.{C['reset']}")
+        sys.exit(1)
+
     accounts = ACCOUNTS[category]
 
     # Filter to single company if specified
@@ -213,16 +240,16 @@ def run_category(category: str, output_file: str, signal_override: str = None,
     all_results = load_checkpoint(output_file) if output_file else []
     completed = {r["account"].upper() for r in all_results}
     if completed:
-        print(f"\033[93m⚡ Resuming — {len(completed)} accounts already done, skipping.\033[0m")
+        print(f"{C['yellow']}⚡ Resuming — {len(completed)} accounts already done, skipping.{C['reset']}")
     pending = [a for a in accounts if a.upper() not in completed]
 
     # Apply limit after checkpoint resume so --limit 5 always means 5 new accounts
     if limit and limit > 0:
         pending = pending[:limit]
-        print(f"\033[93m⚡ Limit set — running first {len(pending)} pending account(s).\033[0m")
+        print(f"{C['yellow']}⚡ Limit set — running first {len(pending)} pending account(s).{C['reset']}")
 
-    print(f"\n\033[1mThomas Scientific // {category}\033[0m")
-    print(f"\033[90m{len(pending)} accounts | Signals: {', '.join(signals)} | Last {DAYS_BACK} days\033[0m")
+    print(f"\n{C['bold']}Thomas Scientific // {category}{C['reset']}")
+    print(f"{C['dim']}{len(pending)} accounts | Signals: {', '.join(signals)} | Last {DAYS_BACK} days{C['reset']}")
 
     for account in pending:
         run_account(client, account, category, signals,

@@ -12,6 +12,7 @@ Docs: https://api.reporter.nih.gov
 import json
 import time
 import requests
+from datetime import datetime
 from typing import Optional
 
 BASE_URL = "https://api.reporter.nih.gov/v2"
@@ -184,52 +185,91 @@ def save_to_json(data, filename: str):
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
 
-    ACCOUNTS = [
-        # Education & Research
-        "ARIZONA STATE UNIVERSITY", "BAYLOR COLLEGE OF MEDICINE", "BROAD INSTITUTE",
-        "DREXEL UNIVERSITY", "DUKE UNIVERSITY", "EMORY UNIVERSITY",
-        "HARVARD UNIVERSITY", "INDIANA UNIVERSITY", "JACKSON LABORATORY",
-        "JOHNS HOPKINS UNIVERSITY", "LOUISIANA STATE UNIVERSITY",
-        "MASSACHUSETTS INSTITUTE OF TECHNOLOGY", "MICHIGAN STATE UNIVERSITY",
-        "NEW YORK UNIVERSITY", "OHIO STATE UNIVERSITY", "PENN STATE UNIVERSITY",
-        "ROCKEFELLER UNIVERSITY", "STANFORD UNIVERSITY", "TEMPLE UNIVERSITY",
-        "UNIVERSITY OF ARIZONA", "UNIVERSITY OF CINCINNATI",
-        "UNIVERSITY OF CONNECTICUT", "UNIVERSITY OF ILLINOIS",
-        "UNIVERSITY OF MARYLAND", "UNIVERSITY OF MIAMI", "UNIVERSITY OF MICHIGAN",
-        "UNIVERSITY OF OREGON", "UNIVERSITY OF PENNSYLVANIA",
-        "UNIVERSITY OF UTAH", "UNIVERSITY OF WASHINGTON",
-        "VANDERBILT UNIVERSITY", "WEILL CORNELL MEDICAL COLLEGE", "YALE UNIVERSITY",
-        "CORIELL INSTITUTE", "ATCC",
+    # Search name → canonical accounts.py name mapping
+    # NIH API needs full/correct names; _matched_account must match accounts.py exactly
+    ACCOUNTS = {
+        # Education & Research  (search_name: canonical_name)
+        "ARIZONA STATE UNIVERSITY":            "ARIZONA STATE UNIVERSITY",
+        "BAYLOR COLLEGE OF MEDICINE":          "BAYLOR COLLEGE OF MEDICINE",
+        "BROAD INSTITUTE":                     "BROAD INSTITUTE",
+        "DREXEL UNIVERSITY":                   "DREXEL UNIVERSITY",
+        "DUKE UNIVERSITY":                     "DUKE UNIVERSITY",
+        "EMORY UNIVERSITY":                    "EMORY UNIVERSITY",
+        "HARVARD UNIVERSITY":                  "HARVARD UNIVERSITY",
+        "INDIANA UNIVERSITY":                  "INDIANA UNIVERSITY",
+        "JACKSON LABORATORY":                  "JACKSON LABS",
+        "JOHNS HOPKINS UNIVERSITY":            "JOHNS HOPKINS UNIVERSITY",
+        "LOUISIANA STATE UNIVERSITY":          "LOUISIANA STATE UNIVERSITY",
+        "MASSACHUSETTS INSTITUTE OF TECHNOLOGY": "MASSACHUSETTS INSTITUTE OF TEC",
+        "MICHIGAN STATE UNIVERSITY":           "MICHIGAN STATE UNIVERSITY",
+        "NEW YORK UNIVERSITY":                 "NEW YORK UNIVERSITY",
+        "OHIO STATE UNIVERSITY":               "OHIO STATE UNIVERSITY",
+        "PENN STATE UNIVERSITY":               "PENN STATE UNIVERSITY",
+        "ROCKEFELLER UNIVERSITY":              "ROCKEFELLER UNIVERSITY",
+        "STANFORD UNIVERSITY":                 "STANFORD UNIVERSITY",
+        "TEMPLE UNIVERSITY":                   "TEMPLE UNIVERSITY",
+        "UNIVERSITY OF ARIZONA":               "UNIVERSITY OF ARIZONA",
+        "UNIVERSITY OF CINCINNATI":            "UNIVERSITY OF CINCINNATI",
+        "UNIVERSITY OF CONNECTICUT":           "UNIVERSITY OF CONNECTICUT",
+        "UNIVERSITY OF ILLINOIS":              "UNIVERSITY OF ILLINOIS",
+        "UNIVERSITY OF MARYLAND":              "UNIVERSITY OF MARYLAND",
+        "UNIVERSITY OF MIAMI":                 "UNIVERSITY OF MIAMI",
+        "UNIVERSITY OF MICHIGAN":              "UNIVERSITY OF MICHIGAN",
+        "UNIVERSITY OF OREGON":                "UNIVERSITY OF OREGON",
+        "UNIVERSITY OF PENNSYLVANIA":          "UNIVERSITY OF PENNSYLVANIA",
+        "UNIVERSITY OF UTAH":                  "UNIVERSITY OF UTAH",
+        "UNIVERSITY OF WASHINGTON":            "UNIVERSITY OF WASHINGTON",
+        "VANDERBILT UNIVERSITY":               "VANDERBILT UNIVERSITY",
+        "WEILL CORNELL MEDICAL COLLEGE":       "WEILL CORNELL MEDICAL COLLEGE",
+        "YALE UNIVERSITY":                     "YALE UNIVERSITY",
+        "CORIELL INSTITUTE":                   "CORIELL INSTITUTE",
+        "ATCC":                                "ATCC",
         # Hospital & Health Systems
-        "BETH ISRAEL DEACONESS MEDICAL CENTER", "CEDARS-SINAI MEDICAL CENTER",
-        "CHILDRENS HOSPITAL OF CINCINNATI", "CHILDRENS HOSPITAL OF PHILADELPHIA",
-        "DANA-FARBER CANCER INSTITUTE", "H LEE MOFFITT CANCER CENTER",
-        "HACKENSACK UNIVERSITY MEDICAL CENTER", "HOSPITAL FOR SPECIAL SURGERY",
-        "KAISER PERMANENTE", "MAYO CLINIC", "MD ANDERSON CANCER CENTER",
-        "VANDERBILT UNIVERSITY MEDICAL CENTER",
-    ]
+        "BETH ISRAEL DEACONESS MEDICAL CENTER": "BETH ISRAEL",
+        "CEDARS-SINAI MEDICAL CENTER":          "CEDAR SINAI MEDICAL CENTER",
+        "CHILDRENS HOSPITAL OF CINCINNATI":     "CHILDRENS HOSP OF CINCINNATI",
+        "CHILDRENS HOSPITAL OF PHILADELPHIA":   "CHOP",
+        "DANA-FARBER CANCER INSTITUTE":         "DANA FARBER CANCER INSTITUTE",
+        "H LEE MOFFITT CANCER CENTER":          "H LEE MOFFITT CANCER CENTER",
+        "HACKENSACK UNIVERSITY MEDICAL CENTER": "HACKENSACK UNIVERSITY MEDICAL",
+        "HOSPITAL FOR SPECIAL SURGERY":         "HOSPITAL FOR SPECIAL SURGERY",
+        "KAISER PERMANENTE":                    "KAISER PERMANENTE",
+        "MAYO CLINIC":                          "MAYO",
+        "MD ANDERSON CANCER CENTER":            "MD ANDERSON",
+        "VANDERBILT UNIVERSITY MEDICAL CENTER": "VANDERBILT MEDICAL CENTER",
+    }
 
-    FISCAL_YEARS = [2024, 2025, 2026]
+    # NIH fiscal year runs Oct–Sep; include current and 2 prior years only
+    current_year = datetime.now().year
+    FISCAL_YEARS = [current_year - 2, current_year - 1, current_year]
     MAX_PER_ACCOUNT = 100
+    MAX_RETRIES = 3
     OUTPUT_FILE = "all_nih_grants.json"
 
     print(f"Thomas Scientific // NIH Grant Fetch")
     print(f"Accounts: {len(ACCOUNTS)} | Years: {FISCAL_YEARS} | Max per account: {MAX_PER_ACCOUNT}\n")
 
     all_grants = []
-    for org in ACCOUNTS:
-        try:
-            grants = search_all_grants(
-                org_names=[org],
-                fiscal_years=FISCAL_YEARS,
-                max_records=MAX_PER_ACCOUNT,
-            )
-            for g in grants:
-                g["_matched_account"] = org
-            all_grants.extend(grants)
-            print(f"  ✅  {org}: {len(grants)} grants")
-        except Exception as e:
-            print(f"  ❌  {org}: {e}")
+    for search_name, canonical_name in ACCOUNTS.items():
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                grants = search_all_grants(
+                    org_names=[search_name],
+                    fiscal_years=FISCAL_YEARS,
+                    max_records=MAX_PER_ACCOUNT,
+                )
+                for g in grants:
+                    g["_matched_account"] = canonical_name  # always canonical
+                all_grants.extend(grants)
+                print(f"  ✅  {canonical_name}: {len(grants)} grants")
+                break
+            except Exception as e:
+                if attempt < MAX_RETRIES:
+                    wait = attempt * 5
+                    print(f"  ⚠  {canonical_name}: error (attempt {attempt}/{MAX_RETRIES}), retrying in {wait}s — {e}")
+                    time.sleep(wait)
+                else:
+                    print(f"  ❌  {canonical_name}: failed after {MAX_RETRIES} attempts — {e}")
         time.sleep(RATE_LIMIT_DELAY)
 
     save_to_json(all_grants, OUTPUT_FILE)
