@@ -89,6 +89,87 @@ ACCOUNTS = {
     ],
 }
 
+# ── Account aliases ───────────────────────────────────────────────
+# Maps internal account names to known alternate names, abbreviations,
+# and rebrands so Gemini prompts and NIH/NSF merge matching find the right company.
+ACCOUNT_ALIASES = {
+    # Education & Research
+    "MASSACHUSETTS INSTITUTE OF TEC": ["MIT", "Massachusetts Institute of Technology"],
+    "HHMI":                           ["Howard Hughes Medical Institute"],
+    "UCOP":                           ["University of California", "UC System", "UC Office of the President"],
+    "STANFORD LINEAR":                ["SLAC", "SLAC National Accelerator Laboratory"],
+    "BROAD INSTITUTE":                ["Broad Institute of MIT and Harvard"],
+    "JACKSON LABS":                   ["JAX", "The Jackson Laboratory"],
+    "AMERICAN SOCIETY FOR MICROBIOL": ["ASM", "American Society for Microbiology"],
+    "WEILL CORNELL MEDICAL COLLE":    ["Weill Cornell Medicine", "Weill Cornell Medical College"],
+
+    # BioPharma
+    "MODERNA THERAPEUTICS":           ["Moderna", "Moderna Inc"],
+    "ROCHE GROUP":                    ["Roche", "Genentech", "F. Hoffmann-La Roche"],
+    "ELI LILLY":                      ["Lilly", "Eli Lilly and Company"],
+    "NOVONESIS":                      ["Novozymes", "Chr. Hansen"],
+    "LOXO ONCOLOGY":                  ["Loxo@Lilly", "Loxo Oncology at Lilly"],
+    "VERTEX PHARMACEUTICAL":          ["Vertex Pharmaceuticals"],
+    "TWIST BIOSCIENCES":              ["Twist Bioscience"],
+    "MANNKIND CORPORATION":           ["MannKind"],
+    "ALK-ABELLO":                     ["ALK", "ALK Abello"],
+    "FREENOME HOLDINGS INC":          ["Freenome"],
+    "GRANULES PHARMACEUTICALS INC":   ["Granules India", "Granules Pharmaceuticals"],
+
+    # CDMO / CRO
+    "CHARLES RIVER LABS":             ["Charles River Laboratories", "CRL"],
+    "HOVIONE FARMACIENCIA SA":        ["Hovione"],
+    "PPD":                            ["PPD Inc", "Thermo Fisher PPD"],
+    "IQVIA":                          ["IQVIA Holdings", "IMS Health"],
+    "ABSORPTION SYSTEMS INC":         ["Absorption Systems"],
+    "AJINOMOTO ALTHEA":               ["Althea Technologies", "Ajinomoto Bio-Pharma Services"],
+
+    # Clinical / Mol Dx
+    "DANAHER BECKMAN":                ["Beckman Coulter"],
+    "DANAHER CYTIVA":                 ["Cytiva", "GE Healthcare Life Sciences"],
+    "DANAHER IDT":                    ["IDT", "Integrated DNA Technologies"],
+    "NEW ENGLAND BIO LABS":           ["NEB", "New England Biolabs"],
+    "SIEMENS HEALTHCARE DIAGNOSTICS": ["Siemens Healthineers"],
+    "CUMBERLAND VALLEY ANALYTICAL S": ["Cumberland Valley Analytical Services", "CVAS"],
+    "EAGLE ANAYTICAL SERVICES":       ["Eagle Analytical Services"],
+
+    # Hospital & Health Systems
+    "BETH ISRAEL":                    ["Beth Israel Deaconess", "BIDMC", "Beth Israel Deaconess Medical Center"],
+    "CEDAR SINAI MEDICAL CENTER":     ["Cedars-Sinai", "Cedars Sinai"],
+    "CHILDRENS HOSP OF CINCINNATI":   ["Cincinnati Children's", "CCHMC", "Cincinnati Children's Hospital Medical Center"],
+    "CHOP":                           ["Children's Hospital of Philadelphia"],
+    "PARTNERS HEALTHCARE SYSTEM":     ["Mass General Brigham", "MGB", "Partners HealthCare"],
+    "CCF":                            ["Cleveland Clinic", "Cleveland Clinic Foundation"],
+    "H LEE MOFFITT CANCER CENTER":    ["Moffitt Cancer Center", "Moffitt"],
+    "HACKENSACK UNIVERSITY MEDICAL":  ["Hackensack Meridian Health"],
+    "MD ANDERSON":                    ["MD Anderson Cancer Center", "University of Texas MD Anderson"],
+    "DANA FARBER CANCER INSTITUTE":   ["Dana-Farber", "Dana Farber"],
+    "LA JOLLA INFECT DISEASE INST":   ["La Jolla Institute for Immunology", "LJI"],
+
+    # Industrial
+    "MINNESOTA MINING & MFG":         ["3M", "3M Company"],
+    "W L GORE & ASSOCIATES":          ["Gore", "W.L. Gore", "Gore-Tex"],
+    "W L GORE & ASSOC INC":           ["Gore", "W.L. Gore"],
+    "DANAHER CHEMTREAT":              ["ChemTreat"],
+    "DANAHER XRITE":                  ["X-Rite", "X-Rite Pantone"],
+    "FLIR SYSTEMS":                   ["Teledyne FLIR", "FLIR"],
+    "NITINOL DEVICES & COMPONENTS":   ["NDC", "Nitinol Devices"],
+    "SOLAERO TECHNOLOGIES CORP":      ["SolAero Technologies"],
+
+    # Government
+    "DEFENSE LOGISTICS (DLA)":        ["DLA", "Defense Logistics Agency"],
+    "VETERANS ADMINISTRATION":        ["VA", "Department of Veterans Affairs", "Veterans Affairs"],
+    "AMAZON MARKET PLACE":            ["Amazon Business", "Amazon"],
+    "CA DEPT OF JUSTICE":             ["California DOJ", "California Department of Justice"],
+    "WV DEPT OF AGRICULTURE":         ["West Virginia Department of Agriculture"],
+}
+
+
+def get_aliases(account: str) -> list:
+    """Return known alternate names for an account, or empty list."""
+    return ACCOUNT_ALIASES.get(account, ACCOUNT_ALIASES.get(account.upper(), []))
+
+
 # Super80 — highest priority accounts (span multiple categories)
 SUPER80 = [
     "AMAZON MARKET PLACE",

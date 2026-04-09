@@ -1,0 +1,53 @@
+Thomas Scientific // NSF Grant Fetch
+Accounts: 47 | Period: 01/01/2024–12/31/2026 | Max per account: 100
+
+  ✅  Arizona State University: 100 grants
+  ✅  Baylor College of Medicine: 100 grants
+  ✅  Broad Institute: 100 grants
+  ✅  Drexel University: 100 grants
+  ✅  Duke University: 100 grants
+  ✅  Emory University: 100 grants
+  ✅  Harvard University: 100 grants
+  ✅  Indiana University: 100 grants
+  ✅  Jackson Laboratory: 47 grants
+  ✅  Johns Hopkins University: 100 grants
+  ✅  Louisiana State University: 100 grants
+  ✅  Massachusetts Institute of Technology: 100 grants
+  ✅  Michigan State University: 100 grants
+  ✅  New York University: 100 grants
+  ✅  Ohio State University: 100 grants
+  ✅  Pennsylvania State University: 100 grants
+  ✅  Rockefeller University: 100 grants
+  ✅  Stanford University: 100 grants
+  ✅  Temple University: 100 grants
+  ✅  University of Arizona: 100 grants
+  ✅  University of Cincinnati: 100 grants
+  ✅  University of Connecticut: 100 grants
+  ✅  University of Illinois: 100 grants
+  ✅  University of Maryland: 100 grants
+  ✅  University of Miami: 100 grants
+  ✅  University of Michigan: 100 grants
+  ✅  University of Oregon: 100 grants
+  ✅  University of Pennsylvania: 100 grants
+  ✅  University of Utah: 100 grants
+  ✅  University of Washington: 100 grants
+  ✅  Vanderbilt University: 100 grants
+  ✅  Weill Cornell Medicine: 100 grants
+  ✅  Yale University: 100 grants
+  ✅  Coriell Institute: 100 grants
+  ✅  ATCC: 0 grants
+  ✅  Beth Israel Deaconess Medical Center: 100 grants
+  ✅  Cedars-Sinai Medical Center: 100 grants
+  ✅  Cincinnati Children's Hospital: 74 grants
+  ✅  Children's Hospital of Philadelphia: 100 grants
+  ✅  Dana-Farber Cancer Institute: 100 grants
+  ✅  H. Lee Moffitt Cancer Center: 100 grants
+  ✅  Hackensack University Medical Center: 100 grants
+  ✅  Hospital for Special Surgery: 100 grants
+  ✅  Kaiser Permanente: 0 grants
+  ✅  Mayo Clinic: 6 grants
+  ✅  MD Anderson Cancer Center: 100 grants
+  ✅  Vanderbilt University Medical Center: 100 grants
+Saved 4327 record(s) to all_nsf_grants.json
+
+Total: 4327 NSF grants across 47 accounts → all_nsf_grants.json

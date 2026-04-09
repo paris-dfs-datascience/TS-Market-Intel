@@ -16,7 +16,7 @@ from google.genai.types import GenerateContentConfig, GoogleSearch, HttpOptions,
 from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK
 from accounts import ACCOUNTS, get_category
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-flash-latest"
 CALL_DELAY = 6  # seconds between API calls — keeps under 10 RPM (free tier)
               # lower to 1-2 if on a paid plan with higher rate limits
 
@@ -134,6 +134,9 @@ def run_account(client, account: str, category: str, signals: list,
                         temperature=0.2,
                     ),
                 )
+                if response.text is None:
+                    print(f"\r  \033[93m⚠ [{signal}] Empty response from API, skipping.\033[0m")
+                    break
                 found = parse_signals(response.text)
                 time.sleep(CALL_DELAY)
                 break
@@ -186,7 +189,7 @@ def print_summary(all_results: list):
 
 
 def run_category(category: str, output_file: str, signal_override: str = None,
-                 company_filter: str = None, api_key: str = None):
+                 company_filter: str = None, api_key: str = None, limit: int = None):
     """Main entry point called by each category script."""
     try:
         from dotenv import load_dotenv
@@ -212,6 +215,11 @@ def run_category(category: str, output_file: str, signal_override: str = None,
     if completed:
         print(f"\033[93m⚡ Resuming — {len(completed)} accounts already done, skipping.\033[0m")
     pending = [a for a in accounts if a.upper() not in completed]
+
+    # Apply limit after checkpoint resume so --limit 5 always means 5 new accounts
+    if limit and limit > 0:
+        pending = pending[:limit]
+        print(f"\033[93m⚡ Limit set — running first {len(pending)} pending account(s).\033[0m")
 
     print(f"\n\033[1mThomas Scientific // {category}\033[0m")
     print(f"\033[90m{len(pending)} accounts | Signals: {', '.join(signals)} | Last {DAYS_BACK} days\033[0m")
