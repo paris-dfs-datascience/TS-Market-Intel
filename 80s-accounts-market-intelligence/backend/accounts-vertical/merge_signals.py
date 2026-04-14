@@ -16,7 +16,7 @@ import argparse
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 
 try:
     from accounts import ACCOUNTS as MASTER_ACCOUNTS, ACCOUNT_ALIASES
@@ -177,7 +177,7 @@ def _parse_date(date_str: str, fmt: str = None):
         return None
 
 
-TODAY = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
+TODAY = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
 
 
 def load_nih_signals() -> list:

@@ -25,7 +25,7 @@ from accounts import ACCOUNTS, get_category
 #   export GEMINI_TEMPERATURE=0.3
 #   export SEMAPHORE_SIZE=13     (max concurrent API calls per account)
 #   export MAX_RETRIES=3         (attempts per signal before giving up)
-#   export SAVE_FREQUENCY=10     (save checkpoint every N accounts)
+#   export SAVE_FREQUENCY=1      (save checkpoint every N accounts; default 1 = every account)
 #   export API_TIMEOUT_MS=60000  (Gemini API timeout in milliseconds)
 MODEL          = os.environ.get("GEMINI_MODEL",       "gemini-flash-latest")
 CALL_DELAY     = int(os.environ.get("CALL_DELAY",     "6"))    # secs between calls; 6 = ~10 RPM free tier
@@ -33,7 +33,11 @@ TEMPERATURE    = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
 SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "13"))   # covers BioPharma's 13 signals max
 MAX_RETRIES    = int(os.environ.get("MAX_RETRIES",    "3"))    # attempts per signal before giving up
 SAVE_FREQUENCY = int(os.environ.get("SAVE_FREQUENCY", "1"))   # checkpoint every N accounts (default: every account)
-API_TIMEOUT_MS = int(os.environ.get("API_TIMEOUT_MS", "60000"))  # Gemini API timeout (ms)
+API_TIMEOUT_MS      = int(os.environ.get("API_TIMEOUT_MS",      "60000"))  # HTTP connection timeout (ms) — NOT wall-clock
+SIGNAL_HARD_TIMEOUT = int(os.environ.get("SIGNAL_HARD_TIMEOUT", "120"))   # asyncio.wait_for wall-clock kill (secs)
+# Note: API_TIMEOUT_MS only covers connection establishment; Gemini holds the connection open during
+# Google Search grounding. SIGNAL_HARD_TIMEOUT is the real enforced limit via asyncio.wait_for().
+# The 0.95× fallback below catches SDK exceptions that arrive just before the hard kill fires.
 
 SIGNAL_COLORS = {
     "grant":       "\033[94m",
@@ -376,75 +380,12 @@ class UsageTracker:
 _usage: UsageTracker = None
 
 
-# ── Sync run_account (kept for backward compatibility) ────────────
-
-def run_account(client, account: str, category: str, signals: list,
-                output_file: str = None, all_results: list = None,
-                retry: int = 3, retry_delay: int = 10) -> dict:
-    b, h, r, d = C["bold"], C["header"], C["reset"], C["dim"]
-    logger.info(f"\n{b}{'═'*60}{r}")
-    logger.info(f"{h}{b}  {account}{r}  {d}[{category}]{r}")
-    logger.info(f"{b}{'═'*60}{r}")
-
-    result = {
-        "account":   account,
-        "category":  category,
-        "signals":   {},
-        "timestamp": datetime.now().isoformat(),
-    }
-
-    for signal in signals:
-        logger.info(f"  {d}Searching [{signal}]...{r}")
-        found = []
-        for attempt in range(1, retry + 1):
-            try:
-                prompt = build_prompt(signal, account, category)
-                response = client.models.generate_content(
-                    model=MODEL,
-                    contents=prompt,
-                    config=GenerateContentConfig(
-                        tools=[Tool(google_search=GoogleSearch())],
-                        temperature=TEMPERATURE,
-                    ),
-                )
-                if response.text is None:
-                    candidates = getattr(response, "candidates", [])
-                    finish_reason = candidates[0].finish_reason if candidates else "unknown"
-                    parts = candidates[0].content.parts if candidates and candidates[0].content else []
-                    part_types = [type(p).__name__ for p in parts] if parts else []
-                    logger.warning(f"  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}, parts={part_types}). Skipping.{C['reset']}")
-                    break
-                found = parse_signals(response.text)
-                time.sleep(CALL_DELAY)
-                break
-            except Exception as e:
-                err = str(e)
-                if "RESOURCE_EXHAUSTED" in err and "prepayment" in err:
-                    logger.critical(f"  {C['red']}✘ Credits depleted. Top up at aistudio.google.com and re-run.{C['reset']}")
-                    result["signals"][signal] = []
-                    if output_file and all_results is not None:
-                        all_results.append(result)
-                        save_incremental(all_results, output_file)
-                        logger.info(f"{d}  Progress saved to {output_file}{r}")
-                    sys.exit(1)
-                elif "429" in err or "RATE" in err.upper():
-                    wait = min(5 * (2 ** attempt), 120)  # exponential: 10s, 20s, 40s, capped at 120s
-                    logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}], waiting {wait}s (attempt {attempt}/{retry})...{C['reset']}")
-                    time.sleep(wait)
-                else:
-                    logger.error(f"  {C['red']}ERROR [{signal}]: {e}{C['reset']}")
-                    break
-
-        print_signals(signal, found)
-        result["signals"][signal] = found
-
-    if output_file and all_results is not None:
-        all_results.append(result)
-        if len(all_results) % SAVE_FREQUENCY == 0 or len(all_results) == 1:
-            save_incremental(all_results, output_file)
-            logger.info(f"  {d}✔ saved → {output_file} ({len(all_results)} accounts){r}")
-
-    return result
+# ── Sync run_account — DEPRECATED, use run_account_async ──────────
+# Kept as a stub to avoid import errors from any external scripts.
+def run_account(client, account, category, signals, **kwargs):
+    raise NotImplementedError(
+        "run_account() is deprecated. Use run_account_async() via run_category()."
+    )
 
 
 # ── Async run_account (parallel signals) ─────────────────────────
@@ -482,14 +423,18 @@ async def run_account_async(client, account: str, category: str, signals: list,
                                 temperature=TEMPERATURE,
                             ),
                         ),
-                        timeout=120,  # hard wall-clock kill — fires even if Gemini holds connection open
+                        timeout=SIGNAL_HARD_TIMEOUT,  # hard wall-clock kill — fires even if Gemini holds connection open
                     )
                     elapsed = time.time() - t_start
                     logger.info(f"  {C['dim']}✓ [{signal}] done in {elapsed:.1f}s{C['reset']}")
                     if response.text is None:
                         candidates = getattr(response, "candidates", [])
                         finish_reason = candidates[0].finish_reason if candidates else "unknown"
-                        logger.warning(f"  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}). Skipping.{C['reset']}")
+                        logger.warning(f"  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}, attempt {attempt}/{MAX_RETRIES}).{C['reset']}")
+                        if attempt < MAX_RETRIES:
+                            await asyncio.sleep(3)  # brief pause before retry
+                            continue  # retry — empty may be transient
+                        # All retries exhausted — record and skip
                         if _usage: await _usage.record("empty", signal=signal,
                                                         usage_meta=getattr(response, "usage_metadata", None),
                                                         elapsed=elapsed, hits=0,
@@ -511,13 +456,14 @@ async def run_account_async(client, account: str, category: str, signals: list,
                     err = str(e)
                     if "RESOURCE_EXHAUSTED" in err and "prepayment" in err:
                         logger.critical(f"  {C['red']}✘ Credits depleted. Top up at aistudio.google.com and re-run.{C['reset']}")
-                        sys.exit(1)
+                        raise RuntimeError("API credits depleted — top up at aistudio.google.com and re-run.")
                     elif "429" in err or "RATE" in err.upper():
                         wait = min(5 * (2 ** attempt), 120)  # exponential: 10s, 20s, 40s, capped at 120s
                         logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}], waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...{C['reset']}")
                         if _usage: await _usage.record("error", signal=signal, elapsed=elapsed, is_retry=True)
                         await asyncio.sleep(wait)
-                    elif isinstance(e, (asyncio.TimeoutError, TimeoutError)) or "timeout" in err.lower() or "deadline" in err.lower() or elapsed >= 89:
+                        continue  # retry the for loop — do NOT fall through to timeout/error handlers
+                    elif isinstance(e, (asyncio.TimeoutError, TimeoutError)) or "timeout" in err.lower() or "deadline" in err.lower() or elapsed >= (SIGNAL_HARD_TIMEOUT * 0.95):
                         logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] after {elapsed:.1f}s — skipping.{C['reset']}")
                         if _usage: await _usage.record("timeout", signal=signal, elapsed=elapsed)
                         return signal, []
@@ -676,7 +622,13 @@ def run_category(category: str, output_file: str, signal_override: str = None,
                                     output_file=output_file, all_results=all_results,
                                     sem=sem, recency_instruction=recency_instr)
 
-    asyncio.run(_run_all())
+    try:
+        asyncio.run(_run_all())
+    except RuntimeError as e:
+        if "credits depleted" in str(e).lower():
+            logger.critical(str(e))
+            sys.exit(1)
+        raise
     # Allow aiohttp connector to close cleanly
     time.sleep(0.5)
 

@@ -101,7 +101,7 @@ ACCOUNT_ALIASES = {
     "BROAD INSTITUTE":                ["Broad Institute of MIT and Harvard"],
     "JACKSON LABS":                   ["JAX", "The Jackson Laboratory"],
     "AMERICAN SOCIETY FOR MICROBIOL": ["ASM", "American Society for Microbiology"],
-    "WEILL CORNELL MEDICAL COLLE":    ["Weill Cornell Medicine", "Weill Cornell Medical College"],
+    "WEILL CORNELL MEDICAL COLLEGE":  ["Weill Cornell Medicine"],
 
     # BioPharma
     "MODERNA THERAPEUTICS":           ["Moderna", "Moderna Inc"],

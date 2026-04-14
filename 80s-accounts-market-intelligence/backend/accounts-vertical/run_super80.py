@@ -46,6 +46,27 @@ for account in accounts:
     by_category[get_category(account)].append(account)
 
 # Run each category group using async runner (all signals in parallel per account)
+# Each category writes to its own file to prevent cross-category data loss on crash.
+# Results are merged into the final output file at the end.
+import json, os
+
+category_files = []
 for category, cat_accounts in by_category.items():
-    run_category(category, args.output, args.signal, args.company, args.api_key,
+    safe_name = category.lower().replace(" ", "_").replace("/", "_")
+    cat_file = args.output.replace(".json", f"_{safe_name}.json")
+    category_files.append(cat_file)
+    run_category(category, cat_file, args.signal, args.company, args.api_key,
                  accounts_override=cat_accounts)
+
+# Merge all category files into the final output file
+all_results = []
+for cat_file in category_files:
+    if os.path.exists(cat_file):
+        with open(cat_file) as f:
+            all_results.extend(json.load(f))
+
+tmp = args.output + ".tmp"
+with open(tmp, "w") as f:
+    json.dump(all_results, f, indent=2)
+os.replace(tmp, args.output)
+print(f"\n✔ Merged {len(all_results)} accounts → {args.output}")
