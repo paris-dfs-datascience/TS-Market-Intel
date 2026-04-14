@@ -19,7 +19,8 @@ def _entity_with_aliases(entity: str) -> str:
 
 # ── Recency window ─────────────────────────────────────────────────
 # Override via: export DAYS_BACK=7
-DAYS_BACK = int(os.environ.get("DAYS_BACK", "30"))
+DAYS_BACK    = int(os.environ.get("DAYS_BACK",     "30"))
+MIN_CAPEX_M  = int(os.environ.get("MIN_CAPEX_M",  "50"))   # minimum capital project value in $M
 
 
 def _recency_instruction() -> str:
@@ -209,9 +210,11 @@ _CLOSURE_CONTEXT = {
 
 
 # ── Prompt builder ────────────────────────────────────────────────
-def build_prompt(signal: str, entity: str, category: str) -> str:
+def build_prompt(signal: str, entity: str, category: str,
+                 recency_instruction: str = None) -> str:
     entity = _entity_with_aliases(entity)          # expand to include aliases
-    RECENCY_INSTRUCTION = _recency_instruction()   # always fresh — never stale
+    # Use pre-computed instruction if provided (avoids redundant date math per signal)
+    RECENCY_INSTRUCTION = recency_instruction or _recency_instruction()
 
     if signal == "grant":
         ctx = _GRANT_CONTEXT.get(category, "NIH, NSF, or government grant awards")
@@ -245,14 +248,14 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         return (
             f"{ROLE} "
             f"Search for recent news about new research buildings, laboratory facilities, manufacturing plants, "
-            f"or major capital construction projects at {entity} valued at $50 million or more. "
+            f"or major capital construction projects at {entity} valued at ${MIN_CAPEX_M} million or more. "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, project_name, location, value, timeline, event_date, why_it_matters, source_url. "
             f"'event_date' = the date this project was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
             f"'why_it_matters' = one sentence on the lab supply opportunity from new facility build-out. "
-            f"Only include projects at or above $50M. If none, return []."
+            f"Only include projects at or above ${MIN_CAPEX_M}M. If none, return []."
         )
 
     if signal == "contract":
@@ -286,8 +289,13 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
     if signal == "expansion":
         return (
             f"{ROLE} "
-            f"Search for recent news about {entity} expanding operations — new manufacturing facilities, "
-            f"new laboratory sites, geographic expansion, capacity scale-up, new plants, or facility upgrades. "
+            f"Search for recent news about {entity} announcing a new dedicated facility, new country or "
+            f"region market entry with a named office or lab, or a capacity expansion with a disclosed "
+            f"investment value ($5M or more) or a specific headcount addition (25 or more people) — "
+            f"tied to manufacturing, laboratory, or research operations. "
+            f"Exclude co-working arrangements, sales office openings with no lab component, "
+            f"minor facility upgrades under $5M, and general 'expanding our presence' statements "
+            f"without a named location, investment, or headcount figure. "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -298,10 +306,50 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "partnership":
+        _PARTNERSHIP_SEARCH = {
+            "BioPharma": (
+                f"Search for recent news about {entity} entering new licensing deals, research collaborations, "
+                f"co-development agreements, or joint ventures that involve new lab programs, manufacturing "
+                f"capacity, or technology platforms — with a disclosed deal value of $5M or more, or a "
+                f"named research facility or clinical program component. "
+                f"Exclude routine vendor agreements, co-marketing deals, distribution partnerships, "
+                f"and M&A transactions (covered separately)."
+            ),
+            "CDMO / CRO": (
+                f"Search for recent news about {entity} entering new client partnerships, technology licensing "
+                f"deals, or joint ventures that involve new manufacturing capacity, new analytical service "
+                f"platforms, or multi-year service agreements with a disclosed value of $5M or more. "
+                f"Exclude routine supplier agreements, co-marketing deals, and M&A transactions (covered separately)."
+            ),
+            "Clinical / Mol Dx": (
+                f"Search for recent news about {entity} entering new co-development agreements, reference lab "
+                f"service partnerships, diagnostic platform licensing deals, or joint ventures involving new "
+                f"testing infrastructure — with a disclosed deal value or named facility or program component. "
+                f"Exclude co-marketing arrangements, distribution agreements, and routine vendor contracts."
+            ),
+            "Hospital & Health Systems": (
+                f"Search for recent news about {entity} entering new clinical research partnerships, academic "
+                f"medical centre affiliations, technology licensing agreements for new clinical programs, or "
+                f"joint ventures that open a new lab or diagnostic service line — with a disclosed investment "
+                f"or named program. "
+                f"Exclude co-marketing arrangements and routine supplier contracts."
+            ),
+            "Industrial": (
+                f"Search for recent news about {entity} entering new joint ventures, technology licensing deals, "
+                f"or manufacturing partnerships that involve new production infrastructure, new chemistry or "
+                f"material platforms, or co-development programs with a disclosed deal value of $10M or more. "
+                f"Exclude routine distribution agreements, supplier MoUs, or co-marketing deals."
+            ),
+        }
+        search_phrase = _PARTNERSHIP_SEARCH.get(
+            category,
+            f"Search for recent news about {entity} entering new licensing deals, research collaborations, "
+            f"or joint ventures involving new lab or manufacturing capacity — with a disclosed deal value "
+            f"of $5M or more. Exclude routine vendor agreements, co-marketing deals, and M&A transactions."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {entity} entering new partnerships, licensing deals, collaborations, "
-            f"joint ventures, or M&A activity (acquisitions or being acquired). "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -312,10 +360,54 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "funding":
+        _FUNDING_SEARCH = {
+            "BioPharma": (
+                f"Search for recent news about {entity} closing a new venture funding round (Series A or later), "
+                f"a government program award (BARDA, NIH, DoD) specifically for R&D or manufacturing build-out, "
+                f"or a strategic investment from a pharma partner — with a disclosed amount and a stated use of "
+                f"proceeds tied to lab operations, clinical programs, or manufacturing capacity. "
+                f"Exclude IPO filings, debt refinancings, bond issuances, revolving credit renewals, "
+                f"and government contracts covered by the contract signal."
+            ),
+            "CDMO / CRO": (
+                f"Search for recent news about {entity} closing a new private equity investment, receiving a "
+                f"government manufacturing contract (>$10M) for capacity build-out, or a strategic investor "
+                f"funding a new facility or technology platform — with a disclosed use of proceeds tied to "
+                f"manufacturing capacity, instrument fleet, or new service capability. "
+                f"Exclude routine credit renewals, bond issuances, and general corporate finance activities."
+            ),
+            "Clinical / Mol Dx": (
+                f"Search for recent news about {entity} closing a new funding round (venture or strategic), "
+                f"receiving a government diagnostic program award (CDC, BARDA, NIH), or a hospital system "
+                f"investment for new testing infrastructure — with disclosed use of proceeds tied to new "
+                f"assay development, instrument procurement, or lab expansion. "
+                f"Exclude routine debt refinancings and general corporate finance activities."
+            ),
+            "Hospital & Health Systems": (
+                f"Search for recent news about {entity} receiving a new philanthropic gift (>$5M), government "
+                f"capital grant, or foundation award specifically for lab infrastructure, research programs, "
+                f"or new clinical service lines — with a named program or facility as the recipient. "
+                f"Exclude routine bond issuances for general operating capital or construction unrelated "
+                f"to lab or research infrastructure."
+            ),
+            "Industrial": (
+                f"Search for recent news about {entity} closing a new strategic investment, government "
+                f"manufacturing contract (DoD, DOE, USDA >$10M), or private equity funding round — "
+                f"with disclosed use of proceeds tied to new production infrastructure, R&D capability, "
+                f"or lab or QC system build-out. "
+                f"Exclude routine debt refinancings, bond issuances, and general operating credit renewals."
+            ),
+        }
+        search_phrase = _FUNDING_SEARCH.get(
+            category,
+            f"Search for recent news about {entity} closing a new funding round, government program award, "
+            f"or strategic investment — with a disclosed amount and use of proceeds tied to lab operations, "
+            f"manufacturing, or research capacity. Exclude grants (covered separately), routine debt "
+            f"refinancings, bond issuances, and general corporate finance activities."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {entity} raising capital — venture funding rounds, grants, "
-            f"government contracts, IPO, bond issuances, follow-on offerings, or large contract awards. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -326,10 +418,70 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "project":
+        _PROJECT_SEARCH = {
+            "Education & Research": (
+                f"Search for recent announcements from {entity} about new multi-year research programs with "
+                f"disclosed funding (>$1M), new research centre launches, large interdisciplinary science "
+                f"initiatives, or government-funded research contracts awarded to the institution. "
+                f"Exclude routine departmental seminars, single-investigator studies, or announcements "
+                f"with no disclosed budget or scope."
+            ),
+            "BioPharma": (
+                f"Search for recent announcements from {entity} about new R&D programs with disclosed investment "
+                f"(>$10M), new clinical development platforms, manufacturing scale-up initiatives with named "
+                f"facilities or headcount, or government-funded programs (BARDA, DoD, NIH) awarded to the company. "
+                f"Exclude vague 'pipeline expansion' language or strategic direction statements without a "
+                f"specific program, facility, or dollar commitment."
+            ),
+            "CDMO / CRO": (
+                f"Search for recent announcements from {entity} about new large-scale client manufacturing "
+                f"programs (>$5M contract value), new technology platform buildouts, multi-year service "
+                f"agreements, or capacity expansion initiatives with named facility or headcount targets. "
+                f"Exclude general capability statements or marketing announcements without a specific "
+                f"contract, facility, or investment figure."
+            ),
+            "Clinical / Mol Dx": (
+                f"Search for recent announcements from {entity} about new large-scale diagnostic programs "
+                f"(>$5M), new reference lab service agreements, instrument fleet expansions, or government "
+                f"or hospital contracts for expanded testing services. "
+                f"Exclude general market positioning or analyst day commentary without a specific "
+                f"contract, instrument, or investment figure."
+            ),
+            "Hospital & Health Systems": (
+                f"Search for recent announcements from {entity} about new clinical programs with disclosed "
+                f"capital investment (>$5M), new centre of excellence openings, large government or foundation "
+                f"grants (>$1M) for clinical research, or major service line expansions with named facility "
+                f"or headcount targets. "
+                f"Exclude general patient care announcements or capital campaign mentions without "
+                f"a specific lab or research infrastructure component."
+            ),
+            "Industrial": (
+                f"Search for recent announcements from {entity} about new manufacturing programs with "
+                f"disclosed investment (>$10M), new product lines requiring new production infrastructure, "
+                f"government manufacturing contracts (DoD, DOE, USDA), or R&D scale-up initiatives "
+                f"with named facility or headcount targets. "
+                f"Exclude general business strategy statements, product roadmap teasers, or "
+                f"announcements with no specific dollar or facility commitment."
+            ),
+            "Government": (
+                f"Search for recent announcements from {entity} about new multi-year programs with disclosed "
+                f"funding (federal >$10M, state >$1M), new laboratory infrastructure projects, government "
+                f"contract awards for scientific services, or inter-agency science programs with named "
+                f"budget allocations. "
+                f"Exclude routine operational updates, RFI postings, or budget request documents "
+                f"that have not yet been appropriated."
+            ),
+        }
+        search_phrase = _PROJECT_SEARCH.get(
+            category,
+            f"Search for recent announcements from {entity} about new multi-year programs or projects "
+            f"with disclosed funding or investment, named facilities or headcount targets, or government "
+            f"contract awards — tied directly to lab, manufacturing, or research operations. "
+            f"Exclude vague strategic direction statements with no specific dollar or program commitment."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent announcements from {entity} about new research programs, large-scale projects, "
-            f"government contracts, manufacturing scale-up initiatives, or strategic initiatives. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -355,10 +507,36 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "hiring":
-        ctx = _HIRING_CONTEXT.get(category, "large-scale scientific or manufacturing hiring announcements")
+        _HIRING_SEARCH = {
+            "BioPharma": (
+                f"Search for recent news about {entity} announcing 50 or more net new hires for R&D scientists, "
+                f"clinical operations staff, or manufacturing personnel — such as a named site ramp, a new facility "
+                f"staffing announcement, or a disclosed headcount addition indicating pipeline or capacity expansion. "
+                f"Exclude generic job postings, LinkedIn listings, or articles with no specific headcount figure."
+            ),
+            "CDMO / CRO": (
+                f"Search for recent news about {entity} announcing 50 or more net new hires for manufacturing, "
+                f"scientific, or client-facing operations — such as a new site opening with named staffing targets, "
+                f"a workforce expansion press release, or a capacity ramp with disclosed headcount. "
+                f"Exclude generic job postings or articles with no specific headcount figure."
+            ),
+            "Industrial": (
+                f"Search for recent news about {entity} announcing 50 or more net new hires for manufacturing, "
+                f"engineering, lab operations, or QC roles — such as a plant staffing announcement, a new facility "
+                f"workforce ramp, or a disclosed headcount addition for production expansion. "
+                f"Exclude generic job postings or articles with no specific headcount figure."
+            ),
+        }
+        search_phrase = _HIRING_SEARCH.get(
+            category,
+            f"Search for recent news about {entity} announcing 50 or more net new hires for scientific, "
+            f"manufacturing, or lab operations roles — with a specific headcount figure disclosed in a "
+            f"press release or company announcement. "
+            f"Exclude generic job postings or articles with no specific headcount figure."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {ctx} at {entity}. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -385,10 +563,27 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
     # ── New signals from client meeting ──────────────────────────────
 
     if signal == "breakthrough":
-        ctx = _BREAKTHROUGH_CONTEXT.get(category, "major research breakthroughs, Nobel Prizes, or landmark scientific awards")
+        _BREAKTHROUGH_SEARCH = {
+            "Education & Research": (
+                f"Search for recent news about Nobel Prize awards, National Medal of Science, major government "
+                f"honours, or peer-reviewed publications explicitly described as a first-in-class discovery or "
+                f"breakthrough by the institution or a major science news outlet (not routine departmental press "
+                f"releases) — involving researchers at {entity}. Also include $1M+ prize awards or named "
+                f"endowed chair appointments tied to a research discovery. "
+                f"Exclude generic faculty profile pieces or routine grant announcements."
+            ),
+        }
+        search_phrase = _BREAKTHROUGH_SEARCH.get(
+            category,
+            f"Search for recent news about Nobel Prize awards, National Medal of Science, major government "
+            f"honours, or peer-reviewed publications explicitly described as a first-in-class discovery or "
+            f"breakthrough by the institution or a major science news outlet — involving researchers at {entity}. "
+            f"Also include $1M+ prize awards or named endowed chair appointments tied to a research discovery. "
+            f"Exclude generic faculty profile pieces or routine grant announcements."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {ctx} at {entity}. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -442,10 +637,26 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "volume":
-        ctx = _VOLUME_CONTEXT.get(category, "lab volume growth, throughput increases, or SKU expansion")
+        _VOLUME_SEARCH = {
+            "Clinical / Mol Dx": (
+                f"Search for recent news about {entity} announcing specific lab volume increases with disclosed "
+                f"numbers (e.g. 'adding 10,000 tests/month,' 'expanding test menu by X assays'), new diagnostic "
+                f"test codes added to the lab menu, new automation or instrumentation installed to increase "
+                f"throughput, or a new reference lab contract that expands testing volume. "
+                f"Exclude general earnings commentary or percentage growth projections without a concrete "
+                f"operational event (new instrument, new test, new contract)."
+            ),
+        }
+        search_phrase = _VOLUME_SEARCH.get(
+            category,
+            f"Search for recent news about {entity} announcing specific lab volume increases with disclosed "
+            f"numbers, new test codes or product lines added, new automation installed to increase throughput, "
+            f"or a new contract that expands testing or production volume. "
+            f"Exclude general earnings commentary or growth projections without a concrete operational event."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {ctx} at {entity}. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -456,10 +667,28 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "competitive":
-        ctx = _COMPETITIVE_CONTEXT.get(category, "competitive displacement, recompete losses, or distributor switching events")
+        _COMPETITIVE_SEARCH = {
+            "Clinical / Mol Dx": (
+                f"Search for recent news about {entity} announcing a new preferred supplier agreement, a named "
+                f"distributor partnership, or a supply chain consolidation event that names a specific lab supply "
+                f"distributor (Fisher Scientific, VWR, Sigma-Aldrich, McKesson, Thermo Fisher, or Thomas Scientific) "
+                f"as a primary or exclusive supplier for reagents, consumables, or laboratory equipment. "
+                f"Also include announced GPO memberships or group purchasing agreements that affect "
+                f"lab supply sourcing at this account. "
+                f"Exclude general procurement strategy statements with no named distributor or contract."
+            ),
+        }
+        search_phrase = _COMPETITIVE_SEARCH.get(
+            category,
+            f"Search for recent news about {entity} announcing a new preferred supplier agreement or named "
+            f"distributor partnership for lab reagents, consumables, or equipment — naming a specific "
+            f"distributor (Fisher Scientific, VWR, Sigma-Aldrich, McKesson, Thermo Fisher, or Thomas Scientific). "
+            f"Also include GPO memberships or group purchasing agreements affecting lab supply sourcing. "
+            f"Exclude general procurement strategy statements with no named distributor or contract."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {ctx} involving {entity}. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
@@ -484,10 +713,28 @@ def build_prompt(signal: str, entity: str, category: str) -> str:
         )
 
     if signal == "legislation":
-        ctx = _LEGISLATION_CONTEXT.get(category, "budget appropriations or capital improvement bills funding lab or science infrastructure")
+        _LEGISLATION_SEARCH = {
+            "Government": (
+                f"Search for recent news about legislation or budget appropriations that explicitly name {entity} "
+                f"or allocate a specific dollar amount (state: $1M or more, federal: $10M or more) to laboratory "
+                f"infrastructure, public health testing, environmental monitoring, or scientific research programs "
+                f"directly operated by or contracted to {entity}. "
+                f"Exclude general appropriations bills without a named program or dollar allocation traceable "
+                f"to lab or science spending at this entity."
+            ),
+        }
+        search_phrase = _LEGISLATION_SEARCH.get(
+            category,
+            f"Search for recent news about legislation or budget appropriations that explicitly name {entity} "
+            f"or allocate a specific dollar amount (state: $1M or more, federal: $10M or more) to laboratory "
+            f"infrastructure, public health testing, environmental monitoring, or scientific research programs "
+            f"at or contracted to {entity}. "
+            f"Exclude general appropriations bills without a named program or dollar allocation traceable "
+            f"to lab or science spending at this entity."
+        )
         return (
             f"{ROLE} "
-            f"Search for recent news about {ctx} involving {entity}. "
+            f"{search_phrase} "
             f"{RECENCY_INSTRUCTION} "
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "

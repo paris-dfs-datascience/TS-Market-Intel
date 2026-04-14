@@ -30,7 +30,8 @@ NIH_BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE))),
 
 ACCOUNTS_SOURCES = [
     os.path.join(BASE, "government_results.json"),
-    os.path.join(BASE, "biopharma_top12_results.json"),
+    os.path.join(BASE, "biopharma_results.json"),       # full 52-account BioPharma run
+    os.path.join(BASE, "biopharma_top12_results.json"), # top 12 fallback (deduplicated below)
     os.path.join(BASE, "hospital_results.json"),
     os.path.join(BASE, "education_results.json"),
     os.path.join(BASE, "cdmo_cro_results.json"),
@@ -163,10 +164,29 @@ def get_category_for_account(account: str) -> str:
     return "Education & Research"
 
 
+def _parse_date(date_str: str, fmt: str = None):
+    """Parse a date string, returning a datetime or None on failure."""
+    if not date_str:
+        return None
+    s = str(date_str).strip()[:10]  # trim to YYYY-MM-DD or MM/DD/YY
+    try:
+        if fmt:
+            return datetime.strptime(s, fmt)
+        return datetime.fromisoformat(s)
+    except (ValueError, TypeError):
+        return None
+
+
+TODAY = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
+
+
 def load_nih_signals() -> list:
-    """Load NIH grant records into unified signal records. Deduplicates across files."""
+    """Load NIH grant records into unified signal records.
+    Deduplicates across files. Skips expired grants (project_end_date < today).
+    """
     records = []
     seen_appl_ids = set()
+    skipped_expired = 0
 
     for path in NIH_SOURCES:
         if not os.path.exists(path):
@@ -179,6 +199,12 @@ def load_nih_signals() -> list:
             continue
 
         for grant in data:
+            # Skip expired grants — project has ended, lab is no longer actively funded
+            end_date = _parse_date(str(grant.get("project_end_date") or "")[:10])
+            if end_date and end_date < TODAY:
+                skipped_expired += 1
+                continue
+
             # Deduplicate by application ID; fall back to title+org hash if no ID
             appl_id = grant.get("appl_id", "")
             if not appl_id:
@@ -224,13 +250,17 @@ def load_nih_signals() -> list:
                 "timestamp":      datetime.now().isoformat(),
                 "raw":            grant,
             })
+    print(f"  ({skipped_expired} expired NIH grants filtered out)")
     return records
 
 
 def load_nsf_signals() -> list:
-    """Load NSF grant records into unified signal records. Deduplicates across files."""
+    """Load NSF grant records into unified signal records.
+    Deduplicates across files. Skips expired grants (expDate < today).
+    """
     records = []
     seen_ids = set()
+    skipped_expired = 0
 
     for path in NSF_SOURCES:
         if not os.path.exists(path):
@@ -243,6 +273,12 @@ def load_nsf_signals() -> list:
             continue
 
         for grant in data:
+            # Skip expired grants — project has ended, lab is no longer actively funded
+            end_date = _parse_date(grant.get("expDate", ""), fmt="%m/%d/%Y")
+            if end_date and end_date < TODAY:
+                skipped_expired += 1
+                continue
+
             # Deduplicate by grant ID; fall back to title+awardee hash if no ID
             gid = grant.get("id", "")
             if not gid:
@@ -275,7 +311,8 @@ def load_nsf_signals() -> list:
                 "summary":        grant.get("title", ""),
                 "why_it_matters": (
                     f"Active NSF award — {amount_str} — "
-                    f"signals active research lab with ongoing consumable and equipment needs."
+                    f"signals active research lab with ongoing consumable and equipment needs. "
+                    f"Project runs until {grant.get('expDate', 'unknown')}."
                 ),
                 "amount":         amount_str,
                 "counterparty":   "NSF",
@@ -287,6 +324,7 @@ def load_nsf_signals() -> list:
                 "timestamp":      datetime.now().isoformat(),
                 "raw":            grant,
             })
+    print(f"  ({skipped_expired} expired NSF grants filtered out)")
     return records
 
 
