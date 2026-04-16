@@ -48,7 +48,7 @@ BASE_JSON     = LOG_FILE_IN.replace(".log", ".json")
 OUTPUT_JSON   = LOG_FILE_IN.replace(".log", "_rerun_results.json")
 LOG_FILE_OUT  = LOG_FILE_IN.replace(".log", "_rerun.log")
 
-MODEL       = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+MODEL       = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 TEMPERATURE = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
 
 # ── Logger ────────────────────────────────────────────────────────

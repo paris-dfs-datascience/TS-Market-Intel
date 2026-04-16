@@ -27,7 +27,7 @@ from accounts import ACCOUNTS, get_category
 #   export MAX_RETRIES=3         (attempts per signal before giving up)
 #   export SAVE_FREQUENCY=1      (save checkpoint every N accounts; default 1 = every account)
 #   export API_TIMEOUT_MS=60000  (Gemini API timeout in milliseconds)
-MODEL          = os.environ.get("GEMINI_MODEL",       "gemini-flash-latest")
+MODEL          = os.environ.get("GEMINI_MODEL",       "gemini-2.5-flash")
 CALL_DELAY     = int(os.environ.get("CALL_DELAY",     "6"))    # secs between calls; 6 = ~10 RPM free tier
 TEMPERATURE    = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
 SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "13"))   # covers BioPharma's 13 signals max
@@ -168,10 +168,10 @@ def print_signals(signal: str, signals: list):
 class UsageTracker:
     """Accumulates token, cost, and outcome stats across an entire run."""
 
-    # Gemini 2.0 Flash pricing
+    # Gemini 2.5 Flash pricing (free tier: 1,500 grounded requests/day free, then $35/1K)
     INPUT_PRICE_PER_M  = 0.10   # $ per 1M input tokens
     OUTPUT_PRICE_PER_M = 0.40   # $ per 1M output tokens
-    GROUNDING_PER_K    = 35.00  # $ per 1K grounding (Google Search) calls
+    GROUNDING_PER_K    = 35.00  # $ per 1K grounding calls (after 1,500 RPD free tier)
 
     def __init__(self, total_accounts: int = 0):
         self.api_calls      = 0

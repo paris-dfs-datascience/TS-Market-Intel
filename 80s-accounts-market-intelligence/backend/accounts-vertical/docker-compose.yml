@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  market-intel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: thomas-scientific-market-intel:latest
+    container_name: market-intel-runner
+    env_file:
+      - .env
+    volumes:
+      # Mount local output folder — results persist after container stops
+      - ./output:/app/output
+    command: ["--category", "clinical_dx", "--limit", "5"]
+    # Override command examples:
+    #   docker compose run market-intel --category biopharma --limit 10
+    #   docker compose run market-intel --category all
+    #   docker compose run market-intel --category clinical_dx --company "LABCORP"

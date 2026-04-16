@@ -20,6 +20,7 @@ parser.add_argument("--signal", "-s", default=None, help="Run a single signal on
 parser.add_argument("--company", "-c", default=None, help="Run for a single account")
 parser.add_argument("--output", "-o", default=DEFAULT_OUTPUT, help="Output JSON file")
 parser.add_argument("--api-key", "-k", default=None)
+parser.add_argument("--limit", "-n", type=int, default=None, help="Max accounts to run")
 args = parser.parse_args()
 
-run_category(CATEGORY, args.output, args.signal, args.company, args.api_key)
+run_category(CATEGORY, args.output, args.signal, args.company, args.api_key, args.limit)
