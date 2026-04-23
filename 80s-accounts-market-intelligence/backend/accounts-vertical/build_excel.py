@@ -5,6 +5,8 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
+# TODO: These paths are hardcoded to a previous machine. Update them to point to
+# your local unified_signals.json, or change to relative paths (e.g. "unified_signals.json").
 INPUT  = "/Users/amanpreet/Desktop/thomas-scientific-market-intelligence/80s-accounts-market-intelligence/backend/accounts-vertical/unified_signals.json"
 OUTPUT = "/Users/amanpreet/Desktop/thomas-scientific-market-intelligence/80s-accounts-market-intelligence/backend/accounts-vertical/unified_signals.xlsx"
 
