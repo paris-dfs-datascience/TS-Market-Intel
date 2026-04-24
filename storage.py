@@ -4,10 +4,10 @@ storage.py — Output sink abstraction.
 Writes JSON results + usage reports to either the local filesystem or
 Azure Blob Storage. Selected at runtime by get_sink() based on env vars.
 
-Local  (default):  LocalSink(OUTPUT_DIR or ./output)
-Azure Blob:        BlobSink(AZURE_STORAGE_ACCOUNT_URL, AZURE_STORAGE_CONTAINER)
-                   Auth via DefaultAzureCredential — Managed Identity in Azure,
-                   `az login` credentials or service-principal env vars locally.
+Resolution order:
+  1. AZURE_STORAGE_CONNECTION_STRING  → BlobSink (key-based auth)
+  2. AZURE_STORAGE_ACCOUNT_URL        → BlobSink (DefaultAzureCredential / MI)
+  3. neither                          → LocalSink (OUTPUT_DIR or ./output)
 """
 
 from __future__ import annotations
@@ -73,19 +73,34 @@ class LocalSink(Sink):
 class BlobSink(Sink):
     supports_log_files = False
 
-    def __init__(self, account_url: str, container: str):
-        from azure.identity import DefaultAzureCredential
-        from azure.storage.blob import BlobServiceClient
-
-        self.service = BlobServiceClient(
-            account_url=account_url,
-            credential=DefaultAzureCredential(),
-        )
+    def __init__(self, service_client, container: str):
+        """Prefer the `from_account_url` / `from_connection_string` factories."""
+        self.service = service_client
         self.container_client = self.service.get_container_client(container)
         try:
             self.container_client.create_container()
         except Exception:
             pass  # container already exists
+
+    @classmethod
+    def from_account_url(cls, account_url: str, container: str) -> "BlobSink":
+        """Auth via DefaultAzureCredential — Managed Identity in Azure, az login locally."""
+        from azure.identity import DefaultAzureCredential
+        from azure.storage.blob import BlobServiceClient
+
+        service = BlobServiceClient(
+            account_url=account_url,
+            credential=DefaultAzureCredential(),
+        )
+        return cls(service, container)
+
+    @classmethod
+    def from_connection_string(cls, conn_str: str, container: str) -> "BlobSink":
+        """Auth via storage account key embedded in the connection string."""
+        from azure.storage.blob import BlobServiceClient
+
+        service = BlobServiceClient.from_connection_string(conn_str)
+        return cls(service, container)
 
     def read(self, name: str) -> Any | None:
         blob = self.container_client.get_blob_client(name)
@@ -101,13 +116,26 @@ class BlobSink(Sink):
 
 
 def get_sink() -> Sink:
-    """Select the sink based on env vars. Azure if AZURE_STORAGE_ACCOUNT_URL is set, else local."""
+    """Select the sink based on env vars.
+
+    Priority: AZURE_STORAGE_CONNECTION_STRING > AZURE_STORAGE_ACCOUNT_URL > local.
+    """
+    container = os.getenv("AZURE_STORAGE_CONTAINER")
+
+    conn_str = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+    if conn_str:
+        if not container:
+            raise RuntimeError(
+                "AZURE_STORAGE_CONTAINER must be set when AZURE_STORAGE_CONNECTION_STRING is set"
+            )
+        return BlobSink.from_connection_string(conn_str, container)
+
     url = os.getenv("AZURE_STORAGE_ACCOUNT_URL")
     if url:
-        container = os.getenv("AZURE_STORAGE_CONTAINER")
         if not container:
             raise RuntimeError(
                 "AZURE_STORAGE_CONTAINER must be set when AZURE_STORAGE_ACCOUNT_URL is set"
             )
-        return BlobSink(url, container)
+        return BlobSink.from_account_url(url, container)
+
     return LocalSink(os.getenv("OUTPUT_DIR", "./output"))
