@@ -165,11 +165,6 @@ ACCOUNT_ALIASES = {
 }
 
 
-def get_aliases(account: str) -> list:
-    """Return known alternate names for an account, or empty list."""
-    return ACCOUNT_ALIASES.get(account, ACCOUNT_ALIASES.get(account.upper(), []))
-
-
 # Super80 — highest priority accounts (span multiple categories)
 SUPER80 = [
     "AMAZON MARKET PLACE",
@@ -180,25 +175,6 @@ SUPER80 = [
     "TAKEDA",
     "TEMPUS",
 ]
-
-
-# Build O(1) reverse lookup at module load time — avoids O(n²) per call
-_ACCOUNT_CATEGORY_MAP = {
-    acct.upper(): cat
-    for cat, accts in ACCOUNTS.items()
-    for acct in accts
-}
-
-
-def get_category(account: str) -> str:
-    """Return the category for a given account name.
-    Warns if account not found — never silently miscategorizes."""
-    cat = _ACCOUNT_CATEGORY_MAP.get(account.upper())
-    if cat is None:
-        import sys
-        print(f"  ⚠ get_category(): '{account}' not found in master list — returning 'Unknown'", file=sys.stderr)
-        return "Unknown"
-    return cat
 
 
 def all_accounts_flat() -> list:

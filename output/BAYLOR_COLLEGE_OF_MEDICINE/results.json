@@ -1,0 +1,27 @@
+{
+  "account": "BAYLOR COLLEGE OF MEDICINE",
+  "category": "Education & Research",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dr. Damian Young, director of the Center for Drug Discovery at Baylor College of Medicine and investigator at Texas Children's Duncan Neurological Research Institute, was awarded a $6.7 million grant from the National Institute on Aging (NIA), part of the NIH, to develop new approaches to rapidly identify potential treatments for Alzheimer's disease and related dementias.",
+        "recipient": "Dr. Damian Young",
+        "department_or_lab": "Center for Drug Discovery at Baylor College of Medicine and Texas Children's Duncan Neurological Research Institute (Duncan NRI)",
+        "amount": "$6.7 million",
+        "agency": "National Institute on Aging (NIA), National Institutes of Health (NIH)",
+        "event_date": "April 23, 2026",
+        "why_it_matters": "This grant indicates significant upcoming demand for reagents, consumables, and equipment for high-throughput screening and AI-driven drug discovery for Alzheimer's disease.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1We9SjoNo7n4SAwQO8bFigXWaesR5pxb4IZRP0_EOwRUA2Ee5nqsM5szgBEwIUbWY-76tyhMyOTlFZkKsWzsjGNuvvvp0pmSyjPlYSbjQF6rhPoWeMkwOY1qMAQlGD2PFMU8eV3yezQzbSc5jDRqEri3wycTHuiMZWCMGsdRc_5m351QASOAzhvULr5MeFMn5GZEumNs3ANjh8zCyOICLgTU7shABCP9IqVFP-vs3C_EqcS15HRYv"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-04-23T22:24:52.160875"
+}

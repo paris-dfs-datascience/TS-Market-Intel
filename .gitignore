@@ -3,22 +3,17 @@
 *_results.json.tmp
 *_usage.json
 *_timing.json
-rerun_timeouts_results.json
-rerun_clinical_dx_timeouts_results.json
 
 # Log files
 *.log
+*_log.txt
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 .env
-
-# Node (accidentally created at project root)
-node_modules/
-package.json
-package-lock.json
+.venv/
 
 # macOS
 .DS_Store

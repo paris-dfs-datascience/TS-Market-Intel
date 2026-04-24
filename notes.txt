@@ -1,53 +1,62 @@
-# ── Category scripts (one per industry) ──────────────────────────
-python run_education.py
-python run_biopharma.py
-python run_cdmo_cro.py
-python run_clinical_dx.py
-python run_hospital.py
-python run_industrial.py
-python run_government.py
-python run_super80.py
+# ── Single entrypoint: main.py ────────────────────────────────────
+# All runs go through the same CLI; --category selects the vertical.
 
-# ── Each script supports the same flags ──────────────────────────
+python main.py --category all                    # all 7 verticals
+python main.py --category biopharma              # single vertical
+python main.py --category education
+python main.py --category cdmo_cro
+python main.py --category clinical_dx
+python main.py --category hospital
+python main.py --category industrial
+python main.py --category government
+
+python main.py --super80                         # Super80 priority subset (cross-vertical)
+
+# ── Flags ─────────────────────────────────────────────────────────
 
 # Single signal only
-python run_biopharma.py --signal pipeline
-python run_biopharma.py --signal regulatory
-python run_hospital.py --signal tender
-python run_government.py --signal grant
+python main.py --category biopharma --signal pipeline
+python main.py --category biopharma --signal regulatory
+python main.py --category hospital --signal tender
+python main.py --category government --signal grant
 
-# Single company
-python run_biopharma.py --company "PFIZER"
-python run_clinical_dx.py --company "LABCORP"
-python run_super80.py --company "TAKEDA"
+# Single company (substring match across all verticals)
+python main.py --company "PFIZER"
+python main.py --company "LABCORP"
 
-# Save to custom file (each script has a default output filename)
-python run_biopharma.py --output biopharma_7days.json
-python run_super80.py --output super80_7days.json
+# Limit to first N pending accounts (test mode)
+python main.py --category biopharma --limit 5
 
-# ── Default output filenames ──────────────────────────────────────
-# run_education.py   → education_results.json
-# run_biopharma.py   → biopharma_results.json
-# run_cdmo_cro.py    → cdmo_cro_results.json
-# run_clinical_dx.py → clinical_dx_results.json
-# run_hospital.py    → hospital_results.json
-# run_industrial.py  → industrial_results.json
-# run_government.py  → government_results.json
-# run_super80.py     → super80_results.json
+# Override API key (otherwise reads GEMINI_API_KEY from env)
+python main.py --category biopharma --api-key YOUR_KEY
+
+# ── Output layout ─────────────────────────────────────────────────
+# <SAFE_COMPANY>/results.json      (one file per account, e.g. YALE_UNIVERSITY/results.json)
+# _usage/<category>.json           (cost + timing sidecar, one per category run)
+# _logs/<category>.log             (LocalSink only; stdout when writing to Blob)
 
 # ── Resume after interruption ─────────────────────────────────────
-# Just re-run the same command — skips completed accounts automatically
-python run_biopharma.py
+# Just re-run the same command. Accounts that already have a <SAFE_COMPANY>/results.json
+# are skipped automatically (works against local files or Blob).
 
-# ── Change time window ────────────────────────────────────────────
-# Edit DAYS_BACK in prompts.py (currently set to 7)
+# ── Output destination ────────────────────────────────────────────
+# Azure Blob (set both env vars; auth via DefaultAzureCredential):
+#   AZURE_STORAGE_ACCOUNT_URL=https://<account>.blob.core.windows.net
+#   AZURE_STORAGE_CONTAINER=market-intel-results
+#
+# Local (default; omit Azure vars):
+#   OUTPUT_DIR=./output              (optional; default shown)
 
-# ── Core files (do not run directly) ─────────────────────────────
-# runner.py   → shared logic (API calls, retry, save, resume, print)
-# prompts.py  → 12 category-aware signal prompts
+# ── Time window ───────────────────────────────────────────────────
+# Edit DAYS_BACK in your .env (default: 30)
+
+# ── Core modules (do not run directly) ────────────────────────────
+# engine.py   → async engine (API calls, retries, checkpointing, usage tracking)
+# storage.py  → LocalSink / BlobSink abstraction
+# prompts.py  → 21 category-aware signal prompts
 # accounts.py → 237 accounts organised by 7 categories
 
-# ── Signal reference (12 signals × 7 categories) ─────────────────
+# ── Signal reference (selected signals) ───────────────────────────
 # grant       → Education, BioPharma, Clinical/Mol Dx, Hospital, Government
 # faculty     → Education, Hospital
 # capital     → ALL

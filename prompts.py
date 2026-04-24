@@ -35,9 +35,6 @@ def _recency_instruction() -> str:
     )
 
 
-# Keep module-level alias for any importers that reference RECENCY_INSTRUCTION directly
-RECENCY_INSTRUCTION = _recency_instruction()
-
 ROLE = (
     "You are a market intelligence analyst for Thomas Scientific, "
     "a B2B scientific supply distributor. Your job is to identify sales signals "

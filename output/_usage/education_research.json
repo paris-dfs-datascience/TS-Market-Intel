@@ -1,0 +1,108 @@
+{
+  "api_calls": 27,
+  "input_tokens": 8113,
+  "output_tokens": 9001,
+  "token_cost": 0.0044,
+  "grounding_cost": 0.945,
+  "total_cost": 0.9494,
+  "projected_cost": 14.5576,
+  "cost_per_hit": 0.0678,
+  "successes": 27,
+  "timeouts": 0,
+  "errors": 0,
+  "empty": 0,
+  "retries": 0,
+  "success_rate": 100.0,
+  "total_hits": 14,
+  "accounts_done": 3,
+  "accounts_with_data": 3,
+  "run_duration": "1m 12s",
+  "signal_breakdown": {
+    "project": {
+      "calls": 3,
+      "hits": 3,
+      "avg_time": 19.7,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "grant": {
+      "calls": 3,
+      "hits": 4,
+      "avg_time": 18.5,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "contract": {
+      "calls": 3,
+      "hits": 2,
+      "avg_time": 14.8,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "breakthrough": {
+      "calls": 3,
+      "hits": 3,
+      "avg_time": 14.3,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "funding": {
+      "calls": 3,
+      "hits": 1,
+      "avg_time": 12.8,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "faculty": {
+      "calls": 3,
+      "hits": 0,
+      "avg_time": 11.8,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "closure": {
+      "calls": 3,
+      "hits": 0,
+      "avg_time": 11.8,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "expansion": {
+      "calls": 3,
+      "hits": 0,
+      "avg_time": 10.2,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "capital": {
+      "calls": 3,
+      "hits": 1,
+      "avg_time": 9.5,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    }
+  },
+  "slowest_accounts": [
+    {
+      "account": "BROAD INSTITUTE",
+      "elapsed_s": 26.4
+    },
+    {
+      "account": "ARIZONA STATE UNIVERSITY",
+      "elapsed_s": 24.3
+    },
+    {
+      "account": "BAYLOR COLLEGE OF MEDICINE",
+      "elapsed_s": 21.9
+    }
+  ]
+}

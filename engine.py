@@ -1,7 +1,9 @@
 """
-runner.py — Shared core logic for all category run scripts.
-Imported by run_biopharma.py, run_education.py, etc.
-Do not run directly.
+engine.py — Async execution engine for the market-intel pipeline.
+
+Exposes `run_category()`, called from main.py. All persistence is routed
+through a `Sink` (see storage.py) so the same code works against the
+local filesystem or Azure Blob Storage depending on env config.
 """
 
 import asyncio
@@ -12,34 +14,26 @@ import re
 import sys
 import time
 from datetime import datetime
+from functools import lru_cache
 
 from google import genai
 from google.genai.types import GenerateContentConfig, GoogleSearch, HttpOptions, Tool
 from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK, _recency_instruction
-from accounts import ACCOUNTS, get_category
+from accounts import ACCOUNTS
+from storage import Sink
 
 # ── Configurable via env vars ─────────────────────────────────────
-# Override any of these in your shell or .env file:
-#   export GEMINI_MODEL=gemini-2.5-flash
-#   export CALL_DELAY=2          (paid plan with higher RPM)
-#   export GEMINI_TEMPERATURE=0.3
-#   export SEMAPHORE_SIZE=13     (max concurrent API calls per account)
-#   export MAX_RETRIES=3         (attempts per signal before giving up)
-#   export SAVE_FREQUENCY=1      (save checkpoint every N accounts; default 1 = every account)
-#   export API_TIMEOUT_MS=60000  (Gemini API timeout in milliseconds)
 MODEL          = os.environ.get("GEMINI_MODEL",       "gemini-2.5-flash")
-CALL_DELAY     = int(os.environ.get("CALL_DELAY",     "6"))    # secs between calls; 6 = ~10 RPM free tier
 TEMPERATURE    = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
-SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "13"))   # covers BioPharma's 13 signals max
+SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "13"))   # max concurrent in-flight calls per account
 MAX_RETRIES    = int(os.environ.get("MAX_RETRIES",    "3"))    # attempts per signal before giving up
-SAVE_FREQUENCY = int(os.environ.get("SAVE_FREQUENCY", "1"))   # checkpoint every N accounts (default: every account)
 API_TIMEOUT_MS      = int(os.environ.get("API_TIMEOUT_MS",      "60000"))  # HTTP connection timeout (ms) — NOT wall-clock
-SIGNAL_HARD_TIMEOUT = int(os.environ.get("SIGNAL_HARD_TIMEOUT", "120"))   # asyncio.wait_for wall-clock kill (secs)
+SIGNAL_HARD_TIMEOUT = int(os.environ.get("SIGNAL_HARD_TIMEOUT", "120"))    # asyncio.wait_for wall-clock kill (secs)
 # Note: API_TIMEOUT_MS only covers connection establishment; Gemini holds the connection open during
 # Google Search grounding. SIGNAL_HARD_TIMEOUT is the real enforced limit via asyncio.wait_for().
 # The 0.95× fallback below catches SDK exceptions that arrive just before the hard kill fires.
 
-SIGNAL_COLORS = {
+C = {
     "grant":       "\033[94m",
     "faculty":     "\033[96m",
     "capital":     "\033[92m",
@@ -52,9 +46,6 @@ SIGNAL_COLORS = {
     "regulatory":  "\033[31m",
     "hiring":      "\033[36m",
     "tender":      "\033[33m",
-}
-C = {
-    **SIGNAL_COLORS,
     "reset":  "\033[0m",
     "dim":    "\033[90m",
     "bold":   "\033[1m",
@@ -66,30 +57,34 @@ C = {
 
 # ── Logger setup ──────────────────────────────────────────────────
 
+_ANSI_RE = re.compile(r"\033\[[0-9;]*m")
+
+
+class _PlainFormatter(logging.Formatter):
+    """Formatter that strips ANSI color codes — for non-TTY stdout (Azure) and file logs."""
+    def format(self, record):
+        return _ANSI_RE.sub("", super().format(record))
+
+
 def setup_logger(log_file: str = None) -> logging.Logger:
-    """Configure logger with color console + optional plain file handler."""
+    """Configure logger. Colors on interactive TTY; plain text in containers and files."""
     logger = logging.getLogger("thomas_intel")
     logger.setLevel(logging.DEBUG)
     logger.handlers.clear()
 
-    # Console handler — keeps ANSI colors intact
     ch = logging.StreamHandler(sys.stdout)
     ch.setLevel(logging.INFO)
-    ch.setFormatter(logging.Formatter("%(message)s"))
+    # Strip ANSI when stdout is not a terminal (docker, Azure Container Apps, CI, redirects)
+    if sys.stdout.isatty():
+        ch.setFormatter(logging.Formatter("%(message)s"))
+    else:
+        ch.setFormatter(_PlainFormatter("%(message)s"))
     logger.addHandler(ch)
 
-    # File handler — plain text, no ANSI codes, with timestamps
     if log_file:
-        # Strip ANSI codes for file output
-        class PlainFormatter(logging.Formatter):
-            _ansi = re.compile(r"\033\[[0-9;]*m")
-            def format(self, record):
-                record.msg = self._ansi.sub("", str(record.msg))
-                return super().format(record)
-
         fh = logging.FileHandler(log_file, encoding="utf-8")
         fh.setLevel(logging.DEBUG)
-        fh.setFormatter(PlainFormatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S"))
+        fh.setFormatter(_PlainFormatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S"))
         logger.addHandler(fh)
 
     return logger
@@ -101,12 +96,43 @@ logger = logging.getLogger("thomas_intel")
 
 # ── Helpers ───────────────────────────────────────────────────────
 
+def _safe_name(s: str) -> str:
+    """Sanitize a company or category name for use as a folder / blob prefix."""
+    return re.sub(r"[^A-Z0-9_]+", "_", s.upper()).strip("_")
+
+
+@lru_cache(maxsize=1)
+def _resolve_api_key(api_key: str = None) -> str:
+    """Resolve the Gemini API key. Priority: CLI arg → env var → Azure Key Vault.
+
+    When AZURE_KEY_VAULT_URL is set, fetches the secret named by
+    GEMINI_API_KEY_SECRET_NAME (default: 'gemini-api-key') via DefaultAzureCredential —
+    Managed Identity in Azure, `az login` locally.
+    """
+    if api_key:
+        return api_key
+    env_key = os.environ.get("GEMINI_API_KEY")
+    if env_key:
+        return env_key
+    vault_url = os.environ.get("AZURE_KEY_VAULT_URL")
+    if vault_url:
+        from azure.identity import DefaultAzureCredential
+        from azure.keyvault.secrets import SecretClient
+        secret_name = os.environ.get("GEMINI_API_KEY_SECRET_NAME", "gemini-api-key")
+        client = SecretClient(vault_url=vault_url, credential=DefaultAzureCredential())
+        return client.get_secret(secret_name).value
+    logger.error(
+        "ERROR: No Gemini API key found. Pass --api-key, set GEMINI_API_KEY, "
+        "or set AZURE_KEY_VAULT_URL (with GEMINI_API_KEY_SECRET_NAME if not 'gemini-api-key')."
+    )
+    sys.exit(1)
+
+
 def get_client(api_key: str = None):
-    key = api_key or os.environ.get("GEMINI_API_KEY")
-    if not key:
-        logger.error("ERROR: Add GEMINI_API_KEY=your_key to your .env file.")
-        sys.exit(1)
-    return genai.Client(api_key=key, http_options=HttpOptions(api_version="v1alpha", timeout=API_TIMEOUT_MS))
+    return genai.Client(
+        api_key=_resolve_api_key(api_key),
+        http_options=HttpOptions(api_version="v1alpha", timeout=API_TIMEOUT_MS),
+    )
 
 
 def parse_signals(raw: str) -> list:
@@ -122,26 +148,6 @@ def parse_signals(raw: str) -> list:
                 return json.loads(match.group(0))
             except json.JSONDecodeError:
                 pass
-    return []
-
-
-def save_incremental(all_results: list, output_file: str):
-    """Atomic write: dump to a temp file then rename to avoid corruption on crash."""
-    tmp = output_file + ".tmp"
-    with open(tmp, "w") as f:
-        json.dump(all_results, f, indent=2)
-    os.replace(tmp, output_file)  # atomic on POSIX; safe on Windows too
-
-
-def load_checkpoint(output_file: str) -> list:
-    if output_file and os.path.exists(output_file):
-        try:
-            with open(output_file) as f:
-                data = json.load(f)
-            if isinstance(data, list) and data:
-                return data
-        except (json.JSONDecodeError, IOError):
-            pass
     return []
 
 
@@ -380,18 +386,10 @@ class UsageTracker:
 _usage: UsageTracker = None
 
 
-# ── Sync run_account — DEPRECATED, use run_account_async ──────────
-# Kept as a stub to avoid import errors from any external scripts.
-def run_account(client, account, category, signals, **kwargs):
-    raise NotImplementedError(
-        "run_account() is deprecated. Use run_account_async() via run_category()."
-    )
-
-
 # ── Async run_account (parallel signals) ─────────────────────────
 
 async def run_account_async(client, account: str, category: str, signals: list,
-                             output_file: str = None, all_results: list = None,
+                             sink: Sink = None, usage_name: str = None,
                              sem: asyncio.Semaphore = None,
                              recency_instruction: str = None) -> dict:
     b, h, r, d = C["bold"], C["header"], C["reset"], C["dim"]
@@ -492,23 +490,18 @@ async def run_account_async(client, account: str, category: str, signals: list,
 
     if _usage:
         await _usage.record_account(account, acct_elapsed, acct_hits)
-        # Flush partial usage report to disk after every account (synchronous — simple and reliable)
-        if output_file:
+        if sink and usage_name:
             try:
-                usage_file = output_file.replace(".json", "_usage.json")
-                usage_snapshot = _usage.to_dict()
-                with open(usage_file, "w") as f:
-                    json.dump(usage_snapshot, f, indent=2)
-                logger.debug(f"  Usage report updated → {usage_file}")
+                await asyncio.to_thread(sink.write, usage_name, _usage.to_dict())
+                logger.debug(f"  Usage report updated → {usage_name}")
             except Exception as ue:
                 logger.warning(f"  ⚠ Could not write usage file: {ue}")
 
-    if output_file and all_results is not None:
-        all_results.append(result)
-        if len(all_results) % SAVE_FREQUENCY == 0 or len(all_results) == 1:
-            # Run file I/O in a background thread — keeps event loop unblocked
-            await asyncio.to_thread(save_incremental, all_results[:], output_file)
-            logger.info(f"  {d}✔ saved → {output_file} ({len(all_results)} accounts){r}")
+    # Write this account's results to its own folder: <SAFE_COMPANY>/results.json
+    if sink:
+        account_path = f"{_safe_name(account)}/results.json"
+        await asyncio.to_thread(sink.write, account_path, result)
+        logger.info(f"  {d}✔ saved → {account_path}{r}")
 
     return result
 
@@ -535,13 +528,17 @@ def print_summary(all_results: list):
 
 # ── Main entry point ──────────────────────────────────────────────
 
-def run_category(category: str, output_file: str, signal_override: str = None,
-                 company_filter: str = None, api_key: str = None, limit: int = None,
+def run_category(category: str, sink: Sink, signal_override: str = None,
+                 api_key: str = None, limit: int = None,
                  accounts_override: list = None):
-    """Main entry point called by each category script.
+    """Run one category end-to-end through `sink`.
+
+    Each account's result lands at `<SAFE_COMPANY>/results.json`. A per-run
+    usage sidecar lands at `_usage/<category>.json`. A per-run log file lands
+    at `_logs/<category>.log` (LocalSink only).
 
     accounts_override: if provided, use this list instead of ACCOUNTS[category].
-                       Useful for sub-lists like Top12 or Super80.
+                       Used for single-company and Super80 runs.
     """
     try:
         from dotenv import load_dotenv
@@ -549,9 +546,14 @@ def run_category(category: str, output_file: str, signal_override: str = None,
     except ImportError:
         pass
 
-    # Set up logger — writes to console + log file alongside the JSON output
+    cat_slug = _safe_name(category).lower()
+    usage_name = f"_usage/{cat_slug}.json"
+    log_name = f"_logs/{cat_slug}.log"
+
+    # Only create a local log file when the sink supports it (LocalSink).
+    # BlobSink relies on stdout — Azure Container App Logs captures it.
     global logger
-    log_file = output_file.replace(".json", ".log") if output_file else None
+    log_file = sink.log_path(log_name) if sink.supports_log_files else None
     logger = setup_logger(log_file)
 
     client = get_client(api_key)
@@ -576,20 +578,17 @@ def run_category(category: str, output_file: str, signal_override: str = None,
             sys.exit(1)
         accounts = ACCOUNTS[category]
 
-    # Filter to single company if specified
-    if company_filter:
-        query = company_filter.upper()
-        accounts = [a for a in accounts if query in a.upper()]
-        if not accounts:
-            logger.error(f"ERROR: No accounts matched '{company_filter}' in {category}.")
-            sys.exit(1)
-
-    # Resume from checkpoint
-    all_results = load_checkpoint(output_file) if output_file else []
-    completed = {r["account"].upper() for r in all_results}
-    if completed:
-        logger.info(f"{C['yellow']}⚡ Resuming — {len(completed)} accounts already done, skipping.{C['reset']}")
-    pending = [a for a in accounts if a.upper() not in completed]
+    # Resume from checkpoint — each completed account has its own <SAFE_COMPANY>/results.json
+    resumed_results = []
+    pending = []
+    for acct in accounts:
+        prior = sink.read(f"{_safe_name(acct)}/results.json")
+        if prior and isinstance(prior, dict) and prior.get("account"):
+            resumed_results.append(prior)
+        else:
+            pending.append(acct)
+    if resumed_results:
+        logger.info(f"{C['yellow']}⚡ Resuming — {len(resumed_results)} accounts already done, skipping.{C['reset']}")
 
     # Apply limit after checkpoint resume so --limit 5 always means 5 new accounts
     if limit and limit > 0:
@@ -603,24 +602,27 @@ def run_category(category: str, output_file: str, signal_override: str = None,
     recency_instr = _recency_instruction()
 
     # Initialise a fresh usage tracker for this run
-    # Seed with already-checkpointed accounts so resumed runs show accurate totals
+    # Seed with already-completed accounts so resumed runs show accurate totals
     global _usage
     _usage = UsageTracker(total_accounts=len(accounts))
-    for r in all_results:
-        # Count prior accounts as done with data (no timing/token data available for them)
+    for r in resumed_results:
         acct_hits = sum(len(v) for v in r.get("signals", {}).values())
         _usage.accounts_done += 1
         if acct_hits > 0:
             _usage.accounts_with_data += 1
         _usage.account_times.append((r["account"], 0.0))  # elapsed unknown for resumed accounts
 
-    # Run all accounts sequentially, signals in parallel per account
+    # Run all accounts sequentially, signals in parallel per account.
+    # Each account's result is persisted inside run_account_async.
+    fresh_results = []
+
     async def _run_all():
         sem = asyncio.Semaphore(SEMAPHORE_SIZE)
         for account in pending:
-            await run_account_async(client, account, category, signals,
-                                    output_file=output_file, all_results=all_results,
-                                    sem=sem, recency_instruction=recency_instr)
+            result = await run_account_async(client, account, category, signals,
+                                             sink=sink, usage_name=usage_name,
+                                             sem=sem, recency_instruction=recency_instr)
+            fresh_results.append(result)
 
     try:
         asyncio.run(_run_all())
@@ -632,18 +634,12 @@ def run_category(category: str, output_file: str, signal_override: str = None,
     # Allow aiohttp connector to close cleanly
     time.sleep(0.5)
 
+    all_results = resumed_results + fresh_results
     print_summary(all_results)
     _usage.print_report()
 
-    # Save usage sidecar file
-    if output_file:
-        usage_file = output_file.replace(".json", "_usage.json")
-        with open(usage_file, "w") as f:
-            json.dump(_usage.to_dict(), f, indent=2)
-        logger.info(f"\033[90mUsage report saved to {usage_file}\033[0m")
-
-    if output_file:
-        save_incremental(all_results, output_file)
-        logger.info(f"\033[90mFinal results saved to {output_file}\033[0m")
-        if log_file:
-            logger.info(f"\033[90mLog saved to {log_file}\033[0m\n")
+    # Final usage sidecar write
+    sink.write(usage_name, _usage.to_dict())
+    logger.info(f"\033[90mUsage report saved to {usage_name}\033[0m")
+    if log_file:
+        logger.info(f"\033[90mLog saved to {log_file}\033[0m\n")
