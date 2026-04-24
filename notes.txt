@@ -1,0 +1,62 @@
+# ── Category scripts (one per industry) ──────────────────────────
+python run_education.py
+python run_biopharma.py
+python run_cdmo_cro.py
+python run_clinical_dx.py
+python run_hospital.py
+python run_industrial.py
+python run_government.py
+python run_super80.py
+
+# ── Each script supports the same flags ──────────────────────────
+
+# Single signal only
+python run_biopharma.py --signal pipeline
+python run_biopharma.py --signal regulatory
+python run_hospital.py --signal tender
+python run_government.py --signal grant
+
+# Single company
+python run_biopharma.py --company "PFIZER"
+python run_clinical_dx.py --company "LABCORP"
+python run_super80.py --company "TAKEDA"
+
+# Save to custom file (each script has a default output filename)
+python run_biopharma.py --output biopharma_7days.json
+python run_super80.py --output super80_7days.json
+
+# ── Default output filenames ──────────────────────────────────────
+# run_education.py   → education_results.json
+# run_biopharma.py   → biopharma_results.json
+# run_cdmo_cro.py    → cdmo_cro_results.json
+# run_clinical_dx.py → clinical_dx_results.json
+# run_hospital.py    → hospital_results.json
+# run_industrial.py  → industrial_results.json
+# run_government.py  → government_results.json
+# run_super80.py     → super80_results.json
+
+# ── Resume after interruption ─────────────────────────────────────
+# Just re-run the same command — skips completed accounts automatically
+python run_biopharma.py
+
+# ── Change time window ────────────────────────────────────────────
+# Edit DAYS_BACK in prompts.py (currently set to 7)
+
+# ── Core files (do not run directly) ─────────────────────────────
+# runner.py   → shared logic (API calls, retry, save, resume, print)
+# prompts.py  → 12 category-aware signal prompts
+# accounts.py → 237 accounts organised by 7 categories
+
+# ── Signal reference (12 signals × 7 categories) ─────────────────
+# grant       → Education, BioPharma, Clinical/Mol Dx, Hospital, Government
+# faculty     → Education, Hospital
+# capital     → ALL
+# contract    → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Government
+# pipeline    → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
+# expansion   → ALL
+# partnership → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
+# funding     → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
+# project     → ALL
+# regulatory  → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
+# hiring      → BioPharma, CDMO/CRO, Industrial
+# tender      → Hospital, Government
