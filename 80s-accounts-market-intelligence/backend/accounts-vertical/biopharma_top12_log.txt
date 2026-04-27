@@ -1,802 +1,0 @@
-/Users/amanpreet/Library/Python/3.9/lib/python/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "name" shadows an attribute in parent "Operation"; 
-  warnings.warn(
-/Users/amanpreet/Library/Python/3.9/lib/python/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "metadata" shadows an attribute in parent "Operation"; 
-  warnings.warn(
-/Users/amanpreet/Library/Python/3.9/lib/python/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "done" shadows an attribute in parent "Operation"; 
-  warnings.warn(
-/Users/amanpreet/Library/Python/3.9/lib/python/site-packages/pydantic/_internal/_fields.py:184: UserWarning: Field name "error" shadows an attribute in parent "Operation"; 
-  warnings.warn(
-
-[1mThomas Scientific // BioPharma — Top 12[0m
-[90m12 accounts | Signals: grant, capital, contract, pipeline, expansion, partnership, funding, project, regulatory, hiring[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  ABBVIE[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [93m[1m[CONTRACT] 2 signal(s)[0m
-    [1m[1] AbbVie announced a $380 million investment to construct two new active pharmaceutical ingredient (API) manufacturing facilities in North Chicago, creating 300 new jobs.[0m
-        [90mNew API Manufacturing Facilities Construction · $380 million · N/A[0m
-        [93m↳ This significant investment in new manufacturing facilities signals a substantial upcoming demand for a wide range of lab equipment, reagents, and consumables for both the construction and operational phases, presenting a major sales opportunity for Thomas Scientific.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdBdXpUdxp_J49UlMfbevCmkKP8aZuhqMZiX6TtuKzJkn1UCm8c6m33M1nc1R9A8r33pBYm_NeIQ2Rf4mc8-bWxhcfhd66y-9-osu8Um5MDz98PY7sRHB63fZD7ACqtdLVes6VrfaBJ85rQ9DmSuMBLQjXyUMqkJGaEg-6-IOd[0m
-    [1m[2] AbbVie is hiring an Associate Director for Category Management in R&D Procurement - Discovery, responsible for building and maintaining strategic supplier ecosystems for lab equipment and research platforms.[0m
-        [90mR&D Procurement - Lab Equipment and Research Platforms · N/A · N/A[0m
-        [93m↳ This job posting indicates AbbVie's strategic focus on optimizing its R&D procurement for lab equipment and research platforms, suggesting ongoing and future opportunities for Thomas Scientific to become a key supplier.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFryweIG335eVtFGfpDFoprd4-f2jihxHt7skjwTDzBcWzVHpi1slxLFoJuJ0RdMXrMi77hyNAGyObAVprFN_X2mgvcZzv733HXSSGZavPQWkIMEq6aGrDHdOvBZfaBuElU0Bk=[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 2 signal(s)[0m
-    [1m[1] A Phase 2 clinical trial for ABBV-142, investigating its effects on adverse events and disease activity in adult participants with Idiopathic Pulmonary Fibrosis (IPF), was recently updated and verified in April 2026.[0m
-        [90mABBV-142 · Phase 2 Clinical Trial · Idiopathic Pulmonary Fibrosis (IPF)[0m
-        [93m↳ An active Phase 2 trial indicates ongoing research and development, creating immediate demand for lab supplies, reagents, and equipment to support the study's progression.[0m
-        [90mhttps://clinicaltrials.gov/study/NCT07230288[0m
-    [1m[2] AbbVie's New Drug Application (NDA) for Pivekimab sunirine (PVEK), a first-in-class CD123-targeting antibody-drug conjugate for Blastic Plasmacytoid Dendritic Cell Neoplasm (BPDCN), is awaiting an FDA decision in April 2026, having previously received Breakthrough Therapy designation.[0m
-        [90mPivekimab sunirine (PVEK) · NDA Submission (awaiting FDA decision) · Blastic Plasmacytoid Dendritic Cell Neoplasm (BPDCN)[0m
-        [93m↳ Anticipated FDA approval creates a strong signal for potential commercial-scale manufacturing and increased demand for quality control, analytical, and process development lab supplies.[0m
-        [90mhttps://www.primetherapeutics.com/news/fda-decisions-expected-april-2026/[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [90m[partnership] No signals found.[0m
-  [90mSearching [funding]...[0m  [93m[1m[FUNDING] 1 signal(s)[0m
-    [1m[1] AbbVie announced a preliminary first-quarter 2026 acquired in-process research and development (IPR&D) and milestones expense of $744 million on a pre-tax basis, which is expected to reduce both GAAP and adjusted diluted earnings per share by $0.41.[0m
-        [90m$744,000,000 · Acquired In-Process Research and Development (IPR&D) Expense · Funding for acquired in-process research and development and milestones, which may be incurred with collaborations, licensing agreements, and asset acquisitions.[0m
-        [93m↳ This substantial investment in R&D signals an upcoming demand for lab supplies, reagents, consumables, and scientific equipment to support the advancement of new research and development projects.[0m
-        [90mhttps://stocktitan.net/news/ABBV/abbvie-abbv-trims-2026-eps-guidance-after-744m-ipr-d-expense-1123412341.html[0m
-  [90mSearching [project]...[0m  [90m[project] No signals found.[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 1 signal(s)[0m
-    [1m[1] AbbVie has submitted a New Drug Application (NDA) for PVEK (pivekimab sunirine), a CD123-targeting antibody-drug conjugate, for the treatment of blastic plasmacytoid dendritic cell neoplasm (BPDCN). The FDA also granted PVEK a Breakthrough Therapy designation.[0m
-        [90mPVEK (pivekimab sunirine) · NDA Submission, Breakthrough Therapy Designation · NDA submitted, Breakthrough Therapy designation granted[0m
-        [93m↳ The Breakthrough Therapy designation and NDA submission for PVEK indicate potential for accelerated review and future market entry, which will drive demand for lab supplies, reagents, consumables, and scientific equipment for scale-up and manufacturing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBREPTevLKcirj9OkgkM_AGv1R7KBlNRe3VHRkuoW-ef-7_dQrLAfYg6oTb4eRrlNCOQVAvUTfUMopIuBoiyvbj4-UJvuVezJhaacjawZiU-fPBAvvr-XmqavUZ2pScrFzhfF26wwQJnAnTgGbr057WR7MkXIUUCkBHFoTUAs=[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 1 signal(s)[0m
-    [1m[1] AbbVie is investing $380 million to expand its North Chicago manufacturing campus, constructing new state-of-the-art facilities and creating 300 new jobs to support the production of next-generation neuroscience and obesity-reduction medicines.[0m
-        [90mManufacturing personnel · 300 · North Chicago, Illinois[0m
-        [93m↳ This expansion of manufacturing personnel signals an increased need for raw materials, reagents, consumables, and specialized equipment to support the production of new medicines.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeNgyYX229P1MTj3JhsNdBm-guB7Kwrt2EaycqAZl3sLfHMRJDQkAqhKKpkbTDjuqBeUIMcWuBn5sY27JWkAztHNKdQmPGelujYwC6hyPNQXIDicmtMnEaIcyKn13T6s2RSoIee586jf5SWs--fWy51HwHh28=[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  ASTRAZENECA[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 5 signal(s)[0m
-    [1m[1] AstraZeneca announced positive results from its global Phase III clinical program for efzimfotase alfa (ALXN1850) in hypophosphatasia (HPP), with the MULBERRY trial showing significant improvement in bone health in pediatric patients and the CHESTNUT trial demonstrating safety and tolerability in pediatric patients switching from Strensiq.[0m
-        [90mEfzimfotase alfa (ALXN1850) · Phase III Clinical Program Results · Rare Diseases (Hypophosphatasia)[0m
-        [93m↳ Positive Phase III results for a rare disease treatment indicate potential for future regulatory submissions and commercialization, driving demand for specialized lab supplies and reagents for ongoing research, manufacturing, and quality control.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8MQolNM0xsIwtF-1nCyHHQ4HZlH9xS_zUR1ea1KP50wKewAm1R4tM_r957PIlLPR-Jhl8vV2hPHnDg6A-2Xu9zdSWZ6m6vGoolH4QCLnw3mpaMAM9Bddl4bBgFLUQuCRPTWoAIVRxPd8kADjpEQdfz7Ycv0OpVqh7dT16o_-QEUmOup1zkoWY_0d9DGHpOudeBsP2G1Tyhf_9LNq7tjLefcmLHjCnnmHV1lUzRRm1fC5q-tlKnYqIXSEXtOhNMNU=[0m
-    [1m[2] AstraZeneca reported that Tozorakimab met the primary endpoint in both OBERON and TITANIA Phase III trials in patients with Chronic Obstructive Pulmonary Disease (COPD).[0m
-        [90mTozorakimab · Phase III Clinical Trials Results · Respiratory (COPD)[0m
-        [93m↳ Successful Phase III trials for a new COPD treatment suggest upcoming demand for research materials, manufacturing components, and quality control reagents as the program moves towards regulatory submission and potential market launch.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFitXuhKv-MONjaF-F0bN2-ttw7dql77yaxyvZqqOOmSO2LZ4dRRxLb_stWqooskr9QZTLTcFIl8jkbgLZqTDs0Ztj0nTE2KPS_QGl_q_ANV2EiM4UncCcPb_95CZ1bvrFYRqYhbzxvVQz08xtywadhd8BVyorxcg==[0m
-    [1m[3] Positive high-level results from the EMERALD-3 Phase III trial showed AstraZeneca's IMFINZI® (durvalumab) plus IMJUDO® (tremelimumab-actl) combined with lenvatinib and transarterial chemoembolisation (TACE) significantly improved progression-free survival (PFS) versus TACE alone for patients with unresectable hepatocellular carcinoma (HCC) eligible for embolisation.[0m
-        [90mIMFINZI® (durvalumab) + IMJUDO® (tremelimumab-actl) + lenvatinib + TACE · Phase III Clinical Trial Results · Oncology (Unresectable Hepatocellular Carcinoma)[0m
-        [93m↳ Positive Phase III data for a combination therapy in liver cancer indicates a strong potential for regulatory filings, which will increase the need for lab supplies for further research, development, and eventual commercial production.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCJJ8sXzKCB0BoeC9AbZwHVqzlr1cfTDKj4RFdrCzJpWghLOM04ZT5rIqtIGsuKsZCkjfdYAvjbxvC34c3XkZs5GimsghpVcTEKVYZ1_v_8FUi3-cwTDtTO0aZ4yxCwF9iOYUclo0aSxZ_KnEH67CDAYVK0WhVezQ8BktYuOyKG5dl11mBxCA9gNt3KEzDSaRGhTSSeilAlR-Uwh7CbSAIv7HF0oXjIs2U[0m
-    [1m[4] AstraZeneca completed a Phase I randomized, single-blind, placebo-controlled study to evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of AZD6234 in participants with overweight or obesity, with the trial reaching "Completed" status as of April 2, 2026.[0m
-        [90mAZD6234 · Phase I Clinical Trial Completion · Metabolic Diseases (Overweight or Obesity)[0m
-        [93m↳ Completion of a Phase I trial for an obesity drug signals progression in a high-growth market, suggesting future demand for research consumables and equipment as the program advances to later-stage clinical development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQfNVRFJolcqaqJcM0_smy4jCfKi1bThZ5m-VLr2_mArhLVLQwHCFpDdL_32J4ByNNcsT1sk7A6CpnfD4OmtAtw7Gcm0q4joCEUQ6_BXayjGooc7kgkzwGF0VIqupK3UVuggMxL4CB56r_bE-YwO_ie24NAnofhTeuIoGZbeK2uDyUI6XsO2qhVCHGLMSegrkY9mIr-XO72w-9IH2U18HFjYOoqVopUlLVa5o8CKpRkPU22WNZLPOuZbVn6DgTSVkavCme[0m
-    [1m[5] The FDA granted Priority Review for AstraZeneca's baxdrostat, an oral once-daily aldosterone synthase inhibitor, for the treatment of uncontrolled or resistant hypertension, with a Prescription Drug User Fee Act (PDUFA) date expected in Q2 2026.[0m
-        [90mBaxdrostat · FDA Priority Review · Cardiovascular (Uncontrolled or Resistant Hypertension)[0m
-        [93m↳ A Priority Review designation from the FDA indicates an accelerated path to potential approval, creating immediate demand for manufacturing, quality control, and distribution-related lab supplies to prepare for market launch.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq11Q2sYk_S29u796092qCEhhERO_7gxlZB3oU1V-iAulnxQT4uzT8nqjK_fdBbCltw_jELdwV1GkfxBaSHozG8UPkkVy72nYJKIOOvDh10bFTi7FAbWgCrKlJvb1C0mKOYW1QQUQ2l421QNPG6_8SLEmcakLzwRjJqYe4TCk=[0m
-  [90mSearching [expansion]...[0m  [92m[1m[EXPANSION] 5 signal(s)[0m
-    [1m[1] AstraZeneca is expanding its cell therapy footprint in China with plans for a commercial manufacturing and supply base in Shanghai's Lingang New Area, alongside a new innovation center in Zhangjiang focused on cell therapy R&D and clinical support. This initiative aims to establish end-to-end cell therapy capabilities in China.[0m
-        [90mShanghai, China (Lingang New Area and Zhangjiang) · New manufacturing facility, new laboratory sites, geographic expansion · Not specified[0m
-        [93m↳ New manufacturing and R&D facilities will create significant demand for lab supplies, reagents, consumables, and scientific equipment for cell therapy production and research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUxSLHTFIsMlgXI1dMKxVm1KrNxxz5XBvsM-D_ZSWxIG53pMZnIAPEdzxeMnUVDDheSsFU8bAtmTkz2PF4_4PGc0wnvOW4oDxT96kLNzHH9kFB9CccS-u2cdFXrUrMxSYfoHzNZqPAYINhGMaK3IOqVsOopIcc6_-bpkV7EMpPiVYlwxpTC4lOO6JcIdThnzrkdB4W0YnEqmo_e5Z7xuY=[0m
-    [1m[2] AstraZeneca is establishing a new biologics manufacturing plant in Södertälje, Sweden, known as the Sweden Biomanufacturing Center (SBC). This facility is a strategic investment to support the company's biologic product portfolio, including commercial pipeline, clinical trials, and launch programs.[0m
-        [90mSödertälje, Sweden · New manufacturing facility · Not specified[0m
-        [93m↳ A new biologics manufacturing plant will require a complete setup of lab equipment, reagents, and consumables for production, quality control, and R&D support.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3i11-z14HbfsUng9CTrHXJ0kFRKHHP14zbLTioxjHj4Ie85zwmUJOOuYx8t7MpwYFvnJJ9Oh-7z9v-WhaYIQx8T1ZtamJg_YhJMApyRw4qgX6plyxC230C4Lx710PxHUk5iu0Pv29CJRHCebwh28KCDTFK8skMXJn9IWg9D2XKdvf5Cl-gU76SDfuoTvmUQ_LLJA5zuFued6LYTNx0x2X0TybsCSvld0jfp20lAFewYe7btr4H0U=[0m
-    [1m[3] AstraZeneca is expanding its US manufacturing operations, including a previously announced $2 billion investment to expand manufacturing in Frederick and build a new clinical facility in Gaithersburg, Maryland. This expansion is highlighted as a significant economic development.[0m
-        [90mFrederick and Gaithersburg, Maryland, US · Manufacturing expansion, new clinical facility · $2 billion[0m
-        [93m↳ New manufacturing and clinical facilities represent a significant opportunity for new procurement of lab supplies, reagents, and equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoJd9hOVqSXZu11s7M0sEE2BxVFW5tr8wtrg1x1acGAJmd1FNxuBcQz6woZyy1Y6DCqLowPGpNe-u1DY8Qo4e78WPQI7y8ZjMyIzXOfQILiEt_ZklVb8eRCMo-Oy2zSLDIZqDruuDqU2D0n48hW_RXyWY7h5cqjJRrsN6l0OR_gPKFe1UFu8FDf73fNFSngh59kw-Dk5ekMqZIs-AGPcgwufSKsF2uyKNJrWUJw7UBZNnQctmSnJhpBgB6E9tE5yyM73KXNuJChZIpCYlBx5NEJxtTcinqLnfoMDicEtvnHzGKCE2n9uAo-uI9[0m
-    [1m[4] AstraZeneca is investing $4 billion in two new projects in Albemarle County, Virginia, which will include a manufacturing facility for chronic diseases and antibody-drug conjugates. This is noted as one of the company's largest global manufacturing investments.[0m
-        [90mAlbemarle County, Virginia, US · New manufacturing facility · $4 billion[0m
-        [93m↳ A massive new manufacturing facility will generate substantial demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for its operations.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFKnXFsesYidEk20kyYrYsBUt7_ICM29J-oW4SuY6g9wDaFK0kv9IEMSa4izuTBeCp_Yvdsweip34ISvZkBPVLCwU26AdIllAI44UCzTKkGCsb47qTOtiM-Q1VwW4byeMv0roMIIes16zvIdWX5_WFGVIYc18T_nXa7ZrOnBsJkF_A9Na43YXfXxiqQE4vKRBG7-13VL6j6r94WefBNogh83k3KP0OWy13PAjLS2U9psVEjbqacGXx[0m
-    [1m[5] AstraZeneca's Commercial Cell Therapy Facility in Rockville, MD, designed to support autologous T cell therapies, is highlighted for its advanced features in resiliency and sustainability. While an existing facility, its recent detailed description implies ongoing high-level operations and continuous demand for specialized supplies.[0m
-        [90mRockville, Maryland, US · Capacity scale-up, facility upgrades (implied by advanced design and continuous operation) · Not specified[0m
-        [93m↳ An operational cell therapy facility has continuous demand for highly specialized lab supplies, cell culture media, reagents, and equipment for manufacturing and quality control.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOu8s7L7KebhhMyjUAdY8KLUcO1pa66P0tKP9YQ0KoPLyqqfjZ9RastXwQPWdl2mzUsn9Ow-zyrx9A0l_89FQVuOdi-H5_WoE6VA7pMtvCLXHuDFYd70jSqdS2Cj2ldbON5ZOEMTbXAz_CxZqA9p1Mcb-jyj_obYF9W8KwpQ3p2NlpCsH4lPoNu6eMOuLiV3jZ[0m
-  [90mSearching [partnership]...[0m  [95m[1m[PARTNERSHIP] 2 signal(s)[0m
-    [1m[1] AstraZeneca entered a licensing deal with Amani Therapeutics to expand its schizophrenia pipeline.[0m
-        [90mAmani Therapeutics · Licensing Deal · N/A[0m
-        [93m↳ This licensing deal indicates new research and development efforts in schizophrenia, requiring increased lab supplies, reagents, and potentially specialized equipment for neuroscience and psychiatric drug discovery.[0m
-        [90mhttps://finance.yahoo.com/sectors/healthcare/articles/[0m
-    [1m[2] AstraZeneca licensed rights to unnamed drugs, some not yet created, and gained access to CSPC Pharmaceutical Group Limited's AI drug discovery platform, covering up to eight drug development programs.[0m
-        [90mCSPC Pharmaceutical Group Limited · Licensing Deal / Collaboration · N/A[0m
-        [93m↳ This collaboration signals significant new early-stage drug discovery and development activities, particularly leveraging AI platforms, which will drive demand for advanced computational resources, specialized reagents for novel target validation, and high-throughput screening consumables.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA49g_VrXsVMuv-m-ghmnD6rSWkCxVpgdb8hw8Wy948Z7N0Kd_5l5X2Kh931_nrIhJzThTxMHOL1sp1QORLhhEB_EJOtBaVPSqcKVubvi6SsG4dLZ_aEjAqCJNaIAcM71YXj9db02CsSWVa_XcJ-Gee1LU7zl7qq7VvJI10iGHL2CWTpjT2MaFiw==[0m
-  [90mSearching [funding]...[0m  [90m[funding] No signals found.[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 2 signal(s)[0m
-    [1m[1] AstraZeneca announced positive results from its global Phase III clinical program for efzimfotase alfa in hypophosphatasia (HPP), a rare metabolic disease. The MULBERRY trial in treatment-naïve paediatric patients demonstrated statistically significant and clinically meaningful improvements in bone health, while the CHESTNUT trial showed efzimfotase alfa was well-tolerated and maintained therapeutic benefit in paediatric patients switching from Strensiq. The HICKORY trial in adolescents and adults showed numerical improvements but did not meet its primary endpoint for statistical significance, though clinically meaningful benefits were observed in specific subgroups.[0m
-        [90mEfzimfotase alfa Global Phase III Clinical Program for Hypophosphatasia (HPP) · Global Phase III clinical trials (MULBERRY, CHESTNUT, HICKORY) involving 196 patients across 22 countries, evaluating efzimfotase alfa as an enzyme replacement therapy for HPP. · Results announced March 31, 2026. Ongoing extension studies for the HICKORY trial.[0m
-        [93m↳ Positive Phase III results for efzimfotase alfa will likely lead to regulatory submissions and potential commercialization, increasing demand for reagents, consumables, and analytical equipment for manufacturing, quality control, and further research into rare diseases.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBi_EWNMJE7ZXhmQ4TdGh0tY1jhvTT3Ax9-BOtJ5zTEXFiJ1W7-RGFoYaYYGcM993EbqgqqxMFqx8KFSwdqDl18u_nZdu4NDvGsz5nA-luQke6WPWEz8MHNH3mbdEFHHz1At-yR618XHiv7WCmiWM9E2CwyrL2U-qzOVSJOIKaR-PGvB_1nQDUAlChD951ws7aswwHvkpMllpHULYFSYTEL6N24wR7hNFWiG9Qehj5_hav08xDa6lMJmxJOJmTp3I=[0m
-    [1m[2] AstraZeneca reported positive Phase III results from the EMERALD-3 trial, showing that the combination of Imfinzi (durvalumab), Imjudo (tremelimumab), lenvatinib, and transarterial chemoembolisation (TACE) significantly improved progression-free survival in earlier-stage, unresectable hepatocellular carcinoma eligible for embolisation, compared to TACE alone.[0m
-        [90mEMERALD-3 Phase III Trial for Unresectable Liver Cancer · Global Phase III clinical trial involving 760 patients across 171 centers in 22 countries, investigating a combination therapy for unresectable hepatocellular carcinoma. · Results announced April 2, 2026. Regulatory discussions are underway, and the trial will continue to follow overall survival and other secondary endpoints.[0m
-        [93m↳ Positive Phase III results for the liver cancer treatment combination will likely accelerate regulatory filings and potential market entry, driving demand for specialized reagents, cell culture media, and analytical instruments for large-scale production and ongoing clinical research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJqGqtHo888fNTu4cazbrZ7Unkm6P8UB36pqkhYFT9HxMp6dFI_WNlE653HThlbEXG3dSmC6ZoU_Z6VqA0FTbTQGhgo8TGYjiRSxHAA_v0JxDewgFKVjTSW1pHQTx8xuMsg0JC4pQOkosnajJb6iQ0t4qYemuSdw==[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 3 signal(s)[0m
-    [1m[1] The FDA granted Priority Review to AstraZeneca and Daiichi Sankyo's supplemental biologics license application (sBLA) for Enhertu (trastuzumab deruxtecan) for the treatment of adult patients with HER2-positive early breast cancer who have residual invasive disease after neoadjuvant HER2-targeted therapy.[0m
-        [90mEnhertu (trastuzumab deruxtecan) · Priority Review · sBLA accepted for Priority Review[0m
-        [93m↳ This Priority Review indicates potential for market expansion and increased demand for associated lab supplies, reagents, and consumables for manufacturing and patient testing if approved.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHWf9CypqBoQfd3T8l1nvrOqrv5Em-oyLHnhyslt0WYExMkxNMFU2tsv0BdsUX7BZGyDZC9z-YZ6NY10UMwMkoZYxpX8ZPCuKEV6-ZjLY65iECiM_HPhfMbxcwTwuko4mM5yFXaVdrv_sJCF4fCMVdgDoYvefa-emgqkdyp3JeUdJUIggxWLhY4fjzuCU7tmfN9vKxoTlJ4pmRfCEJ[0m
-    [1m[2] The FDA granted Priority Review to AstraZeneca and Daiichi Sankyo's supplemental Biologics License Application (sBLA) for Datroway (datopotamab deruxtecan) for the first-line treatment of adult patients with unresectable or metastatic triple-negative breast cancer (TNBC) who are not eligible for PD-L1 or PD-1 inhibitor therapy.[0m
-        [90mDatroway (datopotamab deruxtecan) · Priority Review · sBLA accepted for Priority Review[0m
-        [93m↳ This Priority Review suggests a faster path to market for a new treatment option, potentially increasing demand for lab supplies related to its production and diagnostic testing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU7R0rCQv8vrzkcuKmDScJjbaku7x7VAVMRZnYansVRki43zes3cAODHjPBpWkklze4HEFO7jkyuSn_4pAAaj16N_wZcFpANcKYr9vV4IekQTRH0G4ZyCyCEKBSl0LmOMGlWeihk6Iwa7Wfj6HAY36QznZj5eVW8HnB90q75qaAYTUcjg==[0m
-    [1m[3] The FDA granted Priority Review for AstraZeneca's baxdrostat, an oral once-daily aldosterone synthase inhibitor, for the treatment of uncontrolled or resistant hypertension.[0m
-        [90mBaxdrostat · Priority Review · NDA accepted for Priority Review[0m
-        [93m↳ A Priority Review for this new drug application indicates a potential new treatment for hypertension, which could drive demand for lab supplies used in its manufacturing and for patient monitoring.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ0Rvhehp2rGu6zFy4TYQF5WIF0sylIdsUFfLB-SzEK0zIRsgY4ujnWo7vz-m6YlJITZo7tTMKLd9D2luGMTFPv93F6fLCmJD47p7usCOpzk-kxVR_TdNXqEY5W7OusFa2XjNI6MVVed5-ir6pQkiLP-kH0zLTt34xxAZM0A==[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 8 signal(s)[0m
-    [1m[1] AstraZeneca's Dublin College Park site is at the centre of our Finished Packaging (FP) activities, supporting a rapidly expanding portfolio, including five key products and several major new product launches planned between now and 2030. We are seeking a Finished Packaging Production Planner to support business and change planning on our pharmaceutical packaging lines.[0m
-        [90mFinished Packaging Production Planner (Operations – Manufacturing) · 1 · Dublin – College Park, Ireland[0m
-        [93m↳ Expansion in manufacturing planning signals increased production, which will drive demand for packaging materials, quality control reagents, and manufacturing consumables.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-O7TzN0vesZ1r_cw4-EVfOChrWF-Bs67nWfD9b6CReoBJjtj99nfbUqfIvgVc4GkM2j0gmzG3k0m2sXQK0BCvmOYJHE_48ay8zGoBMjlpOvr6Gv6bcHY1Tbj7d8ccnjrXAvkWbQEQyODSgYjuNtVkEs2JuIVvNF-Y89tHyACPd8AQZXQEarBi8z1iDtyv7YV7ubwcQRh6D_if99g[0m
-    [1m[2] Seeking a mid-level SHE Manager - BPD at AstraZeneca in Gaithersburg, Maryland, with at least a basic understanding of laboratory and/or clean room operations, looking to expand their technical skill set in the safety arena, and comfortable performing work in a clean room or research laboratory environment.[0m
-        [90mSHE Manager - BPD (supports R&D/Clinical Manufacturing) · 1 · Gaithersburg, Maryland, United States[0m
-        [93m↳ Hiring a SHE Manager for R&D/Clinical Manufacturing indicates an increase in lab and manufacturing activities, requiring more safety equipment, lab consumables, and waste management supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOkQpA5q-C2LCoRBKWDQjWXPh_Q4BfkSbcGpMwBjHWhjK2I1P0ZmEG9OG-PCbgH3oV7iZOAVGdavZxWzj3LdFColBjSRQBirw8UTCDvNbPpBvo4o06ec_ek6ah1TnscUtQivusi9DkMVbJmHRPMRefSQ5LBZNtLhbFOuMzAjiFw3iz1t2CzNDQsVIGGA[0m
-    [1m[3] AstraZeneca is seeking an Associate Director, Customer Training to lead the design, development, and delivery of training programs for internal teams, customers, study teams, and clinical trial sites to effectively use Evinova's SaaS-based clinical trial technology, supporting clinical studies globally.[0m
-        [90mAssociate Director, Customer Training (Clinical Operations support) · 1 · United States (field-based)[0m
-        [93m↳ Expansion in clinical trial training indicates an increase in the number or complexity of clinical studies, leading to higher demand for clinical trial consumables, diagnostic kits, and patient monitoring supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Dt55f84UU7l-Qi-OxvHmInl1hx-RVFOCjwZS-rv8-bo8q8QIyq6NEHbtQSHE2bSRaK_gX-oDszY0ojaXClH-pWniAcFho01LTAvf-YR1MNhRQVJgkrLtv7a6vhv5YEmj68lbxjIJ4U_0HSOiA9XEv6g7gqRNuUsOBx5twXOTJgTS_MjpnnI7M6anevXIF2kM4Q[0m
-    [1m[4] AstraZeneca is hiring a Global Study Director, a core global role within the Clinical Operations function of Late Stage R&D (BioPharmaceuticals and Oncology), responsible for oversight of a program of global clinical studies.[0m
-        [90mGlobal Study Director (Clinical Operations, Late Stage R&D) · 1 · Gaithersburg, MD, United States[0m
-        [93m↳ The hiring of a Global Study Director signifies an increase in the number and complexity of clinical trials, directly increasing demand for clinical trial supplies, reagents for sample analysis, and specialized equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBnirT74emuwWzW0buFt359aVGMrtsIA_-pxWhygtTG-cEvhwUpCdMzVMiADI-PmVf8qdoV8hYrwqGVga8g5BVSHWCsbegOoLtBI9N_bOFhGwDrR3NsqnO28GeepcpuuZqAiCqIMgXkAwdHJf_l-Aj-o5DnEABu7yoJGriGswgy4xqXDGhvH9F0qLCxYmbO77XeSwrwN9WMt86fDs6HdOztbyRzSrxhYTt9bSzEQG2obCqxrx26Fu5O4YZ6N8CYNg76jU5xTwjFQ[0m
-    [1m[5] AstraZeneca is seeking an Associate Director, Medical Diagnostics - Lung Cancer, to contribute to the medical guidance for lung cancer biomarkers and diagnostics, working within the USMA Lung Medical Diagnostics team to support the development, monitoring, and delivery of strategic plans.[0m
-        [90mAssociate Director, Medical Diagnostics - Lung Cancer (supports Clinical Operations/R&D) · 1 · Gaithersburg, Maryland, United States[0m
-        [93m↳ Hiring for medical diagnostics in lung cancer indicates increased diagnostic testing and biomarker research, driving demand for diagnostic reagents, kits, and specialized lab equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHloRWSVWvMH6qYWIDaCZtLkattfM9V4bV4x-tUovB68L35jtz-0fAlDQCNIa1Kg8kQz-Vs5LFvsMV9QxP1lTVi_G97dgChcZx4FkQTnX5OwRFkQNDM-7Q2xoCl9Fnd5LW35MACo8n8pOHOpefrTuRS1LXBQk7Caude0ufOA9YnctaRJLYTSwCNs7p3MadO81UCl8tvdTAPPYyLICJaMEeAU1pA6lUTqDiMrMk55whsCq5kMmEz6HsVdW2fdo0twdYzmBuHk2a1[0m
-    [1m[6] AstraZeneca is seeking a Comparator Sourcing Supply Lead to join their External Commercial Products team within the Oncology Therapy Area, responsible for sourcing commercially available medicinal products and related services to support AstraZeneca-sponsored clinical trials.[0m
-        [90mComparator Sourcing Supply Lead (Clinical Manufacture & Supply) · 1 · Undisclosed (Global role)[0m
-        [93m↳ Hiring for a Comparator Sourcing Supply Lead indicates an increase in clinical trial activity and the need for more comparator drugs, which will drive demand for associated storage, handling, and distribution supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnLrSsaDuUbV0SGZ-NfTvn8ZZgKgbgouU_gc4vz4w_iDshjAcZzxT0p9wDC90UM3ekINm3g4UigQVr1Xz2hizET6hKNc94MtEOJvl_N_9YFcNsaXUNM45V1tvNw0zRx6QskRjt7CAD9Cu0gAy7Wq28OKZTMd6PUwl_hMfQf0bnJhswFjhHy1sB-c1Zm5T1RV1awc7Vuoi6APPqULun_o5zpdkorp3CjqMKArXn_QV_tk6nUiCD4WpGYXRDQbs[0m
-    [1m[7] AstraZeneca's Oncology R&D division is seeking a Manufacturing Specialist to support their dynamic Manufacturing team in the production of autologous cell therapy investigational products, ensuring successful manufacture and release of cell therapy products in full compliance with cGMP.[0m
-        [90mManufacturing Specialist (Oncology R&D, Cell Therapy) · 1 · Tarzana, CA, United States[0m
-        [93m↳ Hiring a Manufacturing Specialist for cell therapy production indicates an increase in manufacturing capacity for investigational products, leading to higher demand for specialized cell culture media, bioreactors, and quality control reagents.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBoCYnIEVnTZPbJexQKKt1gv-cji4dtYbFMbnhgwI0rFLWPW8x-TDOepj_uMdzK6zoeJNW0_WVffqz9w68CuAI6oDUDDYtmGi5UokZ95BSsx2FdpnHbWOHjPMHiBIBbhECp-rLC-P6Aj6QpamRey83ucDUmaviWARxiG1n7qwnzPibDmVOmDluf7qFTsvnPOTLmUkyCA1kVFGs0UVhhjziE-fYHG_oX9odrbL62CzvrpgwZfbHZ3l6v7fL9p1cHHTRyusB4XGX-n9-A[0m
-    [1m[8] AstraZeneca is seeking a SHE Specialist - Manufacturing to identify and evaluate potential hazards in laboratory and/or animal environments, develop strategies to minimize risk exposure, and ensure workplace safety compliance across R&D operations.[0m
-        [90mSHE Specialist - Manufacturing (supports R&D/Manufacturing) · 1 · Undisclosed (Global role)[0m
-        [93m↳ The addition of a SHE Specialist for manufacturing and R&D indicates an increase in lab and production activities, requiring more safety equipment, lab consumables, and waste management supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS58z6lUJmp_0sJPtqUr3kFkUk0QUGISxx8TJkzRVDWhhOCpLUhEkf2o2-vaiSlJjITF7LNaCl5Vnj3cfH4ipZ3xCHWbhHMBm0mJ8-xE7_RfpINEjbNusmYLj8wcGYy7RCrNPYLtAA0zFEegn9IPOQ94kNZ52pClxMsA8nHMw6L_hJR8EZV-4OzFZSdF0RACn0Y83VEceGRpw[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  ELI LILLY[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [92m[1m[CAPITAL] 1 signal(s)[0m
-    [1m[1] Eli Lilly is constructing a new $6.5 billion manufacturing plant in Houston to produce its recently FDA-approved GLP-1 weight loss drug, aiming to increase production capacity and reduce supply risk.[0m
-        [90mHouston GLP-1 Manufacturing Plant · Houston, United States · $6.5 billion · Ongoing/Upcoming, for manufacturing scale-up[0m
-        [93m↳ This new manufacturing facility will create significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for drug production and quality control.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKR0gk5BAW0BlmLDgmm8N0TYTmyzLcjVvuAsT4y09h29_Vf62QcK1OwDjTGytx1Q5UZkmtxlRivqiMydUScllYGgxJtaLcefgFwwzQ469sCY5QW6ftIu4p7JW0dKAwntyLcwbqZfxK6IN7JxAg_amwZFf9ru8DHrIPvjDm0NSEGpM0TPpGc9f6sdGshjaGi6OeLJ6ARbktSzraQmtpAKJ2ybmLBExrDG1GEq7haCSE-E_iiOrysCQD8fKNNHegqbChERkx8mTrH5TjLhG0tj5JWnrpmSjg8usReZ4=[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 3 signal(s)[0m
-    [1m[1] Eli Lilly received U.S. FDA approval for Foundayo (orforglipron), a new once-daily oral GLP-1 pill for chronic weight management in adults with obesity or overweight with weight-related medical problems. The approval was expedited under the FDA's Commissioner's National Priority Voucher program, and the drug is expected to begin shipping on April 6, 2026.[0m
-        [90mFoundayo (orforglipron) · FDA Approval · Obesity, weight management (also being investigated for type 2 diabetes, obstructive sleep apnea, osteoarthritis knee pain, hypertension, peripheral artery disease, and stress urinary incontinence).[0m
-        [93m↳ This approval and imminent launch will drive significant demand for manufacturing and packaging supplies, as well as ongoing R&D consumables for further studies in related indications.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZvF1LyOUX-PptW3vuDXNWblx-oLxSWsPn8FjSKsFiTigFsdyYwJidPPA6OA1iv41c33vYmdizJ0vpNf4xueF6RPRxM9hDZ3zEFn7SvNanHaFiBpL3keYEk9iLGX3uDBwxpfAJJIlKo4dAvpTB8mFvZouUsSIALc7gZv3pmYJFdW9qzvlqZq38A-VIiFw88ZopZRtGxkEwPMHX5gm5b1H0-s7A[0m
-    [1m[2] Eli Lilly announced a definitive agreement to acquire Centessa Pharmaceuticals plc, a clinical-stage company focused on developing orexin receptor 2 (OX2R) agonists for sleep-wake disorders. Centessa's lead candidate, cleminorexton, has completed Phase 2a studies.[0m
-        [90mCentessa Pharmaceuticals' pipeline, including cleminorexton (OX2R agonist) · Acquisition (lead candidate in Phase 2a) · Sleep-wake disorders, excessive daytime sleepiness, narcolepsy, idiopathic hypersomnia, and potentially broader neurological and psychiatric conditions.[0m
-        [93m↳ This acquisition indicates an expansion of Lilly's neuroscience pipeline, which will lead to increased R&D activities, including preclinical and clinical trial support, requiring a wide range of lab supplies and equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVlOJUrYCl9tK1G-IAwDYeorj-Utc9mWKPDMjweGSuE2841gvuZ0TZ3azmDMo4bXe-msCg6e1v0JGN_vCJFV4dtxcJMGaGi_IBkc0HP5JDnFGSPvXL91ScSXsrpM0Ijt2LPEjiBKczHWChbKYvk2lRcaylVIXaTzI47QSCqNuqVc4g2sbWjacihfKnZQRSuMXCOWSnQ3TdxKMM50tzED2sgWGrMh-cV8r-097-p0_Ag46hhK4JFUI0QbjTyndrFnJbylOyR7JUPgVb0g==[0m
-    [1m[3] Eli Lilly entered into a multi-billion-dollar collaboration with Insilico Medicine to leverage artificial intelligence for accelerating the discovery and development of new therapies across multiple disease areas, gaining an exclusive worldwide license to a portfolio of preclinical oral therapeutics.[0m
-        [90mPortfolio of preclinical oral therapeutics discovered using Insilico Medicine's AI platform · Preclinical development, drug discovery · Multiple disease areas, including potential targets in cancer, lung disease, obesity, metabolic disease, immunology, and pain.[0m
-        [93m↳ This collaboration signifies a significant investment in early-stage drug discovery, which will generate demand for high-throughput screening consumables, specialized reagents, and advanced analytical equipment for preclinical research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo3hms8YYGe86cM5FdYOB2COWToP0SZQyrDXxkes1Hbxd4fHNytM7gL0-EoejepsHN99t2d8urDoy5KNvBm8KIctFqm3bW9qgps7qfoEs2XfNWl3A5HRHGgQQminyLRMKMbHCwBC5dfrIhp5Is[0m
-  [90mSearching [expansion]...[0m  [92m[1m[EXPANSION] 1 signal(s)[0m
-    [1m[1] Eli Lilly announced a definitive agreement to acquire Centessa Pharmaceuticals for a total potential value of $7.8 billion, expanding its neuroscience portfolio with a focus on sleep-wake treatments.[0m
-        [90mBoston, MA (Centessa Pharmaceuticals' operations) and London, UK (Centessa Pharmaceuticals' operations) · Acquisition of a company and its neuroscience pipeline, expanding R&D capabilities. · $7.8 billion (upfront $6.3 billion + $1.5 billion CVR)[0m
-        [93m↳ This acquisition expands Eli Lilly's research and development capabilities in neuroscience, particularly in sleep-wake disorders, which will likely lead to increased demand for specialized lab reagents, consumables, and research equipment for drug discovery and development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXj2p73Mts2FJ9-ReElY3v6SgKM5DaySFYsZzAhl54gsBA8aAWrl7SOLHJ36ejBvVoQVh12BmE_wcZQ28ObtEOTowoemBgOIl4_XwOEk_iSCW3_QnLUf2qPIlb6Xj1WG8ew9vrcm83Yt9q8PAvQ9m2_qxT6lzIzBF5Sd5dGv1zVAqDBh2JnlzfoG7_O_IKPYNRDWe5biIvyoqwAeEKCHyL3vNtsPVREgERpS26IJrFwRYlyaVGFjekUTi3L7VT[0m
-  [90mSearching [partnership]...[0m  [95m[1m[PARTNERSHIP] 2 signal(s)[0m
-    [1m[1] Eli Lilly announced a definitive agreement to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders and other neurological conditions, specifically focusing on orexin receptor 2 (OX2R) agonists.[0m
-        [90mCentessa Pharmaceuticals plc · Acquisition · Up to $7.8 billion[0m
-        [93m↳ This acquisition signals expanded research and development in neuroscience, particularly in sleep-wake disorders, which will likely increase demand for specialized lab equipment, reagents for neurological research, and consumables for clinical trials.[0m
-        [90mhttps://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep[0m
-    [1m[2] Eli Lilly and Insilico Medicine announced a global R&D collaboration leveraging Insilico's AI engine to accelerate the discovery and development of novel therapeutics across multiple therapeutic areas, with Lilly gaining an exclusive worldwide license for a portfolio of preclinical drug candidates.[0m
-        [90mInsilico Medicine · Global R&D Collaboration and Licensing Deal · Up to $2.75 billion[0m
-        [93m↳ This collaboration signifies a significant investment in AI-driven drug discovery, which will drive demand for advanced computational resources, specialized bioinformatics software, and high-throughput screening consumables for early-stage drug development.[0m
-        [90mhttps://www.prnewswire.com/news-releases/insilico-medicine-announces-global-rd-collaboration-with-lilly-302099999.html[0m
-  [90mSearching [funding]...[0m  [93m[1m[FUNDING] 2 signal(s)[0m
-    [1m[1] Eli Lilly announced a definitive agreement to acquire Centessa Pharmaceuticals for an initial payment of $6.3 billion, with potential additional payments of up to $1.5 billion through contingent value rights, bringing the total potential deal value to $7.8 billion.[0m
-        [90m$7.8 billion (up to) · Acquisition · To expand Eli Lilly's neuroscience portfolio and capabilities into sleep medicine, acquiring Centessa's pipeline of orexin receptor 2 (OX2R) agonists for sleep-wake disorders.[0m
-        [93m↳ This acquisition will drive significant investment in research and development, clinical trials, and potentially manufacturing for new neuroscience drugs, directly increasing demand for lab supplies, reagents, and scientific equipment.[0m
-        [90mhttps://www.fiercebiotech.com/biotech/lilly-pays-63b-upfront-sleep-disorder-focused-centessa-latest-neuroscience-play[0m
-    [1m[2] Eli Lilly signed a $2.75 billion deal with Insilico Medicine for a drug discovery collaboration, including an upfront payment of $115 million, to leverage Insilico's AI platform for accelerating the discovery and development of novel therapeutics.[0m
-        [90m$2.75 billion (up to) · Strategic Collaboration/Licensing Agreement · To gain exclusive worldwide rights for the development, manufacturing, and commercialization of novel oral therapeutics in preclinical development for certain indications, and to collaborate on multiple R&D programs using Insilico's Pharma.AI platforms.[0m
-        [93m↳ This collaboration will fuel extensive AI-driven drug discovery and development efforts, leading to increased demand for advanced lab equipment, specialized reagents, and consumables for preclinical and clinical research.[0m
-        [90mhttps://www.247wallst.com/investing/2026/04/06/eli-lillys-path-to-1-trillion-runs-directly-through-the-ai-boom/[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 5 signal(s)[0m
-    [1m[1] Eli Lilly announced a multi-billion dollar collaboration with Insilico Medicine to leverage artificial intelligence for accelerated drug discovery and development across various disease areas, including an exclusive worldwide license for preclinical oral therapeutics.[0m
-        [90mAI-driven Drug Discovery Collaboration with Insilico Medicine · Utilizing Insilico's Pharma.AI platform for target identification, molecule design, and preclinical development of novel oral therapeutics across multiple therapeutic areas. · Ongoing, with an initial upfront payment and potential milestone payments totaling up to $2.75 billion.[0m
-        [93m↳ This collaboration will drive demand for advanced computational resources, specialized reagents for drug screening, and laboratory consumables for preclinical research and development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgAHYurji8HYh_x4GjmP8gJ1R5E-mxoeNrXDqtBdwmN_22MxzPvPV6pYgfiNaeammg5TR_nMjCwDUuS_zqJ6xACJ04sbCMM1_pSEtO40lwPn3oQWzowvbqPfdm0HyZdTgTcHBsrdqrqGpaJA9gCQ==[0m
-    [1m[2] Eli Lilly announced a definitive agreement to acquire Centessa Pharmaceuticals for approximately $6.3 billion upfront, with additional potential milestone payments, to expand its neuroscience portfolio with orexin receptor 2 (OX2R) agonists for sleep-wake disorders.[0m
-        [90mAcquisition of Centessa Pharmaceuticals · Acquisition of Centessa's pipeline of OX2R agonists, including lead candidate cleminorexton (in Phase 2a clinical studies), to develop treatments for narcolepsy, idiopathic hypersomnia, and other neurological conditions. · Expected to close in the third quarter of 2026, pending shareholder and regulatory approvals.[0m
-        [93m↳ This acquisition will increase demand for research reagents, specialized lab equipment for neuroscience studies, and consumables for clinical trial support as Centessa's pipeline advances.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgAHYurji8HYh_x4GjmP8gJ1R5E-mxoeNrXDqtBdwmN_22MxzPvPV6pYgfiNaeammg5TR_nMjCwDUuS_zqJ6xACJ04sbCMM1_pSEtO40lwPn3oQWzowvbqPfdm0HyZdTgTcHBsrdqrqGpaJA9gCQ==[0m
-    [1m[3] The U.S. Food and Drug Administration (FDA) granted expedited approval to Eli Lilly's new weight-loss pill, Foundayo (orforglipron), a once-daily oral GLP-1 drug for adults with obesity or overweight with weight-related medical problems.[0m
-        [90mFDA Approval and Launch of Foundayo (orforglipron) · Commercialization and distribution of Foundayo as a new oral treatment for obesity in the U.S. market, with prescriptions accepted immediately and shipping beginning April 6, 2026. · Approved April 1, 2026; shipping begins April 6, 2026.[0m
-        [93m↳ The launch of a new oral weight-loss medication will drive significant demand for manufacturing consumables, quality control reagents, and packaging supplies for large-scale production and distribution.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFytkCF02EPQAh4P7pcTiRvScRi0Mv4MqrBgriChFgGrNLHZvoopNH-TwOc2dY9zhrRgwy5ceo6XE2uSKDTtod4xd8hxwdb4G-LCQhhZ3Y3e6MkyPnD6w0lbUWN7ayDjzUc3RICkt-JgQWXBRrrgQRb853Y4py7vLMJPhRviQm-eVxxF9uL3leKn-pW62ZuuSwc4y3JZYpME5ogJEi-OeWIm9wPcQ==[0m
-    [1m[4] Eli Lilly announced plans to build a new $6.5 billion manufacturing facility at Generation Park in Houston, TX, which will focus on producing small molecule synthetic medicines, including orforglipron.[0m
-        [90mNew Manufacturing Plant in Houston, TX · Construction and operation of a next-generation synthetic medicine active pharmaceutical ingredient (API) facility to manufacture small molecule medicines across therapeutic areas, creating 615 new jobs. · Expected to be operational within five years.[0m
-        [93m↳ This large-scale manufacturing expansion will generate substantial demand for process equipment, bulk raw materials, analytical instruments, and various lab supplies for quality assurance and production.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxWrB17ps5pD95L6FvWNKlca0mGLmV2D8CrRyJT8lIlg5Zb71llZjJvuWPJZlrHqH97Mem9QADNrIajF35aahLrcYRbhH5Vma5VEDlBOnPdFi7QZb1VRaouIN-PDWM2UyDKQHqfDxNP0RMcgNzkc6fJxK2uQXy9qVowfFIK2-115BsFfzSW6sqrEbNq26mz5L5USBBRb2dfo4F9sbO7V-SlH9nOmXAwZxFZHwuykj4bZ0=[0m
-    [1m[5] Eli Lilly announced plans to build a new $3 billion facility in Katwijk, the Netherlands, at the Leiden Bio Science Park, to expand its capacity for innovative medicines and strengthen its global supply chain.[0m
-        [90mNew Manufacturing Plant in Katwijk, Netherlands · Construction and operation of a new facility to produce innovative medicines, creating 500 high-wage jobs and enhancing the company's global supply chain capabilities. · No specific completion timeline provided, but it is a new planned facility.[0m
-        [93m↳ This new facility will create significant demand for construction-related lab equipment, new manufacturing technologies, and ongoing supplies for research, development, and production within the Leiden Bio Science Park ecosystem.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEST_tvgi_o8KBhrvhh-AnDQ-Adc74PBkv7kLB1UJPViyD_4u1YsoNgAUhyd6HmV3a2s3Bry8Uv4lot7dg-FSP48VdBc1lUtTD0opA0063LLi-ewcBs95vQuD4HIBdRKowJt5Bkt6tS0lZjz7EG5lXldAPwRVGE7mJiJsu9RB5dM8LsVGJPKg9Sm8kjkIEZBZ2hwfRWD-4grryqxaIC6EeW[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 1 signal(s)[0m
-    [1m[1] The U.S. Food and Drug Administration (FDA) has approved Eli Lilly's new once-daily oral weight-loss pill, Foundayo (orforglipron), for chronic weight management in adults with obesity or those who are overweight with at least one weight-related condition. The approval was expedited under the FDA's Commissioner's National Priority Voucher (CNPV) program, resulting in a 50-day review period.[0m
-        [90mFoundayo (orforglipron) · NDA approval · Approved[0m
-        [93m↳ This approval will lead to increased demand for lab supplies, reagents, and consumables for manufacturing, quality control, and further research and development related to the drug's expanded use and market scale-up.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6Svn5nlCsDEa3fP3wVJiv7qK-LAcu4UA5QMHNlPnfO3n8pmVsxM9LB_l93J6plWnYeRLXzmpeLsN7TYykMymw0btUEXpi9xEPUZa2hsfFAbtjfJuFg2g45XuFtgZGyE9YI8wJU5ODaTuxdS0eQkag6kde8mlOIfSG6ZhBHWE5Kclnic7qRoRJifEP1F2r020L3_ccErh_VGnbAloX[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 7 signal(s)[0m
-    [1m[1] Eli Lilly is creating hundreds of high-skill jobs for its new state-of-the-art Lilly Medicine Foundry in Lebanon, Indiana, which will accelerate the development and delivery of innovative medicines and expand global access to clinical trial supply.[0m
-        [90mManufacturing personnel (e.g., Associate Director, Small Molecule Process Engineering; Engineer - Automation Engineering; Senior Principal Engineer - Automation Engineering; Advisor, Small Molecule Manufacturing Process Quality; Utilities Operations Supervisor; Scientist/Engineer, Technical Operations; Senior Scientist, Analytical Sciences and Technology; Lead Operator; Planning and Scheduling Supervisor; Utilities Engineer; Advisor – Process Engineer; Lab Operations Manager; Director, Biologics Process Translation & Execution; Senior Scientist, Contamination Control and Environmental Monitoring), R&D Scientists (e.g., Senior Scientist, Analytical Sciences and Technology), Clinical Operations (e.g., increasing capacity for clinical trial medicines). · Hundreds of high-skill jobs · Lebanon, Indiana, United States of America[0m
-        [93m↳ Increased headcount in manufacturing, R&D, and clinical operations signals new demand for lab supplies, reagents, consumables, and scientific equipment to support expanded production, research, and clinical trials.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD4P9NuCnIxHzjyDVIR_5GSfL97caq2lyiASSv-iDhXmhT-2bDtJHxz1Yx1MmI2dleTb5w5Nq34CNUkym0w4L05vXR1oiNOlhhdnuh2B3Vdf83WccTrVcJ3TWlHNgeCdfYIkuX0UrMoLWgfA==[0m
-    [1m[2] Eli Lilly is hiring for various manufacturing and quality roles at its new manufacturing facility in Huntsville, Alabama, which will produce small molecule synthetic and peptide medicines.[0m
-        [90mManufacturing/Quality (e.g., Senior Director - Quality Control Laboratories; Senior Director - API Manufacturing Quality Assurance; Engineer - Project Engineer-Design Lead) · Multiple roles · Huntsville, Alabama, United States of America[0m
-        [93m↳ Increased headcount in manufacturing and quality assurance signals new demand for lab supplies, reagents, consumables, and scientific equipment to support expanded production and quality control.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb9um-88J-R7wUJasQcd4fmo3W_W8g41z0T7dnDiAs5TZpRVyipPmcvN5HUwkatQk7AhMFhwkGBFiKNcrxIdZ3rtZXQfeGajH6MM_Rbf_GBeuUKjF6Z17QX2CHe--rbd5JrXtgbsjiNXtgbsjiNXKBqg==[0m
-    [1m[3] Eli Lilly is building a new campus in Concord, North Carolina, and is hiring for Lead Operator and other Parenteral (PAR) Operator roles to support the startup of parenteral (injectable) medications, device assembly, and packaging operations.[0m
-        [90mManufacturing/Quality (e.g., Lead Operator, Formulation; Parenteral Operators) · Multiple roles · Concord, North Carolina, United States of America[0m
-        [93m↳ Increased headcount in manufacturing operations signals new demand for lab supplies, reagents, consumables, and scientific equipment to support expanded production and packaging.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjepeinIV4_Qi3wgRAunwcl0X7IRs49W8efvI_8u3SQ7xWX8cDBq4F2p42ord4X3o3COlpTawr6jj10SVF3bzRHM8ASqUeTs3mBf5n8OPtqmNu8rgRq3-2803HdP0pofM4cde7cCOTzEvkWX_ny-oePq6F6Yq3hKPYc6NTxjVjxt6-aDQGjm0P5sYp[0m
-    [1m[4] Eli Lilly is actively hiring for various R&D positions in Boston, Massachusetts, focusing on genetic medicines, human genomics, translational data sciences, and gene-editing programs.[0m
-        [90mResearch & Development (e.g., ADME Project Leader; Post Doctoral Scientist – Human Genomics and Translational Data Sciences; Director - Statistics; Associate Director, Patient Engagement, Enrollment, and Retention; Chemist; Senior Scientist in oligonucleotide therapeutics, analytical CMC, and gene editing) · Multiple roles · Boston, Massachusetts, United States of America[0m
-        [93m↳ Increased headcount in R&D signals new demand for lab supplies, reagents, consumables, and scientific equipment to support expanded research and development activities.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcGBH6ZaZtwvBZHsBA_bqcxgN2Dws4AoJboqCGL0NyBTLE5_TkhMbJeW0LPdxzRKR8b7S3diDmEcwh-mUytsIz-ixN2v7FDokMoNZwZNOjyiA_lAFhxWKrmPbI8cmZeoA1bptihVRCZ6lGEAnggq0=[0m
-    [1m[5] Eli Lilly is seeking a Senior Advisor – AI for Science (ADMET Intelligence) in Indianapolis, Indiana, to architect the next generation of drug discovery by leveraging AI/ML.[0m
-        [90mResearch & Development (AI for Science) · One (Senior Advisor) · Indianapolis, Indiana, United States of America[0m
-        [93m↳ Increased headcount in AI for R&D signals new demand for advanced computing resources, specialized software, and potentially new lab equipment to support AI-driven drug discovery.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8wplu0T3DD1XCvOiAfGBn8np1hpjC5yV0xsK57NjoEuJkfZ00T5f1i-fOj7OXuoZ7lmK2D6hNhAV5xsRD8nI9-ZCHbIp9dcIUoZLXEI2hH7XcTWwBqDloYXazIGUKMhXcAfzn5HFghIsDe3SejX1v117lOOxfevWcXUMMg8mpkAOuTPhdBOmN6DeDJ4qIOwW_GQ==[0m
-    [1m[6] Eli Lilly's subsidiary, Adverum Biotechnologies, Inc., is hiring a Technical Development Scientist (Contract) in Redwood City, California, to support the development of gene therapy products.[0m
-        [90mResearch & Development (Technical Development Scientist) · One (Contract Technical Development Scientist) · Redwood City, California, United States of America[0m
-        [93m↳ Increased headcount in technical development for gene therapy signals new demand for specialized lab supplies, reagents, consumables, and scientific equipment to support gene therapy product development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEddQD0hR7efl1tUwAMrypldh1IhDLBwbuzz4ReSn0kNupFxJt76r5UsWS89ugVJtqtaOVKb6UvzFcoG6o6GjqsuYJunxVSGOG-9HnkotsR8s9BCXSUXJe3V6veq150UALx9Yqy5ek2nU1cZrA==[0m
-    [1m[7] Eli Lilly is constructing an advanced manufacturing facility in Houston, Texas, and is hiring a Principal - Engineer – Automation (Building Management Systems) to support its startup.[0m
-        [90mManufacturing (Automation Engineering) · One (Principal - Engineer) · Houston, Texas, United States of America[0m
-        [93m↳ Increased headcount in manufacturing automation engineering signals new demand for specialized equipment, software, and consumables to support the setup and operation of advanced manufacturing processes.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVTpg4ja3ZjxjG2_oW89wPKyLeUrxQRLSEziO9Ezc2XkxQ919R22IXHPFri3f9OeMqOVJ-ikAPzpQpvZHTQZO71xgbFtjpXS7T7XQQpiP0K1QP_DVn7106gEf_OsGgnLSAdLafG32IzEjwJoxjE0koCvXdCcP0o6NkeqG1vyZYh3QKzqW2_a-6NTulkRmydUt28BcmzF4qrP77WPk=[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  MERCK[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [93m[1m[CONTRACT] 1 signal(s)[0m
-    [1m[1] Delhi Pharmaceutical Sciences & Research University (DPSRU) has invited proposals for the supply of various brands of laboratory chemicals and reagents for the 2026-27 academic year, explicitly mentioning Merck (India) and Merck (Germany) among the desired makes and brands.[0m
-        [90mRequest for Proposal for supply of "LABORATRY CHEMICALS/REAGENTS' 2026-27" · Ongoing for 2026-27 annual contract (specific deadline not provided in snippet)[0m
-        [93m↳ This bid presents a direct opportunity for Thomas Scientific to supply Merck-branded laboratory chemicals and reagents to DPSRU, potentially securing an annual rate contract.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQoSRsahfY9l087XYrzcTNScGSN1jG5bCVIz6JQMfcChaiz3rjcC-8zec_rPKm3xDWy4At7zzTQXHVqQl4REUd1Ny1YoH9d_j1kAdb9ENNqzcbZAjaSlSyhO45mN-yLk9t1tib5GSokUxG6q2J3wK-JlAOOwb5CgGTXEWHpg_GcBFfhC0sWE4JseJSLzCbJC1MYJW_UhjgpDeYB-0HHJbQYvMTa9UFQRlrrlAyya2AdHAJEy-wOdd_N1USt8LjFyrhKqQ=[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 6 signal(s)[0m
-    [1m[1] Merck is set to acquire Terns Pharmaceutical for $6.7 billion, adding TERN-701, a promising leukemia treatment, to its growing hematology and cancer pipeline.[0m
-        [90mTERN-701 · Clinical-stage (Acquisition) · Hematology, Oncology (Chronic Myeloid Leukemia)[0m
-        [93m↳ This acquisition indicates Merck's expansion in oncology and hematology, potentially leading to increased R&D and manufacturing needs for TERN-701 and related programs.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj2x43mxxeJRaKNyZqqfqZWgliBJdWOmqGRvKFGriSpcDpm_DTryRc4FZB9-3SoKBglH3KgkIhjlfAUG27xLpgyjMEEaS9hgIMAW0GWv_WWAMKGPyiiRwW4NmezocTEPd5xtpBqiNW2EJYdbG0VYc5aRbFdPu7AdpC1RSqGpy1HQKChoFJ9LDc5srSPWz7bq5X1Oev7w9HI[0m
-    [1m[2] Merck announced detailed positive results from the Phase 3 CORALreef AddOn trial for enlicitide decanoate, an investigational oral PCSK9 inhibitor, showing significantly greater LDL-C reductions compared to other oral non-statin therapies.[0m
-        [90mEnlicitide Decanoate · Phase 3 (Positive Results), potential NDA submission · Cardiovascular Disease (Hypercholesterolemia, LDL-C reduction)[0m
-        [93m↳ Positive Phase 3 results and an expedited review pathway suggest an upcoming NDA submission and potential commercial launch, which will drive demand for manufacturing and quality control supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzeKUbus2SdKbWv5OnhjK1Mg2aH8-pTrJV3q2_ugab9YK-qWOR4qFs-cAiUI_aU8tYIu9JgYqRGBevZ_QYAVK8iyKA0z8NNefR-GHP_HgKP2WHnuZgF86iPHyEvyRbaHPw8M6D9xiez3lCaL-lwvv850zcGVa4EjYtSOw1X6y5jr3aHug_hsNVQRDI7qaIMkOpa-LO9GZVFRSnenpa_EgLrgfLgndTOfYAMwZHtpIC4p_sqmjm[0m
-    [1m[3] Merck has partnered with Infinimmune in a deal worth up to $838 million to leverage Infinimmune's AI-driven platform for discovering immune cell-directed antibodies for multiple disease targets.[0m
-        [90mMultiple antibodies (discovery stage) · Drug Discovery/Early Research & Development (Collaboration) · Multiple disease targets (immune cell-directed antibodies)[0m
-        [93m↳ This collaboration signals increased early-stage research activity at Merck, which will require a broad range of lab supplies, reagents, and potentially new equipment for antibody discovery and characterization.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjGGZK9-FwI8KyRMQWPtZUEZ9PYg2G1lvkxOFMhDIMjjzRM1LKjjcZ6jvytAR-MjPaShN5Q0mfqTnVQbsZo9gkMNYh49fk0g8W_4BytWuAof6fC69rTJ-rBxvnvQ-_41PcXSpbFBRhBq0kPDEOMpfA4KBHEfcKZ1TC27TYTUH4l3_P9UpcPReHweS7vNA=[0m
-    [1m[4] Merck has successfully acquired JSR Life Sciences' chromatography business, adding Amsphere™ Protein A resins and advanced Protein A chromatography capabilities to its downstream processing portfolio.[0m
-        [90mAmsphere™ Protein A resins · Commercial (Acquisition) · Biopharmaceutical manufacturing (downstream purification of monoclonal antibodies)[0m
-        [93m↳ This acquisition strengthens Merck's internal biopharmaceutical manufacturing capabilities, potentially leading to increased demand for related consumables and equipment as these operations are integrated and expanded.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdAMiVzcfQ_VWmZCxWzrIU0C3A6J9mypJqDop4KpddzAHJnxPJC51aBtl4PjI6NMRsuvOY3nvmrTco92er5ljey9bcaSzzhWiWg_eVYwOv_wIDkB6CyIFxPLFhlEQvObHMrd5P2GHtya2UR-VVdbNw4Xg9pGAS8Ik=[0m
-    [1m[5] The European Commission has approved KEYTRUDA® (pembrolizumab) in combination with paclitaxel, with or without bevacizumab, for the treatment of adults with PD-L1 (CPS ≥1) platinum-resistant recurrent ovarian carcinoma.[0m
-        [90mKEYTRUDA® (pembrolizumab) · Regulatory Approval (European Commission) · Oncology (Platinum-Resistant Recurrent Ovarian Carcinoma)[0m
-        [93m↳ This new approval for Keytruda in the EU will likely increase demand for the drug, leading to higher manufacturing volumes and associated needs for raw materials, quality control reagents, and production consumables.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDWyEIWAiDy-pX7ECD1Li-wFte7d_FTRmvSN3fxOhsqwZ3SKtBZhYe-tIikJxDso-iE-BOIkYLZSiBxa2Mg-FaFxRBH7rF2uNdVzW3ceH9Ozq7QvpEnQtfqMu3yh-wKX9wUEMF8oaf2wtHFLq_sSsz4Jbk3y_XcAuUXTwMRjbMQMIJNJvfEJHo0uwrTmc0dITd5bZKd93KJW0eYlEIQj3MaRiLTp4Cmy1DiAkRwM5myvVZZyQd8Ripb2kBRkAPjwOHncrOIvqN4M8qOMrJL1B4NX43qS_xB0SsKRp2jtlKw7q4rSrVNtX8XrM_plf4dllaK6pSFWJJ6zo3NV8S5O5LVzXTACE7g-XwimnG2Tb0W6t0vj6X[0m
-    [1m[6] Merck announced the initiation of a pivotal Phase 2b/3 trial for MK-8748 (Tiespectus), an investigational bispecific Tie2 agonist/VEGF inhibitor, for the treatment of neovascular age-related macular degeneration (NVAMD).[0m
-        [90mMK-8748 (Tiespectus) · Clinical Trial Initiation (Pivotal Phase 2b/3) · Ophthalmology (Neovascular Age-Related Macular Degeneration)[0m
-        [93m↳ The initiation of a pivotal Phase 2b/3 trial signifies a significant advancement in the development of MK-8748, creating immediate demand for clinical trial supplies, reagents for patient sample analysis, and potentially specialized equipment for ophthalmology research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVgD4A5Qq-VXfnL9OHYLWTEivzAwXmHuPc3c2hyfwKu0o8bm--RRoplLgDwmY7YCwrK64DeIKuaTVbjI6iKE4MMFTXArSvGyjOqmV-16YScYRaoUw-MhCkLIrUtHn4Fo1Sg85-jPdRIg1Q-tgjauLct4YTbPmCqh4b0V7dHUnmEX_cu3SOQabSDMMrIBSlpTaaJJQXCShbF0_xdZmObA1kEdFxvjwKD5VOoRou2s8J1Tu-_GMF9hKY82LAGeFio_a8rZ3-tE5J3etir6ewOU5FG4jRW4yCAIdGarLiSEL1Yv-oykZCh4Mc-D8ocsbiHPT1VaaKKRHDppcL54VU0ZYvFOGWUNte_wo6Q5-JKLz4ioj51l_afG1ASeg[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [95m[1m[PARTNERSHIP] 2 signal(s)[0m
-    [1m[1] Merck & Co. entered a collaboration with Infinimmune to discover and develop novel human antibody therapeutics using Infinimmune's AI-driven platform, with Merck holding exclusive rights to develop and commercialize the candidates.[0m
-        [90mInfinimmune · Collaboration/Licensing Deal · Up to $838 million (undisclosed upfront plus milestone payments)[0m
-        [93m↳ This collaboration signals increased R&D activity in antibody discovery and engineering, requiring specialized reagents, consumables, and potentially new equipment for AI-driven drug discovery and biologics development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV9T6mCR5cAL9zZlfv6eWE45QT-AbMWTlxMqr3R5-g6UdTN9CTnN8Wj1XKfURMQnGOrlzuyTpchPEFeq8BAqVGEMUvOpWUcxeY_ZDeVtDnsebJSC65sfwduSKDVb_TvyB0rQwUqjsuQOg52T35w-uhIOPoZKrRlH2AMMkwqNhRe0bUrPCg2kJYkIf4g3Bh4HKTu8XETmN1gw==[0m
-    [1m[2] Merck (Merck KGaA) completed the acquisition of JSR Life Sciences' chromatography business, which expands its protein A capabilities and downstream portfolio.[0m
-        [90mJSR Life Sciences (Chromatography Business) · Acquisition (Completion) · Undisclosed (previous intent to acquire mentioned strengthening downstream process offering)[0m
-        [93m↳ This acquisition strengthens Merck KGaA's position in bioprocessing and purification, suggesting increased demand for chromatography resins, filtration systems, and related lab consumables for biopharmaceutical manufacturing and research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDRvmpzyOlLO_RWdPzOM5zJyn11vtYgIsdH9oSmEjvEVX0XtZcu3SBq-nTf4EvIwuKqXJwtIAzrLrFMa4NQkB5V30ityXl8CWP-NCVzhyLs4-7KdOIdDTG6P8msTLhJ57FLQ0JImxbkRTouc06w6_Qwg==[0m
-  [90mSearching [funding]...[0m  [93m[1m[FUNDING] 3 signal(s)[0m
-    [1m[1] Merck & Co. Inc. intends to raise $8 billion through the sale of corporate bonds.[0m
-        [90m$8 billion · Bond Issuance · To finance the acquisition of Cidara Therapeutics Inc., repay debt, and for other general corporate purposes.[0m
-        [93m↳ This capital infusion for acquisitions and debt repayment indicates strategic growth and potential for increased R&D activities, leading to higher demand for specialized lab equipment and reagents.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExRiZ-nQ5wET5LJ1gAbJR4dhRdkNilrEYoo_yQqSuo6L-CyiljMIQi5NeDPyuf1r0TBG2saw3ZRWS1geVHhSAzhweamApdk59ZUV-Z1G-OpIpOPEVJYiy1BA8uLMnZN5Chyb-9Y97Z1WeMuS4GfBq3mMybCcXBGXPcPL_mXoWZUelaekxjpp8xgeMqns2JpXT5hiSktZTg_xhRgUn9m65c1a9Pm-ql75RLJn_gvw==[0m
-    [1m[2] Merck & Co. signed an R&D collaboration agreement with Infinimmune for up to $838 million in upfront and milestone payments.[0m
-        [90mUp to $838 million · Large Contract Award/R&D Collaboration · To develop multiple immune cell-directed antibodies for various disease targets.[0m
-        [93m↳ This significant investment in antibody discovery and development will directly translate into increased demand for reagents, consumables, and specialized equipment for immunology and cell biology research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSoVg1NIkIvlKTV4lzvLZx5deoQ8AV1oM5RIbRqADsREQjPBCqWo-8PzytpfLXVm3Pt73aw1AmBVFn-zqceKtKdDnVkoKJ4BotP5BoP5N0ee5kVxKhNQvESCfDy1uA3MfLCrhprwMNFC4nOWGPwMwjW-8ICLgLL18YEn876kcC1_VeMDfOkx9c38r-3DM=[0m
-    [1m[3] Merck & Co. agreed to acquire Terns Pharmaceuticals for approximately $6.7 billion.[0m
-        [90m$6.7 billion · Acquisition (Large Contract Award) · To acquire Terns Pharmaceuticals and its lead candidate TERN-701, an investigational oral allosteric BCR::ABL1 tyrosine kinase inhibitor for chronic myeloid leukemia.[0m
-        [93m↳ This acquisition expands Merck's oncology pipeline, suggesting increased investment in research and development for new cancer therapies, which will drive demand for specialized lab equipment, reagents, and consumables for drug discovery and clinical trials.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs1bhbgnJAWwqgmcCpjSB2bmr4FnFZ2veIKDYgSSDqYf8aBTax8ktB6PQUP0vFOCO9BUSS_zg3Ub9v-ZcW8TNfNFVU0gmpJNdBQXBZ9vttOnE0yc7WyhVSVSg0z0pS558DAOpJiZETiA34KWJ5Mreryrxwg6mgAG8A9Jt9wGcuhmvJ6Vw=[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 4 signal(s)[0m
-    [1m[1] Merck has entered into a research and development collaboration with Infinimmune, an antibody discovery startup, to develop multiple antibodies for various disease targets using Infinimmune's AI-driven platform. The deal could be worth up to $838 million in upfront and milestone payments.[0m
-        [90mMulti-target Antibody Discovery Collaboration with Infinimmune · Discovery and development of multiple immune cell-directed antibodies for various disease targets using an AI-driven platform. · Ongoing, with potential milestone payments up to $838 million.[0m
-        [93m↳ This collaboration signals increased demand for reagents, consumables, and specialized equipment for antibody discovery, screening, and development in Merck's research laboratories and potentially at Infinimmune.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETqs7JpZycVYg8PzG10FQOixjWTcHOY-Oz9mXEcP1ilyzD6tFjbp7OoiZKqyj-t-f3BWBXidhh00c_Ykh8G-nAkG51LUXtcUwT0IZ3xUaM-24v4hMdpnrlNbNRKJaipq1Y6e9bAh9ikzkfzJIv_teTFUStPGgb8QTahxTxVaTXBCYKyFl7b8ZTbZVHqMqi[0m
-    [1m[2] Merck has completed the acquisition of JSR Life Sciences' chromatography business, which adds Amsphere™ Protein A resins and advanced Protein A chromatography capabilities to Merck's downstream processing portfolio. This acquisition aims to enable efficient, scalable purification of monoclonal antibodies.[0m
-        [90mAcquisition of JSR Life Sciences' Chromatography Business · Expansion of downstream purification capabilities, specifically in Protein A chromatography, to enhance scalable manufacturing of monoclonal antibodies. · Acquisition completed on April 1, 2026.[0m
-        [93m↳ This acquisition indicates an increased need for chromatography resins, columns, and related purification equipment and consumables to support the scaled-up manufacturing of biologics.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH51vElq7GcjypzX_5LqCYbpGJMyXv-f-fKHx5s2e4J75Lgq6GpYCqw6xDXXQPW9WaFuXRcbt2D1E6hhRqRjZpXefhECtxMPSKE3lhVjYdYbxLhOdEG5vc5Z_b9TYoiP5BCZ9it8QoDHfB_BPwGp9uNlBbTYtzFWoMU[0m
-    [1m[3] Merck announced the initiation of a pivotal Phase 2b/3 trial (MALBEC) evaluating MK-8748 (Tiespectus), an investigational bispecific Tie2 agonist/VEGF inhibitor, for the treatment of neovascular (wet) age-related macular degeneration (NVAMD). A second study in NVAMD is scheduled to begin this year.[0m
-        [90mPivotal Phase 2b/3 Trial for MK-8748 (Tiespectus) · Clinical evaluation of MK-8748 for neovascular age-related macular degeneration (NVAMD), with a broader late-phase development program planned. · Trial initiated April 2, 2026; a second study in NVAMD is scheduled to begin this year.[0m
-        [93m↳ The initiation of a pivotal clinical trial for a novel bispecific antibody will drive demand for a wide range of lab supplies, reagents, and analytical equipment for ongoing research, development, and clinical testing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHIHtPxzLwQGhF6egUjF9SLCFEVVnetOWblCq_5wCA6F0dwVnzqpQHrsJ7QHg1ST2jao1qhR2-U1EJlULRUZftIUOkgiEm7blPCPNdIS9ZZrIKXDAfcFUgQI0wRI02Ta91uWWLKcNFmEQ17BtGAvBfB1bEw3fQOlsKgkARfwh109JzO7L3USo7b6e4P08LiumSUeKeoauWAfUbNGdw2zeDZp2QHieQWo32WBog0w5YEeSdnlkEH8MBfGBDjSanZxSL5b8m1CbMtyod1j_zGk4YNaNBCbWYlBodOz37h-SLVLWBTv_4BABtHQ9x_hQfegyKOm8tLHIkMrkYxzdFfgoqmdSI9uy29tSxv7Lz4U08koTPVwNo6hZVyxZ-[0m
-    [1m[4] Merck announced a $3 billion investment to expand its Center of Excellence for Pharmaceutical Ingredients and Small Molecule Manufacturing at its Elkton, Virginia site. This investment will add over 120,000 square feet to existing operations and will be a digitally-facing facility.[0m
-        [90mElkton, Virginia Manufacturing Site Expansion · Expansion of pharmaceutical ingredients and small molecule manufacturing capabilities, including new facilities and advanced digital manufacturing technologies. · Announced April 1, 2026; ongoing investment and expansion.[0m
-        [93m↳ This significant manufacturing scale-up will lead to substantial demand for new scientific equipment, reagents, and consumables for pharmaceutical production, quality control, and process development at the expanded facility.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJNABfYkbPjCQhsKN1EQgSsz2rf8XRtTJilIM_dpLBjFT3Tm5XVX5tITxE86QroOLdgUve3zs5mhbNYHqTOKxZAX_C9w9-IuJpmrHs7pCP7B7bxDeD6rfh7SCL6QI_cPnWwTOjA7E59KGbxHEcODFdcLzzvhR8BdAqsKXnEU-8ZgOrMygXLOSrCcn5qcY[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 1 signal(s)[0m
-    [1m[1] Merck Animal Health announced that the U.S. Food and Drug Administration (FDA) approved an expanded label for BRAVECTO® QUANTUM (fluralaner for extended-release injectable suspension) in dogs, adding treatment and control of Asian longhorned tick and Gulf Coast tick for 12 months.[0m
-        [90mBRAVECTO® QUANTUM (fluralaner for extended-release injectable suspension) · sNDA approval · Approved[0m
-        [93m↳ This expanded approval for an animal health product indicates increased demand for veterinary supplies and related consumables for administration and monitoring.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhHDqhYfDx6-3W0LG1iRWsG8M69V87TwVZrukz2IAxNs2m0fE-2Dwb0mh-hki8Zco-HFZfpatUDdAESlYeBkXgnb7RIR0AOT5vQVyFQozr-7m_DkdcFspAf-zW-uCRwNGSxi1FrnjoDZBCEtKiF-7aadIRxqfmnJKeWe1fz-EgYZDMGBv1WsX3fcDQDi1J-ld6b1kyOCBeH_K8mfPJospezvGyfCXUitUJGXsRH_NaS7fa6Yd-vobkXJTi2ETKVLf58Fs3VI-2IMtaTvT-wQn1WqNaOQB7qV4LU0hYIDB447uBRuS_w-ygbBcjMWObW18HGL23U1WmPHsR7N3ZBHnryCHZzwGNQUaubv4o890J8hnAFN3z0uVpzeSC4SPRolxL0jucjgRVMpkVRYGdAh50QCi2IhbC2HZgSB53Bg==[0m
-  [90mSearching [hiring]...[0m  [90m[hiring] No signals found.[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  MODERNA THERAPEUTICS[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 6 signal(s)[0m
-    [1m[1] Moderna will present late-breaking revaccination data for its investigational seasonal influenza vaccine, mRNA-1010, and its RSV vaccine, mRESVIA (mRNA-1345), at the ESCMID 2026 Global Congress. mRNA-1010 is currently under regulatory review in the US, Europe, Canada, and Australia, with potential first approvals anticipated in 2026. Interim results from an ongoing Phase 3 study for mRESVIA revaccination showed it was well-tolerated with no new safety concerns.[0m
-        [90mmRNA-1010 (seasonal influenza vaccine), mRESVIA (mRNA-1345, RSV vaccine) · Phase 3 (data presentation), Regulatory Review (mRNA-1010), Ongoing Phase 3 (mRESVIA revaccination) · Infectious Diseases (Seasonal Influenza, RSV)[0m
-        [93m↳ A lab supply sales rep should engage this account now to support ongoing clinical trials, regulatory submissions, and anticipated commercialization efforts for these vaccines, which will require significant lab resources for manufacturing, quality control, and further research.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmmVtwLBfLTPC3y_f-PljatuxhaGbY1GSgTATKHugRroKEEmmp5U0spdZ4gdBv-5F9CyDU3IvmBc1bPMl-EjCGYDC2y3HkF_552dKRKd0EjF_Qx9oOxlftAcdLeBpKIqnv66izXSdSp5V2g4FonC4izPPFDdWQVG6Jeq3oouLHj5YKCFjB8jPoK0K8PplWDtttaaoxee8u10RCbVt7DFW4_HMgthuyB2c5PA6yHm2VTxi5WxcuHkTQP5HwFA2wFqBLzONSSbvnFhQEWWvZnFRsreULiJad8u-F1A==[0m
-    [1m[2] The U.S. Food and Drug Administration (FDA) has approved Moderna's supplemental Biologics License Applications (sBLAs) for the 2025–2026 formulas of Spikevax® and mNEXSPIKE®, updated COVID-19 vaccines targeting the LP.8.1 variant. Health Canada also approved the updated Spikevax, and the European Medicines Agency's Committee for Medicinal Products for Human Use (CHMP) adopted a positive opinion recommending marketing authorization for an updated Spikevax formulation. Additionally, Moderna's combination vaccine against influenza and COVID-19, mRNA-1083, is currently under FDA review.[0m
-        [90mSpikevax® (COVID-19 vaccine), mNEXSPIKE® (COVID-19 vaccine), mRNA-1083 (Flu + COVID-19 combination vaccine) · FDA Approval (Spikevax, mNEXSPIKE), Health Canada Approval (Spikevax), EMA Positive Opinion (Spikevax), FDA Review (mRNA-1083) · Infectious Diseases (COVID-19, Seasonal Influenza)[0m
-        [93m↳ A lab supply sales rep should engage this account now to support the manufacturing, distribution, and ongoing surveillance of these approved and reviewed vaccines, which will drive demand for reagents, consumables, and quality control equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwOeih0q05uFVQCCSNoZCzbLoUG6wTuUJgA1hd-ndKr5Ilp-uImnAhj_6LRGzIcv74lPFIM3dGlbsGjwB8DJQ-gcpiCrYxDoMGHGk0buxuhtlGmVMNZvxTFlocr-W19Wu2QuZ7zS057MdjpcRmkTbWyAM[0m
-    [1m[3] Moderna's personalized cancer vaccine, mRNA-4157 (Intismeran autogene), partnered with Merck's Keytruda, is in Phase 3 trials for melanoma, with positive interim clinical results expected in 2026. Five-year data previously showed a 49% reduction in the risk of recurrence or death in high-risk melanoma patients. The company is also expanding into first-line treatments with mRNA-4157 in Phase 2 trials for first-line metastatic melanoma and first-line metastatic squamous NSCLC.[0m
-        [90mmRNA-4157 (Intismeran autogene) in combination with Keytruda · Phase 3 (melanoma), Phase 2 (first-line metastatic melanoma, first-line metastatic squamous NSCLC) · Oncology (Melanoma, Non-Small Cell Lung Cancer)[0m
-        [93m↳ A lab supply sales rep should engage this account now to support ongoing and upcoming clinical trials for this promising oncology program, which will require specialized reagents, cell culture media, and analytical equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfmLy_P-KKLK066pZb6v0hr8g_tRu4jwIaD43YZ8WxcU_Vrqf9NQp4i4wZrprYX5BL-FZ-W0CTtkeypbzA2qSag0-urXTPGyBJUgv6dATag7Q8wjYxLfwEbl8x55V463Y0Brw2by4xrjdrxMgqVsXjQjWahqd0mgmtadUMe-I2jbUPxpFcmclhrNFVeVgFRB6OnD5QoSVKBJkS3Id8IhfmzVJZzmnv1phDQw==[0m
-    [1m[4] Moderna's investigational seasonal influenza vaccine, mRNA-1010, has had its Biologics License Application (BLA) accepted for review by the FDA, with a Prescription Drug User Fee Act (PDUFA) goal date of August 5, 2026. This follows a resolution of a previous refusal-to-file letter.[0m
-        [90mmRNA-1010 (seasonal influenza vaccine) · BLA Accepted for Review, PDUFA Date Set · Infectious Diseases (Seasonal Influenza)[0m
-        [93m↳ A lab supply sales rep should engage this account now to support the final stages of regulatory review and prepare for potential commercial launch, which will necessitate increased demand for manufacturing and quality control supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwOeih0q05uFVQCCSNoZCzbLoUG6wTuUJgA1hd-ndKr5Ilp-uImnAhj_6LRGzIcv74lPFIM3dGlbsGjwB8DJQ-gcpiCrYxDoMGHGk0buxuhtlGmVMNZvxTFlocr-W19Wu2QuZ7zS057MdjpcRmkTbWyAM[0m
-    [1m[5] Moderna's norovirus vaccine (mRNA-1403) has fully enrolled its second Northern Hemisphere season, with a readout anticipated in 2026.[0m
-        [90mmRNA-1403 (Norovirus vaccine) · Clinical Trial (fully enrolled, readout anticipated) · Infectious Diseases (Norovirus)[0m
-        [93m↳ A lab supply sales rep should engage this account now to support the ongoing clinical trial activities and prepare for potential future development and manufacturing needs based on the anticipated data readout.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfmLy_P-KKLK066pZb6v0hr8g_tRu4jwIaD43YZ8WxcU_Vrqf9NQp4i4wZrprYX5BL-FZ-W0CTtkeypbzA2qSag0-urXTPGyBJUgv6dATag7Q8wjYxLfwEbl8x55V463Y0Brw2by4xrjdrxMgqVsXjQjWahqd0mgmtadUMe-I2jbUPxpFcmclhrNFVeVgFRB6OnD5QoSVKBJkS3Id8IhfmzVJZzmnv1phDQw==[0m
-    [1m[6] Moderna's investigational therapeutic for propionic acidemia (PA), mRNA-3927, has reached target enrollment in its registrational study, with data expected in 2026 and approval targeted for 2028. Additionally, a registrational study for mRNA-3705, an investigational therapeutic for methylmalonic acidemia (MMA), is expected to begin in 2026.[0m
-        [90mmRNA-3927 (Propionic Acidemia therapeutic), mRNA-3705 (Methylmalonic Acidemia therapeutic) · Registrational Study (mRNA-3927, target enrollment reached), Registrational Study (mRNA-3705, expected to begin) · Rare Diseases (Propionic Acidemia, Methylmalonic Acidemia)[0m
-        [93m↳ A lab supply sales rep should engage this account now to support the ongoing and upcoming registrational studies for these rare disease therapeutics, which will require specialized reagents, analytical equipment, and potentially custom solutions for manufacturing and testing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz241lH3nOGTaNAViGRFiUc3D2cAu6jTfe0nUjWvH-YiEzQ87DeVzGpaeerQfHuGc_NyN2sRjBzctt3XLbCbTb_96Z2xh7iK28pBmoi7Mmxprp03XkLfM5izrOtZfmUihZpBpuOXMFHLzlAKheWvZVORcTANdtC88JJDce03dWq7HlblIPwxy-i0-Pfra_qfl7a4hStQ8rH-eXvQaQrwJeG3mjCNVlyAosBrOoP4t_WiLXzNHC3nNsgIVIIlasI4PtZDCj3MAhPrFuWKfsBRVqpCE[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [90m[partnership] No signals found.[0m
-  [90mSearching [funding]...[0m  [90m[funding] No signals found.[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 2 signal(s)[0m
-    [1m[1] Moderna announced it will present late-breaking oral presentations on revaccination data for its investigational seasonal influenza vaccine (mRNA-1010) and its mRNA respiratory syncytial virus (RSV) vaccine (mRESVIA®/mRNA-1345) at the 2026 European Society of Clinical Microbiology and Infectious Diseases (ESCMID) Global Congress.[0m
-        [90mInvestigational Seasonal Influenza Vaccine (mRNA-1010) and mRESVIA® (mRNA-1345) Revaccination Data Presentations · Presentation of clinical data for mRNA-1010 and mRESVIA® at a major scientific conference, indicating ongoing clinical development and potential for future regulatory submissions and commercialization. · Presentations at ESCMID Global Congress, April 17-21, 2026. Potential first approvals for mRNA-1010 in 2026.[0m
-        [93m↳ Continued clinical development and potential commercialization of these vaccines will drive demand for reagents, consumables, and potentially manufacturing equipment for clinical trials and future production.[0m
-        [90mhttps://www.biospace.com/article/moderna-to-present-revaccination-data-for-its-investigational-seasonal-influenza-vaccine-and-for-mresvia-at-escmid-2026/[0m
-    [1m[2] Moderna is strategically expanding its pipeline of mRNA-based therapeutics and vaccines beyond infectious diseases into areas like oncology, with personalized oncology drug mRNA-4157 in advanced clinical trials for melanoma and non-small cell lung cancer.[0m
-        [90mStrategic Pipeline Expansion in mRNA Therapeutics (including Oncology) · Development of treatments targeting infectious diseases, rare genetic conditions, chronic illnesses, and specifically, personalized oncology drugs like mRNA-4157 in Phase II and III trials. · Interim clinical results for mRNA-4157 expected in 2026, with potential release for melanoma in 2027. Ongoing expansion of the broader pipeline.[0m
-        [93m↳ This strategic focus on a diversified pipeline, particularly in oncology, will drive sustained demand for a wide range of specialized lab supplies, reagents, and equipment for ongoing research, development, and clinical trials.[0m
-        [90mhttps://seekingalpha.com/article/4685116-moderna-speculative-buy-for-aggressive-investors-betting-on-mrnas-future[0m
-  [90mSearching [regulatory]...[0m  [90m[regulatory] No signals found.[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 6 signal(s)[0m
-    [1m[1] Moderna posted a job opening for a Scientist in Therapeutics Translational Research.[0m
-        [90mR&D Scientist (Therapeutics Translational Research) · 1 · Cambridge, MA[0m
-        [93m↳ Hiring an R&D scientist signals increased research activity, leading to demand for new lab supplies, reagents, and equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjgZaOr_kwiTk2hVnWe57ZrazXJb7H4YjPz1TIpuCQg43o5VhebUhTHbrN2K-1izGNUrGpfR9wwyAvm9iS42HnOWBD6lyx7baepQHJ7kWU4ihc6xfwT7TJGdDmqFiAwDgS27Qjv3j48sxvYB5og6L2OSSnIOnoKAyttJVBU2M7bF3D_LcFzw==[0m
-    [1m[2] Moderna posted a job opening for a Therapeutics Research Intern for 2026.[0m
-        [90mR&D (Therapeutics Research Intern) · 1 · Cambridge, MA[0m
-        [93m↳ Bringing on a research intern indicates an expansion of research capacity, which will drive demand for consumables and basic lab equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjgZaOr_kwiTk2hVnWe57ZrazXJb7H4YjPz1TIpuCQg43o5VhebUhTHbrN2K-1izGNUrGpfR9wwyAvm9iS42HnOWBD6lyx7baepQHJ7kWU4ihc6xfwT7TJGdDmqFiAwDgS27Qjv3j48sxvYB5og6L2OSSnIOnoKAyttJVBU2M7bF3D_LcFzw==[0m
-    [1m[3] Moderna posted a job opening for a Senior Research Associate in Virology.[0m
-        [90mR&D (Virology) · 1 · Cambridge, MA[0m
-        [93m↳ Adding a Senior Research Associate in Virology suggests an increase in virology-related research, requiring specialized reagents, cell culture media, and analytical instruments.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjgZaOr_kwiTk2hVnWe57ZrazXJb7H4YjPz1TIpuCQg43o5VhebUhTHbrN2K-1izGNUrGpfR9wwyAvm9iS42HnOWBD6lyx7baepQHJ7kWU4ihc6xfwT7TJGdDmqFiAwDgS27Qjv3j48sxvYB5og6L2OSSnIOnoKAyttJVBU2M7bF3D_LcFzw==[0m
-    [1m[4] Moderna posted a job opening for a 2026 Co-op in R&D Quality (GxP).[0m
-        [90mR&D Quality (GxP) · 1 · Remote[0m
-        [93m↳ Expanding R&D quality assurance personnel indicates a ramp-up in development activities requiring quality control consumables and testing supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqXplc6Pt2e07xm0TesXynvMSxSji9dYZlhRGH5nGHWkbUvDEmJhLSXXobXclZcBzuVSLyVyZwS8H53D84dQob3gf4bBGB-1mMKNYgieJR-ShfGBg4wWTjpGFuwpiK99lcHA9aVoAzuks=[0m
-    [1m[5] Moderna posted a job opening for an Associate Director, Clinical Quality Assurance.[0m
-        [90mClinical Operations (Quality Assurance) · 1 · Not specified[0m
-        [93m↳ Hiring for clinical quality assurance suggests an increase in clinical trial activities, necessitating demand for clinical trial supplies, sample collection kits, and analytical reagents.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdtOwX_JYsuMyrYmjnC6mzW58V4ZJtdLe5AEZGYHEncmZH7R0TAxykZHxj1J23h4JqTM6_UxNV0iiDgoxQZNoGQ8qe6NNB35bISfY-LAVYOZDkoVuKmkDbM0G9moGIpuQM0eK1WKHsIemUu0KOXJ-lQjuXJjcOqn3kgbeXJt8NYJrOAG6X1YW72orVomc6KJjNbDnh96pbxea0fA43q7KGXCibl6yIUm2LmdyIAxwxTYH7jgXOqSU1D7tXhS55D_4=[0m
-    [1m[6] Moderna posted a job opening for a Senior Manager, QA - Commercial GMP.[0m
-        [90mManufacturing (Quality Assurance - GMP) · 1 · Not specified[0m
-        [93m↳ A Senior Manager for Commercial GMP Quality Assurance indicates an expansion or ramp-up in manufacturing operations, driving demand for manufacturing consumables, quality control reagents, and process equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdtOwX_JYsuMyrYmjnC6mzW58V4ZJtdLe5AEZGYHEncmZH7R0TAxykZHxj1J23h4JqTM6_UxNV0iiDgoxQZNoGQ8qe6NNB35bISfY-LAVYOZDkoVuKmkDbM0G9moGIpuQM0eK1WKHsIemUu0KOXJ-lQjuXJjcOqn3kgbeXJt8NYJrOAG6X1YW72orVomc6KJjNbDnh96pbxea0fA43q7KGXCibl6yIUm2LmdyIAxwxTYH7jgXOqSU1D7tXhS55D_4=[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  PFIZER[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [91mERROR [pipeline]: expected string or bytes-like object[0m
-  [90m[pipeline] No signals found.[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [90m[partnership] No signals found.[0m
-  [90mSearching [funding]...[0m  [90m[funding] No signals found.[0m
-  [90mSearching [project]...[0m  [90m[project] No signals found.[0m
-  [90mSearching [regulatory]...[0m  [90m[regulatory] No signals found.[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 4 signal(s)[0m
-    [1m[1] Pfizer is investing in an "AI-first R&D engine" and a "large-scale migration of computational infrastructure to cloud" to enhance drug discovery and development, leading to hiring for roles such as Director of AI Engineering and Staff Software Engineers to support scientific computing and advanced analytics in vaccine R&D operations.[0m
-        [90mR&D Scientists, AI Engineers, Computational Scientists, Software Engineers (supporting R&D) · Significant (ongoing strategic initiative) · Various (including remote, Cambridge, MA)[0m
-        [93m↳ Expansion in AI-driven R&D and computational science will increase demand for specialized scientific equipment, high-performance computing components, and reagents for advanced research and development activities.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHguyksdzMsC9dudXC2nCOhsfn40QnPZ5ZBk4aOk8aux5q_1Xwv2ZScSflWHC6v_q2saZbdIdtpYwLOyh54tKxSlR1HHTF2761P70--ClUuJP5prvsuUOHe9t1aJvNQwSQRMbDfMiCz6rkQdEJzyxO7[0m
-    [1m[2] Pfizer Singapore is expanding its Tuas manufacturing site and is actively recruiting permanent employees, including Senior Warehouse Operators, to support this growth.[0m
-        [90mManufacturing personnel, Warehouse Operations · Multiple (site expansion) · Tuas, Singapore[0m
-        [93m↳ Expansion of a manufacturing site directly increases the need for raw materials, consumables, and equipment for production, quality control, and facility maintenance.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTB3nuHx1fDyQOEULAU1BMp4RYQh3NTcZbOrdI5QXXxGUagtPR3adqWRg3NZjW8Z5FFM_Lzu8tt3YqfeRAZG4AYZOcuSD5Fm5Nhjbo4qJGXm48edNZdah930LVeJ5IRoLQCihXgN7sxT8L7U_y0OfpsFb897nimjnW1WChGCsnaV-C2xmD5VQho7q_52XIoyC_Lukfwu6NdJjAsQ==[0m
-    [1m[3] Pfizer is seeking Senior Associate Scientists in Virology to generate viruses for clinical vaccine research and develop novel methods for large-scale virus production.[0m
-        [90mR&D Scientists (Virology), Vaccine Research · Multiple (supporting large-scale production) · Undisclosed in snippets[0m
-        [93m↳ Expansion in virology research and large-scale virus production directly increases demand for cell culture media, reagents, purification consumables, and specialized equipment for viral propagation and analysis.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh-vMH6G4Jk1PgGLbMnmC8iAMJ87OLZhpHtsaf3XGS6aUS5hqgcjKVufkDjMIqOprev62nRKDEDtwtErqnq_geB2BxP4nh1MENG94_NiQbx1R5uwXKsjKxphcRZ821xMDxzarEZZZiNdsfgNJYDJ5EtpfkyacD1Q==[0m
-    [1m[4] Leading pharmaceutical companies in NYC, including Pfizer, are driving biotech expansion and regulated manufacturing growth, creating new roles in quality assurance, validation, regulatory affairs, and production oversight.[0m
-        [90mManufacturing, Quality Assurance, Regulatory Affairs, Production Oversight · Multiple (ongoing growth) · New York City, NY[0m
-        [93m↳ Growth in manufacturing and regulatory teams signals increased production activities, requiring more lab supplies for quality control, process development, and compliance testing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3e5f-Ypv31SEjk7wOzC7d4TgnhFQxahb0kU3j3wq2W5J4pcR4y02QuDxyDyZpb0tEF9bu_11mzPtYG1cXBmcXO0By_GohcMXSSu3eG2pdcyWMFJQzNYk8qx0vN93N0nNAV5XE70viiv_7Kt_8ySaU-FfMmNHQZzp2jkndzosmgKKB6ihezTCqXGaCTZ-26ihhh9YYkvc3[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  REGENERON[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [93m[1m[CONTRACT] 4 signal(s)[0m
-    [1m[1] Regeneron is hiring a Global Procurement Buyer to manage daily order requests, including purchasing materials, scientific equipment, services, and office/business supplies, and to handle supplier quotes and competitive bids.[0m
-        [90mProcurement of Lab Materials, Scientific Equipment, and Consumables · N/A · N/A[0m
-        [93m↳ This indicates an ongoing need for a wide range of lab supplies, scientific equipment, and general consumables, presenting direct sales opportunities for Thomas Scientific through competitive bidding and supplier engagement.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0m-BqoFCC0arLc2tDKjTt169jR8-bm4EpsHqF8SqTjVZk9kfDorVrJBsMPqMBJBb62nwzE56vqgXMIc13hHP7BJwUL7mtJsTBP_apednYo9sd6QO2Uuomq9RLqos0qXt0lO-DxhbjvpQuHX7rw35rIrZC9fsdoqQIbHVWCkiY1S9_YM9g2a7NoY7qp8Ij8EVJQEzmFyZEh2IsLMoGr84I7nmLkp-TDt9qTztf_kRCwIqsXD5yKDRAKFXX5g==[0m
-    [1m[2] Regeneron is seeking a Director Global Procurement to develop category strategies for CMO & External Manufacturing Procurement, focusing on Drug Product & Drug Substance for antibodies, advanced therapies, and other therapeutic areas.[0m
-        [90mStrategic Procurement for External Manufacturing (Drug Product & Substance, Advanced Therapies) · N/A · N/A[0m
-        [93m↳ This signals high-value, strategic procurement needs for raw materials and specialized consumables critical for drug manufacturing and advanced therapies, offering opportunities for Thomas Scientific to supply specialized reagents and raw materials.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPVC6FBOypEieGwEKIgNIdF23_yANXclDjaYH6Filg2c8iUoMMyFD52bhu5tX_qf6e-Si_Ar6KNI361ziQWezhkDS4tA3GfIYXPk1WNshkmVnlrflXDsUPtb4P9S9S9niNKcbcDHSjWpXQ1AZF_MT-qgXykld-oeaIP_LNlUPBnp4sl7XTL9akttVnr72--2vVhjjsV_0jy6umA1-bCLbj2Ab8_bMViKzPSLZwpKiPQ=[0m
-    [1m[3] Regeneron is hiring a Global Procurement Lead: Packaging & Devices to develop a holistic strategy for packaging components and devices, manage supplier relationships, and drive cost efficiencies.[0m
-        [90mProcurement of Packaging Components and Devices · N/A · N/A[0m
-        [93m↳ This indicates a demand for specialized consumables and equipment related to packaging and medical devices, which could be a supply opportunity for Thomas Scientific if they offer relevant products or can source them.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuUGA9by0_31aueTuLL_LLokeDQzNoaz94IRFl8pJBc6a_LUJfgdlP_T3vWJ3xtXo2aYsVMv2zjV336h7_FPJtnCZpFn_uHonrnrB5D_0IFxsirjEMD7UlxMLyskuWdwEqz_QGXn0UUzuHhcE67HGTJzXPXfIBTvnMzfPK8ae5uGEw7lc_4aYvwHJHDIpNlGweCMQgMSQ0Et6t8VgKo5BvuQHAGvCgib5HitNWls34DrFtE7Sc[0m
-    [1m[4] Regeneron is seeking an Associate Director, Global Procurement, Direct, to develop a holistic category strategy and provide strategic leadership for the Packaging Components and Device Category.[0m
-        [90mStrategic Procurement for Packaging Components and Devices · N/A · N/A[0m
-        [93m↳ Similar to the Global Procurement Lead role, this signifies a strategic focus on sourcing packaging and device-related consumables and equipment, presenting potential sales avenues for Thomas Scientific in these specialized areas.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEksfG5NVR8YTzUPeQAKH1yn7bjAUv7fZrY91TQxo3wtptWvihW8hTmGAwNuzWK3j7TpmiKeuHsctQ-EETofkIt5G_OSKERwV-dRRLbD0-2gOJmwqdVV83sgWTC9pVoCVCreE0wWHv1RZju9IAr4XKQQ9Ajt-OmKLRir_atlE0oWXHrx8qq8gEu3PcWoYKd5XRBdQukVCwecgrj8TJiVTAOTnGiPbVYY0uYHRAMmWOOCZWqqSnk[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 4 signal(s)[0m
-    [1m[1] The U.S. Food and Drug Administration (FDA) has approved the extension of dosing intervals for EYLEA HD (aflibercept) up to every 20 weeks for patients with wet age-related macular degeneration (wAMD) and diabetic macular edema (DME) following one year of successful response.[0m
-        [90mEYLEA HD (aflibercept) · FDA Approval (label update) · Ophthalmology (wet Age-related Macular Degeneration, Diabetic Macular Edema)[0m
-        [93m↳ This approval indicates continued commercialization and potential for increased market share, suggesting ongoing demand for ophthalmic supplies and equipment for administration and monitoring.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdC7qQ88tvzerH9P1ieKlBsy_3RXwTa1qVudG-ZeVdX6_p0dw_wZMq8COB4_lS93s3KEne7Q0SVH3IO_2nFvIVyM-JW4djIh3YLsMNryas2l66vX0NIT7V2EA84k599o2a-jNvwWYXQzeUJT2y5yrF0LGT01AlnVAHISjq_9HLTPFtibbmJ91EAZuZGzNGArG5Ot4GaKwM7n4dIu9lOlpB5qLY7oDcbD1S99YupRdMHxsaCAo=[0m
-    [1m[2] Regeneron Pharmaceuticals announced a strategic collaboration with TriNetX to integrate its genomic and proteomic data with TriNetX's network of approximately 300 million de-identified patient health records to enhance drug discovery and development.[0m
-        [90mDrug Discovery and Development Platform (Genomic and Proteomic Data Integration) · Strategic Collaboration / Research & Development · Multiple (Drug Discovery, Digital Health Solutions)[0m
-        [93m↳ This collaboration signals increased research and development activities, creating demand for advanced genomic, proteomic, and general lab supplies and equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjO5g-Vb_paWcJOE3Ti2BgMoFUJbrh64Ci25vyzq5WGCiFlUUfsqyZIw74V7jqjAW8K3A5vYeBw8U_AOUCE-_sjpTpuA_DxMIiqrxgucT3t_zPfAc0kwASAEvdagvaTr48U6AAtc6S3MXUXSov2M03I5xGWpiM7axN8ujHrInsWantXSHlT1-rq4uwMMCCXl3piTuHwxJEdD-NCmcj_drrfokTs8YqObUb5XT__XAFL903BE2hVcTOJ8_JKA==[0m
-    [1m[3] Regeneron announced positive results from a Phase 3 trial of its obesity drug, olatorepatide (GLP-1/GIP agonist), in China, demonstrating up to 19% weight loss over 48 weeks, with plans for a global Phase 3 program in 2026.[0m
-        [90mOlatorepatide · Phase 3 (China results) / Global Phase 3 Program Planned · Obesity / Metabolic Diseases[0m
-        [93m↳ The positive Phase 3 results and planned global registrational trials indicate significant upcoming demand for clinical trial supplies, reagents, and equipment for large-scale studies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPzO-mnIOb7gOtmMDrDaKJniq1L-mW4rNxCaGO8A3dTaPaAXuuiE9OFD2Rxztv_9FAPHMgORbxTsJ_E_z9eqSdjzaSUOLkO5JJwGnTVCkP7Z26MWbTaUewN0VGlwZzk27Q5E3hZq-bWE7nYGbSEqkEAM8YP42MO5Rx3G8ATWB35R_QuvVrhaJaxoxfCl_OTE9SAfYPS-QRC0TOtWAHf1_FXS68tJ1IeQc=[0m
-    [1m[4] Regeneron Pharmaceuticals is providing compassionate use of Ubamatamab for patients with Renal Medullary Carcinoma (RMC) and Epithelioid Sarcoma, indicating an Individual Patient Investigational New Drug (IND) application.[0m
-        [90mUbamatamab · Compassionate Use (Individual Patient IND) · Oncology (Renal Medullary Carcinoma, Epithelioid Sarcoma)[0m
-        [93m↳ Compassionate use programs suggest ongoing clinical activity and a need for specialized reagents and consumables for patient treatment and monitoring.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVTldl9KSAweVDQqeEhpfJca1h4x2lPo6qIa-oI9Xe6H-uC7pNYdKwJjQ4eULsLb5IIwkzz4oK7sWOjjYQpuAmCAqxCNnG4nVyvMh4SK9MHeA7D568E_iYFaQqy13AG0X5utEEZ0=[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [95m[1m[PARTNERSHIP] 1 signal(s)[0m
-    [1m[1] Regeneron has entered into a strategic collaboration with TriNetX, gaining exclusive access to connect large-scale genomic and proteomic data with TriNetX's global electronic health record (EHR) network, encompassing approximately 300 million de-identified patients, to enhance drug discovery and development and to deliver digital health solutions.[0m
-        [90mTriNetX · Strategic Collaboration, Licensing Deal (data access), Investment · Up to $200 million investment by Regeneron in TriNetX[0m
-        [93m↳ This collaboration signals expanded research and development activities, particularly in genomics, proteomics, and AI-driven drug discovery, which will require significant lab resources for data analysis, experimental validation, and the development of new therapeutic candidates.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7mhHGn9IS9IDdDYvf-DyJcZYTDUPu5RNYKhPkqdpyXhR0LQpaNrQgkvNyG4K7c0SsLOXojDTCLY7OIDkTaZnB83X6wt6zx30gMVeG2oII6egyfVkM5vYxqJrMFkeuavpE0BaDASgcP_5Z_JprOTjTUrgml7KOQAkEoiV35doGkqgZLIXJrtpbAzelQR-uPfbiPSHTy-Cj-qHl9G-1s-0NtfdDRdpxNlznwqik5ApKpbX7P3x8edjF4BgsGI5YccGY5U6DXxGY-mDv_jaBtLtoZ21TYRpI_u5jW8hULnvP1T7F0RmHakKJS24IXHJuO8hIBDeLJld_ocH941wAc_0iAz97rlY-C5Uyi4pJmGtLJMTxOcksAyJ9urhe27rmmNleEYcrDJ1pDFIEo67Yey-_EaHIckVSTtH[0m
-  [90mSearching [funding]...[0m  [93m[1m[FUNDING] 1 signal(s)[0m
-    [1m[1] Regeneron Pharmaceuticals announced a strategic collaboration with TriNetX, which includes an investment of up to $200 million by Regeneron in TriNetX.[0m
-        [90m$200 million · Strategic Investment/Collaboration · The investment will support Regeneron's drug discovery and development capabilities, expand its genomic and proteomic EHR-linked database, and facilitate new initiatives for digital health solutions. TriNetX will use the capital to expand its infrastructure, enhance analytics capabilities, and accelerate the growth of its EHR-linked database platform.[0m
-        [93m↳ This investment will likely lead to increased demand for advanced genomics and proteomics lab equipment, reagents, and data storage solutions to support the expanded database and AI-driven drug discovery efforts.[0m
-        [90mhttps://www.tipranks.com/news/article/regeneron-to-invest-up-to-200m-in-trinetx-as-part-of-strategic-collaboration/[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 1 signal(s)[0m
-    [1m[1] Regeneron Pharmaceuticals announced a strategic collaboration with TriNetX to gain exclusive access to a vast network of de-identified electronic health records from approximately 300 million patients globally. This partnership aims to significantly expand Regeneron's world-leading genomic and proteomic EHR-linked database, accelerating drug discovery and development, and empowering artificial intelligence (AI) training algorithms for future digital health solutions. Regeneron plans to invest up to $200 million in TriNetX as part of this collaboration.[0m
-        [90mStrategic Collaboration with TriNetX for Enhanced Drug Discovery and Digital Health Solutions · The collaboration involves Regeneron connecting its large-scale genomic and proteomic data cohorts with TriNetX's phenotypic data network of approximately 300 million de-identified patients (170 million in the U.S.) to expand its EHR-linked database and develop AI-driven digital health solutions. · Announced between March 31 and April 5, 2026, with an investment of up to $200 million, indicating an ongoing strategic initiative.[0m
-        [93m↳ This collaboration will likely increase demand for advanced genomic and proteomic sequencing equipment, reagents, bioinformatics software, and high-performance computing infrastructure to manage and analyze the expanded datasets for drug discovery and AI development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbq6VlLGRmSaIB92sArCOwzr-M4tTLgQiSia1wbxgpwycY568pXhBoKc1hMCO2_hGNe9JyKhC_XwbectaTq4hRnw9oMV5uBVNI5Btznv2ckD1PZEXC1Qu-RZiKxfCEZRgZt_IJbCWZoIxLhpAmzzMAR04eWw0rha5YuwhXPS467W_i0JlZ0W4Up5UtVUAQvc1v_cooYBKPGDJsL7MmBmInLGK5s1Btqm7Zyv7HFoWIaCxFZQY7-uwn-GtYSQ==[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 3 signal(s)[0m
-    [1m[1] The U.S. Food and Drug Administration (FDA) has approved the extension of dosing intervals for Regeneron's EYLEA HD (aflibercept) up to every 20 weeks for patients with wet age-related macular degeneration (wAMD) and diabetic macular edema (DME) following one year of successful response.[0m
-        [90mEYLEA HD (aflibercept) · sNDA Approval · Extended dosing intervals approved[0m
-        [93m↳ This approval for extended dosing intervals could enhance patient convenience and adherence, potentially increasing the overall market share for EYLEA HD and driving long-term demand for its manufacturing and administration supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpUrc70Wi6dDprb23S2ZLzCFKDsdCI47wCptWyU7ui3ooUMl7IFx3jQvcZycX7q_ybgaxLgJDx129QWrGET-rPt535XVtlxCpSYhBhj_9LJ2MOHu6clL2JcK4Vdfk2aex_p4n6ahLVhGooe-eMjY1F9oSbGYYYNAvEXZNd3DOQPxeR3LKH8aGAjVS-U5YBGe3Z3uKinQqwaOtyNiDF2GZOpQy2vYgbpIWVsxvN0TWn3xG1ayfy33gbWIAiOhTUJq5M[0m
-    [1m[2] Regeneron's Biologics License Application (BLA) for odronextamab was impacted by FDA inspection findings at the Catalent Indiana LLC site, resulting in a Complete Response Letter (CRL) and delaying its approval.[0m
-        [90modronextamab (manufacturing at Catalent Indiana LLC site) · Impact of FDA Warning Letter on BLA · Complete Response Letter (CRL)[0m
-        [93m↳ The Complete Response Letter delays the market entry of odronextamab, postponing the demand for large-scale manufacturing supplies and potentially increasing the need for lab supplies related to remediation and resubmission efforts.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTj0U4ytC82QU6YGueGVGuk4kV9UrSSliF4isDxda2x6wxHyrtyomDF6N2aRflvphTd4bqBbC4ui7BBegObqKrWmXhNllgExgokRsDQW9RJKGz4gMeaf1qbo_i7BapBLbl__R14-PBTNVlgQAzM4IzZTjhFQRy8PMiY5bgLmuqixjybKJmWzE4yQ[0m
-    [1m[3] The U.S. Food and Drug Administration (FDA) has extended by three months the target action date of its priority review of the supplemental Biologics License Application (sBLA) for Dupixent (dupilumab).[0m
-        [90mDupixent (dupilumab) · Priority Review Designation Extension · Target action date extended by three months[0m
-        [93m↳ The extension of the priority review target action date delays potential market expansion for Dupixent, consequently postponing the anticipated increase in demand for associated lab supplies and manufacturing consumables.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ0g3I1zC_B8ObNBkvwK5pWacnGtlViFnzh5BXU8I6XpA2pGGf0_F9tB7lEdPOv1JoQI2Lrx03N5VbYgFfe0CdZ7a_WV9d20DlUnLeT57gEkhtLQsZuAW3vGVln_19mducKnjOQe5ye3xOujPYtBqNMg-YripDFNCllGYOtFB5bhJBO8c1ZSaQdrmFlBmQaBmSrA_v_JDfUFjR4sIH5QpYQ_LkR6X9f39Y1iMqnbxVEwYIsIGSzZ3sqVy2P2cOlehs9YtlpKAQwT0ed1qncjrH-V3NqbqLibLPPSsk6H6EWmtcXhT2WABTrhQed_UQyG1YLt4ktkSZN1HLrhgh_4RlsnmARUCtyUygeDc1aij9EQoGnZLl1xBQWktW[0m
-  [90mSearching [hiring]...[0m  [91mERROR [hiring]: expected string or bytes-like object[0m
-  [90m[hiring] No signals found.[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  ROCHE GROUP[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [94m[1m[GRANT] 1 signal(s)[0m
-    [1m[1] Roche has entered into an agreement with the U.S. government that includes tariff exemptions and a commitment of approximately US$50 billion for U.S. R&D and property, plant, and equipment (PP&E) investment over a five-year period.[0m
-        [90mRoche Holding · U.S. R&D and PP&E Investment · U.S. government · US$50 billion (over 5 years)[0m
-        [93m↳ This substantial commitment to U.S. R&D and PP&E investment indicates a significant increase in research and development activities, leading to potential demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXvsuu7iI-oeUCJiVyELcB3UUbhF5uAUXptnS4Ixd2MW5QWamHAq4dUFEy6xzdscQWDdq8Z9t6nx96x5qfaLD28K1DAYasByLsAEB1RHz-fN-i3Nc7uIkBFjCBBcFDsys46Bfu0kakNhYP8rpd13aSEYeI0rTpwwKN2ja4cEREIDzwTMKga7dvy8CXOgvq1rxv5ErjCdcx0kBZfshYvOrx1vKg-4L135EzKoDbFKO3R0kQyjhADmwR0TfOjRFv4BkHP4h5d7JLdXX-BOWke_jwEOzPQodtAzGkfoA53x00ZHgG34cGH_Ci4HfGnMJXVsFo6tCfYuA=[0m
-  [90mSearching [capital]...[0m  [92m[1m[CAPITAL] 1 signal(s)[0m
-    [1m[1] Roche announced a US$50 billion investment over the next five years to expand its manufacturing and R&D facilities across several U.S. states, including new and expanded sites in Kentucky, Indiana, New Jersey, Oregon, and California.[0m
-        [90mRoche's U.S. Manufacturing and R&D Facilities Expansion · United States (Kentucky, Indiana, New Jersey, Oregon, California, and other states) · $50 billion · Over the next five years (announced April 2026)[0m
-        [93m↳ This massive investment in new and expanded facilities will generate significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for both manufacturing and research operations.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj6QTjGfAs7Mq0kDznOfYrEXgSqUuVz7LfgKk4HcOd6SWtxFeFTr26lpBOq0FgcSuvmRUIkbZn8RvslFpplFBcsqkrXFxXO7XZRwEan81OWz8YrNIegFawAgPPQyD6iv1W[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [90m[pipeline] No signals found.[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [90m[partnership] No signals found.[0m
-  [90mSearching [funding]...[0m  [93m[1m[FUNDING] 2 signal(s)[0m
-    [1m[1] Roche has opened a new 23,000sqm research facility for the Institute of Human Biology (IHB) in Basel, Switzerland, with a significant investment in its development and ongoing annual research.[0m
-        [90m1.5 billion euros (for site development); 3.8 billion euros (annual research investment in Switzerland) · Internal Capital Allocation / Investment in R&D Infrastructure · Development of a new research facility, R&D in human organoid models, artificial intelligence, and drug discovery.[0m
-        [93m↳ This substantial investment in a new research facility and ongoing R&D will directly increase demand for advanced lab equipment, reagents, and consumables to support the expanded research activities in human biology, organoid models, and AI.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHR6Cz6lzXeEdktO6_2Eo-e4dbUgb_Fpez8YuAXpcdG_862lOuJeb_GpTGl21nUDwtTlECq0GAcQ5diYRqsIqmcuJwVBtJYKKs10mR7NEepgrzTJ_VB0-XKr7LNKIV1Ph3iblfbLyWS6S_aiOOxWDTJTVWNslnx5mw6Rll97b7L-JBXUYBOnoNU9EKVmuR4I1EbIt92aNOWEkv4rxj[0m
-    [1m[2] Roche is investing KRW 710 billion ($485 million) over the next five years in South Korea's biohealth sector through a Memorandum of Understanding (MOU) with the country's health ministry.[0m
-        [90m$485 million (KRW 710 billion) over five years · Government Contract / Strategic Investment · Attracting global clinical trials, fostering specialized R&D talent, and supporting promising domestic biohealth companies in Korea.[0m
-        [93m↳ This significant investment in a Korean R&D hub and clinical trials will drive demand for a wide range of lab supplies, reagents, and equipment to support expanded research, development, and clinical trial activities in the region.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEyhV0jS2NhCl_FkWL72VhrH8biL4J-Qdz8JVARhRTmGdCuqmb39HB0kWvoINFsswq76-Lg58-R4ui2L2hANAQAXGRpdU6pg7qZfWuX7VOd95FsSqNegtevCvAvn0RIz33i41i[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 3 signal(s)[0m
-    [1m[1] Chugai Pharmaceutical, a member of the Roche Group, initiated clinical development of a new monoclonal antibody for rare diseases in March 2026.[0m
-        [90mClinical development of a new monoclonal antibody for rare diseases · Development of a new monoclonal antibody for the treatment of rare diseases. · Initiated in March 2026.[0m
-        [93m↳ This initiative will drive demand for specialized reagents, cell culture media, and analytical equipment for preclinical and clinical trial phases.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDCapvWM7-A1-D0V91xlxdDqU-TqXeQqkd4wm9jYPKKXAXGkAcJBiCXj0Gs_kWW8o4uLMnzVKeLSF3zdZnyrifj_Ix3K-T2JEm321Y4qNRwoP6CM77C3zxK-LnPLkZuRRQT4D1k7LgInETYgd47xriJWpBd1UXQEUWNj5Yyomodqbhu7kauDmPIuVzvaTlAhyKa3C[0m
-    [1m[2] Abbott integrated its Precision Oncology portfolio with Flatiron Health's OncoEMR platform, a Roche Group company, on April 2, 2026, to streamline operations and boost the adoption of Abbott's diagnostic tests in cancer care.[0m
-        [90mIntegration of Abbott's Precision Oncology portfolio with Flatiron Health's OncoEMR platform · Streamlining diagnostic test ordering and results within electronic medical records for oncologists across more than 1,600 community cancer centers and 4,700 providers nationwide. · April 2, 2026 (integration announced).[0m
-        [93m↳ This integration could increase the utilization of Abbott's diagnostic tests, leading to higher demand for associated reagents, consumables, and potentially new diagnostic equipment in oncology settings.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOZUfV64WvR0R7r0DV_JXSdcnJgW5O0x7Km75ByrDvYGZcKXANJeZIAC8x5L4VxXoaFzHn0Wgznq0PRxeFJnN1F1JGWXrOEybZjX4CJnr5wgzK1OZ91P_w5hbxrnKWZe1StCGNUU4oFTLgfA==[0m
-    [1m[3] Roche is actively building positions in the amylin drug development space, which has seen over $19 billion in investment across nearly 40 programs over the past 18 months, as reported on March 31, 2026.[0m
-        [90mInvestment and development in amylin receptor agonist programs · Research and development of amylin-based therapies for obesity and related conditions, with nearly 40 amylin receptor agonist programs currently in development worldwide. · Ongoing, with significant investment over the past 18 months, reported on March 31, 2026.[0m
-        [93m↳ Roche's active involvement in amylin drug development signals a potential increase in demand for research reagents, analytical instruments, and specialized lab consumables for drug discovery and preclinical testing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFakOPTGgr7vtLiH6-ZwDhuLygpzgp8paukRx_GJeHFCwbvb44DOcU6P4DI-AWW-iuKZeD77xUwc8OIdi7kYMcnEGVQ_gF2tKPUu1fFmVuDhjgmMzsDMNtLDyPdaE6Nz6fKft2AusyiYy-yNenYtjrCLK2OaVB_cH44m9taGGPkNsh74BytH_6SjiYZ9Q-HOtY6KL1COn3QD-OCH0SsRtTMAEEayzSQN1oyzzxU59Je0DjqhET5gICYfam7nMzNJG1mYyc=[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 1 signal(s)[0m
-    [1m[1] Roche announced FDA 510(k) clearance for its cobas c 703 and cobas ISE neo analytical units, designed to enhance efficiency and capability for laboratory testing systems.[0m
-        [90mcobas c 703 and cobas ISE neo analytical units · 510(k) Clearance · Cleared[0m
-        [93m↳ This clearance indicates increased adoption and utilization of these new analytical units, which will drive demand for associated reagents, consumables, and maintenance supplies for clinical chemistry and ISE testing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8h1fUzxrnC6JxrFKslJKLTpRYykjpW_vaoBRdMOuNJtAGlG0ICOfQ939F-1zzzNN9VLUHfgcyQ8_-bT8DeCWIIo-_ck1Zch5mMFsgpq3ZgRth0cRShaAaPqNQgwWyprPaR83JDbEYEf0JAnHEETBjWwpqZXzV7uIcS-PSn0k0e8rJvzYCs5BgJtbsqTsmPY6_S4fVLuKaNVHpOY7d1yJATdmxkM49VKu4h6Rr2g==[0m
-  [90mSearching [hiring]...[0m  [90m[hiring] No signals found.[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  SANOFI[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [93m[1m[CONTRACT] 1 signal(s)[0m
-    [1m[1] Sanofi is actively seeking a Global Buyer for Lab Supplies & Services, a role that involves leading and executing global RFPs for lab supplies, negotiating contracts, and managing strategic supplier relationships to meet Sanofi R&D's critical business needs.[0m
-        [90mGlobal Lab Supplies & Services Procurement (Upcoming RFPs)[0m
-        [93m↳ This indicates a clear upcoming demand for lab supplies and services at a global scale, presenting a direct opportunity for Thomas Scientific to engage with Sanofi's procurement team for future bids.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2_Q2Aq9gaR0dJIlS9UR2sUqQ44Q7sJCy1bPx6XXexq5osxjo16XkLPejCSMQW4mEVZY0rYa92ph3Ml60cz7vGo4fUIv8-G-1SqeezFcelKIGID8oQVyj-wt7ieWBW0K8P-iFnNA0BV48eoiZTOfv04v0CSnO2Z7eZx5DL2trFnkNw7yylj4aC-qw8wrW1BFqCKuy08IGT360=[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 3 signal(s)[0m
-    [1m[1] Sanofi's lunsekimig met primary and key secondary endpoints in Phase 2 respiratory studies for asthma (AIRCULES) and chronic rhinosinusitis with nasal polyps (DUET).[0m
-        [90mlunsekimig · Phase 2 Results · Asthma, Chronic Rhinosinusitis with Nasal Polyps (CRSwNP)[0m
-        [93m↳ Positive Phase 2 results indicate progression towards later-stage clinical trials, suggesting an ongoing need for research-grade reagents, consumables, and potentially specialized equipment for further development and larger studies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxnUgLBP_tnp94BISzZjkH6yO-FO6USDkbR5ClvnUxFbhrfqNmgS4chFMk2xUkH-q-x_7x8W0fabVs9vu1kObQr_WISpQRqH6Gcwcjfxnhyf_KXTyD-mFvFUe5EbuWXKU3l_rZKWINiqKznq3VFw==[0m
-    [1m[2] Sanofi's Rezurock received approval in the European Union for the treatment of chronic graft-vs-host disease in adults and children aged 12 years and older.[0m
-        [90mRezurock · EU Approval · Chronic Graft-versus-Host Disease (GVHD)[0m
-        [93m↳ Market approval in the EU signals commercial launch and increased demand for manufacturing, quality control, and distribution-related lab supplies and equipment to support product availability.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxnUgLBP_tnp94BISzZjkH6yO-FO6USDkbR5ClvnUxFbhrfqNmgS4chFMk2xUkH-q-x_7x8W0fabVs9vu1kObQr_WISpQRqH6Gcwcjfxnhyf_KXTyD-mFvFUe5EbuWXKU3l_rZKWINiqKznq3VFw==[0m
-    [1m[3] Sanofi submitted a supplemental Biologic License Application (sBLA) to the FDA for its subcutaneous (SC) isatuximab-irfc (Sarclisa) for the treatment of multiple myeloma.[0m
-        [90mSarclisa (isatuximab-irfc) subcutaneous formulation · sBLA Submission · Multiple Myeloma[0m
-        [93m↳ An sBLA submission indicates an active regulatory review for a new formulation, which will likely drive demand for analytical testing, stability studies, and manufacturing process optimization supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW21ITKulMrGqWvx4tYy5SqqjhSEi_J0bwLoT99BvbF9GzLqzqDkdf-udAz6GIWRg8hNEdKWeWa16tzMqLXr96z6KWyJpwyaKTX6C1JWjt-kFuOrypJNnsh7DUUYXnk9eBWMQ1dPXQ8u835E_Dz8fqYs1RC9WeUVjt8CzlZhM=[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [95m[1m[PARTNERSHIP] 3 signal(s)[0m
-    [1m[1] Sanofi has launched an application period for its startup program at STATION F, offering partnership pathways for promising MVPs focused on challenges like connecting automated labs and agentic portfolio analytics.[0m
-        [90mStartups selected for the STATION F program · Collaboration/Partnership Program · Undisclosed (Sanofi covers STATION F fees, potential for Sanofi as a client)[0m
-        [93m↳ This program signals new collaborative research and development efforts, potentially leading to increased demand for lab supplies and equipment from startups working on Sanofi's challenges.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPlIpydKnf43M1d3QBAOoywlH4CNDG6xzfgOXtufcKlTKqOoY3KbP2cZM66KeHjyKSXx6dFohsjF8mb0-Lo22HrlzaXQyzr6z97UztunXgH8UfVnQjpwScnEQF5FP0_OASAFx-Fg7AqHA=[0m
-    [1m[2] The American Medical Informatics Association (AMIA) announced Sanofi as a Platinum Corporate Partner for the 2026 calendar year, focusing on leveraging data and intelligence to improve chronic disease care.[0m
-        [90mAmerican Medical Informatics Association (AMIA) · Corporate Partnership/Collaboration · Undisclosed[0m
-        [93m↳ This partnership indicates Sanofi's investment in health informatics and data-driven healthcare solutions, which could lead to increased demand for data analysis tools and related IT infrastructure in lab settings.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFXzkF3KHnZGWCaZzUNdVbrNXNfMAV6UScaka8c-Fqbm8QlqDpYaKboeOlCj30LamS_uqOPL-2hCCoY0yXhmLLfQMJDhXzyVXNhCNcw6t3-oX9RsK-rvkVoqIcAlMKUF24emW3ElYa1lzHR-pDx12dSU2knSZM5ry2XvfGCxB4_4tqFLFsUxLmY7GMEs=[0m
-    [1m[3] An article from April 6, 2026, highlights Sanofi's ongoing collaboration with Novavax to combine Novavax's Nuvaxovid with Sanofi's flu shots, with plans to move into phase 3 trials for a COVID-flu combination vaccine.[0m
-        [90mNovavax · Collaboration (ongoing with new developments) · Undisclosed (no new financial terms for this specific development)[0m
-        [93m↳ The progression of the COVID-flu combination vaccine into phase 3 trials signifies expanded clinical research and development activities, requiring increased lab testing, reagents, and potentially new equipment for large-scale trials.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKbJ7ms-pRnVaMlilC-t1FE9MczVg9SmHT-s2Oh0f3hibbbzOK2V2iakpyzbjpZgW9qi-H9QmBBy4o0wgO09XHi4egRMmEN6QoJNApauUqOPyJmWdAv2T5xl1yXc1wqW2bepjIAncd34OAYF_2TODCZiJLVZlV0jnB8vEt6D_Asx47kmStmJuXnq0aaFuKKhoASMH63_Ef7zJe32TZmzDnQW1y99HmnlYtYACmf9vfwQ==[0m
-  [90mSearching [funding]...[0m  [90m[funding] No signals found.[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 3 signal(s)[0m
-    [1m[1] Sanofi announced that its novel bispecific Nanobody® VHH, lunsekimig, met primary and key secondary endpoints in Phase 2 respiratory studies for moderate-to-severe asthma and chronic rhinosinusitis with nasal polyps (CRSwNP). The AIRCULES phase 2b study in asthma and the DUET phase 2a study in CRSwNP showed statistically significant and clinically meaningful reductions in exacerbations and improvements in lung function. Lunsekimig was well tolerated across all studies.[0m
-        [90mLunsekimig Phase 2 Respiratory Studies (Asthma and CRSwNP) · Clinical development of lunsekimig, a bispecific Nanobody® VHH, for moderate-to-severe asthma and chronic rhinosinusitis with nasal polyps. · Phase 2 studies completed as of April 7, 2026, with detailed results to be presented at upcoming medical congresses.[0m
-        [93m↳ Positive Phase 2 results for lunsekimig indicate continued and potentially expanded research and development efforts, driving demand for reagents, consumables, and analytical equipment for further clinical trials and eventual manufacturing scale-up.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuZzjQDqCgV0SKL60QZGE2VTEpXgZtoPPAoBDgWJ_Qp6Ok9SvaXNGMN3Jd-QOxiwovfP_2DIMLZeZDcsWmaMvtGe4gvcPQMTbaTd5oiftdNLnhGEPwmQzSdTmMXvuw47DVjTT6_ifrjhpboiTb[0m
-    [1m[2] Sanofi's Rezurock (belumosudil) has received approval in the European Union (EU) for the treatment of chronic graft-versus-host disease (cGVHD) in adult and pediatric patients 12 years and older who have failed at least one prior line of systemic therapy.[0m
-        [90mRezurock EU Approval for cGVHD · Commercialization and distribution of Rezurock in the European Union for chronic graft-versus-host disease. · Approved in the EU on March 31, 2026.[0m
-        [93m↳ The EU approval of Rezurock will lead to increased manufacturing and distribution, requiring a steady supply of production consumables, quality control reagents, and potentially new or expanded manufacturing equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7_jUGSjLlHEZR23HOQXGWHHMtmOZpuEiHqUfMPmuyrZhH6QjKySmYoYmEwpvyADAU4WWUZrPKaiFiWKGS3q65uCrIk9p-WnR6eTIcXfIRzmTByqjmtCas-DP7hHS1[0m
-    [1m[3] Sanofi has opened applications for its 'Sanofi x STATION F' startup program, seeking groundbreaking proposals in next-gen approaches to counter aging-related cellular and tissue dysfunction, and paradigm-shifting strategies for targeted delivery of large molecules and nucleic acids. Selected startups will receive up to $500,000 per project for 18 months of research.[0m
-        [90mSanofi x STATION F Startup Program · External innovation program focusing on immunoscience and targeted delivery, involving collaboration with startups and academic labs. · Applications open from March 31, 2026, to May 3, 2026, with the first cohort launching in June 2026 for an average duration of 3-6 months.[0m
-        [93m↳ This initiative will drive demand for a wide range of scientific supplies, reagents, and equipment as participating startups and academic labs conduct research and development in cutting-edge areas of immunology and drug delivery.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN-ABhm9vDUnYoXO_JnK4pxkoKfB9xZR_WkftMSZCsKf54CzM6B1czGux5jXzkUCCPsKdbuXReDHN1jmWMyFBv1ik9OkbBHVtbTyIASkrnKgSygal3Q8burcnxcziE3wb1JWrqbenbMg==[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 1 signal(s)[0m
-    [1m[1] News reports from early April 2026 indicate that the FDA is expected to make a decision in April 2026 regarding Sanofi's supplemental Biologic License Application (sBLA) for subcutaneous isatuximab-irfc (Sarclisa) for the treatment of multiple myeloma.[0m
-        [90misatuximab-irfc (Sarclisa) · sBLA Review · FDA decision expected in April 2026.[0m
-        [93m↳ A potential approval would lead to increased demand for manufacturing and testing supplies for the subcutaneous formulation to support market launch and scale-up.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG55s2gSogtz9hwgmuJk6T8Q8H5Xice_0HduBkp9npzY3IOLF3z00wsZ6JWjobFdu5aK4fNHUxFKms6oDd8FNFGpoWXtwrlz7mrmaIbo4v1bfGh1muOToiClUvOSQW4yVU1kz9G5CMyeIp5HtCwSqW7Gk7tFsmAFtZo9WPRMUw=[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 4 signal(s)[0m
-    [1m[1] Sanofi is hiring Production Operators for its cGMP commercial manufacturing facility in Pearl River, NY, focusing on large-scale recombinant protein production.[0m
-        [90mManufacturing Personnel (Production Operator) · Unspecified · Pearl River, NY[0m
-        [93m↳ Expansion of manufacturing operations for recombinant protein production directly increases demand for cell culture media, bioreactor consumables, purification reagents, and analytical lab supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlVcLF4TRMgYEDy58rSV548H6auL-l6SzYWb2I8XjUS-X9NjDfLv2Bzo5Hh16lWjE5il00CU2WhNKwSajEqzjCxy0YziFZEyNzBOyZFLUUHJjow2s74xVtTfKZYV5ioAydkEvroaLayIj_OIlBjx1_qDcAtLfBMC7sq-mCDDt7dd_u_OuozZ7Qge_yzB8etXEs8P5GaIiND1l9cKvKNxF32NqoQ7_s98ez_TkY[0m
-    [1m[2] Sanofi is seeking a Senior Manufacturing Associate for its Bioprocess Engineering Technical Pilot Plant (BPE-TPP) in Framingham, MA, to advance biological therapies from early development through late-stage manufacturing.[0m
-        [90mManufacturing Personnel (Senior Manufacturing Associate) · Unspecified · Framingham, MA[0m
-        [93m↳ Hiring for a Senior Manufacturing Associate in bioprocess engineering indicates increased activity in developing and scaling up biological therapies, driving demand for specialized bioprocessing equipment, reagents, and consumables.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZd_kHqcZTaj0dtD9ye-VyHudHRm0PM3Bsmnel50Na_pOJm_qx9KXuZN-17k8UTrJ_UL0NyayK7PoqzHvBUTuq61OlAraTQkh5gayoavDnfOja1TFZ-m_j8Q7dVSpV4Q97KQp-YZoEgFHAcUYKAO__nBwq5Cvtu__ag7S8SU6wg2Y60AOte5wG_48FbI7dloim5GCW[0m
-    [1m[3] Sanofi is hiring a Senior Manufacturing Technician for its packaging group at the Northborough Operations Center facility, responsible for labeling and packaging final drug products.[0m
-        [90mManufacturing Personnel (Senior Manufacturing Technician) · Unspecified · Northborough, MA[0m
-        [93m↳ An increase in manufacturing technicians for packaging signals a ramp-up in drug product finishing, leading to higher demand for packaging materials, quality control consumables, and related equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2-6CIxskDqRBjVw5sCzx0ZKS5L4geqZT2dYn4sd20v6nzpoxACLkaph60TZKshAqk6c3Or_CueNwnX9iuGyHiz03F6uP5UmdxCuwnZOSVPkeCEuj0BjeC2enYBJtxmh6K_04c8qGmM5iDtC002g088vE5_qYMqEt_B3iDFxJ1g8mPfDxeXAeBj6BXf5h4zoIDdqBND0UUc74oZNNoEEFfBV2hpZRgLAF9s9g4cIsB9icbK9hzAiMUSnytrWQrCPPY_4Bw0FhyMiWHCYuqw[0m
-    [1m[4] Sanofi opened a new digitally enabled, continuous manufacturing facility in Framingham, Massachusetts, to accelerate the commercialization of novel biologics.[0m
-        [90mManufacturing (Facility Expansion) · Not specified · Framingham, MA[0m
-        [93m↳ The launch of a new, advanced manufacturing facility indicates a significant increase in production capacity, which will drive substantial demand for new scientific equipment, reagents, and consumables to support ongoing operations.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED5cvFhiiR3wOrY_3DOJxSdgTyGB5lTYoxyDi6JCXqwgtdG8SIEqP3-Zj7nXSgrHTz_S5UkMhkInpQ-7Jwc2VbCKKqhPRxTNWedVnoek-rrAZakCb38xkGIN9jrGHMhqg1eSfcj-IoQeuE7VhuAGiuAYyUOqzRteq2so_SogXvzSGxAL94geO0GS92Kb1eMPLNYqyv_bugrWDlFfY=[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  TAKEDA[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 3 signal(s)[0m
-    [1m[1] Takeda announced positive Phase 3 results for zasocitinib (TAK-279), an oral TYK2 inhibitor, in adults with moderate-to-severe plaque psoriasis, demonstrating rapid and durable skin clearance. The company is on track to submit a New Drug Application (NDA) to the US FDA and other regulatory authorities starting in fiscal year 2026.[0m
-        [90mzasocitinib (TAK-279) · Phase 3 / NDA Submission Planned · Plaque Psoriasis, Psoriatic Arthritis, Crohn's Disease, Ulcerative Colitis, Vitiligo, Hidradenitis Suppurativa[0m
-        [93m↳ A sales rep should engage Takeda now to support the upcoming NDA submission and potential launch of zasocitinib, as well as ongoing clinical trials for other inflammatory conditions, which will require significant lab supplies and equipment.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9LSwHenmq5sgK6fhJgXcDuPAB5gh_ioROM6D4jen82AVvXRKgJrGMwY2ONF6Cwj-fsfx96GGZh3ty_MPbYeMJdZ3R3T6qilbxaKEQtC-WVGPQtx_5TNNzgow9tPjK_FRCZO26JtSwLRyCOe6NDigG8wMy7ckr1UJi7EGaQO9mF5YD9WuVFqnCebtxYyVpoQ6y0O8oslAGp99IY-OV-fTvq0yJ[0m
-    [1m[2] Axsome Therapeutics acquired exclusive global rights to TAK-063 (balipodect), a novel, oral, potent, and selective phosphodiesterase 10A (PDE10A) inhibitor, from Takeda. Axsome plans to develop TAK-063 for schizophrenia and Tourette syndrome, with Phase 3 trial-enabling activities for schizophrenia expected to begin in 2026.[0m
-        [90mTAK-063 (balipodect) · Pre-Phase 3 (Phase 3 trial-enabling activities planned) · Schizophrenia, Tourette Syndrome[0m
-        [93m↳ A sales rep should engage Axsome Therapeutics now as they prepare to initiate Phase 3 trials for TAK-063, indicating a need for research reagents, consumables, and equipment for large-scale clinical studies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqqBj_Izo3E9Bl2aCoAvblyyumXHL-kMqcjQa1iGW2-e-b4AfvHilPqAh6iEz2HMpmrtAFQRlQpWgHe6yikxwcwEnFp-5rZst8MiYc7kF5yWgq8TEhCZ6X0LMgEHJPHQMoTU4xqYYdWuMonll0TGVLyC-gz5mtAZ0fCY8ukohXGRcjWmmlAKmyM0F9z_0gbBiTJFZJb77xwrNqMLw-EW-QGUyOd40DnSfJafc=[0m
-    [1m[3] Takeda terminated its collaboration agreement with Denali Therapeutics for DNL593 (PTV:PGRN), an investigational therapy for GRN-related frontotemporal dementia (FTD-GRN), with Denali regaining full rights and continuing clinical development.[0m
-        [90mDNL593 (PTV:PGRN) · Phase 1/2 (Denali continuing development) · GRN-related Frontotemporal Dementia (FTD-GRN)[0m
-        [93m↳ While Takeda exited, Denali Therapeutics will continue the development of DNL593, presenting an opportunity for a sales rep to engage Denali for their ongoing clinical trial needs.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcneFMgjwxhHQlcQjsQvm1ClWyifXYcScsPxZXdFz_sUW6OAnh25wJmRgSBFuFli2vACm03dzCqoUVhsAubmEfVRqNbV0NNxaphxQ9f4zqpVV2mIgIOxV0kt5v5bjS3NXzXu9Ulg-2ZLepgW6CQyISFcBCJ9fsUQaXXDGF_rtCWkV1BNL0wk-KkuHQuKcPB8gnod_zeUFWbk2YOn4TDslsy6ZyiJpFfw3hJsnC4pG7WxE4dg==[0m
-  [90mSearching [expansion]...[0m  [92m[1m[EXPANSION] 2 signal(s)[0m
-    [1m[1] Takeda Pharmaceutical Company has exercised its option to acquire Adaptate Biotherapeutics, a UK immunotherapy company, to expand its γδ T cell engager platform for solid tumors, adding pre-clinical candidates and discovery pipeline programs to its immuno-oncology portfolio.[0m
-        [90mUnited Kingdom (Adaptate Biotherapeutics) · Acquisition, R&D capability expansion · Not disclosed[0m
-        [93m↳ This acquisition indicates an expansion of Takeda's research and development activities, creating new procurement opportunities for specialized lab supplies and reagents.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRQuhxpkjel8EknSE3QB3d5wpRl-Nzj23ZZXlNIrA4T1FzqBZ1CQwjaY1yt9dQXJqDKxxqvi8rdiwpmjb6p80bwyBxeGsZZid-0u9lq4G6mOYxMx9_K21Un-LFTKElX5gjZak58_HgZYx1_eoj2FE6JT0ZGIt3bB56jZIfFF_Zmt-Y3VwLGMrBZCClKK8cfJ_oICMYo840KZiM8-y0wvru6YcuOoPe2mPwbwyO2tSxhlOEvHQigHAZLx-1lpIu2grCqbz1ZM-ChA_9wOSo[0m
-    [1m[2] Takeda is establishing and scaling R&D Global Capability Centers (GCC) in Poland and Bangaluru, India, aligning with a multi-hub, globally integrated R&D development model, in addition to its Cambridge, MA hub.[0m
-        [90mPoland, Bangaluru (India), Cambridge, MA (USA) · New laboratory sites, geographic expansion, R&D capacity scale-up · Not disclosed[0m
-        [93m↳ The establishment of new R&D hubs in multiple locations signifies increased demand for a wide range of laboratory equipment, consumables, and reagents for scientific research and development.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvpwpDXj2HIzBnZcQXw0Y2K425sENoFRj27iYoZY818vlUXTGKCA7AGlT02Vf_oJoqhgMRmcn9YnVQBnRyilfyX3zXKqZBIQiGdDH6U7Bp01SeoK1_54RI4tSWhsHTHsduFnRWo32b0fFfo2anTrH42IXd-Z7NekuW7qTATzFJBlU_MmBVflwaEoMxY6QY7L9CEv9_g==[0m
-  [90mSearching [partnership]...[0m  [95m[1m[PARTNERSHIP] 1 signal(s)[0m
-    [1m[1] Takeda Pharmaceutical Company Limited has terminated its collaboration agreement with Denali Therapeutics Inc. for the co-development and co-commercialization of DNL593 (PTV:PGRN), an investigational therapy for frontotemporal dementia. The termination is effective 60 days from the notice date, and all rights to the DNL593 program will revert to Denali. The decision was based on strategic considerations and not related to efficacy or safety data.[0m
-        [90mDenali Therapeutics Inc. · Collaboration Termination · N/A[0m
-        [93m↳ The termination of this collaboration may lead to a shift in research and development focus for both companies, potentially impacting future demand for specific lab supplies related to neurodegenerative disease research as Denali continues independently.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEol_u50VrUwM6UiVp2Wgxe91sKR7WO5paRUNunp9x6dH8oHbBOrBnZAKjR_8fLdNrzN4hkGEkAafBJnS39gJ3J4eWI5IIingq6VQGIt087HgG2cp-rb-93PN2yleyDrRNKcoHwmnk_S-_20Oznw791WxBnS8Up1ftfV91IgkCNKyuEsgEobXN1fO6aBIexDrkxN4ByyfS7A0DVX9YaRrBe3C5h6i1abF05mu3ItDkxZ090Zpw_jDNpHPb7JgxDdQ[0m
-  [90mSearching [funding]...[0m  [90m[funding] No signals found.[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 1 signal(s)[0m
-    [1m[1] Takeda Pharmaceutical Company Limited accelerated development of peptide therapeutics for rare diseases and gastrointestinal disorders.[0m
-        [90mPeptide Therapeutics Development · Rare diseases and gastrointestinal disorders · March 2026 (accelerated development)[0m
-        [93m↳ Accelerated development of peptide therapeutics will likely increase demand for specialized reagents, chromatography columns, and analytical equipment for peptide synthesis, purification, and characterization.[0m
-        [90mhttps://www.openpr.com/news/3440798/peptide-therapeutics-market-2026-glp-1-drugs-fda-approvals[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 2 signal(s)[0m
-    [1m[1] The FDA has accepted Takeda's New Drug Application (NDA) and granted Priority Review for oveporexton (TAK-861) for the treatment of narcolepsy type 1 (NT1).[0m
-        [90mOveporexton (TAK-861) · NDA Acceptance, Priority Review Designation · Accepted, Granted[0m
-        [93m↳ This Priority Review designation indicates an accelerated path to potential market approval, signaling upcoming demand for manufacturing and clinical trial scale-up supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEngSg2AS0KWMajto5dqsPC6hkJP0VdgxcsrE37jGLqCAFoviDPFGp7-ZqxuYQWW9TRYw8imR2rAglCBrtp3ocBKxTwUoghn4OSFihxq--b9Qq6D2zoHxggxBeglp-dkNiEw53UZumaeZ0c99t4KoRm5_bfZWtFvaL49PDaHEQ5kdfV6aw57D2MsTwm-QQkTgh1[0m
-    [1m[2] Takeda and Protagonist Therapeutics announced that the FDA accepted the new drug application for and granted priority review to rusfertide for the treatment of adults with polycythemia vera.[0m
-        [90mRusfertide · NDA Acceptance, Priority Review Designation · Accepted, Granted[0m
-        [93m↳ This Priority Review designation indicates an accelerated path to potential market approval, signaling upcoming demand for manufacturing and clinical trial scale-up supplies.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7mRoUTBy8_zTuOw-itWjkxBEuslm5oVC8VK38zl8syR7ZeJDgE-pzqhHhi015NkkUAT8tTOXKz-32oU_L1s38Fqkt5-gpvQzxlImhmJcn6M2gmaT-x2e5kFyNpf0lh88yWugsqFY-WsZVo3C6q863pmL2NZy5AMf2zN-Pv8uZOXes4iN2wBmupfx8xIcoG5HZu4sGmhQmOEoDiLFO[0m
-  [90mSearching [hiring]...[0m  [90m[hiring] No signals found.[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  VERTEX PHARMACEUTICAL[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [90m[pipeline] No signals found.[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [90m[partnership] No signals found.[0m
-  [90mSearching [funding]...[0m  [90m[funding] No signals found.[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 2 signal(s)[0m
-    [1m[1] Vertex announced US FDA approval for label extensions of ALYFTREK® and TRIKAFTA®, expanding availability of these medicines to approximately 95% of all people with CF in the United States.[0m
-        [90mALYFTREK® and TRIKAFTA® Label Extensions · Expanded treatment eligibility for cystic fibrosis patients in the US. · Approved April 1, 2026. Ongoing manufacturing and distribution.[0m
-        [93m↳ The expanded approval of these therapies will likely increase production volumes, driving demand for raw materials, reagents, and consumables used in pharmaceutical manufacturing and quality control.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0dwDto2owCG10eLF4otfZNAhTzqqDD8m9lr6CW5aLeMbtizsQFQQRUQdDM4UaEgJlnwXfnGrPAMgTY-a38kVJN3i2N83GXs0lRR8pA0W717bnYcfw8H-qt4kZqjkkPEZREyc37GdHzNE8sHqkKrvNwIz8gI797i6M8MTgaicRFg99qPLKdunLsAzENZA1TG8nz5rV1290wtM7vw2ur_-XCsXrZUqP7gNrZQsQX2hssLkV4w==[0m
-    [1m[2] Vertex announced positive Week 36 interim analysis results for primary and all secondary endpoints in the RAINIER Phase 3 Trial of Povetacicept in adults with IgA Nephropathy.[0m
-        [90mRAINIER Phase 3 Trial of Povetacicept · Clinical trial for IgA Nephropathy treatment. · Positive interim results announced; trial ongoing/moving towards regulatory submission.[0m
-        [93m↳ Positive Phase 3 trial results indicate progression towards potential regulatory approval and future commercialization, which will necessitate increased demand for research reagents, lab consumables, and potentially manufacturing equipment for further development and production.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9rRprjJaM01BuY-rEh789Z_4ih83OrQkYsAO70iolPuaeQ94ERdk5dcb6DsVOz68DkMJW3vChaxE90lPSZMCzEzNhRBmqUXpiI9R1q1bxb3AuYSO9J19JlksmJfjEx0SXio7hLUAfmNYltS2ZYY4NbPGQQOgTpn4CTXSlawuaY7lxSxj5FbGfz6pi5l2v2oPUqMJaYnVKhrX50ONwAlhfiMgsxh6ECEQNHOOiM4zPTBrYCa7BuA==[0m
-  [90mSearching [regulatory]...[0m  [31m[1m[REGULATORY] 2 signal(s)[0m
-    [1m[1] Vertex Pharmaceuticals announced that the U.S. FDA approved expanded use of ALYFTREK® (vanzacaftor/tezacaftor/deutivacaftor) for cystic fibrosis patients aged 6 and older, and TRIKAFTA® (elexacaftor/tezacaftor/ivacaftor and ivacaftor) for CF patients aged 2 and older, expanding eligibility to approximately 95% of all people with CF in the United States.[0m
-        [90mALYFTREK® (vanzacaftor/tezacaftor/deutivacaftor) and TRIKAFTA® (elexacaftor/tezacaftor/ivacaftor and ivacaftor) · sNDA Approval (Label Expansion) · Approved[0m
-        [93m↳ This label expansion for existing therapies will likely lead to increased prescription volume and a sustained demand for associated lab supplies, reagents, and consumables for patient monitoring and drug administration.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvGSZ6zZuOTgap-Uw1UUeDgNv1N5ZvBKUl8bjcDuLfnlkK6y97NtQ0emdKBKkUCfxPZGI7ASfrdRZUmjfsNNKlnbCEQjww7JAWa0nMCTQCNSsllMgNTFedRjWPBKtv1jJXQBet2uMX_ZK7HLrVbc5wHZQmP1y-c3CpO9Rk2TMVGqWofjUCFsadWn8qMxEeQvX3tybhTiczvUpGRYiK1Y3zV5A9XQiOILRKDXtP3JQ2Adk[0m
-    [1m[2] Vertex Pharmaceuticals completed the submission of its rolling Biologics License Application (BLA) to the U.S. Food and Drug Administration (FDA) for potential accelerated approval of povetacicept for the treatment of immunoglobulin A nephropathy (IgAN) in adults, utilizing a priority review voucher to expedite the review process.[0m
-        [90mPovetacicept · BLA Submission, Priority Review Designation · Submission Completed, Priority Review Granted (expected)[0m
-        [93m↳ The BLA submission and anticipated priority review for povetacicept indicate a potential new drug approval in the near future, which would drive demand for research and development lab supplies, as well as future manufacturing and clinical testing consumables for scale-up.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvGSZ6zZuOTgap-Uw1UUeDgNv1N5ZvBKUl8bjcDuLfnlkK6y97NtQ0emdKBKkUCfxPZGI7ASfrdRZUmjfsNNKlnbCEQjww7JAWa0nMCTQCNSsllMgNTFedRjWPBKtv1jJXQBet2uMX_ZK7HLrVbc5wHZQmP1y-c3CpO9Rk2TMVGqWofjUCFsadWn8qMxEeQvX3tybhTiczvUpGRYiK1Y3zV5A9XQiOILRKDXtP3JQ2Adk[0m
-  [90mSearching [hiring]...[0m  [90m[hiring] No signals found.[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[97m[1m  NOVONESIS[0m  [90m[BioPharma][0m
-[1m════════════════════════════════════════════════════════════[0m
-  [90mSearching [grant]...[0m  [90m[grant] No signals found.[0m
-  [90mSearching [capital]...[0m  [90m[capital] No signals found.[0m
-  [90mSearching [contract]...[0m  [90m[contract] No signals found.[0m
-  [90mSearching [pipeline]...[0m  [95m[1m[PIPELINE] 3 signal(s)[0m
-    [1m[1] Novonesis has partnered with the Technical University of Denmark's Bright hub to engineer microbes that convert waste carbon dioxide into sustainable protein at an industrial scale, as part of a project backed by the Gates and Novo Nordisk Foundations.[0m
-        [90mMicrobes for CO2 to protein conversion · Research and Development / Early-stage discovery · Sustainable food production, industrial biotechnology, protein production[0m
-        [93m↳ This initiative indicates a need for bioreactor supplies, fermentation equipment, and analytical tools for microbial engineering and protein analysis.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK0Dh2xvi7NBV8k4gnuCfR0ZTwVyKzTmMElR_3HRNpZ2oa08v8PPxcQT9VW9nDDnY1qGj6CXPKoeYyWm4mZF-qts0NPU_pCJ0fj0sZs0hxxzABYXAQ4zCOWKMisj4QhzIxBbQv_ODrHKYIZhgdbBhf_a9jO4c4R6ZIOt7jQqQ-3nWnTKmKIv4FkwTI7V7FdX35W1X0Q6FadwSDdjGuw63-dLIc[0m
-    [1m[2] Novonesis officially launched "next-gen" spore-forming bacteria, HU58 and SC208, in the U.S., designed to survive extreme manufacturing conditions for probiotic applications in various food products.[0m
-        [90mHU58 and SC208 (spore-forming probiotic strains) · Product Launch / Commercialization · Gut health, food and beverage fortification, probiotics[0m
-        [93m↳ The launch of new probiotic strains suggests increased production needs, requiring fermentation media, quality control reagents, and packaging solutions for biological products.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6_TO5NfGAHruuxM9yuONf9wUtnLFoSf3G87uMkwQMeuGuden0REcKJUgIVOvqA45z9g6VohJfFFU1Rs0kR952fxiST8FVEWd-useOzvThkvzOv-Tp6ytLAkfc-7xSFt31scud6WkyM91VqBUMOsxlnN-870T1ccAU0EC9-V_VYKVr[0m
-    [1m[3] Novonesis is involved in the HealthFerm webinar, where study results about the health and microbiome-related impact of fermented foods will be discussed, indicating ongoing research in this area.[0m
-        [90mHealthFerm project (research on fermented foods and microbiome) · Research and Development · Microbiome, gut health, fermented foods, nutrition[0m
-        [93m↳ Ongoing research in microbiome and fermented foods will require a steady supply of microbiology media, analytical reagents for metabolite profiling, and potentially specialized equipment for microbiome analysis.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC-NYsstZ771O31NMJXikMJGroQ5o9WaSTv9rhgQKXQgF0F_avv8FcQyOV2ig4PIqvrweQwk3VLvR23nR4NvElYHyJ3dYOb649GzvOIsFlOavPlhvdF470Ap-ozpeRXeBOISCqO16KhMqNXcARzGrYNpluSbCcUcSq3DkCMI3Ud723h5gsIHSuGgds-hWV-ENcOQLxZJKJw2nEUCUeExQkFvMp9icleWA0QJlSpaDVTis57HYjzR7eKvjkNLuIBcj3XDihiChhyNk8qbbeE7785P5f0Uhkeg6JeH96[0m
-  [90mSearching [expansion]...[0m  [90m[expansion] No signals found.[0m
-  [90mSearching [partnership]...[0m  [90m[partnership] No signals found.[0m
-  [90mSearching [funding]...[0m  [93m[1m[FUNDING] 1 signal(s)[0m
-    [1m[1] Novonesis has partnered with the Technical University of Denmark's Bright hub to engineer microbes that convert waste CO2 into sustainable protein, as part of the Acetate Consortium, which has received nearly $55 million in funding from the Gates and Novo Nordisk Foundations.[0m
-        [90m$55 million · Grants/Consortium Funding · To engineer microbes for converting waste CO2 into sustainable protein, optimize yeast strains for acetate-based fermentation, and scale the underlying technologies.[0m
-        [93m↳ This funding directly supports research and development in biotechnology, which will likely increase demand for specialized reagents, consumables, and fermentation equipment for microbial engineering and protein production.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4K7GkLj4ZXP4_FLcLUVwPZALz2yp8PBtLFkL-4UWsL9oIQSCgfrZn0KL6aN8VIIqoU75HWpLA4Ag9HrOG2z3ikpHNBEQx4YwHryHo-01AE6Kr59lQoE1pM8ckt0mIhZU6vbIbXITwqBP_uJ68f6PCwgVjANLG1z6fI2l5irxav6Ps7PfDkEvlM3rN9Zrehlw5yuveZbftp3HRZyMaZwHXcM77[0m
-  [90mSearching [project]...[0m  [91m[1m[PROJECT] 2 signal(s)[0m
-    [1m[1] Novonesis has partnered with the Technical University of Denmark's Bright hub to engineer microbes that convert waste carbon dioxide into sustainable protein at an industrial scale. This collaboration is part of the Acetate Consortium, backed by the Gates and Novo Nordisk Foundations, aiming to produce microbial proteins using CO2-derived acetate as feedstock. The project will leverage Bright's high-throughput automated evolution platform to optimize yeast strains for acetate-based fermentation, focusing on increasing microbial tolerance to acetate, accelerating consumption rates, boosting protein yields, and reducing fermentation time and costs.[0m
-        [90mCO2-to-Protein Conversion Project (Acetate Consortium) · Engineering microbes (yeast and fungi) to convert waste CO2 into sustainable protein at industrial scale through acetate-based fermentation, utilizing high-throughput automated evolution platforms for strain optimization. · The Acetate Consortium was launched in 2023, and the second phase of the project, focusing on optimizing and scaling technologies, developing food prototypes, and modeling impact, is running until 2027.[0m
-        [93m↳ This project will drive demand for advanced microbiology reagents, fermentation equipment, high-throughput screening consumables, and analytical instruments for protein analysis and process optimization.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYtV6fLQVyODkewe2iIW7pWfK4Mg-k3VeIZ5j3sQMAx2fyXRo2GwCU0u9DqlWkuP310iD6E-XeSA9GARk-ynt9deo__n1tJHbXsn_2uhNXUJTLyZpzgMYLRO6DBMFvyWsHvalLtmMfI4P0hpF3_tpoO8fHKHw_GWTtKWQtYSWV31FDFs5B1NgTK78GqPiJuFem9AVt1f0Wg25OTOXCgcrIm5zO[0m
-    [1m[2] Novonesis has officially launched HU58 and SC208 in the U.S., introducing "next-gen" spore-forming bacteria designed to survive extreme manufacturing conditions. These Bacillus subtilis and Bacillus coagulans strains offer a 95% survival rate through high-heat processes, enabling probiotic fortification in ambient-temperature snacks, gummies, and hot-pour beverages, thereby disrupting the traditional cold-chain restricted Bifidus Extract Market.[0m
-        [90mLaunch of HU58 and SC208 Spore Probiotics · Commercialization and market expansion of heat-stable spore-forming probiotic strains (Bacillus subtilis HU58 and Bacillus coagulans SC208) for integration into a wider range of food and beverage products, moving beyond cold-chain limitations. · Launched in the U.S. on April 1, 2026.[0m
-        [93m↳ This initiative will increase demand for specialized microbial culture media, fermentation consumables, quality control testing reagents, and equipment for high-temperature processing and stability testing of probiotics.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsdsC5d_XPqINkEMxzdu5VtYkDloqdjZNWXNBZAt14ezrtke6C1QvsTeqqUjdv-rKuaXEjCTlPgt3lL16MgtiQwPgyhU5HzVDmIuGYeITPdv4CUVAgGhX9uxs7RX2Mftr3jjTex43l56EnCLA-KNWCLaGik7by4E7WTfdB9nhlHNjy[0m
-  [90mSearching [regulatory]...[0m  [90m[regulatory] No signals found.[0m
-  [90mSearching [hiring]...[0m  [36m[1m[HIRING] 2 signal(s)[0m
-    [1m[1] Novonesis is hiring a Bioprocess Technician in Salem, VA, with the job posted 7 days ago.[0m
-        [90mBioprocess Technician (R&D/Manufacturing) · 1 · Salem, VA[0m
-        [93m↳ The hiring of a Bioprocess Technician signals an increase in bioprocessing activities, which will drive demand for specialized lab equipment, reagents, and consumables for fermentation and downstream processing.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYSJaE3mwJ6_dAGwhm-e2T4WAbQvKP3xdD8uTMl-9KpXB7WuVm9hvRPbVel5amTKV5iJS5pxzUcRpelss7xxlBECIEgJR52Zv4n7EsAcIW8kiR75cyEzr9uRPFcOE9[0m
-    [1m[2] Novonesis is seeking a Production Operator for a Monday-Friday dayshift in Blair, NE, with the job posted 5 days ago.[0m
-        [90mManufacturing Personnel (Production Operator) · 1 · Blair, NE[0m
-        [93m↳ The addition of a Production Operator indicates an expansion of manufacturing capacity, leading to increased demand for raw materials, consumables, and maintenance supplies for production lines.[0m
-        [90mhttps://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYSJaE3mwJ6_dAGwhm-e2T4WAbQvKP3xdD8uTMl-9KpXB7WuVm9hvRPbVel5amTKV5iJS5pxzUcRpelss7xxlBECIEgJR52Zv4n7EsAcIW8kiR75cyEzr9uRPFcOE9[0m
-  [90m✔ saved → biopharma_top12_results.json[0m
-
-[1m════════════════════════════════════════════════════════════[0m
-[1m  SUMMARY[0m
-[1m════════════════════════════════════════════════════════════[0m
-  [1mABBVIE[0m  [90m[BioPharma][0m  [93mcontract:2  pipeline:2  funding:1  regulatory:1  hiring:1[0m
-  [1mASTRAZENECA[0m  [90m[BioPharma][0m  [93mpipeline:5  expansion:5  partnership:2  project:2  regulatory:3  hiring:8[0m
-  [1mELI LILLY[0m  [90m[BioPharma][0m  [93mcapital:1  pipeline:3  expansion:1  partnership:2  funding:2  project:5  regulatory:1  hiring:7[0m
-  [1mMERCK[0m  [90m[BioPharma][0m  [93mcontract:1  pipeline:6  partnership:2  funding:3  project:4  regulatory:1[0m
-  [1mMODERNA THERAPEUTICS[0m  [90m[BioPharma][0m  [93mpipeline:6  project:2  hiring:6[0m
-  [1mPFIZER[0m  [90m[BioPharma][0m  [93mhiring:4[0m
-  [1mREGENERON[0m  [90m[BioPharma][0m  [93mcontract:4  pipeline:4  partnership:1  funding:1  project:1  regulatory:3[0m
-  [1mROCHE GROUP[0m  [90m[BioPharma][0m  [93mgrant:1  capital:1  funding:2  project:3  regulatory:1[0m
-  [1mSANOFI[0m  [90m[BioPharma][0m  [93mcontract:1  pipeline:3  partnership:3  project:3  regulatory:1  hiring:4[0m
-  [1mTAKEDA[0m  [90m[BioPharma][0m  [93mpipeline:3  expansion:2  partnership:1  project:1  regulatory:2[0m
-  [1mVERTEX PHARMACEUTICAL[0m  [90m[BioPharma][0m  [93mproject:2  regulatory:2[0m
-  [1mNOVONESIS[0m  [90m[BioPharma][0m  [93mpipeline:3  funding:1  project:2  hiring:2[0m
-
-  [1mTotal signals: 147[0m across 12 accounts
-
-[90mFinal results saved to biopharma_top12_results.json[0m
-

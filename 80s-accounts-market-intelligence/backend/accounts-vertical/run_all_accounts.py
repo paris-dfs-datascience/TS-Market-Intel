@@ -40,6 +40,8 @@ parser.add_argument("--super80", action="store_true",
 parser.add_argument("--output", "-o", default=None,
                     help="Write all results to one file (default: per-category files)")
 parser.add_argument("--api-key", "-k", default=None)
+parser.add_argument("--limit", "-l", type=int, default=None,
+                    help="Max accounts to run per category")
 args = parser.parse_args()
 
 
@@ -61,7 +63,7 @@ if args.company:
         print(f"ERROR: No accounts matched '{args.company}'.")
         sys.exit(1)
     for cat, accts in by_cat.items():
-        run_category(cat, _output_for(cat), args.signal, args.company, args.api_key)
+        run_category(cat, _output_for(cat), args.signal, args.company, args.api_key, args.limit)
 
 elif args.super80:
     # Group Super80 accounts by category, run each group
@@ -69,14 +71,14 @@ elif args.super80:
     for acct in SUPER80:
         by_cat[get_category(acct)].append(acct)
     for cat, accts in by_cat.items():
-        run_category(cat, _output_for(cat), args.signal, None, args.api_key,
+        run_category(cat, _output_for(cat), args.signal, None, args.api_key, args.limit,
                      accounts_override=accts)
 
 elif args.category:
     # Single category
-    run_category(args.category, _output_for(args.category), args.signal, None, args.api_key)
+    run_category(args.category, _output_for(args.category), args.signal, None, args.api_key, args.limit)
 
 else:
     # All categories sequentially (each using async parallel signals internally)
     for cat in CATEGORIES:
-        run_category(cat, _output_for(cat), args.signal, None, args.api_key)
+        run_category(cat, _output_for(cat), args.signal, None, args.api_key, args.limit)

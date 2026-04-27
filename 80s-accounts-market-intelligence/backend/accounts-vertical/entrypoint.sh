@@ -11,6 +11,7 @@ set -e
 CATEGORY=""
 LIMIT=""
 COMPANY=""
+SIGNAL=""
 
 # Parse arguments
 while [[ $# -gt 0 ]]; do
@@ -18,6 +19,7 @@ while [[ $# -gt 0 ]]; do
         --category)  CATEGORY="$2";  shift 2 ;;
         --limit)     LIMIT="$2";     shift 2 ;;
         --company)   COMPANY="$2";   shift 2 ;;
+        --signal)    SIGNAL="$2";    shift 2 ;;
         *) echo "Unknown argument: $1"; exit 1 ;;
     esac
 done
@@ -31,18 +33,19 @@ fi
 # Build optional args
 EXTRA_ARGS=""
 [ -n "$LIMIT" ]   && EXTRA_ARGS="$EXTRA_ARGS --limit $LIMIT"
-[ -n "$COMPANY" ] && EXTRA_ARGS="$EXTRA_ARGS --company $COMPANY"
+[ -n "$COMPANY" ] && EXTRA_ARGS="$EXTRA_ARGS --company \"$COMPANY\""
+[ -n "$SIGNAL" ]  && EXTRA_ARGS="$EXTRA_ARGS --signal $SIGNAL"
 
 # Route to correct runner
 case "$CATEGORY" in
-    biopharma)    python run_biopharma.py   --output /app/output/biopharma_results.json    $EXTRA_ARGS ;;
-    clinical_dx)  python run_clinical_dx.py --output /app/output/clinical_dx_results.json  $EXTRA_ARGS ;;
-    cdmo_cro)     python run_cdmo_cro.py    --output /app/output/cdmo_cro_results.json     $EXTRA_ARGS ;;
-    education)    python run_education.py   --output /app/output/education_results.json    $EXTRA_ARGS ;;
-    hospital)     python run_hospital.py    --output /app/output/hospital_results.json     $EXTRA_ARGS ;;
-    industrial)   python run_industrial.py  --output /app/output/industrial_results.json   $EXTRA_ARGS ;;
-    government)   python run_government.py  --output /app/output/government_results.json   $EXTRA_ARGS ;;
-    all)          python run_all_accounts.py --output /app/output/all_results.json         $EXTRA_ARGS ;;
+    biopharma)    eval python run_biopharma.py   --output /app/output/biopharma_results.json    $EXTRA_ARGS ;;
+    clinical_dx)  eval python run_clinical_dx.py --output /app/output/clinical_dx_results.json  $EXTRA_ARGS ;;
+    cdmo_cro)     eval python run_cdmo_cro.py    --output /app/output/cdmo_cro_results.json     $EXTRA_ARGS ;;
+    education)    eval python run_education.py   --output /app/output/education_results.json    $EXTRA_ARGS ;;
+    hospital)     eval python run_hospital.py    --output /app/output/hospital_results.json     $EXTRA_ARGS ;;
+    industrial)   eval python run_industrial.py  --output /app/output/industrial_results.json   $EXTRA_ARGS ;;
+    government)   eval python run_government.py  --output /app/output/government_results.json   $EXTRA_ARGS ;;
+    all)          eval python run_all_accounts.py --output /app/output/all_results.json         $EXTRA_ARGS ;;
     *)
         echo "ERROR: Unknown category '$CATEGORY'"
         echo "Valid categories: biopharma, clinical_dx, cdmo_cro, education, hospital, industrial, government, all"

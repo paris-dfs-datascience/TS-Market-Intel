@@ -30,7 +30,6 @@ COPY run_hospital.py .
 COPY run_industrial.py .
 COPY run_government.py .
 COPY run_all_accounts.py .
-COPY rerun_timeouts.py .
 COPY entrypoint.sh .
 
 # Output directory — mount a volume here to persist results

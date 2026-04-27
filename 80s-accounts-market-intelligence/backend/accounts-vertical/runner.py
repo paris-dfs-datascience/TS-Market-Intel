@@ -125,6 +125,29 @@ def parse_signals(raw: str) -> list:
     return []
 
 
+REQUIRED_FIELDS = {"summary", "why_it_matters", "event_date", "source_url"}
+
+def validate_signals(signals: list, signal_type: str) -> list:
+    """
+    Ensure every record has the 4 required fields: summary, why_it_matters,
+    event_date, source_url. Also strips whitespace from keys to fix rogue
+    Gemini formatting (e.g. ' why_it_matters' with a leading space).
+    Records missing any required field after cleanup are dropped with a warning.
+    """
+    clean = []
+    for i, sig in enumerate(signals):
+        # Strip whitespace from all keys
+        sig = {k.strip(): v for k, v in sig.items()}
+        missing = [f for f in REQUIRED_FIELDS if not sig.get(f)]
+        if missing:
+            logger.warning(
+                f"  ⚠ [{signal_type}] record {i+1} dropped — missing required fields: {missing}"
+            )
+            continue
+        clean.append(sig)
+    return clean
+
+
 def save_incremental(all_results: list, output_file: str):
     """Atomic write: dump to a temp file then rename to avoid corruption on crash."""
     tmp = output_file + ".tmp"
@@ -440,7 +463,7 @@ async def run_account_async(client, account: str, category: str, signals: list,
                                                         elapsed=elapsed, hits=0,
                                                         is_retry=(attempt > 1))
                         return signal, []
-                    parsed = parse_signals(response.text)
+                    parsed = validate_signals(parse_signals(response.text), signal)
                     if _usage: await _usage.record("success", signal=signal,
                                                     usage_meta=getattr(response, "usage_metadata", None),
                                                     elapsed=elapsed, hits=len(parsed),
@@ -484,11 +507,20 @@ async def run_account_async(client, account: str, category: str, signals: list,
     signal_map = dict(pairs)
 
     # Print in original signal order — deterministic, readable output
+    run_timestamp = result["timestamp"]
     acct_hits = 0
     for signal in signals:
         print_signals(signal, signal_map[signal])
-        result["signals"][signal] = signal_map[signal]
-        acct_hits += len(signal_map[signal])
+        # Embed Salesforce-ready fields into every signal record
+        enriched = []
+        for sig in signal_map[signal]:
+            sig["account"]           = account
+            sig["signal_type"]       = signal
+            sig["industry_category"] = category
+            sig["run_date"]          = run_timestamp
+            enriched.append(sig)
+        result["signals"][signal] = enriched
+        acct_hits += len(enriched)
 
     if _usage:
         await _usage.record_account(account, acct_elapsed, acct_hits)
@@ -647,3 +679,18 @@ def run_category(category: str, output_file: str, signal_override: str = None,
         logger.info(f"\033[90mFinal results saved to {output_file}\033[0m")
         if log_file:
             logger.info(f"\033[90mLog saved to {log_file}\033[0m\n")
+
+    # ── Upload output to Azure Blob Storage (if env vars are set) ──
+    conn_str   = os.environ.get("AZURE_STORAGE_CONNECTION_STRING")
+    container  = os.environ.get("AZURE_STORAGE_CONTAINER")
+    if conn_str and container and output_file and os.path.exists(output_file):
+        try:
+            from azure.storage.blob import BlobServiceClient
+            blob_client = BlobServiceClient.from_connection_string(conn_str)
+            blob_name   = os.path.basename(output_file)
+            blob        = blob_client.get_blob_client(container=container, blob=blob_name)
+            with open(output_file, "rb") as f:
+                blob.upload_blob(f, overwrite=True)
+            logger.info(f"\033[90mUploaded → {container}/{blob_name}\033[0m")
+        except Exception as e:
+            logger.warning(f"⚠ Blob upload failed (results still saved locally): {e}")

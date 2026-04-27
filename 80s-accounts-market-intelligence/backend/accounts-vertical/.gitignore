@@ -6,8 +6,19 @@
 rerun_timeouts_results.json
 rerun_clinical_dx_timeouts_results.json
 
+# Batch run intermediates
+*_batch*.json
+*_batch*.log
+
 # Log files
 *.log
+*.txt
+
+# Excel / derived outputs
+*.xlsx
+
+# Large merged outputs
+unified_signals.json
 
 # Python
 __pycache__/
