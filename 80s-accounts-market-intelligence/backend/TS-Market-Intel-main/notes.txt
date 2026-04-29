@@ -1,0 +1,71 @@
+# ── Single entrypoint: main.py ────────────────────────────────────
+# All runs go through the same CLI; --category selects the vertical.
+
+python main.py --category all                    # all 7 verticals
+python main.py --category biopharma              # single vertical
+python main.py --category education
+python main.py --category cdmo_cro
+python main.py --category clinical_dx
+python main.py --category hospital
+python main.py --category industrial
+python main.py --category government
+
+python main.py --super80                         # Super80 priority subset (cross-vertical)
+
+# ── Flags ─────────────────────────────────────────────────────────
+
+# Single signal only
+python main.py --category biopharma --signal pipeline
+python main.py --category biopharma --signal regulatory
+python main.py --category hospital --signal tender
+python main.py --category government --signal grant
+
+# Single company (substring match across all verticals)
+python main.py --company "PFIZER"
+python main.py --company "LABCORP"
+
+# Limit to first N pending accounts (test mode)
+python main.py --category biopharma --limit 5
+
+# Override API key (otherwise reads GEMINI_API_KEY from env)
+python main.py --category biopharma --api-key YOUR_KEY
+
+# ── Output layout ─────────────────────────────────────────────────
+# <SAFE_COMPANY>/results.json      (one file per account, e.g. YALE_UNIVERSITY/results.json)
+# _usage/<category>.json           (cost + timing sidecar, one per category run)
+# _logs/<category>.log             (LocalSink only; stdout when writing to Blob)
+
+# ── Resume after interruption ─────────────────────────────────────
+# Just re-run the same command. Accounts that already have a <SAFE_COMPANY>/results.json
+# are skipped automatically (works against local files or Blob).
+
+# ── Output destination ────────────────────────────────────────────
+# Azure Blob (set both env vars; auth via DefaultAzureCredential):
+#   AZURE_STORAGE_ACCOUNT_URL=https://<account>.blob.core.windows.net
+#   AZURE_STORAGE_CONTAINER=market-intel-results
+#
+# Local (default; omit Azure vars):
+#   OUTPUT_DIR=./output              (optional; default shown)
+
+# ── Time window ───────────────────────────────────────────────────
+# Edit DAYS_BACK in your .env (default: 30)
+
+# ── Core modules (do not run directly) ────────────────────────────
+# engine.py   → async engine (API calls, retries, checkpointing, usage tracking)
+# storage.py  → LocalSink / BlobSink abstraction
+# prompts.py  → 21 category-aware signal prompts
+# accounts.py → 237 accounts organised by 7 categories
+
+# ── Signal reference (selected signals) ───────────────────────────
+# grant       → Education, BioPharma, Clinical/Mol Dx, Hospital, Government
+# faculty     → Education, Hospital
+# capital     → ALL
+# contract    → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Government
+# pipeline    → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
+# expansion   → ALL
+# partnership → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
+# funding     → Education, BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital, Industrial
+# project     → ALL
+# regulatory  → BioPharma, CDMO/CRO, Clinical/Mol Dx, Hospital
+# hiring      → BioPharma, CDMO/CRO, Industrial
+# tender      → Hospital, Government
