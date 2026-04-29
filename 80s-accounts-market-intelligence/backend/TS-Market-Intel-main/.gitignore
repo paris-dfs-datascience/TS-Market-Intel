@@ -1,0 +1,23 @@
+# Result data files — too large and frequently changing for version control
+*_results.json
+*_results.json.tmp
+*_usage.json
+*_timing.json
+
+# Output directory — account results, CSVs, logs
+output/
+
+# Log files
+*.log
+*_log.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+
+# macOS
+.DS_Store
+.env.docker
