@@ -101,6 +101,11 @@ def _safe_name(s: str) -> str:
     return re.sub(r"[^A-Z0-9_]+", "_", s.upper()).strip("_")
 
 
+def _vertical_api_name(s: str) -> str:
+    """Picklist-safe form of a vertical name — keeps case, collapses non-alnum to `_`."""
+    return re.sub(r"[^A-Za-z0-9]+", "_", s).strip("_")
+
+
 @lru_cache(maxsize=1)
 def _resolve_api_key(api_key: str = None) -> str:
     """Resolve the Gemini API key. Priority: CLI arg → env var → Azure Key Vault.
@@ -398,10 +403,10 @@ async def run_account_async(client, account: str, category: str, signals: list,
     logger.info(f"{b}{'═'*60}{r}")
 
     result = {
-        "account":   account,
-        "category":  category,
-        "signals":   {},
-        "timestamp": datetime.now().isoformat(),
+        "account":          account,
+        "category": _vertical_api_name(category),
+        "signals":          {},
+        "timestamp":        datetime.now().isoformat(),
     }
 
     async def fetch_one(signal: str):
