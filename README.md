@@ -64,7 +64,7 @@ Folder names come from `engine._safe_name()` — upper-cased, with non-`[A-Z0-9_
 ```json
 {
   "account": "YALE UNIVERSITY",
-  "category": "Education & Research",
+  "category": "Education_Research",
   "timestamp": "2026-04-23T14:30:00",
   "signals": {
     "grant": [
