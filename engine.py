@@ -19,7 +19,7 @@ from functools import lru_cache
 from google import genai
 from google.genai.types import GenerateContentConfig, GoogleSearch, HttpOptions, Tool
 from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK, _recency_instruction
-from accounts import ACCOUNTS
+from accounts import ACCOUNTS, PARENT_ID_MAP
 from storage import Sink
 
 # ── Configurable via env vars ─────────────────────────────────────
@@ -404,7 +404,8 @@ async def run_account_async(client, account: str, category: str, signals: list,
 
     result = {
         "account":          account,
-        "category": _vertical_api_name(category),
+        "account_vertical": _vertical_api_name(category),
+        "Parent_ID":        PARENT_ID_MAP.get(account.upper().strip()),
         "signals":          {},
         "timestamp":        datetime.now().isoformat(),
     }
@@ -502,9 +503,9 @@ async def run_account_async(client, account: str, category: str, signals: list,
             except Exception as ue:
                 logger.warning(f"  ⚠ Could not write usage file: {ue}")
 
-    # Write this account's results to its own folder: <SAFE_COMPANY>/results.json
+    # Write this account's results to its own folder: <SAFE_COMPANY>/results_YYYY-MM-DD.json
     if sink:
-        account_path = f"{_safe_name(account)}/results.json"
+        account_path = f"{_safe_name(account)}/results_{datetime.now().strftime('%Y-%m-%d')}.json"
         await asyncio.to_thread(sink.write, account_path, result)
         logger.info(f"  {d}✔ saved → {account_path}{r}")
 
@@ -525,9 +526,11 @@ def print_summary(all_results: list):
         total_signals += total
         if total > 0:
             count_str = "  ".join(f"{s}:{n}" for s, n in counts.items() if n > 0)
-            logger.info(f"  {b}{res['account']}{r}  {d}[{res['category']}]{r}  {y}{count_str}{r}")
+            vertical = res.get('account_vertical') or res.get('category', '')
+            logger.info(f"  {b}{res['account']}{r}  {d}[{vertical}]{r}  {y}{count_str}{r}")
         else:
-            logger.info(f"  {d}{res['account']} [{res['category']}] — no signals{r}")
+            vertical = res.get('account_vertical') or res.get('category', '')
+            logger.info(f"  {d}{res['account']} [{vertical}] — no signals{r}")
     logger.info(f"\n  {b}Total signals: {total_signals}{r} across {len(all_results)} accounts\n")
 
 
@@ -587,8 +590,11 @@ def run_category(category: str, sink: Sink, signal_override: str = None,
     resumed_results = []
     pending = []
     for acct in accounts:
-        prior = sink.read(f"{_safe_name(acct)}/results.json")
+        prior = sink.read(f"{_safe_name(acct)}/results_{datetime.now().strftime('%Y-%m-%d')}.json")
         if prior and isinstance(prior, dict) and prior.get("account"):
+            # Migrate old-schema blobs that used "category" instead of "account_vertical"
+            if "category" in prior and "account_vertical" not in prior:
+                prior["account_vertical"] = prior.pop("category")
             resumed_results.append(prior)
         else:
             pending.append(acct)
@@ -648,3 +654,4 @@ def run_category(category: str, sink: Sink, signal_override: str = None,
     logger.info(f"\033[90mUsage report saved to {usage_name}\033[0m")
     if log_file:
         logger.info(f"\033[90mLog saved to {log_file}\033[0m\n")
+    return len(fresh_results)

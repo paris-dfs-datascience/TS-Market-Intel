@@ -51,8 +51,12 @@ def parse_args() -> argparse.Namespace:
                    help="Run a single signal type only (e.g. grant, pipeline)")
     p.add_argument("--company", default=None,
                    help="Run a single company by exact name (case-insensitive)")
+    p.add_argument("--companies", default=None,
+                   help="Comma-separated list of company names to run (case-insensitive)")
     p.add_argument("--limit", type=int, default=None,
-                   help="Limit to first N pending accounts (useful for testing)")
+                   help="Limit to first N pending accounts per category (useful for testing)")
+    p.add_argument("--total-limit", type=int, default=None,
+                   help="Cap total accounts run across all categories (use with --category all)")
     p.add_argument("--super80", action="store_true",
                    help="Run only the Super80 priority accounts across verticals")
     p.add_argument("--api-key", default=None,
@@ -63,6 +67,30 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     sink = get_sink()
+
+    if args.companies:
+        queries = [q.strip().upper() for q in args.companies.split(",") if q.strip()]
+        flat = all_accounts_flat()
+        # Group matched accounts by category so each category runs in one batch
+        by_cat: dict[str, list[str]] = {}
+        missing = []
+        for query in queries:
+            matches = [(acct, cat) for acct, cat in flat if acct.upper() == query]
+            if not matches:
+                missing.append(query)
+            for acct, cat in matches:
+                by_cat.setdefault(cat, []).append(acct)
+        if missing:
+            logger.error(
+                f"No account exactly matches: {', '.join(missing)}. "
+                f"Names are case-insensitive but must be complete."
+            )
+            sys.exit(1)
+        for cat, accts in by_cat.items():
+            run_category(cat, sink, signal_override=args.signal,
+                         accounts_override=accts,
+                         api_key=args.api_key, limit=args.limit)
+        return
 
     if args.company:
         # Exact, case-insensitive match — avoids silent over-match on substrings
@@ -92,9 +120,15 @@ def main() -> None:
         return
 
     if args.category == "all":
+        remaining = args.total_limit
         for cat in CATEGORIES:
-            run_category(cat, sink, signal_override=args.signal,
-                         api_key=args.api_key, limit=args.limit)
+            if remaining is not None and remaining <= 0:
+                break
+            cat_limit = remaining if remaining is not None else args.limit
+            ran = run_category(cat, sink, signal_override=args.signal,
+                               api_key=args.api_key, limit=cat_limit)
+            if remaining is not None:
+                remaining -= ran
         return
 
     run_category(_resolve_category(args.category), sink,
