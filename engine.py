@@ -101,9 +101,23 @@ def _safe_name(s: str) -> str:
     return re.sub(r"[^A-Z0-9_]+", "_", s.upper()).strip("_")
 
 
+_VERTICAL_API_OVERRIDES: dict[str, str] = {
+    # "Clinical / Molecular Diagnostics" naive regex produces "Clinical_Molecular_Diagnostics"
+    # but the SF API value is "Clinical_Mol_Dx" — override required.
+    "Clinical / Molecular Diagnostics": "Clinical_Mol_Dx",
+}
+
+
 def _vertical_api_name(s: str) -> str:
-    """Picklist-safe form of a vertical name — keeps case, collapses non-alnum to `_`."""
-    return re.sub(r"[^A-Za-z0-9]+", "_", s).strip("_")
+    """Picklist-safe API name for a vertical — collapses non-alnum to `_`, with overrides."""
+    return _VERTICAL_API_OVERRIDES.get(s, re.sub(r"[^A-Za-z0-9]+", "_", s).strip("_"))
+
+
+def _normalize_account(entry) -> tuple[str, str | None]:
+    """Return (name, parent_id) from a plain string account or a CSV-sourced dict."""
+    if isinstance(entry, dict):
+        return entry["name"], entry.get("parent_id")
+    return entry, None
 
 
 @lru_cache(maxsize=1)
@@ -396,7 +410,8 @@ _usage: UsageTracker = None
 async def run_account_async(client, account: str, category: str, signals: list,
                              sink: Sink = None, usage_name: str = None,
                              sem: asyncio.Semaphore = None,
-                             recency_instruction: str = None) -> dict:
+                             recency_instruction: str = None,
+                             parent_id: str = None) -> dict:
     b, h, r, d = C["bold"], C["header"], C["reset"], C["dim"]
     logger.info(f"\n{b}{'═'*60}{r}")
     logger.info(f"{h}{b}  {account}{r}  {d}[{category}]{r}")
@@ -405,7 +420,7 @@ async def run_account_async(client, account: str, category: str, signals: list,
     result = {
         "account":          account,
         "account_vertical": _vertical_api_name(category),
-        "Parent_ID":        PARENT_ID_MAP.get(account.upper().strip()),
+        "Parent_ID":        parent_id if parent_id is not None else PARENT_ID_MAP.get(account.upper().strip()),
         "signals":          {},
         "timestamp":        datetime.now().isoformat(),
     }
@@ -587,9 +602,11 @@ def run_category(category: str, sink: Sink, signal_override: str = None,
         accounts = ACCOUNTS[category]
 
     # Resume from checkpoint — each completed account has its own <SAFE_COMPANY>/results.json
+    # accounts entries may be plain strings (legacy) or dicts {"name": ..., "parent_id": ...} (CSV/DB)
     resumed_results = []
-    pending = []
-    for acct in accounts:
+    pending = []  # list of (name, parent_id)
+    for entry in accounts:
+        acct, pid = _normalize_account(entry)
         prior = sink.read(f"{_safe_name(acct)}/results_{datetime.now().strftime('%Y-%m-%d')}.json")
         if prior and isinstance(prior, dict) and prior.get("account"):
             # Migrate old-schema blobs that used "category" instead of "account_vertical"
@@ -597,7 +614,7 @@ def run_category(category: str, sink: Sink, signal_override: str = None,
                 prior["account_vertical"] = prior.pop("category")
             resumed_results.append(prior)
         else:
-            pending.append(acct)
+            pending.append((acct, pid))
     if resumed_results:
         logger.info(f"{C['yellow']}⚡ Resuming — {len(resumed_results)} accounts already done, skipping.{C['reset']}")
 
@@ -606,8 +623,11 @@ def run_category(category: str, sink: Sink, signal_override: str = None,
         pending = pending[:limit]
         logger.info(f"{C['yellow']}⚡ Limit set — running first {len(pending)} pending account(s).{C['reset']}")
 
+    # Use account name for logging total count
+    pending_names = [name for name, _ in pending]
+
     logger.info(f"\n{C['bold']}Thomas Scientific // {category}{C['reset']}")
-    logger.info(f"{C['dim']}{len(pending)} accounts | Signals: {', '.join(signals)} | Last {DAYS_BACK} days{C['reset']}")
+    logger.info(f"{C['dim']}{len(pending_names)} accounts | Signals: {', '.join(signals)} | Last {DAYS_BACK} days{C['reset']}")
 
     # Compute recency instruction once for the entire run — not per signal
     recency_instr = _recency_instruction()
@@ -629,10 +649,11 @@ def run_category(category: str, sink: Sink, signal_override: str = None,
 
     async def _run_all():
         sem = asyncio.Semaphore(SEMAPHORE_SIZE)
-        for account in pending:
+        for account, pid in pending:
             result = await run_account_async(client, account, category, signals,
                                              sink=sink, usage_name=usage_name,
-                                             sem=sem, recency_instruction=recency_instr)
+                                             sem=sem, recency_instruction=recency_instr,
+                                             parent_id=pid)
             fresh_results.append(result)
 
     try:

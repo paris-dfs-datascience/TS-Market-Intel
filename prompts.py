@@ -54,7 +54,7 @@ CATEGORY_TRIGGERS = {
     "CDMO / CRO":                ["capital", "contract", "pipeline", "expansion", "partnership", "funding",
                                    "project", "regulatory", "hiring",
                                    "ma", "closure"],
-    "Clinical / Mol Dx":         ["grant", "capital", "contract", "pipeline", "expansion", "partnership", "funding",
+    "Clinical / Molecular Diagnostics":         ["grant", "capital", "contract", "pipeline", "expansion", "partnership", "funding",
                                    "project", "regulatory",
                                    "volume", "competitive", "closure"],
     "Hospital & Health Systems": ["grant", "faculty", "capital", "contract", "pipeline", "expansion", "partnership",
@@ -72,7 +72,7 @@ _GRANT_CONTEXT = {
         "NIH, NSF, or DoD grants awarded to professors, principal investigators, or research labs",
     "BioPharma":
         "NIH, BARDA, SBIR/STTR, or government grant awards to the company for R&D programs",
-    "Clinical / Mol Dx":
+    "Clinical / Molecular Diagnostics":
         "NIH, CDC, or BARDA grants awarded for diagnostic assay development or clinical research",
     "Hospital & Health Systems":
         "NIH clinical research grants, NCI/NIA cancer center designations, or foundation research awards",
@@ -85,7 +85,7 @@ _PIPELINE_CONTEXT = {
         "new drug discoveries, IND filings, clinical trial initiations, NDA/BLA submissions, or FDA approvals",
     "CDMO / CRO":
         "new client manufacturing programs, new drug substance or drug product contracts, or technology platform expansions",
-    "Clinical / Mol Dx":
+    "Clinical / Molecular Diagnostics":
         "new diagnostic assay launches, 510(k) submissions, LDT launches, or CE-IVD markings",
     "Hospital & Health Systems":
         "new clinical programs, investigator-initiated trials, or new treatment protocols being adopted",
@@ -96,7 +96,7 @@ _REGULATORY_CONTEXT = {
         "FDA NDA/BLA/sNDA approvals, IND clearances, Priority Review designations, Breakthrough Therapy designations, or FDA Warning Letters",
     "CDMO / CRO":
         "FDA manufacturing site inspections, Form 483 observations, EMA GMP compliance reports, or cGMP certification outcomes",
-    "Clinical / Mol Dx":
+    "Clinical / Molecular Diagnostics":
         "FDA 510(k) clearances, PMA approvals, De Novo classifications, CAP/CLIA accreditation changes, or CE-IVD markings",
     "Hospital & Health Systems":
         "Joint Commission accreditation decisions, CMS certification changes, CAP laboratory accreditation, or Magnet nursing designation",
@@ -109,7 +109,7 @@ _CONTRACT_CONTEXT = {
         "open RFPs or procurement bids for lab reagents, consumables, raw materials, or scientific equipment",
     "CDMO / CRO":
         "new client manufacturing contracts, technology transfer agreements, or capacity reservation deals",
-    "Clinical / Mol Dx":
+    "Clinical / Molecular Diagnostics":
         "open bids or RFPs for laboratory equipment, reagents, or reference lab service agreements",
     "Hospital & Health Systems":
         "GPO contract awards, hospital supply chain RFPs, or lab equipment procurement tenders",
@@ -170,13 +170,13 @@ _PRODUCTION_CONTEXT = {
 }
 
 _VOLUME_CONTEXT = {
-    "Clinical / Mol Dx":
+    "Clinical / Molecular Diagnostics":
         "lab production volume increases, SKU expansions, new test menu additions, throughput growth, "
         "or scale-up of existing diagnostic testing capacity",
 }
 
 _COMPETITIVE_CONTEXT = {
-    "Clinical / Mol Dx":
+    "Clinical / Molecular Diagnostics":
         "competitor wins on lab supply contracts, displacement of Thomas Scientific or a peer distributor "
         "on a line-item award, recompete losses, or competitive positioning shifts in reference lab procurement",
 }
@@ -199,7 +199,7 @@ _CLOSURE_CONTEXT = {
     "Education & Research":   "research facility closures, lab shutdowns, or programme terminations",
     "BioPharma":              "plant closures, R&D site shutdowns, or manufacturing facility decommissioning",
     "CDMO / CRO":             "contract manufacturing site closures or CRO programme shutdowns",
-    "Clinical / Mol Dx":      "lab closures, testing site shutdowns, or diagnostic programme terminations",
+    "Clinical / Molecular Diagnostics":      "lab closures, testing site shutdowns, or diagnostic programme terminations",
     "Hospital & Health Systems": "hospital department closures, lab consolidations, or facility shutdowns",
     "Industrial":             "manufacturing plant closures, production line shutdowns, or facility decommissioning",
     "Government":             "government lab closures, programme terminations, or facility consolidations",
@@ -318,7 +318,7 @@ def build_prompt(signal: str, entity: str, category: str,
                 f"platforms, or multi-year service agreements with a disclosed value of $5M or more. "
                 f"Exclude routine supplier agreements, co-marketing deals, and M&A transactions (covered separately)."
             ),
-            "Clinical / Mol Dx": (
+            "Clinical / Molecular Diagnostics": (
                 f"Search for recent news about {entity} entering new co-development agreements, reference lab "
                 f"service partnerships, diagnostic platform licensing deals, or joint ventures involving new "
                 f"testing infrastructure — with a disclosed deal value or named facility or program component. "
@@ -373,7 +373,7 @@ def build_prompt(signal: str, entity: str, category: str,
                 f"manufacturing capacity, instrument fleet, or new service capability. "
                 f"Exclude routine credit renewals, bond issuances, and general corporate finance activities."
             ),
-            "Clinical / Mol Dx": (
+            "Clinical / Molecular Diagnostics": (
                 f"Search for recent news about {entity} closing a new funding round (venture or strategic), "
                 f"receiving a government diagnostic program award (CDC, BARDA, NIH), or a hospital system "
                 f"investment for new testing infrastructure — with disclosed use of proceeds tied to new "
@@ -437,7 +437,7 @@ def build_prompt(signal: str, entity: str, category: str,
                 f"Exclude general capability statements or marketing announcements without a specific "
                 f"contract, facility, or investment figure."
             ),
-            "Clinical / Mol Dx": (
+            "Clinical / Molecular Diagnostics": (
                 f"Search for recent announcements from {entity} about new large-scale diagnostic programs "
                 f"(>$5M), new reference lab service agreements, instrument fleet expansions, or government "
                 f"or hospital contracts for expanded testing services. "
@@ -635,7 +635,7 @@ def build_prompt(signal: str, entity: str, category: str,
 
     if signal == "volume":
         _VOLUME_SEARCH = {
-            "Clinical / Mol Dx": (
+            "Clinical / Molecular Diagnostics": (
                 f"Search for recent news about {entity} announcing specific lab volume increases with disclosed "
                 f"numbers (e.g. 'adding 10,000 tests/month,' 'expanding test menu by X assays'), new diagnostic "
                 f"test codes added to the lab menu, new automation or instrumentation installed to increase "
@@ -665,7 +665,7 @@ def build_prompt(signal: str, entity: str, category: str,
 
     if signal == "competitive":
         _COMPETITIVE_SEARCH = {
-            "Clinical / Mol Dx": (
+            "Clinical / Molecular Diagnostics": (
                 f"Search for recent news about {entity} announcing a new preferred supplier agreement, a named "
                 f"distributor partnership, or a supply chain consolidation event that names a specific lab supply "
                 f"distributor (Fisher Scientific, VWR, Sigma-Aldrich, McKesson, Thermo Fisher, or Thomas Scientific) "

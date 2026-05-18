@@ -14,9 +14,10 @@ Usage:
 """
 
 import argparse
+import os
 import sys
 
-from accounts import ACCOUNTS, SUPER80, all_accounts_flat
+from accounts import ACCOUNTS, SUPER80, all_accounts_flat, load_accounts_from_csv
 from engine import run_category, setup_logger
 from storage import get_sink
 
@@ -31,7 +32,7 @@ CATEGORY_SLUGS = {
     "education":   "Education & Research",
     "biopharma":   "BioPharma",
     "cdmo_cro":    "CDMO / CRO",
-    "clinical_dx": "Clinical / Mol Dx",
+    "clinical_dx": "Clinical / Molecular Diagnostics",
     "hospital":    "Hospital & Health Systems",
     "industrial":  "Industrial",
     "government":  "Government",
@@ -61,12 +62,36 @@ def parse_args() -> argparse.Namespace:
                    help="Run only the Super80 priority accounts across verticals")
     p.add_argument("--api-key", default=None,
                    help="Gemini API key (overrides GEMINI_API_KEY env var)")
+    p.add_argument("--from-csv", default=None, metavar="PATH",
+                   help="Load accounts from a CSV export of SalesForce.Account_base "
+                        "(filters Customer80/Super80, maps segment_raw to prompt verticals). "
+                        "Overrides --category all when set. Env var: ACCOUNTS_CSV_PATH.")
     return p.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     sink = get_sink()
+
+    # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.
+    # Runs all verticals found in the CSV; respects --limit, --total-limit, and --signal.
+    csv_path = args.from_csv or os.environ.get("ACCOUNTS_CSV_PATH")
+    if csv_path and not any([args.company, args.companies, args.super80]):
+        csv_accounts = load_accounts_from_csv(csv_path)
+        if not csv_accounts:
+            logger.error(f"No Customer80/Super80 accounts found in '{csv_path}'. Check the CSV and SEGMENT_RAW_MAP.")
+            sys.exit(1)
+        remaining = args.total_limit
+        for vertical, acct_list in csv_accounts.items():
+            if remaining is not None and remaining <= 0:
+                break
+            cat_limit = remaining if remaining is not None else args.limit
+            ran = run_category(vertical, sink, signal_override=args.signal,
+                               api_key=args.api_key, limit=cat_limit,
+                               accounts_override=acct_list)
+            if remaining is not None:
+                remaining -= ran
+        return
 
     if args.companies:
         queries = [q.strip().upper() for q in args.companies.split(",") if q.strip()]
