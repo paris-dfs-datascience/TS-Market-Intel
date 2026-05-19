@@ -129,9 +129,11 @@ def _resolve_api_key(api_key: str = None) -> str:
     Managed Identity in Azure, `az login` locally.
     """
     if api_key:
+        logger.info("Gemini API key source: --api-key flag")
         return api_key
     env_key = os.environ.get("GEMINI_API_KEY")
     if env_key:
+        logger.info("Gemini API key source: GEMINI_API_KEY env var")
         return env_key
     vault_url = os.environ.get("AZURE_KEY_VAULT_URL")
     if vault_url:
@@ -139,7 +141,9 @@ def _resolve_api_key(api_key: str = None) -> str:
         from azure.keyvault.secrets import SecretClient
         secret_name = os.environ.get("GEMINI_API_KEY_SECRET_NAME", "gemini-api-key")
         client = SecretClient(vault_url=vault_url, credential=DefaultAzureCredential())
-        return client.get_secret(secret_name).value
+        value = client.get_secret(secret_name).value
+        logger.info(f"Gemini API key source: Azure Key Vault ({vault_url}, secret={secret_name})")
+        return value
     logger.error(
         "ERROR: No Gemini API key found. Pass --api-key, set GEMINI_API_KEY, "
         "or set AZURE_KEY_VAULT_URL (with GEMINI_API_KEY_SECRET_NAME if not 'gemini-api-key')."
