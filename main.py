@@ -72,6 +72,10 @@ def parse_args() -> argparse.Namespace:
                    help="Load accounts from a CSV export of SalesForce.Account_base "
                         "(filters Customer80/Super80, maps segment_raw to prompt verticals). "
                         "Overrides --category all when set. Env var: ACCOUNTS_CSV_PATH.")
+    p.add_argument("--analyze-dedup", default=None, metavar="DATE",
+                   help="One-off dedup analysis on _export/market_intel_export_<DATE>.csv. "
+                        "Writes dedup_4a_*, dedup_4b_*, dedup_analysis_* artifacts back to "
+                        "_export/ and exits. Skips the engine.")
     return p.parse_args()
 
 
@@ -83,6 +87,12 @@ def main() -> None:
     if args.export_csv:
         from export_csv import run_export
         run_export(sink, args.export_date)
+        return
+
+    # --analyze-dedup: one-off dedup analysis on an existing CSV. Skips the engine.
+    if args.analyze_dedup:
+        from analyze_dedup import run as run_dedup
+        run_dedup(args.analyze_dedup)
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.
