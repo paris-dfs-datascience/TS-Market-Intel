@@ -51,7 +51,7 @@ COSINE_AUTO = 0.92
 COSINE_TAG = 0.82
 
 SUMMARY_CAP = 2000
-EMBED_MODEL = "text-embedding-004"
+EMBED_MODEL = "gemini-embedding-001"
 EMBED_BATCH = 100
 
 STOPWORDS = {"the", "a", "an", "of", "for", "in", "to", "and", "is", "on",
