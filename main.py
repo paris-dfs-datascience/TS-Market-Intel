@@ -63,6 +63,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--export-csv", action="store_true",
                    help="Run the SF CSV export only (reads result JSONs from the configured sink; "
                         "writes _export/market_intel_export_<DATE>.csv). Skips the engine.")
+    p.add_argument("--export-date", default=None, metavar="YYYY-MM-DD",
+                   help="Date to filter result JSONs by (default: today UTC). "
+                        "Only meaningful with --export-csv.")
     p.add_argument("--api-key", default=None,
                    help="Gemini API key (overrides GEMINI_API_KEY env var)")
     p.add_argument("--from-csv", default=None, metavar="PATH",
@@ -79,7 +82,7 @@ def main() -> None:
     # --export-csv: skip the engine entirely; just regenerate the SF CSV from existing results in the sink.
     if args.export_csv:
         from export_csv import run_export
-        run_export(sink)
+        run_export(sink, args.export_date)
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.
