@@ -60,6 +60,9 @@ def parse_args() -> argparse.Namespace:
                    help="Cap total accounts run across all categories (use with --category all)")
     p.add_argument("--super80", action="store_true",
                    help="Run only the Super80 priority accounts across verticals")
+    p.add_argument("--export-csv", action="store_true",
+                   help="Run the SF CSV export only (reads result JSONs from the configured sink; "
+                        "writes _export/market_intel_export_<DATE>.csv). Skips the engine.")
     p.add_argument("--api-key", default=None,
                    help="Gemini API key (overrides GEMINI_API_KEY env var)")
     p.add_argument("--from-csv", default=None, metavar="PATH",
@@ -72,6 +75,12 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     sink = get_sink()
+
+    # --export-csv: skip the engine entirely; just regenerate the SF CSV from existing results in the sink.
+    if args.export_csv:
+        from export_csv import run_export
+        run_export(sink)
+        return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.
     # Runs all verticals found in the CSV; respects --limit, --total-limit, and --signal.
@@ -154,6 +163,13 @@ def main() -> None:
                                api_key=args.api_key, limit=cat_limit)
             if remaining is not None:
                 remaining -= ran
+        # Auto-export: generate the SF-import CSV from every account result just written.
+        from export_csv import run_export
+        logger.info("All categories complete — generating SF export CSV.")
+        try:
+            run_export(sink)
+        except Exception as e:
+            logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
         return
 
     run_category(_resolve_category(args.category), sink,

@@ -1,10 +1,27 @@
-"""Export all results.json files under ./output to a single CSV."""
-import csv, json, sys
-from datetime import datetime
-from pathlib import Path
+"""Export all results_<DATE>.json files from the configured sink to a single CSV.
 
-OUTPUT_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("./output")
-CSV_FILE   = OUTPUT_DIR / "market_intel_export.csv"
+Reads result JSONs via the Sink abstraction (LocalSink or BlobSink), filters to
+a single date (default: today, UTC), translates verticals + signal types to the
+exact Salesforce picklist labels, and writes the CSV back to the sink at
+`_export/market_intel_export_<DATE>.csv`.
+
+Run standalone:
+    python export_csv.py                  # uses get_sink() and today's date
+    python export_csv.py 2026-05-19       # specific date
+
+Or call run_export(sink, date_str) programmatically (main.py does this when
+`--export-csv` is passed or after `--category all` completes).
+"""
+from __future__ import annotations
+
+import csv
+import io
+import sys
+from datetime import datetime, timezone
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from storage import Sink
 
 # SF import matches on picklist LABELS (not API values).
 # Keys cover both the _vertical_api_name() output stored in JSON and older 'category' field values.
@@ -55,42 +72,74 @@ SIGNAL_TYPE_LABELS: dict[str, str] = {
 COLS = ["account", "Parent_ID", "signal_type", "account_vertical",
         "summary", "why_it_matters", "event_date", "source_url", "ingested_at"]
 
-rows = []
-for result_path in sorted(OUTPUT_DIR.glob("*/results_*.json")):
-    try:
-        result = json.loads(result_path.read_text(encoding="utf-8"))
-    except Exception:
-        continue
+# Skip sink keys under these "directory" prefixes — they're sidecars, not account results.
+_SIDECAR_PREFIXES = ("_usage/", "_logs/", "_export/")
 
-    account   = result.get("account", "")
-    parent_id = result.get("Parent_ID", "")
-    raw_vert  = result.get("account_vertical") or result.get("category", "")
-    vertical  = VERTICAL_LABELS.get(raw_vert, raw_vert)
-    ingested  = result.get("timestamp", "")
-    try:
-        ingested = datetime.fromisoformat(ingested).strftime("%Y-%m-%d %H:%M:%S")
-    except Exception:
-        pass
 
-    for signal_type, hits in result.get("signals", {}).items():
-        sf_signal = SIGNAL_TYPE_LABELS.get(signal_type, signal_type)
-        for hit in hits:
-            rows.append({
-                "account":          account,
-                "Parent_ID":        parent_id,
-                "signal_type":      sf_signal,
-                "account_vertical": vertical,
-                "summary":          hit.get("summary", ""),
-                "why_it_matters":   hit.get("why_it_matters", ""),
-                "event_date":       hit.get("event_date", ""),
-                "source_url":       hit.get("source_url", ""),
-                "ingested_at":      ingested,
-            })
-
-with open(CSV_FILE, "w", newline="", encoding="utf-8-sig") as f:
-    writer = csv.DictWriter(f, fieldnames=COLS)
+def _rows_to_csv_text(rows: list[dict]) -> str:
+    """Build CSV text with a UTF-8 BOM so Excel renders Unicode correctly."""
+    buf = io.StringIO()
+    writer = csv.DictWriter(buf, fieldnames=COLS)
     writer.writeheader()
     writer.writerows(rows)
+    return "﻿" + buf.getvalue()
 
-print(f"Exported {len(rows)} signal hits from "
-      f"{len(list(OUTPUT_DIR.glob('*/results_*.json')))} accounts -> {CSV_FILE}")
+
+def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, str]:
+    """Iterate sink for `<COMPANY>/results_<date>.json` keys, build CSV, write back to sink.
+
+    Returns (row_count, output_key).
+    """
+    if date_str is None:
+        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    suffix = f"results_{date_str}.json"
+
+    rows: list[dict] = []
+    accounts_seen: set[str] = set()
+    for key in sink.list(""):
+        if key.startswith(_SIDECAR_PREFIXES):
+            continue
+        if not key.endswith(suffix):
+            continue
+        result = sink.read(key)
+        if not result:
+            continue
+
+        account   = result.get("account", "")
+        parent_id = result.get("Parent_ID", "") or result.get("parent_id", "")
+        raw_vert  = result.get("account_vertical") or result.get("category", "")
+        vertical  = VERTICAL_LABELS.get(raw_vert, raw_vert)
+        ingested  = result.get("timestamp", "")
+        try:
+            ingested = datetime.fromisoformat(ingested).strftime("%Y-%m-%d %H:%M:%S")
+        except Exception:
+            pass
+
+        accounts_seen.add(account)
+
+        for signal_type, hits in result.get("signals", {}).items():
+            sf_signal = SIGNAL_TYPE_LABELS.get(signal_type, signal_type)
+            for hit in hits:
+                rows.append({
+                    "account":          account,
+                    "Parent_ID":        parent_id,
+                    "signal_type":      sf_signal,
+                    "account_vertical": vertical,
+                    "summary":          hit.get("summary", ""),
+                    "why_it_matters":   hit.get("why_it_matters", ""),
+                    "event_date":       hit.get("event_date", ""),
+                    "source_url":       hit.get("source_url", ""),
+                    "ingested_at":      ingested,
+                })
+
+    csv_text = _rows_to_csv_text(rows)
+    out_key = f"_export/market_intel_export_{date_str}.csv"
+    sink.write_text(out_key, csv_text)
+    print(f"Exported {len(rows)} signal hits from {len(accounts_seen)} accounts -> {out_key}")
+    return len(rows), out_key
+
+
+if __name__ == "__main__":
+    from storage import get_sink
+    date_arg = sys.argv[1] if len(sys.argv) > 1 else None
+    run_export(get_sink(), date_arg)
