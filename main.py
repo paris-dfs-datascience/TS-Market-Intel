@@ -81,6 +81,11 @@ def parse_args() -> argparse.Namespace:
                         "event_date to YYYY-MM-DD, generate ai_summary for any account "
                         "missing it. Pass 'all' to backfill every dated result in the sink. "
                         "Idempotent — files already containing ai_summary are skipped.")
+    p.add_argument("--fix-urls", default=None, metavar="DATE",
+                   help="HEAD-validate every source_url in results_<DATE>.json files; for "
+                        "any URL that 4xx's or fails to load, re-ask Gemini (with grounding) "
+                        "for the canonical URL and write back. Idempotent — files with "
+                        "urls_fixed=true are skipped.")
     return p.parse_args()
 
 
@@ -104,6 +109,12 @@ def main() -> None:
     if args.backfill:
         from backfill_results import run_backfill
         run_backfill(sink, args.backfill, api_key=args.api_key)
+        return
+
+    # --fix-urls: one-off URL recovery (HEAD-validate + re-ask Gemini on 404s).
+    if args.fix_urls:
+        from backfill_results import run_url_backfill
+        run_url_backfill(sink, args.fix_urls, api_key=args.api_key)
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.

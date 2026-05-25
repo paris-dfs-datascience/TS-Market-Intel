@@ -31,13 +31,21 @@ import re
 import sys
 from typing import TYPE_CHECKING
 
+import httpx
+
 from engine import (
+    HTTP_USER_AGENT,
+    MODEL,
     SEMAPHORE_SIZE,
+    SIGNAL_HARD_TIMEOUT,
+    _REDIRECT_HOST,
     _generate_account_summary,
     _has_signals,
     _normalize_event_date,
+    _resolve_source_url,
     get_client,
 )
+from google.genai.types import GenerateContentConfig, GoogleSearch, Tool
 
 if TYPE_CHECKING:
     from storage import Sink
@@ -143,6 +151,192 @@ def run_backfill(sink: "Sink", date_str: str, api_key: str | None = None) -> Non
         f"written={stats['written']} "
         f"summaries={stats['summaries_generated']} "
         f"unchanged={stats['unchanged']} "
+        f"skipped_already_done={stats['skipped_already_done']} "
+        f"skipped_invalid={stats['skipped_invalid']}"
+    )
+
+
+# ── URL backfill (v2 source_url fix on historical files) ──────────────────
+
+
+async def _is_url_alive(url: str, http_client: "httpx.AsyncClient") -> bool:
+    """True iff fetching `url` resolves to a 2xx response. Treats any exception or
+    final non-2xx (after redirects) as dead. Uses GET with follow_redirects so that
+    sites serving 405 on HEAD or 301-chaining marketing redirects are handled.
+    """
+    if not url:
+        return False
+    try:
+        r = await http_client.get(url)
+        return 200 <= r.status_code < 300
+    except Exception:
+        return False
+
+
+async def _reask_gemini_for_url(client, account: str, signal_type: str, hit: dict,
+                                 http_client: "httpx.AsyncClient",
+                                 redirect_cache: dict) -> str:
+    """Ask Gemini, with Google Search grounding, for the canonical URL for one hit.
+
+    Returns the resolved URL (real article, not a redirect) or "" on failure /
+    if Gemini answers UNKNOWN. Reuses `_resolve_source_url` so chunk-extraction +
+    redirect-resolution logic stays in one place.
+    """
+    prompt = (
+        f"Find the canonical source URL for this market intelligence event.\n"
+        f"Account: {account}\n"
+        f"Signal type: {signal_type}\n"
+        f"Event date: {hit.get('event_date', 'unknown')}\n"
+        f"Summary: {hit.get('summary', '')}\n"
+        f"Why it matters: {hit.get('why_it_matters', '')}\n\n"
+        f"Use Google Search to locate the original published article or press "
+        f"release that reported this event. Return ONLY the URL on one line — "
+        f"no JSON, no markdown, no commentary. If you cannot find the article, "
+        f"return the single word UNKNOWN."
+    )
+    try:
+        response = await asyncio.wait_for(
+            client.aio.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=GenerateContentConfig(
+                    tools=[Tool(google_search=GoogleSearch())],
+                    temperature=0.1,
+                ),
+            ),
+            timeout=SIGNAL_HARD_TIMEOUT,
+        )
+    except Exception:
+        return ""
+
+    text = (getattr(response, "text", "") or "").strip()
+    if text.upper().startswith("UNKNOWN"):
+        text = ""
+
+    try:
+        chunks = response.candidates[0].grounding_metadata.grounding_chunks or []
+    except (AttributeError, IndexError, TypeError):
+        chunks = []
+    try:
+        supports = response.candidates[0].grounding_metadata.grounding_supports or []
+    except (AttributeError, IndexError, TypeError):
+        supports = []
+
+    # Reuse the v2 resolver. Treat Gemini's plain-text answer as the "hit.source_url"
+    # so the chunks-always-win logic still gets first shot.
+    pseudo_hit = {"summary": hit.get("summary", ""), "source_url": text}
+    return await _resolve_source_url(
+        pseudo_hit, text, chunks, supports, http_client, redirect_cache,
+    )
+
+
+async def _fix_urls_one(sink: "Sink", key: str, client,
+                        http_client: "httpx.AsyncClient",
+                        sem: asyncio.Semaphore,
+                        redirect_cache: dict, stats: dict) -> None:
+    """HEAD-validate every source_url in one result file; re-ask Gemini on 404s."""
+    async with sem:
+        result = await asyncio.to_thread(sink.read, key)
+        if not isinstance(result, dict) or "signals" not in result:
+            stats["skipped_invalid"] += 1
+            return
+        if result.get("urls_fixed"):
+            stats["skipped_already_done"] += 1
+            return
+
+        stats["files"] += 1
+        account = result.get("account", "")
+        all_hits: list[tuple[str, dict]] = []  # (signal_type, hit)
+        for signal_type, hits in result.get("signals", {}).items():
+            for hit in hits:
+                if (hit.get("source_url") or "").strip():
+                    all_hits.append((signal_type, hit))
+
+        # Phase 1: HEAD-validate all URLs concurrently. Redirect-host URLs are
+        # treated as alive — the v2 resolver returned them deliberately and
+        # they click through correctly.
+        async def _check(hit: dict) -> bool:
+            url = (hit.get("source_url") or "").strip()
+            if _REDIRECT_HOST in url:
+                return True
+            return await _is_url_alive(url, http_client)
+
+        statuses = await asyncio.gather(*[_check(h) for _st, h in all_hits])
+        stats["checked"] += len(all_hits)
+
+        # Phase 2: for dead URLs, re-ask Gemini for the real URL.
+        for (signal_type, hit), alive in zip(all_hits, statuses):
+            if alive:
+                stats["alive"] += 1
+                continue
+            new_url = await _reask_gemini_for_url(
+                client, account, signal_type, hit, http_client, redirect_cache,
+            )
+            if new_url and await _is_url_alive(new_url, http_client):
+                hit["source_url"] = new_url
+                stats["dead_fixed"] += 1
+            else:
+                hit["source_url"] = ""
+                stats["dead_nulled"] += 1
+
+        result["urls_fixed"] = True
+        await asyncio.to_thread(sink.write, key, result)
+
+
+def run_url_backfill(sink: "Sink", date_str: str, api_key: str | None = None) -> None:
+    """HEAD-validate every source_url in `results_<date_str>.json` files; for any
+    that 4xx, re-ask Gemini (with grounding) for the canonical URL and write back.
+
+    Idempotent — files with `urls_fixed: true` are skipped.
+    """
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(override=True)
+    except ImportError:
+        pass
+
+    client = get_client(api_key)
+
+    keys = [k for k in sink.list("") if _matches_date(k, date_str)]
+    if not keys:
+        print(f"No matching results files found for date='{date_str}'. Nothing to fix.")
+        return
+
+    print(f"Fixing URLs in {len(keys)} result file(s) for date='{date_str}' "
+          f"with concurrency={SEMAPHORE_SIZE}...")
+
+    stats = {
+        "files":                0,
+        "checked":              0,
+        "alive":                0,
+        "dead_fixed":           0,
+        "dead_nulled":          0,
+        "skipped_already_done": 0,
+        "skipped_invalid":      0,
+    }
+
+    async def _run() -> None:
+        sem = asyncio.Semaphore(SEMAPHORE_SIZE)
+        redirect_cache: dict[str, str] = {}
+        async with httpx.AsyncClient(
+            follow_redirects=True,
+            timeout=httpx.Timeout(10.0),
+            headers={"User-Agent": HTTP_USER_AGENT},
+        ) as http_client:
+            await asyncio.gather(*[
+                _fix_urls_one(sink, k, client, http_client, sem, redirect_cache, stats)
+                for k in keys
+            ])
+
+    asyncio.run(_run())
+
+    print(
+        f"URL backfill complete. "
+        f"files={stats['files']} "
+        f"checked={stats['checked']} "
+        f"alive={stats['alive']} "
+        f"dead_fixed={stats['dead_fixed']} "
+        f"dead_nulled={stats['dead_nulled']} "
         f"skipped_already_done={stats['skipped_already_done']} "
         f"skipped_invalid={stats['skipped_invalid']}"
     )

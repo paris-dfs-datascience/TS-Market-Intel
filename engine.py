@@ -18,6 +18,8 @@ from functools import lru_cache
 
 from dateutil import parser as _date_parser
 
+import httpx
+
 from google import genai
 from google.genai.types import GenerateContentConfig, GoogleSearch, HttpOptions, Tool
 from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK, _recency_instruction
@@ -201,20 +203,113 @@ def _normalize_event_date(raw, fallback_iso_date: str) -> str:
     return fallback_iso_date
 
 
-def _resolve_source_url(raw_url, grounding_chunks) -> str:
-    """If raw_url is empty/missing or a Gemini grounding redirect, try to recover
-    a real article URL from `grounding_chunks`. Final fallback: keep the raw URL.
+HTTP_USER_AGENT = "Mozilla/5.0 (compatible; ts-market-intel/1.0)"
+
+
+def _hit_chunk_indices(summary: str, response_text: str, supports) -> list[int]:
+    """Find which grounding-chunk indices were cited in support of a hit's summary.
+
+    Locates the summary inside response_text (fuzzy fallback to first 80 chars),
+    then walks `supports`. For any support whose segment overlaps the summary span,
+    its `grounding_chunk_indices` are collected. Returns a deduplicated, order-preserved
+    list — or `[]` if the summary isn't locatable (caller should fall back to all chunks).
     """
-    raw_url = (raw_url or "").strip()
-    if raw_url and _REDIRECT_HOST not in raw_url:
-        return raw_url
-    for chunk in grounding_chunks or []:
+    if not summary or not response_text:
+        return []
+    s = summary.strip()
+    start = response_text.find(s)
+    if start == -1 and len(s) > 80:
+        start = response_text.find(s[:80])
+    if start == -1:
+        return []
+    end = start + len(s)
+    seen: set[int] = set()
+    ordered: list[int] = []
+    for sup in supports or []:
+        seg = getattr(sup, "segment", None)
+        if seg is None:
+            continue
+        seg_start = getattr(seg, "start_index", None)
+        seg_end = getattr(seg, "end_index", None)
+        if seg_start is None or seg_end is None:
+            continue
+        if seg_start < end and seg_end > start:
+            for idx in getattr(sup, "grounding_chunk_indices", []) or []:
+                if idx not in seen:
+                    seen.add(idx)
+                    ordered.append(idx)
+    return ordered
+
+
+async def _resolve_redirect(url: str, http_client: "httpx.AsyncClient",
+                             cache: dict) -> str | None:
+    """Follow a Gemini grounding-redirect URL to its final article URL.
+
+    Uses GET (not HEAD — some sites 405 HEAD). Reads the response's final `.url`
+    after httpx follows redirects. Returns the final URL if it's no longer a
+    redirect; None if resolution failed or still points at the redirect host.
+    Cached per call site.
+    """
+    if not url:
+        return None
+    if url in cache:
+        return cache[url]
+    try:
+        r = await http_client.get(url)
+        final = str(r.url) if r.url else None
+        if final and _REDIRECT_HOST not in final:
+            cache[url] = final
+            return final
+    except Exception:
+        pass
+    cache[url] = None
+    return None
+
+
+async def _resolve_source_url(hit: dict, response_text: str, chunks,
+                               supports, http_client: "httpx.AsyncClient",
+                               redirect_cache: dict) -> str:
+    """Pick the best real article URL for one signal hit.
+
+    Strategy (decided 2026-05-25):
+      1. Map the hit's `summary` text span in `response_text` to grounding-support
+         segments; collect the union of chunk indices those supports cite.
+         If supports can't be matched, fall back to scanning all chunks.
+      2. Prefer the first non-redirect URI in the candidate chunk set.
+      3. If only redirect URIs survive, HEAD-resolve the first one to its final
+         article URL (cached per `redirect_cache`).
+      4. If chunks yield nothing usable, fall back to the hit's original JSON URL.
+    """
+    chunks = list(chunks or [])
+    raw_url = (hit.get("source_url") or "").strip()
+
+    # Step 1: narrow chunks via supports if possible; else use all chunks.
+    indices = _hit_chunk_indices(hit.get("summary") or "", response_text, supports)
+    if indices:
+        candidate_chunks = [chunks[i] for i in indices if 0 <= i < len(chunks)]
+    else:
+        candidate_chunks = chunks
+
+    # Step 2: prefer non-redirect URIs.
+    redirect_chunks: list[str] = []
+    for chunk in candidate_chunks:
         try:
             uri = chunk.web.uri
         except AttributeError:
-            uri = None
-        if uri and _REDIRECT_HOST not in uri:
+            continue
+        if not uri:
+            continue
+        if _REDIRECT_HOST not in uri:
             return uri
+        redirect_chunks.append(uri)
+
+    # Step 3: resolve redirect chunks via HTTP.
+    for redirect_url in redirect_chunks:
+        resolved = await _resolve_redirect(redirect_url, http_client, redirect_cache)
+        if resolved:
+            return resolved
+
+    # Step 4: final fallback — Gemini's JSON URL (may be fabricated, but it's all we have).
     return raw_url
 
 
@@ -247,26 +342,48 @@ async def _generate_account_summary(client, result: dict) -> str | None:
         f"sales team. No preamble, no bullets, no quotes — just the paragraph.\n\n"
         f"Signals:\n{body}"
     )
-    try:
-        response = await asyncio.wait_for(
-            client.aio.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-                config=GenerateContentConfig(temperature=0.1),
-            ),
-            timeout=SIGNAL_HARD_TIMEOUT,
-        )
-        if _usage:
-            await _usage.record("success", signal="_ai_summary",
-                                usage_meta=getattr(response, "usage_metadata", None),
-                                elapsed=0.0, hits=0)
-        text = (getattr(response, "text", None) or "").strip()
-        return text or None
-    except Exception as e:
-        logger.warning(f"  {C['yellow']}⚠ ai_summary generation failed: {e}{C['reset']}")
-        if _usage:
-            await _usage.record("error", signal="_ai_summary")
-        return None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            response = await asyncio.wait_for(
+                client.aio.models.generate_content(
+                    model=MODEL,
+                    contents=prompt,
+                    config=GenerateContentConfig(temperature=0.1),
+                ),
+                timeout=SIGNAL_HARD_TIMEOUT,
+            )
+            if _usage:
+                await _usage.record("success", signal="_ai_summary",
+                                    usage_meta=getattr(response, "usage_metadata", None),
+                                    elapsed=0.0, hits=0,
+                                    is_retry=(attempt > 1))
+            text = (getattr(response, "text", None) or "").strip()
+            return text or None
+        except (asyncio.TimeoutError, TimeoutError):
+            logger.warning(f"  {C['yellow']}⚠ ai_summary timed out after {SIGNAL_HARD_TIMEOUT}s — skipping.{C['reset']}")
+            if _usage:
+                await _usage.record("timeout", signal="_ai_summary")
+            return None
+        except Exception as e:
+            err = str(e)
+            transient = (
+                "503" in err or "UNAVAILABLE" in err.upper()
+                or "429" in err or "RATE" in err.upper()
+            )
+            if transient and attempt < MAX_RETRIES:
+                wait = min(5 * (2 ** attempt), 120)  # 10s, 20s, 40s, capped at 120s
+                logger.warning(
+                    f"  {C['yellow']}⚠ ai_summary transient error (attempt {attempt}/{MAX_RETRIES}), "
+                    f"retrying in {wait}s: {e}{C['reset']}"
+                )
+                await asyncio.sleep(wait)
+                continue
+            logger.warning(f"  {C['yellow']}⚠ ai_summary generation failed: {e}{C['reset']}")
+            if _usage:
+                await _usage.record("error", signal="_ai_summary",
+                                    is_retry=(attempt > 1))
+            return None
+    return None
 
 
 def print_signals(signal: str, signals: list):
@@ -524,6 +641,8 @@ async def run_account_async(client, account: str, category: str, signals: list,
         "timestamp":        datetime.now().isoformat(),
     }
     fallback_date = result["timestamp"][:10]  # 'YYYY-MM-DD' slice — used when event_date is missing/unparseable
+    redirect_cache: dict[str, str] = {}       # Gemini-redirect -> resolved real URL, per account
+    http_client: httpx.AsyncClient | None = None  # bound inside the async-with below; fetch_one reads via closure
 
     async def fetch_one(signal: str):
         """Fetch one signal concurrently — retries on 429, skips on other errors."""
@@ -560,14 +679,21 @@ async def run_account_async(client, account: str, category: str, signals: list,
                                                         is_retry=(attempt > 1))
                         return signal, []
                     parsed = parse_signals(response.text)
-                    # Extract grounding chunks for source_url recovery
+                    # Extract grounding metadata for source_url recovery
                     try:
                         chunks = response.candidates[0].grounding_metadata.grounding_chunks or []
                     except (AttributeError, IndexError, TypeError):
                         chunks = []
+                    try:
+                        supports = response.candidates[0].grounding_metadata.grounding_supports or []
+                    except (AttributeError, IndexError, TypeError):
+                        supports = []
                     for hit in parsed:
                         hit["event_date"] = _normalize_event_date(hit.get("event_date"), fallback_date)
-                        hit["source_url"] = _resolve_source_url(hit.get("source_url"), chunks)
+                        hit["source_url"] = await _resolve_source_url(
+                            hit, response.text or "", chunks, supports,
+                            http_client, redirect_cache,
+                        )
                     if _usage: await _usage.record("success", signal=signal,
                                                     usage_meta=getattr(response, "usage_metadata", None),
                                                     elapsed=elapsed, hits=len(parsed),
@@ -602,10 +728,18 @@ async def run_account_async(client, account: str, category: str, signals: list,
             if _usage: await _usage.record("error", signal=signal)
             return signal, []
 
-    # Fire all signals concurrently — wait for all to finish
+    # Fire all signals concurrently — wait for all to finish.
+    # The httpx client is open for the lifetime of the gather, used by
+    # `_resolve_source_url` to follow Gemini redirect URLs to real article URLs.
     logger.info(f"  {d}Searching {len(signals)} signals in parallel...{r}")
     acct_start = time.time()
-    pairs = await asyncio.gather(*[fetch_one(s) for s in signals])
+    async with httpx.AsyncClient(
+        follow_redirects=True,
+        timeout=httpx.Timeout(10.0),
+        headers={"User-Agent": HTTP_USER_AGENT},
+    ) as _client:
+        http_client = _client
+        pairs = await asyncio.gather(*[fetch_one(s) for s in signals])
     acct_elapsed = time.time() - acct_start
     logger.info(f"  {d}⏱ {account} completed in {acct_elapsed:.1f}s{r}")
     signal_map = dict(pairs)
