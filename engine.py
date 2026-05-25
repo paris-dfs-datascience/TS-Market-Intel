@@ -242,7 +242,7 @@ async def _generate_account_summary(client, result: dict) -> str | None:
     prompt = (
         f"You are summarising market intelligence signals for {result.get('account', '')} "
         f"({result.get('account_vertical', '')}). Below are signal summaries detected for "
-        f"this account. Write ONE paragraph of approximately 60 words (do not exceed 80) "
+        f"this account. Write ONE paragraph of approximately 60 words (do not exceed 60) "
         f"describing what is happening at this account and why it matters for a lab supply "
         f"sales team. No preamble, no bullets, no quotes — just the paragraph.\n\n"
         f"Signals:\n{body}"
