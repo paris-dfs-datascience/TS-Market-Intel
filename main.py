@@ -76,6 +76,11 @@ def parse_args() -> argparse.Namespace:
                    help="One-off dedup analysis on _export/market_intel_export_<DATE>.csv. "
                         "Writes dedup_4a_*, dedup_4b_*, dedup_analysis_* artifacts back to "
                         "_export/ and exits. Skips the engine.")
+    p.add_argument("--backfill", default=None, metavar="DATE",
+                   help="One-off backfill on existing results_<DATE>.json files: normalize "
+                        "event_date to YYYY-MM-DD, generate ai_summary for any account "
+                        "missing it. Pass 'all' to backfill every dated result in the sink. "
+                        "Idempotent — files already containing ai_summary are skipped.")
     return p.parse_args()
 
 
@@ -93,6 +98,12 @@ def main() -> None:
     if args.analyze_dedup:
         from analyze_dedup import run as run_dedup
         run_dedup(args.analyze_dedup)
+        return
+
+    # --backfill: one-off re-processing of existing results JSONs. Skips the engine.
+    if args.backfill:
+        from backfill_results import run_backfill
+        run_backfill(sink, args.backfill, api_key=args.api_key)
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.

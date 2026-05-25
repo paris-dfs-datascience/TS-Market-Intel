@@ -41,7 +41,20 @@ ROLE = (
     "that indicate upcoming demand for lab supplies, reagents, consumables, and scientific equipment."
 )
 
-JSON_INSTRUCTION = "Return ONLY a raw JSON array with no markdown, no explanation, no preamble."
+JSON_INSTRUCTION = (
+    "Return ONLY a raw JSON array with no markdown, no explanation, no preamble. "
+    "Two fields have strict formatting rules that you MUST follow: "
+    "(1) 'event_date' must be in strict ISO 8601 format YYYY-MM-DD. Use the "
+    "publication date of the source article or the announcement date of the event. "
+    "Return null ONLY if you cannot determine a specific calendar day. Do NOT return "
+    "partial dates ('Month YYYY'), quarters ('Q2 2024'), date ranges, or relative "
+    "phrases like 'recently' or 'last week'. "
+    "(2) 'source_url' must be the canonical URL of the actual source article or "
+    "press release (e.g. https://www.pfizer.com/news/..., https://nih.gov/news/...). "
+    "Do NOT return vertexaisearch.cloud.google.com redirect URLs, Google search result "
+    "URLs, or generic homepage URLs — only the specific article URL that contains the "
+    "cited information."
+)
 
 # ── Category → triggers mapping (21 signals × 7 categories + cross-segment) ─
 CATEGORY_TRIGGERS = {
@@ -222,7 +235,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, recipient, department_or_lab, amount, agency, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this event was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this event was announced or published. "
             f"'why_it_matters' = one sentence on why a lab supply sales rep should act on this. "
             f"If no results within the recency window, return []."
         )
@@ -236,7 +249,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, name, department, start_date, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this hire was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this hire was announced or published. "
             f"'why_it_matters' = one sentence noting new hires need to outfit labs with supplies and equipment. "
             f"If no results within the recency window, return []."
         )
@@ -250,7 +263,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, project_name, location, value, timeline, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this project was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this project was announced or published. "
             f"'why_it_matters' = one sentence on the lab supply opportunity from new facility build-out. "
             f"Only include projects at or above ${MIN_CAPEX_M}M. If none, return []."
         )
@@ -264,7 +277,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, contract_name, estimated_value, deadline_or_expiration, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this contract or RFP was announced or posted, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this contract or RFP was announced or posted. "
             f"'why_it_matters' = one sentence on the bid or supply opportunity for Thomas Scientific. "
             f"If no results within the recency window, return []."
         )
@@ -278,7 +291,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, product_or_program, stage, therapeutic_or_application_area, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this pipeline event was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this pipeline event was announced or published. "
             f"'why_it_matters' = one sentence on why a lab supply sales rep should engage this account now. "
             f"If no results within the recency window, return []."
         )
@@ -297,7 +310,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, location, type_of_expansion, investment_value, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this expansion was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this expansion was announced or published. "
             f"'why_it_matters' = one sentence on the lab supply opportunity (new site = new procurement). "
             f"If no results within the recency window, return []."
         )
@@ -351,7 +364,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, partner, deal_type, deal_value, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this partnership or deal was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this partnership or deal was announced or published. "
             f"'why_it_matters' = one sentence on how this deal signals new or expanded lab activity. "
             f"If no results within the recency window, return []."
         )
@@ -409,7 +422,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, amount, funding_type, use_of_proceeds, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this funding was announced or closed, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this funding was announced or closed. "
             f"'why_it_matters' = one sentence on how new capital translates to lab supply spending. "
             f"If no results within the recency window, return []."
         )
@@ -483,7 +496,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, project_name, scope, timeline, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this project was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this project was announced or published. "
             f"'why_it_matters' = one sentence connecting the project to demand for scientific supplies or equipment. "
             f"If no results within the recency window, return []."
         )
@@ -497,7 +510,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, product_or_site, regulatory_action, outcome, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this regulatory event occurred or was published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this regulatory event occurred or was published. "
             f"'why_it_matters' = one sentence on how this regulatory event affects lab supply demand "
             f"(approval = scale-up; warning letter = remediation supplies needed). "
             f"If no results within the recency window, return []."
@@ -538,7 +551,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, role_or_department, headcount, location, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this hiring announcement was published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this hiring announcement was published. "
             f"'why_it_matters' = one sentence on how headcount expansion signals new lab supply demand. "
             f"If no results within the recency window, return []."
         )
@@ -552,7 +565,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, tender_name, estimated_value, deadline, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this tender was published or posted, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this tender was published or posted. "
             f"'why_it_matters' = one sentence on the direct sales opportunity for Thomas Scientific. "
             f"If no results within the recency window, return []."
         )
@@ -585,7 +598,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, researcher_name, department_or_lab, award_or_discovery, significance, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this breakthrough or award was announced, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this breakthrough or award was announced. "
             f"'why_it_matters' = one sentence on how this breakthrough signals high-impact lab activity and supply demand. "
             f"If no results within the recency window, return []."
         )
@@ -599,7 +612,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, acquirer, target, deal_value, deal_status, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this M&A event was announced or reported, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this M&A event was announced or reported. "
             f"'why_it_matters' = one sentence on how this M&A event creates lab supply opportunity "
             f"(integration = new procurement, consolidation = vendor rationalisation risk). "
             f"If no results within the recency window, return []."
@@ -614,7 +627,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, spinoff_name, parent_organisation, focus_area, funding_raised, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this spinoff was announced or incorporated, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this spinoff was announced or incorporated. "
             f"'why_it_matters' = one sentence on why a new spinoff lab is a greenfield sales opportunity. "
             f"If no results within the recency window, return []."
         )
@@ -628,7 +641,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, facility_or_line, change_type, location, investment_value, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this production change was announced or published, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this production change was announced or published. "
             f"'why_it_matters' = one sentence on how production changes drive new lab or QC supply demand. "
             f"If no results within the recency window, return []."
         )
@@ -658,7 +671,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, test_or_product_line, volume_change, driver, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this volume change was reported or announced, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this volume change was reported or announced. "
             f"'why_it_matters' = one sentence on how higher test volume directly increases consumable spend. "
             f"If no results within the recency window, return []."
         )
@@ -690,7 +703,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, contract_or_award, incumbent, winner, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this contract award or competitive event was announced, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this contract award or competitive event was announced. "
             f"'why_it_matters' = one sentence on the competitive risk or opportunity for Thomas Scientific. "
             f"If no results within the recency window, return []."
         )
@@ -704,7 +717,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, mandate_type, jurisdiction, funding_amount, effective_date, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this mandate was announced or passed, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this mandate was announced or passed. "
             f"'why_it_matters' = one sentence on how this mandate creates non-discretionary lab supply demand. "
             f"If no results within the recency window, return []."
         )
@@ -736,7 +749,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, bill_or_budget_name, jurisdiction, funding_amount, focus_area, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this bill or budget was passed or announced, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this bill or budget was passed or announced. "
             f"'why_it_matters' = one sentence on how this legislation unlocks new lab supply spending. "
             f"If no results within the recency window, return []."
         )
@@ -750,7 +763,7 @@ def build_prompt(signal: str, entity: str, category: str,
             f"{JSON_INSTRUCTION} "
             f"Each object must use these exact keys: "
             f"summary, facility_or_programme, closure_type, effective_date, reason, event_date, why_it_matters, source_url. "
-            f"'event_date' = the date this closure was announced or reported, in format 'Month DD, YYYY' or 'Month YYYY' if exact date unknown; return null if not determinable. "
+            f"'event_date' = the date this closure was announced or reported. "
             f"'why_it_matters' = one sentence on the churn risk or competitive displacement opportunity for Thomas Scientific. "
             f"If no results within the recency window, return []."
         )

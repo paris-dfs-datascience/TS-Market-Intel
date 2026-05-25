@@ -16,6 +16,8 @@ import time
 from datetime import datetime
 from functools import lru_cache
 
+from dateutil import parser as _date_parser
+
 from google import genai
 from google.genai.types import GenerateContentConfig, GoogleSearch, HttpOptions, Tool
 from prompts import build_prompt, FIELD_MAPS, CATEGORY_TRIGGERS, DAYS_BACK, _recency_instruction
@@ -129,11 +131,9 @@ def _resolve_api_key(api_key: str = None) -> str:
     Managed Identity in Azure, `az login` locally.
     """
     if api_key:
-        logger.info("Gemini API key source: --api-key flag")
         return api_key
     env_key = os.environ.get("GEMINI_API_KEY")
     if env_key:
-        logger.info("Gemini API key source: GEMINI_API_KEY env var")
         return env_key
     vault_url = os.environ.get("AZURE_KEY_VAULT_URL")
     if vault_url:
@@ -141,9 +141,7 @@ def _resolve_api_key(api_key: str = None) -> str:
         from azure.keyvault.secrets import SecretClient
         secret_name = os.environ.get("GEMINI_API_KEY_SECRET_NAME", "gemini-api-key")
         client = SecretClient(vault_url=vault_url, credential=DefaultAzureCredential())
-        value = client.get_secret(secret_name).value
-        logger.info(f"Gemini API key source: Azure Key Vault ({vault_url}, secret={secret_name})")
-        return value
+        return client.get_secret(secret_name).value
     logger.error(
         "ERROR: No Gemini API key found. Pass --api-key, set GEMINI_API_KEY, "
         "or set AZURE_KEY_VAULT_URL (with GEMINI_API_KEY_SECRET_NAME if not 'gemini-api-key')."
@@ -172,6 +170,103 @@ def parse_signals(raw: str) -> list:
             except json.JSONDecodeError:
                 pass
     return []
+
+
+_REDIRECT_HOST = "vertexaisearch.cloud.google.com"
+
+
+def _normalize_event_date(raw, fallback_iso_date: str) -> str:
+    """Coerce Gemini's event_date into strict YYYY-MM-DD.
+
+    Returns the fallback (the account's ingest date) whenever the input is
+    missing, partial, or unparseable. Guarantees a sortable date string —
+    never returns None, never returns free-form text.
+    """
+    if raw is None:
+        return fallback_iso_date
+    s = str(raw).strip()
+    if not s or s.lower() in ("null", "none", "n/a", "unknown"):
+        return fallback_iso_date
+    try:
+        return datetime.strptime(s, "%Y-%m-%d").strftime("%Y-%m-%d")
+    except ValueError:
+        pass
+    try:
+        d1 = _date_parser.parse(s, default=datetime(1900, 1, 1), fuzzy=False, dayfirst=False)
+        d2 = _date_parser.parse(s, default=datetime(2099, 12, 31), fuzzy=False, dayfirst=False)
+        if d1 == d2:
+            return d1.strftime("%Y-%m-%d")
+    except (ValueError, OverflowError, TypeError):
+        pass
+    return fallback_iso_date
+
+
+def _resolve_source_url(raw_url, grounding_chunks) -> str:
+    """If raw_url is empty/missing or a Gemini grounding redirect, try to recover
+    a real article URL from `grounding_chunks`. Final fallback: keep the raw URL.
+    """
+    raw_url = (raw_url or "").strip()
+    if raw_url and _REDIRECT_HOST not in raw_url:
+        return raw_url
+    for chunk in grounding_chunks or []:
+        try:
+            uri = chunk.web.uri
+        except AttributeError:
+            uri = None
+        if uri and _REDIRECT_HOST not in uri:
+            return uri
+    return raw_url
+
+
+def _has_signals(result: dict) -> bool:
+    return any(v for v in result.get("signals", {}).values())
+
+
+async def _generate_account_summary(client, result: dict) -> str | None:
+    """Generate a ~60-word narrative summary of all signal hits for one account.
+
+    Uses the same Gemini model but with no Google Search grounding (pure summarization),
+    low temperature, and the same hard timeout. Returns None on any failure — callers
+    should treat None as "skip ai_summary for this account."
+    """
+    lines = []
+    for signal_type, hits in result.get("signals", {}).items():
+        for hit in hits:
+            summary = (hit.get("summary") or "").strip()
+            if summary:
+                lines.append(f"- [{signal_type}] {summary}")
+    if not lines:
+        return None
+
+    body = "\n".join(lines)
+    prompt = (
+        f"You are summarising market intelligence signals for {result.get('account', '')} "
+        f"({result.get('account_vertical', '')}). Below are signal summaries detected for "
+        f"this account. Write ONE paragraph of approximately 60 words (do not exceed 80) "
+        f"describing what is happening at this account and why it matters for a lab supply "
+        f"sales team. No preamble, no bullets, no quotes — just the paragraph.\n\n"
+        f"Signals:\n{body}"
+    )
+    try:
+        response = await asyncio.wait_for(
+            client.aio.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=GenerateContentConfig(temperature=0.1),
+            ),
+            timeout=SIGNAL_HARD_TIMEOUT,
+        )
+        if _usage:
+            await _usage.record("success", signal="_ai_summary",
+                                usage_meta=getattr(response, "usage_metadata", None),
+                                elapsed=0.0, hits=0)
+        text = (getattr(response, "text", None) or "").strip()
+        return text or None
+    except Exception as e:
+        logger.warning(f"  {C['yellow']}⚠ ai_summary generation failed: {e}{C['reset']}")
+        if _usage:
+            await _usage.record("error", signal="_ai_summary")
+        return None
 
 
 def print_signals(signal: str, signals: list):
@@ -428,6 +523,7 @@ async def run_account_async(client, account: str, category: str, signals: list,
         "signals":          {},
         "timestamp":        datetime.now().isoformat(),
     }
+    fallback_date = result["timestamp"][:10]  # 'YYYY-MM-DD' slice — used when event_date is missing/unparseable
 
     async def fetch_one(signal: str):
         """Fetch one signal concurrently — retries on 429, skips on other errors."""
@@ -464,6 +560,14 @@ async def run_account_async(client, account: str, category: str, signals: list,
                                                         is_retry=(attempt > 1))
                         return signal, []
                     parsed = parse_signals(response.text)
+                    # Extract grounding chunks for source_url recovery
+                    try:
+                        chunks = response.candidates[0].grounding_metadata.grounding_chunks or []
+                    except (AttributeError, IndexError, TypeError):
+                        chunks = []
+                    for hit in parsed:
+                        hit["event_date"] = _normalize_event_date(hit.get("event_date"), fallback_date)
+                        hit["source_url"] = _resolve_source_url(hit.get("source_url"), chunks)
                     if _usage: await _usage.record("success", signal=signal,
                                                     usage_meta=getattr(response, "usage_metadata", None),
                                                     elapsed=elapsed, hits=len(parsed),
@@ -512,6 +616,10 @@ async def run_account_async(client, account: str, category: str, signals: list,
         print_signals(signal, signal_map[signal])
         result["signals"][signal] = signal_map[signal]
         acct_hits += len(signal_map[signal])
+
+    # Generate a 60-word narrative summary across all signals for this account.
+    # No grounding — pure summarization. Skip when the account has no hits.
+    result["ai_summary"] = await _generate_account_summary(client, result) if _has_signals(result) else None
 
     if _usage:
         await _usage.record_account(account, acct_elapsed, acct_hits)

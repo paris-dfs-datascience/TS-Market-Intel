@@ -132,6 +132,20 @@ def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, str]:
                     "ingested_at":      ingested,
                 })
 
+        ai_summary_text = (result.get("ai_summary") or "").strip()
+        if ai_summary_text:
+            rows.append({
+                "account":          account,
+                "Parent_ID":        parent_id,
+                "signal_type":      "ai_summary",
+                "account_vertical": vertical,
+                "summary":          ai_summary_text,
+                "why_it_matters":   "",
+                "event_date":       date_str,
+                "source_url":       "",
+                "ingested_at":      ingested,
+            })
+
     csv_text = _rows_to_csv_text(rows)
     out_key = f"_export/market_intel_export_{date_str}.csv"
     sink.write_text(out_key, csv_text)
