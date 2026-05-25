@@ -43,6 +43,7 @@ from engine import (
     _generate_account_summary,
     _has_signals,
     _normalize_event_date,
+    _resolve_redirect,
     _resolve_source_url,
     get_client,
 )
