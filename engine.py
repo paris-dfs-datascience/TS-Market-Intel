@@ -177,6 +177,23 @@ def parse_signals(raw: str) -> list:
 _REDIRECT_HOST = "vertexaisearch.cloud.google.com"
 
 
+def _coerce_url(value) -> str:
+    """Normalize a potentially-malformed source_url into a stripped string.
+
+    Handles legacy data where some historical pipeline writes produced
+    `source_url: [url1, url2, ...]` (list) or `source_url: null`. Returns the
+    first non-empty string element if a list, the value itself if a string,
+    or '' for anything else.
+    """
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        for v in value:
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+    return ""
+
+
 def _normalize_event_date(raw, fallback_iso_date: str) -> str:
     """Coerce Gemini's event_date into strict YYYY-MM-DD.
 
@@ -281,7 +298,7 @@ async def _resolve_source_url(hit: dict, response_text: str, chunks,
       4. If chunks yield nothing usable, fall back to the hit's original JSON URL.
     """
     chunks = list(chunks or [])
-    raw_url = (hit.get("source_url") or "").strip()
+    raw_url = _coerce_url(hit.get("source_url"))
 
     # Step 1: narrow chunks via supports if possible; else use all chunks.
     indices = _hit_chunk_indices(hit.get("summary") or "", response_text, supports)

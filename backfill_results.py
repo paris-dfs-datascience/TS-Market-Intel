@@ -39,6 +39,7 @@ from engine import (
     SEMAPHORE_SIZE,
     SIGNAL_HARD_TIMEOUT,
     _REDIRECT_HOST,
+    _coerce_url,
     _generate_account_summary,
     _has_signals,
     _normalize_event_date,
@@ -248,15 +249,26 @@ async def _fix_urls_one(sink: "Sink", key: str, client,
         account = result.get("account", "")
         all_hits: list[tuple[str, dict]] = []  # (signal_type, hit)
         for signal_type, hits in result.get("signals", {}).items():
+            if not isinstance(hits, list):
+                continue
             for hit in hits:
-                if (hit.get("source_url") or "").strip():
-                    all_hits.append((signal_type, hit))
+                if not isinstance(hit, dict):
+                    continue
+                url = _coerce_url(hit.get("source_url"))
+                if not url:
+                    continue
+                # Migrate legacy list-shaped source_url to a single string
+                # in-place so the writeback at the end of the function captures
+                # the cleanup (no future code needs to keep tolerating lists).
+                if hit.get("source_url") != url:
+                    hit["source_url"] = url
+                all_hits.append((signal_type, hit))
 
         # Phase 1: HEAD-validate all URLs concurrently. Redirect-host URLs are
         # treated as alive — the v2 resolver returned them deliberately and
         # they click through correctly.
         async def _check(hit: dict) -> bool:
-            url = (hit.get("source_url") or "").strip()
+            url = _coerce_url(hit.get("source_url"))
             if _REDIRECT_HOST in url:
                 return True
             return await _is_url_alive(url, http_client)
