@@ -159,6 +159,13 @@ def run_backfill(sink: "Sink", date_str: str, api_key: str | None = None) -> Non
 
 # ── URL backfill (v2 source_url fix on historical files) ──────────────────
 
+# Bumped to 2 in hotfix v2.2 because the previous _check incorrectly accepted
+# `vertexaisearch.cloud.google.com` redirect URLs as alive without HTTP-validating
+# them. All 480 files written under marker `True` need to be re-processed under
+# the new logic that resolves + HEAD-checks redirects. Bump again on any future
+# correctness fix that changes what URLs the script considers "fixed".
+_URLS_FIXED_VERSION = 2
+
 
 async def _is_url_alive(url: str, http_client: "httpx.AsyncClient") -> bool:
     """True iff fetching `url` resolves to a 2xx response. Treats any exception or
@@ -241,7 +248,7 @@ async def _fix_urls_one(sink: "Sink", key: str, client,
         if not isinstance(result, dict) or "signals" not in result:
             stats["skipped_invalid"] += 1
             return
-        if result.get("urls_fixed"):
+        if result.get("urls_fixed") == _URLS_FIXED_VERSION:
             stats["skipped_already_done"] += 1
             return
 
@@ -264,13 +271,23 @@ async def _fix_urls_one(sink: "Sink", key: str, client,
                     hit["source_url"] = url
                 all_hits.append((signal_type, hit))
 
-        # Phase 1: HEAD-validate all URLs concurrently. Redirect-host URLs are
-        # treated as alive — the v2 resolver returned them deliberately and
-        # they click through correctly.
+        # Phase 1: HEAD-validate all URLs concurrently. For Gemini-redirect URLs,
+        # resolve to the underlying article URL first (those tokens are short-lived
+        # — a 6-day-old redirect may already 404 even though the resolver returned
+        # it at write time). If resolution succeeds, replace the hit's source_url
+        # with the stable real URL in-place, then HEAD-check it. If resolution
+        # fails OR the resolved URL doesn't 2xx, the URL is dead → Phase 2 re-asks
+        # Gemini for the canonical article URL.
         async def _check(hit: dict) -> bool:
             url = _coerce_url(hit.get("source_url"))
+            if not url:
+                return False
             if _REDIRECT_HOST in url:
-                return True
+                resolved = await _resolve_redirect(url, http_client, redirect_cache)
+                if not resolved:
+                    return False
+                hit["source_url"] = resolved
+                return await _is_url_alive(resolved, http_client)
             return await _is_url_alive(url, http_client)
 
         statuses = await asyncio.gather(*[_check(h) for _st, h in all_hits])
@@ -291,7 +308,7 @@ async def _fix_urls_one(sink: "Sink", key: str, client,
                 hit["source_url"] = ""
                 stats["dead_nulled"] += 1
 
-        result["urls_fixed"] = True
+        result["urls_fixed"] = _URLS_FIXED_VERSION
         await asyncio.to_thread(sink.write, key, result)
 
 
