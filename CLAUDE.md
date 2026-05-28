@@ -4,7 +4,7 @@ Guidance for Claude Code when working in this repository.
 
 ## What This Is
 
-A market intelligence platform for Thomas Scientific. Uses Gemini 2.5 Flash (with Google Search grounding) to detect sales signals across 237 B2B scientific supply accounts spread across 7 industry verticals. Runs are parallelized async API calls, checkpointed to JSON, and containerized for deployment to an Azure Container App.
+A market intelligence platform for Thomas Scientific. Uses Gemini 2.5 Flash (with Google Search grounding) to detect sales signals across 482 B2B scientific supply accounts spread across 7 industry verticals. Runs are parallelized async API calls, checkpointed to JSON, and containerized for deployment to an Azure Container App.
 
 ## Local Setup
 
@@ -46,7 +46,7 @@ python main.py --category biopharma --limit 5
 python main.py --api-key YOUR_KEY
 ```
 
-Valid `--category` values: `BioPharma`, `Education & Research`, `CDMO/CRO`, `Clinical/Mol Dx`, `Hospital & Health Systems`, `Industrial`, `Government`, `all`.
+Valid `--category` values: `BioPharma`, `Education & Research`, `CDMO / CRO`, `Clinical / Molecular Diagnostics`, `Hospital & Health Systems`, `Industrial`, `Government`, `all`. Slugs: `biopharma`, `education`, `cdmo_cro`, `clinical_dx`, `hospital`, `industrial`, `government`.
 
 ### Docker
 
@@ -99,7 +99,8 @@ Locally, `DefaultAzureCredential` falls back to `az login` creds or `AZURE_CLIEN
 | `engine.py` | Async execution engine — semaphore, retries, checkpointing, usage tracking |
 | `storage.py` | `Sink` abstraction (`LocalSink` / `BlobSink`); selected via env by `get_sink()` |
 | `prompts.py` | 21 signal prompts (`build_prompt()`), vertical→signal mapping (`CATEGORY_TRIGGERS`), output schemas (`FIELD_MAPS`) |
-| `accounts.py` | 237 accounts keyed by industry (`ACCOUNTS`), `SUPER80`, `ACCOUNT_ALIASES` |
+| `accounts.py` | 482 accounts keyed by 7 SF-aligned verticals (`ACCOUNTS`), `SUPER80`, `ACCOUNT_ALIASES`, `PARENT_ID_MAP` |
+| `export_csv.py` | Exports all `results_*.json` to a single CSV for Salesforce import |
 
 ### Execution Flow
 
@@ -176,3 +177,121 @@ All dependencies pinned in `requirements.txt`.
 | `azure-storage-blob` | Blob Storage client |
 | `azure-keyvault-secrets` | Key Vault client for fetching `GEMINI_API_KEY` in Azure |
 | `azure-identity` | `DefaultAzureCredential` for Managed Identity + local auth |
+
+## Run History & Learnings
+
+### Dated Output Files
+Output files use `results_YYYY-MM-DD.json` naming (not `results.json`). Same-day re-runs overwrite; different dates create new files. Checkpoint reads today's dated filename.
+
+### CLI Flags Added
+- `--companies "CO1,CO2,..."` — run a subset of companies by exact name (case-insensitive); groups by category and calls `run_category` once per category with `accounts_override`
+- `--total-limit N` — cap total accounts across all categories when using `--category all`
+- `--export-csv` — skip the engine; just regenerate the SF-import CSV from every `<COMPANY>/results_<TODAY>.json` already present in the sink. Writes `_export/market_intel_export_<DATE>.csv` (UTC date) back to the sink. Pairs cleanly with `--category all`, which now auto-runs the export at the end of every full run.
+
+### SF Export Pipeline
+`export_csv.py` exposes `run_export(sink, date_str=None)`. It reads result JSONs via the `Sink` abstraction (works with both `LocalSink` and `BlobSink`), filters to a single UTC date (defaults to today), translates verticals + signal types to the SF picklist labels (`VERTICAL_LABELS`, `SIGNAL_TYPE_LABELS`), and writes a UTF-8-BOM CSV at `_export/market_intel_export_<DATE>.csv`. Auto-fires at the tail of `main.py`'s `--category all` branch; standalone-invokable via `--export-csv`. To support these, `Sink` gained `list(prefix)` and `write_text(name, text)` methods on both subclasses.
+
+### New Accounts Added
+- **Industrial**: `ACT LABORATORIES`, `AMWATER`, `ADVANCED VISION SCIENCE`
+- **Government**: `CASTATE NASPO`, `CCSANFRAN`
+
+### Azure Container App Job — Arg Passing (+ env-wipe gotcha)
+Only reliable method to change job CLI args: PATCH the job template via `az rest`, then start with no body override. `az containerapp job start --args` and `az rest POST /start` body overrides are unreliable — the stored template takes precedence.
+
+**Gotcha**: a PATCH against `properties.template.containers[]` *replaces the entire container object* with whatever JSON you sent. If you PATCH only `{name, image, args}`, the `env` block is wiped silently and the next run fails (e.g. `No Gemini API key found` because `AZURE_KEY_VAULT_URL` is gone). Always send the full desired spec — image + args + env — in a single PATCH body.
+
+```bash
+# Patch stored template args
+az rest --method PATCH \
+  --url "https://management.azure.com/subscriptions/<SUB>/resourceGroups/<RG>/providers/Microsoft.App/jobs/<JOB>?api-version=2024-03-01" \
+  --body '{"properties":{"template":{"containers":[{"name":"<CONTAINER>","args":["--category","all"]}]}}}'
+
+# Start with no body — uses the patched template
+az containerapp job start --name <JOB> --resource-group <RG>
+```
+
+### Azure RBAC (Critical)
+Managed identity needs **`Storage Blob Data Contributor`** on the storage account — NOT just `Contributor`. `Contributor` is management-plane only and does not grant blob data-plane read/write under OAuth/token auth. Assigning `Contributor` alone causes `AuthorizationPermissionMismatch` on every blob write.
+
+### API Credit Depletion
+When Gemini prepaid credits run out, the engine receives `429 RESOURCE_EXHAUSTED` and exits. All previously completed accounts remain checkpointed and safe. To resume: top up credits at `aistudio.google.com`, then re-run `python main.py --category all` — the checkpoint will skip completed accounts automatically.
+
+### Run Status as of 2026-05-14 (run `thomas-intel-uq13n1x`)
+
+| Vertical | Status | Accounts | Signal Hits |
+|---|---|---|---|
+| Education & Research | ✅ Complete | 46/46 | 244 |
+| BioPharma | ✅ Complete | 52/52 | 246 |
+| CDMO / CRO | ✅ Complete | 17/17 (checkpointed from prior run) | — |
+| Clinical / Mol Dx | ⚠️ Partial | ~33/48 | partial |
+| Hospital & Health Systems | ❌ Not started | — | — |
+| Industrial | ❌ Not started | — | — |
+| Government | ❌ Not started | — | — |
+
+Stop cause: `429 RESOURCE_EXHAUSTED` — Gemini API credits exhausted mid-run during Clinical/Mol Dx (stopped at TEMPUS).
+
+**To complete**: top up Gemini credits, then `python main.py --category all`. Checkpoint resumes from TEMPUS onward.
+
+### validate_outputs.py
+Connects to Azure Blob via `DefaultAzureCredential`, lists all `results_*.json` blobs (excludes `_usage`), prints account / vertical / Parent_ID / signal counts per type, marks today's files with `← TODAY`. Run locally with Azure env vars set:
+
+```bash
+AZURE_STORAGE_ACCOUNT_URL=https://... AZURE_STORAGE_CONTAINER=... python validate_outputs.py
+```
+
+### Signal Timeouts (non-fatal)
+Per-signal `SIGNAL_HARD_TIMEOUT` (default 60s for BioPharma, 30s for some others). Timed-out signals are skipped; the account is still saved with all signals that completed. Observed in runs: STANFORD UNIVERSITY [expansion] 30.3s timeout, SANOFI [ma] 60.0s timeout — both accounts saved correctly.
+
+### Transient 503 Errors (auto-recovered)
+Multiple signals hit `503 UNAVAILABLE` mid-run (e.g. UNIVERSITY OF CINCINNATI, UNIVERSITY OF PENNSYLVANIA, ATCC). Engine auto-retries up to 3 times with backoff; all recovered with no data loss.
+
+---
+
+### Salesforce Data Model Alignment (2026-05-15)
+
+Salesforce CSV import matches picklist fields on **labels**, not API values. This caused upload failures from `output/market_intel_export.csv`:
+
+- `account_vertical`: "CDMO / CRO" and "Clinical / Mol Dx" were wrong labels → fixed
+- `signal_type`: `capital`, `faculty`, `ma` were API keys, not labels → fixed to "Capital Project", "Faculty Hire", "M&A"
+
+**How the pipeline stores vs. exports verticals:**
+- `engine.py` stores the SF API value in JSON (e.g. `"account_vertical": "Clinical_Mol_Dx"`)
+- `export_csv.py` maps JSON API values → SF picklist labels for import
+- `_vertical_api_name()` in `engine.py` has a hardcoded override for "Clinical / Molecular Diagnostics" → `"Clinical_Mol_Dx"` (regex alone would produce "Clinical_Molecular_Diagnostics")
+
+**SF picklist values (canonical reference):**
+
+| SF Label | SF API Value |
+|---|---|
+| BioPharma | `BioPharma` |
+| CDMO / CRO | `CDMO_CRO` |
+| Clinical / Molecular Diagnostics | `Clinical_Mol_Dx` |
+| Education & Research | `Education_Research` |
+| Government | `Government` |
+| Hospital & Health Systems | `Hospital_Health_Systems` |
+| Industrial | `Industrial` |
+
+The internal vertical name used throughout the codebase matches the SF label exactly.
+
+### Account Reclassification & Expansion (2026-05-15)
+
+`ACCOUNTS` was rebuilt from 237 to 482 accounts with 7 SF-aligned verticals (removed non-SF keys: `Resellers`, `Advanced Technology`, `International`; renamed `Clinical / Mol Dx` → `Clinical / Molecular Diagnostics`; added `CDMO / CRO` and `Hospital & Health Systems`).
+
+**Vertical account counts:**
+
+| Vertical | Accounts |
+|---|---|
+| Industrial | 192 |
+| BioPharma | 84 |
+| Education & Research | 61 |
+| Government | 41 |
+| Clinical / Molecular Diagnostics | 41 |
+| Hospital & Health Systems | 35 |
+| CDMO / CRO | 28 |
+| **Total** | **482** |
+
+Industrial is largest because it absorbed the former Resellers (~98 accounts), Advanced Technology (~31), and original Industrial legacy accounts (~51).
+
+**`load_accounts_from_csv()` precedence**: when loading from a CSV (`--from-csv`), manually curated `ACCOUNTS` classifications take precedence over the `segment_raw` heuristic. `SEGMENT_RAW_MAP` is only the fallback for accounts not found in `ACCOUNTS`.
+
+**`PARENT_ID_MAP`**: 469-entry dict in `accounts.py` mapping `Corporate_ID__c` → Salesforce `ParentId`. Populated from the SF Account_base export. Used by `engine.py` to stamp `parent_id` on every results JSON and by `export_csv.py` to populate the `Parent_ID` column.

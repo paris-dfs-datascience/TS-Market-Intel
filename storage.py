@@ -15,7 +15,7 @@ from __future__ import annotations
 import json
 import os
 from abc import ABC, abstractmethod
-from typing import Any
+from typing import Any, Iterable
 
 
 class Sink(ABC):
@@ -30,6 +30,14 @@ class Sink(ABC):
     @abstractmethod
     def write(self, name: str, data: Any) -> None:
         """Atomically write JSON-encoded `data` under `name`."""
+
+    @abstractmethod
+    def write_text(self, name: str, text: str) -> None:
+        """Write raw text under `name` (used by the CSV exporter; bypasses JSON encoding)."""
+
+    @abstractmethod
+    def list(self, prefix: str) -> Iterable[str]:
+        """Yield every key/name starting with `prefix`. Empty string yields everything."""
 
     def log_path(self, name: str) -> str | None:
         """Return a local filesystem path for a log file, or None to disable file logging."""
@@ -63,6 +71,25 @@ class LocalSink(Sink):
         with open(tmp, "w") as f:
             json.dump(data, f, indent=2)
         os.replace(tmp, path)
+
+    def write_text(self, name: str, text: str) -> None:
+        path = self._path(name)
+        os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(text)
+        os.replace(tmp, path)
+
+    def list(self, prefix: str) -> Iterable[str]:
+        root = self.base_dir
+        prefix_path = os.path.join(root, prefix)
+        # Walk the relevant subtree; prefix may be a directory or a partial-name prefix.
+        for dirpath, _dirnames, filenames in os.walk(root):
+            for fname in filenames:
+                full = os.path.join(dirpath, fname)
+                rel = os.path.relpath(full, root).replace(os.sep, "/")
+                if rel.startswith(prefix):
+                    yield rel
 
     def log_path(self, name: str) -> str:
         path = self._path(name)
@@ -113,6 +140,19 @@ class BlobSink(Sink):
     def write(self, name: str, data: Any) -> None:
         blob = self.container_client.get_blob_client(name)
         blob.upload_blob(json.dumps(data, indent=2), overwrite=True)
+
+    def write_text(self, name: str, text: str) -> None:
+        from azure.storage.blob import ContentSettings
+        blob = self.container_client.get_blob_client(name)
+        blob.upload_blob(
+            text.encode("utf-8"),
+            overwrite=True,
+            content_settings=ContentSettings(content_type="text/csv; charset=utf-8"),
+        )
+
+    def list(self, prefix: str) -> Iterable[str]:
+        for blob in self.container_client.list_blobs(name_starts_with=prefix):
+            yield blob.name
 
 
 def get_sink() -> Sink:
