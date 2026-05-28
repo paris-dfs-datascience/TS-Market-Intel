@@ -72,6 +72,13 @@ def parse_args() -> argparse.Namespace:
                    help="Load accounts from a CSV export of SalesForce.Account_base "
                         "(filters Customer80/Super80, maps segment_raw to prompt verticals). "
                         "Overrides --category all when set. Env var: ACCOUNTS_CSV_PATH.")
+    p.add_argument("--from-sql", action="store_true",
+                   help="Load accounts from SalesForce.Account_base in Azure SQL via the "
+                        "container's Managed Identity (no connection string secrets — token "
+                        "auth via DefaultAzureCredential). Requires AZURE_SQL_SERVER and "
+                        "AZURE_SQL_DATABASE env vars; uses the same MI bound for Key Vault. "
+                        "Hard-fails if the connection or query fails. "
+                        "Also enabled by ACCOUNTS_SOURCE=sql.")
     p.add_argument("--analyze-dedup", default=None, metavar="DATE",
                    help="One-off dedup analysis on _export/market_intel_export_<DATE>.csv. "
                         "Writes dedup_4a_*, dedup_4b_*, dedup_analysis_* artifacts back to "
@@ -115,6 +122,41 @@ def main() -> None:
     if args.fix_urls:
         from backfill_results import run_url_backfill
         run_url_backfill(sink, args.fix_urls, api_key=args.api_key)
+        return
+
+    # --from-sql (or ACCOUNTS_SOURCE=sql env var): load accounts from Azure SQL.
+    # Single-company / --super80 modes still use the hardcoded ACCOUNTS dict; only the
+    # bulk vertical-driven flows switch to SQL.
+    use_sql = args.from_sql or os.environ.get("ACCOUNTS_SOURCE", "").lower() == "sql"
+    if use_sql and not any([args.company, args.companies, args.super80]):
+        from accounts_sql import load_accounts_from_sql, SqlAccountsError
+        try:
+            sql_accounts = load_accounts_from_sql()
+        except SqlAccountsError as e:
+            logger.error(f"SQL account load failed (hard-fail by design): {e}")
+            sys.exit(1)
+        logger.info(
+            f"Loaded {sum(len(v) for v in sql_accounts.values())} accounts from "
+            f"SalesForce.Account_base across {len(sql_accounts)} verticals."
+        )
+        remaining = args.total_limit
+        for vertical, acct_list in sql_accounts.items():
+            if remaining is not None and remaining <= 0:
+                break
+            cat_limit = remaining if remaining is not None else args.limit
+            ran = run_category(vertical, sink, signal_override=args.signal,
+                               api_key=args.api_key, limit=cat_limit,
+                               accounts_override=acct_list)
+            if remaining is not None:
+                remaining -= ran
+        # Auto-export the SF CSV at the end of a SQL-driven full run, mirroring
+        # the existing `--category all` behavior.
+        from export_csv import run_export
+        logger.info("SQL-driven run complete — generating SF export CSV.")
+        try:
+            run_export(sink)
+        except Exception as e:
+            logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.

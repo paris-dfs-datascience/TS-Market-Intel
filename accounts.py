@@ -728,8 +728,9 @@ def all_accounts_flat() -> list:
 
 # ── CSV / DB account loading ──────────────────────────────────────
 
-# Maps segment_raw values from SalesForce.Account_base to SF-aligned vertical names.
-# Used as fallback when a company isn't found in ACCOUNTS (ACCOUNTS takes precedence).
+# Maps segment_raw / Market_Segment__c values from SalesForce.Account_base to
+# SF-aligned vertical names. This is the bulk translation layer — most accounts
+# get their vertical from here. Stable enum; rarely edited.
 SEGMENT_RAW_MAP: dict[str, str] = {
     "PHARMA-BIOTECH":           "BioPharma",
     "EDUCATION":                "Education & Research",
@@ -742,6 +743,48 @@ SEGMENT_RAW_MAP: dict[str, str] = {
     "ADVANCED TECHNOLOGY":      "Industrial",       # default for unknown advanced tech
     "INTERNATIONAL":            "BioPharma",        # default for unknown international
 }
+
+
+# Per-account vertical overrides. Higher priority than SEGMENT_RAW_MAP.
+# Use this when an account's actual business doesn't match what its SF
+# segment_raw says — e.g., ANALYTICHEM is tagged INDUSTRIAL in SF but its
+# business is pharma analytical services.
+#
+# Format: { "<UPPERCASE_CORPORATE_ID>": "<canonical vertical>" }
+# Keys are case-insensitive; comparisons use .upper().
+#
+# Empty for v1 — manual override discovery happens by inspecting the first
+# SQL-driven run and comparing it to today's hardcoded ACCOUNTS list. As
+# overrides are identified, they migrate here, and the corresponding entries
+# in ACCOUNTS can eventually be deleted.
+VERTICAL_OVERRIDES: dict[str, str] = {
+    # "ANALYTICHEM USA INC": "BioPharma",
+    # ... add overrides here as they're discovered
+}
+
+
+def _resolve_vertical(name: str, segment_raw: str | None) -> str | None:
+    """Resolve an account's vertical using the standard precedence:
+
+      1. `VERTICAL_OVERRIDES[name.upper()]` (manual overrides)
+      2. The hardcoded `ACCOUNTS` lookup (legacy override map — being migrated
+         to `VERTICAL_OVERRIDES` over time; still authoritative for now)
+      3. `SEGMENT_RAW_MAP[segment_raw.upper()]` (bulk SF-driven translation)
+      4. None → caller decides how to handle (skip, warn, etc.)
+
+    `name` is the account's Corporate_ID__c.
+    `segment_raw` is the account's Market_Segment__c (may be None or empty).
+    """
+    key = name.upper()
+    if key in VERTICAL_OVERRIDES:
+        return VERTICAL_OVERRIDES[key]
+    # Legacy override path — preserves today's manual ACCOUNTS reclassifications.
+    legacy_lookup = {acct.upper(): cat for cat, accts in ACCOUNTS.items() for acct in accts}
+    if key in legacy_lookup:
+        return legacy_lookup[key]
+    if segment_raw:
+        return SEGMENT_RAW_MAP.get(segment_raw.strip().upper())
+    return None
 
 
 def load_accounts_from_csv(filepath: str) -> dict[str, list[dict]]:
@@ -775,19 +818,12 @@ def load_accounts_from_csv(filepath: str) -> dict[str, list[dict]]:
             if corp_data[name]["parent_id"] is None and pid and pid != "NULL":
                 corp_data[name]["parent_id"] = pid
 
-    # Build ACCOUNTS lookup so manually curated verticals take precedence over segment_raw heuristic
-    acct_vertical_lookup = {acct.upper(): cat for cat, accts in ACCOUNTS.items() for acct in accts}
-
     result: dict[str, list[dict]] = {}
     skipped_segments: set[str] = set()
     for name, info in corp_data.items():
-        # Prefer manual classification from ACCOUNTS dict
-        vertical = acct_vertical_lookup.get(name.upper())
+        primary_seg = max(info["segments"], key=lambda s: (info["segments"][s], s))
+        vertical = _resolve_vertical(name, primary_seg)
         if vertical is None:
-            primary_seg = max(info["segments"], key=lambda s: (info["segments"][s], s))
-            vertical = SEGMENT_RAW_MAP.get(primary_seg)
-        if vertical is None:
-            primary_seg = max(info["segments"], key=lambda s: (info["segments"][s], s))
             skipped_segments.add(primary_seg)
             continue
         result.setdefault(vertical, []).append({"name": name, "parent_id": info["parent_id"]})
