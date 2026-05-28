@@ -85,17 +85,23 @@ def _rows_to_csv_text(rows: list[dict]) -> str:
     return "﻿" + buf.getvalue()
 
 
-def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, str]:
-    """Iterate sink for `<COMPANY>/results_<date>.json` keys, build CSV, write back to sink.
+def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, int, str, str | None]:
+    """Iterate sink for `<COMPANY>/results_<date>.json` keys, build CSV(s), write back to sink.
 
-    Returns (row_count, output_key).
+    Splits signal rows by Parent_ID truthiness:
+      - rows with a Parent_ID -> `_export/market_intel_export_<DATE>.csv` (SF import).
+      - rows without a Parent_ID -> `_export/review_<DATE>.csv` (only written if non-empty).
+
+    Returns (main_row_count, review_row_count, main_key, review_key_or_none).
     """
     if date_str is None:
         date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     suffix = f"results_{date_str}.json"
 
     rows: list[dict] = []
+    review_rows: list[dict] = []
     accounts_seen: set[str] = set()
+    review_accounts: set[str] = set()
     for key in sink.list(""):
         if key.startswith(_SIDECAR_PREFIXES):
             continue
@@ -116,11 +122,14 @@ def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, str]:
             pass
 
         accounts_seen.add(account)
+        bucket = rows if parent_id else review_rows
+        if not parent_id:
+            review_accounts.add(account)
 
         for signal_type, hits in result.get("signals", {}).items():
             sf_signal = SIGNAL_TYPE_LABELS.get(signal_type, signal_type)
             for hit in hits:
-                rows.append({
+                bucket.append({
                     "account":          account,
                     "Parent_ID":        parent_id,
                     "signal_type":      sf_signal,
@@ -134,7 +143,7 @@ def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, str]:
 
         ai_summary_text = (result.get("ai_summary") or "").strip()
         if ai_summary_text:
-            rows.append({
+            bucket.append({
                 "account":          account,
                 "Parent_ID":        parent_id,
                 "signal_type":      "ai_summary",
@@ -146,11 +155,19 @@ def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, str]:
                 "ingested_at":      ingested,
             })
 
-    csv_text = _rows_to_csv_text(rows)
     out_key = f"_export/market_intel_export_{date_str}.csv"
-    sink.write_text(out_key, csv_text)
-    print(f"Exported {len(rows)} signal hits from {len(accounts_seen)} accounts -> {out_key}")
-    return len(rows), out_key
+    sink.write_text(out_key, _rows_to_csv_text(rows))
+    print(f"Exported {len(rows)} signal hits from {len(accounts_seen) - len(review_accounts)} accounts -> {out_key}")
+
+    review_key: str | None = None
+    if review_rows:
+        review_key = f"_export/review_{date_str}.csv"
+        sink.write_text(review_key, _rows_to_csv_text(review_rows))
+        print(f"Diverted {len(review_rows)} signal hits from {len(review_accounts)} accounts (missing Parent_ID) -> {review_key}")
+    else:
+        print("All accounts had Parent_ID; no review file written.")
+
+    return len(rows), len(review_rows), out_key, review_key
 
 
 if __name__ == "__main__":
