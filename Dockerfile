@@ -30,7 +30,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy source — single main.py entrypoint, sink abstraction, shared modules
-COPY main.py storage.py engine.py accounts.py accounts_sql.py prompts.py export_csv.py analyze_dedup.py backfill_results.py test_sql_connection.py ./
+COPY main.py storage.py engine.py accounts.py accounts_sql.py prompts.py export_csv.py analyze_dedup.py backfill_results.py test_sql_connection.py test_gemini_api.py ./
 
 # Default environment values (override via --env or .env file)
 ENV GEMINI_MODEL=gemini-2.5-flash
