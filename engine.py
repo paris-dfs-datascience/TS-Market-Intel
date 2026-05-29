@@ -10,6 +10,7 @@ import asyncio
 import json
 import logging
 import os
+import random
 import re
 import sys
 import time
@@ -30,7 +31,13 @@ from storage import Sink
 MODEL          = os.environ.get("GEMINI_MODEL",       "gemini-2.5-flash")
 TEMPERATURE    = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
 SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "13"))   # max concurrent in-flight calls per account
-MAX_RETRIES    = int(os.environ.get("MAX_RETRIES",    "3"))    # attempts per signal before giving up
+MAX_RETRIES    = int(os.environ.get("MAX_RETRIES",    "3"))    # used by ai_summary path only; fetch_one uses the dual counters below
+# fetch_one() retry budgets — three independent counters, each only tripped by its own failure mode.
+# A single signal can therefore make up to 8 + 3 + 3 + 1 = 15 HTTP attempts if it alternates failure modes.
+MAX_RATE_LIMIT_RETRIES = int(os.environ.get("MAX_RATE_LIMIT_RETRIES", "8"))  # 429 / "RATE" retries
+MAX_TIMEOUT_RETRIES    = int(os.environ.get("MAX_TIMEOUT_RETRIES",    "3"))  # asyncio.TimeoutError / "timeout" / "deadline" retries
+MAX_EMPTY_RETRIES      = int(os.environ.get("MAX_EMPTY_RETRIES",      "3"))  # empty-response (safety filter, etc.) retries
+RATE_LIMIT_SLEEP_CAP   = int(os.environ.get("RATE_LIMIT_SLEEP_CAP",   "60")) # max seconds to sleep between rate-limit retries (cap on exponential and on Retry-After)
 API_TIMEOUT_MS      = int(os.environ.get("API_TIMEOUT_MS",      "60000"))  # HTTP connection timeout (ms) — NOT wall-clock
 SIGNAL_HARD_TIMEOUT = int(os.environ.get("SIGNAL_HARD_TIMEOUT", "120"))    # asyncio.wait_for wall-clock kill (secs)
 # Note: API_TIMEOUT_MS only covers connection establishment; Gemini holds the connection open during
@@ -103,6 +110,31 @@ logger = logging.getLogger("thomas_intel")
 def _safe_name(s: str) -> str:
     """Sanitize a company or category name for use as a folder / blob prefix."""
     return re.sub(r"[^A-Z0-9_]+", "_", s.upper()).strip("_")
+
+
+# Patterns the google-genai SDK tends to embed in 429 exception strings. The
+# canonical one is the RetryInfo detail: '"retryDelay": "37s"'. The other two
+# cover header-style and prose-style hints we've seen elsewhere.
+_RETRY_AFTER_PATTERNS = (
+    re.compile(r'retryDelay["\']?\s*[:=]\s*["\']?(\d+(?:\.\d+)?)s?', re.IGNORECASE),
+    re.compile(r'retry[-_ ]?after["\']?\s*[:=]\s*["\']?(\d+(?:\.\d+)?)', re.IGNORECASE),
+    re.compile(r'retry[\s_-]?in\s+(\d+(?:\.\d+)?)\s*(?:seconds?|secs?|s)\b', re.IGNORECASE),
+)
+
+
+def _parse_retry_after(err_text: str) -> float | None:
+    """Best-effort extract of a Retry-After hint from an exception string.
+
+    Returns the suggested wait in seconds, or None if no hint is present.
+    """
+    for pat in _RETRY_AFTER_PATTERNS:
+        m = pat.search(err_text)
+        if m:
+            try:
+                return float(m.group(1))
+            except (TypeError, ValueError):
+                continue
+    return None
 
 
 _VERTICAL_API_OVERRIDES: dict[str, str] = {
@@ -665,9 +697,16 @@ async def run_account_async(client, account: str, category: str, signals: list,
         """Fetch one signal concurrently — retries on 429, skips on other errors."""
         async with sem:
             prompt = build_prompt(signal, account, category, recency_instruction=recency_instruction)
-            for attempt in range(1, MAX_RETRIES + 1):
+            # Dual-counter retry policy. Each failure mode has its own budget and only
+            # advances its own counter; the loop exits when a single counter exhausts.
+            rate_limit_attempt = 0
+            timeout_attempt = 0
+            empty_attempt = 0
+            total_attempt = 0
+            while True:
+                total_attempt += 1
                 t_start = time.time()
-                logger.info(f"  {C['dim']}→ [{signal}] starting (attempt {attempt})...{C['reset']}")
+                logger.info(f"  {C['dim']}→ [{signal}] starting (attempt {total_attempt})...{C['reset']}")
                 try:
                     response = await asyncio.wait_for(
                         client.aio.models.generate_content(
@@ -685,15 +724,16 @@ async def run_account_async(client, account: str, category: str, signals: list,
                     if response.text is None:
                         candidates = getattr(response, "candidates", [])
                         finish_reason = candidates[0].finish_reason if candidates else "unknown"
-                        logger.warning(f"  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}, attempt {attempt}/{MAX_RETRIES}).{C['reset']}")
-                        if attempt < MAX_RETRIES:
+                        empty_attempt += 1
+                        if empty_attempt <= MAX_EMPTY_RETRIES:
+                            logger.warning(f"  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}, attempt {empty_attempt}/{MAX_EMPTY_RETRIES}).{C['reset']}")
                             await asyncio.sleep(3)  # brief pause before retry
                             continue  # retry — empty may be transient
-                        # All retries exhausted — record and skip
+                        logger.warning(f"  {C['yellow']}⚠ [{signal}] Empty response (finish_reason={finish_reason}) — max empty-response retries reached, skipping.{C['reset']}")
                         if _usage: await _usage.record("empty", signal=signal,
                                                         usage_meta=getattr(response, "usage_metadata", None),
                                                         elapsed=elapsed, hits=0,
-                                                        is_retry=(attempt > 1))
+                                                        is_retry=(empty_attempt > 1))
                         return signal, []
                     parsed = parse_signals(response.text)
                     # Extract grounding metadata for source_url recovery
@@ -714,36 +754,63 @@ async def run_account_async(client, account: str, category: str, signals: list,
                     if _usage: await _usage.record("success", signal=signal,
                                                     usage_meta=getattr(response, "usage_metadata", None),
                                                     elapsed=elapsed, hits=len(parsed),
-                                                    is_retry=(attempt > 1))
+                                                    is_retry=(total_attempt > 1))
                     return signal, parsed
                 except (asyncio.TimeoutError, TimeoutError):
                     elapsed = time.time() - t_start
-                    logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] hard-killed after {elapsed:.1f}s — skipping.{C['reset']}")
+                    timeout_attempt += 1
+                    if timeout_attempt <= MAX_TIMEOUT_RETRIES:
+                        logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] hard-killed after {elapsed:.1f}s (attempt {timeout_attempt}/{MAX_TIMEOUT_RETRIES}), retrying in 1s...{C['reset']}")
+                        if _usage: await _usage.record("timeout", signal=signal, elapsed=elapsed, is_retry=True)
+                        await asyncio.sleep(1)
+                        continue
+                    logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] hard-killed after {elapsed:.1f}s — max timeout retries reached, skipping.{C['reset']}")
                     if _usage: await _usage.record("timeout", signal=signal, elapsed=elapsed)
                     return signal, []
                 except Exception as e:
                     elapsed = time.time() - t_start
                     err = str(e)
-                    if "RESOURCE_EXHAUSTED" in err and "prepayment" in err:
-                        logger.critical(f"  {C['red']}✘ Credits depleted. Top up at aistudio.google.com and re-run.{C['reset']}")
-                        raise RuntimeError("API credits depleted — top up at aistudio.google.com and re-run.")
+                    err_lower = err.lower()
+                    if "RESOURCE_EXHAUSTED" in err and (
+                        "prepayment" in err_lower
+                        or "plan and billing" in err_lower
+                        or "billing details" in err_lower
+                        or "exceeded your current quota" in err_lower
+                    ):
+                        logger.critical(f"  {C['red']}✘ Gemini quota exhausted (billing/plan limit). Check usage and top up at aistudio.google.com, then re-run.{C['reset']}")
+                        raise RuntimeError("Gemini quota exhausted — check plan and billing at aistudio.google.com and re-run.")
                     elif "429" in err or "RATE" in err.upper():
-                        wait = min(5 * (2 ** attempt), 120)  # exponential: 10s, 20s, 40s, capped at 120s
-                        logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}], waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...{C['reset']}")
-                        if _usage: await _usage.record("error", signal=signal, elapsed=elapsed, is_retry=True)
-                        await asyncio.sleep(wait)
-                        continue  # retry the for loop — do NOT fall through to timeout/error handlers
-                    elif isinstance(e, (asyncio.TimeoutError, TimeoutError)) or "timeout" in err.lower() or "deadline" in err.lower() or elapsed >= (SIGNAL_HARD_TIMEOUT * 0.95):
-                        logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] after {elapsed:.1f}s — skipping.{C['reset']}")
+                        rate_limit_attempt += 1
+                        if rate_limit_attempt <= MAX_RATE_LIMIT_RETRIES:
+                            retry_after = _parse_retry_after(err)
+                            if retry_after is not None:
+                                wait = min(retry_after, RATE_LIMIT_SLEEP_CAP)
+                                wait_source = f"Retry-After {retry_after:.0f}s"
+                            else:
+                                base = min(5 * (2 ** rate_limit_attempt), RATE_LIMIT_SLEEP_CAP)
+                                wait = base * random.uniform(0.75, 1.25)
+                                wait_source = "exponential"
+                            logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}], waiting {wait:.1f}s ({wait_source}, attempt {rate_limit_attempt}/{MAX_RATE_LIMIT_RETRIES})...{C['reset']}")
+                            if _usage: await _usage.record("error", signal=signal, elapsed=elapsed, is_retry=True)
+                            await asyncio.sleep(wait)
+                            continue
+                        logger.warning(f"  {C['yellow']}⚠ [{signal}] max rate-limit retries reached — skipping.{C['reset']}")
+                        if _usage: await _usage.record("error", signal=signal, elapsed=elapsed)
+                        return signal, []
+                    elif "timeout" in err_lower or "deadline" in err_lower or elapsed >= (SIGNAL_HARD_TIMEOUT * 0.95):
+                        timeout_attempt += 1
+                        if timeout_attempt <= MAX_TIMEOUT_RETRIES:
+                            logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] after {elapsed:.1f}s (attempt {timeout_attempt}/{MAX_TIMEOUT_RETRIES}), retrying in 1s...{C['reset']}")
+                            if _usage: await _usage.record("timeout", signal=signal, elapsed=elapsed, is_retry=True)
+                            await asyncio.sleep(1)
+                            continue
+                        logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] after {elapsed:.1f}s — max timeout retries reached, skipping.{C['reset']}")
                         if _usage: await _usage.record("timeout", signal=signal, elapsed=elapsed)
                         return signal, []
                     else:
                         logger.error(f"  {C['red']}ERROR [{signal}] after {elapsed:.1f}s: {e}{C['reset']}")
                         if _usage: await _usage.record("error", signal=signal, elapsed=elapsed)
                         return signal, []
-            logger.warning(f"  {C['yellow']}⚠ [{signal}] max retries reached — skipping.{C['reset']}")
-            if _usage: await _usage.record("error", signal=signal)
-            return signal, []
 
     # Fire all signals concurrently — wait for all to finish.
     # The httpx client is open for the lifetime of the gather, used by
