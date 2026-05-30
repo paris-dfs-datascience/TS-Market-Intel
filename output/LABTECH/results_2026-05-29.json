@@ -1,0 +1,54 @@
+{
+  "account": "LABTECH",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1SGYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Sartorius opened a new competence center in Freiburg, Germany, focusing on the development and production of materials for the cell and gene therapy market, including a new production and laboratory building, additional cleanroom space, and new R&D laboratories.",
+        "amount": null,
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "New production infrastructure, R&D capability, and lab build-out.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This expansion of production and R&D facilities by Sartorius indicates increased demand for lab supplies, reagents, and equipment to support cell and gene therapy development and manufacturing.",
+        "source_url": "https://www.sartorius.com/en/company/news/capacity-expansions"
+      },
+      {
+        "summary": "CENGN, Ericsson Canada, and CNIMI launched the Advanced Manufacturing Living Lab in Drummondville, Canada, providing cutting-edge infrastructure and a real-world testing environment for Canadian startups and scaleups in advanced manufacturing.",
+        "amount": null,
+        "funding_type": "Strategic Investment/Partnership",
+        "use_of_proceeds": "New production infrastructure (testing environment) and R&D capability (real-world testing).",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new Advanced Manufacturing Living Lab will drive demand for specialized lab equipment, consumables, and potentially reagents for testing and validation of new manufacturing processes and technologies.",
+        "source_url": "https://www.ericsson.com/en/blog/2026/5/building-canadas-manufacturing-future-one-lab-at-a-time"
+      },
+      {
+        "summary": "B-SIDES, an emerging snack brand, closed a $500,000 seed funding round anchored by Cap Ventures 8182.",
+        "amount": 500000,
+        "funding_type": "Seed Funding",
+        "use_of_proceeds": "Vertically integrating its upcycled ingredient supply chain, which includes new production infrastructure.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Investment in vertically integrating the supply chain and production infrastructure for B-SIDES' upcycled snack brand suggests a need for new equipment and consumables for food science and quality control labs.",
+        "source_url": "https://www.preparedfoods.com/articles/130191-b-sides-secures-seed-funding-to-expand-upcycled-snack-brand"
+      },
+      {
+        "summary": "GBI Biomanufacturing expanded its headquarters and laboratory footprint in Plantation, Florida, with an additional 15,000 square feet of advanced bioreactor capacity and a nearly $26 million facility investment.",
+        "amount": 26000000,
+        "funding_type": "Facility Investment",
+        "use_of_proceeds": "New production infrastructure (bioreactor capacity), R&D capability (process development lab), and QC system build-out (QC release lab, protein characterization lab).",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This significant investment in expanding bioreactor capacity, process development, and QC labs at GBI Biomanufacturing indicates a direct increase in demand for bioprocessing equipment, reagents, and lab consumables.",
+        "source_url": "https://www.venturetechchronicle.com/gbi-biomanufacturing-expands-in-south-florida-signaling-a-turning-point-for-the-regions-life-sciences-infrastructure/"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T21:09:06.538882",
+  "ai_summary": "Industrial accounts are significantly expanding their lab and production capabilities. Sartorius is investing in new R&D and cleanroom facilities for cell and gene therapy, while GBI Biomanufacturing is adding substantial bioreactor capacity. Additionally, a new Advanced Manufacturing Living Lab launched in Canada. These expansions signal a strong demand for lab equipment, consumables, and services across biotech and advanced manufacturing sectors, creating prime sales opportunities."
+}

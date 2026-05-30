@@ -1,0 +1,163 @@
+{
+  "account": "OHIO STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CTYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Qing Lin, MD, PhD, associate professor of Surgery in the Division of Cardiac Surgery at The Ohio State University Wexner Medical Center, has been awarded a nearly $1.2 million, four-year National Institutes of Health (NIH) grant from the National Institute of General Medical Sciences to support his research on understanding why skin scarring occurs after trauma or surgery and to identify new strategies to promote healing and reduce excessive scarring.",
+        "recipient": "Qing Lin, MD, PhD",
+        "department_or_lab": "Division of Cardiac Surgery, The Ohio State University Wexner Medical Center",
+        "amount": "$1.2 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This grant indicates a need for lab supplies, reagents, and potentially specialized equipment for research into wound healing and scar formation.",
+        "source_url": "https://wexnermedical.osu.edu/mediaroom/pressreleaselisting/medtips-may-2026"
+      },
+      {
+        "summary": "The Ohio State University Wexner Medical Center's Department of Psychiatry and Behavioral Health is seeking a licensed clinical social worker for its Trauma Program, a position funded by an existing grant in collaboration with Department of Defense (DoD) partners at Fort Bragg.",
+        "recipient": "The Ohio State University Wexner Medical Center, Department of Psychiatry and Behavioral Health (Trauma Program)",
+        "department_or_lab": "Department of Psychiatry and Behavioral Health, Trauma Program",
+        "amount": "Not specified, funds a position",
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This indicates ongoing DoD-funded research in trauma and PTSD, suggesting a need for psychological assessment tools, research consumables, and potentially specialized equipment for behavioral health research.",
+        "source_url": "https://main.hercjobs.org/jobs/22306809/social-worker-lisw-lpcc-located-in-office-at-fort-bragg-north-carolina"
+      },
+      {
+        "summary": "Drury University senior Rana Umran has received a distinguished three-year fellowship from the U.S. National Science Foundation (NSF) Graduate Research Fellowship Program, which includes a $37,000 annual stipend and tuition coverage, as she plans to enter a five-year Ph.D. program at The Ohio State University in the fall.",
+        "recipient": "Rana Umran",
+        "department_or_lab": "Incoming Ph.D. student at The Ohio State University (likely Chemistry based on background)",
+        "amount": "$37,000 annual stipend for three years, plus $12,000 cost of education allowance for tuition and fees",
+        "agency": "U.S. National Science Foundation (NSF)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This fellowship supports a new graduate student's research at Ohio State, indicating potential future demand for lab supplies, reagents, and equipment related to her Ph.D. studies, likely in inorganic chemistry.",
+        "source_url": "https://www.drury.edu/today/drury-senior-awarded-nsf-graduate-research-fellowship/"
+      },
+      {
+        "summary": "The National Science Foundation (NSF) is co-sponsoring a community event on May 26, 2026, related to NSF Award Abstract #2500324, titled 'Empowering Rural Communities: Leveraging Artificial Intelligence in Higher Education and Workforce Development,' a grant awarded to Marion Technical College in collaboration with The Ohio State University at Marion. [cite: 21 (from previous search), 8]",
+        "recipient": "Marion Technical College (in collaboration with The Ohio State University at Marion)",
+        "department_or_lab": "The Ohio State University at Marion (involved in AI education and workforce development)",
+        "amount": "$601,800",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This grant supports AI education and workforce development, indicating potential demand for computing equipment, software licenses, and educational technology for AI research and training at Ohio State.",
+        "source_url": "https://wexnermedical.osu.edu/mediaroom/pressreleaselisting/medtips-may-2026"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Dana McTigue, PhD, has been named the new vice dean for Research at The Ohio State University College of Medicine.",
+        "name": "Dana McTigue",
+        "department": "Neuroscience",
+        "start_date": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://medicine.osu.edu/news/meet-dana-mctigue-phd-named-new-vice-dean-for-research"
+      },
+      {
+        "summary": "Felix Barber has been appointed as an assistant professor of microbiology at The Ohio State University.",
+        "name": "Felix Barber",
+        "department": "Microbiology",
+        "start_date": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://news.nyu.edu/global/2026/may/26/bacteria-shape-acids-enzyme.html"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "UCLA opened the Center for Advanced Biotherapies (CAB), a new 14,000-square-foot manufacturing facility with 10 cleanrooms, including seven manufacturing suites, two bioengineering rooms, a viral vector manufacturing suite, and a centralized quality control laboratory, doubling its capacity for cell and gene therapy production.",
+        "location": "UCLA's Center for Health Sciences, Los Angeles, California, U.S.",
+        "type_of_expansion": "New dedicated facility (manufacturing facility with integrated laboratories).",
+        "investment_value": "$9.3 million",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing facility with integrated laboratories will require a wide range of lab supplies, reagents, consumables, and scientific equipment for cell and gene therapy development and production.",
+        "source_url": "https://www.uclahealth.org/news/release/ucla-opens-center-advanced-biotherapies-expanding-capacity"
+      },
+      {
+        "summary": "Gilbane Building Co. broke ground on the 250,000-square-foot Bellwether Laboratory, a new manufacturing facility for TerraPower Isotopes dedicated to producing radioactive molecules for advanced cancer treatment.",
+        "location": "Bellwether District, Philadelphia, Pennsylvania, U.S.",
+        "type_of_expansion": "New dedicated facility (manufacturing facility with lab component).",
+        "investment_value": "$450 million",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This large-scale manufacturing facility for radioactive molecules will generate significant demand for specialized lab supplies, reagents, and equipment for radiopharmaceutical production and research.",
+        "source_url": "https://www.constructiondive.com/news/gilbane-breaks-ground-philadelphia-cancer-lab/821306/"
+      },
+      {
+        "summary": "Medix Biochemica invested $5 million to expand its recombinant antigen and cell culture technology capabilities, including facility expansion, new analytical instrumentation, and at least 10 specialized hires across its Espoo, Finland, and St. Louis, Missouri facilities.",
+        "location": "Espoo, Finland and St. Louis, Missouri, U.S.",
+        "type_of_expansion": "Capacity expansion (facility expansion, new instrumentation).",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This investment in expanding recombinant antigen and cell culture capabilities will drive demand for cell culture media, reagents, analytical instruments, and related lab consumables at both locations.",
+        "source_url": "https://www.analytica-world.com/en/news/1188731/medix-biochemica-invests-5m-to-expand-its-recombinant-antigen-capabilities.html"
+      },
+      {
+        "summary": "The Ohio State University is nearing completion of a $61.2 million renovation of Campbell Hall, updating 115,000 square-feet of existing offices, research and computer labs, teaching kitchen, classrooms and collaborative areas.",
+        "location": "The Ohio State University, Columbus, Ohio, U.S.",
+        "type_of_expansion": "Facility upgrade/renovation (of research and computer labs).",
+        "investment_value": "$61.2 million",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The $61.2 million renovation of research and computer labs at Ohio State University's Campbell Hall indicates upcoming demand for updated lab equipment, consumables, and supplies to support enhanced research activities.",
+        "source_url": "https://fdc.osu.edu/news/2026/05/27/slideshow-campbell-hall"
+      },
+      {
+        "summary": "Ontario Tech University is expanding its ACE Climatic Aerodynamic Wind Tunnel, a research and testing lab for defence-sector technology, with a $5 million federal government investment as part of a total $9 million project.",
+        "location": "Oshawa, Ontario, Canada.",
+        "type_of_expansion": "Capacity expansion (expands research and testing lab).",
+        "investment_value": "$9 million",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The expansion of Ontario Tech University's research and testing lab with a $9 million project will create demand for specialized testing equipment, sensors, and consumables for defense and aerospace technology development.",
+        "source_url": "https://www.cbc.ca/news/canada/toronto/federal-government-funding-ace-ontario-tech-university-9.7205048"
+      },
+      {
+        "summary": "FUJIFILM Cellular Dynamics opened a new 175,000-square-foot headquarters and iPSC development and manufacturing facility, quadrupling its iPSC manufacturing footprint. The facility includes cell culture manufacturing laboratories, process development laboratories, and a center of excellence for gene editing, as part of a $200 million strategic investment.",
+        "location": "Madison, Wisconsin, U.S.",
+        "type_of_expansion": "New dedicated facility (headquarters and manufacturing facility with integrated laboratories).",
+        "investment_value": "$200 million",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This significant new iPSC manufacturing and development facility will create substantial demand for cell culture media, specialized reagents, laboratory consumables, and advanced scientific equipment for stem cell research and therapeutic production.",
+        "source_url": "https://pharmasource.global/content/news/cdmo-news/fujifilm-cellular-dynamics-expands-ipsc-manufacturing-capacity-with-new-u-s-facility/"
+      },
+      {
+        "summary": "The U.S. Department of Energy announced $20 million in federal funding for Oak Ridge National Laboratory to establish the Center for Advanced Cement and Concrete Technologies (ACCENT), which will enhance existing national lab capabilities to accelerate the development and adoption of next-generation cement and concrete materials.",
+        "location": "Oak Ridge, Tennessee, U.S.",
+        "type_of_expansion": "Capacity expansion (enhancing existing national lab capabilities).",
+        "investment_value": "$20,000,000",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The $20 million federal funding to Oak Ridge National Laboratory for the ACCENT center will drive demand for specialized materials testing equipment, analytical instruments, and consumables for advanced cement and concrete research.",
+        "source_url": "https://www.energy.gov/cmei/ito/ito-fy25-fy27-lab-call-selections"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Scientists at The Ohio State University have developed a revolutionary \"prime assembly\" technique that allows for the precise insertion of large segments of DNA into the genome, significantly expanding the possibilities for gene therapy. This method builds upon prime editing by using overlapping DNA flaps to integrate donor DNA without causing harmful double-strand breaks, a major bottleneck in the field. The technology could enable the replacement of entire genes, offering new therapeutic avenues for complex genetic disorders.",
+        "researcher_name": "Bin Liu",
+        "department_or_lab": "Department of Biological Chemistry and Pharmacology, The Ohio State University College of Medicine",
+        "award_or_discovery": "First-in-class discovery: \"Prime Assembly\" gene editing technology",
+        "significance": "This groundbreaking advancement is poised to redefine gene therapy by enabling the insertion of remarkably large DNA segments, a quantum leap over previous gene-editing limits. It avoids the toxicity and cell death associated with traditional double-strand breaks, making it applicable to non-dividing cells like neurons and heart cells.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This breakthrough in gene editing technology will drive demand for advanced molecular biology reagents, consumables, and specialized equipment for genomic research and gene therapy development.",
+        "source_url": "https://bioengineer.org/breakthrough-technology-allows-rewriting-a-chapter-of-the-genome/"
+      },
+      {
+        "summary": "Marilynn Brewer, professor emerita in the Department of Psychology, and Christopher Kochanek, professor in the Department of Astronomy, both Ohio Eminent Scholars at The Ohio State University, have been elected to the 2026 class of the National Academy of Sciences.",
+        "researcher_name": "Marilynn Brewer, Christopher Kochanek",
+        "department_or_lab": "Department of Psychology (Brewer), Department of Astronomy (Kochanek)",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "Election to the National Academy of Sciences is a major government honor that recognizes distinguished and continuing achievements in original research, highlighting the world-class contributions of these Ohio State faculty members to their respective scientific fields.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "Election to the National Academy of Sciences highlights ongoing high-impact research in these faculty's labs, potentially leading to increased funding and demand for advanced scientific equipment and specialized supplies.",
+        "source_url": "https://artsandsciences.osu.edu/news/two-faculty-members-selected-join-national-academy-sciences"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:44:28.278914",
+  "ai_summary": "Ohio State University is seeing significant research growth, evidenced by a $1.2M NIH grant for scarring research, a new microbiology professor, and a breakthrough in gene therapy. A $61.2M renovation of Campbell Hall, updating research labs, further signals expansion. This increased activity and investment in cutting-edge science create substantial opportunities for lab supply sales, especially for molecular biology, cell culture, and general lab consumables."
+}

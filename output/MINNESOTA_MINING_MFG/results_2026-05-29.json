@@ -1,0 +1,28 @@
+{
+  "account": "MINNESOTA MINING & MFG",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1WpYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "3M announced it has joined a new multi-source agreement (MSA) coalition with leading technology companies to establish open, interoperable specifications for expanded beam optical (EBO) connectivity in AI data centers, aiming to advance and scale optical connections.",
+        "facility_or_line": "Expanded Beam Optical (EBO) interconnect technology production",
+        "change_type": "Shift in production capacity / New product line focus",
+        "location": null,
+        "investment_value": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "Increased focus on AI data center optical connections will drive demand for specialized materials, components, and testing equipment for manufacturing and quality control of EBO technology.",
+        "source_url": "https://investors.3m.com/news-events/press-releases/detail/1925/new-coalition-launches-to-advance-and-scale-optical"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:23:01.469008",
+  "ai_summary": "3M is collaborating on new optical connectivity standards for AI data centers, signaling a strategic focus on advanced materials and high-tech manufacturing. This initiative suggests increased R&D and production needs for specialized chemicals, testing equipment, and cleanroom supplies. Lab supply teams should engage to support their evolving material science and manufacturing process requirements."
+}

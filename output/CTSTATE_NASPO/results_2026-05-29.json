@@ -1,0 +1,313 @@
+{
+  "account": "CTSTATE NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nOkdtYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "DoD awarded Auburn University a $48,994,134 contract for engineering research and development to support the Combat Capabilities Development Command Aviation and Missile Command.",
+        "recipient": "Auburn University",
+        "department_or_lab": "Combat Capabilities Development Command Aviation and Missile Command (DEVCOM AvMC)",
+        "amount": "$48,994,134",
+        "agency": "DoD",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates a need for lab supplies and equipment for engineering research and development at Auburn University, supporting defense applications.",
+        "source_url": "https://theplainsman.com/article/2026/04/dod-awards-auburn-university-48-million-to-further-defense-research"
+      },
+      {
+        "summary": "The National Institute of Neurological Disorders and Stroke (NIH) awarded a $3.9 million grant to a multi-institutional team led by scientists at Sanford Burnham Prebys Medical Discovery Institute to develop a non-opioid pain therapeutic.",
+        "recipient": "Sanford Burnham Prebys Medical Discovery Institute, Duke University, University of Minnesota",
+        "department_or_lab": "National Institute of Neurological Disorders and Stroke",
+        "amount": "$3,900,000",
+        "agency": "NIH",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This signals demand for reagents, consumables, and equipment for drug discovery, medicinal chemistry, receptor signaling, efficacy testing, cryo-electron microscopy, and preclinical development in pain research.",
+        "source_url": "https://www.news-medical.net/news/20260504/NIH-awards-39-million-grant-to-develop-a-non-opioid-pain-treatment.aspx"
+      },
+      {
+        "summary": "DARPA's Defense Sciences Office (DSO) published a formal solicitation for the Mathematics of Boosting Agentic Communication (MATHBAC) program, with an award ceiling of $2 million per Phase I effort.",
+        "recipient": "Not yet awarded (solicitation)",
+        "department_or_lab": "DARPA Defense Sciences Office (DSO)",
+        "amount": "$2,000,000",
+        "agency": "DARPA",
+        "event_date": "2026-05-24",
+        "why_it_matters": "This indicates future demand for computational resources, potentially specialized hardware, and possibly lab equipment for research in AI, mathematics, and agentic systems.",
+        "source_url": "https://granted.ai/blog/darpa-mathbac"
+      },
+      {
+        "summary": "CH2M Hill Inc. was awarded a $480,000,000 cost-plus-award-fee, indefinite-delivery/indefinite-quantity contract for comprehensive long-term environmental action services at Navy and Marine Corps sites.",
+        "recipient": "CH2M Hill Inc.",
+        "department_or_lab": "Naval Facilities Engineering Systems Command, Atlantic",
+        "amount": "$480,000,000",
+        "agency": "Navy (under DoD)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This suggests a need for environmental testing equipment, remediation supplies, and analytical lab services for various Navy and Marine Corps sites.",
+        "source_url": "https://hstoday.us/federal-contracts/department-of-war-contracts-for-may-26-2026/"
+      },
+      {
+        "summary": "Multiple companies were awarded a $349,993,874 indefinite-delivery/indefinite-quantity, multiple award contract for technical support including systems engineering for Naval Information Warfare Center Pacific.",
+        "recipient": "Booz Allen Hamilton, Epsilon C5I Inc., General Dynamics Information Technology Inc., HII Mission Technologies Corp., KBR Wyle Services LLC, Leidos Inc., MAG DS Corp., Parsons Government Services Inc., Peraton Inc., Prescient Edge Corp., Science Applications International Corp., Scientific Research Corp., Sev1Tech LLC, T2S LLC, Vickers & Nolan Enterprises LLC, VT Milcom Inc.",
+        "department_or_lab": "Naval Information Warfare Center Pacific",
+        "amount": "$349,993,874",
+        "agency": "Navy (under DoD)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This indicates potential demand for various scientific equipment and software related to systems engineering, research, development, and testing across multiple contractors supporting naval information warfare.",
+        "source_url": "https://hstoday.us/federal-contracts/department-of-war-contracts-for-may-26-2026/"
+      },
+      {
+        "summary": "VIASAT Inc. and INTELSAT General Communications LLC were awarded a combined $437,665,005 contract for the procurement of space vehicles in support of the Protected Tactical Satellite-Global program.",
+        "recipient": "VIASAT Inc., INTELSAT General Communications LLC",
+        "department_or_lab": "Space Systems Command, Los Angeles Air Force Base",
+        "amount": "$437,665,005",
+        "agency": "Air Force (under DoD)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This suggests demand for specialized components, testing equipment, and potentially research and development materials for space vehicle technology.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4499778/contracts-for-may-22-2026/"
+      },
+      {
+        "summary": "Parsons Government Services Inc. was awarded a $28,835,351 task order for field site support for global application research, development, engineering, and maintenance operational capabilities for the Air Force Research Laboratory.",
+        "recipient": "Parsons Government Services Inc.",
+        "department_or_lab": "Air Force Research Laboratory, Rome, New York",
+        "amount": "$28,835,351",
+        "agency": "Air Force (under DoD)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This indicates a need for equipment and supplies for research, development, engineering, and maintenance activities at Air Force field sites.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4499778/contracts-for-may-22-2026/"
+      },
+      {
+        "summary": "DARPA's Microsystems Technology Office launched the Heterogeneous Architectures for Quantum (HARQ) program, funding 19 teams from 15 organizations to develop quantum systems combining multiple qubit modalities.",
+        "recipient": "19 teams from 15 organizations (e.g., Infleqtion)",
+        "department_or_lab": "DARPA Microsystems Technology Office",
+        "amount": "Individual awards in the low single-digit millions (e.g., $2,000,000 for Infleqtion)",
+        "agency": "DARPA",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This signifies a strong demand for specialized quantum computing equipment, cryogenic systems, advanced materials, and precision measurement tools for quantum research and development.",
+        "source_url": "https://granted.ai/blog/darpa-harq-program"
+      },
+      {
+        "summary": "HRL Laboratories LLC was awarded a DARPA contract for research in Thousand Oaks, California, Westlake Village, California, Raleigh, North Carolina, and Cambridge, Massachusetts.",
+        "recipient": "HRL Laboratories LLC",
+        "department_or_lab": "DARPA",
+        "amount": "$5,500,000",
+        "agency": "DARPA",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates a need for lab supplies, reagents, consumables, and scientific equipment for advanced research at HRL Laboratories and its collaborators.",
+        "source_url": "https://hstoday.us/federal-contracts/department-of-war-contracts-for-may-26-2026/"
+      },
+      {
+        "summary": "Raytheon Missiles & Defense was awarded a $1,020,659,819 firm-fixed-price contract for the procurement of NASAMS fire units.",
+        "recipient": "Raytheon Missiles & Defense",
+        "department_or_lab": "Army Contracting Command, Redstone Arsenal, Alabama",
+        "amount": "$1,020,659,819",
+        "agency": "Army (under DoD)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "While primarily for procurement, large defense contracts can indirectly lead to R&D and testing, requiring various lab supplies and equipment.",
+        "source_url": "https://hstoday.us/federal-contracts/department-of-war-contracts-for-may-26-2026/"
+      },
+      {
+        "summary": "DARPA and the State of Utah have entered into an agreement to establish the Strategic Materials Accelerator and Research Test Bed (SMART).",
+        "recipient": "State of Utah (for SMART)",
+        "department_or_lab": "DARPA",
+        "amount": "Not specified",
+        "agency": "DARPA",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This indicates a new research and test bed for strategic materials, suggesting a future demand for materials characterization equipment, testing apparatus, and related lab supplies.",
+        "source_url": "https://www.darpa.mil/news/2026/05/19/a-smart-approach-to-securing-strategic-materials"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Department of Veterans Affairs is seeking quotes from qualified sources for Laboratory Washer and Accessories to support Clinical Research at the New Mexico VA Health Care System.",
+        "contract_name": "Laboratory Washer and Accessories (RFQ 36C26226Q0760)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-21",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This solicitation indicates an upcoming demand for laboratory washers and accessories within the VA healthcare system, presenting a potential sales opportunity for Thomas Scientific.",
+        "source_url": "https://sam.gov/"
+      },
+      {
+        "summary": "The NAVSUP FLCPH Regional Contracting Department is requesting responses from a contractor authorized to provide preventative maintenance, calibration, installation and certification service of analytical equipment for the Commander Navy Region Hawaii (CNRH).",
+        "contract_name": "Lab Equipment Preventive Maintenance Services (RFQ N0060426Q4035)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-18",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This solicitation indicates a demand for maintenance and calibration services for analytical lab equipment, which could lead to opportunities for Thomas Scientific in parts supply or service partnerships.",
+        "source_url": "https://sam.gov/opp/N0060426Q4035/view"
+      }
+    ],
+    "expansion": [],
+    "project": [],
+    "tender": [
+      {
+        "summary": "The North Texas VA Medical Center is conducting market research to obtain Blood Gas Analyzers Gem Premier 7000 rental for base plus four option years. This is a SOURCES SOUGHT NOTICE only looking for businesses to provide the services listed in the Preliminary Statement of Work below for market research purposes. No proposals are being requested or accepted with this notice.",
+        "tender_name": "Blood Gas Analyzers Gem Premier 7000 (Sources Sought)",
+        "estimated_value": null,
+        "deadline": "2026-05-14",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This sources sought notice indicates an upcoming need for blood gas analyzers and related services at a VA Medical Center, presenting a future sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.bidnetdirect.com/texas/solicitations/closed-bids/statewide/6632-New-Blood-Gas-Analyzers-Gem-Premier-7000/2689184402"
+      },
+      {
+        "summary": "The Indian Health Service (IHS) has a Synopsis Solicitation for Fisher Medical and Lab supplies, with a deadline of March 28, 2028, under NAICS 339112 - Surgical and Medical Instrument Manufacturing.",
+        "tender_name": "Fisher Medical and Lab supplies (Synopsis Solicitation)",
+        "estimated_value": null,
+        "deadline": "2028-03-28",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This long-term solicitation for medical and lab supplies from the Indian Health Service represents a significant potential sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.highergov.com/contract-opportunity/dental-instruments-and-supplies-246-26-q-0017-k-53e26/"
+      },
+      {
+        "summary": "The EPA - Region 7 Contracting Office issued a solicitation for Brand Name Only '67--R7 Lab FSB Trail Camera Security Box SB400' to be shipped to the US EPA Region 7 Lab in Kansas City, KS.",
+        "tender_name": "R7 Lab FSB Trail Camera Security Box SB400 (Brand Name Only Solicitation)",
+        "estimated_value": null,
+        "deadline": "2026-05-14",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This solicitation for specific lab equipment for an EPA lab indicates a direct need for specialized scientific equipment that Thomas Scientific might supply or service.",
+        "source_url": "https://www.highergov.com/contract-opportunity/67-r7-lab-fsb-trail-camera-security-box-sb400-pr-r7-26-00317-k-03637/"
+      },
+      {
+        "summary": "The Department of Veterans Affairs, Network Contracting Office (NCO) 15, has a presolicitation requirement to Prepare Site for Cath Lab Equipment, project number 589A7-25-503, at the Robert J. Dole VA Medical Center in Wichita, KS.",
+        "tender_name": "Prepare Site for Cath Lab Equipment FY26 NRM (Presolicitation)",
+        "estimated_value": null,
+        "deadline": "2026-06-12",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This presolicitation for site preparation for Cath Lab Equipment at a VA Medical Center signals an upcoming need for the Cath Lab equipment itself, representing a future sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.rfpmart.com/1121478-us-fed-z2da--589a7-25-503-prepare-site-for-cath-lab-equipment-fy26-nrm.html"
+      },
+      {
+        "summary": "The Navy intends to award a sole source firm fixed-price purchase order to TA Instruments-Waters L.L.C for laboratory equipment maintenance, repair, or rebuild services under FAR Part 13, with quotes due May 15, 2026.",
+        "tender_name": "Thermal Lab Lifetime Support Plan (Sole Source Intent)",
+        "estimated_value": null,
+        "deadline": "2026-05-15",
+        "event_date": "2026-05-13",
+        "why_it_matters": "While a sole-source intent, this notice indicates an ongoing need for laboratory equipment maintenance and support within the DoD, which could lead to future competitive opportunities or highlight specific equipment needs for Thomas Scientific to monitor.",
+        "source_url": "https://www.bidnetdirect.com/maryland/solicitations/closed-bids/statewide/Thermal-Lab-Lifetime-Support-Plan/2690372192"
+      },
+      {
+        "summary": "Becton Dickinson and Co. was added as an awardee to a multiple award contract for laboratory equipment, accessories and consumables for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DE-22-R0006 and awarded Feb. 24, 2023, with an updated value of $49,000,000.",
+        "tender_name": "Laboratory Equipment, Accessories and Consumables (DLA Multiple Award Contract Update)",
+        "estimated_value": "49000000",
+        "deadline": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This award update indicates significant ongoing federal spending on laboratory equipment, accessories, and consumables through the DLA, suggesting a continuous market for Thomas Scientific to pursue.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4487224/contracts-for-may-14-2026/"
+      },
+      {
+        "summary": "The Naval Surface Warfare Center, Crane is issuing a Request for Information (RFI)/Sources Sought for potential Blanket Purchase Agreements for the repair of NH Research (NHR) and National Instruments (NI) test equipment.",
+        "tender_name": "Equipment Repair (RFI/Sources Sought)",
+        "estimated_value": null,
+        "deadline": "2026-06-01",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This RFI indicates a need for repair services for test equipment, which could involve the procurement of replacement parts or new equipment if repair is not feasible, creating a potential sales avenue for Thomas Scientific.",
+        "source_url": "https://sam.gov/workspace/contract/opp/4af74139ed3c4ad099f174463c2f31e6/view"
+      }
+    ],
+    "mandate": [
+      {
+        "summary": "The Government of Alberta announced an allocation of $8.9 million to construct Western Canada's first provincial DNA laboratory, aiming to reduce processing times and costs for forensic evidence.",
+        "mandate_type": "forensic lab expansion",
+        "jurisdiction": "Alberta, Canada",
+        "funding_amount": "$8.9 million",
+        "effective_date": "2029",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This mandate creates non-discretionary lab supply demand for equipment, reagents, and consumables needed to establish and operate a new provincial DNA laboratory.",
+        "source_url": "https://livewirecalgary.com/2026/05/15/wests-first-provincially-owned-forensic-dna-lab-to-fast-track-alberta-trials/"
+      },
+      {
+        "summary": "The New York State Senate passed the State Fiscal Year (SFY) 2026-27 budget, which includes an investment of $54 million for a new state-of-the-art forensics lab for the State Police.",
+        "mandate_type": "forensic lab expansion",
+        "jurisdiction": "New York State, USA",
+        "funding_amount": "$54 million",
+        "effective_date": "2026-04-01",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This mandate creates non-discretionary lab supply demand for equipment, reagents, and consumables for a new state-of-the-art forensics lab.",
+        "source_url": "https://www.nysenate.gov/newsroom/press-releases/2026/state-senate-passes-2026-27-budget"
+      },
+      {
+        "summary": "The Pennsylvania State Police (PSP) is expanding its Rapid DNA program to municipal law enforcement agencies, providing quicker access to critical forensic technology for time-sensitive cases.",
+        "mandate_type": "forensic lab expansion",
+        "jurisdiction": "Pennsylvania, USA",
+        "funding_amount": null,
+        "effective_date": "2026-05-05",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This program expansion creates non-discretionary lab supply demand for Rapid DNA instruments, reagents, and consumables for municipal law enforcement agencies.",
+        "source_url": "https://www.pa.gov/agencies/psp/newsroom/state-police-extend-rapid-dna-program-to-help-solve-time-sensiti"
+      },
+      {
+        "summary": "New EPA rules regarding dichloromethane (DCM) exposure limits are forcing US labs to re-evaluate their use of the solvent, leading to increased costs for monitoring and analysis.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "US (EPA)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New EPA regulations on dichloromethane exposure will create non-discretionary demand for specialized monitoring equipment, analytical reagents, and potentially alternative solvents or ventilation systems in labs.",
+        "source_url": "https://www.chemistryworld.com/news/stringent-regulations-on-dichloromethane-are-forcing-us-labs-to-rethink-use-of-common-solvent/4023355.article"
+      },
+      {
+        "summary": "The House Appropriations Committee included $772,700 for the Niagara County Sheriff's Office Forensic Laboratory DNA Expansion Project in Lockport, NY.",
+        "mandate_type": "forensic lab expansion",
+        "jurisdiction": "Niagara County, New York, USA",
+        "funding_amount": "$772,700",
+        "effective_date": "2026-05-14",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This funding creates non-discretionary lab supply demand for equipment, reagents, and consumables for the expansion of a forensic DNA laboratory.",
+        "source_url": "https://appropriations.house.gov/sites/evo-subsites/republicans-appropriations.house.gov/files/evo-media-document/fy27-commerce-justice-science-and-related-agencies-cpf-table.pdf"
+      },
+      {
+        "summary": "The U.S. Department of Energy Office of Environmental Management (EM) awarded $29.3 million for research and development to accelerate the Hanford Site's tank waste cleanup mission, funding 13 projects led by six national laboratories.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "US (Department of Energy, Hanford Site)",
+        "funding_amount": "$29.3 million",
+        "effective_date": "2026-05-22",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This funding creates non-discretionary lab supply demand for equipment, reagents, and consumables for research and development aimed at environmental waste cleanup.",
+        "source_url": "https://www.energy.gov/em/articles/em-awards-29-million-six-national-labs-help-expedite-hanford-tank-waste-cleanup"
+      },
+      {
+        "summary": "The Government of Canada announced a $2.2 billion capital commitment for the renewal of Chalk River Laboratories, including significant investment in new, world-class science facilities like the Advanced Nuclear Materials Research Centre.",
+        "mandate_type": "public health emergency lab buildouts",
+        "jurisdiction": "Canada (Chalk River Laboratories)",
+        "funding_amount": "$2.2 billion",
+        "effective_date": "2026-05-21",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This substantial capital commitment will drive non-discretionary lab supply demand for new scientific equipment, lab buildouts, and consumables for a major national laboratory renewal.",
+        "source_url": "https://www.cnl.ca/government-of-canada-announces-2-2-billion-capital-commitment-for-chalk-river-laboratories-renewal/"
+      },
+      {
+        "summary": "The California Department of Public Health's 2026-27 May Revision includes an increase of $1.8 million in Local Assistance for the Childhood Lead Poisoning Prevention Fund to provide services to children with elevated blood lead levels.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "California, USA",
+        "funding_amount": "$1.8 million",
+        "effective_date": "2026-07-01",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This funding increase creates non-discretionary lab supply demand for testing supplies and equipment related to childhood lead poisoning prevention programs.",
+        "source_url": "https://www.cdph.ca.gov/Programs/CFH/DMCNH/CDPH%20Document%20Library/CDPH-2026-27-May-Revision-Highlights.pdf"
+      },
+      {
+        "summary": "The U.S. Department of Energy's (DOE) Industrial Technologies Office (ITO) announced $27.8 million for 10 projects aimed at decarbonizing Water Resource Recovery Facilities (WRRFs), which will involve innovation and research.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "US (Department of Energy)",
+        "funding_amount": "$27.8 million",
+        "effective_date": "2026-05-22",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This funding creates non-discretionary lab supply demand for equipment, reagents, and consumables for research and development projects focused on decarbonizing water resource recovery facilities.",
+        "source_url": "https://www.energy.gov/cmei/ito/funding-selections-decarbonization-water-resource-recovery-facilities"
+      },
+      {
+        "summary": "The EPA announced nearly $1 billion in grant funding to address PFAS and other emerging contaminants in drinking water through the Emerging Contaminants in Small or Disadvantaged Communities Grant.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "US (EPA)",
+        "funding_amount": "Nearly $1 billion",
+        "effective_date": "2026-05-18",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This significant grant funding creates non-discretionary lab supply demand for testing equipment, reagents, and consumables for monitoring and addressing PFAS and other emerging contaminants in drinking water systems.",
+        "source_url": "https://www.epa.gov/newsreleases/epa-advances-comprehensive-pfas-strategy-legally-defensible-practical-scientifically"
+      }
+    ],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:23:35.034751",
+  "ai_summary": "Significant government funding is flowing into R&D, environmental initiatives, and forensic science across federal and state agencies. New grants, contracts for lab equipment, and mandates for expanded lab capabilities (e.g., DNA labs, environmental monitoring) signal a robust demand. This creates substantial opportunities for lab supply sales teams to provide essential equipment, consumables, and services to support these critical government programs and research efforts."
+}

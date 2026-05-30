@@ -1,0 +1,93 @@
+{
+  "account": "CWOMA",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1CwYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "The Angel Family Foundation has committed a $5 million investment to the Colorado School of Mines Space Resources Program, which will be used to expand its on-campus lunar and planetary simulation research facilities.",
+        "location": "Colorado School of Mines, Colorado, USA",
+        "type_of_expansion": "Capacity expansion (research facilities)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Expansion of research facilities indicates upcoming demand for specialized lab equipment, consumables, and reagents for space resources research.",
+        "source_url": "https://www.mines.edu/newsroom/news/5m-gift-from-the-angel-family-foundation-advances-space-resources-at-mines/"
+      },
+      {
+        "summary": "The federal government is investing $5 million to expand a research and testing lab at Ontario Tech University in Oshawa, Canada, for defence-sector technology, specifically the ACE Climatic Aerodynamic Wind Tunnel, with a total project cost of roughly $9 million.",
+        "location": "Oshawa, Ontario, Canada",
+        "type_of_expansion": "Capacity expansion (research and testing lab)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Expansion of a research and testing lab for defence technology will drive demand for specialized testing equipment, sensors, and related lab supplies.",
+        "source_url": "https://www.cbc.ca/news/canada/ottawa/ottawa-spending-5m-on-defence-testing-at-ontario-tech-university-1.7208035"
+      },
+      {
+        "summary": "Medix Biochemica announced a $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its facilities in Espoo, Finland, and St. Louis, Missouri, including facility expansion, new analytical instrumentation, and at least 10 specialized hires.",
+        "location": "Espoo, Finland and St. Louis, Missouri, USA",
+        "type_of_expansion": "Capacity expansion (lab/manufacturing facilities)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Expansion of recombinant antigen and cell culture technology capabilities will create demand for cell culture media, reagents, analytical instruments, and other lab consumables.",
+        "source_url": "https://www.bionity.com/en/news/1182606/medix-biochemica-invests-5m-to-expand-its-recombinant-antigen-capabilities.html"
+      },
+      {
+        "summary": "Herat health authorities have procured nearly $5 million worth of advanced laboratory equipment to strengthen the province's Medicine and Food Laboratory, expanding and upgrading its services for pharmaceutical and food product testing.",
+        "location": "Herat, Afghanistan",
+        "type_of_expansion": "Capacity expansion (laboratory)",
+        "investment_value": "Nearly $5 million",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Upgrading a food and drug laboratory with advanced equipment will lead to demand for new analytical instruments, reagents, and consumables for quality control and testing.",
+        "source_url": "https://pajhwok.com/2026/05/07/5m-investment-upgrades-food-drug-lab-in-herat/"
+      },
+      {
+        "summary": "The Technology House, in partnership with Carbon 3D, will expand its additive manufacturing capabilities in Northeast Ohio, creating 72 full-time positions and generating over $5.3 million in new annual payroll.",
+        "location": "Streetsboro and Solon, Ohio, USA",
+        "type_of_expansion": "Capacity expansion (manufacturing)",
+        "investment_value": "Over $5.3 million (new annual payroll)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "Expansion of additive manufacturing capabilities, especially with Carbon 3D, suggests demand for specialized polymers, resins, and potentially analytical equipment for material characterization.",
+        "source_url": "https://www.theohioconsultant.com/state-approves-437-new-jobs-across-five-ohio-projects/"
+      },
+      {
+        "summary": "UC San Diego has received a $5 million funding renewal for its Faculty Institutional Recruitment for Sustainable Transformation program, aimed at recruiting early-career researchers in the biomedical field, indicating an expansion of research activities.",
+        "location": "UC San Diego, California, USA",
+        "type_of_expansion": "Capacity expansion (research, faculty recruitment)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Increased recruitment of biomedical researchers at UCSD will lead to higher demand for lab equipment, reagents, and consumables across various life science disciplines.",
+        "source_url": "https://timesofsandiego.com/tech/2026/05/12/ucsd-receives-5m-boost-for-recruitment-efforts-in-medicine-biology-more/"
+      },
+      {
+        "summary": "Multiple Indian pharmaceutical companies, including Aurobindo Pharma Ltd, Biocon Group, Cipla Limited, Dr. Reddy's Laboratories Ltd, Glenmark Pharmaceuticals Ltd, Granules India Ltd, Jubilant Group, Lupin Limited, Sun Pharmaceutical Industries Ltd., Piramal Pharma Ltd., and Zydus Lifesciences Limited, plan over $19.1 billion in investments in the United States for manufacturing and network expansions, new greenfield facilities, and increased research and development.",
+        "location": "United States (multiple locations)",
+        "type_of_expansion": "New dedicated facilities (greenfield), capacity expansion (manufacturing, R&D)",
+        "investment_value": "Over $19.1 billion",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Significant investments by major pharmaceutical companies in new facilities and R&D will generate substantial demand for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://in.usembassy.gov/factsheet-indian-investments-in-the-united-states-at-the-2026-selectusa-investment-summit/"
+      }
+    ],
+    "project": [],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "The National Institute of Standards and Technology (NIST) has announced a competition for Manufacturing USA institutes, providing up to $10,000,000 in federal funding to advance manufacturing technologies. Concurrently, NIST's FNS Measurements and Methods Consortium is established to develop and evaluate measurement methods and standards, aiming to enhance quality and safety in the food testing community and ensure compliance with food labeling laws and contamination detection.",
+        "mandate_type": "Foodborne Illness Testing Requirements",
+        "jurisdiction": "United States (National Institute of Standards and Technology)",
+        "funding_amount": "$10,000,000",
+        "effective_date": "2026-05-27",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The NIST FNS Measurements and Methods Consortium, with its focus on developing and evaluating measurement methods and standards for food testing, will directly increase demand for analytical testing equipment, reagents, and reference materials in food safety and quality control laboratories.",
+        "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-27/pdf/2026-10515.pdf"
+      }
+    ],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:24:40.291169",
+  "ai_summary": "Significant investments are driving widespread expansion across research, manufacturing, and testing facilities globally, including federal funding for defence tech and NIST's focus on manufacturing and food safety standards. This surge in activity, particularly in biomedical, biotech, and advanced materials, signals a substantial increase in demand for new lab equipment, consumables, and instrumentation, creating prime sales opportunities for lab supply teams."
+}

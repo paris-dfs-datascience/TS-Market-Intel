@@ -1,0 +1,62 @@
+{
+  "account": "COOPER",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP14yYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Scientists from The Wistar Institute, Temple University, and collaborators including Kristine Cooper, have identified a novel metabolic target to overcome chemotherapy resistance in ovarian cancer. This discovery, published in Nature, reveals a new metabolic process altered in cancer cells that makes them resistant to DNA-damaging agents and points to an existing drug, mildronate, as a potential strategy to inhibit this pathway.",
+        "recipient": "The Wistar Institute, Temple University (collaborator: Kristine Cooper)",
+        "department_or_lab": "Molecular and Cellular Oncogenesis Program at The Ellen and Ronald Caplan Cancer Center at The Wistar Institute (Aird lab)",
+        "amount": "Not specified for individual grants, but multiple NIH grants listed by number (R37CA240625, R01CA259111, R01CA298386, T32GM133332, R01CA242021, R35GM119512, R21CA267050, S10OD030286, T32HL091804, T32GM142606, and P30CA047904)",
+        "agency": "NIH",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This research into overcoming chemotherapy resistance in ovarian cancer will likely generate demand for specialized reagents, consumables, and equipment for oncology research, drug development, and potential diagnostic assay refinement.",
+        "source_url": "https://www.wistar.org/press-releases/wistar-institute-and-temple-scientists-identify-metabolic-target-to-overcome-chemotherapy-resistance-in-ovarian-cancer/"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "CooperSurgical launched a pilot initiative, sustainART, to explore the collection and recycling of plastics associated with its IVF laboratory products, partnering with Adora Fertility and Transmutation.",
+        "contract_name": "sustainART IVF Laboratory Plastic Recycling Pilot",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This initiative indicates CooperSurgical's focus on sustainable lab practices and potential future demand for eco-friendly lab consumables, recycling services, or new product development in IVF labs, which Thomas Scientific could supply.",
+        "source_url": "https://getthewordout.com.au/press-release/press-release-coopersurgical-launches-sustainart-pilot-for-ivf-laboratory-plastic-recycling/"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Cooper University Health Care has launched a Mobile Extracorporeal Membrane Oxygenation (ECMO) Transport Program to provide advanced life support to critically ill heart and lung patients before they arrive at the hospital.",
+        "project_name": "Mobile ECMO Transport Program",
+        "scope": "The program offers advanced life support for patients with life-threatening heart or lung failure, operating in collaboration with Cooper's Center for Critical Care Services, Transfer Center, EMS, and Level 1 Trauma Program.",
+        "timeline": "The program has recently launched.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new program will drive demand for specialized ECMO equipment, oxygenators, tubing sets, cannulas, and associated reagents and consumables for critical care and diagnostic monitoring.",
+        "source_url": "https://blogs.cooperhealth.org/news/category/press-releases/"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Canadian medical device company Vena Medical completed its first U.S. commercial procedures using the Vena MicroAngioscope System, an ultra-small intravascular camera system, following recent FDA 510(k) clearance.",
+        "product_or_site": "Vena MicroAngioscope System (ultra-small intravascular camera system)",
+        "regulatory_action": "FDA 510(k) clearance",
+        "outcome": "Cleared",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This clearance and subsequent commercial use indicate an increased demand for associated lab supplies, reagents, consumables, and scientific equipment for neurovascular procedures.",
+        "source_url": "https://www.medicaleconomics.com/view/vena-medical-completes-first-u-s-cases-with-ultra-small-intravascular-camera-sys"
+      }
+    ],
+    "volume": [],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:21:16.779611",
+  "ai_summary": "Cooper entities show activity across clinical and research fronts. Kristine Cooper's cancer research on novel metabolic targets signals future molecular diagnostic assay development and drug discovery needs. CooperSurgical's IVF lab sustainability project indicates evolving clinical lab operational demands. These developments create opportunities for lab supply sales teams in molecular diagnostics, research reagents, and eco-friendly lab solutions, reflecting a dynamic and expanding market."
+}

@@ -1,0 +1,79 @@
+{
+  "account": "BRASKEM",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nOkelYAC",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Braskem's Board of Directors approved the expansion of the capacity of the petrochemical plant in Rio de Janeiro, Brazil, to increase gas-based polyethylene production.",
+        "facility_or_line": "Petrochemical plant in Rio de Janeiro",
+        "change_type": "Production capacity expansion",
+        "location": "Rio de Janeiro, Brazil",
+        "investment_value": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "Increased production capacity will drive demand for new lab supplies, reagents, and consumables for process control and quality assurance.",
+        "source_url": "https://www.marketscreener.com/news/braskem-s-a-integrated-report-2025-ce7f5bd3da8bfe2c"
+      },
+      {
+        "summary": "Braskem inaugurated the Puerto M\u00e9xico Chemical Terminal (TQPM) in Coatzacoalcos, Veracruz, Mexico, which will import up to 80,000 barrels/day of ethane and store up to 100,000 m\u00b3, enabling Braskem Idesa to operate at full load.",
+        "facility_or_line": "Puerto M\u00e9xico Chemical Terminal (TQPM)",
+        "change_type": "New manufacturing site opening",
+        "location": "Coatzacoalcos, Veracruz, Mexico",
+        "investment_value": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "A new terminal enabling full plant operation will increase demand for lab supplies and QC consumables for incoming raw materials and increased production output.",
+        "source_url": "https://www.marketscreener.com/news/braskem-s-a-integrated-report-2025-ce7f5bd3da8bfe2c"
+      },
+      {
+        "summary": "Projects totaling R$614 million were approved under REIQ Investments to expand current production capacity at Braskem's industrial sites in Bahia, Rio Grande do Sul, and Alagoas by approximately 139,000 tons/year.",
+        "facility_or_line": "Industrial sites in Bahia, Rio Grande do Sul, and Alagoas",
+        "change_type": "Production capacity expansion",
+        "location": "Bahia, Rio Grande do Sul, Alagoas, Brazil",
+        "investment_value": "R$614 million",
+        "event_date": "2026-05-15",
+        "why_it_matters": "Expanding production capacity across multiple sites will lead to increased demand for a wide range of lab supplies, reagents, and equipment for expanded operations and quality control.",
+        "source_url": "https://www.marketscreener.com/news/braskem-s-a-integrated-report-2025-ce7f5bd3da8bfe2c"
+      },
+      {
+        "summary": "Braskem Trading & Shipping (BT&S) named \"Beautiful Future\" and \"Blooming Future,\" two new next-generation chemical and product oil tankers designed to move essential raw materials more efficiently. Two additional ships are under construction for delivery later this year and early 2027.",
+        "facility_or_line": "Braskem Trading & Shipping fleet (tankers \"Beautiful Future\" and \"Blooming Future\")",
+        "change_type": "Shift in production capacity (logistics improvement)",
+        "location": "Global (U.S. Gulf Coast to Brazil routes)",
+        "investment_value": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "Improved raw material transportation efficiency and capacity will ensure a more stable and potentially increased supply to Braskem's production facilities, leading to consistent or higher demand for lab supplies for raw material testing and ongoing production.",
+        "source_url": "https://www.marketscreener.com/news/braskem-s-a-integrated-report-2025-ce7f5bd3da8bfe2c"
+      },
+      {
+        "summary": "The utilization rate of Braskem's U.S. and Europe segment increased by 8 percentage points in Q1 2026 compared to Q4 2025, primarily due to the normalization of plants after maintenance shutdowns in Europe and an increase in production in the U.S.",
+        "facility_or_line": "Braskem plants in the U.S. and Europe",
+        "change_type": "Shift in production capacity (increase due to resumption of full operation)",
+        "location": "U.S. and Europe",
+        "investment_value": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "Increased utilization and production in existing plants will lead to higher consumption of lab consumables, reagents, and potentially new equipment for increased testing and quality control.",
+        "source_url": "https://www.fidelity.com/news/article/default/202605150435BENZINGAFULLNGTH52589215"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Braskem Idesa, Braskem's Mexican subsidiary, is expected to file for Chapter 11 judicial reorganization in the United States due to ongoing financial stress and missed interest payments on its senior secured notes.",
+        "facility_or_programme": "Braskem Idesa (Mexican subsidiary, operates polyethylene plant in Veracruz, Mexico)",
+        "closure_type": "Potential judicial reorganization (Chapter 11 bankruptcy filing), which could lead to operational restructuring or shutdowns.",
+        "effective_date": null,
+        "reason": "Ongoing financial stress, global petrochemical conditions, external factors, and missed interest payments on senior secured notes due in November 2025 and February 2026.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "A potential Chapter 11 filing for Braskem Idesa indicates significant operational uncertainty and potential for asset divestment or restructuring, creating a competitive displacement opportunity for Thomas Scientific to supply new or existing players in the petrochemical sector.",
+        "source_url": "https://www.stocktitan.net/sec-filings/BAK/6-k-braskem-sa-current-report-foreign-issuer-e7aaea846949.html"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:11:31.012188",
+  "ai_summary": "Braskem is significantly expanding production capacity and improving logistics across Brazil, the US, and Europe, indicating increased operational activity and demand for lab supplies. This growth means more need for quality control and R&D equipment. However, its Mexican subsidiary, Braskem Idesa, is filing for Chapter 11 due to financial stress, which could impact spending in that specific region."
+}

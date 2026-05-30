@@ -1,0 +1,280 @@
+{
+  "account": "VANDERBILT UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1bEYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Vanderbilt University received an NSF grant of $115,696 for a project that explores how developmental norms are reproduced, challenged, and sometimes disrupted within scientific and activist communities. The study aims to generate new conceptual tools for understanding development in a non-Euro-American context and use critical theory in mainstream science, policy, and public debate.",
+        "recipient": "Vanderbilt University",
+        "department_or_lab": null,
+        "amount": 115696,
+        "agency": "NSF",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This grant indicates research activity in social sciences and critical theory, which may require specialized software, qualitative research tools, or interdisciplinary collaboration supplies.",
+        "source_url": "https://washingtonstand.com/article/report-federal-funding-of-critical-medical-defense-research-at-elite-schools-also-pays-for-pointless-studies"
+      },
+      {
+        "summary": "A.M. Benson at Vanderbilt University received funding from NIH (R00MH116100) and NSF (2449277) for research on a genetic algorithm for self-supervised models of oscillatory neurodynamics, introducing the Genetic Stochastic Delta Rule (GSDR) for fitting nonlinear neural models to electrophysiological objectives.",
+        "recipient": "A.M. Benson",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "NIH, NSF",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This indicates demand for neuroscience research equipment, computational resources, and potentially specialized reagents for electrophysiological studies.",
+        "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.31.630823v5"
+      },
+      {
+        "summary": "Vanderbilt University researchers, primarily from the Departments of Computer Science and Electrical and Computer Engineering, acknowledged funding from multiple NIH grants (R01DK135597, R01EB033385, R01DK132338, REB017230, R01MH125931) and NSF grants (2434229, 2040462, NAIRR240055) for their work on a comprehensive survey of computer vision methods for spatial transcriptomics. This research aims to advance 3D spatial omics analytics and transform basic research and clinical practice.",
+        "recipient": "Vanderbilt University",
+        "department_or_lab": "Department of Computer Science, Department of Electrical and Computer Engineering",
+        "amount": null,
+        "agency": "NIH, NSF",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This indicates a need for advanced imaging equipment, computational resources for image analysis, and reagents for spatial transcriptomics.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42184118/"
+      },
+      {
+        "summary": "Vanderbilt University's Edge for Scholars program offers a TL1 Postdoc Fellowship, supported by an award TL1TR002244 from NCATS/NIH, providing training in translational science for doctoral degree holders.",
+        "recipient": "Postdoctoral fellows at Vanderbilt University",
+        "department_or_lab": "Edge for Scholars at Vanderbilt",
+        "amount": null,
+        "agency": "NCATS/NIH",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates ongoing training and research activities by postdoctoral fellows, suggesting demand for a wide range of lab supplies and equipment across various translational research areas.",
+        "source_url": "https://edgeforscholars.vumc.org/funding-opportunities/tl1-postdoc-fellowship/"
+      },
+      {
+        "summary": "Vanderbilt University is a partner in the DoD-funded Scalable Asymmetric Lifecycle Engagement (SCALE) program, which received an increased contract to over $100 million to address workforce needs in microelectronics design and manufacturing.",
+        "recipient": "Vanderbilt University",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-08",
+        "why_it_matters": "Participation in this program suggests demand for specialized equipment, materials, and consumables for microelectronics research, design, and manufacturing.",
+        "source_url": "https://www.manufacturingdive.com/news/defense-purdue-scale-microelectronics-workforce-program-contract/819553/"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Ye Han was appointed as a research associate professor in the Department of Pharmacology at Vanderbilt University.",
+        "name": "Ye Han",
+        "department": "Pharmacology",
+        "start_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.vanderbilt.edu/basic-sciences/news/2026/04/29/celebrating-appointments-and-promotions-in-the-school-of-medicine-basic-sciences-january-march-2026/"
+      },
+      {
+        "summary": "Rui Chen was appointed as a research assistant professor in the Department of Molecular Physiology and Biophysics at Vanderbilt University.",
+        "name": "Rui Chen",
+        "department": "Molecular Physiology and Biophysics",
+        "start_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.vanderbilt.edu/basic-sciences/news/2026/04/29/celebrating-appointments-and-promotions-in-the-school-of-medicine-basic-sciences-january-march-2026/"
+      },
+      {
+        "summary": "Jay Prakash Kumar was appointed as a research instructor in the Department of Molecular Physiology and Biophysics at Vanderbilt University.",
+        "name": "Jay Prakash Kumar",
+        "department": "Molecular Physiology and Biophysics",
+        "start_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.vanderbilt.edu/basic-sciences/news/2026/04/29/celebrating-appointments-and-promotions-in-the-school-of-medicine-basic-sciences-january-march-2026/"
+      },
+      {
+        "summary": "Soma Behera was appointed as a research instructor in the Department of Molecular Physiology and Biophysics at Vanderbilt University.",
+        "name": "Soma Behera",
+        "department": "Molecular Physiology and Biophysics",
+        "start_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.vanderbilt.edu/basic-sciences/news/2026/04/29/celebrating-appointments-and-promotions-in-the-school-of-medicine-basic-sciences-january-march-2026/"
+      },
+      {
+        "summary": "Youn Jae Jung was appointed as a research instructor in the Department of Cell and Developmental Biology at Vanderbilt University.",
+        "name": "Youn Jae Jung",
+        "department": "Cell and Developmental Biology",
+        "start_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.vanderbilt.edu/basic-sciences/news/2026/04/29/celebrating-appointments-and-promotions-in-the-school-of-medicine-basic-sciences-january-march-2026/"
+      },
+      {
+        "summary": "Ruogu Fang, a leading researcher in brain-inspired AI and neuroimaging, will join Vanderbilt's Department of Biomedical Engineering as the Flowers Family Dean's Faculty Fellow in Engineering.",
+        "name": "Ruogu Fang",
+        "department": "Biomedical Engineering",
+        "start_date": "2026-08-16",
+        "event_date": "2026-05-15",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://engineering.vanderbilt.edu/news/2026/leading-researcher-in-brain-inspired-ai-and-neuroimaging-joins-vanderbilt-school-of-engineering/"
+      },
+      {
+        "summary": "Susannah Rose, PhD, an expert in the ethical integration of new technologies, including artificial intelligence, in health care, has been appointed director of the Center for Biomedical Ethics and Society at Vanderbilt Health.",
+        "name": "Susannah Rose",
+        "department": "Biomedical Informatics and Health Policy / Center for Biomedical Ethics and Society",
+        "start_date": "2026-07-01",
+        "event_date": "2026-05-05",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://news.vumc.org/2026/05/05/susannah-rose-to-direct-the-center-for-biomedical-ethics-and-society/"
+      },
+      {
+        "summary": "Richard Peek Jr., MD, has been named a Co-Leader of the Gastrointestinal (GI) Cancer Research Program at Vanderbilt-Ingram Cancer Center.",
+        "name": "Richard Peek Jr.",
+        "department": "Medicine / Division of Gastroenterology, Hepatology and Nutrition / Gastrointestinal Cancer Research Program",
+        "start_date": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://news.vumc.org/2026/05/20/richard-peek-joins-kristen-ciombor-as-co-leader-of-gastrointestinal-cancer-research-program/"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Vanderbilt investigators are invited to submit pre-proposals for the 2027 Brain Research Foundation Scientific Innovations Award, which supports scientific innovations in brain research.",
+        "contract_name": "2027 Brain Research Foundation Scientific Innovations Award",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-02",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This grant opportunity for brain research could lead to demand for specialized lab equipment and reagents for neuroscience studies.",
+        "source_url": "https://www.vanderbilt.edu/research/rds/limited-submission-opportunities/"
+      },
+      {
+        "summary": "Vanderbilt University is accepting applications for the National Science Foundation's Integrated Data Systems & Services (IDSS) grant program.",
+        "contract_name": "NSF Integrated Data Systems & Services (IDSS)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-07-28",
+        "event_date": "2026-05-04",
+        "why_it_matters": "Research in integrated data systems could require specialized computing equipment or sensors, which Thomas Scientific might supply.",
+        "source_url": "https://www.vanderbilt.edu/research/rds/limited-submission-opportunities/"
+      },
+      {
+        "summary": "Vanderbilt University is accepting applications for the National Science Foundation's CyberAICorps Scholarship for Service (CyberAI SFS) program.",
+        "contract_name": "NSF CyberAICorps Scholarship for Service (CyberAI SFS)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-07-21",
+        "event_date": "2026-04-30",
+        "why_it_matters": "While primarily a scholarship, cybersecurity research can involve specialized hardware or software testing environments that might require specific equipment or consumables.",
+        "source_url": "https://www.vanderbilt.edu/research/rds/limited-submission-opportunities/"
+      },
+      {
+        "summary": "Vanderbilt University is accepting Letters of Intent for The G. Harold and Leila Y. Mathers Foundation Grant Program for Fall 2026, supporting biological/biomedical and physical sciences/engineering/math research.",
+        "contract_name": "G. Harold and Leila Y. Mathers Foundation Grant Program: Fall 2026",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-07-31",
+        "event_date": "2026-05-04",
+        "why_it_matters": "Broad research grants in biological, biomedical, physical sciences, engineering, and math will likely generate demand for a wide range of lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://www.vanderbilt.edu/research/rds/limited-submission-opportunities/"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Two research groups within the Vanderbilt School of Engineering have been awarded multimillion-dollar grants from the U.S. Department of Energy and NASA to address critical challenges in future space missions, specifically focusing on protecting electronics from radiation and stabilizing energy generation and delivery systems for missions to the moon and Mars.",
+        "project_name": "Multimillion-Dollar Grants for Space Mission Challenges",
+        "scope": "Research focused on protecting electronics from radiation and stabilizing energy generation and delivery systems, which are crucial for upcoming space exploration missions.",
+        "timeline": "Not explicitly stated, but the nature of the research for future space missions implies a multi-year program.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This initiative will generate demand for specialized scientific equipment, radiation-hardened components, advanced materials, and various lab consumables required for developing and testing solutions for space environments.",
+        "source_url": "https://news.vanderbilt.edu/section/research/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Vanderbilt University researchers have created the first growth charts for white matter in the brain over a human lifetime, a groundbreaking study published in Nature that maps 72 distinct white-matter pathways and how they grow and age from birth to 100 years old.",
+        "researcher_name": "Kurt Schilling, Michael Kim, Bennett Landman",
+        "department_or_lab": "Radiology and Radiological Sciences (Schilling), Computer Science (Kim), Vanderbilt University (Landman)",
+        "award_or_discovery": "First growth charts for white matter in the brain (first-in-class discovery)",
+        "significance": "This groundbreaking study provides the first comprehensive guide for how the brain's wiring changes with age, offering a new tool for neurologists to track neural network development and detect abnormalities associated with brain disorders.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This discovery signals high-impact lab activity in neuroimaging, AI-enabled computing, and brain disorder research, likely increasing demand for advanced imaging reagents, computational resources, and specialized lab consumables.",
+        "source_url": "https://news.vanderbilt.edu/2026/05/27/vanderbilt-researchers-develop-comprehensive-guide-for-how-the-brains-wiring-changes-with-age/"
+      },
+      {
+        "summary": "Jack Noble, Assistant Professor of Electrical and Computer Engineering at Vanderbilt, has made breakthroughs in cochlear implant surgeries, as highlighted in the Quantum Potential podcast.",
+        "researcher_name": "Jack Noble",
+        "department_or_lab": "Electrical and Computer Engineering",
+        "award_or_discovery": "Breakthroughs in cochlear implant surgeries",
+        "significance": "Noble's work addresses the variability in cochlear implant outcomes and challenging implantation procedures, aiming to improve this remarkable technology.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This breakthrough indicates ongoing high-impact research in biomedical engineering and surgical technologies, suggesting increased demand for specialized surgical tools, biomaterials, and advanced diagnostic equipment.",
+        "source_url": "https://engineering.vanderbilt.edu/2026/05/15/leading-researcher-in-brain-inspired-ai-and-neuroimaging-joins-vanderbilt-school-of-engineering/"
+      },
+      {
+        "summary": "Vanderbilt University computer science students from the Cloud Innovation Lab have developed an AI breakthrough for media archives, creating an accurate, reliable, and cost-effective solution for segmenting and labeling television news broadcasts.",
+        "researcher_name": "Vanderbilt University computer science students (Oybek Ablakulov, Abbie Chen, Wasi Hussain, Rithika Thambireddy, Brian Viner)",
+        "department_or_lab": "Vanderbilt Cloud Innovation Lab for Libraries and Applied Digital Preservation",
+        "award_or_discovery": "AI breakthrough for media archives (first-in-class discovery)",
+        "significance": "This new AI tool improves upon manual processes for organizing vast media archives, potentially reducing costs by up to 80 percent and making content more discoverable for researchers.",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This AI breakthrough signals high-impact activity in computational research and digital preservation, potentially driving demand for high-performance computing infrastructure, data storage solutions, and specialized software licenses.",
+        "source_url": "https://engineering.vanderbilt.edu/news/"
+      },
+      {
+        "summary": "Martin Egli was appointed to the Richard N. Armstrong, Ph.D. Chair for Innovation in Biochemistry, and David Jacobson was appointed to the Stevenson Chair.",
+        "researcher_name": "Martin Egli, David Jacobson",
+        "department_or_lab": "Biochemistry (Egli), Molecular Physiology and Biophysics (Jacobson)",
+        "award_or_discovery": "Named endowed chair appointments tied to research discovery",
+        "significance": "These endowed chair appointments recognize and support leading faculty members whose research contributes to innovation in biochemistry and molecular physiology and biophysics.",
+        "event_date": "2026-05-03",
+        "why_it_matters": "Endowed chair appointments signify sustained, high-level research funding and activity in these departments, indicating ongoing demand for specialized biochemical reagents, molecular biology kits, and advanced analytical equipment.",
+        "source_url": "https://cra.org/crn/2026/05/cra-congratulates-new-aaas-and-siam-fellows-and-aaas-members-2026/"
+      },
+      {
+        "summary": "Russell Rothman, a leader in patient-centered, comparative clinical effectiveness research at Vanderbilt Health, has been honored with the 2026-2027 George Eastman Visiting Professorship at Oxford University.",
+        "researcher_name": "Russell Rothman",
+        "department_or_lab": "Vanderbilt Institute for Population and Public Health, Internal Medicine, Pediatrics and Health Policy",
+        "award_or_discovery": "George Eastman Visiting Professorship at Oxford University (major government honour/prestigious award)",
+        "significance": "This prestigious professorship recognizes Rothman's distinguished contributions to health services research and health communication, placing him among previous recipients including Nobel laureates.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This major honor signals high-profile research in population health and clinical effectiveness, suggesting continued demand for data analysis software, research consumables for clinical trials, and health informatics tools.",
+        "source_url": "https://medschool.vanderbilt.edu/basic-sciences/2026/05/03/ten-year-anniversary-ten-decisions-that-characterize-the-school-of-medicine-basic-sciences/"
+      },
+      {
+        "summary": "Doug Mitchell was given the William Kelly Warren Sr. Chair in Biochemistry.",
+        "researcher_name": "Doug Mitchell",
+        "department_or_lab": "Biochemistry",
+        "award_or_discovery": "Named endowed chair appointment tied to research discovery",
+        "significance": "This endowed chair appointment recognizes and supports Mitchell's contributions to the field of biochemistry.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "An endowed chair appointment indicates sustained, high-level research funding and activity in biochemistry, suggesting ongoing demand for specialized biochemical reagents, molecular biology kits, and advanced analytical equipment.",
+        "source_url": "https://news.vumc.org/2026/05/28/oxford-honors-russell-rothman-with-prestigious-professorship/"
+      },
+      {
+        "summary": "Ruogu Fang, a leading researcher in brain-inspired AI and neuroimaging, will join Vanderbilt's Department of Biomedical Engineering as the Flowers Family Dean's Faculty Fellow in Engineering.",
+        "researcher_name": "Ruogu Fang",
+        "department_or_lab": "Department of Biomedical Engineering",
+        "award_or_discovery": "Flowers Family Dean's Faculty Fellow in Engineering (named endowed chair appointment tied to research discovery)",
+        "significance": "Fang's work advances brain-inspired artificial intelligence models and AI-empowered precision brain health, strengthening Vanderbilt's momentum in this rapidly evolving field.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This endowed faculty fellowship signals significant investment and high-impact research in AI, neuroimaging, and precision medicine, driving demand for advanced computational hardware, specialized software, and neuroimaging consumables.",
+        "source_url": "https://engineering.vanderbilt.edu/2026/05/15/leading-researcher-in-brain-inspired-ai-and-neuroimaging-joins-vanderbilt-school-of-engineering/"
+      },
+      {
+        "summary": "Billy Hudson, Director of the Vanderbilt Center for Matrix Biology, received the 2026 Ellis Island Medal of Honor.",
+        "researcher_name": "Billy Hudson",
+        "department_or_lab": "Vanderbilt Center for Matrix Biology, Elliott V. Newman Professor of Medicine",
+        "award_or_discovery": "2026 Ellis Island Medal of Honor (major government honour)",
+        "significance": "Hudson was recognized for his pioneering contributions to matrix biology and transformative discoveries in type IV collagen research, which have fundamentally advanced the understanding of kidney disease.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This major national honor highlights high-impact research in matrix biology and kidney disease, indicating ongoing demand for specialized reagents, cell culture supplies, and analytical instruments for protein and tissue analysis.",
+        "source_url": "https://news.vumc.org/2026/05/22/billy-hudson-receives-2026-ellis-island-medal-of-honor/"
+      },
+      {
+        "summary": "Bradley Malin, Accenture Professor in the Department of Biomedical Informatics at Vanderbilt University, was elected as a 2025 AAAS Fellow.",
+        "researcher_name": "Bradley Malin",
+        "department_or_lab": "Department of Biomedical Informatics",
+        "award_or_discovery": "AAAS Fellow (major government honour)",
+        "significance": "Election as an AAAS Fellow recognizes Malin's distinguished contributions to the advancement of science, particularly in computing research and interdisciplinary innovation.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This prestigious fellowship signals high-level research activity in biomedical informatics and computational science, suggesting continued demand for advanced computing resources, data analytics software, and bioinformatics tools.",
+        "source_url": "https://cra.org/crn/2026/05/cra-congratulates-new-aaas-and-siam-fellows-and-aaas-members-2026/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:08:42.908937",
+  "ai_summary": "Vanderbilt University is experiencing significant growth with new faculty hires and substantial grants from NIH, NSF, DoD, DOE, and NASA. Research spans neuroscience, spatial omics, AI, cancer, and space technology. This expansion signals increased demand for lab supplies, reagents, and equipment across multiple disciplines, presenting excellent sales opportunities for new and ongoing projects."
+}

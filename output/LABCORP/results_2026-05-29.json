@@ -1,0 +1,152 @@
+{
+  "account": "LABCORP",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1DsYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Denton County is seeking a contractor to provide staff trained in the on-site collection of human urine specimens and testing of urine specimens for the presence of detectable drugs for its Community Supervision and Corrections Department.",
+        "contract_name": "Offender Specimen Collection & Drug Testing",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-11",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This RFP indicates an upcoming demand for drug testing reagents, consumables, and potentially related laboratory equipment for the awarded contractor, which could be Labcorp given their past similar contract with Denton County.",
+        "source_url": "https://www.highergov.com/sl/agency/denton-county-22322/"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Labcorp announced the availability of its expanded DPYD Genotyping test to help identify cancer patients who may be at increased risk for severe or life-threatening side effects from fluoropyrimidine chemotherapy.",
+        "product_or_program": "Expanded DPYD Genotyping test",
+        "stage": "Launch",
+        "therapeutic_or_application_area": "Oncology, pharmacogenomics, chemotherapy side effect risk assessment",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new test helps personalize cancer treatment by identifying patients at risk of severe side effects, indicating an upcoming demand for specialized reagents and consumables for pharmacogenomic testing in oncology.",
+        "source_url": "https://www.labcorp.com/education-events/press-releases/labcorp-launches-expanded-dpyd-test-identify-cancer-patients"
+      },
+      {
+        "summary": "Labcorp launched MyLabcorp, an AI-powered mobile application designed to integrate laboratory results with clinical context and health-tracking features for consumers.",
+        "product_or_program": "MyLabcorp (AI-powered mobile application)",
+        "stage": "Launch",
+        "therapeutic_or_application_area": "Consumer health, diagnostic data interpretation, health tracking",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The launch of MyLabcorp enhances the utility of diagnostic data for patients, potentially increasing engagement with Labcorp's testing services and driving demand for underlying lab tests and related supplies.",
+        "source_url": "https://clpmag.com/lab-management/company-news/labcorp-launches-ai-app-lab-results-interpretation/"
+      },
+      {
+        "summary": "Labcorp announced an expanded collaboration with Epic to make its full test menu available through Epic's Aura platform, aiming to reduce IT complexity, streamline lab ordering, and improve access to diagnostics for hospitals and health systems.",
+        "product_or_program": "Expanded integration of Labcorp's full test menu with Epic's Aura platform",
+        "stage": "Collaboration/Integration Expansion",
+        "therapeutic_or_application_area": "Diagnostic services access, healthcare IT integration",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This expanded integration is expected to increase the ordering of Labcorp's entire test menu by Epic-using health systems, which will likely lead to a broader demand for a wide range of lab supplies, reagents, and consumables.",
+        "source_url": "https://www.medtechdive.com/news/labcorp-expands-epic-pact-to-make-full-test-menu-available-on-aura/820204/"
+      },
+      {
+        "summary": "Labcorp's Q1 2026 earnings report highlighted the nationwide availability of the FDA-approved companion diagnostic for identifying patients with platinum-resistant ovarian cancer who may benefit from Merck's KEYTRUDA\u00ae, and the launch of the FDA-cleared Labcorp Fentanyl Visual Urine Test.",
+        "product_or_program": "FDA-approved companion diagnostic for platinum-resistant ovarian cancer (KEYTRUDA\u00ae); FDA-cleared Labcorp Fentanyl Visual Urine Test",
+        "stage": "Launch",
+        "therapeutic_or_application_area": "Oncology (ovarian cancer, companion diagnostics); Toxicology/Drug Screening (fentanyl detection)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "These recent diagnostic launches indicate new testing capabilities that will require specific reagents, consumables, and potentially equipment for both advanced oncology and rapid toxicology screening.",
+        "source_url": "https://ir.labcorp.com/news-releases/news-release-details/labcorp-announces-2026-first-quarter-results-raises-full-year"
+      },
+      {
+        "summary": "GENFIT reported that Labcorp is expected to commercially launch NASHnext\u00ae, a Laboratory Developed Test (LDT) for Metabolic dysfunction-Associated SteatoHepatitis (MASH), in the coming weeks.",
+        "product_or_program": "NASHnext\u00ae (LDT for Metabolic dysfunction-Associated SteatoHepatitis (MASH))",
+        "stage": "Upcoming Commercial Launch",
+        "therapeutic_or_application_area": "Metabolic dysfunction-Associated SteatoHepatitis (MASH) diagnostics",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The impending commercial launch of NASHnext\u00ae by Labcorp signals a new area of diagnostic testing, creating an upcoming demand for specific reagents, consumables, and potentially equipment related to MASH diagnostics.",
+        "source_url": "https://markets.businessinsider.com/news/stocks/genfit-reports-first-quarter-2026-financial-information-and-provides-a-corporate-update-1036184415"
+      },
+      {
+        "summary": "Onconetix (ONCO) anticipates marketing Proclarix\u00ae, an in vitro diagnostic test for prostate cancer, in the U.S. as a lab developed test (LDT) through its license agreement with Labcorp.",
+        "product_or_program": "Proclarix\u00ae (LDT for prostate cancer)",
+        "stage": "Anticipated U.S. Marketing as LDT",
+        "therapeutic_or_application_area": "Oncology (prostate cancer diagnostics)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The anticipated marketing of Proclarix\u00ae as an LDT by Labcorp indicates a future demand for supplies and reagents associated with advanced prostate cancer diagnostics.",
+        "source_url": "https://www.stocktitan.net/news/ONCO/realbotix-provides-update-on-nasdaq-654lttj6586r.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Labcorp and Children's Hospital of Philadelphia (CHOP) announced a strategic collaboration to accelerate the development and commercialization of specialized pediatric diagnostics and build a joint innovation pipeline.",
+        "partner": "Children's Hospital of Philadelphia (CHOP)",
+        "deal_type": "Co-development agreement / Reference lab service partnership",
+        "deal_value": "Named program component: \"joint innovation pipeline designed to move new assays from discovery to nationwide availability\" and focus on \"key growth areas including oncology, metabolic disease, autoimmune disorders, and rare diseases\".",
+        "event_date": "2026-04-17",
+        "why_it_matters": "This collaboration signals new and expanded lab activity in pediatric diagnostics, including the development and commercialization of specialized assays and a joint innovation pipeline.",
+        "source_url": "https://www.darkdaily.com/2026/04/17/labcorp-and-chop-launch-pediatric-diagnostics-partnership-to-expand-advanced-testing-and-drive-clinical-lab-growth/"
+      },
+      {
+        "summary": "Labcorp announced an expanded collaboration with Epic to make its full test menu available through Epic's Aura platform, aiming to reduce IT complexity, streamline lab ordering, and improve access to diagnostic innovation for hospitals and health systems.",
+        "partner": "Epic",
+        "deal_type": "Diagnostic platform licensing deal",
+        "deal_value": "Named program component: \"full test menu available through Epic's Aura platform\" and \"accelerates access to the latest genetic and specialty diagnostics through Aura\".",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This expanded collaboration signals increased integration of Labcorp's diagnostic services within healthcare systems, potentially leading to higher test volumes and demand for lab supplies.",
+        "source_url": "https://www.darkdaily.com/2026/04/17/labcorp-and-chop-launch-pediatric-diagnostics-partnership-to-expand-advanced-testing-and-drive-clinical-lab-growth/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Labcorp is serving as the exclusive genetic testing provider for a national, multicenter colorectal cancer trial sponsored by the National Cancer Institute (NCI) and led by the Alliance for Clinical Trials in Oncology. The study evaluates strategies to expand germline and multigene panel testing for newly diagnosed patients and their at-risk relatives across the United States, including Puerto Rico.",
+        "project_name": "Multi-Institution Trial to Expand Genetic Testing in Colorectal Cancer",
+        "scope": "National, multicenter trial for colorectal cancer genetic testing, including germline and multigene panel testing.",
+        "timeline": "Ongoing, with patient enrollment expected nationwide.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This program indicates an increased demand for genetic testing reagents, consumables, and potentially new or expanded instrument usage for genetic sequencing and analysis to support the trial's testing needs.",
+        "source_url": "https://www.stocktitan.net/news/LH/labcorp-supports-multi-institution-trial-to-expand-genetic-testing-z96hvdd0coob.html"
+      },
+      {
+        "summary": "Labcorp announced an expanded collaboration with Epic, making Labcorp's full test menu available through Epic's Aura platform. This integration aims to drive operational efficiencies, streamline lab ordering for clinicians, and improve access to diagnostic innovation for hospitals and health systems using Epic nationwide.",
+        "project_name": "Expanded Collaboration with Epic for Diagnostic Integration",
+        "scope": "Integration of Labcorp's full test menu into Epic's Aura platform for hospitals and health systems nationwide.",
+        "timeline": "Ongoing, building on existing integration of Invitae genetic tests.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This expanded collaboration will likely lead to increased test volumes for Labcorp, driving demand for a wide range of lab supplies, reagents, and consumables across their entire test menu, and potentially new instrument placements or increased utilization of existing equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/labcorp-and-epic-expand-collaboration-to-advance-diagnostic-integration-across-hospitals-and-health-systems-302768704.html"
+      },
+      {
+        "summary": "Labcorp launched its expanded DPYD Genotyping test to help identify cancer patients who may be at increased risk for severe or life-threatening side effects from fluoropyrimidine chemotherapy. The test now offers genotype testing for all DPYD Tier 1 and Tier 2 variants recommended by the Association for Molecular Pathology (AMP).",
+        "project_name": "Expanded DPYD Genotyping Test",
+        "scope": "Pharmacogenomic testing to identify cancer patients at risk for severe chemotherapy side effects, covering all DPYD Tier 1 and Tier 2 variants.",
+        "timeline": "Newly available as of May 28, 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new, expanded test will increase demand for specific reagents, consumables, and potentially specialized equipment for pharmacogenomic testing within Labcorp's oncology portfolio.",
+        "source_url": "https://www.prnewswire.com/news-releases/labcorp-launches-expanded-dpyd-test-to-identify-cancer-patients-at-risk-for-severe-chemotherapy-side-effects-302783766.html"
+      },
+      {
+        "summary": "Labcorp and Children's Hospital of Philadelphia (CHOP) announced a strategic collaboration to accelerate the development and nationwide availability of specialized pediatric diagnostics. The initiative focuses on expanding access to advanced pediatric testing in areas including oncology, metabolic disease, autoimmune disorders, and rare disease.",
+        "project_name": "Partnership with CHOP for Pediatric Diagnostics",
+        "scope": "Accelerating development and nationwide availability of specialized pediatric diagnostics in oncology, metabolic disease, autoimmune disorders, and rare disease.",
+        "timeline": "Announced last month (April 2026), with the N-glycan assay expected to launch within Labcorp's testing infrastructure later this year.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This partnership will drive demand for reagents, consumables, and specialized equipment for pediatric diagnostic testing, particularly in complex and rare disease areas, and suggests future supply needs for new assay development and commercialization.",
+        "source_url": "https://www.clinicallab.com/labcorp-chop-partner-to-expand-access-to-pediatric-diagnostics-nationwide-28643"
+      }
+    ],
+    "regulatory": [],
+    "volume": [
+      {
+        "summary": "Labcorp announced the availability of its expanded DPYD Genotyping test to help identify cancer patients who may be at increased risk for severe or life-threatening side effects from fluoropyrimidine chemotherapy.",
+        "test_or_product_line": "DPYD Genotyping test (pharmacogenomics, oncology)",
+        "volume_change": "Expanded to include all DPYD Tier 1 and Tier 2 variants recommended by the Association for Molecular Pathology (AMP).",
+        "driver": "New diagnostic test codes / expanded test menu",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Higher test volume for DPYD genotyping directly increases demand for reagents, consumables, and potentially specialized equipment used in molecular diagnostics.",
+        "source_url": "https://www.prnewswire.com/news-releases/labcorp-launches-expanded-dpyd-test-to-identify-cancer-patients-at-risk-for-severe-chemotherapy-side-effects-302783766.html"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:31:08.657262",
+  "ai_summary": "Labcorp is significantly expanding its diagnostic test menu, launching new oncology, pediatric, and drug testing assays, including DPYD, Fentanyl, and MASH LDTs. Strategic partnerships with Epic and CHOP are enhancing access and streamlining ordering. This aggressive growth across diverse testing areas signals increased demand for specialized reagents, consumables, and potentially new instrumentation for lab supply sales teams."
+}

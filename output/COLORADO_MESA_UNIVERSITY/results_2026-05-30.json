@@ -1,0 +1,28 @@
+{
+  "account": "COLORADO MESA UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DTYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Prime Health+ utilized New Markets Tax Credit (NMTC) funding to establish a flagship facility in a Medically Underserved Area of Grand Junction, Colorado. This new headquarters will offer pharmacy, dental, and medical training for 80 Colorado Mesa University students, and will also expand primary care, dental, and behavioral health services to serve an additional 4,000 patients annually.",
+        "location": "Grand Junction, Colorado",
+        "type_of_expansion": "new facility, capacity expansion",
+        "investment_value": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new facility for pharmacy, dental, and medical training for 80 CMU students indicates a significant increase in demand for lab supplies, reagents, and consumables for healthcare education and services.",
+        "source_url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/investing-in-rural-healthcare-with-nmtc-equity"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:22:31.252233+00:00",
+  "ai_summary": "Colorado Mesa University students will gain new pharmacy, dental, and medical training opportunities at Prime Health+'s new Grand Junction facility. This expansion is crucial for lab supply sales teams, as these emerging programs will require significant investment in new lab equipment, consumables, and reagents for both educational and clinical training environments. Engaging early can secure these new supply needs."
+}

@@ -1,0 +1,90 @@
+{
+  "account": "INDIANA UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkesYAC",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Laboratory Animal Resource Center (LARC) at Indiana University (IU) School of Medicine is seeking a Facility Supervisor (Laboratory Animal Leader) who will be responsible for supervising the procurement of laboratory animals for research projects from outside vendors and institutions, and managing and overseeing procurement and inventory control of all equipment, feed, bedding, and husbandry supplies.",
+        "contract_name": "Laboratory Animal Resource Center Procurement Leadership",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The hiring of a new Facility Supervisor for the Laboratory Animal Resource Center at Indiana University School of Medicine indicates upcoming and ongoing procurement needs for laboratory animals, equipment, feed, bedding, and husbandry supplies, presenting a sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.higheredjobs.com/region/details.cfm?JobCode=179455575&Title=Facility%20Supervisor%20(Laboratory%20Animal%20Leader)"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Research from IU School of Medicine suggests that Type 1 diabetes may be triggered by early failures in the stress responses of insulin-producing beta cells, occurring before the immune system attacks.",
+        "researcher_name": "IU School of Medicine researchers",
+        "department_or_lab": "IU School of Medicine",
+        "award_or_discovery": "Discovery regarding Type 1 diabetes pathogenesis",
+        "significance": "Identifies a potential new understanding of the onset of Type 1 diabetes, focusing on beta cell stress responses.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This discovery signals increased research activity in diabetes, immunology, and cell biology, likely driving demand for specialized reagents, cell culture media, and analytical equipment.",
+        "source_url": "https://medicine.iu.edu/news/all-news"
+      },
+      {
+        "summary": "IU researcher Natalie Hipple's groundbreaking research offers police departments a practical framework for responding to homelessness.",
+        "researcher_name": "Natalie Hipple",
+        "department_or_lab": "Criminal Justice Department (implied)",
+        "award_or_discovery": "Groundbreaking research on police responses to homelessness",
+        "significance": "Provides law enforcement agencies with a practical framework for addressing homelessness.",
+        "event_date": "2026-04-25",
+        "why_it_matters": "This research, while not directly lab-based, indicates high-impact social science research that could lead to policy changes and further studies requiring data analysis tools and social science research resources.",
+        "source_url": "https://one.oneill.indiana.edu/news-events/news-newsroom.html"
+      },
+      {
+        "summary": "A new study from Indiana University reveals that Neanderthal brains were more similar to modern human brains than previously thought.",
+        "researcher_name": "IU College of Arts + Sciences researchers",
+        "department_or_lab": "IU College of Arts + Sciences",
+        "award_or_discovery": "Discovery regarding Neanderthal brain structure",
+        "significance": "Expands understanding of human evolution and the cognitive capabilities of Neanderthals.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This discovery signals ongoing high-impact research in anthropology, neuroscience, and evolutionary biology, potentially increasing demand for imaging equipment, genetic analysis tools, and comparative anatomy supplies.",
+        "source_url": "https://college.indiana.edu/news-events/faculty-news/index.html"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "U.S. Department of Agriculture (USDA) activity led to the shutdown of Professor Roger Innes's biology lab and several connected labs at Indiana University's Myers Hall, halting ongoing experiments and restricting access for researchers.",
+        "facility_or_programme": "Roger Innes's biology lab and adjacent labs in Myers Hall, Indiana University",
+        "closure_type": "Lab shutdown/lockout",
+        "effective_date": "2026-05-07",
+        "reason": "USDA investigation related to alleged smuggling of biological materials by a postdoctoral researcher and Professor Innes's defense of Chinese scientists; issues with expired/missing permits for some materials.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This shutdown indicates a potential immediate need for replacement lab supplies, reagents, and possibly equipment due to halted experiments and destruction of some materials, presenting a competitive displacement opportunity for Thomas Scientific.",
+        "source_url": "https://www.idsnews.com/article/2026/05/some-iu-biology-labs-shut-down-by-usda-following-year-of-federal-scrutiny"
+      },
+      {
+        "summary": "Indiana University partially restored access to several biology labs previously locked down due to a USDA inspection, but offices, equipment, and freezers used by other researchers remained off-limits, leading to the unexpected termination of some grant-funded projects.",
+        "facility_or_programme": "Multiple biology labs in Myers Hall, Indiana University, and associated grant-funded research projects",
+        "closure_type": "Partial lab shutdown/hindrance of research, program termination (of grant-funded projects)",
+        "effective_date": "2026-05-07",
+        "reason": "Ongoing restrictions and inaccessibility of reagents and equipment following USDA inspection and temporary barriers around Professor Innes's lab.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The termination of grant-funded projects and continued disruption signify a potential long-term churn risk for existing supply contracts and an opportunity for Thomas Scientific to provide solutions for new or re-scoped projects.",
+        "source_url": "https://www.indianapublicmedia.org/news/some-access-restored-to-biology-labs-but-research-still-hindered.php"
+      },
+      {
+        "summary": "The USDA concluded its investigation into Professor Roger Innes's lab at Indiana University, finding minor permit issues and requiring the destruction of some materials, but ultimately reopening the lab.",
+        "facility_or_programme": "Roger Innes's biology lab in Myers Hall, Indiana University",
+        "closure_type": "Investigation concluded, lab reopened (implies previous closure)",
+        "effective_date": "2026-05-19",
+        "reason": "Conclusion of USDA investigation into permit compliance and biological materials.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The reopening of the lab presents an opportunity for Thomas Scientific to re-engage with the lab for restocking destroyed materials and ongoing supply needs, potentially displacing competitors who may have stepped in during the shutdown.",
+        "source_url": "https://www.indianapublicmedia.org/news/usda-finishes-iu-investigation-innes-lab-reopens.php"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T06:32:59.808414",
+  "ai_summary": "Indiana University's School of Medicine is driving demand for specialized lab supplies with breakthrough Type 1 diabetes research. The Laboratory Animal Resource Center is actively hiring a supervisor to manage procurement of animals, equipment, and husbandry supplies. Recent USDA lab closures and subsequent reopenings indicate dynamic research activity, creating opportunities for sales teams to address ongoing project needs and compliance-related supply requirements."
+}

@@ -29,8 +29,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy source — single main.py entrypoint, sink abstraction, shared modules
-COPY main.py storage.py engine.py accounts.py accounts_sql.py prompts.py export_csv.py analyze_dedup.py backfill_results.py test_sql_connection.py test_gemini_api.py ./
+# Copy source — root entrypoint plus the role-based packages.
+# tests/ is intentionally excluded from the image.
+COPY main.py ./
+COPY market_intel/ ./market_intel/
+COPY tools/ ./tools/
+COPY diagnostics/ ./diagnostics/
 
 # Default environment values (override via --env or .env file)
 ENV GEMINI_MODEL=gemini-2.5-flash

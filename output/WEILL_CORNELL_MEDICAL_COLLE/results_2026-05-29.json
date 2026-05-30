@@ -1,0 +1,109 @@
+{
+  "account": "WEILL CORNELL MEDICAL COLLE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "0011M00002eYc6HQAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Weill Cornell Medicine received a five-year, $5 million grant from the National Cancer Institute (part of the National Institutes of Health) to develop innovative support strategies for adolescent and young adult (AYA) cancer survivors. The research, led by Dr. Shoshana Rosenberg, associate professor of population health sciences, aims to build a cohort of 2,000 AYA cancer survivors in New York City to characterize the short- and long-term effects of newer drugs, including biological treatments and immunotherapies, and to inform new avenues for support, including a novel mobile app for data collection and patient engagement.",
+        "recipient": "Dr. Shoshana Rosenberg",
+        "department_or_lab": "Population Health Sciences",
+        "amount": "$5 million",
+        "agency": "National Cancer Institute (part of NIH)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This grant indicates a significant increase in research activity focused on cancer survivorship, immunotherapies, and digital health tools, suggesting upcoming demand for lab supplies, reagents for biological treatments, and potentially equipment for mobile health data integration.",
+        "source_url": "https://gradschool.weill.cornell.edu/news/grant-aims-transform-care-young-cancer-survivors"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "A job posting for an Administrative Assistant at Weill Cornell Medicine includes responsibilities for procurement activities related to goods, services, and equipment, as well as maintaining inventory and ordering supplies, equipment, and reagents.",
+        "contract_name": null,
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates ongoing demand for lab supplies, equipment, and reagents at Weill Cornell Medicine, presenting continuous sales opportunities for Thomas Scientific.",
+        "source_url": "https://careers.weill.cornell.edu/job/administrative-assistant-new-york-ny-for-weill-cornell-medicine/"
+      },
+      {
+        "summary": "NewYork-Presbyterian (Weill Cornell Medical Center) is seeking a Specialist Logistics Biomedical whose responsibilities include the specification, acquisition, and installation of medical technology, managing equipment acquisition, and obtaining competitive pricing for equipment.",
+        "contract_name": null,
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This signals upcoming demand for scientific equipment and medical technology, with an explicit need for competitive pricing, creating opportunities for Thomas Scientific to bid on equipment supply.",
+        "source_url": "https://careers.nyp.org/job/specialist-logistics-biomedical-at-newyork-presbyterian/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Weill Cornell Medicine received a five-year, $5 million grant from the National Cancer Institute to develop innovative support strategies for adolescent and young adult cancer survivors, which includes building and engaging a cohort of 2,000 individuals in New York City to characterize the short- and long-term effects of newer drugs, including biological treatments and immunotherapies.",
+        "location": "New York City, NY, USA",
+        "type_of_expansion": "Capacity Expansion",
+        "investment_value": 5000000,
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new research initiative will drive demand for lab supplies, reagents, and consumables for studying drug effects and health data in a large cohort of cancer survivors.",
+        "source_url": "https://news.weill.cornell.edu/news?page=212"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Weill Cornell Medicine investigators made an unexpected finding about how the immune system normally suppresses inappropriate chronic inflammation in the intestine, potentially opening new avenues for therapies against inflammatory bowel disease (IBD), food allergy, and other autoimmune conditions. This is described as a \"paradigm-shifting discovery\" by the study's senior author.",
+        "researcher_name": "Gregory Sonnenberg, Mengze Lyu",
+        "department_or_lab": "Division of Gastroenterology & Hepatology and the Jill Roberts Institute for Research in Inflammatory Bowel Disease, Sonnenberg Laboratory",
+        "award_or_discovery": "Discovery of immune tolerance switch for IBD treatments",
+        "significance": "This \"paradigm-shifting discovery\" could lead to new treatment approaches for chronic inflammatory disorders of the intestine by understanding how the immune system suppresses inflammation.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in immunology and gastroenterology, likely increasing demand for reagents, cell culture supplies, and specialized equipment for immune cell analysis and IBD research.",
+        "source_url": "https://news.cornell.edu/stories/2026/04/discovery-immune-tolerance-switch-could-yield-better-ibd-treatments"
+      },
+      {
+        "summary": "A new preclinical study co-led by researchers at Weill Cornell Medicine and The University of Texas MD Anderson Cancer Center has uncovered genetic and cell-state adaptive mechanisms that drive resistance to KRAS inhibitors in patients with KRAS-mutant colorectal cancer.",
+        "researcher_name": "Kevan Chu, Lukas Dow",
+        "department_or_lab": "Weill Cornell Medicine (Kevan Chu is a graduate student, Lukas Dow is a professor of medicine)",
+        "award_or_discovery": "Identification of drivers of resistance to KRAS inhibitors in colorectal cancer",
+        "significance": "These findings suggest that targeting early inflammatory responses by adding TBK1 blockade with KRAS inhibition may be a promising combination strategy to overcome treatment resistance in colorectal cancer.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This discovery indicates active research in oncology and drug resistance, potentially increasing demand for cell line reagents, genetic sequencing tools, and drug screening consumables.",
+        "source_url": "https://www.mdanderson.org/newsroom/research-newsroom/researchers-identify-drivers-of-resistance-to-kras-inhibitors-in-colorectal-cancer.h00-159855345.html"
+      },
+      {
+        "summary": "Weill Cornell Medicine received a five-year, $5 million grant from the National Cancer Institute, part of the National Institutes of Health, to develop innovative support strategies for an understudied group of cancer patients: adolescents and young adults (AYAs).",
+        "researcher_name": "Shoshana Rosenberg",
+        "department_or_lab": "Population Health Sciences",
+        "award_or_discovery": "$5 million grant from the National Cancer Institute for AYA cancer survivorship research",
+        "significance": "This significant grant will fund research to characterize the short- and long-term effects of newer drugs, including biological treatments and immunotherapies, and to develop supportive care strategies, including a novel mobile app.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A significant grant of this magnitude signals sustained, high-level research activity in cancer survivorship, population health, and digital health, likely driving demand for data analysis tools, patient-reported outcome measures, and potentially biological sample collection kits for biomarker studies.",
+        "source_url": "https://news.weill.cornell.edu/news/2026/05/grant-aims-to-transform-care-for-young-cancer-survivors"
+      },
+      {
+        "summary": "Jihye Kim, MD, Weill Cornell Medicine, received an award from the Deeda Blair Research Initiative for Disorders of the Brain for her proposal to use insights into neurotrophic signaling to discover novel psychiatric medications that directly target rigid thinking and poor impulse control.",
+        "researcher_name": "Jihye Kim",
+        "department_or_lab": "Weill Cornell Medicine",
+        "award_or_discovery": "Deeda Blair Research Initiative for Disorders of the Brain award for discovering novel psychiatric medications",
+        "significance": "This award supports bold research with the potential to transform the diagnosis and treatment of severe mental illness and accelerate the discovery of new ideas and solutions, utilizing an AI-based algorithm for compound discovery.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This award signals high-impact research in neuropharmacology and psychiatric drug discovery, suggesting increased demand for neuroscience reagents, drug screening platforms, and potentially AI-driven computational resources.",
+        "source_url": "https://www.businesswire.com/news/home/20260519623005/en/The-Foundation-for-the-National-Institutes-of-Health-Announces-Recipients-of-the-Deeda-Blair-Research-Initiative-for-Disorders-of-the-Brain"
+      },
+      {
+        "summary": "A preclinical study involving researchers from Weill Cornell Medical College identified lysosomal ferrous iron accumulation as a universal hallmark of therapy-induced senescence and demonstrated that ferroptosis induction functions as an effective senolytic strategy.",
+        "researcher_name": "Yuanhui Liu",
+        "department_or_lab": "Department of Medicine, Weill Cornell Medical College",
+        "award_or_discovery": "Discovery of ferrous iron accumulation as a hallmark and therapeutic vulnerability of therapy-induced senescence",
+        "significance": "These findings provide mechanistic and translational support for a \"one-two punch\" therapeutic paradigm, offering a new strategy to target senescent tumor cells that can drive cancer recurrence.",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This discovery in cancer biology and aging research suggests increased demand for reagents for senescence detection, iron metabolism studies, and compounds for inducing ferroptosis.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726695v1"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:10:24.582646",
+  "ai_summary": "Weill Cornell Medicine is expanding research, driven by a new $5M NCI grant for cancer survivor studies and breakthroughs in immunology, oncology, and neuroscience. Active hiring for procurement roles managing supplies, reagents, and equipment signals increased demand. This growth presents significant opportunities for lab supply sales teams to engage and support diverse, cutting-edge projects requiring specialized consumables and instrumentation."
+}

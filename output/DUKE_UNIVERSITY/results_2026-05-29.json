@@ -1,0 +1,85 @@
+{
+  "account": "DUKE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BcYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dr. Noelle Younge, a research faculty member in Duke's Department of Pediatrics, received a five-year NIH grant for her proposal, \"Mechanisms of microbial regulation of postnatal growth and lipid metabolism.\"",
+        "recipient": "Dr. Noelle Younge",
+        "department_or_lab": "Department of Pediatrics, Duke Microbiome Center",
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This grant indicates potential demand for microbiology supplies, reagents for studying microbial regulation, and equipment for metabolism research, especially in a pediatric context.",
+        "source_url": "https://sites.duke.edu/microbiome/2026/04/29/dr-noelle-younge-receives-5-year-nih-grant-to-study-microbial-regulation-among-newborns/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Duke University is planning to build a new $23 million, 1.5-megawatt data center (expandable to 3 megawatts) on 12 acres on Central Campus in Durham, N.C., which will provide computing power for university researchers and aims to be a model for energy-efficient, carbon emission-aware infrastructure.",
+        "location": "Durham, N.C.",
+        "type_of_expansion": "New dedicated facility (data center supporting research)",
+        "investment_value": "$23 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new research-focused data center will require new IT infrastructure, cooling systems, and potentially specialized lab equipment for environmental impact studies.",
+        "source_url": "https://insideclimatenews.org/news/21052026/duke-university-durham-data-center/"
+      },
+      {
+        "summary": "AbbVie is creating 734 new jobs and investing $1.4 billion in a new pharmaceutical manufacturing campus in Durham, North Carolina, with the first phase including small volume parenteral (SVP) drug product manufacturing facilities, next-generation laboratories, a warehouse, administrative offices, and employee wellness facilities.",
+        "location": "Durham, North Carolina",
+        "type_of_expansion": "New dedicated facility (pharmaceutical manufacturing campus with laboratories)",
+        "investment_value": "$1.4 billion",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This significant new pharmaceutical manufacturing campus with laboratories will require a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.sedc.org/news/abbvie-creating-over-700-new-jobs-investing-14b-in-new-north-carolina-facility"
+      },
+      {
+        "summary": "Novartis Gene Therapies plans to expand its existing Durham facility and open two new facilities in Morrisville, North Carolina, with an investment of over $200 million and creating 100 new jobs in Morrisville, including a 56,000-square-foot facility and upfitting an additional 200,000 square feet.",
+        "location": "Durham and Morrisville, North Carolina",
+        "type_of_expansion": "Capacity expansion (existing Durham facility) and new dedicated facilities (two in Morrisville) with laboratories",
+        "investment_value": "Over $200 million",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This substantial expansion of pharmaceutical manufacturing and research capabilities will drive increased demand for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://indyweek.com/news/morrisville-is-considering-making-it-easier-for-companies-to-get-tax-breaks/"
+      },
+      {
+        "summary": "Avalo, a Duke University spin-out, raised $11 million in Series A funding and is expanding its footprint in Texas and operations in Australia, utilizing 10,000 square feet of greenhouse space across Research Triangle Park, Duke, and NC State for its agricultural research and commercial programs.",
+        "location": "Texas, Australia (new market entry/expansion), and Research Triangle Park/Duke/NC State (continued operations)",
+        "type_of_expansion": "New country/region market entry and capacity expansion (commercial programs, footprint) for agricultural biotech research",
+        "investment_value": "$11 million",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This expansion of an agricultural biotech company with research operations will drive demand for specialized lab equipment, reagents, and consumables for plant science and genetic sequencing.",
+        "source_url": "https://today.duke.edu/2026/05/how-biologist-reimagining-agriculture"
+      },
+      {
+        "summary": "Roke Biotechnologies of Durham and Duke University are co-leading a project to develop \"Low-Cost Nanobody-Based Growth Factor Replacements,\" which is part of BioMADE's $11.6 million federal funding and $4.8 million non-federal cost-share for six technology and innovation projects.",
+        "location": "Durham (Roke Biotechnologies and Duke University)",
+        "type_of_expansion": "Research and manufacturing methods development (innovation grant)",
+        "investment_value": "Part of $11.6 million federal funding and $4.8 million non-federal cost-share for six projects",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This grant for developing low-cost manufacturing methods for nanobody-based growth factor replacements indicates new research and development activities that will require specialized reagents, lab consumables, and potentially biomanufacturing equipment.",
+        "source_url": "https://www.ncbiotech.org/news/uncg-receives-2m-grow-biomanufacturing-workforce"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Center for Innovation in Risk, Catastrophes, and Decisions (CIRCAD), a National Science Foundation Industry\u2013University Cooperative Research Center (IUCRC) co-led by Duke University, launched its inaugural research portfolio.",
+        "project_name": "Center for Innovation in Risk, Catastrophes, and Decisions (CIRCAD) Inaugural Research Portfolio",
+        "scope": "Interdisciplinary research on climate risk and resilience, including four initial projects: Incentive Dynamics in Climate Resilience Systems: Insurance, Public Infrastructure, and Private Adaptation; Climate-Driven Aging, Dynamic Vulnerability, and Economic Network Cost Evaluation; Framing Environmental Risk: Modeling the Process of Climate-Contingent Investment; and High-Resolution Weather Risk Assessment for Seasonal to Decadal Planning. It involves researchers from Duke University and the University of Georgia, with academic, industry, and government partners.",
+        "timeline": "The launch of the inaugural research portfolio implies ongoing multi-year research, typical for a National Science Foundation Industry\u2013University Cooperative Research Center (IUCRC).",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This initiative will drive demand for scientific equipment, lab supplies, and reagents related to climate modeling, environmental analysis, data science, and risk assessment research.",
+        "source_url": "https://circad.org/news/504"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:29:23.857641",
+  "ai_summary": "Duke University is experiencing research expansion, including new grants in pediatrics and agricultural research via a spin-out. Crucially, the surrounding Durham area is seeing massive biotech growth, with AbbVie and Novartis investing billions in new manufacturing and lab facilities. This significant increase in research activity and lab space, both at Duke and regionally, presents a substantial and growing opportunity for lab supply sales."
+}

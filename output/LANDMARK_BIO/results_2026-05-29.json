@@ -1,0 +1,157 @@
+{
+  "account": "LANDMARK BIO",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "0018Y00002lgHQeQAM",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [
+      {
+        "summary": "Unilever is building a $270 million global innovation center in New Haven, Connecticut, which will serve as a leading hub for research and development in personal care, beauty, and wellbeing, creating at least 300 new jobs.",
+        "location": "New Haven, Connecticut, USA",
+        "type_of_expansion": "new research facility",
+        "investment_value": "$270 million",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new large-scale research and development center will create substantial demand for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://longisland.news12.com/unilever-announces-plans-for-new-research-facility-in-new-haven"
+      },
+      {
+        "summary": "The Massachusetts Institute of Technology (MIT) is launching the Quantum Systems Laboratory (QSL) in Cambridge with a $25 million state investment, projected to create over 220 permanent jobs.",
+        "location": "Cambridge, Massachusetts, USA",
+        "type_of_expansion": "new research facility",
+        "investment_value": "$25 million",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new quantum research lab will generate demand for specialized scientific equipment, lab supplies, and consumables.",
+        "source_url": "https://www.wgbh.org/news/education-news/2026-05-28/massachusetts-makes-25m-bet-on-quantum-research-lab-at-mit"
+      },
+      {
+        "summary": "A $135 million project has been approved for the construction of a new Advanced Materials Research Laboratory at Wright-Patterson Air Force Base.",
+        "location": "Wright-Patterson Air Force Base, Ohio, USA",
+        "type_of_expansion": "new research facility",
+        "investment_value": "$135 million",
+        "event_date": "2026-04-30",
+        "why_it_matters": "A new advanced materials research laboratory will require a wide range of lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://turner.house.gov/media-center/press-releases/turner-secures-first-round-of-funding-for-135m-new-advanced-materials-research-laboratory-at-wright-patterson-air-force-base"
+      },
+      {
+        "summary": "The United States Department of Agriculture's (USDA) Agricultural Research Service (ARS) opened the Knipling-Bushland U.S. Livestock Insects Research Laboratory, a new 52,000-square-foot state-of-the-art facility.",
+        "location": "Kerrville, Texas, USA",
+        "type_of_expansion": "new research facility",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "A new large-scale research laboratory will require a broad range of lab supplies, reagents, and scientific equipment for entomological and genomics research.",
+        "source_url": "https://www.usda.gov/about-usda/news/press-releases/2026/05/27/usda-opens-state-art-livestock-insects-research-laboratory-combat-livestock-pests"
+      },
+      {
+        "summary": "Medix Biochemica announced a $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its facilities in Espoo, Finland, and St. Louis, Missouri, including facility expansion, new analytical instrumentation, and at least 10 specialized hires.",
+        "location": "Espoo, Finland and St. Louis, Missouri, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Expansion of recombinant antigen and cell culture capabilities will drive demand for cell culture media, reagents, and analytical lab equipment.",
+        "source_url": "https://longisland.news12.com/unilever-announces-plans-for-new-research-facility-in-new-haven"
+      },
+      {
+        "summary": "Illinois Institute of Technology (IIT) received $5 million in state funding for the continued development of a biomedical business incubator and laboratories, part of an overall $35 million complex.",
+        "location": "Chicago, Illinois, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-23",
+        "why_it_matters": "New biomedical labs and incubator space will require a wide array of lab supplies, reagents, and scientific equipment for various biotech startups.",
+        "source_url": "https://iit.edu/news/iit-awarded-5m-biomedical-complex"
+      },
+      {
+        "summary": "Worcester Polytechnic Institute (WPI) received $5 million to launch the Central Massachusetts Climatetech Hub Incubator, which includes expanding and renovating industrial lab space for seven research suites.",
+        "location": "Worcester, Massachusetts, USA",
+        "type_of_expansion": "new research incubator",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "A new climate technology incubator with research suites will require lab supplies, specialized equipment for environmental analysis, and consumables.",
+        "source_url": "https://wbjournal.com/article/wpi-receives-5m-to-start-climate-technology-incubator/"
+      },
+      {
+        "summary": "The federal government is spending $5 million to fund an Ontario Tech University project that expands a research and testing lab in Oshawa for defence-sector technology.",
+        "location": "Oshawa, Ontario, Canada",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Expansion of a research and testing lab will increase demand for various lab supplies, testing equipment, and consumables.",
+        "source_url": "https://www.cbc.ca/news/canada/toronto/federal-government-funding-ace-ontario-tech-university-9.7205048"
+      },
+      {
+        "summary": "Herat health authorities procured nearly $5 million worth of advanced laboratory equipment to strengthen the province's Medicine and Food Laboratory, enhancing quality testing standards.",
+        "location": "Herat City, Herat Province, Afghanistan",
+        "type_of_expansion": "capacity upgrade",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Upgrading a food and drug lab with advanced equipment will lead to increased demand for reagents, consumables, and maintenance for new instrumentation.",
+        "source_url": "https://pajhwok.com/2026/05/07/5m-investment-upgrades-food-drug-lab-in-herat/"
+      },
+      {
+        "summary": "Sapho Bio, a biotechnology company, secured $5 million in funding to accelerate its rapid microbiology release platform for precision medicine, including a rapid sterility testing service and a sterility testing kit in development.",
+        "location": "San Carlos, California, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": "$5 million",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Expansion of a rapid sterility testing platform will increase demand for microbiology media, reagents, and testing consumables.",
+        "source_url": "https://www.biospace.com/press-releases/sapho-bio-secures-5m-advances-rapid-sterility-testing-through-usp-1223-validation"
+      },
+      {
+        "summary": "Imperagen, a UK-based biotech startup, raised $5 million in seed funding to expand its AI-driven enzyme engineering research capabilities and laboratory infrastructure.",
+        "location": "Manchester, UK",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Expansion of biotech research capabilities and lab infrastructure will create demand for specialized reagents, enzymes, and lab equipment.",
+        "source_url": "https://news.fundsforngos.org/2026/05/21/manchester-based-imperagen-gains-5m-investment-to-accelerate-ai-driven-biotech-and-enzyme-innovation/"
+      },
+      {
+        "summary": "CS Analytical Laboratory finalized plans to double the current laboratory space for its Clifton, New Jersey facility, which specializes in package and container testing for the pharmaceutical, biotechnology, and medical device industries.",
+        "location": "Clifton, New Jersey, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "Doubling laboratory capacity for pharmaceutical, biotech, and medical device testing will lead to increased demand for testing reagents, consumables, and lab equipment.",
+        "source_url": "https://biopharmaapac.com/news/97/7899/cs-analytical-expands-clifton-facility-to-double-laboratory-capacity.html"
+      },
+      {
+        "summary": "Qashio is establishing its European Headquarters in Dublin, Ireland, with plans to create 50 jobs and develop Qashio Labs, an R&D-focused function.",
+        "location": "Dublin, Ireland",
+        "type_of_expansion": "new market entry with R&D lab",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "A new R&D lab in Dublin will require lab supplies, reagents, and scientific equipment for its research activities.",
+        "source_url": "https://www.idaireland.com/latest-news/press-release/qashio-to-establish-european-headquarters"
+      },
+      {
+        "summary": "CordenPharma acquired AmbioPharm to expand its global peptide API capacity, adding AmbioPharm's two sites and approximately 400 employees, thereby expanding CordenPharma's U.S. peptide manufacturing capacity and adding Shanghai-based peptide supply.",
+        "location": "USA (unspecified) and Shanghai, China",
+        "type_of_expansion": "capacity expansion (acquisition)",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "Expansion of peptide API manufacturing capacity will increase demand for specialized reagents, purification media, and manufacturing consumables.",
+        "source_url": "https://cordenpharma.com/articles/press-release-cordenpharma-acquires-ambiopharm-to-expand-global-peptide-api-capacity/"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Landmark Bio has secured an Advanced Research Projects Agency for Health (ARPA-H) award of up to $18.3 million to develop a scalable continuous manufacturing platform for extracellular vesicle (EV) therapies.",
+        "amount": "$18.3 million",
+        "funding_type": "Government Manufacturing Contract",
+        "use_of_proceeds": "To build an efficient, robust, and scalable continuous manufacturing platform for extracellular vesicles (EVs), including intensified upstream production, new capture and purification strategies, advanced analytical methods, and process modeling and control frameworks.",
+        "event_date": "2026-04-01",
+        "why_it_matters": "This investment will drive demand for new lab equipment, reagents, and consumables necessary for developing and operating the advanced continuous manufacturing platform for extracellular vesicles.",
+        "source_url": "https://www.businesswire.com/news/home/20260401735042/en/"
+      }
+    ],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:09:25.129870",
+  "ai_summary": "Landmark Bio secured an $18.3 million ARPA-H award to develop a continuous manufacturing platform for extracellular vesicle (EV) therapies. This significant funding signals major R&D and expansion in advanced biomanufacturing capabilities. For lab supply sales, this means immediate opportunities for equipment, reagents, and consumables to support their new platform development, research activities, and increased operational needs."
+}

@@ -1,0 +1,46 @@
+{
+  "account": "LABVIVA JHU",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CDYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "OpenAI is establishing its first Applied AI Lab outside the United States in Singapore, committing over S$300 million (approximately $234 million USD) and expanding its local technical team to more than 200 roles.",
+        "location": "Singapore",
+        "type_of_expansion": "New country/region market entry, dedicated AI lab",
+        "investment_value": "$234,000,000",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new AI lab in Singapore will require procurement of various lab supplies, reagents, consumables, and scientific equipment for its research and development operations.",
+        "source_url": "https://www.eweek.com/ai/openai-singapore-applied-ai-lab/"
+      },
+      {
+        "summary": "Medix Biochemica announced a $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its Espoo, Finland and St. Louis, Missouri facilities.",
+        "location": "Espoo, Finland and St. Louis, Missouri, USA",
+        "type_of_expansion": "Capacity expansion for laboratory/manufacturing operations",
+        "investment_value": "$5,000,000",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The expansion of recombinant antigen and cell culture technology capabilities will drive demand for specialized lab supplies, reagents, and equipment.",
+        "source_url": "https://www.analytica-world.com/en/news/1188731/medix-biochemica-invests-5m-to-expand-its-recombinant-antigen-capabilities.html"
+      },
+      {
+        "summary": "Delta Electronics (Thailand) Public Company Limited officially opened a new Research and Development (R&D) center in Soest, Germany, comprising 7,500 square meters of advanced R&D laboratory space and 2,500 square meters of office space to accommodate up to 250 talents.",
+        "location": "Soest, Germany",
+        "type_of_expansion": "Capacity expansion for research operations (R&D Center)",
+        "investment_value": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "The new R&D center with extensive laboratory space and a large team will generate significant demand for scientific equipment, lab consumables, and specialized reagents.",
+        "source_url": "https://www.prnewswire.com/news-releases/delta-expands-its-rd-capabilities-in-soest-germany-with-opening-of-new-rd-center-strengthening-its-innovation-process-in-emea-302489000.html"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:35:23.105416+00:00",
+  "ai_summary": "The market surrounding JHU is experiencing significant R&D and lab expansion, particularly in biotech and advanced technology. Medix Biochemica's $5M investment in cell culture and antigen capabilities, alongside new AI and R&D centers, signals a growing demand for specialized lab infrastructure and talent. This trend suggests JHU may be expanding its own research programs or facing increased competition, creating opportunities for lab supply sales."
+}

@@ -1,0 +1,89 @@
+{
+  "account": "UNIVERSITY OF ILLINOIS",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DKYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A total of 52 students, including 30 graduate students and 22 undergraduates, from the University of Illinois Urbana-Champaign have been offered Graduate Research Fellowships from the National Science Foundation (NSF). Awardees receive three years of support including a $37,000 annual stipend and a $16,000 cost-of-education allowance to defray the cost of tuition and fees.",
+        "recipient": "52 students (various departments)",
+        "department_or_lab": "University of Illinois Urbana-Champaign (various STEM departments)",
+        "amount": "$37,000 annual stipend and a $16,000 cost-of-education allowance per student for three years",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These fellowships indicate upcoming research activity across various STEM fields at the University of Illinois, potentially leading to demand for lab supplies and equipment.",
+        "source_url": "https://grad.illinois.edu/news/record-number-illinois-students-earn-prestigious-nsf-graduate-research-fellowships"
+      },
+      {
+        "summary": "Assistant Professor John Finan received a prestigious National Science Foundation CAREER Award to study how a genetic variant affects traumatic brain injury. His project, \u201cCAREER: An investigation of the role of Piezo1 polymorphisms in traumatic brain injury pathology using isogenic human in vitro models,\u201d will be funded by the award.",
+        "recipient": "John Finan",
+        "department_or_lab": "College of Engineering, University of Illinois Chicago",
+        "amount": "$599,999",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This grant will fund research into traumatic brain injury using human in vitro models, suggesting a need for specialized lab supplies and reagents.",
+        "source_url": "https://ischool.illinois.edu/news-events/news/2026/05/lourentzou-receives-nsf-career-award"
+      },
+      {
+        "summary": "Assistant Professor Ismini Lourentzou has received a National Science Foundation (NSF) CAREER award to develop the next generation of embodied AI agents, systems that can reason, explain, and adapt as they act in the physical world. Lourentzou's project, \"Shaping Embodied Intelligence Through Language-Guided Introspection,\" will be supported by a five-year, $600,000 grant from the NSF.",
+        "recipient": "Ismini Lourentzou",
+        "department_or_lab": "School of Information Sciences, University of Illinois Urbana-Champaign",
+        "amount": "$600,000",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Research into embodied AI agents will require advanced computing hardware, specialized software, and potentially robotics components and sensors.",
+        "source_url": "https://ischool.illinois.edu/news-events/news/2026/05/lourentzou-receives-nsf-career-award"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The University of Illinois Urbana-Champaign is undertaking a phased modernization of its Swine Research Center, which supports agricultural research, animal husbandry, and teaching programs, including renovation of the Sow Feeding Building, Farrowing Building, and Metabolism Building.",
+        "contract_name": "U21074 Swine Research Center Modernization",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-11",
+        "event_date": "2026-05-01",
+        "why_it_matters": "Modernization of a research center often leads to the acquisition of new or upgraded scientific equipment and research consumables, presenting future sales opportunities for Thomas Scientific.",
+        "source_url": "https://www.procure.stateuniv.state.il.us/viewNotice.cfm?mName=findNotice&i=UIFPP&p=BAU21074"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The iFAB Tech Hub, anchored by University of Illinois Urbana-Champaign research, is transforming a 51-square-mile region into a biomanufacturing epicenter, backed by $680 million in public and private commitment.",
+        "project_name": "iFAB Tech Hub",
+        "scope": "Biomanufacturing research and development, creating jobs and new markets for farmers in central Illinois.",
+        "timeline": "Ongoing development, turning a region into an epicenter for biomanufacturing.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This large-scale biomanufacturing initiative will drive significant demand for advanced bioreactors, cell culture media, purification systems, and analytical lab equipment.",
+        "source_url": "https://news.uillinois.edu/view/7815/319904286"
+      },
+      {
+        "summary": "The Illinois Quantum and Microelectronics Park, a 128-acre campus, is taking shape on Chicago's South Side, connecting government, laboratories, and industry to advance quantum computing and deep tech, with the state committing $500 million for its development.",
+        "project_name": "Illinois Quantum and Microelectronics Park",
+        "scope": "Quantum computing, microelectronics, cybersecurity, and drug discovery.",
+        "timeline": "Campus taking shape, with buildings expected by early 2027 and 2028.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This initiative will create substantial demand for specialized quantum computing equipment, microfabrication tools, high-purity reagents, and advanced analytical instruments for materials science and drug discovery.",
+        "source_url": "https://news.uillinois.edu/view/7815/319904286"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Researchers at the University of Illinois Chicago have designed a new cancer treatment by borrowing a strategy from bacteria that live inside tumors. Instead of attacking cancer cells directly, the approach targets how those cells generate energy. In prostate cancer models, the therapy delivered its strongest results when combined with radiation, dramatically slowing tumor growth. The key component is a lab-made peptide called aurB, derived from a bacterial protein, which disrupts the mitochondria in cancer cells. The researchers have secured a patent for aurB and are exploring how to move the therapy into human clinical trials.",
+        "researcher_name": "Tohru Yamada",
+        "department_or_lab": "Departments of Surgery and Biomedical Engineering, University of Illinois Chicago (UIC), and University of Illinois Cancer Center",
+        "award_or_discovery": "Breakthrough cancer therapy using a bacterial peptide (aurB) to disrupt cancer cell mitochondria",
+        "significance": "This is described as a \"breakthrough therapy\" by SciTechDaily, a major science news outlet, and represents a novel approach to cancer treatment by targeting energy generation in cancer cells. The research has led to a secured patent and plans for human clinical trials.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This breakthrough signals high-impact lab activity and supply demand for reagents, consumables, and equipment related to cancer research, peptide synthesis, mitochondrial studies, and potential clinical trial development.",
+        "source_url": "https://scitechdaily.com/scientists-turn-cancers-own-bacteria-against-it-in-breakthrough-therapy/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T12:10:40.781324+00:00",
+  "ai_summary": "University of Illinois is booming with new NSF grants fueling diverse research, from TBI to embodied AI. Major investments in the iFAB Biomanufacturing Tech Hub and Swine Research Center modernization, plus a cancer treatment breakthrough, signal substantial growth. This creates significant demand for specialized reagents, instruments, and consumables across various scientific disciplines, presenting prime sales opportunities."
+}

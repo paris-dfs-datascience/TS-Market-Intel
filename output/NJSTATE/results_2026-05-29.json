@@ -1,0 +1,175 @@
+{
+  "account": "NJSTATE",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DtYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Princeton Plasma Physics Laboratory (PPPL) in Princeton, New Jersey, received funding through the U.S. Department of Energy's (DOE) Assisting Federal Facilities with Energy Conservation Technologies (AFFECT) program to implement energy conservation measures, including expanding a geothermal system, for the Princeton Plasma Innovation Center (PPIC) building.",
+        "recipient": "Princeton Plasma Physics Laboratory (PPPL)",
+        "department_or_lab": "Princeton Plasma Innovation Center (PPIC) building",
+        "amount": "Not specified",
+        "agency": "U.S. Department of Energy (DOE)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This DOE funding for energy conservation and infrastructure improvements at PPPL suggests potential demand for specialized equipment, sensors, and materials related to energy systems and facility upgrades.",
+        "source_url": "https://www.energy.gov/cmei/femp/assisting-federal-facilities-energy-conservation-technologies-funding-recipients"
+      },
+      {
+        "summary": "Multiple companies, including those performing 8% of the work in Moorestown, New Jersey, were awarded a DoD contract for unspecified services. No funds were obligated at the time of award; funds will be obligated on individual orders as they are issued.",
+        "recipient": "Government Services Inc., Peraton Inc., Prescient Edge Corp., Science Applications International Corp., Scientific Research Corp., Sev1Tech LLC, T2S LLC, Vickers & Nolan Enterprises LLC, and VT Milcom Inc.",
+        "department_or_lab": "Not specified (work performed in Moorestown, New Jersey)",
+        "amount": "No funds obligated at time of award; funds will be obligated on individual orders",
+        "agency": "U.S. Department of War (DoD)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This DoD contract with a component in Moorestown, New Jersey, indicates potential future demand for various supplies and equipment as individual orders are placed.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4503104/contracts-for-may-28-2026/"
+      },
+      {
+        "summary": "LEIDOS INC was awarded a DARPA contract (HR001124C0438) valued at $24,017,087.00 for the Quantum Augmented Network (QuANET) project, with work being performed in Bothell, Washington; Moorestown, New Jersey; and Palmdale, California.",
+        "recipient": "LEIDOS INC",
+        "department_or_lab": "Not specified (work performed in Moorestown, New Jersey)",
+        "amount": "$24,017,087.00",
+        "agency": "Defense Advanced Research Projects Agency (DARPA)",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This significant DARPA contract for a quantum network project with a New Jersey component suggests a high demand for advanced scientific equipment, specialized components, and research consumables.",
+        "source_url": "https://www.highergov.com/people/ali-dot-etedali-darpa-dot-mil/"
+      }
+    ],
+    "capital": [
+      {
+        "summary": "New Jersey-based Thea Energy has raised $100 million in Series B funding to expand its magnet manufacturing capacity with a second facility in Northern New Jersey and fast-track the construction of its integrated fusion system, Eos.",
+        "project_name": "Thea Energy Second Manufacturing Facility and Integrated Fusion System (Eos)",
+        "location": "Northern New Jersey (company based in Kearny, NJ)",
+        "value": "$100 million",
+        "timeline": "The funding will support acceleration toward commercial deployment. The Eos demonstration is targeted for 2030 and the Helios commercial plant for 2034.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing and research facility will create demand for specialized lab supplies, reagents, consumables, and scientific equipment for fusion energy development and magnet production.",
+        "source_url": "https://www.finsmes.com/2026/05/thea-energy-raises-100m-in-series-b-funding.html"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "The New Jersey Department of Health is seeking quotes for Quantabio Toughmix, a reagent used in molecular biology applications.",
+        "contract_name": "Request for Quotes (RFQ) #05-08-26-32-DPA Quantabio Toughmix",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-15",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This RFQ indicates an ongoing demand for molecular biology reagents within New Jersey state health laboratories, presenting a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.nj.gov/health/cn/bidding/"
+      },
+      {
+        "summary": "Camden County College is soliciting proposals for the furnishing, delivery, and/or installation of academic laboratory supplies for the fiscal year 2027, with a goal to award 25% of the contract to small businesses.",
+        "contract_name": "Academic Laboratory Supplies (FY26ITB-21)",
+        "estimated_value": "$500,000 - $2,000,000",
+        "deadline_or_expiration": "2026-05-13",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This bid represents a significant opportunity for Thomas Scientific to supply a broad range of academic laboratory supplies and equipment to a New Jersey educational institution.",
+        "source_url": "https://highergov.com/opportunity/academic-laboratory-supplies-fy26itb-21-417120"
+      },
+      {
+        "summary": "The Ocean County Board of Commissioners is seeking proposals for a comprehensive support plan for Crime Laboratory Equipment, including service visits, preventative maintenance, and factory-certified replacement parts over a two-year term.",
+        "contract_name": "Support Plan for Forensic Laboratory Equipment",
+        "estimated_value": null,
+        "deadline_or_expiration": "2-year term from contract award",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This opportunity signals a need for ongoing service and parts for forensic laboratory equipment in Ocean County, which Thomas Scientific could address through its service offerings or by supplying replacement parts.",
+        "source_url": "https://highergov.com/opportunity/support-plan-for-forensic-laboratory-equipment-417247"
+      },
+      {
+        "summary": "The New Jersey Division of Purchase and Property issued a special notice regarding its intent to join cooperative contract M4032 for Public Utility Equipment with Related Accessories and Supplies.",
+        "contract_name": "NOTICE OF INTENT TO JOIN COOPERATIVE CONTRACT - M4032 - Public Utility Equipment with Related Accessories and Supplies",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This notice indicates a potential avenue for Thomas Scientific to supply related accessories and supplies to public utilities in New Jersey through a cooperative purchasing agreement.",
+        "source_url": "https://www.nj.gov/treasury/purchase/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "HAX, SOSV's hard tech arm, is launching HAX Plasma Forge, a pioneering hard tech hub in Princeton, New Jersey, focused on breakthrough applications of plasma physics, including next-gen semiconductor fabrication, fusion energy, and plasma catalysis. The new site will feature on-site labs with best-in-class equipment and a team of on-site engineers to accelerate startups. The initiative will fund 25 companies over the next five years and plans to hire Plasma Technicians and Scientists for lab operations.",
+        "location": "Princeton, New Jersey, USA",
+        "type_of_expansion": "New dedicated facility (hard tech hub with on-site labs)",
+        "investment_value": 52000000,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new hard tech hub with on-site labs and best-in-class equipment will generate significant demand for specialized lab supplies, reagents, consumables, and scientific equipment for plasma physics research and development.",
+        "source_url": "https://hax.co/were-hiring-site-lead-hax-plasma-forge/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "The New Jersey Economic Development Authority (NJEDA) announced that approximately $5 million in funding remains available through its Cannabis Business Development (CBD) Grant Program, which offers $75,000 reimbursements to eligible cannabis manufacturers, cultivators, retailers, and testing laboratories.",
+        "project_name": "Cannabis Business Development (CBD) Grant Program",
+        "scope": "Reimbursements for operational expenses and compliance-related costs for licensed cannabis businesses, including testing laboratories, in New Jersey.",
+        "timeline": "Ongoing program, with the announcement of remaining funds made recently.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Cannabis testing laboratories receiving these grants will likely invest in new or upgraded lab equipment, reagents, and consumables to meet operational and compliance needs.",
+        "source_url": "https://cannabisindustryjournal.com/news/new-jersey-says-5m-in-cannabis-grant-funding-still-available/"
+      },
+      {
+        "summary": "Johnson & Johnson has secured naming rights and expanded its ties to the New Jersey Innovation Hub (NJIH), a 30,000-square-foot science incubator within the larger HELIX campus in New Brunswick, which will provide flexible lab space and support for early-stage, science-driven startups.",
+        "project_name": "Johnson & Johnson Exchange at the New Jersey Innovation Hub (NJIH) within the HELIX campus",
+        "scope": "Development of a 30,000-square-foot science incubator with flexible lab space, curated programming, and access to networks for early-stage, science-driven startups, as part of the 1.5 million-square-foot HELIX innovation district.",
+        "timeline": "NJIH is scheduled to open in Spring 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new science incubator with flexible lab space will create significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for the startups it houses.",
+        "source_url": "https://re-nj.com/johnson-johnson-takes-naming-rights-expands-ties-to-key-incubator-space-at-new-brunswicks-helix-project/"
+      },
+      {
+        "summary": "The New Jersey Department of Health (DOH) announced approximately $10.3 million in funding available under the Local Public Health Infrastructure Grant Program 2027, aimed at strengthening public health infrastructure across workforce, foundational capabilities, and data modernization for local health departments.",
+        "project_name": "Local Public Health Infrastructure Grant Program 2027",
+        "scope": "Strengthening public health infrastructure, including workforce development, foundational capabilities, and data modernization, for local health departments throughout New Jersey.",
+        "timeline": "Funding is available for the award period of July 1, 2026, through November 30, 2027.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Investments in public health infrastructure, foundational capabilities, and data modernization will drive demand for laboratory equipment, diagnostic tools, and related scientific supplies for local health departments.",
+        "source_url": "https://www.njlm.org/CivicAlerts.aspx?AID=1028"
+      },
+      {
+        "summary": "The NJ LEAF Program provides low-cost financing to New Jersey cannabis businesses, including testing laboratories, for fixed assets and working capital, with fixed asset loans ranging from $100,000 to $1.5 million.",
+        "project_name": "NJ LEAF Program",
+        "scope": "Provides loans for fixed assets and working capital to licensed recreational cannabis cultivators, manufacturers, and testing laboratories in New Jersey.",
+        "timeline": "Ongoing program, with recent announcement of availability.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "Loans for fixed assets and working capital for cannabis testing laboratories will directly translate into demand for new or upgraded scientific equipment and laboratory supplies.",
+        "source_url": "https://business.nj.gov/news/cannabis-cultivators-manufacturers-and-testing-labs-can-apply-for-up-to-1-5m-in-loans"
+      },
+      {
+        "summary": "The New Jersey Health Foundation awarded more than $1.18 million in seed funding to Rowan University researchers for 25 Rowan-led studies addressing urgent health care and biomedical needs, including research on mosquito-borne pathogens.",
+        "project_name": "Rowan University Health and Biomedical Research Projects (funded by New Jersey Health Foundation)",
+        "scope": "25 early-stage research projects in health care and biomedical fields, including parasitology, aimed at gathering preliminary data for larger external grants and clinical application.",
+        "timeline": "Funding was awarded in Spring 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These research grants will generate demand for a variety of lab supplies, reagents, and scientific equipment necessary for conducting biomedical and health-related studies.",
+        "source_url": "https://today.rowan.edu/news/2026/04/new-jersey-health-foundation-funds-25-rowan-projects-addressing-critical-health-needs.html"
+      }
+    ],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "The Delaware and Raritan Canal Commission's 2025 Annual Report, published on April 30, 2026, mentions the ongoing expansion of the New Jersey Public Health, Environmental, and Agriculture Laboratory (NJ PHEAL) in Ewing Township, identified as project #25-4051A.",
+        "mandate_type": "Public Health Emergency Lab Buildout",
+        "jurisdiction": "NJSTATE",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "The expansion of NJ PHEAL will create non-discretionary demand for new lab equipment, supplies, and reagents to support increased testing capacity in public health, environmental, and agricultural sectors.",
+        "source_url": "https://www.nj.gov/dep/drcc/pdf/annual-reports/2025_D&RCC_Annual_Report.pdf"
+      }
+    ],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "New Jersey lawmakers are scrutinizing the state's oversight of hospital closures following the shutdown of Heights University Hospital in Jersey City, which ceased inpatient care last fall and closed its emergency room in March 2026 due to financial losses and alleged non-compliance with state regulatory requirements.",
+        "facility_or_programme": "Heights University Hospital, Jersey City, New Jersey",
+        "closure_type": "Hospital Closure (Emergency Department and Inpatient Services)",
+        "effective_date": "2026-03-XX",
+        "reason": "Financial losses (projected to exceed $30 million in 2026) and alleged non-compliance with state regulatory requirements.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The closure of Heights University Hospital creates a churn risk for existing medical and lab supply vendors and presents a competitive displacement opportunity for Thomas Scientific to engage with other New Jersey healthcare facilities experiencing increased patient volume.",
+        "source_url": "https://njurbannews.com/2026/04/29/lawmakers-press-new-jersey-health-officials-on-hospital-closure-oversight/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:41:31.651311",
+  "ai_summary": "NJSTATE is seeing significant investment in scientific infrastructure, with new plasma physics and fusion energy labs emerging, like HAX Plasma Forge and Thea Energy's expansion. Public health, academic, and cannabis testing labs are also growing, evidenced by direct solicitations for supplies and dedicated funding programs. This widespread expansion and funding create numerous opportunities for lab equipment and consumable sales across diverse scientific sectors."
+}

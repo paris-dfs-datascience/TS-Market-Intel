@@ -1,0 +1,88 @@
+{
+  "account": "LOS ANGELES COUNTY, CA",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1MuYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Multiple UCLA graduate students and undergraduate researchers received 2026 National Science Foundation (NSF) Graduate Research Fellowships (GRFP) and Honorable Mentions for their research in various STEM fields.",
+        "recipient": "University of California, Los Angeles (UCLA)",
+        "department_or_lab": "Chemistry and Biochemistry, Computer Science, Mathematics, Physiological Sciences",
+        "amount": "Varies (each fellowship provides a $37,000 annual stipend and a $16,000 cost-of-education allowance for three years of supported study, totaling $53,000 per year for three years)",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "Research in these STEM fields often requires a wide array of lab supplies, reagents, and scientific equipment for experiments, data analysis, and specialized studies, indicating potential demand for distributors.",
+        "source_url": "https://chemistry.ucla.edu/news/2026-national-science-foundation-graduate-research-awards-honorable-mentions"
+      },
+      {
+        "summary": "Researchers from UC Irvine and the University of Southern California (USC) received a $2.6 million, three-year grant from the Defense Advanced Research Projects Agency (DARPA) to study how artificial intelligence tools can accelerate progress in advanced mathematical research.",
+        "recipient": "University of Southern California (USC)",
+        "department_or_lab": "USC Dornsife College of Letters, Arts and Sciences (Mathematics)",
+        "amount": "2600000",
+        "agency": "Defense Advanced Research Projects Agency (DARPA)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Research into AI tools for mathematical breakthroughs may require high-performance computing infrastructure, specialized software, and potentially dedicated lab spaces for collaborative development and testing, creating demand for IT equipment, computational resources, and related lab supplies.",
+        "source_url": "https://news.uci.edu/2026/05/18/uc-irvine-usc-receive-2-6-million-darpa-grant-for-ai-to-drive-math-breakthroughs/"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Los Angeles County is seeking bids for tissue-processing equipment and supplies for histology.",
+        "contract_name": "TISSUE-PROCESSING EQUIPMENT AND SUPPLIES (FOR HISTOLOGY): CR",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-04",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This solicitation presents a direct opportunity for Thomas Scientific to supply essential histology lab equipment and consumables to Los Angeles County.",
+        "source_url": "https://doingbusiness.lacounty.gov/solicitation-search/"
+      },
+      {
+        "summary": "The Los Angeles County Department of Internal Services is soliciting bids for brand-specific equipment and scanners for the DHS Harbor project.",
+        "contract_name": "RFB-IS-26200980-1: Equipment and Scanners for DHS Harbor Project",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-04",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This bid offers a chance for Thomas Scientific to provide specialized scientific equipment and scanners to a Los Angeles County department.",
+        "source_url": "https://doingbusiness.lacounty.gov/solicitation-search/"
+      },
+      {
+        "summary": "Los Angeles County's Internal Services Department is seeking bids for full-service maintenance for a Siemens 64 CT System, categorized under general hospital and medical equipment maintenance and repair.",
+        "contract_name": "RFB-IS-26200904-1: BRAND NAME ONLY - FULL-SERVICE MAINTENANCE - ANNUAL - SIEMENS 64 CT SYSTEM",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-13",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This solicitation indicates a need for ongoing support and potentially replacement parts or related consumables for high-value scientific imaging equipment within Los Angeles County healthcare facilities.",
+        "source_url": "https://doingbusiness.lacounty.gov/solicitation-search/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "UCLA has opened the Center for Advanced Biotherapies, a 14,000-square-foot FDA-compliant manufacturing facility that nearly doubles the institution's capacity to produce cell and gene therapies for patients enrolled in clinical trials. The new center features 10 cleanrooms, including seven manufacturing suites, two bioengineering rooms, and a dedicated suite for viral vector manufacturing, along with a centralized quality control laboratory.",
+        "location": "Los Angeles, CA (UCLA)",
+        "type_of_expansion": "New dedicated facility and capacity expansion",
+        "investment_value": "$9.3 million",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing and research facility will generate significant demand for specialized lab supplies, reagents, consumables, and scientific equipment for cell and gene therapy development and production.",
+        "source_url": "https://newsroom.ucla.edu/releases/ucla-center-for-advanced-biotherapies-opens-gene-cell-therapy-clinical-trials"
+      }
+    ],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "Los Angeles County's proposed $48.8 billion budget for fiscal year 2026-27 highlights that the Department of Public Health has already closed seven clinics due to a structural deficit.",
+        "facility_or_programme": "Seven Los Angeles County Public Health Clinics",
+        "closure_type": "Clinic closures / Service terminations",
+        "effective_date": null,
+        "reason": "Structural deficit and funding cuts",
+        "event_date": "2026-05-04",
+        "why_it_matters": "The closure of these public health clinics indicates a reduction in demand for lab supplies and equipment from these specific county facilities, potentially creating churn risk or competitive displacement opportunities as services shift to remaining clinics or community partners.",
+        "source_url": "https://www.google.com/search?q=time+in+Los+Angeles,+CA,+US"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:35:00.876715",
+  "ai_summary": "UCLA is significantly expanding cell and gene therapy manufacturing with a new 14,000 sq ft FDA-compliant facility, creating substantial demand for specialized lab supplies and cleanroom consumables. Los Angeles County also seeks bids for histology equipment and supplies. Despite some public health clinic closures, overall research funding and this major biotherapy expansion present strong sales opportunities for lab equipment, reagents, and consumables."
+}

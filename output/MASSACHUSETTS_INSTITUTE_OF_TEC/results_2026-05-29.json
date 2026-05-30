@@ -1,0 +1,59 @@
+{
+  "account": "MASSACHUSETTS INSTITUTE OF TEC",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkegYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Research on \"SCOT+: a comprehensive software suite for single-cell alignment using optimal transport\" by Pinar Demetci and colleagues was supported by NIH grants.",
+        "recipient": "Pinar Demetci",
+        "department_or_lab": "Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard",
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This NIH-funded research in single-cell alignment indicates a potential demand for advanced microscopy, cell culture, and bioinformatics consumables and equipment.",
+        "source_url": "https://doi.org/10.1101/2025.05.27.640240"
+      },
+      {
+        "summary": "Anna Frebel from MIT's Department of Physics and Kavli Institute for Astrophysics and Space Research acknowledged support from an NSF-AAG grant for her work on \"A Bright, Strongly R-process-enhanced Extremely Metal-poor Star Observed with GHOST.\"",
+        "recipient": "Anna Frebel",
+        "department_or_lab": "Department of Physics and Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology",
+        "amount": null,
+        "agency": "NSF",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This NSF-funded astrophysics research suggests potential demand for specialized astronomical equipment, detectors, and computational resources.",
+        "source_url": "https://arxiv.org/abs/2605.11069"
+      },
+      {
+        "summary": "Kiril Bangachev, Guy Bresler, Jonathan Kogan, and Yury Polyanskiy from MIT's Department of Electrical Engineering and Computer Science received support from NSF awards for their research on \"Is Dimensionality a Barrier for Retrieval Models?\".",
+        "recipient": "Kiril Bangachev, Guy Bresler, Jonathan Kogan, Yury Polyanskiy",
+        "department_or_lab": "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology",
+        "amount": null,
+        "agency": "NSF",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This NSF-funded computer science research could lead to demand for high-performance computing hardware, data storage solutions, and specialized software licenses.",
+        "source_url": "https://arxiv.org/abs/2605.23556"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "MIT scientist Sven Dorkenwald has been named a 2026 Searle Scholar and joined the faculty as an assistant professor in the Department of Brain and Cognitive Sciences and an investigator at the McGovern Institute for Brain Research.",
+        "name": "Sven Dorkenwald",
+        "department": "Brain and Cognitive Sciences, McGovern Institute for Brain Research",
+        "start_date": "2026",
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://news.mit.edu/2026/four-mit-named-2026-searle-scholars-0520"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:39:34.257817",
+  "ai_summary": "MIT shows strong research activity with new NIH and NSF grants funding diverse projects, from single-cell alignment to astrophysics. Sven Dorkenwald's faculty appointment in Brain and Cognitive Sciences further expands research. This influx of funding and new personnel signals increased demand for lab supplies, especially for single-cell and neuroscience research, as new labs are established and projects scale."
+}

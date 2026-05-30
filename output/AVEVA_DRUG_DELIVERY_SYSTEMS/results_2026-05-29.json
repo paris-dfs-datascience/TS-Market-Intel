@@ -1,0 +1,30 @@
+{
+  "account": "AVEVA DRUG DELIVERY SYSTEMS",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1ScYAK",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Aveva Drug Delivery Systems is part of a collaboration for the U.S.-based manufacturing of the JKB-122 immune restoration platform, which is advancing toward Phase 2b/3 clinical development. Callan JMB will oversee manufacturing operations for clinical trials of JKB-122, an investigational drug for Long COVID treatment, including contract manufacturing organization qualification and supply chain verification.",
+        "product_or_program": "JKB-122 immune restoration platform",
+        "stage": "Phase 2b/3 clinical development, manufacturing for clinical trials",
+        "therapeutic_or_application_area": "Long COVID treatment, immune restoration",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new manufacturing program for a late-stage clinical drug indicates upcoming demand for lab supplies, reagents, consumables, and scientific equipment for production and quality control.",
+        "source_url": "https://www.investing.com/news/company-news/callan-jmb-extends-public-sector-contract-worth-105-million-93CH-4701434"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:01:20.519207",
+  "ai_summary": "Aveva Drug Delivery Systems is collaborating on the JKB-122 immune restoration platform for Long COVID, advancing to Phase 2b/3 clinical trials. Callan JMB is managing manufacturing and supply chain verification. This significant late-stage development and manufacturing activity signals increased demand for lab supplies, reagents, and equipment for R&D, QC, and production, creating a prime sales opportunity for supporting this critical project."
+}

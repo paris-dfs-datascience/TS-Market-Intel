@@ -1,0 +1,90 @@
+{
+  "account": "PENN STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1D8YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Penn State Institute for Computational and Data Sciences (ICDS), in collaboration with five other Pennsylvania institutions, received a two-year, $1.3 million U.S. National Science Foundation Campus Cyberinfrastructure (NSF CC*) award to expand a statewide network for science-driven research and education.",
+        "recipient": "Penn State Institute for Computational and Data Sciences (ICDS)",
+        "department_or_lab": "Institute for Computational and Data Sciences",
+        "amount": "$1,300,000",
+        "agency": "NSF",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This grant indicates increased demand for high-performance computing resources and associated lab supplies for data-intensive research across multiple institutions in Pennsylvania.",
+        "source_url": "https://www.psu.edu/news/institute-computational-and-data-sciences/story/13m-nsf-grant-expand-statewide-cyberinfrastructure-researchers/"
+      },
+      {
+        "summary": "Aron Laszka, assistant professor in the Penn State College of Information Sciences and Technology (IST), received a five-year, $685,588 U.S. National Science Foundation (NSF) Early Career Development (CAREER) Award for his project \u201cScaling Deep Reinforcement Learning for Societal-Scale Cyber-Physical Systems.\u201d",
+        "recipient": "Aron Laszka",
+        "department_or_lab": "College of Information Sciences and Technology (IST)",
+        "amount": "$685,588",
+        "agency": "NSF",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This CAREER award signifies a long-term research program in AI-driven decision-making, potentially leading to demand for specialized computing hardware, software, and related lab consumables for cyber-physical systems research.",
+        "source_url": "https://www.psu.edu/news/information-sciences-and-technology/story/ist-faculty-member-aron-laszka-receives-2026-nsf-career-award/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Penn State Abington's first new academic building in over 50 years, a $68 million, three-story, 85,554-square-foot facility, is scheduled to open in Fall 2026 and will include four laboratories, 17 classrooms, collaborative spaces, faculty offices, and student support areas.",
+        "location": "Penn State Abington, Pennsylvania",
+        "type_of_expansion": "New dedicated facility (academic building with laboratories)",
+        "investment_value": "$68,000,000",
+        "event_date": "2026-05-12",
+        "why_it_matters": "The opening of a new academic building with four laboratories will create new demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://abingtonsports.com/news/2026/5/12/general-trustees-approve-25-million-renovation-of-athletics-building-at-penn-state-abington.aspx"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": [
+      {
+        "summary": "Penn State's Board of Trustees voted to close seven of its 20 Commonwealth Campuses due to financial problems, with these branch campuses scheduled to close after the end of the 2026-2027 academic year.",
+        "facility_or_programme": "Seven Commonwealth Campuses (e.g., Penn State DuBois)",
+        "closure_type": "Facility closure",
+        "effective_date": "After the end of the 2026-2027 academic year",
+        "reason": "Financial problems, cost-cutting assessments, low enrollment, demographic changes, stagnant state funding, and rising costs.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates a potential decrease in demand for a wide range of lab supplies and equipment at the closing campuses, creating churn risk for Thomas Scientific.",
+        "source_url": "https://www.thecollegefix.com/penn-state-may-cut-49-majors-after-closing-7-campuses/"
+      },
+      {
+        "summary": "Penn State has entered into a transitional lease agreement with Mount Aloysius College for the use of a defined portion of classroom and office space in the Swift Building at Penn State DuBois, effective July 1, 2026, while the campus remains open through spring 2027 as part of the planned closure of seven Commonwealth Campuses.",
+        "facility_or_programme": "Penn State DuBois campus (Swift Building classroom and office space)",
+        "closure_type": "Transitional lease agreement leading to eventual facility closure",
+        "effective_date": "2026-07-01",
+        "reason": "Planned closure of Commonwealth Campuses due to financial problems and long-term community context considerations.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "The transitional lease and eventual closure of Penn State DuBois indicate a shift in facility usage and potential reduction in direct Penn State-driven demand for lab supplies and equipment at this location, creating churn risk for Thomas Scientific.",
+        "source_url": "https://www.psu.edu/news/campus-life/2026/05/13/penn-state-enters-transitional-lease-agreement-dubois-campus/"
+      },
+      {
+        "summary": "Penn State University may slash 49 of its undergraduate majors this fall as part of ongoing cost-cutting assessments, phasing out low enrollment majors and affecting about 900 students.",
+        "facility_or_programme": "49 undergraduate majors, including those in education, liberal arts, science and technology, and earth and mineral sciences.",
+        "closure_type": "Program termination/phase-out",
+        "effective_date": "Fall 2026",
+        "reason": "Low enrollment, low student demand, combined employment opportunity, realignment, demographic changes, enrollment declines, stagnant state funding, and rising costs.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Termination of science and technology, and earth and mineral sciences majors could lead to reduced demand for specialized lab equipment, reagents, and consumables, posing a churn risk for Thomas Scientific.",
+        "source_url": "https://www.thecollegefix.com/penn-state-may-cut-49-majors-after-closing-7-campuses/"
+      },
+      {
+        "summary": "Penn State's Deer Research Center has been placed under a five-year quarantine after a white-tailed deer tested positive for chronic wasting disease (CWD), leading to strict containment measures and ongoing monitoring of the facility and herd.",
+        "facility_or_programme": "Penn State Deer Research Center",
+        "closure_type": "Facility quarantine (restricted operation)",
+        "effective_date": "After 2026-05-05",
+        "reason": "Detection of Chronic Wasting Disease (CWD) in a white-tailed deer.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The quarantine and assessment of research activities at the Deer Research Center could impact demand for animal science lab supplies, diagnostic kits, and related equipment, creating a churn risk or a potential need for specialized CWD testing supplies.",
+        "source_url": "https://www.cidrap.umn.edu/news-briefs/cwd-digest-penn-state-deer-research-center-quarantined-after-buck-tests-positive-cwd"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T06:46:03.504616",
+  "ai_summary": "Penn State is experiencing significant shifts. New labs at Abington's $68M academic building and substantial NSF research grants create sales opportunities. However, seven Commonwealth Campuses are closing, and majors are cut due to financial pressures. Lab supply teams must target new facility growth while navigating reduced demand from closures and specific research center restrictions."
+}

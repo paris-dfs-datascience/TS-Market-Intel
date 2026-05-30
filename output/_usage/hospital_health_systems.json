@@ -1,0 +1,43 @@
+{
+  "api_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "token_cost": 0.0,
+  "grounding_cost": 0.0,
+  "total_cost": 0.0,
+  "projected_cost": 0.0,
+  "cost_per_hit": 0.0,
+  "successes": 0,
+  "timeouts": 0,
+  "errors": 0,
+  "empty": 0,
+  "retries": 0,
+  "success_rate": 0,
+  "total_hits": 0,
+  "accounts_done": 35,
+  "accounts_with_data": 31,
+  "run_duration": "0m 0s",
+  "signal_breakdown": {},
+  "slowest_accounts": [
+    {
+      "account": "ABBOTT MEDICAL LIMITADA",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "ADVANCED BIONICS",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "ADVANCED VISION SCIENCE",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "APPLIED MEDICAL",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "AXONICS MODULATION",
+      "elapsed_s": 0.0
+    }
+  ]
+}

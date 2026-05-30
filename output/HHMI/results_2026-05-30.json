@@ -1,0 +1,99 @@
+{
+  "account": "HHMI",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DnYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Howard Hughes Medical Institute (HHMI) is investing $500 million over a 10-year period in its AI@HHMI Initiative to integrate artificial intelligence into all stages of the scientific process, accelerating discovery in the life sciences.",
+        "project_name": "AI@HHMI Initiative",
+        "scope": "This large interdisciplinary initiative supports AI-driven projects across HHMI labs, including the development of new fluorescent imaging probes called NovoTags, AI models for functional protein evolution, and high-throughput connectomics.",
+        "timeline": "10-year period",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This significant investment in AI-driven biological research will generate substantial demand for advanced scientific equipment, specialized reagents, and consumables for high-throughput screening, imaging, and computational biology.",
+        "source_url": "https://www.hhmi.org/shaping-science/ai-hhmi"
+      },
+      {
+        "summary": "Loyola Marymount University (LMU) was awarded $1.2 million from the Howard Hughes Medical Institute (HHMI) for a two-year project titled \"HHMI Success in Science.\"",
+        "project_name": "HHMI Success in Science",
+        "scope": "The project aims to support success in science at LMU, though specific research areas are not detailed in the announcement.",
+        "timeline": "Two-year project",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This grant will likely increase demand for educational scientific materials, basic laboratory equipment, and consumables to support science programs and student research at Loyola Marymount University.",
+        "source_url": "https://www.hhmi.org/shaping-science/ai-hhmi"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "HHMI Investigator David Baker and Janelia Senior Group Leader Luke Lavis, as part of the AI@HHMI initiative, have developed NovoTags, a new class of AI-designed fluorescent imaging probes that enable unprecedented clarity in biological imaging experiments.",
+        "researcher_name": "David Baker, Luke Lavis",
+        "department_or_lab": "Institute for Protein Design (Baker), Janelia Research Campus (Lavis)",
+        "award_or_discovery": "Discovery of NovoTags (AI-designed fluorescent imaging probes)",
+        "significance": "This first-in-class discovery allows biologists to visualize cellular structures and processes with unprecedented clarity, enabling new biological imaging experiments not possible with current systems.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This breakthrough in imaging technology will drive demand for advanced microscopy equipment, specialized reagents, and consumables for protein engineering and cell biology research.",
+        "source_url": "https://www.eurekalert.org/news-releases/1044400"
+      },
+      {
+        "summary": "HHMI Investigator Massimo Scanziani and his team at UCSF discovered that during REM sleep, the brain's motor center sends commands that cause the internal compass to respond as if the head had turned, revealing how the brain generates information without external input.",
+        "researcher_name": "Massimo Scanziani",
+        "department_or_lab": "University of California, San Francisco",
+        "award_or_discovery": "Discovery of brain activity during REM sleep related to internal monologue generation",
+        "significance": "This research provides fundamental insights into how the brain generates information independently, a crucial aspect for predicting, interpreting, and acting in the world efficiently.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This fundamental neuroscience discovery will likely lead to increased research into brain activity during sleep, requiring advanced electrophysiology equipment, imaging systems, and specialized reagents for neural circuit analysis.",
+        "source_url": "https://www.hhmi.org/news/using-rem-sleep-eavesdrop-brains-inner-monologue"
+      },
+      {
+        "summary": "New research from the Dudman Lab at HHMI's Janelia Research Campus, led by Josh Dudman and Luke Coddington, found that larger rewards dramatically accelerate learning by sustaining dopamine signals in the brain.",
+        "researcher_name": "Josh Dudman, Luke Coddington",
+        "department_or_lab": "Dudman Lab, Janelia Research Campus",
+        "award_or_discovery": "Breakthrough in understanding how dopamine signals accelerate learning",
+        "significance": "The findings could change how scientists think about how brains learn, the role of dopamine in learning, and how they study it, with potential implications for neuroscience research methods.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This breakthrough in understanding learning mechanisms will stimulate new research in neurobiology, increasing demand for behavioral research equipment, neurochemical analysis tools, and reagents for studying neurotransmitter pathways.",
+        "source_url": "https://www.hhmi.org/news/bigger-rewards-speed-learning-study-finds-and-dopamine-why"
+      },
+      {
+        "summary": "Chuan He, an HHMI Investigator and John T. Wilson Distinguished Service Professor at the University of Chicago, has been elected to the National Academy of Sciences Class of 2026.",
+        "researcher_name": "Chuan He",
+        "department_or_lab": "Department of Chemistry and Department of Biochemistry and Molecular Biology, University of Chicago",
+        "award_or_discovery": "Election to the National Academy of Sciences Class of 2026",
+        "significance": "This major government honor recognizes Professor He's distinguished and continuing achievements in original research, particularly his pioneering work in epitranscriptomics and the discovery of reversible RNA methylation.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This major honor highlights ongoing high-impact research in RNA biology and epigenetics, signaling continued demand for RNA sequencing tools, methylation analysis kits, and molecular biology reagents.",
+        "source_url": "https://news.uchicago.edu/story/university-chicago-chemist-chuan-he-elected-national-academy-sciences"
+      },
+      {
+        "summary": "Zhijian \"James\" Chen, an HHMI Investigator and Director of the Inflammation Research Center at UT Southwestern, has been awarded the 2026 Japan Prize in Life Sciences.",
+        "researcher_name": "Zhijian \"James\" Chen",
+        "department_or_lab": "Inflammation Research Center, UT Southwestern",
+        "award_or_discovery": "Japan Prize in Life Sciences (2026)",
+        "significance": "This prestigious international award recognizes his series of discoveries that have transformed the understanding of cell signaling and innate immunity.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This prestigious international award signifies continued cutting-edge research in immunology and cell biology, driving demand for cell culture consumables, immunoassay kits, and advanced protein analysis equipment.",
+        "source_url": "https://www.buffalo.edu/provost/news/ub-awards-314-biomedical-science-degrees-29-earn-phds.html"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Effective May 15, 2026, the Howard Hughes Medical Institute (HHMI) will no longer approve requests for new 'second labs' in the United States or internationally. Existing 'Pre-existing Second Labs' will be subject to review by HHMI's Vice President and Chief Scientific Officer at least every three years, with the possibility of approval withdrawal and a typical 12-month period for investigators to terminate the arrangement.",
+        "facility_or_programme": "Second Lab Program",
+        "closure_type": "Programme Termination / Restriction",
+        "effective_date": "2026-05-15",
+        "reason": "Concerns about a Science Lab Head's ability to adequately supervise research and mentor lab members at their host institution, and additional compliance requirements for international second labs.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This policy change could lead to a reduction in the number of HHMI-affiliated 'second labs,' potentially creating churn risk for existing suppliers to these labs or opportunities for Thomas Scientific to consolidate supply to primary HHMI host institutions.",
+        "source_url": "https://www.hhmi.org/sites/default/files/2026-05/Research%20at%20Institutions%20Other%20Than%20the%20Host%20Institution.pdf"
+      }
+    ]
+  },
+  "timestamp": "2026-05-30T11:28:43.076825+00:00",
+  "ai_summary": "HHMI is heavily investing $500M in AI@HHMI to accelerate life science discovery, already yielding breakthroughs like AI-designed NovoTags for imaging. This signals a significant shift towards AI-driven research, creating demand for advanced imaging tools, computational resources, and specialized reagents. Concurrently, HHMI is phasing out new 'second labs' and reviewing existing ones, suggesting a consolidation of research activity and purchasing power at primary investigator sites. Sales teams should target these core labs."
+}

@@ -1,0 +1,99 @@
+{
+  "account": "UNIVERSITY OF UTAH",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkeDYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The University of Utah received funding through the NIH IMPROVE Initiative for the ELEVATE Center, focusing on the reduction of maternal morbidity from substance use disorder in Utah.",
+        "recipient": "University of Utah",
+        "department_or_lab": "ELEVATE Center",
+        "amount": "$2,098,927",
+        "agency": "NIH",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This grant signals upcoming demand for lab supplies, reagents, and consumables related to maternal health research and substance use disorder studies.",
+        "source_url": "https://blackmaternalhealthcaucus.house.gov/news/press-releases/over-40-million-awarded-through-nih-improve-initiative-fy25-support-research"
+      },
+      {
+        "summary": "The University of Utah's Neurology department, led by Dr. Elisabeth Wilde and Dr. Carrie Esopenko, was awarded a grant for research on Traumatic Brain Injury (TBI) and neuroprotection using Vielight itPBM technology.",
+        "recipient": "Dr. Elisabeth Wilde and Dr. Carrie Esopenko",
+        "department_or_lab": "Neurology department",
+        "amount": "$4,600,000",
+        "agency": "DoD",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This grant indicates a demand for neuroscience lab supplies, imaging equipment (MRI, DTI), and related consumables for TBI research.",
+        "source_url": "https://vielight.com/4-6m-us-dod-grant-tbi-and-neuroprotection-with-vielight-technology/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The University of Utah - Campus has published a bid opportunity for Scientific Laboratory Research and Development Products and Services.",
+        "contract_name": "Scientific Laboratory Research and Development Products and Services 2026",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-07-02",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This indicates an upcoming demand for a broad range of lab supplies, reagents, consumables, and scientific equipment at the University of Utah.",
+        "source_url": "https://www.bidnetdirect.com/utah/university-of-utah-campus"
+      },
+      {
+        "summary": "The University of Utah - Campus posted a bid for Keysight Equipment, which has since closed and been awarded.",
+        "contract_name": "Keysight Equipment (UU215538456)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-07",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates a recent purchase of scientific equipment, suggesting potential future needs for related consumables or maintenance services from Thomas Scientific.",
+        "source_url": "https://www.bidnetdirect.com/utah/university-of-utah-campus"
+      }
+    ],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "The University of Utah is establishing the Utah Health AI Vault (UHAIV), an AI-assisted computing infrastructure, with state funding to advance population-based medical and policy decisions and expand research capacity.",
+        "amount": "$33,000,000",
+        "funding_type": "Government program award",
+        "use_of_proceeds": "Building an AI-assisted computing infrastructure, including a new AI supercomputer and data center, to maximize understanding of data in the Utah Population Database (UPDB), speed health innovations and discoveries, and establish a statewide AI foundation.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This investment in AI infrastructure and data centers will drive demand for specialized computing equipment, software, and potentially new lab consumables for researchers utilizing the enhanced AI capabilities for health innovations.",
+        "source_url": "https://attheu.utah.edu/science-technology/u-to-build-out-utah-health-ai-vault-uhaiv-with-state-support/"
+      }
+    ],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Researchers at the University of Utah Health, in collaboration with Utah State University, have discovered a new CRISPR protein, Cas12a2, that can selectively destroy harmful cells, such as those infected by viruses or cancerous cells, without damaging healthy tissue. This breakthrough involves programming Cas12a2 to rip apart the genome of target cells, offering a novel approach to treating diseases.",
+        "researcher_name": "Jared Thompson, Yang Liu, PhD",
+        "department_or_lab": "Biochemistry, University of Utah Health",
+        "award_or_discovery": "Discovery of CRISPR-Cas12a2 for selective cell destruction",
+        "significance": "Described as a 'new kind of CRISPR' that acts like a 'paper shredder' to destroy harmful cells without affecting healthy ones, with potential to 'transform science, agriculture, and medicine'.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This breakthrough in CRISPR technology signals high-impact research in gene editing and cell therapy, likely increasing demand for specialized reagents, enzymes, and cell culture consumables.",
+        "source_url": "https://healthcare.utah.edu/newsroom/news/2026/05/new-kind-of-crispr-could-treat-viral-infection-and-cancer-shredding-sick"
+      },
+      {
+        "summary": "University of Utah biologists have led new research demonstrating that host genetics and sex significantly influence how novel viruses adapt and gain virulence. The study, conducted in mice, revealed that some hosts act as 'evolutionary accelerators,' causing viruses to become more virulent more quickly, particularly in female mice of a specific strain.",
+        "researcher_name": "Wayne Potts, Rodrigo Costa, Jon Seger, Frederick Adler, Kaili Curtis, Kort Zarbock, Justin Kelleher, Lehi Acosta-Alvarez",
+        "department_or_lab": "School of Biological Sciences, University of Utah",
+        "award_or_discovery": "Discovery of host genetics and sex influencing viral virulence evolution",
+        "significance": "This 'new research' 'sheds fresh light on this mystery' of viral adaptation, with findings that are 'relatively novel' and 'could help public health officials model outbreaks and design control strategies'.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Research into viral evolution and host-pathogen interactions indicates ongoing demand for virology reagents, genetic sequencing equipment, and animal model supplies.",
+        "source_url": "https://attheu.utah.edu/health-medicine/in-mice-viruses-gain-virulence-in-some-individuals-depending-on-genetics-and-sex/"
+      },
+      {
+        "summary": "An international research consortium, led by the University of Utah School of Medicine, has discovered a new pathway for developing cancer treatments. Utilizing molecular modeling and artificial intelligence, the team uncovered a previously unknown cell-signaling mechanism involving the interaction between the Smoothened and PKA proteins, which are fundamental in tumor development.",
+        "researcher_name": "Researchers at University of Utah School of Medicine",
+        "department_or_lab": "University of Utah School of Medicine",
+        "award_or_discovery": "Discovery of a new pathway for developing cancer drugs",
+        "significance": "This is an 'important advance' that 'redefines the way scientists understand how cellular receptors function,' revealing a new mechanism that 'opens the door to designing drugs' to improve current cancer treatments.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The discovery of a new cancer drug pathway indicates increased research activity in oncology, requiring demand for cell signaling reagents, protein analysis tools, and drug screening consumables.",
+        "source_url": "https://www.hospitaldelmar.cat/en/noticies/view.php?ID=162"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:07:02.490684",
+  "ai_summary": "The University of Utah is experiencing significant research growth, securing grants for maternal health, TBI, and establishing an AI health vault. Breakthroughs in CRISPR, cancer treatments, and virology highlight cutting-edge work. An open bid for scientific lab products signals immediate opportunities. This expansion across diverse, high-impact research areas means increased demand for specialized lab supplies, reagents, and equipment, making it a prime target for sales."
+}

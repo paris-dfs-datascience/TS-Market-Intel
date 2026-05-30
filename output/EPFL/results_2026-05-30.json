@@ -1,0 +1,107 @@
+{
+  "account": "EPFL",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1XjYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "EPFL is among 19 teams funded by DARPA's Heterogeneous Architectures for Quantum (HARQ) program, which aims to develop architectural foundations for quantum systems combining multiple qubit modalities through high-fidelity interconnects.",
+        "recipient": "EPFL",
+        "department_or_lab": null,
+        "amount": "Undisclosed (part of a larger DARPA program)",
+        "agency": "DoD (DARPA)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This grant indicates EPFL's involvement in cutting-edge quantum computing research, signaling potential demand for specialized lab equipment and consumables for quantum technology development.",
+        "source_url": "https://grantedai.com/blog/darpa-harq-heterogeneous-quantum-computing-19-teams-mosaic-qsb-strategy-2026"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "EPFL's newly created South-North Laboratory for Sustainable Construction and Conservation (SoNo) is based at the Smart Living Lab in Fribourg, which is moving into a new purpose-built experimental facility for research and development.",
+        "location": "Fribourg, Switzerland",
+        "type_of_expansion": "new dedicated facility",
+        "investment_value": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "The establishment of a new research laboratory and facility at EPFL indicates new procurement needs for specialized scientific equipment, lab supplies, and consumables for sustainable construction and conservation research.",
+        "source_url": "https://www.smartlivinglab.ch/en/news/interview-with-aziza-chaouni-my-main-motivation-for-joining-epfl-was-to-become-part-of-the-smart-living-lab/"
+      },
+      {
+        "summary": "Clinical-stage cancer research company Ideaya Biosciences expanded its lab and office footprint in South San Francisco with a 25,000 square foot lease expansion, with the landlord contributing $6.8 million for tenant improvements.",
+        "location": "South San Francisco, California, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": 6800000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This expansion of lab space for cancer research will drive demand for new laboratory equipment, reagents, and consumables to support increased research activities.",
+        "source_url": "https://www.bisnow.com/san-francisco/news/life-sciences/ideaya-biosciences-expanding-into-80k-sf-in-south-san-francisco-133902"
+      },
+      {
+        "summary": "Medix Biochemica announced a $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its Espoo, Finland, and St. Louis, Missouri facilities, including facility expansion, new analytical instrumentation, and at least 10 specialized hires.",
+        "location": "Espoo, Finland and St. Louis, Missouri, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": 5000000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This investment in expanding recombinant antigen and cell culture capabilities will create demand for new bioreactors, cell culture media, purification systems, and analytical lab equipment and reagents.",
+        "source_url": "https://www.clinicalresearchnews.com/medix-biochemica-announces-5-million-investment-to-expand-recombinant-antigen-capabilities/"
+      },
+      {
+        "summary": "Gowan Milling will expand its existing manufacturing facility in Blytheville, Arkansas, with an investment of more than $8.7 million and the creation of 34 new jobs over the next five years.",
+        "location": "Blytheville, Arkansas, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": 8700000,
+        "event_date": "2026-05-14",
+        "why_it_matters": "The expansion of a manufacturing facility for agricultural solutions will increase demand for industrial-scale lab equipment, processing chemicals, and quality control consumables.",
+        "source_url": "https://talkbusiness.net/2026/05/gowan-milling-to-expand-operations-in-blytheville/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "EPFL has launched two new interdisciplinary centers: the Robotics Center and the Center for Molecular Design in Medicine (MDM). These centers aim to bring together expertise, foster synergies, and accelerate innovation in their respective fields by promoting collaboration among laboratories, schools, and external partners, and securing funding for high-impact projects.",
+        "project_name": "Robotics Center and Center for Molecular Design in Medicine (MDM)",
+        "scope": "The Robotics Center will focus on breakthroughs in robot control and design, integrating expertise in material science, electronics, mechanics, control, and AI, with an emphasis on resilient and sustainable design. The Center for Molecular Design in Medicine (MDM) seeks to transform drug discovery and development by combining computational biology, bioengineering, structure-based methods (like cryo-EM), and next-generation screening (including organoids and automation) to accelerate the discovery of new therapies for diseases such as cancers, infectious diseases, and inflammatory disorders.",
+        "timeline": "The centers were launched on May 19, 2026, and are designed to foster long-term, multi-year collaborations and accelerate high-impact research projects.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of these interdisciplinary centers will generate significant demand for advanced scientific equipment, specialized reagents, and consumables across various disciplines, including robotics, AI, computational biology, bioengineering, cryo-EM, and high-throughput screening for drug discovery and disease research.",
+        "source_url": "https://actu.epfl.ch/news/two-new-interdisciplinary-centers-on-campus/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "EPFL appointed Angela Wittmann as Tenure Track Assistant Professor of Physical Chemistry, whose research focuses on spintronics and quantum technologies.",
+        "researcher_name": "Angela Wittmann",
+        "department_or_lab": "School of Basic Sciences (SB), Physical Chemistry",
+        "award_or_discovery": "Appointment as Tenure Track Assistant Professor",
+        "significance": "Her research on molecular chirality's influence on electron spin and magnetic properties has applications in spintronics and quantum technologies, strengthening EPFL's position in physical chemistry.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "New faculty appointments, especially in emerging fields like spintronics and quantum technologies, often lead to the establishment of new labs, requiring significant investment in specialized equipment, reagents, and consumables for materials synthesis and characterization.",
+        "source_url": "https://actu.epfl.ch/news/appointment-of-epfl-professors-202/"
+      },
+      {
+        "summary": "EPFL promoted Raffaella Buonsanti to Full Professor of Chemical Engineering, recognizing her expertise in nanochemistry, materials chemistry, and electrocatalysis.",
+        "researcher_name": "Raffaella Buonsanti",
+        "department_or_lab": "School of Basic Sciences (SB), Chemical Engineering (EPFL Valais Wallis)",
+        "award_or_discovery": "Promotion to Full Professor",
+        "significance": "Her work on controlled synthesis of nanocrystals and understanding dynamic catalyst surfaces is crucial for developing innovative nanomaterials addressing major societal challenges related to energy and sustainability.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Research in nanochemistry, materials chemistry, and electrocatalysis requires a wide array of specialized lab equipment for synthesis, characterization (e.g., electron microscopes, spectroscopes), and electrochemical testing, as well as various reagents and consumables.",
+        "source_url": "https://actu.epfl.ch/news/appointment-of-epfl-professors-202/"
+      },
+      {
+        "summary": "EPFL appointed Alexandre Schmid as Adjunct Professor in the School of Engineering, focusing on research at the interface of microelectronics and biological systems.",
+        "researcher_name": "Alexandre Schmid",
+        "department_or_lab": "School of Engineering (STI), Microelectronics and Biological Systems",
+        "award_or_discovery": "Appointment as Adjunct Professor",
+        "significance": "His work on implantable devices and bioelectronic interfaces has implications for medical technology and neuroscience.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Research in bioelectronic interfaces and implantable devices requires specialized microfabrication equipment, biocompatible materials, cell culture supplies, and analytical tools for testing device performance in biological environments.",
+        "source_url": "https://www.miragenews.com/appointment-of-epfl-professors-22-may-1678927/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:25:56.877271+00:00",
+  "ai_summary": "EPFL is undergoing significant expansion, launching new interdisciplinary centers for Robotics and Molecular Design in Medicine, and a new sustainable construction lab moving into a dedicated facility. They secured DARPA funding for quantum systems and appointed new professors in quantum technologies, nanochemistry, and bio-microelectronics. This broad growth signals substantial opportunities for lab supply sales across diverse scientific and engineering disciplines."
+}

@@ -1,0 +1,70 @@
+{
+  "account": "MSSTATE",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DdYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Mississippi State University's College of Professional and Continuing Studies (CPCS) received a 4-year U.S. Department of Education FIPSE grant (Award No. P116J250140) to fund the Skilled Workers Empowerment Program (STEP).",
+        "recipient": "Mississippi State University",
+        "department_or_lab": "College of Professional and Continuing Studies (CPCS)",
+        "amount": null,
+        "agency": "U.S. Department of Education",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant indicates upcoming demand for educational and training supplies, potentially including lab equipment or consumables for skilled trades programs.",
+        "source_url": "https://explore.msujobs.msstate.edu/en-us/job/510542/workforce-advisor-step"
+      },
+      {
+        "summary": "The CDC awarded Mississippi State University $888,000 as part of a High Obesity Program (HOP) cooperative agreement to work with community extension services in several Mississippi counties to reduce chronic disease risk.",
+        "recipient": "Mississippi State University",
+        "department_or_lab": "Community Extension Services",
+        "amount": 888000,
+        "agency": "CDC",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This funding for obesity and health disparities programs suggests demand for health-related lab supplies, educational materials, and potentially equipment for community outreach and research.",
+        "source_url": "https://www.cdc.gov/dnpao-state-local-programs/php/funding-by-state/index.html"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The USDA National Institute of Food and Agriculture (NIFA) announced its Equipment Grants Program (EGP) for Fiscal Year 2026, providing funding for eligible institutions to acquire major equipment and instruments for scientific research in food and agricultural sciences.",
+        "contract_name": "Equipment Grants Program (EGP)",
+        "estimated_value": "$2,800,000 (total program funding); individual awards range from $25,000 to $500,000",
+        "deadline_or_expiration": "2026-06-26",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This federal grant program offers an opportunity for Thomas Scientific to supply scientific equipment to Mississippi State University and other eligible land-grant institutions that successfully secure these awards.",
+        "source_url": "https://www.nifa.usda.gov/grants/funding-opportunities/equipment-grant-program"
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "The Genesis Mission Phase II is a U.S. Department of Energy (DOE) funding opportunity for large-scale, AI-driven scientific research, offering awards from $6 million to $15 million over three years to interdisciplinary teams. Mississippi State University's Office of Research Development is promoting this national initiative, which aims to build powerful scientific platforms for discovery science, national security, and energy innovation.",
+        "project_name": "Genesis Mission Phase II",
+        "scope": "Large-scale, AI-driven scientific research across 21 challenge topics and 99 focus areas, including Fusion Energy, Quantum Science, and Biotechnology. It requires collaboration between DOE/NNSA National Laboratories and industry partners to create an integrated infrastructure for scientific exploration.",
+        "timeline": "Awards are for a three-year period. The full application deadline was May 19, 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Successful participation by Mississippi State University researchers in this program will drive significant demand for advanced scientific equipment, reagents, and consumables to support AI-driven research, data generation, and interdisciplinary scientific exploration.",
+        "source_url": "https://www.ord.msstate.edu/initiatives-and-opportunities/genesis-mission"
+      }
+    ],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "The Mississippi State University Extension Soil Testing Lab has ceased operations, and all soil samples are now being directed to Southern Soil & Plant Lab, LLC for analysis.",
+        "facility_or_programme": "MSU Extension Soil Testing Lab",
+        "closure_type": "Facility Closure / Program Termination",
+        "effective_date": null,
+        "reason": "The MSU Extension Soil Testing Lab on campus is closing.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This closure represents a churn risk for Thomas Scientific if they previously supplied the MSU Extension Soil Testing Lab, and a competitive displacement opportunity if they can now supply Southern Soil & Plant Lab, LLC or other regional labs that may see increased volume.",
+        "source_url": "https://extension.msstate.edu/agriculture/soils/soil-testing"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:36:51.915898",
+  "ai_summary": "MSSTATE is actively pursuing and securing significant research funding. A new CDC grant supports public health initiatives, while the university promotes future USDA equipment grants and large DOE AI-driven research opportunities. These new and potential projects in food, agriculture, and discovery science indicate expanding lab needs. This creates strong opportunities for lab supply and equipment sales, despite the soil testing lab's closure."
+}

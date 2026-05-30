@@ -1,0 +1,32 @@
+{
+  "account": "PROMEGA",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1TuYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "SKUAST-Jammu has issued a rate contract for the supply of chemicals, glassware, plasticware, culture media, and biochemical kits for the financial year 2026-27, with Promega Biotech listed among the empanelled firms.",
+        "contract_name": "Rate-contract for purchase of chemicals, glassware, plastic ware, culture media, biochemical kits etc. for financial year 2026-27",
+        "estimated_value": null,
+        "deadline_or_expiration": "2027-03-31",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This rate contract indicates ongoing demand for lab supplies, reagents, and biochemical kits at SKUAST-Jammu, presenting an opportunity for Thomas Scientific to monitor future tenders or offer competitive alternatives for items not exclusively tied to Promega.",
+        "source_url": "https://skuastjammu.ac.in/admin/backend/news/1778756881cpc-14-05-2026_compressed.pdf.pdf"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:43:24.264667",
+  "ai_summary": "Promega Biotech has secured an empanelment for a rate contract with SKUAST-Jammu for FY 2026-27, covering a wide range of lab supplies including chemicals, glassware, and biochemical kits. This indicates Promega's success in winning broad institutional supply agreements. For a lab supply sales team, this means Promega is a strong competitor for diverse product categories, highlighting the need to monitor their expanding market presence and competitive pricing strategies for institutional tenders."
+}

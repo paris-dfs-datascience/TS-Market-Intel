@@ -1,0 +1,41 @@
+{
+  "account": "KBI BIOPHARMA",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1bZYAS",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "KBI Biopharma is showcasing advancements in cell line development at Swiss Biotech Day, including the development of the first viral-free host cell line for next-generation biomanufacturing and the evolution of their TranspoEase\u2122 platform to enhance efficiency and flexibility in advanced cell line development.",
+        "product_or_program": "Viral-free host cell line, TranspoEase\u2122 platform",
+        "stage": "Technology platform expansion/development",
+        "therapeutic_or_application_area": "Biotherapeutic development, next-generation biomanufacturing",
+        "event_date": "2026-05-04",
+        "why_it_matters": "These advancements indicate KBI Biopharma's investment in cutting-edge biomanufacturing technologies, suggesting potential for new client programs and increased demand for specialized lab supplies and reagents.",
+        "source_url": "https://www.kbibiopharma.com/conferences/may-2026-swiss-biotech-day"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Alcami Corporation, a U.S.-based contract development and manufacturing organization (CDMO), announced the completion of its acquisition of Tjoapack, a global contract packaging organization with facilities in the United States and The Netherlands. This expands Alcami's CDMO capabilities across the U.S. and Europe, strengthening packaging scale and supply chain redundancy for pharmaceutical and biotech customers.",
+        "acquirer": "Alcami Corporation",
+        "target": "Tjoapack",
+        "deal_value": null,
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This acquisition expands Alcami's packaging and supply chain services, creating new procurement opportunities for lab supplies, reagents, consumables, and scientific equipment as Tjoapack's operations integrate into Alcami's broader CDMO platform.",
+        "source_url": "https://www.prnewswire.com/news-releases/alcami-completes-acquisition-of-tjoapack-302762858.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:08:48.711050",
+  "ai_summary": "KBI Biopharma is advancing cell line development with new viral-free host cells and platform enhancements, signaling R&D and process optimization. This creates opportunities for lab supply sales in advanced cell culture reagents, media, and equipment. The competitive CDMO market, with Alcami expanding, means KBI must innovate, driving demand for cutting-edge lab supplies to maintain position."
+}

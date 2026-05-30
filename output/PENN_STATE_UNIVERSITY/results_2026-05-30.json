@@ -1,0 +1,58 @@
+{
+  "account": "PENN STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1D8YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A team of researchers from Penn State and the University of Wisconsin-Milwaukee, led by Janine Kwapis, has been awarded a five-year, $3.2 million grant to investigate the molecular mechanisms of post-traumatic stress disorder (PTSD) and exaggerated fear responses, utilizing techniques such as RNA sequencing, ChIP-seq, and CRISPR/Cas9 gene-editing.",
+        "recipient": "Janine Kwapis",
+        "department_or_lab": "Biological Sciences in the Penn State Eberly College of Science",
+        "amount": "$3.2 million",
+        "agency": "NIH (National Institute of Mental Health)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This project will require a wide range of molecular biology reagents, consumables for sequencing and gene editing, and potentially new equipment for advanced genomic analysis.",
+        "source_url": "https://www.psu.edu/news/eberly-college-science/story/3m-nih-grant-support-research-memory-and-exaggerated-fear-responses"
+      },
+      {
+        "summary": "Estelle Couradeau, an assistant professor of soils and environmental microbiology at Penn State, received a five-year, $1.6 million NSF CAREER Award to study how increasing temperature fluctuations impact the biocrust microbiome in arid ecosystems, focusing on cyanobacteria, lichens, mosses, and algae.",
+        "recipient": "Estelle Couradeau",
+        "department_or_lab": "College of Agricultural Sciences",
+        "amount": "$1.6 million",
+        "agency": "NSF (Faculty Early Career Development Program - CAREER)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This research will require microbiology consumables, reagents for studying microbiomes, and potentially equipment for environmental controls and analysis.",
+        "source_url": "https://www.psu.edu/news/research/story/soil-scientist-awarded-16m-nsf-grant-study-living-skin-arid-ecosystems"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Penn State College of Medicine has appointed Indira U. Mysorekar as vice dean for research, basic science and graduate studies within the Office of Research, Graduate Studies and Innovation, effective July 1. She will also be the Dorothy Foehr Huck and J. Lloyd Huck Chair in Medicine and professor of medicine and of cell and biological systems.",
+        "name": "Indira U. Mysorekar",
+        "department": "Office of Research, Graduate Studies and Innovation; Medicine; Cell and Biological Systems",
+        "start_date": "2026-07-01",
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.psu.edu/news/research/story/college-medicine-appoints-indira-mysorekar-vice-dean-role"
+      },
+      {
+        "summary": "Penn State College of Medicine has appointed Jennifer Kraschnewski as vice dean for research, clinical and translational science within the Office of Research, Graduate Studies and Innovation, effective July 1. She is also a professor of medicine, of pediatrics and of public health sciences.",
+        "name": "Jennifer Kraschnewski",
+        "department": "Office of Research, Graduate Studies and Innovation; Medicine; Pediatrics; Public Health Sciences",
+        "start_date": "2026-07-01",
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.psu.edu/news/research/story/college-medicine-appoints-jennifer-kraschnewski-vice-dean-role"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:47:15.193447+00:00",
+  "ai_summary": "Penn State secured over $4.8M in new grants for PTSD molecular mechanisms and environmental microbiology research, utilizing techniques like RNA-seq and CRISPR/Cas9. New Vice Deans for Basic and Clinical Research signal strategic expansion. This growth in funded research and leadership focus creates significant opportunities for lab supply sales, particularly for molecular biology reagents, sequencing kits, and microbiology consumables."
+}

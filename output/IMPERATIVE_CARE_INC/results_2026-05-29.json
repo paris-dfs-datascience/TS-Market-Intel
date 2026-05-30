@@ -1,0 +1,50 @@
+{
+  "account": "IMPERATIVE CARE INC",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1F4YAK",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Imperative Care announced the appointment of Jay Martin as Chief Commercial Officer.",
+        "name": "Jay Martin",
+        "department": "Commercial",
+        "start_date": "2026-05-14",
+        "event_date": "2026-05-14",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.businesswire.com/news/home/20260514013456/en/Imperative-Care-Appoints-Jay-Martin-as-Chief-Commercial-Officer"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Imperative Care announced the appointment of Jay Martin as Chief Commercial Officer to lead the company's commercial strategy, expand strategic partnerships, and build scalable infrastructure for continued growth and commercialization efforts.",
+        "tender_name": null,
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This appointment signals an aggressive commercial expansion strategy, which will likely increase demand for lab supplies, reagents, consumables, and scientific equipment to support expanded sales, marketing, and product deployment.",
+        "source_url": "https://www.businesswire.com/news/home/20260514356782/en/Imperative-Care-Appoints-Jay-Martin-as-Chief-Commercial-Officer"
+      },
+      {
+        "summary": "Medical Product Outsourcing reported that Imperative Care secured $100 million in financing to advance its stroke care and robotic technologies.",
+        "tender_name": null,
+        "estimated_value": 100000000,
+        "deadline": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "The significant capital infusion indicates increased investment in R&D, clinical trials, and manufacturing for stroke care and robotic technologies, directly leading to higher demand for specialized lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.mpo-mag.com/breaking-news/masimo-shareholders-ok-9-9b-merger-deal-with-danaher/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:04:01.805982",
+  "ai_summary": "Imperative Care appointed a Chief Commercial Officer to lead growth and commercialization, while securing $100 million for stroke care and robotic technology advancement. This signals significant expansion and product development, creating immediate opportunities for lab supply sales. Increased R&D, testing, and manufacturing efforts will drive demand for consumables and equipment, making proactive engagement crucial."
+}

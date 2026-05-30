@@ -1,0 +1,60 @@
+{
+  "account": "BIOMERIEUX",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1XgYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Spices Board India has issued a tender for the supply of Biomerieux Vidas Salmonella Slm (Product Code 30702, 1x60nos) and Biomerieux Salmonella Sx2 Broth (Product Code 42121, 1x20nos).",
+        "contract_name": "Supply Of Biomerieux Vidas Salmonella Slm (1x60nos) - Product Code 30702 , Biomerieux Salmonella Sx2 Broth (1x20nos) - Product Code 42121",
+        "estimated_value": "\u20b90.00",
+        "deadline_or_expiration": "2026-05-16",
+        "event_date": "2026-04-25",
+        "why_it_matters": "This tender indicates a specific demand from Spices Board India for BIOMERIEUX Salmonella testing reagents, representing a direct sales opportunity for Thomas Scientific if they supply these products or competitive alternatives.",
+        "source_url": "https://classictenders.com/view-search-tenders/supply-of-biomerieux-vidas-salmonella-slm-1x60nos-product-code-30702-biomer/45002225/live"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "bioM\u00e9rieux announced a strategic investment of over \u20ac250 million to construct a new manufacturing facility in La Balme-les-Grottes, Is\u00e8re, France, dedicated to producing PCR tests from its BIOFIRE\u00ae range.",
+        "project_name": "New BIOFIRE\u00ae PCR Test Manufacturing Facility in France",
+        "scope": "The project involves building a new manufacturing facility for BIOFIRE\u00ae range PCR tests, aiming to create approximately 400 jobs and secure the supply of essential diagnostic solutions for the European market. The facility is expected to be operational by 2030.",
+        "timeline": "The facility is scheduled to become operational by 2030.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This significant investment in a new manufacturing facility will generate substantial demand for lab supplies, reagents, consumables, and scientific equipment required for the production of PCR tests.",
+        "source_url": "https://www.marketscreener.com/quote/stock/BIOMERIEUX-4620/news/BioMerieux-to-build-new-production-facility-in-Isere-43940173/"
+      },
+      {
+        "summary": "Minaris Advanced Testing has expanded its rapid mycoplasma detection services by integrating bioM\u00e9rieux's BIOFIRE\u00ae Mycoplasma platform, aiming to reduce turnaround time for release and in-process testing for advanced therapies.",
+        "project_name": "Minaris Advanced Testing Mycoplasma Detection Service Expansion with BIOFIRE\u00ae Platform",
+        "scope": "Implementation of bioM\u00e9rieux's BIOFIRE\u00ae Mycoplasma platform at Minaris Advanced Testing to offer rapid PCR mycoplasma testing, significantly decreasing the turnaround time for mycoplasma detection in advanced therapies.",
+        "timeline": "Not explicitly stated, but the expanded service is now offered.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The adoption of bioM\u00e9rieux's BIOFIRE\u00ae Mycoplasma platform by Minaris indicates an increased demand for bioM\u00e9rieux's diagnostic instruments, as well as associated consumables and reagents for mycoplasma detection.",
+        "source_url": "https://www.prnewswire.com/news-releases/minaris-expands-rapid-mycoplasma-detection-services-with-biomerieuxs-biofire-platform-to-reduce-turnaround-time-for-release-and-in-process-testing-302472900.html"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "The US Food and Drug Administration granted 20 in vitro diagnostics-related 510(k) clearances in April, including products from BioM\u00e9rieux, for devices and assays related to antimicrobial susceptibility, infectious diseases, and other lab tests.",
+        "product_or_site": "In Vitro Diagnostic Products (general, specific products not detailed in source)",
+        "regulatory_action": "510(k) clearance",
+        "outcome": "Cleared",
+        "event_date": "2026-05-21",
+        "why_it_matters": "FDA 510(k) clearances for BioM\u00e9rieux IVD products indicate upcoming demand for associated lab supplies, reagents, and consumables as these products become available for wider use.",
+        "source_url": "https://www.360dx.com/regulatory-news-fda-approvals/fda-clears-vitro-diagnostic-products-roche-biomerieux-abbott-becton"
+      }
+    ],
+    "volume": [],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:18:52.552849",
+  "ai_summary": "BioM\u00e9rieux is actively expanding, investing \u20ac250M in a new BIOFIRE\u00ae PCR test facility and securing US FDA clearances for new IVD products. Their BIOFIRE\u00ae platform is also gaining adoption, as seen with Minaris. This growth signals increased demand for lab supplies, reagents, and equipment to support their expanded manufacturing, new product launches, and growing customer base, creating significant sales opportunities."
+}

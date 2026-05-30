@@ -1,0 +1,74 @@
+{
+  "account": "SOURCEWELL",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1D9YAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Sourcewell is requesting proposals for Electrical Energy Power Generation Equipment, which includes a PSC code for Laboratory Equipment And Supplies, for use by its participating entities across the United States and Canada.",
+        "contract_name": "Electrical Energy Power Generation Equipment with Related Parts, Supplies, and Services",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-24",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This solicitation indicates a potential demand for laboratory equipment and supplies through Sourcewell, offering an opportunity for Thomas Scientific to bid or partner.",
+        "source_url": "https://highergov.com/opportunity/sourcewell-electrical-energy-power-generation-equipment-with-related-parts-supplies-and-services-2026-05-07/"
+      },
+      {
+        "summary": "The New York State Office of General Services' Procurement Services Quarterly Update for May 2026 lists 'Medical and Laboratory Supplies and Equipment' as a contract award in progress.",
+        "contract_name": "Medical and Laboratory Supplies and Equipment (IFB 23413)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "This federal procurement solicitation for medical and laboratory supplies and equipment represents a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://ogs.ny.gov/procurement-services-quarterly-update-may-2026"
+      },
+      {
+        "summary": "The City of Sarasota's contract reference list, updated April 30, 2026, includes an existing GSA Multiple Award Schedule contract for 'Laboratory Equipment and Supplies' with Fisher Scientific Company LLC.",
+        "contract_name": "Laboratory Equipment and Supplies (GSA Multiple Award Schedule)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2029-06-30",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates ongoing demand for laboratory equipment and supplies through GSA schedules, highlighting a competitive landscape and potential for Thomas Scientific to pursue similar contracts or sub-contracting opportunities.",
+        "source_url": "https://www.sarasotafl.gov/home/showdocument?id=7501"
+      },
+      {
+        "summary": "SUNY Downstate Health Sciences University is procuring Childbirth Simulators and Related Items via a GSA Contract, classified under Medical & Laboratory Equipment - Commodities and Analytical Laboratory Instrument Manufacturing.",
+        "contract_name": "Childbirth Simulators and Related Items",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "This GSA contract for specialized medical and laboratory equipment, including analytical instruments, signals a demand for scientific equipment that Thomas Scientific may be able to supply.",
+        "source_url": "https://highergov.com/opportunity/childbirth-simulators-and-related-items-2026-04-30/"
+      }
+    ],
+    "expansion": [],
+    "project": [],
+    "tender": [
+      {
+        "summary": "An Invitation for Bid (IFB 23413) for Medical and Laboratory Supplies and Equipment is in progress as part of the New York State Office of General Services' procurement activities.",
+        "tender_name": "Medical and Laboratory Supplies and Equipment (Group 12000 / IFB 23413)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "This indicates an active procurement process for a broad range of lab supplies and equipment, presenting a direct sales opportunity for Thomas Scientific to participate or monitor for future sub-contracting.",
+        "source_url": "https://ogs.ny.gov/news/procurement-services-quarterly-update-may-2026"
+      },
+      {
+        "summary": "An existing statewide contract (Award 23154) for Medical and Laboratory Supplies and Equipment, including laboratory supplies, medical supplies, chemicals, and biologicals, was updated on May 22, 2026.",
+        "tender_name": "Award 23154 - Medical and Laboratory Supplies and Equipment (Statewide)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "The update of this statewide contract signifies ongoing demand and potential for Thomas Scientific to become a supplier or partner with existing awardees for laboratory supplies, medical supplies, chemicals, and biologicals.",
+        "source_url": "https://ogs.ny.gov/contract-award-23154"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:45:50.021531",
+  "ai_summary": "Sourcewell and its participating entities are actively engaged in significant procurement of laboratory equipment and supplies. Sourcewell itself is seeking proposals that include lab supplies, while New York State has multiple ongoing tenders and updated contracts for medical and laboratory items. This continuous activity, including existing competitor contracts, signals a broad and evolving demand for lab supplies, chemicals, and specialized equipment across government and educational sectors, presenting numerous sales opportunities."
+}

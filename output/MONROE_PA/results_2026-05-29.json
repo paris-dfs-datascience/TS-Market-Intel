@@ -1,0 +1,50 @@
+{
+  "account": "MONROE, PA",
+  "account_vertical": "Government",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "State Representative Maureen Madden announced over $1.5 million in Local Share Account grant funding for various community projects in Monroe County, Pennsylvania, including $116,626 for the Crescent Lake Well Water System Project.",
+        "mandate_type": "Environmental Monitoring Mandate",
+        "jurisdiction": "Monroe County, PA",
+        "funding_amount": 116626,
+        "effective_date": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This funding for a well water system project will create non-discretionary demand for lab supplies and equipment for water quality testing and environmental monitoring.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN6RKzqHUe5Mq3B9eAx7DobacdyuUOMYb5gUqlFCZ5wV8ylOlO7aMB8l7pntt-Xru94mVPopQvslh-cQKxmX0DwpoEn4KBBxeY_x3GybyMXyILm2n8kxOpA1dNTvMQZ8jkrW_D0GpfUOf-0F1m437SFUE="
+      },
+      {
+        "summary": "State Representative Maureen Madden announced over $1.5 million in Local Share Account grant funding for various community projects in Monroe County, Pennsylvania, including $280,288 for the Skytop Lodge Sewage Treatment Improvement Project.",
+        "mandate_type": "Wastewater Surveillance Program",
+        "jurisdiction": "Monroe County, PA",
+        "funding_amount": 280288,
+        "effective_date": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This funding for a sewage treatment improvement project will create non-discretionary demand for lab supplies and equipment for wastewater testing and monitoring.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN6RKzqHUe5Mq3B9eAx7DobacdyuUOMYb5gUqlFCZ5wV8ylOlO7aMB8l7pntt-Xru94mVPopQvslh-cQKxmX0DwpoEn4KBBxeY_x3GybyMXyILm2n8kxOpA1dNTvMQZ8jkrW_D0GpfUOf-0F1m437SFUE="
+      }
+    ],
+    "legislation": [
+      {
+        "summary": "Sanofi Pasteur Inc. in Monroe County, PA, received $10,646,316 in federal funding through the Reducing Industrial Sector Emissions in Pennsylvania (RISE PA) Program to replace its egg waste processing system for improved energy efficiency and reduced industrial process emissions at its vaccine manufacturing facility.",
+        "bill_or_budget_name": "Reducing Industrial Sector Emissions in Pennsylvania (RISE PA) Program",
+        "jurisdiction": "Federal (via Pennsylvania Department of Environmental Protection)",
+        "funding_amount": "$10,646,316",
+        "focus_area": "Environmental monitoring, scientific research programs (vaccine manufacturing facility)",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This funding will likely lead to demand for new lab equipment and consumables for environmental monitoring and process control within the vaccine manufacturing facility.",
+        "source_url": "https://www.pa.gov/agencies/dep/newsroom/2026-04-28-shapiro-administration-invests-more-than-267-million-to-reduce-air-pollution-cut-energy-costs-create-jobs"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:35:44.484761",
+  "ai_summary": "Monroe County government secured $1.5 million for water and sewage treatment projects, requiring environmental testing supplies. Sanofi Pasteur in Monroe County also received $10.6 million for a vaccine manufacturing waste system upgrade. This major lab facility investment creates opportunities for analytical instruments, reagents, and consumables for process control and environmental analysis, making it a key area for lab supply sales."
+}

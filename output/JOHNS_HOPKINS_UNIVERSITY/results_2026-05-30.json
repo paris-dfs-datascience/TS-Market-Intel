@@ -1,0 +1,70 @@
+{
+  "account": "JOHNS HOPKINS UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1ZPYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Noa Perlmutter, an undergraduate student in the Department of Psychological & Brain Sciences at Johns Hopkins University, received an NSF fellowship to support her research in the Firestone/Phillips lab.",
+        "recipient": "Noa Perlmutter",
+        "department_or_lab": "Firestone/Phillips lab, Department of Psychological & Brain Sciences",
+        "amount": "Not specified for the university/lab",
+        "agency": "NSF",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This fellowship indicates upcoming research activity in the Firestone/Phillips lab, suggesting potential demand for lab supplies and consumables.",
+        "source_url": "https://psych.jhu.edu/news/noa-perlmutter-received-an-nsf-fellowship/"
+      },
+      {
+        "summary": "The Maternal Health Data Innovation and Coordination Hub at Johns Hopkins University received $2,029,750 through the NIH IMPROVE Initiative in FY25 to support research aimed at reducing preventable maternal death.",
+        "recipient": "Maternal Health Data Innovation and Coordination Hub",
+        "department_or_lab": "Maternal Health Data Innovation and Coordination Hub",
+        "amount": "$2,029,750",
+        "agency": "NIH",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This significant NIH grant indicates a substantial increase in research activity, likely leading to increased demand for specialized lab equipment, reagents, and data analysis tools.",
+        "source_url": "https://blackmaternalhealthcaucus.house.gov/news/documentsingle.aspx?DocumentID=4042"
+      },
+      {
+        "summary": "Johns Hopkins University, in a joint collaboration with Portland State University, received funding from the National Science Foundation (NSF) and the U.S. Department of Energy's Wind Energy Technologies Office (WETO) for a project to accelerate floating offshore wind research.",
+        "recipient": "Johns Hopkins University",
+        "department_or_lab": "Not specified beyond Johns Hopkins University (project involves computational and experimental methods)",
+        "amount": "Not specified for Johns Hopkins University",
+        "agency": "NSF, U.S. Department of Energy (WETO)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This joint funding suggests upcoming research in wind energy, potentially creating demand for equipment related to computational modeling, experimental fluid dynamics, and specialized sensors or materials.",
+        "source_url": "https://www.energy.gov/eere/wind/articles/weto-and-national-science-foundation-award-funding-accelerate-floating-offshore"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Johns Hopkins University is moving forward with plans for a $196 million data science and computing center in East Baltimore, with a $9 million grant approved by the Maryland Board of Public Works.",
+        "project_name": "Data Science and Computing Center / Data Science and Artificial Intelligence Institute",
+        "scope": "The new 25,000-square-foot facility will support life sciences, biomedical research, and large-scale data processing initiatives, expanding the university's research and artificial intelligence capabilities. It will work in conjunction with Hopkins' forthcoming Data Science and Artificial Intelligence Institute.",
+        "timeline": "Multi-year construction and operational phase.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This significant investment in advanced computing infrastructure for life sciences and biomedical research will drive demand for high-performance computing equipment, data storage solutions, and specialized lab consumables for AI-driven scientific discovery.",
+        "source_url": "https://threee60.com/johns-hopkins-university-plans-196m-data-science-and-computing-center-in-east-baltimore/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "A multinational Hepatitis B and HIV Cure Consortium, led by Johns Hopkins Medicine, received a five-year, multi-million-dollar award from the National Institute of Allergy and Infectious Diseases to pursue a cure for hepatitis B, a viral infection affecting approximately 300 million people worldwide.",
+        "researcher_name": "Not specified (Consortium led by Johns Hopkins Medicine)",
+        "department_or_lab": "Johns Hopkins Medicine (leading the multinational Hepatitis B and HIV Cure Consortium)",
+        "award_or_discovery": "Multi-million-dollar award from the National Institute of Allergy and Infectious Diseases for a Hepatitis B and HIV Cure Consortium",
+        "significance": "The consortium aims to cure hepatitis B, a currently uncurable viral infection, representing a major funding commitment to high-impact research.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This multi-million-dollar award signals a significant increase in research activity at Johns Hopkins Medicine focused on viral cures, driving demand for specialized reagents, antiviral compounds, and advanced diagnostic and analytical equipment.",
+        "source_url": "https://lespaniersdelucette.fr/next/2026/05/11/anthropic-says-evil-ai-stories-were-responsible-for-claudes-blackmail-attempts"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:32:26.896806+00:00",
+  "ai_summary": "Johns Hopkins University is experiencing significant growth with new multi-million dollar grants for maternal health, infectious disease, and wind energy research, alongside a major data science center project. This influx of funding across diverse scientific fields signals increased demand for a wide array of lab supplies, from basic consumables to specialized reagents and equipment, presenting substantial sales opportunities for our team."
+}

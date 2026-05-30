@@ -1,0 +1,155 @@
+{
+  "account": "AMWATER",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1E2YAK",
+  "signals": {
+    "grant": [],
+    "capital": [
+      {
+        "summary": "Pennsylvania American Water announced plans to spend more than $50 million in 2026 on permanent restoration of streets, sidewalks, and other surfaces impacted by water main replacements and wastewater pipe upgrades across the Commonwealth.",
+        "project_name": "2026 Street and Sidewalk Restoration (related to water and wastewater system upgrades)",
+        "location": "Across Pennsylvania",
+        "value": "$50 million+",
+        "timeline": "2026",
+        "event_date": "2026-05-12",
+        "why_it_matters": "The underlying water main and wastewater pipe upgrades indicate ongoing infrastructure projects that will require various lab supplies for water quality testing, process monitoring, and environmental analysis.",
+        "source_url": "https://www.prnewswire.com/news-releases/pennsylvania-american-water-announces-2026-restoration-work-across-the-commonwealth-302775056.html"
+      },
+      {
+        "summary": "American Water Works Company, Inc. and Essential Utilities, Inc. announced a merger, with the combined entity planning to invest $28 billion in infrastructure over the next five years, including pipe replacements and treatment upgrades.",
+        "project_name": "Combined Company Infrastructure Investment Post-Merger",
+        "location": "Across 17 states",
+        "value": "$28 billion (over five years)",
+        "timeline": "Over the next five years, following merger close (expected by end of Q1 2027)",
+        "event_date": "2026-05-29",
+        "why_it_matters": "A $28 billion investment in infrastructure, including treatment upgrades, signifies substantial demand for water quality testing equipment, reagents, and consumables for new and upgraded treatment facilities, as well as potential for new laboratory construction or expansion.",
+        "source_url": "https://stocktitan.com/news/WTRG/american-water-essential-utilities-merger-to-serve-4-7m-customers-wtrg-x216s341103.html"
+      },
+      {
+        "summary": "Illinois American Water announced plans for approximately $290 million in infrastructure investments in 2026, with a total of $570 million planned through 2027, focusing on lead service line replacement, PFAS-related treatment, and water treatment plant improvements.",
+        "project_name": "2026 Infrastructure Investments (including lead service line replacement, PFAS treatment, water treatment plant improvements)",
+        "location": "Across Illinois",
+        "value": "$290 million (for 2026)",
+        "timeline": "2026 (with plans through 2027)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Significant investments in water treatment plant improvements and PFAS treatment indicate a strong demand for analytical instruments, reagents, and consumables for water quality monitoring, process control, and environmental testing.",
+        "source_url": "https://www.prnewswire.com/news-releases/illinois-american-water-highlights-290-million-of-infrastructure-investments-expected-in-2026-during-infrastructure-week-302775055.html"
+      }
+    ],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Pennsylvania American Water is investing $143 million to build a new Lock 57 water treatment plant.",
+        "location": "Royersford, Pennsylvania.",
+        "type_of_expansion": "New facility (water treatment plant).",
+        "investment_value": 143000000,
+        "event_date": "2026-05-05",
+        "why_it_matters": "A new water treatment plant will require new lab supplies, reagents, consumables, and scientific equipment for water quality testing and process control.",
+        "source_url": "https://vista.today/2026/05/pennsylvania-american-water-lock-57-royersford/"
+      },
+      {
+        "summary": "Tennessee American Water is highlighting over $40 million in planned infrastructure improvements for 2026, including electrical infrastructure upgrades at the Citico Water Treatment Plant in Chattanooga and a new 750,000-gallon composite elevated tank in the Lookout Valley area.",
+        "location": "Chattanooga and Lookout Valley area, Tennessee.",
+        "type_of_expansion": "Capacity expansion (upgrades to water treatment plant, new storage tank).",
+        "investment_value": 40000000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "Upgrades to a water treatment plant and new infrastructure will necessitate new lab supplies for water quality monitoring, process optimization, and equipment maintenance.",
+        "source_url": "https://www.barchart.com/story/news/1998522/tennessee-american-water-highlights-over-40-million-in-planned-investments-in-2026-during-infrastructure-week"
+      },
+      {
+        "summary": "American Water Works' subsidiaries outlined roughly US$277,000,000 in infrastructure programs in California for 2026 to modernize regulated water and wastewater systems.",
+        "location": "California.",
+        "type_of_expansion": "Capacity expansion (infrastructure programs for water and wastewater systems).",
+        "investment_value": 277000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Extensive infrastructure programs for water and wastewater systems will require ongoing procurement of lab supplies for water quality testing, environmental monitoring, and process control.",
+        "source_url": "https://simplywall.st/stocks/us/utilities/nyse-awk/american-water-works/news/is-new-multistate-infrastructure-spending-and-debt-issue-alt"
+      },
+      {
+        "summary": "American Water Works' subsidiaries outlined roughly US$290,000,000 in infrastructure programs in Illinois for 2026 to modernize regulated water and wastewater systems.",
+        "location": "Illinois.",
+        "type_of_expansion": "Capacity expansion (infrastructure programs for water and wastewater systems).",
+        "investment_value": 290000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Significant infrastructure investments in water and wastewater systems will drive demand for lab supplies, reagents, and equipment for water quality analysis and operational support.",
+        "source_url": "https://simplywall.st/stocks/us/utilities/nyse-awk/american-water-works/news/is-new-multistate-infrastructure-spending-and-debt-issue-alt"
+      },
+      {
+        "summary": "American Water Works' subsidiaries outlined about US$17,800,000 for Pennsylvania storage tanks in 2026 as part of their infrastructure programs.",
+        "location": "Pennsylvania.",
+        "type_of_expansion": "Capacity expansion (new/upgraded storage tanks).",
+        "investment_value": 17800000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Investment in new or upgraded water storage infrastructure will require lab supplies for water quality monitoring and system integrity checks.",
+        "source_url": "https://simplywall.st/stocks/us/utilities/nyse-awk/american-water-works/news/is-new-multistate-infrastructure-spending-and-debt-issue-alt"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Illinois American Water announced approximately $290 million in water and wastewater infrastructure investments for 2026, part of a larger $570 million plan through 2027. These investments include replacing aging infrastructure, lead service lines, enhanced water treatment for PFAS, and wastewater system improvements. Specific projects include $15.5 million for Water Treatment Plant improvements in Sterling and $6.5 million for PFOS water treatment plant upgrades in Lincoln.",
+        "project_name": "Illinois American Water 2026 Infrastructure Investments (including PFAS Treatment)",
+        "scope": "Upgrading aging water and wastewater infrastructure, replacing lead service lines, enhancing water treatment (specifically for PFAS/PFOS), wastewater system improvements, and technology upgrades across multiple Illinois communities.",
+        "timeline": "Approximately $290 million in 2026, with a total of $570 million through 2027.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Projects focused on enhanced water treatment, particularly for PFAS/PFOS, will drive demand for specialized laboratory equipment, reagents, and consumables for water quality testing, analysis, and treatment process monitoring.",
+        "source_url": "https://www.stocktitan.net/news/AWK/illinois-american-water-highlights-290-million-of-infrastructure-z3xd3yzuj2em.html"
+      },
+      {
+        "summary": "Pennsylvania American Water is investing $143 million to build the new Lock 57 Water Treatment Plant in Royersford, Pennsylvania. The project aims to boost capacity, improve water quality, and address PFAS. The facility is expected to be completed by summer 2027.",
+        "project_name": "Lock 57 Water Treatment Plant",
+        "scope": "Construction of a new water treatment plant to increase capacity, improve water quality, and address PFAS contamination for approximately 52,000 residents in the Royersford District.",
+        "timeline": "Ground broken in October 2023, expected completion by summer 2027, with operations anticipated later that year.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The construction of a new water treatment plant, especially one focused on improving water quality and addressing PFAS, will create significant demand for new laboratory equipment, reagents, and consumables for water quality testing, process control, and environmental monitoring.",
+        "source_url": "https://vista.today/2026/05/pennsylvania-american-water-lock-57-royersford/"
+      }
+    ],
+    "tender": [],
+    "mandate": [],
+    "legislation": [
+      {
+        "summary": "Illinois American Water, a subsidiary of American Water, announced approximately $290 million in planned infrastructure investments for 2026, focusing on upgrading aging infrastructure, enhancing water quality, and addressing lead service line replacement and PFAS treatment.",
+        "bill_or_budget_name": "Illinois American Water 2026 Infrastructure Investments",
+        "jurisdiction": "Illinois",
+        "funding_amount": 290000000,
+        "focus_area": "Laboratory infrastructure, public health testing, environmental monitoring, water quality, lead service line replacement, PFAS treatment",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This significant investment in water quality and treatment infrastructure will drive demand for laboratory testing, reagents, consumables, and scientific equipment for ongoing monitoring and analysis.",
+        "source_url": "https://www.stocktitan.net/news/AWK/illinois-american-water-highlights-290-million-of-infrastructure-z3xd3yzuj2em.html"
+      },
+      {
+        "summary": "Illinois American Water plans approximately $32 million in 2026 for lead service line replacement, a program that has replaced over 5,000 service lines since 2020. The company also highlighted the 45th anniversary of its Central Laboratory, underscoring its long-term testing capabilities.",
+        "bill_or_budget_name": "Illinois American Water 2026 Lead Service Line Replacement Program",
+        "jurisdiction": "Illinois",
+        "funding_amount": 32000000,
+        "focus_area": "Public health testing, environmental monitoring, lead service line replacement, water quality",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The substantial investment in lead service line replacement directly necessitates increased lead testing and water quality monitoring, leading to demand for specialized lab equipment and consumables.",
+        "source_url": "https://www.stocktitan.net/news/AWK/water-quality-reports-available-online-for-illinois-american-water-8g7g9ygflls4.html"
+      },
+      {
+        "summary": "Pennsylvania American Water announced plans to commit $631 million for 2026 infrastructure investments, as part of its parent company's commitment of up to $48 billion over ten years to modernize infrastructure and strengthen resilience.",
+        "bill_or_budget_name": "Pennsylvania American Water 2026 Infrastructure Investments",
+        "jurisdiction": "Pennsylvania",
+        "funding_amount": 631000000,
+        "focus_area": "Water quality, infrastructure modernization, environmental monitoring",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This significant infrastructure spending will require extensive water quality testing, environmental monitoring, and potentially new laboratory equipment and consumables to support modernized systems.",
+        "source_url": "https://www.stocktitan.net/news/AWK/pennsylvania-american-water-highlights-local-infrastructure-needs-as-nliyw2evlfmp.html"
+      },
+      {
+        "summary": "Pennsylvania American Water is investing $143 million to construct the new Lock 57 Water Treatment Plant in Royersford, which will address PFAS contamination and is expected to be completed by summer 2027.",
+        "bill_or_budget_name": "Lock 57 Water Treatment Plant Construction",
+        "jurisdiction": "Pennsylvania",
+        "funding_amount": 143000000,
+        "focus_area": "Environmental monitoring, public health testing, PFAS treatment, water quality, laboratory infrastructure",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The construction of a new treatment plant specifically for PFAS remediation will create substantial demand for specialized PFAS testing equipment, reagents, and ongoing water quality monitoring supplies for the new facility.",
+        "source_url": "https://vista.today/2026/05/pennsylvania-american-water-lock-57-royersford/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:16:06.108552",
+  "ai_summary": "AMWATER is undertaking multi-billion dollar infrastructure investments across numerous states, focusing on replacing aging pipes, expanding treatment capacity with new plants, and addressing contaminants like PFAS and lead. This massive capital expenditure and emphasis on water quality and compliance will significantly increase demand for laboratory testing equipment, consumables, and analytical services for process control and environmental monitoring."
+}

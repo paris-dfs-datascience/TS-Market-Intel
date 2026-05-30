@@ -1,0 +1,39 @@
+{
+  "account": "BROAD INSTITUTE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1cEYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A preclinical study on precision DNA editing to target severe childhood epilepsy, conducted by a team including Broad Institute's David Liu, was supported by several NIH institutes.",
+        "recipient": "David Liu",
+        "department_or_lab": "Broad Institute's Merkin Institute of Transformative Technologies in Healthcare",
+        "amount": null,
+        "agency": "National Institute of General Medical Sciences (NIGMS), National Human Genome Research Institute (NHGRI), National Institute of Neurological Disorders and Stroke (NINDS)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This research indicates a need for reagents and consumables for DNA editing, genetic sequencing, and neurological research, presenting sales opportunities for relevant lab supplies.",
+        "source_url": "https://www.broadinstitute.org/news/precision-dna-editing-targets-root-cause-severe-childhood-epilepsy-preclinical-study"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Biohub, in collaboration with the Broad Institute and other institutions, launched the Virtual Biology Initiative, a five-year, $500 million global effort to create technologies and multi-modal datasets for building predictive models of life.",
+        "project_name": "Virtual Biology Initiative",
+        "scope": "A landmark five-year initiative to galvanize a global effort to create the technologies and multi-modal datasets needed to build predictive models of life, leveraging genome engineering, multiomics, and cellular, mammalian, and ML models. The initiative involves generating data at scale and developing next-generation technologies for measuring, imaging, and engineering biology.",
+        "timeline": "Five-year initiative",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This initiative will drive significant demand for advanced genomic sequencing equipment, multiomics reagents, and high-throughput screening consumables to generate the vast datasets required for building predictive biological models.",
+        "source_url": "https://www.genomeweb.com/business-news/biohub-commits-500m-global-initiative-building-ai-based-predictive-cell-models"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:25:16.886860",
+  "ai_summary": "Broad Institute is driving significant, well-funded research, from NIH-backed precision gene editing for childhood epilepsy to a $500M Virtual Biology Initiative. These projects indicate a high demand for advanced lab supplies, including molecular biology reagents, cell culture consumables, and high-throughput instrumentation. This presents substantial opportunities for lab supply sales teams to support cutting-edge, long-term research initiatives."
+}

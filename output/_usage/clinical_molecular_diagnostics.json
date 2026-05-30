@@ -1,0 +1,43 @@
+{
+  "api_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "token_cost": 0.0,
+  "grounding_cost": 0.0,
+  "total_cost": 0.0,
+  "projected_cost": 0.0,
+  "cost_per_hit": 0.0,
+  "successes": 0,
+  "timeouts": 0,
+  "errors": 0,
+  "empty": 0,
+  "retries": 0,
+  "success_rate": 0,
+  "total_hits": 0,
+  "accounts_done": 41,
+  "accounts_with_data": 21,
+  "run_duration": "0m 0s",
+  "signal_breakdown": {},
+  "slowest_accounts": [
+    {
+      "account": "AMBRY",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "ARUP",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "BAYLOR GENETICS",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "BIOMERIEUX",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "BODE TECHNOLOGY GROUP",
+      "elapsed_s": 0.0
+    }
+  ]
+}

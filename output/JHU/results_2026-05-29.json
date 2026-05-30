@@ -1,0 +1,139 @@
+{
+  "account": "JHU",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CDYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Johns Hopkins University received $3.9 million from HHS for research characterizing intersecting sexual, gender, and race-based stigmas affecting communities of U.S. transgender women and cisgender men who are sexually active with men.",
+        "recipient": "Johns Hopkins University",
+        "department_or_lab": null,
+        "amount": "$3.9 million",
+        "agency": "HHS",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This grant indicates potential demand for lab supplies and reagents for social science or public health research at JHU.",
+        "source_url": "https://washingtonstand.com/article/report-federal-funding-of-critical-medical-defense-research-at-elite-schools-also-pays-for-pointless-studies"
+      },
+      {
+        "summary": "Johns Hopkins University, in collaboration with Portland State University, received funding from the National Science Foundation (NSF) and the U.S. Department of Energy's Wind Energy Technologies Office (WETO) for a project to accelerate floating offshore wind research, combining computational and experimental methods to develop more accurate tools for wind farm design and optimization.",
+        "recipient": "Johns Hopkins University",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Science Foundation (NSF) and U.S. Department of Energy (WETO)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This grant suggests demand for engineering equipment, computational resources, and potentially specialized lab supplies for fluid dynamics and renewable energy research.",
+        "source_url": "https://www.energy.gov/cmei/systems/articles/weto-and-national-science-foundation-award-funding-accelerate-floating"
+      },
+      {
+        "summary": "Six Johns Hopkins University chemical and biomolecular engineering students were awarded 2026 NSF Graduate Research Fellowships to support their research in areas such as renewable energy conversion, polymer-based nanoparticles for disease treatment, and microbial therapeutics.",
+        "recipient": "Six Johns Hopkins University students",
+        "department_or_lab": "Department of Chemical and Biomolecular Engineering",
+        "amount": null,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "These fellowships indicate ongoing and future demand for a wide range of lab supplies, reagents, and equipment across various chemical and biomolecular engineering research areas.",
+        "source_url": "https://engineering.jhu.edu/chembe/news/nsf-grfp-2026/"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "Johns Hopkins University is moving forward with plans for a $196 million data science and computing center in East Baltimore aimed at expanding the university's research and artificial intelligence capabilities, with the Maryland Board of Public Works approving a $9 million grant for the project.",
+        "project_name": "Data Science and Computing Center",
+        "location": "East Baltimore, 5400 E. Lombard St., Johns Hopkins Bayview Medical Center campus",
+        "value": "$196 million",
+        "timeline": "Plans are moving forward; completion timeline not specified in the article.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This new facility will require extensive IT infrastructure, specialized computing equipment, and potentially new lab supplies to support advanced data science, artificial intelligence, life sciences, and biomedical research.",
+        "source_url": "https://threee60.com/johns-hopkins-university-plans-196m-data-science-and-computing-center-in-east-baltimore/"
+      },
+      {
+        "summary": "Johns Hopkins Medical Institutions dedicated its new $59 million cancer research facility, named The Bunting Family - The Family of Jacob and Hilda Blaustein Building, which houses the laboratories of more than 400 cancer researchers and staff.",
+        "project_name": "The Bunting Family - The Family of Jacob and Hilda Blaustein Building (Cancer Research Facility)",
+        "location": "Baltimore (Johns Hopkins Medical Institutions)",
+        "value": "$59 million",
+        "timeline": "Dedicated on May 27, 2026, implying completion around this date.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new facility, housing over 400 cancer researchers, will generate significant ongoing demand for a wide array of lab supplies, reagents, consumables, and scientific equipment for its numerous laboratories.",
+        "source_url": "https://www.cancernetwork.com/view/new-research-facility-hopkins"
+      }
+    ],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Johns Hopkins University is moving forward with plans for a $196 million data science and computing center in East Baltimore, aimed at expanding the university's research and artificial intelligence capabilities, with a $9 million grant from the Maryland Board of Public Works.",
+        "project_name": "Data Science and Computing Center in East Baltimore",
+        "scope": "Construction of an approximately 25,000-square-foot facility at 5400 E. Lombard St. to support life sciences, biomedical research, and large-scale data processing initiatives tied to AI and computational science. The total project cost is $196 million, with an initial $9 million state grant.",
+        "timeline": "Multi-year construction and operation.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The launch of a new $196 million data science and computing center will drive significant demand for advanced computing equipment, specialized lab supplies for biomedical and life sciences research, and data storage solutions.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyNqQGGHKoPOb8ynAJCgFT-H7TCUL05ruFhTw8dbiwJm78mSPU2QCc26DuXROc4UnKexJYy0VWA2Wqb4agrRhiooCPD-ihWQMs2bFZNx72DF3gpiFtm9SVdKL_5zKnvK0M5uZE2HgSoK4Mya_TQedIwDPsfsSOxNu-ZeOCHeycTdskejQv3y8c2qI70C1T2dHOVnnweH6xxdICfyRMP4XM-BlxkF24Fg0="
+      },
+      {
+        "summary": "The Maryland Stem Cell Research Commission awarded over $12.6 million, including a $2 million Clinical Award to Dr. Amir Kashani from Johns Hopkins University for advancing regenerative medicine.",
+        "project_name": "Clinical Award for Regenerative Medicine Research",
+        "scope": "A $2,000,000 award to Dr. Amir Kashani from Johns Hopkins University to advance transformative therapies and technologies in regenerative medicine.",
+        "timeline": "Not explicitly stated as multi-year, but clinical research typically spans multiple years.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant award for clinical research in regenerative medicine will generate demand for specialized reagents, cell culture consumables, and advanced imaging and analytical equipment.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzd7f0pD1_H8mnZo_-4jT8bwybBo2TO2_aXf7XctShKmJPTRR8p7qewkjUPDAOSAQxC2OZKUZs5av291938KCeWtUT_dh4PwRLvxQlj2uaBc1NMsVgyVoLz_JO86bqF78Y6e4aIw5XZXoXJF_NZZnaQvuM555oT1wMH3BSEc9dFQsw_frSpDkxwg-U8LgomZGFbndqCk7OahtTEf7OZ_dnyl9YL89jcV0hDR6cRlpAN1ms2C8="
+      },
+      {
+        "summary": "Johns Hopkins University is a partner in the $2.77 million Accelerated Catalyst Design Foundry (ACDF) project, led by Argonne National Laboratory, to accelerate catalyst discovery using AI, autonomous laboratories, and rapid testing.",
+        "project_name": "Accelerated Catalyst Design Foundry (ACDF)",
+        "scope": "A $2.77 million project combining artificial intelligence (AI), automated laboratories, rapid testing, and pilot-scale evaluation to cut the time needed to discover and commercialize new industrial catalysts from 15\u201320 years to less than five years. Johns Hopkins University is a partner in this initiative.",
+        "timeline": "Aims to cut development time from 15-20 years to less than five years, indicating a multi-year program.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Participation in the ACDF project will create demand for advanced laboratory automation equipment, AI-driven analytical tools, and a wide range of chemical reagents and consumables for catalyst synthesis and testing.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6QwpWmMgtyTv9UrmZhrQ88r5t0Tfg-EHsixHLDqEt6ZxU729XAM6e__ZZuKdY6bW0yWdCGRtumhrS7l6iMYsmbtQ_hXEeifxBPAmgPzXJW3NmaMikfbkYg46HEKHlRvYMIkryXZyXZHHKM3wRk463HCnyNXTlHcbi-lAtZhjBUa_hADU_4TXY1cIuoMJM4_GQwixNb4="
+      },
+      {
+        "summary": "Johns Hopkins University is recruiting for a new thematic cluster in computational social sciences within its Bloomberg Distinguished Professorships (BDP) program, affiliated with the Data Science and Artificial Intelligence (DSAI) Institute, signaling a significant interdisciplinary science initiative.",
+        "project_name": "Bloomberg Distinguished Professorships: Computational Social Sciences Cluster",
+        "scope": "Recruitment for at least three faculty appointments to form a new thematic cluster in computational social sciences, with access to significant computing and software engineering resources through the Johns Hopkins Data Science and Artificial Intelligence (DSAI) Institute. The BDP program is a large, ongoing investment in interdisciplinary research.",
+        "timeline": "Ongoing recruitment for a multi-year interdisciplinary research cluster.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The establishment of a new computational social sciences cluster will drive demand for high-performance computing infrastructure, specialized software, and potentially new data acquisition and analysis tools for interdisciplinary research.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Sz2_4noQG8TA8_VcISQ-FrThn3mUJlg3zXu1t2RJxjYTM6VosAUgldlkKKTf8eG03iRW85Kwye1_PYbv7kGfVhT95SDriEx9nz0syR0iOCUYp02somFY9nE2pBxx"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Scientists at Johns Hopkins APL successfully tested an innovative chemical destruction system known as the Pulse Combustion Engine. Critical to the successful test were the development and application of novel coatings to protect the system while it operates. This breakthrough marks a significant milestone in the development of advanced coatings for extreme environments and has the potential to contribute to a safer, more agile way to neutralize hazardous chemicals.",
+        "researcher_name": "Not specified",
+        "department_or_lab": "Johns Hopkins University Applied Physics Laboratory",
+        "award_or_discovery": "Novel Coating Technology Withstands Extreme Combustion Environments",
+        "significance": "Described as a \"breakthrough\" and \"significant milestone\" in advanced coatings for extreme environments, with potential applications in neutralizing hazardous chemicals.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This breakthrough in materials science for extreme environments signals demand for specialized materials, testing equipment, and analytical tools for high-temperature and corrosive applications.",
+        "source_url": "https://www.jhuapl.edu/news/news-releases/260429-coating-technology-strengthens-chemical-neutralization-capability"
+      },
+      {
+        "summary": "Johns Hopkins APL researchers are investigating the viability and scalability of shelf-stable, freeze-dried red blood cells. With far-reaching implications for trauma care in remote or austere environments \u2014 a critical need for the nation's warfighters \u2014 this effort opens the door to safe and effective blood transfusions anywhere, anytime, and with minimal supplies.",
+        "researcher_name": "Corrine Fuller, Claire Bell",
+        "department_or_lab": "Johns Hopkins University Applied Physics Laboratory",
+        "award_or_discovery": "Developing a Shelf-Stable Blood Substitute",
+        "significance": "This research has \"far-reaching implications for trauma care in remote or austere environments\" by enabling safe and effective blood transfusions with minimal supplies.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Research into shelf-stable blood substitutes indicates high-impact activity in biomaterials, cryopreservation, and blood product development, driving demand for specialized reagents, cell culture media, and analytical equipment.",
+        "source_url": "https://www.jhuapl.edu/news/news-releases/260507-shelf-stable-blood-substitute"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Johns Hopkins University announced over 2,000 layoffs following a loss of $800 million in federal grants from the US Agency for International Development, impacting its international employees and research programs.",
+        "facility_or_programme": "Multiple research programs and associated facilities across Johns Hopkins University, particularly those impacting international employees.",
+        "closure_type": "Program terminations and associated staff reductions (layoffs).",
+        "effective_date": null,
+        "reason": "Loss of $800 million in federal grants from the US Agency for International Development due to federal government downsizing efforts.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This significant reduction in funding and workforce at a major research institution like JHU indicates a substantial churn risk for existing lab supply contracts and a potential competitive displacement opportunity for Thomas Scientific if new research initiatives emerge or existing ones seek new suppliers.",
+        "source_url": "https://anthonybbradley.substack.com/p/special-report-american-higher-education"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T06:34:20.108083",
+  "ai_summary": "Johns Hopkins is expanding significantly with new data science and cancer research facilities, attracting major grants for AI, regenerative medicine, and advanced materials. While facing layoffs from specific international grant losses, overall investment in domestic research and infrastructure is robust. This growth across diverse scientific fields, from computational social sciences to chemical engineering, signals a strong and sustained demand for a wide range of lab supplies, equipment, and specialized reagents."
+}

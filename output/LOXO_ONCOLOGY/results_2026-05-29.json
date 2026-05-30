@@ -1,0 +1,77 @@
+{
+  "account": "LOXO ONCOLOGY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Eli Lilly and Company announced a definitive agreement to acquire Ajax Therapeutics, Inc., a biopharmaceutical company developing next-generation JAK inhibitors for patients with myeloproliferative neoplasms (MPNs), for up to $2.3 billion in cash, including an upfront payment and subsequent milestone payments. Ajax's lead asset, AJ1-11095, is a first-in-class Type II JAK2 inhibitor currently in Phase 1 clinical development for myelofibrosis.",
+        "product_or_program": "AJ1-11095",
+        "stage": "Phase 1 Clinical Development (Acquisition)",
+        "therapeutic_or_application_area": "Myeloproliferative Neoplasms (MPNs), Myelofibrosis, Oncology",
+        "event_date": "2026-04-27",
+        "why_it_matters": "This acquisition expands Lilly's oncology pipeline with a novel JAK inhibitor, indicating increased R&D activity and potential demand for lab supplies, reagents, and equipment for ongoing clinical trials and future development.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-to-acquire-ajax-therapeutics-to-advance-outcomes-for-patients-with-myelofibrosis-and-polycythemia-vera-302423456.html"
+      },
+      {
+        "summary": "Eli Lilly and Company announced details of presentations from its oncology portfolio at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting, including primary event-free survival results from the Phase 3 LIBRETTO-432 study of adjuvant Retevmo (selpercatinib, formerly LOXO-292) in RET fusion-positive non-small cell lung cancer (NSCLC).",
+        "product_or_program": "Retevmo (selpercatinib, LOXO-292)",
+        "stage": "Phase 3 Clinical Trial Results (Presentation at ASCO)",
+        "therapeutic_or_application_area": "RET fusion-positive Non-Small Cell Lung Cancer (NSCLC), Oncology",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Positive Phase 3 results for Retevmo could lead to expanded indications or increased market share, driving demand for related diagnostic tools, treatment support supplies, and continued research materials.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-to-showcase-oncology-portfolio-across-tumor-types-and-treatment-modalities-at-the-2026-american-society-of-clinical-oncology-annual-meeting-302423457.html"
+      },
+      {
+        "summary": "An analysis of the pharmaceutical patent cliff highlights Eli Lilly's late-stage oncology pipeline, specifically mentioning LOXO-305 and LY3537982, as key assets contributing to the company's revenue diversification and offsetting patent expiry pressures.",
+        "product_or_program": "LOXO-305, LY3537982",
+        "stage": "Late-stage pipeline",
+        "therapeutic_or_application_area": "Oncology",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The advancement of late-stage oncology assets like LOXO-305 and LY3537982 indicates ongoing clinical trial activity and potential for future commercialization, requiring sustained lab supply support for development and manufacturing.",
+        "source_url": "https://www.drugpatentwatch.com/blog/the-400-billion-patent-cliff-how-strategic-partnerships-determine-which-pharma-giants-survive/"
+      },
+      {
+        "summary": "Mirna Bulatovic of Loxo Oncology at Lilly was a co-author on a study published in Molecular Cell, which found that cancer cells with abnormal chromosome numbers (aneuploidy) are better able to resist treatments by having reduced levels of the PARP1 protein.",
+        "product_or_program": "Research on PARP1 and aneuploidy in cancer cells",
+        "stage": "Pre-clinical Research/Discovery",
+        "therapeutic_or_application_area": "Oncology, Cancer Biology",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Active participation in fundamental cancer research by Loxo Oncology at Lilly suggests a continuous need for a wide range of basic research lab supplies, reagents, and analytical equipment for ongoing discovery efforts.",
+        "source_url": "https://nyulangone.org/news/dna-errors-help-tumors-survive"
+      },
+      {
+        "summary": "Loxo Oncology, Inc., on behalf of Eli Lilly and Company, is listed as the funding source for LOXO-NGR-21001, a Phase 1 study of oral LOXO-260 in patients with RET fusion-positive solid tumors, medullary thyroid cancer, and other tumors with RET activation refractory to selective RET inhibitors.",
+        "product_or_program": "LOXO-260 (LOXO-NGR-21001 study)",
+        "stage": "Phase 1 Clinical Trial",
+        "therapeutic_or_application_area": "RET fusion-positive solid tumors, Medullary Thyroid Cancer, RET-activated tumors, Oncology",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Ongoing activity in a Phase 1 trial for a novel RET inhibitor indicates demand for clinical trial supplies, reagents for biomarker analysis, and general lab consumables to support early-stage drug development.",
+        "source_url": "https://faculty.mdanderson.org/profiles/sarina-piha-paul.html"
+      },
+      {
+        "summary": "Loxo Oncology Inc., a wholly owned subsidiary of Eli Lilly & Company, is listed as a source of contracted research for investigators participating in a CME symposium discussing the optimal management of chronic lymphocytic leukemia (CLL).",
+        "product_or_program": "General CLL research/development (contracted research)",
+        "stage": "Research/Clinical Development Support",
+        "therapeutic_or_application_area": "Chronic Lymphocytic Leukemia (CLL), Hematologic Oncology",
+        "event_date": "2026-05-25",
+        "why_it_matters": "Ongoing contracted research in CLL signals continuous demand for specialized reagents, cell culture media, and analytical equipment to support hematologic oncology studies and clinical education.",
+        "source_url": "https://www.researchtopractice.com/meetings/ASCO26/CLL"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:33:08.785164",
+  "ai_summary": "Loxo Oncology at Lilly is actively expanding its oncology pipeline through acquisitions and advancing multiple assets like Retevmo and LOXO-260 in clinical trials for various cancers, including RET-positive tumors and MPNs. This significant R&D investment, coupled with strategic importance to Lilly, signals increased demand for lab supplies, reagents, and instruments to support ongoing research, clinical development, and potential manufacturing scale-up."
+}

@@ -1,0 +1,208 @@
+{
+  "account": "MERCK",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1CNYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The FDA accepted for priority review supplemental applications for WELIREG in combination with KEYTRUDA or KEYTRUDA QLEX for the adjuvant treatment of certain patients with renal cell carcinoma (RCC), based on the Phase 3 LITESPARK-022 trial.",
+        "product_or_program": "WELIREG (belzutifan) in combination with KEYTRUDA (pembrolizumab) or KEYTRUDA QLEX",
+        "stage": "NDA/BLA Submission (Priority Review Accepted)",
+        "therapeutic_or_application_area": "Adjuvant treatment of certain patients with Renal Cell Carcinoma (RCC)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This priority review indicates potential future demand for lab supplies related to RCC research and treatment, and the PDUFA date of June 19, 2026, provides a clear engagement timeline for sales representatives.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "The U.S. Food and Drug Administration (FDA) approved KEYTRUDA and KEYTRUDA QLEX plus paclitaxel, with or without bevacizumab, for the treatment of certain adults with PD-L1+ (combined positive score [CPS] \u22651) platinum-resistant ovarian cancer, based on Phase 3 KEYNOTE-B96 trial.",
+        "product_or_program": "KEYTRUDA (pembrolizumab) and KEYTRUDA QLEX plus paclitaxel, with or without bevacizumab",
+        "stage": "FDA Approval",
+        "therapeutic_or_application_area": "PD-L1+ platinum-resistant ovarian cancer",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This approval will increase demand for diagnostic tests (PD-L1), reagents, and consumables for ovarian cancer treatment and related research.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "The FDA approved a label update for KEYTRUDA QLEX based on results from Phase 2 MK-3475A-F11 trial, which evaluated patient-reported preference for subcutaneous administration of KEYTRUDA QLEX over intravenous administration of KEYTRUDA in participants with multiple tumor types.",
+        "product_or_program": "KEYTRUDA QLEX (subcutaneous pembrolizumab)",
+        "stage": "FDA Approval (Label Update)",
+        "therapeutic_or_application_area": "Multiple tumor types (patient preference for subcutaneous administration)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This label update could lead to increased adoption of subcutaneous KEYTRUDA QLEX, impacting demand for different administration supplies and potentially shifting research focus.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "Merck received U.S. FDA Approval for IDVYNSO, a once-daily, oral treatment for certain adults with virologically suppressed HIV-1.",
+        "product_or_program": "IDVYNSO",
+        "stage": "FDA Approval",
+        "therapeutic_or_application_area": "Virologically suppressed HIV-1",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This new approval for HIV-1 treatment will create demand for related diagnostic tools, monitoring reagents, and patient management supplies.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "The FDA granted priority review for KEYTRUDA and KEYTRUDA QLEX, each with Padcev, for cisplatin-eligible patients with Muscle-Invasive Bladder Cancer (MIBC), based on the Phase 3 KEYNOTE-B15 trial.",
+        "product_or_program": "KEYTRUDA (pembrolizumab) and KEYTRUDA QLEX with Padcev (enfortumab vedotin)",
+        "stage": "NDA/BLA Submission (Priority Review Granted)",
+        "therapeutic_or_application_area": "Cisplatin-eligible patients with Muscle-Invasive Bladder Cancer (MIBC)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This priority review indicates potential upcoming demand for lab supplies related to MIBC diagnostics and treatment, with a PDUFA date of August 17, 2026, for sales reps to track.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "Merck presented new data from its Cardio-Pulmonary pipeline at ACC.26, including positive results from the Phase 3 CORALreef AddOn Trial.",
+        "product_or_program": "CORALreef AddOn Trial (Cardio-Pulmonary pipeline)",
+        "stage": "Phase 3 Clinical Trial Results",
+        "therapeutic_or_application_area": "Cardio-Pulmonary",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Positive Phase 3 results suggest progression towards regulatory submission, indicating future demand for research and development supplies in the cardio-pulmonary area.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "The FDA granted Breakthrough Therapy designation to calderasib (MK-1084), an investigational oral specific KRAS G12C inhibitor, in combination with KEYTRUDA, for the first-line treatment of patients with advanced or metastatic non-small cell lung cancer (NSCLC) with KRAS G12C mutation.",
+        "product_or_program": "calderasib (MK-1084) in combination with KEYTRUDA (pembrolizumab)",
+        "stage": "Breakthrough Therapy Designation",
+        "therapeutic_or_application_area": "Advanced or metastatic non-small cell lung cancer (NSCLC) with KRAS G12C mutation",
+        "event_date": "2026-05-29",
+        "why_it_matters": "Breakthrough Therapy designation accelerates development and review, indicating a faster path to market and increased demand for related research and diagnostic supplies for NSCLC with KRAS G12C mutation.",
+        "source_url": "https://www.merck.com/news/fda-grants-breakthrough-therapy-designation-for-calderasib-mk-1084-an-investigational-kras-g12c-inhibitor-for-certain-patients-with-newly-diagnosed-metastatic-kras-g12c-mutant-non-small-cell-lung/"
+      },
+      {
+        "summary": "Merck announced the successful completion of the acquisition of Terns Pharmaceuticals, Inc., which includes TERN-701, a novel investigational oral allosteric BCR::ABL1 tyrosine kinase inhibitor, recently granted Breakthrough Therapy Designation by the FDA for Philadelphia chromosome-positive chronic myeloid leukemia (CML).",
+        "product_or_program": "TERN-701",
+        "stage": "Acquisition (and prior Breakthrough Therapy Designation)",
+        "therapeutic_or_application_area": "Philadelphia chromosome-positive chronic myeloid leukemia (CML) in the chronic phase without the T315I mutation",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The acquisition and Breakthrough Therapy Designation for TERN-701 signal increased investment and accelerated development in CML, creating demand for related research and clinical trial supplies.",
+        "source_url": "https://www.merck.com/news/merck-completes-acquisition-of-terns-pharmaceuticals-inc/"
+      },
+      {
+        "summary": "Merck initiated the Phase II LITESPARK-034 trial evaluating zanzalintinib plus Welireg (belzutifan) versus Welireg and placebo in previously treated advanced renal cell carcinoma (RCC) patients who progressed after PD-1/L1 and VEGFR-TKI therapies.",
+        "product_or_program": "Zanzalintinib plus Welireg (belzutifan)",
+        "stage": "Clinical Trial Initiation (Phase II)",
+        "therapeutic_or_application_area": "Previously treated advanced Renal Cell Carcinoma (RCC) patients who progressed after PD-1/L1 and VEGFR-TKI therapies",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Initiation of a new Phase II trial creates immediate demand for research reagents, consumables, and equipment for patient enrollment, sample analysis, and trial monitoring.",
+        "source_url": "https://chemxplore.com/news/merck-mk-8748-phase-2b3-trial-nvamd"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Merck (MSD outside North America) has opened its new Swiss headquarters, named \u201cOne Roof,\u201d in Lucerne, consolidating operations and investing 60 million Swiss francs. The facility will house approximately 750 employees and aims to strengthen the company's role in research and innovation.",
+        "location": "Lucerne, Switzerland",
+        "type_of_expansion": "New Headquarters with Research and Innovation Focus",
+        "investment_value": "60 million CHF",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A new headquarters with a focus on research and innovation for a major pharmaceutical company indicates new procurement needs for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.s-ge.com/invest/en/articles/news/msd-opens-new-swiss-headquarters"
+      },
+      {
+        "summary": "Merck recently opened a new $1 billion state-of-the-art high potent biologics manufacturing facility in Wilmington, Delaware, focused on manufacturing vaccines, drug substance, and drug product, including Antibody Drug Conjugates (ADCs), and partnered with its Research & Development Division.",
+        "location": "Wilmington, Delaware, United States",
+        "type_of_expansion": "New Dedicated Manufacturing and Research Facility",
+        "investment_value": "$1 billion",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The opening of a new $1 billion biologics manufacturing and R&D facility signifies substantial new demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.merck.com/wp-content/uploads/sites/124/2026/04/MRK-USQ_Transcript_2026-05-26.pdf"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Merck reported a significant increase in R&D expenses to $12.6 billion in Q1 2026, up from $3.6 billion in Q1 2025. The company also announced a $9.0 billion charge related to the acquisition of Cidara and a tender offer to acquire Terns in April 2026.",
+        "project_name": "Increased R&D Investment; Acquisition of Cidara; Tender Offer for Terns",
+        "scope": "Broad R&D across the company's therapeutic areas; Expansion of the company's pipeline through strategic acquisitions in oncology and other areas.",
+        "timeline": "Q1 2026 for R&D expenses; Acquisitions announced in April 2026.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Increased R&D spending and strategic acquisitions will drive demand for new lab supplies, reagents, and equipment to support expanded research activities and the integration of new assets and programs.",
+        "source_url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-mrk/merck/news/merck-faces-gardasil-trial-as-oral-pcsk9-progress-reshapes-r"
+      },
+      {
+        "summary": "Merck scientists published new research in Science detailing a novel, large-scale, enzyme-enabled synthesis route for enlicitide decanoate, its investigational oral PCSK9 inhibitor. This method offers a sustainable blueprint for scalable development of complex macrocyclic peptide therapeutics.",
+        "project_name": "Large-Scale Biocatalytic Synthesis of Oral PCSK9 Inhibitor (Enlicitide Decanoate)",
+        "scope": "Development of an efficient and scalable manufacturing process for the investigational oral PCSK9 inhibitor, enlicitide decanoate, using biocatalysis.",
+        "timeline": "Research published May 2026, indicating ongoing development towards scalable manufacturing.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The development of a large-scale, enzyme-enabled synthesis route for a new drug candidate signals future demand for specialized reagents, biocatalysts, process equipment, and quality control consumables for manufacturing.",
+        "source_url": "https://www.merck.com/news/merck-scientists-publish-landmark-paper-on-novel-method-for-large-scale-biocatalytic-synthesis-of-investigational-oral-pcsk9-inhibitor-enlicitide-decanoate/"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "The U.S. FDA granted Breakthrough Therapy designation to calderasib (MK-1084) in combination with KEYTRUDA for the first-line treatment of patients with advanced or metastatic non-small cell lung cancer (NSCLC) with KRAS G12C-mutation and expressing PD-L1.",
+        "product_or_site": "Calderasib (MK-1084) in combination with KEYTRUDA",
+        "regulatory_action": "Breakthrough Therapy Designation",
+        "outcome": "Granted",
+        "event_date": "2026-05-29",
+        "why_it_matters": "Breakthrough Therapy designation accelerates development and review, indicating potential for increased demand for research-phase lab supplies, reagents, and equipment as clinical trials progress and scale-up is planned.",
+        "source_url": "https://www.merck.com/news/fda-grants-breakthrough-therapy-designation-for-calderasib-mk-1084-an-investigational-kras-g12c-inhibitor-for-certain-patients-with-newly-diagnosed-metastatic-kras-g12c-mutant-non-small-cell-lung/"
+      },
+      {
+        "summary": "Merck announced in its First-Quarter 2026 Financial Results that the U.S. FDA approved IDVYNSO (doravirine/islatravir), a once-daily, oral treatment for certain adults with virologically suppressed HIV-1.",
+        "product_or_site": "IDVYNSO (doravirine/islatravir)",
+        "regulatory_action": "NDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-04-30",
+        "why_it_matters": "FDA approval signals market entry and subsequent demand for manufacturing-scale lab supplies, reagents, and consumables for production and distribution.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "Merck announced that the FDA accepted for priority review supplemental applications for WELIREG in combination with KEYTRUDA or KEYTRUDA QLEX for the adjuvant treatment of certain patients with RCC, based on the Phase 3 LITESPARK-022 trial. The PDUFA date is June 19, 2026.",
+        "product_or_site": "WELIREG in combination with KEYTRUDA or KEYTRUDA QLEX",
+        "regulatory_action": "sNDA Priority Review",
+        "outcome": "Accepted for Priority Review",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Priority Review indicates an expedited review process, suggesting potential for earlier market entry and increased demand for clinical trial supplies, and future manufacturing supplies if approved.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "The FDA granted priority review for KEYTRUDA and KEYTRUDA QLEX, each with Padcev, for cisplatin-eligible patients with MIBC, based on the Phase 3 KEYNOTE-B15 trial. The PDUFA date is August 17, 2026.",
+        "product_or_site": "KEYTRUDA and KEYTRUDA QLEX, each with Padcev",
+        "regulatory_action": "sBLA Priority Review",
+        "outcome": "Granted Priority Review",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Priority Review indicates an expedited review process, suggesting potential for earlier market entry and increased demand for clinical trial supplies, and future manufacturing supplies if approved.",
+        "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-first-quarter-2026-financial-results-highlights-significant-regulatory-approvals-and-clinical-milestones/"
+      },
+      {
+        "summary": "Merck announced the successful completion of the acquisition of Terns Pharmaceuticals, Inc., highlighting that TERN-701, an investigational oral allosteric BCR::ABL1 tyrosine kinase inhibitor, was recently granted Breakthrough Therapy Designation by the U.S. FDA.",
+        "product_or_site": "TERN-701",
+        "regulatory_action": "Breakthrough Therapy Designation (highlighted by acquisition news)",
+        "outcome": "Granted",
+        "event_date": "2026-05-05",
+        "why_it_matters": "Breakthrough Therapy designation accelerates development and review, indicating potential for increased demand for research-phase lab supplies, reagents, and equipment as clinical trials progress and scale-up is planned for this newly acquired asset.",
+        "source_url": "https://www.merck.com/news/merck-completes-acquisition-of-terns-pharmaceuticals-inc/"
+      },
+      {
+        "summary": "The FDA's '2026 Biological License Application Supplement Noteworthy Approvals' publication listed a BLA supplement approval for Merck Sharp & Dohme LLC for ERVEBO to update the package insert with safety and immunogenicity data from a Phase 2 study in HIV-infected adults and adolescents.",
+        "product_or_site": "ERVEBO",
+        "regulatory_action": "BLA Supplement Approval",
+        "outcome": "Approved",
+        "event_date": "2026-05-14",
+        "why_it_matters": "Post-market approval updates can lead to expanded patient populations or changes in administration, potentially influencing demand for related diagnostic or administration supplies.",
+        "source_url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/2026-biological-license-application-supplement-noteworthy-approvals"
+      }
+    ],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Merck & Co. announced a tender offer to acquire Terns Pharmaceuticals, further strengthening its pipeline with science-led business development, particularly in oncology.",
+        "acquirer": "Merck & Co., Inc.",
+        "target": "Terns Pharmaceuticals",
+        "deal_value": "$6.7 billion",
+        "deal_status": "Pending",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This acquisition expands Merck's oncology pipeline, creating demand for new research and development lab supplies, reagents, and consumables as Terns' assets are integrated and advanced.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTPqUQ8oQtXcwYe3S-ngs6GJ5D7b5vwq7Ue3rx27SviHkF_RrOMYs5Fx_Zne-qQnLhqufzNFQ4EP4FVGOqmbZuu1eJa5T0YOQFunx7uDjdJAVby0oGxs2kay9KIDBDUWoFgaskcprTopak6pOr63XJF4kkIfMpiZosrp6_gsAQC6puWblwn7d9hBxGJxVa9V1aBEmOZaXinfnsCES0IO5t4-XV6-htv0UomkpGJ8hkiHPgFIcLejcu6o2-8l5OqOo56uMR3U0NXfh2-XAe4UVPkKqUAJVDqENkxpoixkBYkhC2UKvH"
+      }
+    ],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:34:45.662822",
+  "ai_summary": "Merck is aggressively expanding its pipeline with numerous FDA approvals, priority reviews, and breakthrough designations across oncology, HIV, and cardio-pulmonary. Significant R&D investment, new manufacturing facilities, and strategic acquisitions signal increased research, development, and production. This robust activity creates substantial opportunities for lab supply sales, driven by diverse therapeutic areas and new operational capacity."
+}

@@ -1,0 +1,33 @@
+{
+  "account": "BIOPET",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP18oYAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Avantium N.V. has reached an agreement with UPM for the sale of the intellectual property related to Avantium's Ray Technology, a process for the production of bio-based mono-ethylene glycol (MEG) and mono-propylene glycol (MPG) from plant-based sugars.",
+        "acquirer": "UPM",
+        "target": "Avantium N.V. (Ray Technology intellectual property)",
+        "deal_value": "\u20ac2.7 million",
+        "deal_status": "Closed",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This acquisition expands UPM's intellectual property in bio-based glycols, strengthening its position in renewable chemicals and its \"100% UPM Bio PET\" offering, which could lead to new procurement needs for lab supplies as UPM scales its bio-based chemicals business.",
+        "source_url": "https://newsroom.avantium.com/avantium-sells-ray-technology-intellectual-property-assets-to-upm/"
+      }
+    ],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:16:47.566407",
+  "ai_summary": "The sale of bio-based MEG/MPG technology IP by Avantium to UPM indicates a dynamic shift in the sustainable chemicals market. This could influence BIOPET's strategic direction regarding bio-based materials or create new competitive pressures. For lab supply sales, this signals potential new R&D initiatives at BIOPET or UPM, requiring specialized equipment, reagents, and analytical tools for bio-based synthesis and process optimization."
+}

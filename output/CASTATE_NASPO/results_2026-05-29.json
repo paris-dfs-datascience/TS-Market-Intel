@@ -1,0 +1,18 @@
+{
+  "account": "CASTATE NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP16BYAS",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:17:48.376084",
+  "ai_summary": null
+}

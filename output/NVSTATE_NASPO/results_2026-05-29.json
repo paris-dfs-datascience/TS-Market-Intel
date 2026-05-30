@@ -1,0 +1,95 @@
+{
+  "account": "NVSTATE NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DCYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "The University of Nevada, Reno is constructing a $75 million, 55,000-square-foot facility to expand the Nevada State Public Health Laboratory, which will include flexible laboratories, dedicated research and screening environments, a BSL-3 lab, and a new toxicology program.",
+        "project_name": "Nevada State Public Health Laboratory Expansion",
+        "scope": "Construction of a 55,000-square-foot facility featuring flexible laboratories, dedicated research and screening environments, specialized containment areas including a BSL-3 lab, and a new toxicology program.",
+        "timeline": "Construction began in summer 2024, with occupancy anticipated in fall 2026.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The expansion and new programs within the Nevada State Public Health Laboratory will drive significant demand for a wide range of scientific equipment, reagents, and consumables, particularly for toxicology, infectious disease detection, and newborn screening.",
+        "source_url": "https://www.tradelineinc.com/news/2026-5/nevada-state-public-health-lab-nears-completion"
+      },
+      {
+        "summary": "The State of Nevada announced its participation in four new NASPO ValuePoint contracts for Laboratory Equipment and Supplies, with awarded vendors including Fisher Scientific, Nikon Instruments, Thomas Scientific, and VWR.",
+        "project_name": "Nevada State Participation in NASPO ValuePoint Laboratory Equipment and Supplies Contracts",
+        "scope": "Cooperative purchasing agreements for laboratory equipment and supplies available to Nevada state agencies, the Nevada System of Higher Education, the Court System, the Legislative Counsel Bureau, and all Political Subdivisions within the State of Nevada.",
+        "timeline": "The contract period for these multi-year agreements is from March 1, 2024, through February 28, 2029.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Nevada's announcement of participation in these multi-year contracts directly signals ongoing and consolidated demand for laboratory equipment, reagents, and consumables from various state entities, including Thomas Scientific's offerings.",
+        "source_url": "https://www.purchasing.nv.gov/statewide-contracts/laboratory-equipment-and-supplies/"
+      }
+    ],
+    "tender": [
+      {
+        "summary": "GSA provides information on contract opportunities on SAM.gov and a forecast of contracting opportunities, specifically mentioning \"LABORATORY EQUIPMENT AND SUPPLIES\" as a category for federal agencies.",
+        "tender_name": "Federal Contract Opportunities (General)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "This indicates ongoing federal demand for lab equipment and supplies, and Thomas Scientific should actively monitor SAM.gov and the GSA forecast tool for specific solicitations to identify direct sales opportunities.",
+        "source_url": "https://www.gsa.gov/small-business/find-opportunities"
+      },
+      {
+        "summary": "GSA Global Supply and GSA Advantage are described as programs for federal agencies to order supplies, including a \"2026/2027 supply catalog\" for various items.",
+        "tender_name": "GSA Global Supply Program (General)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This highlights continuous federal purchasing channels for lab supplies and equipment, representing a steady market for Thomas Scientific's products through existing GSA programs.",
+        "source_url": "https://www.gsa.gov/buy-through-us/purchasing-programs/requisition-programs/gsa-global-supply"
+      },
+      {
+        "summary": "Medline announced its capabilities as a supplier of medical and lab products to government agencies through various federal contracts, including FSS MedSurg, FSS Pharmaceutical, and other BPA and state/local contracts.",
+        "tender_name": "Medline Government Contracts (General Announcement)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This signals active competition and ongoing demand for lab products and medical supplies through established government contracts, which Thomas Scientific should analyze for competitive positioning and potential partnership opportunities.",
+        "source_url": "https://www.medline.com/about-us/who-we-serve/government/"
+      },
+      {
+        "summary": "A DoD solicitation (RFQ N0060426Q4035) from NAVSUP FLCPH Regional Contracting Department for preventative maintenance, calibration, installation, and certification service of analytical equipment for Commander Navy Region Hawaii.",
+        "tender_name": "Lab Equipment Preventive Maintenance Services (RFQ N0060426Q4035)",
+        "estimated_value": null,
+        "deadline": "2026-05-28",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This is a direct tender for services related to analytical lab equipment, representing a potential service contract opportunity for Thomas Scientific or a partner, and indicates ongoing demand for maintaining lab equipment within the DoD.",
+        "source_url": "https://www.bidnetdirect.com/hawaii/solicitations/closed-bids/statewide/Lab-Equipment-Preventive-Maintenance-Services/2690644277"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "The federal government is restructuring the U.S. Forest Service, which includes shuttering dozens of research stations nationwide, including one in Reno, Nevada, as part of a review and consolidation of facilities.",
+        "facility_or_programme": "U.S. Forest Service research station in Reno, Nevada.",
+        "closure_type": "Facility closure/shuttering.",
+        "effective_date": null,
+        "reason": "To make the Forest Service \"nimble, efficient, effective and closer to the forests and communities it serves,\" and due to \"a review and consolidation of facilities nationwide.\"",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This closure presents a competitive displacement opportunity for Thomas Scientific to supply other research institutions or new facilities that may absorb the displaced research activities.",
+        "source_url": "https://thenevadaindependent.com/article/is-one-fire-service-better-than-many-the-feds-think-so-but-what-about-locals"
+      },
+      {
+        "summary": "The EM (Environmental Management) program recently completed the cleanup of a 1963 plutonium dispersion test site just north of the Nevada National Security Site (NNSS), concluding more than 20 years of remediation efforts.",
+        "facility_or_programme": "A 1963 plutonium dispersion test site (including Double Tracks and Clean Slate I, II, and III) just north of the Nevada National Security Site (NNSS).",
+        "closure_type": "Site cleanup completion and \"closure\" of a contaminated test site.",
+        "effective_date": null,
+        "reason": "Remediation of legacy contamination resulting from historic nuclear research and testing.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The completion of this long-term cleanup project may indicate a reduction in demand for certain environmental remediation supplies, but also potential for new monitoring or long-term management equipment, presenting a churn risk or new opportunity for Thomas Scientific.",
+        "source_url": "https://www.energy.gov/management/articles/em-marks-milestone-nevada-plutonium-dispersion-test-site-cleanup"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:42:14.499278",
+  "ai_summary": "Nevada is significantly expanding its public health lab capabilities with a new $75 million facility at UNR, including BSL-3 and toxicology labs. Concurrently, the state joined NASPO ValuePoint for lab equipment and supplies, listing key vendors. Federal agencies also show ongoing demand via GSA and DoD contracts. This creates substantial new sales opportunities for lab supplies and equipment through established contract vehicles."
+}

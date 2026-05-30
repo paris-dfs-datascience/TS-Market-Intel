@@ -1,0 +1,28 @@
+{
+  "account": "TILRAY",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0018Y00002fhn7PQAQ",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Tilray Brands announced the launch of Cherry Ztripez, a new indica-dominant premium craft cannabis strain under its Broken Coast brand, for summer 2026 in Canada.",
+        "facility_or_line": "Broken Coast cannabis cultivation and processing facilities",
+        "change_type": "New product line being manufactured",
+        "location": "Canada",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "Launching a new cannabis strain requires R&D, cultivation optimization, and quality control testing, driving demand for specialized lab supplies, reagents, and analytical equipment.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/28/3000000/0/en/Premium-Craft-Cannabis-Brand-Broken-Coast-Launches-Cherry-Ztripez-Flower-and-Pre-Rolls-for-Summer.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:29:49.744152",
+  "ai_summary": "Tilray is expanding its premium cannabis offerings with a new strain, Cherry Ztripez, launching in 2026. This signifies ongoing R&D, cultivation, and quality control efforts. For lab supply sales, this means potential demand for analytical instruments, consumables, and reagents for genetic testing, potency analysis, terpene profiling, and contaminant screening to ensure product quality and compliance for their new premium product line."
+}

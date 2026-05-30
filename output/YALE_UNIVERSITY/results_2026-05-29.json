@@ -1,0 +1,160 @@
+{
+  "account": "YALE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1C8YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Sandra A. Springer, MD, and Gregg Gonsalves, PhD, along with collaborators, have been awarded a $10 million, five-year NIH RM1 team science grant for \"GEO IMPACT,\" a project to address intersecting HIV and substance use epidemics through a novel mobile pharmacy and clinic healthcare delivery model.",
+        "recipient": "Sandra A. Springer, Gregg Gonsalves",
+        "department_or_lab": "Yale School of Medicine (Infectious Diseases), Yale School of Public Health",
+        "amount": "$10 million",
+        "agency": "NIH",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant multi-year NIH grant indicates upcoming demand for lab supplies, reagents, and potentially mobile health equipment for infectious disease and addiction medicine research and intervention.",
+        "source_url": "https://medicine.yale.edu/news-article/new-nih-team-science-grant-to-address-hiv-and-substance-use-epidemics/"
+      },
+      {
+        "summary": "Mar\u00eda Rodr\u00edguez Mart\u00ednez, PhD, MSc, received an R01 award from the National Institute of Allergy and Infectious Diseases (NIAID), part of the NIH, for approximately $820,000 in first-year funding for a five-year project titled \"Mechanistically Informed Deep Learning to Characterize Autoreactive B Cells in Myasthenia Gravis.\"",
+        "recipient": "Mar\u00eda Rodr\u00edguez Mart\u00ednez",
+        "department_or_lab": "Department of Biomedical Informatics and Data Science, Yale School of Medicine",
+        "amount": "$820,000 (first-year funding)",
+        "agency": "NIH (NIAID)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This R01 grant supports research into autoimmune diseases, indicating a potential need for specialized reagents, cell culture supplies, and bioinformatics tools for computational immunology.",
+        "source_url": "https://medicine.yale.edu/news-article/rodriguez-martinez-awarded-r01-grant-to-study-autoreactive-b-cells-in-myasthenia-gravis/"
+      },
+      {
+        "summary": "Hyunghoon Cho, PhD, and Haoyu Cheng, PhD, received a U01 award from the National Human Genome Research Institute (NHGRI) of the NIH, totaling approximately $1.97 million for a three-year project on \"Computational Tools for Population-Scale Assembly and Genotyping with Pangenomes.\"",
+        "recipient": "Hyunghoon Cho, Haoyu Cheng",
+        "department_or_lab": "Department of Biomedical Informatics and Data Science, Yale School of Medicine",
+        "amount": "$1.97 million",
+        "agency": "NIH (NHGRI)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This U01 award for genomics research suggests an upcoming demand for DNA sequencing reagents, bioinformatics software, and high-performance computing resources.",
+        "source_url": "https://medicine.yale.edu/news-article/cho-and-cheng-awarded-u01-grant-to-advance-population-scale-pangenome-research/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Yale University announced the opening of a new 22,000-square-foot Chemical Safety Building (CSB) at 295 Prospect Street on Science Hill. This facility enhances Yale's scientific research capacity by providing more space and state-of-the-art safety features for the Chemistry Stockroom and Yale Environmental Health & Safety (EHS) Waste Facility, supporting the entire research life cycle.",
+        "location": "295 Prospect Street, Science Hill, New Haven, CT, USA",
+        "type_of_expansion": "New dedicated facility, capacity expansion for scientific research support",
+        "investment_value": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "A new, larger chemical safety building with enhanced features indicates increased research activity and a need for a wide range of lab supplies, chemicals, and safety equipment.",
+        "source_url": "https://chem.yale.edu/posts/2026-05-12-new-chemical-safety-building-enhances-yales-scientific-research-and-marks-science"
+      },
+      {
+        "summary": "Yale New Haven Hospital's St. Raphael Campus completed a renovation and expansion of its Heart and Vascular Center and Emergency Department. This included integrating eleven Class-3 interventional labs, two procedural rooms, and 28 prep/recovery bays in the Heart and Vascular Center, and expanding the Emergency Department from 49 to 91 treatment spaces.",
+        "location": "St. Raphael Campus, Yale New Haven Hospital, New Haven, CT, USA",
+        "type_of_expansion": "Facility renovation and expansion, specifically interventional labs, procedural rooms, and emergency treatment spaces",
+        "investment_value": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "The expansion of interventional labs, procedural rooms, and emergency treatment spaces will drive demand for a wide array of medical and lab consumables, specialized reagents, and new or upgraded scientific equipment.",
+        "source_url": "https://shepleybulfinch.com/projects/st-raphael-campus-emergency-department-and-heart-and-vascular-center/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Public-private partnership QuantumCT, involving the University of Connecticut and Yale University, has launched four Phase 2 Pilot Projects to translate breakthrough quantum mechanics research into deployment-ready commercial applications.",
+        "project_name": "QuantumCT Phase 2 Pilot Projects",
+        "scope": "The projects focus on strengthening quantum-secure communications, quantum optimization for logistics, and quantum machine learning for drug safety prediction. They involve collaboration with industry leaders such as Microsoft, Pfizer, RTX, Quantinuum, and D-Wave Quantum Inc.",
+        "timeline": "The pilot projects receive one year of financial backing and in-kind operational support, with teams pursuing multi-year external funding and longer-term industry collaborations. The overall QuantumCT initiative is a finalist for major NSF awards scheduled for disclosure later in 2026, and coordinated state, university, and industry commitments exceed $1 billion.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Research in quantum machine learning for drug safety prediction, quantum optimization, and quantum-secure communications will drive demand for advanced computing equipment, specialized quantum hardware, and reagents for pharmaceutical research.",
+        "source_url": "https://www.quantumct.org/2026/05/20/quantumct-uconn-and-yale-launch-industry-aligned-pilot-projects-to-advance-quantum-innovation/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "John H. Krystal, Robert L. McNeil, Jr. Professor of Translational Research and chair of the Yale Department of Psychiatry, has been selected to receive the 2026 Connecticut Medal of Technology for his leading expertise on the neurobiology and treatment of psychiatric disorders. His work includes identifying cortical mechanisms underlying schizophrenia symptoms and co-leading the first well-powered transcriptomic study of PTSD.",
+        "researcher_name": "John H. Krystal",
+        "department_or_lab": "Department of Psychiatry, Yale School of Medicine",
+        "award_or_discovery": "2026 Connecticut Medal of Technology",
+        "significance": "This award recognizes outstanding contributions to the economic, environmental, and social well-being of Connecticut and the nation through the promotion of technology and technological innovation, specifically highlighting Krystal's breakthroughs in understanding and treating psychiatric disorders.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This award signals high-impact research activity in neurobiology and psychiatric treatments, likely leading to increased demand for specialized reagents, equipment for neuroimaging, and consumables for molecular genetics and computational neuroscience studies.",
+        "source_url": "https://medicine.yale.edu/news-article/krystal-awarded-2026-connecticut-medal-of-technology/"
+      },
+      {
+        "summary": "A Yale-led technology has received the first-ever FDA approval for breast cancer treatment.",
+        "researcher_name": "N/A (Yale-led technology)",
+        "department_or_lab": "N/A",
+        "award_or_discovery": "First-ever FDA approval for Yale-led breast cancer treatment technology",
+        "significance": "This marks a significant breakthrough in breast cancer treatment, indicating successful translation of research into a clinical application.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "FDA approval of a Yale-led breast cancer treatment technology indicates advanced research and development, suggesting increased demand for oncology-related lab supplies, diagnostic tools, and potentially manufacturing consumables.",
+        "source_url": "https://ventures.yale.edu/news/startup-yale-2026-purpose-driven-ideas-community-powered-wins"
+      },
+      {
+        "summary": "A new Yale-led study published in Science reveals that the global wildlife trade is accelerating the spread of infectious diseases from animals to humans. This study is the first to quantify that risk at a global scale.",
+        "researcher_name": "N/A (Yale scientists)",
+        "department_or_lab": "Yale School of the Environment",
+        "award_or_discovery": "First-in-class study quantifying global wildlife trade's role in disease spillover, published in Science",
+        "significance": "This Yale-led study is the first to quantify the risk of infectious disease spread from animals to humans due to global wildlife trade at a global scale, providing new insights into zoonotic disease transmission.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This breakthrough research in zoonotic disease transmission signals high-impact activity in epidemiology, virology, and ecological studies, driving demand for reagents for pathogen detection, sequencing equipment, and field research consumables.",
+        "source_url": "https://world.yale.edu/news/april-2026-global-engagement"
+      },
+      {
+        "summary": "Lucila Ohno-Machado, Waldemar von Zedtwitz Professor of Medicine and Biomedical Informatics and Data Science and deputy dean for biomedical informatics at Yale, received the ACTS Edward H. Ahrens, Jr. Distinguished Investigator Award.",
+        "researcher_name": "Lucila Ohno-Machado",
+        "department_or_lab": "Medicine and Biomedical Informatics and Data Science",
+        "award_or_discovery": "ACTS Edward H. Ahrens, Jr. Distinguished Investigator Award",
+        "significance": "This is one of the most prestigious honors from the Association for Clinical and Translational Science (ACTS), recognizing exceptional and sustained contributions to the field.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This prestigious award highlights ongoing, high-level research in clinical and translational science and biomedical informatics, indicating a sustained need for advanced computational resources, data analysis software, and specialized reagents for clinical research.",
+        "source_url": "https://medicine.yale.edu/myysm/previous-news/newsletter-issue/ysm-news-and-recognition-04-29-2026/"
+      },
+      {
+        "summary": "Eleanor Reid, assistant professor of emergency medicine at Yale, was selected as the 2026 recipient of the American Medical Women's Association's Esther Pohl Lovejoy Award for Improving International Health.",
+        "researcher_name": "Eleanor Reid",
+        "department_or_lab": "Emergency Medicine",
+        "award_or_discovery": "American Medical Women's Association's Esther Pohl Lovejoy Award for Improving International Health",
+        "significance": "This award recognizes a woman physician who has dedicated her life to promoting international relations through improvements in international health, with Reid specializing in emergency medicine development and global palliative care.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This award signifies active and impactful research in global health and emergency medicine, suggesting demand for medical supplies, public health research tools, and consumables for international health initiatives.",
+        "source_url": "https://medicine.yale.edu/myysm/previous-news/newsletter-issue/ysm-news-and-recognition-04-29-2026/"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "The US National Science Foundation (NSF) has secretly \"blacklisted\" Yale University, along with other top universities, leading to a freeze on new research funding, including a support project for Yale University's Quantum Research Center.",
+        "facility_or_programme": "Yale University's Quantum Research Center (support project)",
+        "closure_type": "programme termination/stalling",
+        "effective_date": null,
+        "reason": "Unexplained \"blacklisting\" by the NSF, leading to a freeze on new research funding.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This indicates a potential loss of demand for specialized scientific equipment and reagents used in quantum research at Yale, creating a churn risk for Thomas Scientific.",
+        "source_url": "https://eu.36kr.com/en/p/3828807114150787"
+      },
+      {
+        "summary": "Yale University has cut its enrollment in graduate programs by 13% in the humanities and social sciences and by 5% in the sciences.",
+        "facility_or_programme": "Graduate programs in humanities, social sciences, and sciences at Yale University",
+        "closure_type": "programme reduction",
+        "effective_date": null,
+        "reason": "Likely cost-cutting measures amidst federal grant cuts and budget pressures.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Reduced graduate student enrollment, especially in the sciences, suggests a decrease in the number of active researchers and, consequently, a reduced demand for lab supplies, reagents, and consumables at Yale.",
+        "source_url": "https://harvardindependent.com/money-up-admissions-down-harvards-endowment-management-amidst-crisis/"
+      },
+      {
+        "summary": "A recent survey highlighted funding cuts for HIV/AIDS research programs at Yale University.",
+        "facility_or_programme": "HIV/AIDS research programs at Yale University",
+        "closure_type": "programme reduction/termination",
+        "effective_date": null,
+        "reason": "General \"funding cuts\" in a \"deeply politicized higher education environment.\"",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Funding cuts to HIV/AIDS research programs at Yale indicate a decreased need for specific reagents, consumables, and equipment related to infectious disease research, posing a churn risk for Thomas Scientific.",
+        "source_url": "https://insideinvestigator.org/survey-yale-faculty-censor/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T08:11:35.465961",
+  "ai_summary": "Yale University is experiencing significant research expansion with new NIH grants in HIV/substance use, immunology, and genomics, alongside a new Chemical Safety Building and hospital lab renovations. This creates substantial opportunities for lab supply sales across various disciplines, requiring reagents, equipment, and safety products. While some quantum and HIV/AIDS funding faces cuts, overall growth signals strong demand."
+}

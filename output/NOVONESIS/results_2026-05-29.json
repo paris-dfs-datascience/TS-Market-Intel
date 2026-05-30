@@ -1,0 +1,32 @@
+{
+  "account": "NOVONESIS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1CyYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Oterra, formerly Chr. Hansen Natural Colors, has partnered with biotech firm Debut to scale a natural alternative to Red 40 food dye in the U.S., with plans to work toward FDA approval.",
+        "product_or_site": "Natural alternative to Red 40 food dye",
+        "regulatory_action": "Working toward FDA approval (for a food additive)",
+        "outcome": "Partnership established to develop and seek FDA approval for a natural food dye alternative",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This indicates upcoming demand for lab supplies, reagents, and equipment for research, development, and eventual scale-up of the new natural food dye.",
+        "source_url": "https://www.fooddive.com/news/oterra-natural-color-red-food-dye-debut-partnership/819459/"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:39:06.574843",
+  "ai_summary": "Oterra, a former Chr. Hansen division, is partnering to scale a natural Red 40 alternative, targeting FDA approval. This highlights a significant industry push towards natural, regulatory-compliant ingredients, a core focus for NOVONESIS. This R&D and scaling activity indicates a strong need for advanced lab supplies, analytical equipment, and bioprocessing solutions as NOVONESIS pursues similar innovation in biosolutions."
+}

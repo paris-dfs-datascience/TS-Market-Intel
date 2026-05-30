@@ -1,0 +1,128 @@
+{
+  "account": "MASSACHUSETTS INSTITUTE OF TEC",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkegYAC",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Computational neuroscientist Sven Dorkenwald has been named a 2026 Searle Scholar and joined the faculty of MIT as an assistant professor in the Department of Brain and Cognitive Sciences and an investigator at the McGovern Institute.",
+        "name": "Sven Dorkenwald",
+        "department": "Brain and Cognitive Sciences",
+        "start_date": "2026-01-01",
+        "event_date": "2026-05-06",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://mcgovern.mit.edu/2026/05/06/mit-scientists-sven-dorkenwald-and-whitney-henry-named-2026-searle-scholars/"
+      },
+      {
+        "summary": "Myriam Heiman, the John and Dorothy Wilson Professor of Neuroscience, will become the director of The Picower Institute for Learning and Memory, effective July 1, 2026.",
+        "name": "Myriam Heiman",
+        "department": "Brain and Cognitive Sciences (Neuroscience)",
+        "start_date": "2026-07-01",
+        "event_date": "2026-05-26",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://picower.mit.edu/news/myriam-heiman-named-director-picower-institute-learning-and-memory"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Commonwealth of Massachusetts has committed up to $25 million in matching state funds to support the construction of a new Quantum Systems Laboratory (QSL) at the Massachusetts Institute of Technology (MIT). This facility aims to be a national epicenter for quantum computing, sensing, and hardware co-design, with construction expected to begin in June and wrap up by December 2027. Officials anticipate more details on equipment access and procurement as construction progresses.",
+        "contract_name": "Procurement for MIT Quantum Systems Laboratory (QSL) Equipment",
+        "estimated_value": "Part of a $25 million state investment, matching federal funding and private philanthropy.",
+        "deadline_or_expiration": "Not specified, but procurement details are expected as construction progresses.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This indicates a significant upcoming demand for advanced scientific equipment and related consumables for quantum research and development at MIT.",
+        "source_url": "https://www.mass.gov/news/governor-healey-announces-25-million-for-new-mit-quantum-systems-lab-strengthening-mas-global-leadership-in-quantum-computing-research"
+      },
+      {
+        "summary": "The Engine, a nonprofit incubator in Cambridge started by MIT, received $1.69 million in Mass Leads Act grants to expand climate-resilient technology for public use. This grant will be used to modernize and expand existing equipment, including advanced 3D printers, thermal systems, and prototyping capacity, with new technologies becoming available to startups and university researchers over the next five years.",
+        "contract_name": "Procurement for Climate-Resilient Technology Infrastructure at The Engine (MIT-affiliated incubator)",
+        "estimated_value": "Part of a $1.69 million grant.",
+        "deadline_or_expiration": "Not specified, but new technologies will become available over the next five years.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This presents an opportunity for Thomas Scientific to supply equipment and consumables for climate technology research and development at an MIT-affiliated incubator.",
+        "source_url": "https://www.cambridgeday.com/2026/05/28/somerville-cambridge-climate-incubators/"
+      }
+    ],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "The Commonwealth of Massachusetts is investing $25 million to establish a new shared-use Quantum Systems Laboratory (QSL) at MIT, aimed at advancing quantum technology and research in areas such as life sciences, defense, healthcare, and advanced manufacturing.",
+        "amount": "$25 million",
+        "funding_type": "Government Program Award (State Investment)",
+        "use_of_proceeds": "Construction and equipping of a new Quantum Systems Laboratory (QSL) at MIT to facilitate quantum computing, sensing, and hardware co-design research, providing specialized facilities and experimental capabilities for academic, government, and industry researchers.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment of a new Quantum Systems Laboratory will necessitate substantial procurement of advanced scientific equipment, specialized lab supplies, and consumables to support cutting-edge quantum research and its applications in various scientific and industrial fields.",
+        "source_url": "https://www.mass.gov/news/governor-healey-announces-25-million-for-new-mit-quantum-systems-lab-strengthening-mas-global-leadership-in-quantum-computing-research"
+      }
+    ],
+    "project": [
+      {
+        "summary": "MIT President Sally Kornbluth and Massachusetts Governor Maura Healey announced plans for the new Quantum Systems Laboratory (QSL) at MIT, a shared-use facility designed to accelerate the development of next-generation quantum technologies and establish Massachusetts as a national hub for quantum innovation. The lab will integrate a state-of-the-art quantum computer with essential components like sensors and quantum interconnects, and its facilities will be accessible to researchers from both MIT and beyond.",
+        "project_name": "Quantum Systems Laboratory (QSL) at MIT",
+        "scope": "Development of next-generation quantum technologies, including the integration of a state-of-the-art quantum computer with peripheral hardware such as sensors and quantum interconnects. The facility will be open to researchers from MIT and other institutions.",
+        "timeline": "Construction on the QSL facility is expected to begin as early as summer 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new research center will drive significant demand for advanced scientific equipment, specialized reagents, and consumables required for quantum computing research, development, and the fabrication of quantum components like sensors and interconnects.",
+        "source_url": "https://www.miragenews.com/mit-launches-lab-to-propel-national-quantum-1682460/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Feng Zhang, a McGovern Investigator and professor at MIT, has been inducted into the 2026 class of the National Inventors Hall of Fame. He is recognized for his innovations in gene editing and for broadly sharing his resources and expertise with the global scientific community.",
+        "researcher_name": "Feng Zhang",
+        "department_or_lab": "McGovern Institute for Brain Research, Department of Brain and Cognitive Sciences, Department of Biological Engineering",
+        "award_or_discovery": "Induction into the 2026 class of the National Inventors Hall of Fame",
+        "significance": "This is a major national honor recognizing outstanding contributions to invention and innovation, specifically in gene editing.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Recognition for pioneering gene-editing technologies signals ongoing high-impact research in biotechnology, likely driving demand for advanced reagents, consumables, and specialized equipment for genetic manipulation and analysis.",
+        "source_url": "https://mcgovern.mit.edu/institute-news/awards-honors/"
+      },
+      {
+        "summary": "Michale Fee, the Glen V. and Phyllis F. Dorflinger Professor of Neuroscience and head of the Department of Brain and Cognitive Sciences, and Fan Wang, a professor of brain and cognitive sciences, have been elected to join the National Academy of Sciences (NAS) for 2026. They are recognized by their peers for their outstanding contributions to research in the natural and social sciences.",
+        "researcher_name": "Michale Fee, Fan Wang",
+        "department_or_lab": "Department of Brain and Cognitive Sciences, McGovern Institute for Brain Research",
+        "award_or_discovery": "Election to the National Academy of Sciences (2026 class)",
+        "significance": "Election to the National Academy of Sciences is one of the highest honors a U.S. scientist can receive, recognizing distinguished and continuing achievements in original research.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Election to the National Academy of Sciences indicates leading-edge research in neuroscience and cognitive sciences, suggesting continued demand for advanced imaging systems, neurophysiology equipment, and specialized reagents for brain research.",
+        "source_url": "https://mcgovern.mit.edu/institute-news/awards-honors/"
+      },
+      {
+        "summary": "Afreen Siddiqi, Kathleen Thelen, and Vinod Vaikuntanathan from MIT, along with alumna Kate Manne, have been appointed to the 2026 class of Guggenheim Fellows. These fellowships recognize individuals who have demonstrated exceptional capacity for productive scholarship or exceptional creative ability in the arts.",
+        "researcher_name": "Afreen Siddiqi, Kathleen Thelen, Vinod Vaikuntanathan",
+        "department_or_lab": "Various MIT departments",
+        "award_or_discovery": "2026 Guggenheim Fellowships",
+        "significance": "Guggenheim Fellowships are highly prestigious awards recognizing individuals who have demonstrated exceptional capacity for productive scholarship or exceptional creative ability.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The awarding of Guggenheim Fellowships to MIT researchers highlights ongoing, high-caliber scholarly work across various disciplines, potentially leading to new research initiatives and increased demand for specialized research tools and resources.",
+        "source_url": "https://news.mit.edu/topic/awards"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "MIT is closing its Barker and Dewey libraries this summer due to a $300 million budget deficit, with the Rotch Library also expected to suffer the same fate soon and its staffing reduced in June 2027.",
+        "facility_or_programme": "Barker Library, Dewey Library, Rotch Library (anticipated staffing reduction/closure)",
+        "closure_type": "Facility Closure",
+        "effective_date": "2026-06-01",
+        "reason": "$300 million budget deficit, new 8 percent tax on university endowments, and federal government cuts to scientific research.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The closure of these libraries and reduction in staff could lead to a decrease in demand for certain lab supplies and consumables if associated research activities are curtailed or relocated.",
+        "source_url": "https://www.thecollegefix.com/bulletin-board/lament-for-the-closing-of-mit-libraries/"
+      },
+      {
+        "summary": "MIT President Sally Kornbluth announced a significant drop in federally funded research (over 20% down from last year) and new federal research awards (over 20% down). Graduate student enrollment for the upcoming academic year will also decline by 20% (about 500 fewer students), leading to senior faculty cutting graduate students, post-doctoral fellows, and entire lines of research.",
+        "facility_or_programme": "Various federally funded research programs and associated graduate student/post-doctoral fellow positions across MIT",
+        "closure_type": "Programme Termination",
+        "effective_date": null,
+        "reason": "Federal policy shifts, including a new 8 percent tax on university endowments and federal government cuts to scientific research.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "A substantial reduction in research funding, graduate students, and postdocs at MIT indicates a significant churn risk for Thomas Scientific, as it suggests decreased demand for lab supplies, reagents, consumables, and scientific equipment across numerous research programs.",
+        "source_url": "https://www.washingtonpost.com/education/2026/05/15/mit-president-blames-federal-policy-shifts-big-drop-research-campus/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-30T11:38:24.830529+00:00",
+  "ai_summary": "MIT is experiencing a mixed landscape, with significant investment in a new Quantum Systems Laboratory and climate tech expansion creating opportunities for specialized equipment and supplies. New faculty in neuroscience and gene editing also signal potential lab setups. However, a substantial budget deficit and over 20% decline in federal research funding and graduate enrollment mean many existing labs face cutbacks, requiring a targeted sales approach."
+}

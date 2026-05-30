@@ -1,0 +1,29 @@
+{
+  "account": "CINCINNATI WATER WORKS",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP13CYAS",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [
+      {
+        "summary": "Greater Cincinnati Water Works implemented a 5.55% rate increase, primarily to fund an estimated $100 million project for PFAS-removal filtration systems at the Charles M. Bolton Plant to comply with new federal EPA health mandates. The utility also performs approximately 600 water quality tests daily.",
+        "bill_or_budget_name": "Greater Cincinnati Water Works 2026 Rate Increase for PFAS Filtration Upgrade",
+        "jurisdiction": "Local (Greater Cincinnati Water Works)",
+        "funding_amount": "$100,000,000",
+        "focus_area": "Environmental monitoring, public health testing, and laboratory infrastructure for PFAS removal and water quality.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant investment in PFAS filtration systems and ongoing water quality testing will drive demand for specialized lab equipment, reagents, and consumables for environmental monitoring and public health testing.",
+        "source_url": "https://thecincinnatiexchange.com/cincinnati-water-bills-2026-increase/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:19:29.211245",
+  "ai_summary": "Cincinnati Water Works is undertaking a $100 million PFAS-removal project to comply with new EPA mandates, funded by a recent rate increase. This significant investment, coupled with their 600 daily water quality tests, indicates a substantial and growing need for lab supplies, equipment, and consumables. Sales teams should focus on solutions for PFAS testing, general water quality analysis, and treatment process monitoring."
+}

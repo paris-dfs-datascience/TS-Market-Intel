@@ -1,0 +1,59 @@
+{
+  "account": "USWM CT LLC",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "00116000026HGFbAAO",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [
+      {
+        "summary": "Lockers Manufacturing is expanding its operations in Batesville, Mississippi, with a $9.7 million investment to establish two additional divisions for wood and plastic locker production, creating 25 new jobs.",
+        "location": "Batesville, Mississippi, US",
+        "type_of_expansion": "Manufacturing facility expansion",
+        "investment_value": "$9.7M",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This manufacturing expansion will likely increase demand for various industrial supplies, safety equipment, and potentially quality control lab supplies for material testing.",
+        "source_url": "https://www.mississippimonitor.com/2026/05/11/lockers-manufacturing-expands-batesville-operations-with-9-7m-investment-25-new-jobs/"
+      },
+      {
+        "summary": "Colorado School of Mines received a $5 million commitment from The Angel Family Foundation to expand its Space Resources Program, including upgrading on-campus lunar and planetary simulation facilities.",
+        "location": "Golden, Colorado, US",
+        "type_of_expansion": "Research and simulation facility expansion",
+        "investment_value": "$5M",
+        "event_date": "2026-05-24",
+        "why_it_matters": "The expansion of research and simulation facilities will create demand for specialized scientific equipment, consumables, and lab supplies for space resources and planetary research.",
+        "source_url": "https://philanthropistsnotebook.com/2026/05/24/colorado-school-of-mines-receives-5m-investment-to-expand-lunar-simulation-and-research-program/"
+      },
+      {
+        "summary": "Edgewood Renewables plans to develop a scaled manufacturing, production, and distribution facility in North Las Vegas, Nevada, with an investment of over $138.7 million and the creation of 60 jobs.",
+        "location": "North Las Vegas, Nevada, US",
+        "type_of_expansion": "Manufacturing, production, and distribution facility",
+        "investment_value": "$138.7M",
+        "event_date": "2026-05-14",
+        "why_it_matters": "A new manufacturing facility for renewable gasoline products will require industrial chemicals, processing equipment, and potentially quality control lab supplies.",
+        "source_url": "https://www.lvgea.org/news/southern-nevada-secures-more-than-200-new-jobs-and-166-million-in-capital-investment/"
+      },
+      {
+        "summary": "Acra Cast, Inc., a foundry producing metal components, is expanding its operations in Bay City, Michigan, creating 25 new jobs with a $2.2 million capital investment.",
+        "location": "Bay City, Michigan, US",
+        "type_of_expansion": "Manufacturing facility expansion",
+        "investment_value": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This manufacturing expansion, focused on metal components, can lead to increased demand for quality control lab supplies, material testing equipment, and general industrial consumables.",
+        "source_url": "https://www.michiganbusiness.org/news/2026/may/business-expansion-brings-25-new-jobs-2.2-million-investment-to-bay-county/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:54:10.604610",
+  "ai_summary": "Market intelligence reveals diverse expansions across various industries, from new manufacturing facilities in Michigan and Nevada to significant upgrades in space simulation labs at Colorado School of Mines. These investments signal broad economic growth and potential for increased demand in research, quality control, and production environments. For a lab supply sales team, this indicates emerging opportunities for equipment and consumables in scientific research and advanced manufacturing settings."
+}

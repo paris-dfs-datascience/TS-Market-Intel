@@ -1,0 +1,173 @@
+{
+  "account": "PERATON",
+  "account_vertical": "Government",
+  "Parent_ID": "0011M00002PP6V7QAL",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Peraton Labs secured a cooperative agreement from the National Science Foundation (NSF) for research and development initiatives supporting real-time extended reality medical collaboration over next-generation wireless networks, as part of NSF's Breaking the Low Latency Barrier for Verticals in Next-G Wireless Networks initiative.",
+        "recipient": "Peraton Labs",
+        "department_or_lab": "Peraton Labs",
+        "amount": "$2.6 million",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This indicates potential demand for lab supplies and equipment related to XR medical collaboration, wireless network research, and next-generation communication technologies.",
+        "source_url": "https://www.executivebiz.com/articles/peraton-labs-nsf-xr-medical-collaboration"
+      },
+      {
+        "summary": "Peraton Inc. was awarded a $340.6 million contract by NASA for the ETIS III project, providing environmental test and integration services for NASA's Goddard Space Flight Center's Engineering and Technology Directorate's Mechanical Systems Division.",
+        "recipient": "Peraton Inc.",
+        "department_or_lab": "NASA's Goddard Space Flight Center's Engineering and Technology Directorate's Mechanical Systems Division",
+        "amount": "$340,582,148.95",
+        "agency": "National Aeronautics and Space Administration (NASA)",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This signals demand for equipment and consumables used in environmental testing, integration services, and hardware/software development for spaceflight and ground systems.",
+        "source_url": "https://www.industrialbriefs.com/peraton-inc-secures-3406-million-nasa-contract-for-environmental-testing-services/"
+      },
+      {
+        "summary": "Peraton Inc. was awarded a 5-year contract valued at $6.47 million to support the Defense Finance and Accounting Service (DFAS) with Defense Joint Military Pay Systems.",
+        "recipient": "Peraton Inc.",
+        "department_or_lab": "Defense Finance and Accounting Service (DFAS)",
+        "amount": "$6,471,147.36",
+        "agency": "Department of Defense (DoD) - Defense Finance and Accounting Service (DFAS)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "While primarily IT support, large government contracts often involve associated needs for office supplies, IT infrastructure components, and potentially specialized equipment for data centers or secure environments.",
+        "source_url": "https://orangeslices.ai/peraton-wins-7m-dfas-defense-joint-military-pay-systems-support-contract/"
+      },
+      {
+        "summary": "Peraton landed a U.S. Navy contract worth up to $90.7 million to keep the MK 18 family of explosive ordnance disposal underwater drones operational, with a base value of $17.3 million for one year.",
+        "recipient": "Peraton",
+        "department_or_lab": "U.S. Navy - Naval Information Warfare Center Pacific",
+        "amount": "Up to $90.7 million (potential); $17.3 million (base)",
+        "agency": "U.S. Navy (Department of Defense)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This indicates demand for maintenance, repair, and operational supplies for underwater drones, potentially including specialized components, testing equipment, and field consumables.",
+        "source_url": "https://defence-blog.com/peraton-wins-u-s-navy-deal-to-keep-mk-18-underwater-drones-mission-ready/"
+      },
+      {
+        "summary": "Peraton Inc. was awarded a $178.5 million contract by NASA for the operations and management of the NASA Balloon Facility, supporting high-altitude research and technology development.",
+        "recipient": "Peraton Inc.",
+        "department_or_lab": "NASA Balloon Facility",
+        "amount": "$178,493,094.75",
+        "agency": "National Aeronautics and Space Administration (NASA)",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This suggests demand for specialized gases, atmospheric testing equipment, scientific instruments, and maintenance supplies for high-altitude research platforms.",
+        "source_url": "https://www.industrialbriefs.com/nasa-awards-1785-million-contract-to-peraton-inc-for-balloon-facility-operations/"
+      },
+      {
+        "summary": "A modification to an existing NIH CIO-SP3 GWAC awarded to Peraton in May 2012 was made, extending the ordering period end date to October 29, 2026. The total obligated amount for the GWAC is $867.9M, with a current award value of $1.1B and a potential award of $1.3B.",
+        "recipient": "Peraton",
+        "department_or_lab": "NIH Information Technology Acquisition and Assessment Center (NITAAC)",
+        "amount": "Total Obligated: $867.9M; Current Award: $1.1B; Potential Award: $1.3B (overall GWAC)",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "An extension of a large NIH IT contract indicates ongoing demand for IT-related lab equipment, software, and support services that may indirectly require scientific supplies.",
+        "source_url": "https://www.highergov.com/idv/HHSN316201200036W/"
+      },
+      {
+        "summary": "Peraton Inc. was one of nine companies awarded a spot on a $349.3 million indefinite-delivery/indefinite-quantity (IDIQ) multiple award contract for technical support in support of unmanned maritime systems.",
+        "recipient": "Peraton Inc.",
+        "department_or_lab": "Naval Information Warfare Center Pacific, San Diego, California (U.S. Navy)",
+        "amount": "Part of a $349,393,234 multiple-award IDIQ contract (Peraton's specific share not defined at award, minimum $2,500 obligated at time of award for the overall contract).",
+        "agency": "U.S. Department of War (U.S. Navy)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This indicates ongoing demand for technical support, testing, and maintenance supplies for unmanned maritime systems, which could include specialized sensors, components, and field consumables.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4483936/contracts-for-may-12-2026/"
+      },
+      {
+        "summary": "Peraton Labs is expected to be awarded a sole-source firm-fixed-price (FFP) contract for the initial development to reach Full Operational Capability of the Strategic Laydown and Dispersal (SLD) Decision Support Tool (DST), including data and analytics services, digital tool development, modernization, sustainment, and maintenance.",
+        "recipient": "Peraton Labs",
+        "department_or_lab": "Naval Supply Systems Command (NAVSUP) Fleet Logistics Center (FLC) Norfolk Contracting Department, Pentagon Directorate (for Chief of Naval Operations / OPNAV N52)",
+        "amount": "Not specified (firm-fixed-price contract)",
+        "agency": "U.S. Navy (Department of Defense)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This contract for a decision support tool suggests demand for advanced computing resources, data analytics software, and potentially specialized hardware for secure data processing and visualization.",
+        "source_url": "https://orangeslices.ai/peraton-secures-us-navy-sld-decision-support-tool-dst-support-contract/"
+      },
+      {
+        "summary": "Peraton is one of 16 companies awarded a spot on a potential $350 million multiple-award indefinite-delivery/indefinite-quantity (IDIQ) contract by the Naval Information Warfare Center Pacific, supporting intelligence, surveillance, and reconnaissance (ISR) systems, information operations, and cybersecurity missions.",
+        "recipient": "Peraton",
+        "department_or_lab": "Naval Information Warfare Center Pacific",
+        "amount": "Part of a potential $350 million multiple-award contract",
+        "agency": "U.S. Navy (Department of Defense)",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This indicates significant future demand for a wide range of lab supplies, reagents, consumables, and scientific equipment related to ISR, cyber operations, systems engineering, hardware/software development, and testing.",
+        "source_url": "https://www.govconwire.com/articles/navy-350m-contract-spots-award-isr-cyber"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [
+      {
+        "summary": "Peraton Inc. was awarded a spot on a multiple-award indefinite-delivery/indefinite-quantity (IDIQ) contract by the Naval Information Warfare Center Pacific (NIWC Pacific) for technical support including specification and design, fabrication, development, integration, assembly, installation, test, evaluation, demonstration, fielding, operations, maintenance, training, logistics, documentation, administration, configuration management, and program management in support of unmanned maritime systems.",
+        "tender_name": "Naval Information Warfare Center Pacific (NIWC Pacific) Unmanned Maritime Systems IDIQ (N6600126D0060)",
+        "estimated_value": "$349,393,234",
+        "deadline": "2034-05-13",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This contract indicates potential future demand for specialized lab equipment, reagents, and consumables for the development, testing, and maintenance of unmanned maritime systems.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4483936/contracts-for-may-12-2026/"
+      },
+      {
+        "summary": "Peraton Inc. secured a $340.6 million contract from NASA for Environmental Test and Integration Services (ETIS III) at NASA's Goddard Space Flight Center.",
+        "tender_name": "NASA Environmental Test and Integration Services (ETIS III) Contract",
+        "estimated_value": "$340,582,148.95",
+        "deadline": null,
+        "event_date": "2026-05-23",
+        "why_it_matters": "This contract suggests a need for specialized environmental testing lab equipment, reagents, and consumables for spaceflight and ground system hardware and software development and verification.",
+        "source_url": "https://www.industrialbriefs.com/peraton-inc-secures-3406-million-nasa-contract-for-environmental-testing-services/"
+      },
+      {
+        "summary": "Peraton Inc. was awarded a $178.5 million contract by the National Aeronautics and Space Administration (NASA) for the operations and management of the NASA Balloon Facility.",
+        "tender_name": "NASA Balloon Facility Operations and Management Contract",
+        "estimated_value": "$178,493,094.75",
+        "deadline": null,
+        "event_date": "2026-05-23",
+        "why_it_matters": "This contract indicates a demand for lab supplies and equipment for high-altitude scientific research, technology development, and experiments conducted at the NASA Balloon Facility.",
+        "source_url": "https://www.industrialbriefs.com/nasa-awards-178-million-contract-to-peraton-for-balloon-facility-operations/"
+      },
+      {
+        "summary": "Peraton Inc. was awarded a $17.38 million sole-source cost reimbursement contract (N6600126C0039) for Expeditionary Unmanned Systems Operations and fleet support representative support at Naval Information Warfare Center Pacific.",
+        "tender_name": "Expeditionary Unmanned Systems Operations and Fleet Support Representative Support (N6600126C0039)",
+        "estimated_value": "$17,383,492",
+        "deadline": "2027-05-03",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This contract suggests a need for specialized equipment and consumables for the maintenance, testing, and operation of unmanned maritime systems.",
+        "source_url": "https://www.executivebiz.com/articles/peraton-cmmc-l2-dow-defense-data"
+      },
+      {
+        "summary": "The Naval Supply Systems Command (NAVSUP) Fleet Logistics Center (FLC) Norfolk Contracting Department intends to acquire, via sole source acquisition, initial development to reach Full Operational Capability of the Strategic Laydown and Dispersal (SLD) Decision Support Tool (DST) Production Services from Peraton Labs.",
+        "tender_name": "Strategic Laydown and Dispersal (SLD) Decision Support Tool (DST) Production Services (Presolicitation N0018926QD054)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "This presolicitation for a decision support tool could indirectly lead to requirements for specialized hardware or testing environments that may need lab supplies.",
+        "source_url": "https://sam.gov/opp/d21df251b2cd401a9a197bcadffd6877/view"
+      },
+      {
+        "summary": "Peraton announced its transition to the Ivalua supplier platform, with Phase 1 Go Live effective May 4, 2026, impacting how suppliers will interact with Peraton for procurement activities.",
+        "tender_name": "Peraton Ivalua Supplier Platform Transition",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This change in Peraton's procurement system is a key market intelligence signal for Thomas Scientific to adapt its engagement strategy for future tenders and supply opportunities.",
+        "source_url": "https://www.peraton.com/suppliers"
+      },
+      {
+        "summary": "Peraton achieved final Level 2 certification under the Department of War's Cybersecurity Maturity Model Certification (CMMC) program, reinforcing its commitment to secure mission support.",
+        "tender_name": "Cybersecurity Maturity Model Certification (CMMC) Level 2 Achievement",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "This certification enhances Peraton's eligibility for more defense contracts, potentially increasing future demand for lab supplies and equipment in secure research and development environments.",
+        "source_url": "https://www.executivebiz.com/articles/peraton-cmmc-l2-dow-defense-data"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:44:09.669967",
+  "ai_summary": "Peraton is experiencing significant growth, securing numerous high-value government contracts with NASA, NSF, and the Navy for projects spanning environmental testing, high-altitude research, extended reality medical collaboration, and unmanned systems. This surge in R&D and operational activities across diverse scientific and defense domains creates significant opportunities for lab supply sales teams to provide equipment, consumables, and specialized materials for testing, development, and research initiatives."
+}

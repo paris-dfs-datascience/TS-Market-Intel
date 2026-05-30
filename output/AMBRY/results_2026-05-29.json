@@ -1,0 +1,51 @@
+{
+  "account": "AMBRY",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "0011M00002TunJyQAJ",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Ambry Genetics announced enhancements to its hereditary cancer testing menu, including the addition of MLH3 to its CancerNext\u00ae, CancerNext\u2013Expanded\u00ae, and ColoNext\u00ae base panels due to upgraded gene-disease validity for autosomal recessive polyposis and colorectal cancer predisposition.",
+        "product_or_program": "CancerNext\u00ae, CancerNext\u2013Expanded\u00ae, and ColoNext\u00ae (with MLH3 inclusion)",
+        "stage": "Launch/Enhancement",
+        "therapeutic_or_application_area": "Hereditary Cancer Testing",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This enhancement to Ambry's hereditary cancer testing menu indicates an updated offering that could drive increased test volumes, creating demand for associated lab supplies, reagents, and consumables.",
+        "source_url": "https://blog.ambrygen.com/ambry/post/443/hereditary-cancer-testing-menu-enhancements-may-2026"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Tempus AI, Inc. announced the clinical launch of the ArteraAI Prostate Test (mHSPC), a CLIA-certified and CAP-accredited prognostic test for metastatic hormone-sensitive prostate cancer, which will be integrated into the Tempus platform.",
+        "product_or_site": "ArteraAI Prostate Test (mHSPC)",
+        "regulatory_action": "CLIA Certification, CAP Accreditation",
+        "outcome": "Launched/Accredited",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The launch of a new CLIA-certified and CAP-accredited test integrated into the Tempus platform, which Ambry Genetics is part of, indicates upcoming demand for lab supplies, reagents, and consumables required for performing this prostate cancer prognostic test.",
+        "source_url": "https://www.tempus.com/news/pr/tempus-launches-artera-ai-prostate-test-for-metastatic-patients-marking-the-first-prostate-digital-pathology-algorithm-in-the-tempus-ecosystem-available-for-clinical-use/"
+      }
+    ],
+    "volume": [
+      {
+        "summary": "Ambry Genetics announced enhancements to its hereditary cancer testing menu, specifically adding MLH3 to its CancerNext\u00ae, CancerNext\u2013Expanded\u00ae, and ColoNext\u00ae base panels.",
+        "test_or_product_line": "Hereditary Cancer Testing (CancerNext\u00ae, CancerNext\u2013Expanded\u00ae, ColoNext\u00ae)",
+        "volume_change": "Expansion of test menu by including MLH3 in base panels, implying potential for increased test volume.",
+        "driver": "Upgraded gene-disease validity (GDV) for MLH3 in autosomal recessive polyposis and colorectal cancer predisposition.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Higher test volume for these expanded hereditary cancer panels directly increases the demand for reagents, consumables, and potentially lab equipment used in genetic sequencing and analysis.",
+        "source_url": "https://blog.ambrygen.com/ambry/post/443/hereditary-cancer-testing-menu-enhancements-may-2026"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:16:45.071816",
+  "ai_summary": "Ambry Genetics is expanding its hereditary cancer testing menu by adding MLH3 to its CancerNext and ColoNext panels, driven by new gene-disease validity. This enhancement signals increased testing volume and a need for specific molecular biology reagents, consumables, and potentially new instrumentation. Sales teams should engage to understand evolving supply needs for these growing diagnostic services."
+}

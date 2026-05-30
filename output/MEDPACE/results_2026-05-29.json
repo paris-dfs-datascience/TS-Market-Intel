@@ -1,0 +1,69 @@
+{
+  "account": "MEDPACE",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "0011M00002dWQ3HQAW",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Medpace is expanding its histology and anatomic pathology services globally, including establishing a lab in Cincinnati, expanding in Singapore, and laying groundwork for growth in Belgium.",
+        "product_or_program": "Histology and anatomic pathology services",
+        "stage": "Technology platform expansion",
+        "therapeutic_or_application_area": "Oncology, precision medicine, biomarker-driven research, tissue-based analyses, translational science",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This expansion indicates increased demand for histology-related lab supplies, reagents, and equipment across multiple global locations.",
+        "source_url": "https://www.medpace.com/news/inside-the-lab-building-histology-capabilities-for-modern-clinical-trials-qa-with-rob-mcgee-md-phd/"
+      },
+      {
+        "summary": "Medpace is seeking an AI Engineering Intern to work with AI tools for interactive AI applications across various IT systems, including designing, implementing, and deploying machine learning models and systems.",
+        "product_or_program": "AI tools and machine learning models for interactive AI applications",
+        "stage": "Technology platform expansion/development",
+        "therapeutic_or_application_area": "General IT systems and process efficiency within Medpace's operations, likely supporting clinical research",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Investment in AI technology could lead to demand for high-performance computing equipment, specialized software, and data storage solutions.",
+        "source_url": "https://www.tealhq.com/companies/medpace-inc/jobs/ai-engineering-intern-fall-2026-1033420"
+      },
+      {
+        "summary": "Medpace is seeking an AI Lead with CDMO experience in clinical, drug substance, and drug product to identify and deploy AI solutions.",
+        "product_or_program": "AI solutions for clinical, drug substance, and drug product development within a CDMO context",
+        "stage": "Technology platform expansion and potential new drug substance/product contracts",
+        "therapeutic_or_application_area": "Clinical development, drug substance manufacturing, drug product manufacturing",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This indicates a strategic investment in AI for drug development and manufacturing, suggesting future demand for advanced lab equipment, automation, and specialized reagents for drug substance and product work.",
+        "source_url": "https://www.indeed.com/q-Flexible-Biotech-Remote-jobs.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "The FDA issued a Warning Letter to clinical investigator Dr. Naseem A. Jaffrani for failing to report serious adverse events (SAEs) to Medpace Clinical Safety within 24 hours as required by the investigational plan during a clinical trial.",
+        "product_or_site": "Medpace Clinical Safety (as the designated recipient for SAE reports) and the clinical trial site of Dr. Naseem A. Jaffrani.",
+        "regulatory_action": "FDA Warning Letter.",
+        "outcome": "The clinical investigator failed to comply with the investigational plan regarding SAE reporting, and the IRB suspended enrollment and dosing for one protocol.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This regulatory event indicates a need for Medpace to potentially review and reinforce its clinical safety reporting and oversight mechanisms, which could drive demand for enhanced data management systems, training, and compliance services.",
+        "source_url": "https://www.raps.org/resource/fda-warns-researchers-and-drugmakers-for-clinical-study-gmp-violations.html"
+      }
+    ],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Eli Lilly is acquiring Engage Bio, a preclinical biotech company focused on developing a nonviral DNA delivery platform, for up to $202 million in cash, including upfront and milestone payments.",
+        "acquirer": "Eli Lilly",
+        "target": "Engage Bio",
+        "deal_value": "$202 million",
+        "deal_status": "Definitive Agreement",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This acquisition of a DNA delivery platform developer by a major pharmaceutical company indicates potential for increased R&D activity and demand for specialized reagents and consumables for genetic medicine research.",
+        "source_url": "https://www.biospace.com/deals/lilly-and-engage-bio-tie-the-knot-with-202m-acquisition"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:11:52.571311",
+  "ai_summary": "Medpace is significantly expanding its global histology and anatomic pathology services, establishing new labs in Cincinnati, Singapore, and Belgium. This strategic growth directly translates to increased demand for specialized lab equipment, reagents, and consumables across multiple regions. Lab supply teams should engage now to support these new facilities and capitalize on the immediate purchasing opportunities for pathology and histology workflows."
+}

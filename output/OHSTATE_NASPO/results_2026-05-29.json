@@ -1,0 +1,74 @@
+{
+  "account": "OHSTATE NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nOzx7YAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "The Government of Canada is investing $8 million in StandardAero's Winnipeg campus expansion to enhance dual-use aerospace maintenance, repair, and overhaul (MRO) capacity, including new equipment and advanced digital technologies. This project is part of a larger $19.5 million federal funding initiative for three Winnipeg-based defence suppliers and is expected to create over 150 jobs.",
+        "location": "Winnipeg, Manitoba, Canada",
+        "type_of_expansion": "Capacity expansion (aerospace maintenance, repair, and overhaul facility)",
+        "investment_value": "$8,000,000",
+        "event_date": "2026-04-24",
+        "why_it_matters": "This expansion of MRO capacity indicates increased demand for specialized tools, testing equipment, and consumables for aerospace maintenance, repair, and related research operations.",
+        "source_url": "https://www.cbc.ca/news/canada/manitoba/winnipeg-defence-projects-federal-funding-jobs-9.7176376"
+      }
+    ],
+    "project": [],
+    "tender": [
+      {
+        "summary": "The Navy intends to award a sole source firm fixed-price purchase order to TA Instruments-Waters L.L.C for laboratory equipment maintenance, repair, or rebuild services under FAR Part 13, with quotes due May 15, 2026.",
+        "tender_name": "Thermal Lab Lifetime Support Plan (Lab Equipment Maintenance, Repair, Rebuild Services)",
+        "estimated_value": null,
+        "deadline": "2026-05-15",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This indicates an ongoing need for maintenance and support for specialized lab equipment within the DoD, which could lead to future sales of related consumables or replacement parts for Thomas Scientific.",
+        "source_url": "https://sam.gov/workspace/contract/opp/31cf015245294660a3e30cb054e69885/view"
+      },
+      {
+        "summary": "A solicitation (75F40126Q133788) was issued by the FDA for a direct high-speed alphanumeric printing system for labware, set-aside for Total Small Business.",
+        "tender_name": "Direct high-speed alphanumeric printing system for labware",
+        "estimated_value": null,
+        "deadline": "2026-05-08",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This is a direct procurement for lab equipment, indicating a sales opportunity for specialized lab instrumentation and potentially associated consumables for Thomas Scientific.",
+        "source_url": "https://sam.gov/opp/75F40126Q133788/view"
+      },
+      {
+        "summary": "A Request for Information (RFI)/Sources Sought (N0016426SNB69) was issued by NSWC Crane for vendors who can support the repair of NHR/NI battery cycling equipment.",
+        "tender_name": "Equipment Repair (NHR/NI battery cycling equipment)",
+        "estimated_value": null,
+        "deadline": "2026-06-01",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Repair needs for specialized lab equipment indicate ongoing lab operations and potential future needs for replacement parts or new equipment that Thomas Scientific could supply.",
+        "source_url": "https://sam.gov/opp/N0016426SNB69/view"
+      },
+      {
+        "summary": "An update to a multiple award contract for laboratory equipment, accessories, and consumables for the Defense Logistics Agency Electronic Catalog added Becton Dickinson and Co. ($49,000,000) and Branch Medical LLC ($15,000,000) as awardees.",
+        "tender_name": "Laboratory Equipment, Accessories and Consumables (DLA Electronic Catalog)",
+        "estimated_value": "49000000 (Becton Dickinson), 15000000 (Branch Medical)",
+        "deadline": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This indicates significant ongoing procurement of lab equipment and consumables by the DLA, representing a large market for Thomas Scientific.",
+        "source_url": "https://www.defense.gov/News/Contracts/Contract-View/Article/3774026/contracts-for-may-14-2026/"
+      },
+      {
+        "summary": "Indefinite-delivery/indefinite-quantity, firm-fixed-price contracts were awarded for Automated Digital Network System production units, components, COTS software, spares, lab material, future cyber threat upgrades and mission focused upgrades, with a cumulative value of $452,930,000.",
+        "tender_name": "Automated Digital Network System (ADNS) Production Units, Components, COTS Software, Spares, Lab Material",
+        "estimated_value": "452930000",
+        "deadline": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "The inclusion of 'lab material' in a large DoD contract indicates a significant and ongoing demand for lab consumables and supplies, presenting a sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.defense.gov/News/Contracts/Contract-View/Article/3779026/contracts-for-may-21-2026/"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:43:17.475442",
+  "ai_summary": "Government agencies are actively investing in and procuring lab equipment, consumables, and maintenance services. Large contracts are being awarded by DLA for lab supplies, while the FDA seeks specialized printing systems and the Navy requires equipment maintenance. Canada is also expanding aerospace MRO with new equipment. This robust activity across various government entities signals significant, ongoing demand for lab solutions, creating strong sales opportunities for NASPO-affiliated suppliers."
+}

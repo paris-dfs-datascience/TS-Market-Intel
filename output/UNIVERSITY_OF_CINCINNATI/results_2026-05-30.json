@@ -1,0 +1,114 @@
+{
+  "account": "UNIVERSITY OF CINCINNATI",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1bOYAS",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "UC Clermont College is seeking a Senior Lab Associate who will be responsible for ordering, receiving, and tracking lab supplies and equipment, as well as maintaining and troubleshooting laboratory equipment such as microscopes, incubators, and autoclaves.",
+        "contract_name": "Senior Lab Associate Position (Indirect Procurement Signal)",
+        "estimated_value": null,
+        "deadline_or_expiration": "Position open until filled",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This new hire will directly manage the procurement of lab supplies and equipment for UC Clermont College, presenting an opportunity for Thomas Scientific to engage with the new associate for future sales.",
+        "source_url": "https://jobs.uc.edu/job/Cincinnati-Senior-Lab-Associate,-UC-Clermont-College-OH-45221/102640-en_US/"
+      },
+      {
+        "summary": "Cincinnati-based UC Health has expanded its prime vendor partnership with Medline to include laboratory products and services.",
+        "contract_name": "UC Health Prime Vendor Partnership Expansion (Laboratory Products and Services)",
+        "estimated_value": null,
+        "deadline_or_expiration": "Ongoing",
+        "event_date": "2026-05-27",
+        "why_it_matters": "While UC Health has expanded its partnership with a competitor, this indicates a high and ongoing demand for laboratory products and services within the UC Health system, which Thomas Scientific could target for specialized or supplementary needs.",
+        "source_url": "https://www.beckersasc.com/supply-chain/supply-chain-updates-2026/"
+      },
+      {
+        "summary": "The University of Cincinnati is planning the construction of a new STEM facility, reinforcing a citywide trend of modernizing research and innovation infrastructure with significant capital investment.",
+        "contract_name": "New STEM Facility Construction (Future Procurement Signal)",
+        "estimated_value": null,
+        "deadline_or_expiration": "Future",
+        "event_date": "2026-05-04",
+        "why_it_matters": "The planned new STEM facility at the University of Cincinnati indicates significant upcoming demand for new scientific equipment, lab supplies, and consumables as the facility becomes operational.",
+        "source_url": "https://www.enr.com/articles/62929-cincinnati-aec-growth-accelerates-despite-hurdles"
+      },
+      {
+        "summary": "The University of Cincinnati is listed among universities hosting NIH-funded exploratory research centers focused on the health effects of extreme weather, indicating ongoing research activities.",
+        "contract_name": "NIH Health and Extreme Weather Exploratory Research Center (Ongoing Funding)",
+        "estimated_value": null,
+        "deadline_or_expiration": "Ongoing",
+        "event_date": "2026-05-30",
+        "why_it_matters": "The University of Cincinnati's involvement in NIH-funded research centers suggests a continuous need for a wide range of lab supplies, reagents, and scientific equipment to support their ongoing studies.",
+        "source_url": "https://www.niehs.nih.gov/research/programs/extreme-weather/research-activities"
+      },
+      {
+        "summary": "Researchers from the University of Cincinnati are collaborating on a project utilizing Vat Photopolymerisation Additive Manufacturing to enable magnetic microscale robotics.",
+        "contract_name": "Magnetic Microscale Robotics Research (Additive Manufacturing)",
+        "estimated_value": null,
+        "deadline_or_expiration": "Ongoing",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This research indicates a demand for specialized additive manufacturing equipment, materials, and related lab supplies for advanced robotics and materials science at the University of Cincinnati.",
+        "source_url": "https://www.metal-am.com/category/news/applications/"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The University of Cincinnati's Center for Collaboration on Climate & Community for Health (C4H) is recruiting older adults for a three-year study to track their health during extreme summer heat, funded by a $4 million grant from the National Institutes of Health. Researchers will analyze blood samples using transcriptomics and monitor participants with Oura Rings and in-home heat detectors.",
+        "project_name": "Extreme Heat Health Study (under Center for Collaboration on Climate & Community for Health)",
+        "scope": "Interdisciplinary research on the health impacts of extreme heat, including recruitment of older adults, blood sample analysis (transcriptomics), and physiological monitoring using wearable devices and environmental sensors.",
+        "timeline": "Three-year program.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This project will generate demand for laboratory consumables for blood sample processing and transcriptomics, as well as potentially for wearable health monitoring devices and environmental sensors.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/uc-extreme-heat-older-adults-health-research.html"
+      },
+      {
+        "summary": "The University of Cincinnati, in collaboration with UC Health, Cincinnati Children's, GE HealthCare, and JobsOhio, officially opened the new Imaging Research & Development Center on UC's medical campus. This center aims to accelerate the development of next-generation magnetic resonance imaging (MRI) technologies and is equipped with a GE HealthCare SIGNA\u2122 Premier 3T wide-bore MRI scanner.",
+        "project_name": "Imaging Research & Development Center",
+        "scope": "Advancing MRI hardware, software, and imaging techniques to improve diagnostic accuracy, enhance patient comfort, and support personalized care through academic-industrial collaboration.",
+        "timeline": "Culmination of plans announced nearly two years prior, indicating a multi-year initiative.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The launch of this advanced imaging center will drive demand for high-end scientific equipment, specialized MRI consumables, and reagents for associated research in medical imaging.",
+        "source_url": "https://www.uc.edu/news/units/office-of-research.html/1000.html?submitted=submitted&yesclientlibs=true&2_group.2_property=jcr%3Acontent%2FhideInNav&2_group.2_property.value=true&2_group.p.not=true&3_group.2_relativedaterange.lowerBound=0&3_group.2_relativedaterange.property=jcr%3Acontent%2FonTime&3_group.p.not=true&4_group.2_relativedaterange.property=jcr%3Acontent%2FoffTime&4_group.2_relativedaterange.upperBound=0&4_group.p.not=true&5_group.1_property=jcr%3Acontent%2FisEmergency&5_group.1_property.value=true&5_group.p.not=true&orderby=%40jcr%3Acontent%2FdispDate&orderby.sort=desc&p.limit=3&pos=84&path=%2Fcontent%2Fuc%2Fnews%2Farticles&property=jcr%3Acontent%2Fsling%3AresourceType&property.operation=like&property.value=%25storyTemplates%25&type=cq%3APage&p.offset=87"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "The University of Cincinnati, in collaboration with UC Health, Cincinnati Children's, GE HealthCare, and JobsOhio, officially opened a new Imaging Research & Development Center on its medical campus.",
+        "researcher_name": "Gregory Postel, MD; Achala Vagal, MD; Vivek J. Khandwala, PhD",
+        "department_or_lab": "Imaging Research & Development Center, University of Cincinnati College of Medicine, Department of Radiology",
+        "award_or_discovery": "Opening of the new Imaging Research & Development Center",
+        "significance": "This facility, one of only a handful worldwide with an innovative GE HealthCare 3T wide-bore MRI scanner, unites academic medicine and industry to advance MRI research and accelerate imaging innovation, aiming to improve diagnostic accuracy, patient comfort, and personalized care.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment of a cutting-edge imaging research and development center signals a significant increase in demand for advanced MRI equipment, specialized reagents, and consumables for clinical trials and research projects.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/structure-of-key-cell-protein-visualized-for-first-time.html"
+      },
+      {
+        "summary": "University of Cincinnati structural biologists have achieved a groundbreaking milestone by being the first in the world to visualize the intricate structure of a pivotal cell protein, iRhom1, bound to the ADAM17 enzyme.",
+        "researcher_name": "Tom Seegar, PhD; Joe Maciag, PhD; Joe Ungvary",
+        "department_or_lab": "Seegar Lab, Department of Molecular and Cellular Biosciences, College of Medicine, Center for Advanced Structural Biology",
+        "award_or_discovery": "First-in-world visualization of iRhom1-ADAM17 enzyme complex",
+        "significance": "This is explicitly described as a \"groundbreaking milestone in molecular biology\" and \"first in the world\" visualization, providing critical insights into the regulation of the ADAM17 enzyme, which is vital for human tissue development and immune response and a drug target for chronic inflammatory diseases.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This breakthrough in structural biology using advanced microscopy techniques signals high-impact research activity and demand for specialized reagents, cryo-electron microscopy consumables, and other molecular biology lab supplies.",
+        "source_url": "https://bioengineer.org/university-of-cincinnati-structural-biologists-achieve-world-first-in-visualizing-crucial-cell-protein/"
+      },
+      {
+        "summary": "Researchers at the University of Cincinnati's Gardner Neuroscience Institute's Brain Tumor Center have achieved the first-in-world complete remission of a rare pituitary cancer using a novel immunotherapy treatment.",
+        "researcher_name": "Jonathan Forbes, MD",
+        "department_or_lab": "Gardner Neuroscience Institute's Brain Tumor Center, Department of Neurosurgery, College of Medicine",
+        "award_or_discovery": "First-in-world complete remission of aggressive pituitary tumor with novel immunotherapy",
+        "significance": "This is explicitly described as \"first in the world\" and a \"novel immunotherapy treatment\" for a difficult-to-treat cancer, with findings published in a peer-reviewed journal, representing a significant clinical breakthrough.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This clinical breakthrough in immunotherapy for cancer treatment indicates high-impact research and clinical trial activity, driving demand for specialized reagents, cell culture media, genomic testing supplies, and other oncology and immunology lab consumables and equipment.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/uc-achieves-first-in-world-remission-of-aggressive-pituitary-tumor-with-novel-immunotherapy.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T12:08:28.388703+00:00",
+  "ai_summary": "The University of Cincinnati is rapidly expanding with new STEM and Imaging R&D facilities, fueling significant NIH-funded research in climate health, neuroscience, and structural biology. This growth, coupled with a new Senior Lab Associate role, indicates substantial demand for new lab equipment, consumables, and specialized supplies. This presents numerous sales opportunities for a lab supply team to support diverse, high-impact research initiatives."
+}

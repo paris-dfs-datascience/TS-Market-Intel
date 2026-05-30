@@ -95,12 +95,18 @@ Locally, `DefaultAzureCredential` falls back to `az login` creds or `AZURE_CLIEN
 
 | File | Purpose |
 |------|---------|
-| `main.py` | Argparse CLI; dispatches runs by category / company / super80 |
-| `engine.py` | Async execution engine — semaphore, retries, checkpointing, usage tracking |
-| `storage.py` | `Sink` abstraction (`LocalSink` / `BlobSink`); selected via env by `get_sink()` |
-| `prompts.py` | 21 signal prompts (`build_prompt()`), vertical→signal mapping (`CATEGORY_TRIGGERS`), output schemas (`FIELD_MAPS`) |
-| `accounts.py` | 482 accounts keyed by 7 SF-aligned verticals (`ACCOUNTS`), `SUPER80`, `ACCOUNT_ALIASES`, `PARENT_ID_MAP` |
-| `export_csv.py` | Exports all `results_*.json` to a single CSV for Salesforce import |
+| `main.py` | Argparse CLI; dispatches runs by category / company / super80. Stays at repo root (Docker entrypoint). |
+| `market_intel/engine.py` | Async execution engine — semaphore, retries, checkpointing, usage tracking |
+| `market_intel/storage.py` | `Sink` abstraction (`LocalSink` / `BlobSink`); selected via env by `get_sink()` |
+| `market_intel/prompts.py` | 21 signal prompts (`build_prompt()`), vertical→signal mapping (`CATEGORY_TRIGGERS`), output schemas (`FIELD_MAPS`) |
+| `market_intel/accounts.py` | 482 accounts keyed by 7 SF-aligned verticals (`ACCOUNTS`), `SUPER80`, `ACCOUNT_ALIASES`, `PARENT_ID_MAP` |
+| `market_intel/accounts_sql.py` | Loads the account list from `SalesForce.Account_base` in Azure SQL (Managed Identity / token auth) |
+| `market_intel/export_csv.py` | Exports all `results_*.json` to a single CSV for Salesforce import |
+| `tools/backfill_results.py` | One-off re-processor for existing results JSONs (`--backfill`, `--fix-urls`); run via `python -m tools.backfill_results` |
+| `tools/analyze_dedup.py` | One-off dedup analysis on an export CSV (`--analyze-dedup`); run via `python -m tools.analyze_dedup` |
+| `diagnostics/check_gemini_api.py` | Probe Gemini grounded-search with the live key/auth path; run via `python -m diagnostics.check_gemini_api` |
+| `diagnostics/check_sql_connection.py` | Probe Azure SQL connectivity + MI permissions; run via `python -m diagnostics.check_sql_connection` |
+| `tests/` | Pytest suite (`pytest -q` from repo root). Not copied into the Docker image. |
 
 ### Execution Flow
 
@@ -231,13 +237,6 @@ When Gemini prepaid credits run out, the engine receives `429 RESOURCE_EXHAUSTED
 Stop cause: `429 RESOURCE_EXHAUSTED` — Gemini API credits exhausted mid-run during Clinical/Mol Dx (stopped at TEMPUS).
 
 **To complete**: top up Gemini credits, then `python main.py --category all`. Checkpoint resumes from TEMPUS onward.
-
-### validate_outputs.py
-Connects to Azure Blob via `DefaultAzureCredential`, lists all `results_*.json` blobs (excludes `_usage`), prints account / vertical / Parent_ID / signal counts per type, marks today's files with `← TODAY`. Run locally with Azure env vars set:
-
-```bash
-AZURE_STORAGE_ACCOUNT_URL=https://... AZURE_STORAGE_CONTAINER=... python validate_outputs.py
-```
 
 ### Signal Timeouts (non-fatal)
 Per-signal `SIGNAL_HARD_TIMEOUT` (default 60s for BioPharma, 30s for some others). Timed-out signals are skipped; the account is still saved with all signals that completed. Observed in runs: STANFORD UNIVERSITY [expansion] 30.3s timeout, SANOFI [ma] 60.0s timeout — both accounts saved correctly.

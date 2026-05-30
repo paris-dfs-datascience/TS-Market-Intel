@@ -1,0 +1,32 @@
+{
+  "account": "BRYLLAN",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0011M000029kgG7QAI",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [
+      {
+        "summary": "Bryllan, LLC, a company providing contract-manufacturing services to the biotechnology and pharmaceutical industries, has signed a 10-year lease for an 85,939-square-foot facility.",
+        "location": "Brighton, Michigan",
+        "type_of_expansion": "New dedicated facility / Capacity expansion for manufacturing operations",
+        "investment_value": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new manufacturing facility will create demand for new lab supplies, reagents, consumables, and scientific equipment for biotechnology and pharmaceutical production.",
+        "source_url": "https://www.loopnet.com/search/commercial-real-estate/brighton-mi/for-lease/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:20:05.447474",
+  "ai_summary": "Bryllan, a biopharma contract manufacturer, is undergoing a major expansion, securing an 85,939-square-foot facility with a 10-year lease. This significant growth signals new lab build-outs and increased production needs, creating a prime opportunity for lab supply sales teams to provide equipment, consumables, and services for their expanding operations."
+}

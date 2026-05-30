@@ -1,0 +1,30 @@
+{
+  "account": "LOTTE BIOLOGICS",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000F7rzqYAB",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "LOTTE Biologics announced an expansion of its antibody manufacturing agreement with Ottimo Pharma, an innovative biotech company, to advance Ottimo Pharma's biparatopic antibody, OTP-01, toward launch readiness. This expanded collaboration extends beyond manufacturing to include commercial process development and characterization activities at LOTTE Biologics' Syracuse Bio Campus in New York.",
+        "project_name": "Expanded Antibody Manufacturing Agreement with Ottimo Pharma for OTP-01",
+        "scope": "Commercial process development and characterization activities for Ottimo Pharma's biparatopic antibody, OTP-01, at the Syracuse Bio Campus in New York. This builds on a previous antibody development/manufacturing agreement.",
+        "timeline": "The expansion was announced on May 17, 2026, building on an agreement signed in June of the previous year.",
+        "event_date": "2026-05-17",
+        "why_it_matters": "This expanded agreement indicates increased demand for specialized reagents, consumables, and analytical equipment for process development and characterization at the Syracuse facility.",
+        "source_url": "https://www.prnewswire.com/news-releases/lotte-biologics-expands-antibody-manufacturing-agreement-with-ottimo-pharma-302773283.html"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:10:28.198784",
+  "ai_summary": "LOTTE Biologics is expanding its CDMO services for Ottimo Pharma's OTP-01 antibody, now encompassing commercial process development and characterization at their Syracuse facility. This push towards launch readiness signifies increased R&D, QC, and manufacturing activity. For lab supply sales, this translates into a growing demand for reagents, consumables, and equipment to support these critical development stages."
+}

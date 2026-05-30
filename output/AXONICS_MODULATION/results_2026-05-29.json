@@ -1,0 +1,31 @@
+{
+  "account": "AXONICS MODULATION",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "0011M00002FBO3OQAX",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Axonics, Inc. is sponsoring a post-market clinical outcomes study, \"Sacral Neuromodulation for Male Overactive Bladder (MOAB)\", to assess the Axonics SNM System for the treatment of overactive bladder in male patients.",
+        "product_or_program": "Sacral Neuromodulation for Male Overactive Bladder (MOAB) using the Axonics SNM System.",
+        "stage": "Post-market Clinical Outcomes Study (Recruiting)",
+        "therapeutic_or_application_area": "Male Overactive Bladder, Urinary Urgency Incontinence, Urinary Frequency, Benign Prostatic Hyperplasia, Prostatectomy, Prostate Cancer",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This active clinical trial indicates ongoing research and potential for increased utilization of Axonics' SNM System, creating demand for related lab supplies and consumables at the participating clinical sites.",
+        "source_url": "https://www.trialx.com/clinical-trials/listings/298792/sacral-neuromodulation-for-male/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:42:05.622770",
+  "ai_summary": "Axonics is sponsoring a new post-market clinical study, \"MOAB,\" to assess their SNM System for male overactive bladder. This study signifies ongoing R&D and clinical validation efforts. For lab supply sales, this means potential demand for consumables, reagents, and equipment needed for patient screening, sample collection, and analysis throughout the trial, presenting an opportunity to support their research needs."
+}

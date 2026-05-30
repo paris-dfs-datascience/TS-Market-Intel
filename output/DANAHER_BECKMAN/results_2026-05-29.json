@@ -1,0 +1,97 @@
+{
+  "account": "DANAHER BECKMAN",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1DRYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Beckman Coulter Diagnostics is a partner in the Global Alzheimer's Platform Foundation's (GAP) Bio-Hermes-002 study, an observational platform evaluating blood-based and digital biomarkers for Alzheimer's disease and related dementias.",
+        "partner": "Global Alzheimer's Platform Foundation (GAP)",
+        "deal_type": "Strategic Collaboration and Partnership (diagnostic platform study)",
+        "deal_value": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This collaboration signals expanded lab activity in neurodegenerative disease diagnostics, particularly in the development and evaluation of new blood-based and digital biomarkers for Alzheimer's disease, which will drive demand for related lab supplies and equipment.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/18/3268761/0/en/Global-Alzheimer-s-Platform-Foundation-Announces-Strategic-Collaboration-and-Partnership-for-the-Transformative-Bio-Hermes-002-Study.html"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "NAVSUP Fleet Logistics Center Norfolk issued a presolicitation for an Indefinite Delivery, Indefinite Quantity (IDIQ) contract for consumable supplies compatible with Beckman Coulter AU5800 series clinical chemistry analyzers.",
+        "project_name": "Beckman Coulter Consumables IDIQ (N0018926QB013)",
+        "scope": "Provision of consumable supplies for high-speed immunochemistry screening analyzer systems (Beckman Coulter AU5800 series clinical chemistry analyzers) to NAVSUP Fleet Logistics Center Norfolk.",
+        "timeline": "Presolicitation issued May 22, 2026, due May 23, 2026.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This presolicitation indicates ongoing demand for Beckman Coulter-specific consumables, reagents, and potentially related lab supplies from a government entity.",
+        "source_url": "https://www.highergov.com/opportunity/N0018926QB013/beckman-coulter-consumables-idiq/"
+      },
+      {
+        "summary": "Beckman Coulter Life Sciences announced the commercial release of the Echo 650 Plus Series acoustic liquid handlers, featuring next-generation electronics and improved acoustic performance, with a 54% reduction in power consumption.",
+        "project_name": "Echo 650 Plus Series Acoustic Liquid Handlers Launch",
+        "scope": "Introduction of new laboratory equipment for high-throughput laboratories, supporting demanding drug discovery applications with enhanced fluid measurement accuracy and transfer reliability.",
+        "timeline": "Commercial release announced May 26, 2026.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The launch of new high-throughput liquid handlers indicates potential demand for associated consumables (e.g., microplates, tips), reagents, and maintenance services in drug discovery and research labs.",
+        "source_url": "https://www.laboratory-network.com/news/2026/05/beckman-coulter-launches-new-acoustic-liquid-handlers-for-high-throughput-labs"
+      },
+      {
+        "summary": "Beckman Coulter Life Sciences announced expanded global access to Apostle MiniMax\u00ae High-Efficiency Isolation Kits, enabling researchers to isolate cfDNA, cfRNA, and total cfNA from liquid biopsy samples.",
+        "project_name": "Expanded Access to Apostle MiniMax\u00ae High-Efficiency Isolation Kits",
+        "scope": "Global availability of kits for isolating cfDNA, cfRNA, and total cfNA from liquid biopsy samples for multimodal genomic analysis.",
+        "timeline": "Announcement made April 22, 2026, with global availability through Beckman Coulter Life Sciences commercial channels.",
+        "event_date": "2026-04-22",
+        "why_it_matters": "This expansion of liquid biopsy isolation kits suggests increased demand for these specific reagents, as well as downstream genomic analysis consumables and equipment.",
+        "source_url": "https://www.beckmancoulter.com/en/news/beckman-coulter-life-sciences-expands-liquid-biopsy-extraction-to-cfrna-and-cfna"
+      },
+      {
+        "summary": "The New York City Chief Medical Examiner (OCME) awarded a renewal contract to Beckman Coulter Inc. for installation, training, on-site preventative maintenance, and repair services for one Biomek i5 Span-8 with enclosure system and one Biomek i7 Hybrid (MS + Span 8) with enclosure and related accessories.",
+        "project_name": "NYC OCME Biomek Liquid Handling Systems Equipment and Services Renewal",
+        "scope": "Provision of installation, training, on-site preventative maintenance, and repair services for Beckman Coulter Biomek i5 Span-8 and Biomek i7 Hybrid liquid handling systems and related accessories for the OCME.",
+        "timeline": "Award notice dated May 8, 2026.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This contract ensures ongoing demand for maintenance services, replacement parts, and potentially consumables for Beckman Coulter's liquid handling systems used in forensic and diagnostic applications.",
+        "source_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/cityrecord-05-08-2026.pdf"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Beckman Coulter Diagnostics received CE 2797 mark under IVDR for the Access MeMed BV assay, a high-throughput host-response test that helps clinicians differentiate between bacterial and viral infections in approximately 20 minutes.",
+        "product_or_site": "Access MeMed BV assay",
+        "regulatory_action": "CE-IVDR marking",
+        "outcome": "Approval",
+        "event_date": "2026-04-13",
+        "why_it_matters": "This CE-IVDR marking enables broad availability of the Access MeMed BV assay in Europe, indicating increased demand for associated reagents and consumables for rapid bacterial and viral infection differentiation.",
+        "source_url": "https://news.beckmancoulter.com/2026-04-13-Beckman-Coulter-Diagnostics-Earns-CE-Mark-for-New-Assay-Delivering-Bacterial-vs-Viral-Infection-Results-in-Approximately-20-Minutes"
+      }
+    ],
+    "volume": [
+      {
+        "summary": "Beckman Coulter Diagnostics received CE Mark 2797 under IVDR for its Access MeMed BV assay, a high-throughput host-response test designed to differentiate between bacterial and viral infections in approximately 20 minutes.",
+        "test_or_product_line": "Access MeMed BV assay (for differentiating bacterial vs. viral infections)",
+        "volume_change": "The assay is a \"high-throughput host-response test\" and its \"broad availability\" is expected to increase testing volume for this new diagnostic. Modeling suggests adoption could reduce up to \u20ac80 million in avoidable costs across European health systems through fewer unnecessary admissions and testing.",
+        "driver": "CE Mark 2797 approval under IVDR.",
+        "event_date": "2026-04-13",
+        "why_it_matters": "The introduction of a new CE-marked diagnostic assay directly increases the demand for the specific reagents and consumables required to run the test in clinical laboratories.",
+        "source_url": "https://www.prnewswire.com/news-releases/beckman-coulter-diagnostics-earns-ce-mark-for-new-assay-delivering-bacterial-vs-viral-infection-results-in-approximately-20-minutes-302410312.html"
+      },
+      {
+        "summary": "Beckman Coulter Life Sciences announced expanded access to Apostle MiniMax\u00ae High-Efficiency Isolation Kits, now including cfRNA and total cfNA solutions in addition to cfDNA, for liquid biopsy samples, supporting more complete, multimodal genomic analysis.",
+        "test_or_product_line": "Apostle MiniMax\u00ae High-Efficiency Isolation Kits (for cfDNA, cfRNA, and total cfNA extraction)",
+        "volume_change": "The \"expanded access\" and support for \"high-throughput genomic workflows\" indicate an increase in the potential volume and breadth of liquid biopsy analysis, although no specific numerical volume increase was disclosed.",
+        "driver": "Expanded partnership with Apostle Inc. and commercialization through Beckman Coulter Life Sciences global channels.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Broader availability and expanded capabilities of these extraction kits directly increase the demand for associated reagents and consumables used in high-throughput genomic workflows.",
+        "source_url": "https://www.beckmancoulter.com/en/news/beckman-coulter-life-sciences-expands-liquid-biopsy-extraction-to-cfrna-and-cfna"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:23:54.727433",
+  "ai_summary": "Beckman is expanding its diagnostics portfolio with a new CE-marked infection differentiation assay and partnering on Alzheimer's biomarker studies, indicating growth in clinical testing. Simultaneously, their Life Sciences division launched new liquid handlers and expanded access to cfNA isolation kits for liquid biopsy, alongside securing automation system service renewals. This signals opportunities for sales teams in clinical consumables, specialized reagents for advanced diagnostics, and automation support."
+}

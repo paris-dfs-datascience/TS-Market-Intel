@@ -1,0 +1,48 @@
+{
+  "account": "IMARKET AMERICA",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1XKYA0",
+  "signals": {
+    "capital": [
+      {
+        "summary": "MIT and the Commonwealth of Massachusetts announced plans to establish the Quantum Systems Laboratory (QSL), a new shared-use facility to accelerate quantum research and innovation. The state is investing $25 million, which will match federal funding and philanthropic support, indicating a total project value well over $50 million. Construction is expected to begin this summer and the lab is slated to open in December 2027.",
+        "project_name": "Quantum Systems Laboratory (QSL)",
+        "location": "Cambridge, Massachusetts, US",
+        "value": "$50 million+",
+        "timeline": "Construction to begin summer 2026, opening December 2027.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new research facility will require a wide range of specialized lab equipment, reagents, and consumables for quantum computing, sensing, and related scientific disciplines.",
+        "source_url": "https://news.mit.edu/2026/new-laboratory-aims-to-advance-quantum-research-nation-0528"
+      },
+      {
+        "summary": "Unilever plans to construct a new $270 million global innovation center in New Haven, Connecticut, serving as a research and development hub for its beauty, wellbeing, and personal care brands. The facility will integrate AI and quantum computing capabilities to accelerate scientific discovery and product development.",
+        "project_name": "Global Innovation Centre",
+        "location": "New Haven, Connecticut, US",
+        "value": "$270 million",
+        "timeline": "Construction to begin later this year (2026), expected to open by spring 2029.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new R&D facility will generate significant demand for lab supplies, reagents, and scientific equipment for research in beauty, wellbeing, personal care, biosciences, and advanced materials discovery.",
+        "source_url": "https://hartfordbusiness.com/article/consumer-goods-giant-unilever-plans-270m-global-innovation-center-in-new-haven/"
+      },
+      {
+        "summary": "VectorBuilder announced a $50 million investment to establish a new Advanced Biomanufacturing and R&D Center in Chicago, expanding its gene delivery technology and manufacturing operations. The multi-phase facility will combine research and development with manufacturing capabilities for plasmids, viral vectors, nonviral vectors, and genetically engineered cells.",
+        "project_name": "Advanced Biomanufacturing and R&D Center",
+        "location": "Chicago, Illinois, US",
+        "value": "$50 million",
+        "timeline": "Initial operations expected in 2027, with further expansion aligned to customer demand.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new biomanufacturing and R&D center will create substantial demand for cell culture media, bioreactors, purification systems, and various lab consumables for gene and cell therapy development and production.",
+        "source_url": "https://www.businesswire.com/news/home/20260527595320/en/VectorBuilder-to-Invest-%2450-Million-in-Chicago-Biomanufacturing-and-RD-Center"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:42:18.742734",
+  "ai_summary": "IMARKET AMERICA is experiencing significant capital investments in new research and manufacturing facilities. MIT is building a $50M+ Quantum Systems Lab, Unilever a $270M AI/quantum R&D hub, and VectorBuilder a $50M biomanufacturing center. These expansions in quantum research, biotech, and advanced R&D create substantial future demand for specialized lab equipment, reagents, and consumables, presenting major sales opportunities for our team."
+}

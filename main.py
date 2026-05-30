@@ -16,10 +16,11 @@ Usage:
 import argparse
 import os
 import sys
+from datetime import datetime, timezone
 
-from accounts import ACCOUNTS, SUPER80, all_accounts_flat, load_accounts_from_csv
-from engine import run_category, setup_logger
-from storage import get_sink
+from market_intel.accounts import ACCOUNTS, SUPER80, all_accounts_flat, load_accounts_from_csv
+from market_intel.engine import run_category, setup_logger
+from market_intel.storage import get_sink
 
 
 logger = setup_logger()
@@ -100,27 +101,32 @@ def main() -> None:
     args = parse_args()
     sink = get_sink()
 
+    # One UTC date for the whole process. Threaded into every run_category (result
+    # filenames + checkpoint reads) and the auto-export, so a run — including all
+    # categories of --category all — stamps a single date and the export matches it.
+    run_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
     # --export-csv: skip the engine entirely; just regenerate the SF CSV from existing results in the sink.
     if args.export_csv:
-        from export_csv import run_export
+        from market_intel.export_csv import run_export
         run_export(sink, args.export_date)
         return
 
     # --analyze-dedup: one-off dedup analysis on an existing CSV. Skips the engine.
     if args.analyze_dedup:
-        from analyze_dedup import run as run_dedup
+        from tools.analyze_dedup import run as run_dedup
         run_dedup(args.analyze_dedup)
         return
 
     # --backfill: one-off re-processing of existing results JSONs. Skips the engine.
     if args.backfill:
-        from backfill_results import run_backfill
+        from tools.backfill_results import run_backfill
         run_backfill(sink, args.backfill, api_key=args.api_key)
         return
 
     # --fix-urls: one-off URL recovery (HEAD-validate + re-ask Gemini on 404s).
     if args.fix_urls:
-        from backfill_results import run_url_backfill
+        from tools.backfill_results import run_url_backfill
         run_url_backfill(sink, args.fix_urls, api_key=args.api_key)
         return
 
@@ -129,7 +135,7 @@ def main() -> None:
     # bulk vertical-driven flows switch to SQL.
     use_sql = args.from_sql or os.environ.get("ACCOUNTS_SOURCE", "").lower() == "sql"
     if use_sql and not any([args.company, args.companies, args.super80]):
-        from accounts_sql import load_accounts_from_sql, SqlAccountsError
+        from market_intel.accounts_sql import load_accounts_from_sql, SqlAccountsError
         try:
             sql_accounts = load_accounts_from_sql()
         except SqlAccountsError as e:
@@ -146,15 +152,15 @@ def main() -> None:
             cat_limit = remaining if remaining is not None else args.limit
             ran = run_category(vertical, sink, signal_override=args.signal,
                                api_key=args.api_key, limit=cat_limit,
-                               accounts_override=acct_list)
+                               accounts_override=acct_list, run_date=run_date)
             if remaining is not None:
                 remaining -= ran
         # Auto-export the SF CSV at the end of a SQL-driven full run, mirroring
         # the existing `--category all` behavior.
-        from export_csv import run_export
+        from market_intel.export_csv import run_export
         logger.info("SQL-driven run complete — generating SF export CSV.")
         try:
-            run_export(sink)
+            run_export(sink, run_date)
         except Exception as e:
             logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
         return
@@ -174,7 +180,7 @@ def main() -> None:
             cat_limit = remaining if remaining is not None else args.limit
             ran = run_category(vertical, sink, signal_override=args.signal,
                                api_key=args.api_key, limit=cat_limit,
-                               accounts_override=acct_list)
+                               accounts_override=acct_list, run_date=run_date)
             if remaining is not None:
                 remaining -= ran
         return
@@ -200,7 +206,7 @@ def main() -> None:
         for cat, accts in by_cat.items():
             run_category(cat, sink, signal_override=args.signal,
                          accounts_override=accts,
-                         api_key=args.api_key, limit=args.limit)
+                         api_key=args.api_key, limit=args.limit, run_date=run_date)
         return
 
     if args.company:
@@ -217,7 +223,7 @@ def main() -> None:
         for acct, cat in matches:
             run_category(cat, sink, signal_override=args.signal,
                          accounts_override=[acct],
-                         api_key=args.api_key, limit=args.limit)
+                         api_key=args.api_key, limit=args.limit, run_date=run_date)
         return
 
     if args.super80:
@@ -227,7 +233,7 @@ def main() -> None:
                 continue
             run_category(cat, sink, signal_override=args.signal,
                          api_key=args.api_key, limit=args.limit,
-                         accounts_override=priority)
+                         accounts_override=priority, run_date=run_date)
         return
 
     if args.category == "all":
@@ -237,21 +243,21 @@ def main() -> None:
                 break
             cat_limit = remaining if remaining is not None else args.limit
             ran = run_category(cat, sink, signal_override=args.signal,
-                               api_key=args.api_key, limit=cat_limit)
+                               api_key=args.api_key, limit=cat_limit, run_date=run_date)
             if remaining is not None:
                 remaining -= ran
         # Auto-export: generate the SF-import CSV from every account result just written.
-        from export_csv import run_export
+        from market_intel.export_csv import run_export
         logger.info("All categories complete — generating SF export CSV.")
         try:
-            run_export(sink)
+            run_export(sink, run_date)
         except Exception as e:
             logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
         return
 
     run_category(_resolve_category(args.category), sink,
                  signal_override=args.signal,
-                 api_key=args.api_key, limit=args.limit)
+                 api_key=args.api_key, limit=args.limit, run_date=run_date)
 
 
 if __name__ == "__main__":

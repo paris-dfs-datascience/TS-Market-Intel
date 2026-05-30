@@ -1,0 +1,36 @@
+{
+  "account": "CAMBIUM ANALYTICA",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1P7YAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Cambium, a global high-performance materials innovator, announced it secured $100 million in Series B funding.",
+        "amount": "100M",
+        "funding_type": "Series B",
+        "use_of_proceeds": "To accelerate the discovery and scaling of advanced materials, leveraging an AI-driven materials platform and integrated chemistry, materials science, biology, and manufacturing to deliver rapid scalable manufacturing across the US and Europe.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This investment indicates upcoming demand for lab supplies, reagents, consumables, and scientific equipment to support new production infrastructure, R&D capabilities, and manufacturing processes for advanced materials.",
+        "source_url": "https://www.prnewswire.com/news-releases/cambium-materials-launched-into-space-302778538.html"
+      },
+      {
+        "summary": "Cambium Biomaterials, Inc. announced the close of its $19 million Series A financing.",
+        "amount": "19M",
+        "funding_type": "Series A",
+        "use_of_proceeds": "To redefine how advanced materials are discovered, designed, and manufactured, developing advanced materials for high-performance applications across land, air, sea, and space, including molecular innovation, AI-driven molecular design, chemistry, materials science, and biology.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This funding signals increased demand for lab supplies, reagents, and scientific equipment to support the company's R&D and manufacturing capabilities for advanced materials.",
+        "source_url": "https://www.prnewswire.com/news-releases/cambium-materials-launched-into-space-302778538.html"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:12:08.307797",
+  "ai_summary": "Cambium has secured substantial new funding, including $100 million Series B and $19 million Series A financing. This capital infusion signals significant growth and expansion for the high-performance materials and biomaterials innovator. For lab supply sales, this means increased R&D and production, driving higher demand for lab equipment, consumables, and services."
+}

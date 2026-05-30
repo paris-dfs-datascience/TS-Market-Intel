@@ -1,0 +1,68 @@
+{
+  "account": "PHOTRONICS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1XFYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Photronics is advancing significant expansion projects in the U.S. (Allen, Texas) and Korea, with the Korea facility preparing its clean room for advanced equipment to extend capabilities to 8-nanometer and below, and the Allen, Texas site beginning production of qualification masks. These expansions are part of a strategic investment to strengthen the company's position in high-end photomask manufacturing and advanced technology nodes.",
+        "location": "Allen, Texas, U.S. and Korea",
+        "type_of_expansion": "Dedicated facility expansion (manufacturing/research operations)",
+        "investment_value": "$330 million (fiscal 2026 CapEx guidance)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "New or expanded manufacturing and research facilities require a wide range of lab supplies, reagents, consumables, and scientific equipment for their operations, creating new procurement opportunities for distributors like Thomas Scientific.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/28/3283280/0/en/Photronics-Reports-Second-Quarter-2026-Results.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Photronics reported a capital expenditure investment of $45.8 million in the second quarter of fiscal year 2026 to support organic growth and capacity expansion, including ongoing investments in U.S. and Korea facilities to target high-end market segments. These investments include advanced-node capacity at Boise and Allen facilities in the U.S., a multi-beam mask writer, and an advanced mask writer for the flat panel display market at its Korea facility.",
+        "project_name": "U.S. and Korea Capacity Expansion and Technology Upgrades",
+        "scope": "A capital expenditure of $45.8 million was invested in Q2 FY2026. This includes strategic investments in U.S. capacity, such as a multi-beam mask writer and Texas facility expansion (specifically Boise and Allen facilities), and technological upgrades in Asia, including an advanced mask writer for the flat panel display market at its Korea facility.",
+        "timeline": "Installation of the advanced mask writer in Korea is planned during Q2 2026. Capital investments in the U.S. and Korea are expected to begin generating revenue at the end of 2026 and 2027, respectively.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This significant capital investment in new and upgraded facilities and equipment in the U.S. and Korea indicates a direct upcoming demand for a wide range of scientific equipment, lab supplies, and consumables to support the expanded production and R&D activities for advanced photomasks.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/28/3302671/0/en/photronics-reports-second-quarter-2026-results.html"
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Photronics' Allen facility has begun production of qualification masks, targeting initial revenue late in the fiscal year with more significant contributions in 2027 and beyond.",
+        "facility_or_line": "Allen facility",
+        "change_type": "New production line",
+        "location": "Allen, U.S.",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The initiation of qualification mask production indicates new manufacturing processes and product lines, which will require new lab supplies, reagents, and consumables for process validation and quality control.",
+        "source_url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-photronics-q2-2026-misses-revenue-stock-plunges-93CH-2533404"
+      },
+      {
+        "summary": "Photronics' Korea facility is preparing its clean room for the arrival of key equipment to extend its capabilities down to 8-nanometer and below.",
+        "facility_or_line": "Korea facility (clean room)",
+        "change_type": "Retooling/Upgrade",
+        "location": "Korea",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "Preparing a clean room for new, advanced equipment signifies a significant upgrade in manufacturing capabilities, leading to demand for new specialized lab supplies, chemicals, and consumables for installation, calibration, and ongoing advanced process development.",
+        "source_url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-photronics-q2-2026-misses-revenue-stock-plunges-93CH-2533404"
+      },
+      {
+        "summary": "A recently installed Flat Panel Display (FPD) mask writer at Photronics' Korea facility is now entering production.",
+        "facility_or_line": "Korea facility (FPD mask writer)",
+        "change_type": "New equipment entering production",
+        "location": "Korea",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The commencement of production with new FPD mask writing equipment will generate demand for specific reagents, consumables, and quality control instruments required for the new manufacturing processes.",
+        "source_url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-photronics-q2-2026-misses-revenue-stock-plunges-93CH-2533404"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T19:15:38.959987",
+  "ai_summary": "Photronics is undergoing major expansion in the U.S. and Korea, investing heavily in new facilities and advanced equipment for high-end photomask and FPD production, including 8nm capabilities. New clean rooms are being prepared and production is starting. This signifies a significant need for new lab supplies, consumables, and equipment for their expanding and technologically advanced operations, creating substantial sales opportunities."
+}

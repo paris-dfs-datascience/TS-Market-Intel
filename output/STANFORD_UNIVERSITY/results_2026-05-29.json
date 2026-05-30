@@ -1,0 +1,187 @@
+{
+  "account": "STANFORD UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BpYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dr. Nazish Sayed, Associate Professor in the Division of Vascular Surgery at Stanford University, has received a Department of Defense (DOD) Toxic Exposures Research Program (TERP) Translational Research Partnership Award for a project focused on the cardiovascular effects of burn pit exposure in Veterans.",
+        "recipient": "Dr. Nazish Sayed",
+        "department_or_lab": "Division of Vascular Surgery",
+        "amount": "Not specified (Translational Research Partnership Award)",
+        "agency": "Department of Defense (DOD)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This indicates a need for supplies related to cardiovascular research, toxicology studies, and potentially burn pit exposure analysis.",
+        "source_url": "https://www.publichealth.pitt.edu/news/researchers-receive-nih-grant-study-how-early-life-environmental-exposures-affect-kidney"
+      },
+      {
+        "summary": "A $10 million, five-year NIH RM1 team science grant was awarded to Sandra A. Springer, MD, and Gregg Gonsalves, PhD, at Yale, with collaborators including Mark McGovern, PhD, at Stanford University School of Medicine, for a project called \"GEO IMPACT\" focusing on a mobile pharmacy and clinic healthcare delivery model for HIV and substance use prevention, care, and treatment.",
+        "recipient": "Mark McGovern, PhD (collaborator at Stanford University)",
+        "department_or_lab": "School of Medicine",
+        "amount": "$10 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This signals demand for supplies related to infectious disease research (HIV), addiction medicine, mobile health, pharmacy services, epidemiology, and implementation science.",
+        "source_url": "https://www.publichealth.pitt.edu/news/researchers-receive-nih-grant-study-how-early-life-environmental-exposures-affect-kidney"
+      },
+      {
+        "summary": "Researchers at Stanford Medicine developed a wearable ultrasound patch to monitor fetal blood flow and detect pregnancy complications in real time. The research was funded by grants from the National Institutes of Health (grants 1R01EB033464-01 and 1R01HL171652-01).",
+        "recipient": "Researchers at Stanford Medicine",
+        "department_or_lab": "Obstetrics & Gynecology (implied)",
+        "amount": "Not specified, funded by grants 1R01EB033464-01 and 1R01HL171652-01",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This suggests a need for supplies for ultrasound technology development, maternal-fetal medicine, biomedical engineering, and real-time physiological monitoring.",
+        "source_url": "https://med.stanford.edu/news/all-news/2026/05/fetal-monitor-patch.html"
+      },
+      {
+        "summary": "A Multi-Principal Investigator (MPI) R01 grant was awarded to study how early-life environmental exposures affect kidney health. Andres Cardenas, Assistant Professor of Epidemiology at Stanford University, is a key co-investigator on this project, which is led by researchers at Pitt Public Health.",
+        "recipient": "Andres Cardenas (co-investigator)",
+        "department_or_lab": "Epidemiology",
+        "amount": "Nearly $3.8 million (total grant amount)",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This indicates demand for supplies related to environmental health research, epidemiology, kidney health, biomarker studies, and longitudinal cohort studies.",
+        "source_url": "https://www.publichealth.pitt.edu/news/researchers-receive-nih-grant-study-how-early-life-environmental-exposures-affect-kidney"
+      },
+      {
+        "summary": "The U.S. Space Force launched its first artificial intelligence accelerator program at Stanford University, housed within Stanford's AeroAstro CAESAR Lab. The program is funded by the Office of the Deputy Chief of Space Operations for Cyber and Data and aims to advance AI and machine learning technologies for space operations.",
+        "recipient": "Stanford University (AeroAstro CAESAR Lab)",
+        "department_or_lab": "AeroAstro CAESAR Lab",
+        "amount": "Not specified",
+        "agency": "Department of Defense (DoD) / U.S. Space Force",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This indicates a need for advanced computing equipment, AI/ML development tools, and potentially specialized aerospace engineering supplies for space operations.",
+        "source_url": "https://www.ssc.spaceforce.mil/Newsroom/Article/4487222/us-space-force-launches-inaugural-ai-accelerator-at-stanford-university"
+      },
+      {
+        "summary": "Cadet Sophie Campagna Fernandez from West Point was awarded the 2026 National Science Foundation Graduate Research Fellowship and will attend Stanford University to pursue an MS in Electrical Engineering.",
+        "recipient": "Sophie Campagna Fernandez",
+        "department_or_lab": "Electrical Engineering",
+        "amount": "Not specified (NSF Graduate Research Fellowship)",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This signals future demand for electrical engineering lab supplies and equipment at Stanford for graduate research.",
+        "source_url": "https://www.westpointaog.org/news/west-point-cadets-earn-national-scholarships-and-fellowships-in-2026/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Stanford University's primary Helium provider, Linde, is implementing a 15% price increase effective June 1, 2026, due to global supply chain issues. Stanford Procurement has implemented contractual safeguards including quarterly market reviews and defined de-escalation triggers to lower costs as global production recovers.",
+        "contract_name": "Helium Supply Contract (with Linde)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-01",
+        "event_date": "2026-04-24",
+        "why_it_matters": "This indicates an ongoing, critical need for Helium at Stanford, and while the current contract is with Linde, future reviews or potential disruptions could create opportunities for alternative suppliers of this essential lab gas.",
+        "source_url": "https://doresearch.stanford.edu/news/vp-dor-newsletter-april-2026"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Stanford University is merging its two flagship AI and data science organizations, the Stanford Institute for Human-Centered AI and the Stanford Data Science initiative, into a single institute under the Stanford HAI name, combining over 400 scholars and $60 million in cumulative grant funding with the high-performance Marlowe computing cluster.",
+        "location": "Stanford University, California, USA",
+        "type_of_expansion": "Capacity expansion in research operations",
+        "investment_value": 60000000,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This consolidation and significant funding for AI and data science research at Stanford University will likely drive demand for advanced computing equipment, specialized reagents, and various lab consumables.",
+        "source_url": "https://hai.stanford.edu/news/stanford-merges-ai-and-data-science-efforts-under-single-institute"
+      },
+      {
+        "summary": "UC San Francisco has received a $100 million commitment, with $10 million specifically dedicated to the Weill Cancer Hub West, a collaborative effort between UCSF and Stanford University focused on driving new discoveries in cancer research and treatment.",
+        "location": "UCSF-Stanford collaboration, California, USA",
+        "type_of_expansion": "Research operations expansion through collaboration",
+        "investment_value": 10000000,
+        "event_date": "2026-05-07",
+        "why_it_matters": "The $10 million investment in the UCSF-Stanford Weill Cancer Hub West will likely lead to increased demand for specialized reagents, consumables, and equipment for advanced cancer research.",
+        "source_url": "https://www.ucsf.edu/news/2026/05/427471/uc-davis-ucsf-receive-major-gifts-support-medicine-research-and-modernization"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Stanford University is merging its two flagship AI and data science organizations, the Stanford Institute for Human-Centered AI (HAI) and the Stanford Data Science initiative, into a single institute under the Stanford HAI name. This restructuring aims to accelerate breakthroughs across various disciplines by providing enhanced infrastructure and supporting large-scale, interdisciplinary 'team science' in AI and data science. The combined entity brings together over 400 scholars, an industry affiliates program, and $60 million in cumulative grant funding, along with the high-performance Marlowe computing cluster.",
+        "project_name": "Stanford Institute for Human-Centered AI (Merged Entity)",
+        "scope": "The merged institute will focus on advancing AI and data science for discovery across fields, transforming education, and examining and shaping AI's societal impact. It will support large-scale projects, provide computational resources, research engineers, and data scientists, and continue to run centers studying foundation models, the digital economy, the science of intelligence, and ambient intelligence for aging in place. The initiative includes the Marlowe computing cluster, an NVIDIA DGX H100 SuperPOD with 248 H100 GPUs and petabytes of storage.",
+        "timeline": "Ongoing, as it represents a merger of existing initiatives and a strategic restructuring for the future of AI research and education.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This large-scale interdisciplinary initiative will drive significant demand for advanced computing equipment, data storage solutions, and specialized lab supplies for AI and data science research across various scientific fields.",
+        "source_url": "https://news.stanford.edu/2026/05/04/stanford-merges-ai-data-science-efforts-under-single-institute/"
+      },
+      {
+        "summary": "The W. M. Keck Foundation has awarded $1.2 million in grants to six Stanford faculty and student teams for high-risk, high-reward basic research projects. These grants are part of the WMKF Bridge Funding Initiative, designed to support early-career scientists amid changes in federal funding.",
+        "project_name": "W. M. Keck Foundation Bridge Funding Initiative Grants",
+        "scope": "The grants support six distinct projects, including research on non-fullerene acceptors for singlet fission photovoltaics, imaging collective modes and electronic dynamics at the nanoscale, and imprinted superlattices for designing quantum materials. These projects involve new chemical techniques, advanced scanning probe, and spectroscopic methods, and aim to deliver pioneering and fundamental scientific discoveries.",
+        "timeline": "One-time grants, designed to support early-career scientists.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These grants will generate demand for specialized chemical reagents, advanced spectroscopic and imaging equipment, and materials for quantum materials research and photovoltaic development.",
+        "source_url": "https://news.stanford.edu/2026/05/27/stanford-researchers-receive-special-keck-foundation-funding/"
+      },
+      {
+        "summary": "The Stanford Center for Digital Health announced its 2026 Research Grants program, which awards one-year grants of $100,000 each to exceptionally creative scientists pursuing highly innovative digital health research. The program encourages collaborative projects across different disciplines and offers potential for additional follow-on funding.",
+        "project_name": "Stanford Center for Digital Health 2026 Research Grants Program",
+        "scope": "Research proposals are sought in priority areas such as AI systems for diagnosis and clinical decision-making, electronic health records, telemedicine, pharmaceutical innovation, wearables, home-based sensors, improving health at home (especially for older adults), and AI and mental health. The program supports multiple projects, as evidenced by its '2026 Funded Research Portfolio' which includes projects like 'Wearable Technology to Optimize Language Development for Children who are Deaf or Hard-of-Hearing' and 'Artificial Intelligence Systems for T Cell Immunotherapy Design'.",
+        "timeline": "One-year grants, with potential for additional follow-on funding.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This grant program will drive demand for various digital health technologies, sensors, monitoring devices, and potentially lab consumables for research related to AI in healthcare, mental health, and pharmaceutical innovation.",
+        "source_url": "https://digitalhealth.stanford.edu/research/2026-research-grants/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Stanford researchers have developed a breakthrough in nanomaterials by combining five different metals to synthesize a nanocrystal that is more uniform and performs significantly better as a catalyst for ammonia decomposition, a process important for hydrogen energy. This discovery opens a new chapter in the preparation of nanomaterials.",
+        "researcher_name": "Matteo Cargnello, Hee-Tae Jung, Jeesoo Yoon, Jinwon Oh",
+        "department_or_lab": "School of Engineering, Chemical Engineering",
+        "award_or_discovery": "First-in-class discovery: Five-metal nanocrystal synthesis breakthrough",
+        "significance": "The discovery of creating uniform nanocrystals from five different metals, which drastically outperforms single-metal counterparts in ammonia decomposition, represents a significant advance in nanomaterials and catalysis. This could have direct implications for the future of hydrogen fuel.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in materials science and catalysis, likely driving demand for specialized reagents, advanced characterization equipment, and high-purity metals for further research and development in nanomaterial synthesis and hydrogen energy applications.",
+        "source_url": "https://www.eurekalert.org/news-releases/1126735"
+      },
+      {
+        "summary": "Stanford assistant professors Brian Hie and James Zou presented AI-driven breakthroughs in biology. Brian Hie demonstrated how an EVO DNA language model can generate new CRISPR-Cas systems and design novel viruses, while James Zou showcased a 'Virtual Lab' with AI agents that designed superior antibody binders for COVID variants.",
+        "researcher_name": "Brian Hie, James Zou",
+        "department_or_lab": "Chemical Engineering (Brian Hie), Biomedical Data Science (James Zou)",
+        "award_or_discovery": "First-in-class discovery: AI-driven biological system design and drug discovery",
+        "significance": "These advancements highlight the transformative power of AI in accelerating scientific discovery, enabling the rapid generation of novel biological systems and therapeutic agents, which could revolutionize genome editing and drug development.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These AI-driven discoveries indicate a surge in demand for advanced computational resources, specialized reagents for genetic engineering and protein synthesis, and high-throughput screening consumables to validate AI-generated biological designs and drug candidates.",
+        "source_url": "https://hai.stanford.edu/news/how-ai-is-transforming-scientific-discovery-while-keeping-humans-at-the-center"
+      },
+      {
+        "summary": "Londa Schiebinger, a Stanford history professor and director of the Gendered Innovations project, was awarded the 2026 Centennial Medal by the Harvard Kenneth C. Griffin Graduate School of Arts and Sciences. This is Harvard's highest honor for alumni who have made outstanding contributions to society through their graduate education, recognizing her pathbreaking scholarship on sex and gender in science and its impact on science policy.",
+        "researcher_name": "Londa Schiebinger",
+        "department_or_lab": "John L. Hinds Professor of History of Science, Department of History, Director of Gendered Innovations in Science, Health & Medicine, Engineering and Environment Project",
+        "award_or_discovery": "Major government honor: 2026 Harvard Centennial Medal",
+        "significance": "The Centennial Medal recognizes Professor Schiebinger's profound impact on integrating sex and gender analysis into scientific research and policy, demonstrating a significant contribution to the rigor and relevance of scientific work globally.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This prestigious award highlights ongoing, high-level research at Stanford focused on the methodology and societal impact of science, potentially leading to increased demand for research tools and resources that support interdisciplinary studies and ethical considerations in scientific practice.",
+        "source_url": "https://www.eurekalert.org/news-releases/1126735"
+      },
+      {
+        "summary": "Stanford mathematician Otis Chodosh received the 2026 New Horizons in Mathematics Prize, an award of $100,000, for his significant accomplishments in differential geometry. He was recognized for settling several long-standing questions in the field that have been studied for over 50 years.",
+        "researcher_name": "Otis Chodosh",
+        "department_or_lab": "Associate Professor of Mathematics, School of Humanities and Sciences",
+        "award_or_discovery": "$1M+ prize award: 2026 New Horizons in Mathematics Prize ($100,000)",
+        "significance": "The New Horizons in Mathematics Prize acknowledges Chodosh's major contributions to differential geometry, a foundational area of mathematics, by resolving complex, long-standing problems.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "While a mathematics award, this recognition of foundational research signals a vibrant intellectual environment at Stanford that supports high-level scientific inquiry, which can indirectly foster demand for advanced computational tools and resources used in various scientific disciplines.",
+        "source_url": "https://humsci.stanford.edu/feature/stanford-mathematician-otis-chodosh-wins-new-horizons-prize"
+      },
+      {
+        "summary": "The Knight Initiative for Brain Resilience at Stanford's Wu Tsai Neurosciences Institute received a $90 million gift from Penny and Philip H. Knight. This substantial funding will expand and deepen the initiative's work in building a new science of healthy brain aging, with a mission to decode the secrets of resilient aging and combat neurodegenerative diseases.",
+        "researcher_name": "Tony Wyss-Coray, Alina Isakova, Anne Brunet, Katrin Andreasson",
+        "department_or_lab": "Wu Tsai Neurosciences Institute, Brain Resilience Laboratory, Genetics, Neurology and Neurological Sciences",
+        "award_or_discovery": "$1M+ prize award: $90 million gift to Knight Initiative for Brain Resilience",
+        "significance": "This significant philanthropic investment will accelerate research into brain resilience and aging, supporting efforts to understand and prevent neurodegenerative diseases like Alzheimer's.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This major funding infusion signals a substantial increase in research activity related to neuroscience, aging, and neurodegenerative diseases, driving significant demand for a wide array of lab supplies, reagents, and specialized equipment for brain research, molecular profiling, and AI-driven analysis.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/gift-knight-brain-resilience-aging-research"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:55:43.096086",
+  "ai_summary": "Stanford University is experiencing substantial growth with significant grant funding across diverse research areas, including vascular health, AI, digital health, and a $90M gift for brain resilience. Major AI and cancer research initiatives are expanding, driving breakthroughs in nanomaterials and AI-driven biology. This robust increase in funded projects and research expansion signals a strong and increasing demand for a wide range of lab supplies and equipment."
+}

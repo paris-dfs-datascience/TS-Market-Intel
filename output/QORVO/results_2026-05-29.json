@@ -1,0 +1,48 @@
+{
+  "account": "QORVO",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1C0YAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Qorvo announced a new family of RF switches (QPC6144, QPC6122, QPC6188) designed to simplify multi-band radio architectures across 5G infrastructure, industrial, drone, and test applications, spanning 50 MHz to 10 GHz.",
+        "facility_or_line": "New RF switch product line",
+        "change_type": "New Product Line",
+        "location": "Global (Qorvo manufacturing facilities)",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "New product lines require new raw materials, specialized reagents for manufacturing, and quality control consumables for testing.",
+        "source_url": "https://www.inelectronics.co.uk/qorvo-widens-rf-switching-for-multi-band-radio-designs/"
+      },
+      {
+        "summary": "Qorvo introduced a new 1.8 GHz DOCSIS\u00ae 4.0 power doubler hybrid amplifier (QPA3312) that increases usable downstream RF output at 24V, enabling extended-spectrum network and Full Duplex upgrades without exceeding established platform power limits. It is built using Qorvo's GaN25 process.",
+        "facility_or_line": "GaN25 process, manufacturing facility",
+        "change_type": "New Product Line",
+        "location": "Nuremberg, Germany",
+        "investment_value": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "Manufacturing new amplifier products requires specific chemicals, materials, and testing equipment for the GaN25 process and final product quality assurance.",
+        "source_url": "https://www.qorvo.com/newsroom/news/2026/qorvo-increases-18-ghz-docsis-40-output-at-24v--without-exceeding-power-limits"
+      },
+      {
+        "summary": "Qorvo moved its SAW filter production to Texas, which contributed to margin gains from mix and cost improvements.",
+        "facility_or_line": "SAW filter production",
+        "change_type": "Shift in production capacity",
+        "location": "Texas",
+        "investment_value": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "Relocating production lines to a new facility in Texas will necessitate new lab equipment, consumables, and reagents for setting up and validating the manufacturing process and quality control.",
+        "source_url": "https://www.tradingview.com/news/tradingview:a65015199d71b:0-qorvo-fy-2026-revenue-3-68b-eps-3-62-10-k-summary/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T19:16:10.338894",
+  "ai_summary": "Qorvo is actively developing and launching new high-frequency RF components for 5G, industrial, and communication applications, utilizing advanced processes like GaN25. Their SAW filter production moved to Texas, optimizing costs. This signals increased R&D, testing, and manufacturing needs for specialized lab equipment, consumables, and quality control supplies, especially in their Texas facilities, crucial for lab supply sales teams."
+}

@@ -1,0 +1,99 @@
+{
+  "account": "CELLARES",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1KGYA0",
+  "signals": {
+    "capital": [
+      {
+        "summary": "Eli Lilly and Company announced an additional $4.5 billion investment across two of its three Lebanon sites in Indiana, bringing the company's total Indiana capital expansion commitments since 2020 to more than $21 billion. This investment includes a new dedicated genetic medicine manufacturing facility and further expansion of its active pharmaceutical ingredient (API) site.",
+        "project_name": "Eli Lilly Indiana Manufacturing Expansion (Lebanon Sites)",
+        "location": "Lebanon, Indiana, U.S.",
+        "value": "$4.5 billion (additional investment), over $21 billion (total Indiana commitments since 2020)",
+        "timeline": "Ongoing expansion; Lilly Lebanon Advanced Therapies (genetic medicine manufacturing facility) opened May 6, 2026; Lilly Lebanon API (active pharmaceutical ingredient site) expected to open in 2027.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant expansion of manufacturing and genetic medicine facilities will generate substantial demand for a wide array of lab supplies, reagents, consumables, and scientific equipment for pharmaceutical production and research.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-commits-additional-4-5-billion-across-indiana-manufacturing-sites-opens-first-dedicated-genetic-medicine-facility-302763332.html"
+      },
+      {
+        "summary": "The University of Guelph received a $51 million donation from Stu and Kim Lang's Angel Gabriel Foundation to fund a major expansion of the Gordon S. Lang School of Business and Economics. The expansion will include a new three-story student-focused building with modern classrooms, over 60 study/breakout rooms, an event space, a 500-seat lecture hall, and a dedicated finance teaching and research lab.",
+        "project_name": "University of Guelph Gordon S. Lang School of Business and Economics Expansion",
+        "location": "Guelph, Ontario, Canada",
+        "value": "$51 million",
+        "timeline": "The new gift will fund the expansion.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The development of new classrooms, study spaces, and a dedicated finance teaching and research lab within the business school may create demand for general lab supplies, educational equipment, and specialized research tools.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-commits-additional-4-5-billion-across-indiana-manufacturing-sites-opens-first-dedicated-genetic-medicine-facility-302763332.html"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "Cellares and ProTgen announced a partnership to automate the manufacturing and quality control of ProT-096, ProTgen's personalized progenitor T cell therapy for patients with refractory leukemia and other hematologic malignancies. Cellares will apply its fully automated Cell Shuttle\u00ae and Cell Q\u2122 platforms and provide regulatory support for an Investigational New Drug (IND) application.",
+        "contract_name": "Partnership to Automate Manufacturing and Quality Control of ProT-096",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "This partnership indicates an upcoming demand for specialized lab supplies, reagents, and equipment required for automated cell therapy manufacturing and quality control processes.",
+        "source_url": "https://www.cellares.com/news/cellares-and-protgen-partner-to-automate-manufacturing-for-prot-096-a-novel-progenitor-t-cell-therapy-designed-to-restore-immune-competence/"
+      },
+      {
+        "summary": "Cabaletta Bio and Cellares entered into a 10-year commercial supply agreement for the automated manufacture of rese-cel (resecabtagene autoleucel), Cabaletta's investigational CAR T cell therapy for autoimmune diseases. The agreement utilizes Cellares' automated Cell Shuttle\u2122 and Cell Q\u2122 platforms to enable the production of thousands of batches per year with minimal capital investment and aims for among the lowest per-batch costs in the industry.",
+        "contract_name": "10-Year Commercial Supply Agreement for Rese-cel Manufacturing",
+        "estimated_value": null,
+        "deadline_or_expiration": "10 years",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This long-term commercial supply agreement signifies a substantial and sustained demand for cell therapy manufacturing and quality control consumables, reagents, and equipment for a high-volume therapeutic program.",
+        "source_url": "https://www.businesswire.com/news/home/20260428853142/en/Cellares-and-Cabaletta-Bio-Sign-10-Year-Commercial-Supply-Agreement-to-Scale-Rese-cel"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Cellares and Cabaletta Bio Inc. signed a 10-year commercial supply agreement for the automated manufacture of rese-cel (resecabtagene autoleucel), an investigational CAR T cell therapy for autoimmune diseases.",
+        "product_or_program": "rese-cel (resecabtagene autoleucel)",
+        "stage": "Investigational CAR T cell therapy, commercial supply agreement for manufacturing. Clinical development program (RESET clinical program).",
+        "therapeutic_or_application_area": "Autoimmune diseases (rheumatology, neurology, dermatology).",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This long-term commercial supply agreement indicates a significant increase in manufacturing demand for rese-cel, requiring substantial lab supplies, reagents, and consumables for automated CAR T cell therapy production.",
+        "source_url": "https://www.cellares.com/news/cellares-and-protgen-partner-to-automate-manufacturing-for-prot-096-a-novel-progenitor-t-cell-therapy-designed-to-restore-immune-competence/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Cellares and Cabaletta Bio Inc. announced a 10-year commercial supply agreement for the automated manufacturing of rese-cel, an investigational CAR T cell therapy for autoimmune diseases.",
+        "amount": "Not disclosed",
+        "funding_type": "Strategic Manufacturing Agreement",
+        "use_of_proceeds": "Utilization and expansion of Cellares' Cell Shuttle and Cell Q automated manufacturing platforms and IDMO Smart Factories to meet long-term commercial supply demand for rese-cel.",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This long-term agreement signals significant future demand for Cellares' automated manufacturing platforms, leading to increased procurement of lab supplies, reagents, and consumables for large-scale cell therapy production.",
+        "source_url": "https://www.investing.com/news/stock-market-news/cellares-cabaletta-bio-sign-10year-manufacturing-deal-for-resecel-432SI-3375807"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Cellares signed a 10-year commercial supply agreement with Cabaletta Bio for the automated manufacture of rese-cel.",
+        "project_name": "Commercial Supply Agreement for rese-cel manufacturing",
+        "scope": "Automated manufacture of rese-cel (resecabtagene autoleucel), Cabaletta's investigational CAR T cell therapy for autoimmune diseases, enabling thousands of batches per year.",
+        "timeline": "10-year commercial supply agreement.",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This long-term agreement for high-volume manufacturing indicates significant demand for Cellares' automated cell therapy platforms, reagents, and consumables.",
+        "source_url": "https://www.cellares.com/news/cellares-and-cabaletta-bio-sign-10-year-commercial-supply-agreement-to-scale-rese-cel/"
+      },
+      {
+        "summary": "Cellares partnered with ProTgen to automate manufacturing and quality control of ProT-096, a novel personalized progenitor T cell therapy.",
+        "project_name": "Automation of ProT-096 manufacturing and quality control",
+        "scope": "Automating manufacturing and quality control of ProT-096, ProTgen's personalized progenitor T cell therapy for patients with refractory leukemia and other hematologic malignancies. Cellares will also provide regulatory support to ProTgen in the drafting of an Investigational New Drug application.",
+        "timeline": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "This new partnership for automating manufacturing of a novel cell therapy suggests demand for specialized scientific equipment and reagents for cell therapy development and production.",
+        "source_url": "https://www.cellares.com/news/cellares-and-cabaletta-bio-sign-10-year-commercial-supply-agreement-to-scale-rese-cel/"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:03:01.872829",
+  "ai_summary": "Cellares is rapidly expanding its automated cell therapy manufacturing services through new partnerships with ProTgen and Cabaletta Bio. They are leveraging their Cell Shuttle and Cell Q platforms for personalized progenitor T cell and CAR T cell therapies. This significant growth in manufacturing contracts for advanced therapies means increased demand for specialized lab supplies, reagents, media, and consumables, presenting a strong sales opportunity for supporting their expanding operations."
+}

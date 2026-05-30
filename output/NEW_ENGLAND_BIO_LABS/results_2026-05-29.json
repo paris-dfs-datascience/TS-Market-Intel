@@ -1,0 +1,69 @@
+{
+  "account": "NEW ENGLAND BIO LABS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1YfYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "New England Biolabs is seeking a Senior Buyer to strategically source raw materials such as reagents, enzymes, chemicals, and packaging for manufacturing, research, and operational activities across multiple sites, including a cGMP facility.",
+        "contract_name": "Senior Buyer Position (Internal Procurement Role)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "This indicates NEB's ongoing and strategic need for a wide range of raw materials and life sciences inputs, presenting an opportunity for Thomas Scientific to potentially become a direct supplier to NEB.",
+        "source_url": "https://www.tealhq.com/job/senior-buyer_7ea1a1b570833bebc12adaae5a65157c3d126"
+      },
+      {
+        "summary": "EpiCypher and New England Biolabs announced an expanded strategic partnership to co-develop next-generation tools for epigenomics research, with NEB also distributing EpiCypher's CUTANA portfolio of genomics products in key international markets.",
+        "contract_name": "Expanded Strategic Partnership for Epigenomics Research Tools and International Distribution",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "This partnership signals new product lines (EpiCypher's CUTANA portfolio) that NEB will be distributing, indicating potential new demand for related reagents and consumables that Thomas Scientific might supply.",
+        "source_url": "https://www.prnewswire.com/news-releases/epicypher-and-new-england-biolabs-expand-strategic-partnership-to-advance-epigenomics-research-302775866.html"
+      },
+      {
+        "summary": "Genomics England Limited is procuring a specific reagent kit, co-developed by Oxford Nanopore Technologies (ONT) and New England Biolabs (NEB), essential for the RD2.1 Long Read programme, with NEB identified as the sole recommended supplier.",
+        "contract_name": "Kit Essential reagents required for the RD2.1 Long Read programme",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "This indicates a specific, ongoing demand for a specialized NEB reagent kit for ONT sequencing, which could be a direct sales opportunity for Thomas Scientific if they can supply this product or related consumables.",
+        "source_url": "https://www.sell2wales.gov.wales/Redirect/GoAlt.aspx?redirectUrl=%2Fsearch%2Fshow%2Fsearch_view.aspx%3FID%3DMAY619668%26catID%3D"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "EpiCypher and New England Biolabs (NEB) announced an expanded strategic partnership to co-develop next-generation tools for epigenomics research, aiming to accelerate the creation of innovative technologies that advance understanding of gene regulation, chromatin biology, and disease mechanisms. EpiCypher was founded to enable epigenetics-focused drug discovery. The collaboration builds on a portfolio of jointly developed genomic tools, kits, and protocols, including solutions for CUT&RUN, CUT&Tag, NiCE-seq, and multiomic workflows incorporating NEB's Enzymatic Methyl-seq (EM-seq\u2122) technology. NEB will also distribute EpiCypher's CUTANA portfolio in key international markets.",
+        "product_or_program": "Next-generation epigenomics research tools (e.g., CUT&RUN, CUT&Tag, NiCE-seq, Multiomic CUT&RUN, meCUT&RUN, CUTANA\u00ae Fiber-seq kit, EM-seq\u2122 technology)",
+        "stage": "Research & Development Partnership / Product Co-development",
+        "therapeutic_or_application_area": "Epigenomics research, gene regulation, chromatin biology, disease mechanisms, epigenetics-focused drug discovery, genomic tools, NGS enzyme and reagent expertise",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This expanded partnership indicates increased activity and investment in epigenomics research and drug discovery, creating demand for NEB's and EpiCypher's specialized reagents, kits, and enzymes.",
+        "source_url": "https://www.prnewswire.com/news-releases/epicypher-and-new-england-biolabs-expand-strategic-partnership-to-advance-epigenomics-research-302775866.html"
+      },
+      {
+        "summary": "Touchlight, in collaboration with New England Biolabs (NEB), launched the EnClose\u2122 Cell-free dbDNA\u2122 Synthesis Kit, a benchtop solution for the rapid enzymatic production of doggybone DNA\u2122 (dbDNA\u2122). This kit is designed to circumvent manufacturing bottlenecks in advanced therapy development, such as mRNA vaccines and gene therapies, by enabling researchers to generate high-purity, closed-ended DNA constructs in a single day, free of bacterial sequences and antibiotic resistance genes.",
+        "product_or_program": "EnClose\u2122 Cell-free dbDNA\u2122 Synthesis Kit",
+        "stage": "Product Launch / Research Tool",
+        "therapeutic_or_application_area": "Nucleic acid therapeutic development, mRNA vaccines, gene therapies, AAV and lentiviral vector production, non-viral gene therapy, gene editing systems",
+        "event_date": "2026-05-11",
+        "why_it_matters": "The launch of this kit signals a new demand for reagents and consumables used in the rapid, cell-free synthesis of DNA templates for advanced therapies, directly impacting labs involved in mRNA vaccine and gene therapy development.",
+        "source_url": "https://clinlabint.com/touchlight-and-new-england-biolabs-launch-enclose-cell-free-dbdna-synthesis-kit-for-nucleic-acid-therapeutic-development/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:38:20.187961",
+  "ai_summary": "New England Biolabs is expanding significantly, focusing on epigenomics and advanced therapies like mRNA vaccines and gene therapies through strategic partnerships and new product launches. Their new Senior Buyer role signals increased demand for raw materials, reagents, and cGMP-compliant supplies. This growth across innovative research and manufacturing presents numerous opportunities for lab supply sales teams to provide specialized reagents, instruments, and consumables."
+}

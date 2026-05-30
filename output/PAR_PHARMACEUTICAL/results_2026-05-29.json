@@ -1,0 +1,22 @@
+{
+  "account": "PAR PHARMACEUTICAL",
+  "account_vertical": "BioPharma",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:40:23.785690",
+  "ai_summary": null
+}

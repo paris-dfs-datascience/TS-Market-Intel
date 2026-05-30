@@ -1,0 +1,90 @@
+{
+  "account": "ROCKEFELLER UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1YrYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Research on understanding the mechanisms of rifampicin resistance in Mycobacterium tuberculosis and identifying collateral vulnerabilities for targeted intervention using a CRISPRi comparative functional genomics approach.",
+        "recipient": "Researchers at Laboratory of Host-Pathogen Biology and Laboratory of Nanoscale Biophysics and Biochemistry",
+        "department_or_lab": "Laboratory of Host-Pathogen Biology and Laboratory of Nanoscale Biophysics and Biochemistry",
+        "amount": "Not specified",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This research indicates ongoing work in infectious disease, which will require a steady supply of microbiological media, reagents for genetic manipulation (CRISPRi), and potentially specialized equipment for studying bacterial physiology and drug resistance.",
+        "source_url": "https://doi.org/10.1038/s41564-026-02357-9"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Svetlana Mojsov, whose research led to the development of revolutionary obesity drugs, has been promoted to Lulu Chow Wang and Robin Chemers Neustein Research Professor at Rockefeller University.",
+        "name": "Svetlana Mojsov",
+        "department": "Metabolic Research",
+        "start_date": "2026-05-20",
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.rockefeller.edu/news/39699-svetlana-mojsov-promoted-to-research-professor/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Researchers at Rockefeller University have captured the enzyme RNA polymerase mid-reaction for the first time, revealing a universal blueprint for gene expression and explaining how certain mutations disrupt transcription.",
+        "researcher_name": "Andreas Mueller, Seth Darst",
+        "department_or_lab": "Laboratory of Molecular Biophysics",
+        "award_or_discovery": "First-in-class discovery: Capturing RNA polymerase mid-reaction and revealing the universal blueprint for gene expression.",
+        "significance": "This discovery provides a universal blueprint for how RNA synthesis is catalyzed and explains how certain mutations disrupt transcription, resolving a long-standing debate in molecular biology.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This breakthrough in understanding fundamental gene expression mechanisms signals demand for advanced molecular biology reagents, microscopy consumables, and potentially new drug development tools.",
+        "source_url": "https://www.rockefeller.edu/news/39574-universal-blueprint-rna-rnap-gene-expression/"
+      },
+      {
+        "summary": "Svetlana Mojsov, whose research led to the development of revolutionary obesity drugs (GLP-1s), has been promoted to Rockefeller's Lulu Chow Wang and Robin Chemers Neustein Research Professor.",
+        "researcher_name": "Svetlana Mojsov",
+        "department_or_lab": "Not explicitly stated, but her laboratory works on glucagon/GLP-1 and G-protein coupled receptors.",
+        "award_or_discovery": "Named endowed chair appointment: Lulu Chow Wang and Robin Chemers Neustein Research Professor.",
+        "significance": "This promotion recognizes her extensive and ongoing contributions to science, particularly the development of GLP-1 based obesity drugs that are revolutionizing treatment for metabolic diseases.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This endowed chair appointment for a researcher behind a major drug discovery indicates sustained, high-impact research activity in metabolic diseases, driving demand for reagents and equipment for peptide synthesis, receptor studies, and drug screening.",
+        "source_url": "https://www.rockefeller.edu/news/39699-svetlana-mojsov-promoted-to-research-professor/"
+      },
+      {
+        "summary": "Researchers at Rockefeller University's Laboratory of Neural Systems have found the first evidence of the neural substrates that underlie compositional generalization, the cognitive capacity to recombine familiar elements into novel ideas, located in the ventral premotor cortex.",
+        "researcher_name": "Not explicitly named, but research from Laboratory of Neural Systems",
+        "department_or_lab": "Laboratory of Neural Systems",
+        "award_or_discovery": "First-in-class discovery: Identification of the neural basis of thought symbols (compositional generalization).",
+        "significance": "The findings illuminate fundamental properties of neural function and have implications for improving brain-computer interfaces and studying brain disorders.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This breakthrough in cognitive neuroscience and brain-computer interfaces signals demand for advanced neuroimaging equipment, electrophysiology consumables, and computational neuroscience tools.",
+        "source_url": "https://www.rockefeller.edu/news/39690-neuroscience-brain-symbols-thought-cognition/"
+      },
+      {
+        "summary": "Rockefeller University scientists unveiled a new tool called PerturbFate that identifies hidden 'control hubs' where many different cancer mutations converge, offering a potential solution for targeting complex diseases like cancer and Alzheimer's.",
+        "researcher_name": "Junyue Cao",
+        "department_or_lab": "Laboratory of Single-Cell Genomics and Population",
+        "award_or_discovery": "First-in-class discovery: PerturbFate tool for identifying shared vulnerabilities across complex diseases.",
+        "significance": "This new approach can tackle diseases driven by numerous genetic mutations by focusing on common regulatory pathways, potentially overcoming drug resistance.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The development of a 'powerful new tool' for cancer research indicates high demand for single-cell genomics reagents, sequencing consumables, and bioinformatics software.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/05/260520093726.htm"
+      },
+      {
+        "summary": "A major clinical trial, conducted in collaboration with Rockefeller University, showed that an immune-based treatment using broadly neutralizing antibodies (bNAbs) enabled three quarters of participants living with HIV to safely stop daily antiretroviral therapy (ART) for at least 20 weeks.",
+        "researcher_name": "Professor Michel Nussenzweig, Professor Marina Caskey",
+        "department_or_lab": "Not explicitly stated, but related to HIV research.",
+        "award_or_discovery": "Breakthrough in HIV treatment: bNAb-based therapy demonstrating prolonged viral load control.",
+        "significance": "This is the first time a bNAb-based therapy has demonstrated viral load control of this duration and magnitude in a randomized placebo-controlled trial, opening new possibilities for HIV treatment.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This breakthrough in HIV treatment signals high-impact research activity and demand for reagents, consumables, and equipment for immunology, virology, and clinical trials.",
+        "source_url": "https://www.imperial.ac.uk/news/articles/2026/new-hiv-treatment-could-enable-people-to-safely-stop-daily-medication-/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:52:49.143933",
+  "ai_summary": "Rockefeller University is a hotbed of groundbreaking research, spanning infectious diseases, cancer, neuroscience, and metabolic disorders, underscored by new grants and faculty promotions. Their work leverages advanced techniques like CRISPRi, functional genomics, and novel tool development. This intense activity signals a high and diverse demand for lab supplies, particularly in molecular biology, immunology, and drug discovery, creating significant sales opportunities for our team."
+}

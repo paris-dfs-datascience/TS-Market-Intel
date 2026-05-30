@@ -1,0 +1,63 @@
+{
+  "account": "WELLNESS PHARMACY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1GkYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The City of Portsmouth, Virginia, is seeking proposals from qualified medical clinics to establish and operate an on-site clinic for its employees and their dependents. The clinic will provide a range of services including primary and urgent care, occupational health, preventive services, chronic disease management, wellness programs, specialist and referral management, clinical advocacy, laboratory and pharmacy services, and virtual health services. The selected contractor will be responsible for designing and outfitting the clinic, supplying medical equipment and supplies, and staffing the facility.",
+        "contract_name": "RFP 314-26-YE On-Site Clinic for Health and Occupational Services",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-16",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This RFP presents a direct opportunity for Thomas Scientific to supply medical equipment, lab supplies, and consumables to the selected contractor providing on-site clinic, laboratory, and pharmacy services for the City of Portsmouth's employee wellness program.",
+        "source_url": "https://www.highergov.com/sl/contract-opportunity/va-rfp-314-26-ye-on-site-clinic-for-health-67638763/"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "The FDA announced the removal of BPC-157 (both acetate and free base) from Category 2 of the 503A bulk drug substances list and scheduled a Pharmacy Compounding Advisory Committee (PCAC) meeting for July 23, 2026, to evaluate its addition to the authorized 503A Bulks List. This update also applies to other peptides like TB-500, KPV, MOTs-C, Emideltide/DSIP, Epitalon, and Semax, with PCAC meetings scheduled for July 23 and 24, 2026, and others before February 2027.",
+        "product_or_site": "BPC-157, TB-500, KPV, MOTs-C, Emideltide/DSIP, Epitalon, Semax (peptides for compounding pharmacies)",
+        "regulatory_action": "FDA 503A Bulk Drug Substances List Update (Removal from Category 2 and PCAC Review Scheduling)",
+        "outcome": "Increased potential for legal compounding and availability for these peptides.",
+        "event_date": "2026-04-15",
+        "why_it_matters": "This regulatory change is a strong sales signal for compounding pharmacies, indicating upcoming demand for these peptides and associated lab supplies, reagents, and consumables as they become more widely available for legal compounding.",
+        "source_url": "https://newtropin.com/blog/is-bpc-157-legal-in-2026/"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": [
+      {
+        "summary": "Hoskinson Health & Wellness Clinic in Gillette, Wyoming, is closing due to being no longer financially sustainable, with the closure targeted for July 31.",
+        "facility_or_programme": "Hoskinson Health & Wellness Clinic, Gillette, Wyoming",
+        "closure_type": "Clinic Closure",
+        "effective_date": "2026-07-31",
+        "reason": "The organization is no longer financially sustainable.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The closure of this health and wellness clinic presents a churn risk for existing lab supply accounts and an opportunity for Thomas Scientific to engage with other healthcare providers in the region who may absorb the patient load and require new or increased supply.",
+        "source_url": "https://cowboystatedaily.com/2026/05/22/gillettes-250-million-hoskinson-health-clinic-to-close/"
+      },
+      {
+        "summary": "Bucyrus Health & Wellness Center will be closing at 2 PM on Thursday, May 21st, while Community Counseling & Wellness - Bucyrus will remain open.",
+        "facility_or_programme": "Bucyrus Health & Wellness Center",
+        "closure_type": "Center Closure",
+        "effective_date": "2026-05-21",
+        "reason": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "The closure of this wellness center could lead to a reduction in demand for general lab supplies and consumables, representing a churn risk for Thomas Scientific if they were a supplier.",
+        "source_url": "https://thirdstreetfamily.org/bulletin/451"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T08:57:40.360446",
+  "ai_summary": "WELLNESS PHARMACY faces a dynamic market. A major opportunity exists with Portsmouth seeking proposals for an on-site clinic, including lab and pharmacy services, potentially driving substantial lab supply needs. FDA regulatory changes for compounded peptides like BPC-157 may alter their compounding practices and testing requirements. Other wellness clinic closures signal market volatility."
+}

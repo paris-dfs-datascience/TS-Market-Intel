@@ -1,0 +1,226 @@
+{
+  "account": "DANA FARBER CANCER INSTITUTE",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1TmYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dana-Farber Cancer Institute and the City of Boston announced new funding of $150,000 from Dana-Farber to support comprehensive early cancer detection services for 500 Boston firefighters.",
+        "recipient": "Boston Firefighters (via City of Boston)",
+        "department_or_lab": null,
+        "amount": "$150,000",
+        "agency": "Dana-Farber Cancer Institute",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This funding for cancer screenings indicates a need for diagnostic lab supplies and consumables for early detection programs.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/dana-farber-city-of-boston-announce-funding-for-cancer-screenings-for-firefighters"
+      },
+      {
+        "summary": "Dana-Farber investigators reported promising results from the eNRGy trial, a phase 2 clinical trial evaluating zenocutuzumab for NRG1-positive cholangiocarcinoma, leading to FDA approval. The trial was funded by Merus N.V. and Partner Therapeutics, Inc.",
+        "recipient": "James Cleary, MD, PhD",
+        "department_or_lab": "Gastrointestinal Oncology",
+        "amount": null,
+        "agency": "Merus N.V. and Partner Therapeutics, Inc.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Ongoing clinical trials and new drug approvals often lead to increased demand for research reagents, specialized lab equipment for diagnostics, and consumables for patient monitoring and sample analysis.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/dana-farber-investigators-report-promising-results-from-phase-2-study-of-targeted-therapy-for-rare-bile-duct-cancer"
+      },
+      {
+        "summary": "The V Foundation for Cancer Research announced its 2026 Translational Grant recipients, including Dr. Benjamin Ebert from Dana-Farber/Harvard Cancer Center, who received an All-Star Grant for leukemia (AML) research.",
+        "recipient": "Dr. Benjamin Ebert",
+        "department_or_lab": "Dana-Farber/Harvard Cancer Center, Leukemia (AML)",
+        "amount": "$1,000,000",
+        "agency": "The V Foundation for Cancer Research",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This significant research grant indicates a strong likelihood of increased demand for specialized reagents, cell culture media, and equipment for leukemia research.",
+        "source_url": "https://www.v.org/story/v-foundation-announces-new-cohort-translational-grant-recipients/"
+      },
+      {
+        "summary": "The Pershing Square Sohn Cancer Research Alliance awarded its 2026 Cancer Prize to 13 innovators, including Robbie Majzner, MD, from Dana-Farber Cancer Institute, for developing next-generation CAR T cell therapies.",
+        "recipient": "Robbie Majzner, MD",
+        "department_or_lab": "Dana-Farber Cancer Institute (Majzner lab)",
+        "amount": null,
+        "agency": "Pershing Square Sohn Cancer Research Alliance",
+        "event_date": "2026-05-05",
+        "why_it_matters": "Research into CAR T cell therapies suggests a need for specialized cell culture reagents, flow cytometry equipment, and molecular biology consumables.",
+        "source_url": "https://pershingsquarephilanthropies.org/news/pershing-square-sohn-cancer-research-alliance-doubles-funding-commitment-awarding-13-innovators-in-cancer-research"
+      },
+      {
+        "summary": "The Melanoma Research Alliance (MRA) announced $18.4 million in global research investments, including a Leveraged Finance Fights Melanoma (LFFM) \u2013 MRA Team Science Award to Patrick Ott, MD, PhD, at Dana-Farber Cancer Institute for investigating the origins of acral melanoma.",
+        "recipient": "Patrick Ott, MD, PhD",
+        "department_or_lab": "Dana-Farber Cancer Institute",
+        "amount": null,
+        "agency": "Melanoma Research Alliance (MRA)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "Funding for melanoma research, particularly team science awards, indicates a need for a broad range of lab supplies, reagents, and equipment for collaborative studies.",
+        "source_url": "https://www.curemelanoma.org/blog/grants26"
+      },
+      {
+        "summary": "Dana-Farber Cancer Institute (Harvard Medical School affiliate) has been named an additional national site in the $21 million NIH-funded INSPIRE Network study, which will evaluate the safety and therapeutic potential of psychedelics for chronic pain in older adults.",
+        "recipient": "Dana-Farber Cancer Institute",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Participation in a large NIH-funded clinical study on psychedelics for pain suggests a need for clinical trial supplies, patient monitoring equipment, and analytical lab services.",
+        "source_url": "https://news.emory.edu/stories/2026/04/hs_bhc_nih_psychedelics/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "State regulators have approved Dana-Farber Cancer Institute's plan to build a roughly $50 million proton therapy center at its Longwood campus, with construction expected to start this spring and patient treatments projected to begin in late 2027.",
+        "project_name": "Proton Therapy Center",
+        "location": "Longwood campus, 35 Binney St., Boston, Massachusetts, United States.",
+        "value": "$50.5 million.",
+        "timeline": "Construction expected to start Spring 2026, patient treatments projected to begin late 2027.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The development of a new proton therapy center will necessitate a wide array of specialized lab supplies, reagents, consumables, and scientific equipment for advanced radiation research, treatment, and facility operations.",
+        "source_url": "https://hoodline.com/2026/05/state-gives-dana-farber-green-light-for-50m-proton-cancer-hub-in-longwood/"
+      },
+      {
+        "summary": "Dana-Farber Cancer Institute is raising approximately $1.8 billion through bond markets to fund a major hospital expansion project, which includes the development of an estimated $1.68 billion cancer hospital in partnership with Beth Israel Deaconess Medical Center, approved by the city of Boston's Planning Department.",
+        "project_name": "Major Hospital Expansion Project (including a Cancer Hospital with Beth Israel Deaconess Medical Center)",
+        "location": "Boston, Massachusetts, United States.",
+        "value": "$1.8 billion.",
+        "timeline": "Funds will be used to build and upgrade facilities, allowing the institute to serve more patients and provide advanced treatment options, supporting cutting-edge research.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This multi-billion dollar hospital expansion will generate substantial demand for a comprehensive range of lab supplies, reagents, consumables, and scientific equipment to support advanced patient care, research, and diagnostic services in modern treatment spaces and research labs.",
+        "source_url": "https://healthcarebusinessoutlook.com/building-hope-with-bonds-a-major-leap-in-cancer-care-expansion/"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "The Massachusetts Public Health Council unanimously approved Dana-Farber Cancer Institute's proposal to build a proton therapy center on its Longwood Medical Campus. Construction is slated to begin in Spring 2026, with the center expected to open to patients in late 2027. The new center will be the first in New England to offer treatment in seated or inclined positions using a compact proton treatment system.",
+        "contract_name": "Proton Therapy Center Construction and Equipment Procurement",
+        "estimated_value": "$50,500,633",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This approval signals upcoming demand for specialized proton therapy equipment, related lab supplies, and consumables for a new cancer treatment facility.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/massachusetts-public-health-council-votes-to-approve-dana-farber-cancer-institute-proposal-to-build-proton-therapy-center"
+      },
+      {
+        "summary": "Dana-Farber Cancer Institute sold $1.4 billion of debt to help fund the construction of a new 300-bed cancer hospital, which is part of a larger $1.816 billion project. Demolition for the site began in March 2026, with construction for the new structure expected to commence after November 2026. The new tower is anticipated to begin serving patients in the third quarter of 2031.",
+        "contract_name": "New Cancer Hospital Construction and Equipment Procurement",
+        "estimated_value": "$1,816,000,000",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant capital project indicates a massive future demand for a broad range of lab supplies, reagents, consumables, and scientific equipment for a new 300-bed inpatient cancer hospital.",
+        "source_url": "https://www.bondbuyer.com/news/dana-farber-mega-deal-pays-for-cancer-center-and-refunding"
+      },
+      {
+        "summary": "Dana-Farber Cancer Institute, Inc. received a federal grant of $489,500 for \"CANCER CAUSE AND PREVENTION RESEARCH\" from the National Institutes of Health.",
+        "contract_name": "CANCER CAUSE AND PREVENTION RESEARCH Grant",
+        "estimated_value": "$489,500",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This grant indicates ongoing and future research activities at Dana-Farber, which will drive demand for various lab supplies, reagents, and consumables.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/massachusetts-public-health-council-votes-to-approve-dana-farber-cancer-institute-proposal-to-build-proton-therapy-center"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Dana-Farber Cancer Institute celebrated its pioneering leadership and announced that a specialty floor in its future 300-bed cancer hospital will be named in tribute to former presidents, made possible by a gift from Anita and Josh Bekenstein. The new hospital is designed to transform inpatient oncology care in New England.",
+        "product_or_program": "Future Cancer Hospital / Expanded Inpatient Oncology Care",
+        "stage": "Facility Development / Expansion",
+        "therapeutic_or_application_area": "Oncology (general)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The development of a new 300-bed cancer hospital signifies a major expansion of clinical and research capabilities at Dana-Farber, creating significant future demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.jimmyfund.org/impact-and-stories/news/dana-farber-cancer-institute-celebrates-pioneering-leadership-honoring-former-presidents-named-floor"
+      },
+      {
+        "summary": "Dana-Farber investigators reported promising results from the ongoing eNRGy trial, a single-arm, multicenter, global phase 2 clinical trial evaluating zenocutuzumab in solid tumors positive for Neuregulin 1 (NRG1) gene fusions. The study showed manageable side effects and clinically meaningful efficacy in previously treated patients with advanced NRG1-positive cholangiocarcinoma, including a near doubling of progression-free survival. Based on these results, the U.S. Food and Drug Administration approved zenocutuzumab as second-line therapy for NRG1-positive cholangiocarcinoma on May 8.",
+        "product_or_program": "Zenocutuzumab for NRG1-positive cholangiocarcinoma (eNRGy trial)",
+        "stage": "Phase 2 study results, FDA approval",
+        "therapeutic_or_application_area": "Oncology (Cholangiocarcinoma)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Positive Phase 2 results and recent FDA approval for zenocutuzumab indicate an active and expanding research program in targeted therapies for rare cancers, suggesting ongoing and future demand for specialized reagents, consumables for molecular profiling (DNA/RNA sequencing), and potentially equipment for drug development and patient monitoring.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/dana-farber-investigators-report-promising-results-from-phase-2-study-of-targeted-therapy-for-rare-bile-duct-cancer"
+      },
+      {
+        "summary": "A small clinical trial led by Dana-Farber Cancer Institute researchers investigated whether activating the vitamin D receptor could make pancreatic tumors more vulnerable to therapeutic treatments. The study, published May 25, 2026, in Nature Cancer, found that patients with previously untreated metastatic pancreatic cancer who received standard chemotherapy with paricalcitol, an FDA-approved vitamin D analog, showed improved chemotherapy responses and increased progression-free survival at one year.",
+        "product_or_program": "Paricalcitol (vitamin D analog) in combination with chemotherapy for metastatic pancreatic cancer",
+        "stage": "Small clinical trial (safety-focused, randomized)",
+        "therapeutic_or_application_area": "Oncology (Pancreatic Cancer)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "A clinical trial investigating a novel approach to overcome therapeutic resistance in pancreatic cancer, involving a vitamin D analog and chemotherapy, indicates ongoing research and potential for increased demand for reagents, consumables for molecular and cellular analysis (immunofluorescence, spatial transcriptomics), and patient monitoring supplies.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/from-discovery-to-patient-care-vitamin-d-analog-shuts-down-pancreatic-cancers-shield-in-clinical-trial"
+      },
+      {
+        "summary": "Dana-Farber Cancer Institute researchers are set to present findings from several studies with compelling and potentially practice-changing results at the 2026 Annual Meeting of the American Society of Clinical Oncology (ASCO). These include results from a phase 1 clinical trial showing that a personalized neoantigen peptide vaccine (NeoVax) plus pembrolizumab for newly diagnosed glioblastoma achieved vaccine-stimulated anti-tumor activity and extended survival. Additionally, a study on bezuclastinib combined with sunitinib for advanced KIT-mutant GIST demonstrated a 50 percent reduction in the risk of progression or death.",
+        "product_or_program": "Personalized neoantigen peptide vaccine (NeoVax) plus pembrolizumab for glioblastoma (Phase 1 clinical trial); Bezuclastinib plus sunitinib for advanced KIT-mutant GIST",
+        "stage": "Phase 1 clinical trial results; Clinical trial results",
+        "therapeutic_or_application_area": "Oncology (Glioblastoma, GIST, Pancreatic, Prostate, Breast, Multiple Myeloma, Sarcoma, Brain)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The presentation of multiple significant clinical trial results at ASCO 2026 highlights Dana-Farber's active and diverse research pipeline, indicating ongoing and future demand for a broad range of lab supplies, reagents for immunology (T-cell responses), molecular biology, and pathology, as well as equipment for clinical research and diagnostics.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/dana-farber-researchers-to-present-two-plenary-studies-and-additional-late-breaking-cancer-research-at-2026-asco-0"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Dana-Farber Cancer Institute is raising approximately $1.8 billion through bond markets to fund a major hospital expansion project in Boston, which includes a new 300-bed, 450,000-square-foot dedicated cancer hospital designed to integrate inpatient, outpatient, and research services.",
+        "location": "Boston, Massachusetts, United States",
+        "type_of_expansion": "New dedicated facility (cancer hospital) and capacity expansion",
+        "investment_value": "$1.8 billion",
+        "event_date": "2026-05-03",
+        "why_it_matters": "This significant investment in a new cancer hospital with integrated research labs indicates a substantial increase in demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for both clinical and research operations.",
+        "source_url": "https://www.itij.com/latest/news/dana-farber-taps-bond-markets-fund-18bn-cancer-hospital-expansion"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "Dana-Farber Cancer Institute and the City of Boston announced new funding, with Dana-Farber contributing $150,000, to provide comprehensive early cancer detection services for 500 Boston firefighters.",
+        "partner": "City of Boston",
+        "deal_type": "Clinical Research Partnership / Named Program (Cancer Screenings)",
+        "deal_value": "$150,000",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This partnership signals new demand for diagnostic lab supplies, reagents, and consumables for cancer screening tests for 500 firefighters.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases-and-announcements/2026/dana-farber-city-of-boston-announce-funding-for-cancer-screenings-for-firefighters/"
+      },
+      {
+        "summary": "The Massachusetts Public Health Council unanimously approved Dana-Farber Cancer Institute's proposal to build a $50.5 million proton therapy center on its Longwood Medical Campus, expanding access to advanced treatment for pediatric and adult cancer patients.",
+        "partner": "N/A",
+        "deal_type": "New Clinical Program / Service Line (Proton Therapy Center)",
+        "deal_value": "$50.5 million",
+        "event_date": "2026-05-13",
+        "why_it_matters": "The approval and upcoming construction of a $50.5 million proton therapy center will create significant demand for specialized scientific equipment, lab supplies, and consumables for oncology treatment and research.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases-and-announcements/2026/massachusetts-public-health-council-votes-to-approve-dana-farber-cancer-institute-proposal-to-build-proton-therapy-center/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Dana-Farber Cancer Institute is undertaking a major hospital expansion project, funded by approximately $1.8 billion through bond markets. The project includes a new 300-bed inpatient cancer hospital in Boston's Longwood Medical Area, developed in partnership with Beth Israel Lahey Health, and is expected to open in 2031. The funding also supports a $141.1 million overhaul of IT systems and upgrades to satellite facilities and specialist treatment centers.",
+        "project_name": "Major Hospital Expansion Project / New Inpatient Cancer Hospital",
+        "scope": "Construction of a new 300-bed inpatient cancer hospital, IT systems overhaul, and upgrades to satellite facilities and specialist treatment centers. The expansion aims to improve access to specialized cancer care and support cutting-edge research, including modern treatment spaces, research labs, and patient-centered care environments.",
+        "timeline": "Expected to open in 2031.",
+        "event_date": "2026-05-03",
+        "why_it_matters": "This significant capital investment in new facilities, including research labs and advanced treatment spaces, will generate substantial demand for a wide range of scientific equipment, lab supplies, reagents, and consumables for both clinical research and patient care.",
+        "source_url": "https://www.itij.com/latest-news/dana-farber-taps-bond-markets-fund-18bn-cancer-hospital-expansion"
+      }
+    ],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Dana-Farber Cancer Institute is adding a Mevion proton therapy system to its Boston campus.",
+        "tender_name": "Mevion Proton Therapy System Procurement",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "This significant acquisition of advanced scientific equipment presents opportunities for Thomas Scientific to supply ancillary lab equipment, consumables, and reagents required for the operation and research associated with proton therapy.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases/2026/dana-farber-city-of-boston-announce-funding-for-cancer-screenings-for-firefighters"
+      },
+      {
+        "summary": "Dana-Farber Cancer Institute and the City of Boston announced new funding to support comprehensive early cancer detection services for Boston firefighters.",
+        "tender_name": "Cancer Screening Program Supplies and Equipment",
+        "estimated_value": "$150,000",
+        "deadline": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "This initiative indicates an upcoming demand for diagnostic equipment, reagents, and consumables necessary for cancer screening protocols, creating direct sales opportunities for Thomas Scientific.",
+        "source_url": "https://www.dana-farber.org/newsroom/news-releases-and-announcements/2026/05/dana-farber-city-of-boston-announce-funding-for-cancer-screenings-for-firefighters/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:00:52.546657",
+  "ai_summary": "Dana-Farber is undergoing massive expansion with a new cancer hospital and proton therapy center, backed by significant bond funding. Concurrently, they are highly active in research, securing numerous grants for diverse cancer studies, including CAR T and new drug trials. This growth and intense research activity signal a substantial need for new lab equipment, consumables, and reagents to outfit expanded facilities and support cutting-edge oncology investigations."
+}

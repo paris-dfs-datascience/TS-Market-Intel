@@ -1,0 +1,170 @@
+{
+  "account": "JLL",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1FCYA0",
+  "signals": {
+    "capital": [
+      {
+        "summary": "JLL Capital Markets arranged joint venture equity for the development of Cactus 303, a three-building, 572,282-square-foot Class A industrial project in Surprise, Arizona, valued at $150 million.",
+        "project_name": "Cactus 303 Industrial Project",
+        "location": "Surprise, Arizona, USA",
+        "value": "$150 million",
+        "timeline": "Construction expected to begin this summer (2026).",
+        "event_date": "2026-04-23",
+        "why_it_matters": "The development of a new industrial park indicates upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for potential manufacturing, R&D, or distribution tenants.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkLEWJjgXlun7IiV4JmAnBdhkYqrCamk6VYO5fzqvq_13DOEe-VqyS9tSGHBtf4RlK-aRoQKcnbCkx87ICdfublf9Hu4Ck3J1gSPJ_WxGg8yevbMbKLHEnh8pZ0RwT6hwTHn910Hw2CgKuo7MZKwR3GZ2RRgUylPCKypui2dPUceTA9gR0djwPJnQCZeyDDjoA89U"
+      },
+      {
+        "summary": "JLL Capital Markets arranged $77.1 million in total project financing for Commerce Yards, a 466,000-square-foot Class A industrial development consisting of three buildings in Commerce City, Colorado.",
+        "project_name": "Commerce Yards Industrial Development",
+        "location": "Commerce City, Colorado, USA",
+        "value": "$77.1 million",
+        "timeline": "Construction scheduled to begin in April 2026, with completion expected by May 2027.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The construction of a new industrial development signals future demand for lab supplies, reagents, consumables, and scientific equipment for potential manufacturing, logistics, or R&D operations.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeG3ewC1ptzqeTwoq5ExeZcexU16hpZSPaQRJjeBuP6Xb6sXp83u5IshuYi8o0SJIBoAyaltkIJJC8RsE8ZDtk5oucUYCZSTfgt_j3UNaJlH3KDo8wYuDDbDAn_3W-Idoiq18q-UCuNGbOqU8gj0Nnr9gB"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Linde announced plans to build an air separation facility in Garysburg, North Carolina, to produce oxygen, nitrogen, and argon for semiconductor manufacturing, healthcare, and industrial applications.",
+        "location": "Garysburg, North Carolina, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 75000000,
+        "event_date": "2026-04-29",
+        "why_it_matters": "A new air separation facility for semiconductor and healthcare manufacturing will require a range of specialized gases, lab equipment, and consumables for quality control and production processes.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-operations-announced-in-april-2026"
+      },
+      {
+        "summary": "Suniva announced a $350 million investment to establish a 620,000-square-foot solar cell manufacturing facility in Laurens County, South Carolina, creating 564 jobs.",
+        "location": "Laurens County, South Carolina, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 350000000,
+        "event_date": "2026-04-29",
+        "why_it_matters": "A new solar cell manufacturing facility will require various chemicals, materials, and analytical equipment for production and quality assurance.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-operations-announced-in-april-2026"
+      },
+      {
+        "summary": "Ferrara Candy Company announced plans to build a 750,000-square-foot manufacturing facility in Orangeburg County, South Carolina, with a $675 million investment, creating 1,000 jobs.",
+        "location": "Orangeburg County, South Carolina, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 675000000,
+        "event_date": "2026-04-29",
+        "why_it_matters": "A large-scale candy manufacturing facility will require lab testing equipment for food safety, quality control, and ingredient analysis, as well as general lab supplies.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-operations-announced-in-april-2026"
+      },
+      {
+        "summary": "Morinaga America Foods opened a new manufacturing facility in Mebane, North Carolina, with a $136 million project, creating 204 jobs, to produce HI-CHEW candy.",
+        "location": "Mebane, North Carolina, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 136000000,
+        "event_date": "2026-04-29",
+        "why_it_matters": "A new food manufacturing facility will require lab equipment and consumables for quality control, food safety testing, and product development.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-operations-announced-in-april-2026"
+      },
+      {
+        "summary": "Eaton announced a new 370,000-square-foot manufacturing facility in Bellevue, Nebraska, to produce medium-voltage switchgear, creating more than 200 jobs.",
+        "location": "Bellevue, Nebraska, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "A new manufacturing facility, especially for electrical components, may require some lab supplies for material testing, R&D, and quality control.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-operations-announced-in-april-2026"
+      },
+      {
+        "summary": "Poland-based Displate Manufacturing will establish its first Kentucky operation in Louisville with a $9.5 million investment, creating 79 jobs, for manufacturing and logistics.",
+        "location": "Louisville, Kentucky, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 9500000,
+        "event_date": "2026-05-07",
+        "why_it_matters": "A new manufacturing operation will require various industrial supplies, and potentially some lab equipment for material testing or process control.",
+        "source_url": "https://www.953wiki.com/news/local-news/displate-manufacturing-to-establish-first-kentucky-operation-in-louisville-with-9-5-million-investment-creating-79-jobs"
+      },
+      {
+        "summary": "Ross Video Ltd. is expanding its manufacturing and research and development (R&D) operations in Ottawa and Iroquois, Ontario, with a $122.5 million investment, creating 125 new jobs.",
+        "location": "Ottawa and Iroquois, Ontario, Canada",
+        "type_of_expansion": "Capacity expansion (manufacturing and R&D)",
+        "investment_value": 122500000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Expansion of R&D operations will directly increase demand for a wide range of lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://news.ontario.ca/en/news_release/1005000/ontario-welcomes-1225-million-investment-in-the-media-technology-sector"
+      },
+      {
+        "summary": "Nonwovenn announced a \u00a35 million investment program and the recruitment of 50 new employees in manufacturing operations to expand its PouchTech business and increase manufacturing capacity.",
+        "location": null,
+        "type_of_expansion": "Capacity expansion (manufacturing)",
+        "investment_value": 6300000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Increased manufacturing capacity and workforce in technical textiles will drive demand for industrial lab supplies for quality control and process optimization.",
+        "source_url": "https://textilenews.in/nonwovenn-expands-pouchtech-business-with-new-5-million-investment-programme/"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Forlong Biotechnology successfully completed an RMB 120 million (approximately USD 17.5 million) Series Pre-B financing round.",
+        "amount": "USD 17.5 million",
+        "funding_type": "Private Equity Funding",
+        "use_of_proceeds": "Proceeds will be used to advance FL115, an IL-15 superagonist, into the pivotal clinical stage, and FL116, a PD-1/IL-18 bispecific, into clinic, strengthening operational readiness and accelerating clinical development momentum.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This investment in advancing clinical-stage assets and strengthening operational readiness suggests increased demand for reagents, consumables, and potentially new lab equipment for clinical trials and R&D.",
+        "source_url": "https://www.businesswire.com/news/home/20260519208018/en/Forlong-Raises-Approximately-120-Million-RMB-in-Series-Pre-B-Financing-to-Advance-its-IL-15-and-IL-18-Pipeline"
+      },
+      {
+        "summary": "Palomino Laboratories Inc. completed private placements with accredited investors on April 30, 2026, raising approximately $16.98 million.",
+        "amount": "USD 16.98 million",
+        "funding_type": "Private Equity Funding",
+        "use_of_proceeds": "The funding supports infrastructure build-out, including lab equipment purchases of $318,336, and scaling expenses for lab build-out.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The explicit mention of 'lab equipment purchases' and 'lab build-out' directly indicates upcoming demand for scientific equipment and supplies.",
+        "source_url": "https://www.investing.com/news/stock-market-news/palomino-laboratories-completes-188-million-private-placement-with-accredited-investors-432SI2607877"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Advance Realty Investors is developing the Continuum Innovation Campus in Bridgewater, NJ, a 1.1 million square foot project featuring purpose-built R&D, life science, and advanced manufacturing spaces. JLL is part of the leasing team for this significant development. The campus will include up to 830,000 square feet of life science facilities and 250,000 square feet for logistics and advanced manufacturing. Construction for the first phase is already underway.",
+        "project_name": "Continuum Innovation Campus",
+        "scope": "Development of up to 1.1 million square feet of new life science and advanced manufacturing space, including 830,000 square feet of purpose-built life science facilities and 250,000 square feet for logistics and advanced manufacturing, on a 60-acre site.",
+        "timeline": "Construction for the first phase is underway, with the site being shovel-ready.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "The development of a large-scale life science and advanced manufacturing campus will drive significant demand for lab supplies, reagents, consumables, and scientific equipment for new R&D and production facilities.",
+        "source_url": "https://re-nj.com/advance-launches-60-acre-bridgewater-innovation-campus-with-up-to-1-1-million-sq-ft-of-purpose-built-rd-advanced-manufacturing-space/"
+      },
+      {
+        "summary": "New Vernon Equities has invested over $20 million to redevelop the Arena campus in East Hanover, NJ, into a 600,000 square foot complex that includes office, R&D/tech, and light manufacturing spaces. JLL has been retained as the exclusive marketing and leasing agent for 20 & 40 Arena Way, totaling 350,000 square feet. The campus includes a 75,000 square foot building fully leased to GenScript for GMP pharma manufacturing, and a 120,000 square foot tech/flex building scheduled to start construction in Summer 2026. Extensive exterior and infrastructure upgrades, including new standalone utility infrastructure and state-of-the-art HVAC systems, are substantially complete.",
+        "project_name": "Arena Campus Redevelopment",
+        "scope": "Redevelopment of a 600,000 square foot campus, with over $20 million invested in exterior and infrastructure upgrades for 350,000 square feet of office and R&D/tech and light manufacturing spaces. This includes a 75,000 square foot building for GMP pharma manufacturing and a planned 120,000 square foot tech/flex building.",
+        "timeline": "Exterior and infrastructure upgrades are substantially complete, with interior renovations and amenities being finalized. Construction for a new 120,000 square foot building is scheduled to start in Summer 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The redevelopment and expansion of R&D and manufacturing facilities, particularly for GMP pharma manufacturing, will create demand for new lab equipment, consumables, and specialized reagents.",
+        "source_url": "https://re-nj.com/advance-launches-60-acre-bridgewater-innovation-campus-with-up-to-1-1-million-sq-ft-of-purpose-built-rd-advanced-manufacturing-space/"
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "JLL has been selected by Airbus to provide facilities management services for its 4.3-million-square-foot U.S. real estate portfolio, including its 30-building manufacturing campus in Mobile, Alabama. This expands JLL's existing partnership with Airbus and more than doubles the square footage under JLL's management.",
+        "facility_or_line": "Airbus's 30-building manufacturing campus in Mobile, Alabama, and broader 4.3-million-square-foot U.S. real estate portfolio.",
+        "change_type": "Shift in production capacity/management (JLL taking over expanded facilities management for an existing manufacturing operation).",
+        "location": "Mobile, Alabama, USA (and other U.S. locations for Airbus's portfolio).",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "JLL's expanded role in managing a large aerospace manufacturing facility indicates a sustained need for operational, maintenance, and potentially quality control lab supplies and equipment to support Airbus's production processes.",
+        "source_url": "https://www.us.jll.com/en/newsroom/jll-selected-by-airbus-to-provide-facilities-related-services-for-4-3-m-sf-real-estate-portfolio"
+      },
+      {
+        "summary": "JLL's Phoenix office announced it will market Grand View Arizona, a 2,500-acre, fully entitled mega site in Buckeye, Arizona, designed to accommodate large-scale, sophisticated manufacturing uses. The project is projected to generate over $1 billion in economic impact.",
+        "facility_or_line": "Grand View Arizona (2,500-acre logistics and manufacturing mega site).",
+        "change_type": "New manufacturing site opening (development of a site for future manufacturing tenants).",
+        "location": "Buckeye, Arizona, USA.",
+        "investment_value": "Projected to generate over $1 billion in economic impact.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "The development and marketing of a massive site for advanced manufacturing signals significant future demand for lab equipment, reagents, and consumables for quality control, R&D, and production processes by incoming manufacturing tenants.",
+        "source_url": "https://www.us.jll.com/en/newsroom/grand-view-az-2500-acre-site-to-drive-1b-impact"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:20:15.214654",
+  "ai_summary": "JLL is actively developing, financing, and managing extensive industrial and manufacturing properties, with a notable focus on life science, R&D, and advanced manufacturing campuses. This surge in new and redeveloped facilities, including biotech and pharma manufacturing spaces, creates significant opportunities for lab supply sales teams. These projects will require equipping new labs and upgrading existing ones with essential supplies and instrumentation."
+}

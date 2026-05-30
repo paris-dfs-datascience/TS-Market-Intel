@@ -1,0 +1,32 @@
+{
+  "account": "SINCERUS FLORIDA",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0011M00002FBPrzQAH",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "The FDA issued an FMD-145 Letter to SKNV (formerly Sincerus Florida LLC), a 503B compounding facility in Pompano Beach, FL.",
+        "product_or_site": "SKNV (formerly Sincerus Florida LLC), Pompano Beach FL - 503B Facility",
+        "regulatory_action": "FMD-145 Letter",
+        "outcome": "Issued",
+        "event_date": "2026-04-22",
+        "why_it_matters": "This regulatory action indicates a need for remediation supplies, equipment upgrades, and potential changes in manufacturing processes at the facility to address identified issues.",
+        "source_url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-inspections-recalls-and-other-actions"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:47:25.561357",
+  "ai_summary": "SINCERUS FLORIDA (now SKNV), a 503B compounding facility, received an FDA FMD-145 Letter, indicating significant regulatory non-compliance. This signals an urgent need for remediation, likely involving process overhauls, equipment upgrades, and increased quality control measures. For lab supply sales, this presents an opportunity to offer compliant, high-quality solutions and support their efforts to meet stringent FDA standards, potentially leading to new equipment and supply purchases."
+}

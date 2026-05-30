@@ -1,0 +1,79 @@
+{
+  "account": "RUTGERS",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CnYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Amin Reihani, Assistant Professor in the Department of Mechanical and Aerospace Engineering at Rutgers, received a five-year National Science Foundation (NSF) CAREER Award for his project on how metal nanoparticles use light to promote chemical reactions.",
+        "recipient": "Amin Reihani",
+        "department_or_lab": "Department of Mechanical and Aerospace Engineering, Rutgers School of Engineering",
+        "amount": "$550,000",
+        "agency": "NSF",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This project will require advanced nano-scale measurement tools, materials for nanoparticle synthesis, and general lab consumables for the next five years.",
+        "source_url": "https://soe.rutgers.edu/news/mae-professor-receives-prestigious-nsf-career-award"
+      },
+      {
+        "summary": "Research involving the Department of Pediatrics at Rutgers Cancer Institute, Rutgers Robert Wood Johnson Medical School, received NIH funding (1 RO1 CA279550-01) for a project on copper depletion to boost CNS leukemia therapy.",
+        "recipient": "Rutgers Cancer Institute researchers",
+        "department_or_lab": "Department of Pediatrics, Rutgers Cancer Institute, Rutgers Robert Wood Johnson Medical School",
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This leukemia therapy research will likely require ongoing supplies for cell culture, molecular biology reagents, and potentially animal research consumables.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42185479/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Rutgers University will be a primary occupant of the first 12-story tower (H1) of the Health & Life Science Exchange (HELIX NJ), which was completed in April 2026. This tower will house the Robert Wood Johnson Medical School and a translational research facility equipped with laboratories for 80 Rutgers research teams. The overall HELIX NJ project is a three-building complex with 1.5-million square feet, an investment of approximately $2 billion, and is projected to accommodate more than 4,000 people by the end of 2028.",
+        "location": "New Brunswick, NJ",
+        "type_of_expansion": "New dedicated facility, research operations, capacity expansion (laboratories, medical school)",
+        "investment_value": "$2,000,000,000",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This significant expansion of research and medical facilities indicates a substantial increase in demand for lab supplies, reagents, consumables, and scientific equipment for 80 research teams.",
+        "source_url": "https://ipo.rutgers.edu/pdd/helix-info"
+      },
+      {
+        "summary": "Rutgers University\u2013Camden reached a major construction milestone in its $60 million Cooper Street Gateway Project, placing the final steel beam on a development that will expand academic space and strengthen community ties. The project is transforming historic properties into a 25,000-square-foot facility that will house academic programs, gathering spaces, and accommodations for visiting faculty.",
+        "location": "Camden, NJ",
+        "type_of_expansion": "New dedicated facility, academic space expansion",
+        "investment_value": "$60,000,000",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant investment in new academic space could include teaching labs or research support facilities, leading to new procurement needs for general lab supplies and equipment.",
+        "source_url": "https://philadelphia.today/2026/05/rutgers-camden-cooper-street-gateway-project/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Rutgers School of Health Professions faculty member, Dr. Suchismita Ray, is a co-principal investigator on a multi-site study funded with a Rutgers budget of $1,413,000.00 to investigate Guanfacine for women with Alcohol Use Disorder (AUD) using a telehealth approach.",
+        "project_name": "Guanfacine for women with Alcohol Use Disorder (AUD): A multisite study using a telehealth approach.",
+        "scope": "This is a multisite study focusing on testing Guanfacine for women with Alcohol Use Disorder (AUD) through a telehealth approach, with 100 individuals to be tested at the Rutgers site.",
+        "timeline": "The grant period is not explicitly stated as multi-year in the provided snippet, but a budget of $1.413M for a research study typically indicates a multi-year program.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This multi-site study will require significant lab supplies, reagents, and potentially specialized equipment for telehealth monitoring, biological sample analysis, and data collection related to alcohol use disorder research.",
+        "source_url": "https://shp.rutgers.edu/research/suchismita-ray/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Physician-scientists from Rutgers Cancer Institute and RWJBarnabas Health will present practice-changing research and emerging treatment approaches across a range of cancer types at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting. Highlights include findings from a late-breaking abstract on Neo-adjuvant rilvegostomig (R) + trastuzumab deruxtecan (T-DXd) in high-risk HER2-negative breast cancer from the I-SPY 2.2 trial.",
+        "researcher_name": "Steven K. Libutti",
+        "department_or_lab": "Rutgers Cancer Institute, RWJBarnabas Health",
+        "award_or_discovery": "Presentation of practice-changing research at the 2026 ASCO Annual Meeting, including a late-breaking abstract on a novel breast cancer treatment.",
+        "significance": "The research reflects the expertise and leadership of world-class physician-scientists in advancing innovation in cancer care, translating scientific discovery into meaningful impact for patients, and leveraging data, technology, and collaboration to deliver more personalized and accessible care. The inclusion of a late-breaking abstract signifies high impact and potential to change clinical practice.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This presentation of practice-changing clinical research at a major oncology conference signals ongoing high-impact therapeutic development and clinical trial activity, driving demand for specialized reagents, consumables, and equipment for cancer research and treatment.",
+        "source_url": "https://www.prnewswire.com/news-releases/rutgers-cancer-institute-and-rwjbarnabas-health-to-highlight-advances-shaping-the-future-of-cancer-research-at-the-2026-asco-annual-meeting-302779586.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:53:35.673849",
+  "ai_summary": "Rutgers is undergoing massive expansion, notably with the HELIX NJ project adding labs for 80 research teams and the Cooper Street Gateway. Significant new grants for nanoparticle research and leukemia therapy, plus a large AUD study, indicate robust research activity. This growth and funding create substantial opportunities for lab supply sales, as new facilities and projects will require extensive equipment and consumables."
+}

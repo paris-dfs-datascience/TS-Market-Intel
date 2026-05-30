@@ -33,14 +33,24 @@ python main.py --category all                                # full run (all 237
 Single entrypoint (`main.py`) dispatches by `--category`, `--company`, or `--super80`. All persistence flows through a `Sink` that writes to the local filesystem by default, or to Azure Blob Storage when env vars are set.
 
 ```
-main.py          ← argparse CLI, dispatch
+main.py                       ← argparse CLI, dispatch (repo root, Docker entrypoint)
   ↓
-engine.py        ← async execution engine (semaphore, retries, checkpointing, usage tracker)
+market_intel/engine.py        ← async execution engine (semaphore, retries, checkpointing, usage tracker)
   ↓
-prompts.py       ← 21 signal prompts, CATEGORY_TRIGGERS, FIELD_MAPS
-accounts.py      ← 237 accounts by category, aliases, Super80 list
-storage.py       ← LocalSink / BlobSink (selected by env at runtime)
+market_intel/prompts.py       ← 21 signal prompts, CATEGORY_TRIGGERS, FIELD_MAPS
+market_intel/accounts.py      ← 482 accounts by vertical, aliases, Super80 list
+market_intel/storage.py       ← LocalSink / BlobSink (selected by env at runtime)
+
+tools/                        ← one-off maintenance (python -m tools.backfill_results / tools.analyze_dedup)
+diagnostics/                  ← operational probes (python -m diagnostics.check_gemini_api / check_sql_connection)
+tests/                        ← pytest suite (pytest -q)
 ```
+
+Each package has its own README explaining every module:
+[`market_intel/`](market_intel/README.md) ·
+[`tools/`](tools/README.md) ·
+[`diagnostics/`](diagnostics/README.md) ·
+[`tests/`](tests/README.md)
 
 ### Output layout
 

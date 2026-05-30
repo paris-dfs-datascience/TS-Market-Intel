@@ -1,0 +1,109 @@
+{
+  "account": "CONTROLLED CONTAMINATION",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1BvYAK",
+  "signals": {
+    "capital": [
+      {
+        "summary": "TerraPower Isotopes broke ground on its flagship Bellwether Laboratory, a 250,000-square-foot actinium-225 (Ac-225) manufacturing facility in Philadelphia's Bellwether District, aimed at increasing Ac-225 production capacity twentyfold to support next-generation cancer therapies.",
+        "project_name": "Bellwether Laboratory (Actinium-225 Manufacturing Facility)",
+        "location": "Bellwether District, Philadelphia, Pennsylvania, USA",
+        "value": "$450 million",
+        "timeline": "Groundbreaking on May 6, 2026; expected to be fully operational in 2029.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This new facility will require a wide range of lab supplies, reagents, and equipment for the large-scale manufacturing and quality control of radioactive isotopes for cancer therapies in a controlled environment.",
+        "source_url": "https://www.terrapower.com/TerraPower-Isotopes-Breaks-Ground-on-Worlds-Largest-Actinium-225-Manufacturing-Facility-in-Philadelphia"
+      },
+      {
+        "summary": "Niowave broke ground on a new $75 million production facility in Lansing, Michigan, to significantly expand its manufacturing footprint and strengthen the domestic supply of Actinium-225 (Ac-225), a critical isotope used in next-generation targeted cancer therapies.",
+        "project_name": "Actinium-225 (Ac-225) Production Facility",
+        "location": "Lansing, Michigan, USA",
+        "value": "$75 million",
+        "timeline": "Groundbreaking on May 21, 2026; expected to become operational in 2028.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new facility will generate demand for specialized lab supplies, reagents, and equipment for the production and quality control of medical isotopes in a controlled environment.",
+        "source_url": "https://www.prnewswire.com/news-releases/niowave-breaks-ground-on-new-75-million-production-facility-to-advance-targeted-cancer-therapies-302778849.html"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "SEMCO Technologies has secured access to a new 900 m\u00b2 building in Montpellier, France, with the potential for a 500 m\u00b2 cleanroom and a 200 m\u00b2 controlled-environment room. This expansion aims to double its production capacity for semiconductor components. The associated investment program for constructing the cleanroom and deploying automated production lines is estimated at approximately \u20ac5 million (approximately $5.4 million USD).",
+        "location": "Montpellier, France",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": "$5.4M",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The new cleanroom and controlled-environment facility for semiconductor manufacturing will generate demand for specialized lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.businesswire.com/news/home/20260520005500/en/SEMCO-Technologies-Secures-Independent-Extension-of-Its-Production-Capacity-in-Montpellier"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": [
+      {
+        "summary": "A job posting indicates a need for a Project Coordinator to support facility shutdown activities and site improvement projects within a GMP-regulated pharmaceutical manufacturing environment focused on Solid Dosage operations in the Juncos / Gurabo Area, Puerto Rico.",
+        "facility_or_programme": "Undisclosed GMP-regulated pharmaceutical manufacturing facility (Solid Dosage operations) in Juncos / Gurabo Area, Puerto Rico",
+        "closure_type": "Facility Shutdown",
+        "effective_date": null,
+        "reason": "Critical site transition project and site improvement initiatives.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This signals an upcoming demand for lab decommissioning services, waste management, and potential new equipment for any receiving sites, creating opportunities for Thomas Scientific.",
+        "source_url": "https://pr.indeed.com/viewjob?jk=24d081b376229497"
+      },
+      {
+        "summary": "A job posting for a Quality Manager indicates that a medical injection molding facility in Tempe, AZ, is undergoing product and equipment transfers and eventual site closure, while a nearby dip molding operation will remain operational.",
+        "facility_or_programme": "Undisclosed medical injection molding facility in Tempe, AZ",
+        "closure_type": "Site Closure, Equipment Decommissioning",
+        "effective_date": null,
+        "reason": "Product and equipment transfers leading to eventual site closure.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This presents an opportunity for Thomas Scientific to provide decommissioning services, new equipment for receiving sites, and potentially consumables for the remaining dip molding operation.",
+        "source_url": "https://www.indeed.com/viewjob?jk=3801083e97025816"
+      },
+      {
+        "summary": "Novartis announced plans to close its production facility in Wehr, Germany, which primarily focuses on older drugs using traditional solid oral dosage forms, leading to the elimination of approximately 220 jobs.",
+        "facility_or_programme": "Novartis production facility in Wehr, Germany",
+        "closure_type": "Plant Closure",
+        "effective_date": "2028-12-31",
+        "reason": "Shift from older technologies in favor of high-growth modalities.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This closure represents a significant churn risk for existing lab supply contracts at the Wehr facility but also a potential opportunity for Thomas Scientific to support decommissioning efforts.",
+        "source_url": "https://www.fiercepharma.com/manufacturing/novartis-close-german-manufacturing-site-cutting-220-jobs"
+      },
+      {
+        "summary": "Gerresheimer Glass, Inc. will close its moulded glass facility in Chicago Heights, Illinois, which produces serum, infusion, and screw-cap bottles for the pharmaceutical, biotech, and cosmetics industries, resulting in nearly 200 layoffs.",
+        "facility_or_programme": "Gerresheimer Glass, Inc. moulded glass facility in Chicago Heights, IL",
+        "closure_type": "Plant Closure",
+        "effective_date": "2026-09-30",
+        "reason": "Shifting production to factories in India and Italy.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This closure presents a churn risk for Thomas Scientific if they supply Gerresheimer Glass, Inc. at this location, but also an opportunity for decommissioning services and potential new supply needs at the receiving facilities.",
+        "source_url": "https://patch.com/illinois/chicagoheights/chicago-heights-glass-packaging-plant-close-nearly-200-laid"
+      },
+      {
+        "summary": "A job posting for a Site Exit Specialist indicates that Seqirus' Parkville facility in Victoria, Australia, is undergoing a critical site transition project involving the decommissioning and transfer of Quality Control (QC) operations, including immunology and support functions.",
+        "facility_or_programme": "Seqirus Parkville facility (QC \u2013 Immunology & Support labs/equipment), Victoria, Australia",
+        "closure_type": "Site Exit, Lab Decommissioning, Equipment Decommissioning",
+        "effective_date": "2026-12-18",
+        "reason": "Critical site transition project and transfer of QC programs to new sites.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates a clear opportunity for Thomas Scientific to provide lab decommissioning services, waste management, and potential new equipment/consumables for the receiving sites.",
+        "source_url": "https://au.indeed.com/viewjob?jk=5b11202758112345"
+      },
+      {
+        "summary": "Ichor Holdings, Ltd., a supplier to semiconductor manufacturing, reported facility shutdown costs, inventory impairment charges, and severance costs associated with reduction-in-force programs in its first-quarter 2026 financial results.",
+        "facility_or_programme": "Undisclosed facility of Ichor Holdings, Ltd. (semiconductor manufacturing supplier)",
+        "closure_type": "Facility Shutdown",
+        "effective_date": null,
+        "reason": "Reduction-in-force programs.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This indicates a potential churn risk for Thomas Scientific if they supplied the affected Ichor Holdings facility, and an opportunity for decommissioning services.",
+        "source_url": "https://www.businesswire.com/news/home/20260504149876/en/Ichor-Holdings-Ltd.-Announces-First-Quarter-2026-Financial-Results"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:38:43.477150",
+  "ai_summary": "Significant capital investments are driving new controlled contamination facilities for next-generation cancer therapies and semiconductor production, indicating strong demand for advanced lab supplies. Concurrently, several older manufacturing sites are closing or consolidating. This creates a critical need for sales teams to target these emerging high-tech expansions for new equipment and consumables, while understanding shifts in existing demand."
+}

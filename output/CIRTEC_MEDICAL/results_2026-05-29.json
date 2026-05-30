@@ -1,0 +1,59 @@
+{
+  "account": "CIRTEC MEDICAL",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1BsYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Ilika has reported its first Stereax revenues and progress with its Goliath solid-state batteries, confirming the ongoing implementation of a ten-year manufacturing license with Cirtec Medical to produce Stereax miniature batteries at Cirtec's facility in Lowell, Massachusetts. Commercial-grade cathode material is now being shipped to Cirtec Medical for incorporation into batteries.",
+        "facility_or_line": "Stereax miniature battery production line",
+        "change_type": "New product line being manufactured / Production ramp-up",
+        "location": "Lowell, Massachusetts, US",
+        "investment_value": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "The ramp-up of a new battery production line for medical devices will drive demand for specialized chemicals, materials, and quality control equipment.",
+        "source_url": "https://www.directorstalkinterviews.com/ilika-reports-first-stereax-revenues-and-goliath-progress/"
+      },
+      {
+        "summary": "Cirtec Medical is managing a significant product transition for one of its neuromodulation devices to a customer's next-generation device. This transition, while causing a short-term dip in performance, positions the business for stronger growth as the next-generation programs scale.",
+        "facility_or_line": "Neuromodulation device production line",
+        "change_type": "Shift in production capacity / New product line being manufactured (next-generation device)",
+        "location": "Undisclosed (Cirtec Medical facilities)",
+        "investment_value": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "The transition to manufacturing a next-generation neuromodulation device will require new reagents, consumables, and potentially specialized equipment for R&D, production, and quality control.",
+        "source_url": "https://www.3igroup.com/investors/results-centre/2026/results-for-the-year-to-31-march-2026/"
+      },
+      {
+        "summary": "Mobia Medical, Inc. filed for a Nasdaq Global Select Market IPO, confirming its manufacturing partnerships, including Cirtec Medical as a lead partner, for the Vivistim Paired Vagus Nerve Stimulation (Paired VNS) System. Over 1,000 Vivistim implants have been performed to date, with approximately 700 in 2025, indicating ongoing demand and production.",
+        "facility_or_line": "Vivistim Paired Vagus Nerve Stimulation (Paired VNS) System manufacturing",
+        "change_type": "Ongoing manufacturing partnership with confirmed demand",
+        "location": "Undisclosed (Cirtec Medical facilities)",
+        "investment_value": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "Continued manufacturing of the Vivistim system as a lead partner indicates sustained demand for specialized components, reagents, and quality control supplies.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0001489993/000119312526139414/d151241d424b4.htm"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Cirtec Medical is undergoing a planned transition of one of its older neuromodulation product lines to a next-generation device, which is expected to cause a short-term dip in performance.",
+        "facility_or_programme": "One of Cirtec Medical's older neuromodulation product lines",
+        "closure_type": "Production Line Adjustment/Transition",
+        "effective_date": null,
+        "reason": "Planned transition to a next-generation device",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This transition may lead to a temporary shift or reduction in demand for specific lab supplies, reagents, consumables, or scientific equipment associated with the older product line, while creating new opportunities for supplies related to the next-generation device.",
+        "source_url": "https://www.3i.com/media/04oheewu/3i-group-press-release-fy26.pdf"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:37:20.976296",
+  "ai_summary": "Cirtec Medical is expanding production with new solid-state battery manufacturing and scaling its partnership for Mobia's Vivistim system. While transitioning an older neuromodulation line, these initiatives position Cirtec for significant growth. This activity signals increased demand for lab supplies, reagents, and equipment for R&D, quality control, and manufacturing support as new and next-gen products ramp up."
+}

@@ -1,0 +1,69 @@
+{
+  "account": "BODE TECHNOLOGY GROUP",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "0011M00002CgFVBQA3",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Bode Technology announced a partnership with the Sherry Black Foundation to advance DNA testing in violent crime investigations.",
+        "contract_name": "Partnership with Sherry Black Foundation for DNA Testing Services",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This partnership indicates an increase in demand for forensic DNA analysis services by Bode Technology, which will likely lead to increased procurement of lab supplies, reagents, and consumables from distributors like Thomas Scientific.",
+        "source_url": "https://bodetech.com/blog-and-news/"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Bode Technology's Forensic Genetic Genealogy testing was instrumental in identifying a suspect in a 1986 cold case murder, leading to an arrest.",
+        "product_or_program": "Forensic Genetic Genealogy testing service",
+        "stage": "Application/Service in use",
+        "therapeutic_or_application_area": "Forensic Science, Cold Case Investigations",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This demonstrates Bode Technology's active involvement and success in forensic DNA analysis, indicating ongoing demand for related lab supplies and reagents.",
+        "source_url": "https://www.woodlandsonline.com/npps/section.cfm?sid=53&page=2"
+      },
+      {
+        "summary": "Bode Technology has partnered with Asymmetric MIA Accounting Group (AMAG) and Memory Way to support DNA identification efforts for missing international volunteers and other conflict-related missing persons, particularly by collecting and processing Family Reference Samples (FRS) outside Ukraine.",
+        "product_or_program": "DNA identification efforts for missing persons (partnership with AMAG and Memory Way)",
+        "stage": "New Partnership/Service Expansion",
+        "therapeutic_or_application_area": "Forensic DNA Identification, Humanitarian Efforts",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new partnership signifies an expansion of Bode Technology's services and will likely increase their need for DNA collection kits, processing reagents, and related laboratory consumables.",
+        "source_url": "https://amagonline.org/f/mission-mindanao-%E2%80%93-forgotten-graves-false-closures-new-hope"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "volume": [
+      {
+        "summary": "Bode Technology partnered with the Sherry Black Foundation to advance DNA testing in violent crime investigations.",
+        "test_or_product_line": "Forensic DNA analysis for violent crime investigations",
+        "volume_change": "Expanded access to and advancement of DNA testing for violent crime investigations",
+        "driver": "New partnership/reference lab contract",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Higher test volume directly increases consumable spend for DNA extraction kits, PCR reagents, and sequencing supplies.",
+        "source_url": "https://www.bodetech.com/blog-news/"
+      },
+      {
+        "summary": "Bode Technology launched a strategic collaboration with AMAG and Memory Way to support DNA identification efforts for missing international volunteers and conflict-related missing persons, specifically processing Family Reference Samples (FRS) from outside Ukraine.",
+        "test_or_product_line": "DNA identification for missing persons, processing of Family Reference Samples (FRS)",
+        "volume_change": "Increased collection and processing of Family Reference Samples for DNA identification",
+        "driver": "New strategic collaboration/reference lab contract",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Increased processing of Family Reference Samples directly increases consumable spend for DNA collection kits, extraction reagents, and analysis supplies.",
+        "source_url": "https://www.amagroup.org/news"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:19:30.064860",
+  "ai_summary": "Bode Technology is significantly expanding its forensic DNA testing capabilities through new partnerships with the Sherry Black Foundation and AMAG/Memory Way. They are actively applying advanced DNA techniques, including Forensic Genetic Genealogy and Family Reference Sample processing, to solve cold cases and identify missing persons globally. This surge in activity signals increased demand for lab supplies, reagents, and instrumentation to support their growing investigative and humanitarian efforts."
+}

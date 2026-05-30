@@ -1,0 +1,78 @@
+{
+  "account": "VERICEL CORPORATION",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "0011M00002FBQBWQA5",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [
+      {
+        "summary": "Vericel Corporation announced the amendment of its bylaws to reflect its new global headquarters located at 25 Blue Sky Drive, Burlington, Massachusetts, which also serves as a new manufacturing facility for MACI commercial production.",
+        "location": "Burlington, Massachusetts, USA",
+        "type_of_expansion": "New dedicated facility (headquarters and manufacturing)",
+        "investment_value": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This new manufacturing and headquarters facility indicates increased operational capacity and a need for ongoing lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.stocktitan.net/sec-filings/VCEL/8-k-vericel-corp-reports-material-event-b2c2b95bcf86.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Vericel Corporation announced FDA approval for MACI commercial manufacturing at its new facility in Burlington, Massachusetts, with manufacturing operations commencing in the second quarter of 2026. This expansion significantly increases the company's manufacturing capacity for MACI in the U.S. and supports potential international commercialization.",
+        "project_name": "New MACI Commercial Manufacturing Facility",
+        "scope": "Increased manufacturing capacity for MACI in the U.S. and potential international commercialization, located in Burlington, Massachusetts. The completion of this facility led to a significant reduction in capital expenditures from $14.2 million in Q1 2025 to $1.3 million in Q1 2026.",
+        "timeline": "Manufacturing began in Q2 2026.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The operational new manufacturing facility will require ongoing maintenance, calibration, and potentially new equipment and consumables for increased production of MACI, driving demand for scientific supplies.",
+        "source_url": "https://seekingalpha.com/article/4901077-vericel-corporation-vcel-q1-2026-earnings-call-transcript"
+      },
+      {
+        "summary": "Vericel Corporation received a significant BARDA (Biomedical Advanced Research and Development Authority) award for NexoBrid procurement and advanced development. The base contract is valued at $35 million, with approximately $10 million allocated over the next 12 months for initial procurement and development activities for a potential blast trauma indication.",
+        "project_name": "NexoBrid BARDA Procurement and Development Contract",
+        "scope": "Procurement of NexoBrid for U.S. national preparedness and initial development activities for a potential blast trauma indication. The base contract is $35 million, with an initial award of $35 million, and approximately $10 million over the next 12 months for initial procurement and development.",
+        "timeline": "Procurement revenue is expected to begin in Q3 2026, with the remainder early in 2027. The contract also includes optional awards for additional procurement and advanced development over a 10-year period.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The development activities for a new indication and ongoing procurement will drive demand for research reagents, lab consumables, and potentially specialized equipment for trauma research and product testing.",
+        "source_url": "https://seekingalpha.com/article/4901077-vericel-corporation-vcel-q1-2026-earnings-call-transcript"
+      },
+      {
+        "summary": "Vericel Corporation implemented a 30% expansion of its MACI sales force at the start of 2026, contributing to increased operating expenses and supporting continued growth and adoption of MACI.",
+        "project_name": "MACI Sales Force Expansion",
+        "scope": "A 30% increase in MACI sales force headcount.",
+        "timeline": "Implemented at the start of 2026.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "An expanded sales force can lead to increased product adoption and, consequently, higher demand for MACI-related lab supplies and consumables used in surgical procedures.",
+        "source_url": "https://www.streetinsider.com/SEC+Filings/Form+10-Q+Vericel+Corp+For%3A+Mar+31/26449489.html"
+      }
+    ],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Vericel Corporation was awarded a ten-year contract by the U.S. Biomedical Advanced Research and Development Authority (BARDA) for the procurement and advanced development of NexoBrid, valued at up to $197 million. The base period includes approximately $10 million for initial procurement over the next 12 months.",
+        "tender_name": "BARDA Award for NexoBrid Procurement and Advanced Development",
+        "estimated_value": "$10 million (initial procurement over 12 months)",
+        "deadline": null,
+        "event_date": "2026-04-02",
+        "why_it_matters": "This indicates a significant, long-term demand for NexoBrid and related supplies, presenting a direct sales opportunity for Thomas Scientific in burn care and emergency preparedness.",
+        "source_url": "https://investors.vcel.com/news-releases/news-release-details/vericel-announces-barda-award-valued-197-million-procurement-and"
+      },
+      {
+        "summary": "A contract to Vericel Corporation from the Department of Veterans Affairs for medical and surgical instruments, equipment, and supplies had a modification on May 13, 2026, for an amount of $69,772.",
+        "tender_name": "Contract for Medical and Surgical Instruments, Equipment, and Supplies (Department of Veterans Affairs)",
+        "estimated_value": "$69,772",
+        "deadline": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This indicates ongoing procurement of medical and surgical supplies by the VA from Vericel, suggesting potential for Thomas Scientific to supply related products.",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_36C25926P0334_3600_-NONE-_-NONE-"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:15:30.648646",
+  "ai_summary": "Vericel is significantly expanding, opening a new global headquarters and MACI manufacturing facility in Burlington, MA, with production starting Q2 2026. They also secured major BARDA contracts for NexoBrid development and expanded their MACI sales force. This growth signals increased lab operations, R&D, and manufacturing needs, creating substantial opportunities for lab supply sales teams."
+}

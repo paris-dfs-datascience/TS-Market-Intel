@@ -1,0 +1,125 @@
+{
+  "account": "ARUP",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1Z8YAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "ARUP Laboratories has launched the first national, multipathogen Infectious Disease Test Positivity Trends Dashboard, providing deidentified test result positivity trends to help clinical laboratories and medical directors identify unusual patterns, seasonal shifts, and emerging infectious disease activity sooner.",
+        "product_or_program": "National Infectious Disease Test Positivity Trends Dashboard",
+        "stage": "Launch",
+        "therapeutic_or_application_area": "Infectious Disease, Public Health Surveillance, Clinical Diagnostics",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new dashboard indicates ARUP's continued investment in infectious disease diagnostics and data analytics, suggesting potential for increased testing volumes and demand for related lab supplies and reagents.",
+        "source_url": "https://www.prnewswire.com/news-releases/arup-laboratories-launches-national-infectious-disease-test-positivity-trends-dashboard-300000000.html"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "POET Technologies closed a US$400 million investment to accelerate manufacturing scale-up, expanding wafer production and optical engine assembly capacity tenfold, increasing global headcount to over 115, and tripling its Singapore lab and office footprint, while adding 20,000 sq ft of assembly space in Malaysia.",
+        "location": "Singapore (lab/office), Malaysia (assembly space), Global (headcount)",
+        "type_of_expansion": "Capacity expansion, new lab/office, new manufacturing space",
+        "investment_value": 400000000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This expansion indicates a significant increase in demand for manufacturing and lab supplies, reagents, and equipment for photonic interconnect solutions.",
+        "source_url": "https://www.poet-technologies.com/news/poet-technologies-announces-closing-of-us400-million-investment"
+      },
+      {
+        "summary": "Kleton invested over $5 million in state-of-the-art equipment for its modernized manufacturing facility, enhancing quality, efficiency, and production capabilities.",
+        "location": "Quebec, Canada",
+        "type_of_expansion": "Manufacturing facility upgrade/modernization",
+        "investment_value": 5000000,
+        "event_date": "2026-05-11",
+        "why_it_matters": "This manufacturing upgrade indicates potential demand for new equipment, maintenance supplies, and specialized reagents for advanced manufacturing processes.",
+        "source_url": "https://www.canadianmetalworking.com/canadianmetalworking/article/shop-operations/modernized-manufacturing-facility-makes-kleton-more-competitive"
+      },
+      {
+        "summary": "Hansen & Co. Woodworks opened a new 92,000-square-foot manufacturing facility in February 2026, costing $25 million, which will increase manufacturing capacity by 400%.",
+        "location": "St. Joseph, Minnesota, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 25000000,
+        "event_date": "2026-05-27",
+        "why_it_matters": "The opening of a new, highly automated manufacturing facility suggests new procurement needs for specialized equipment, consumables, and maintenance supplies.",
+        "source_url": "https://www.enterprisemn.org/factory-of-the-future/"
+      },
+      {
+        "summary": "Loop Industries' India joint venture signed an MOU with the Gujarat government to develop its first large-scale commercial manufacturing facility in India, with an estimated capital cost of $165-170 million.",
+        "location": "Gujarat, India",
+        "type_of_expansion": "New manufacturing facility (market entry)",
+        "investment_value": 165000000,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing facility in India represents a significant opportunity for new procurement of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.newswire.ca/news-releases/loop-industries-reports-fourth-quarter-and-full-year-fiscal-2026-results-and-provides-update-on-business-developments-846870094.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Dr. Ben Bradley, an ARUP Medical Director, was recognized with the Young Investigator Award, and his work has resulted in over $5 million in CDC funding.",
+        "amount": "$5,000,000+",
+        "funding_type": "Government Diagnostic Program Award (CDC)",
+        "use_of_proceeds": "Pandemic preparedness, infectious disease data sharing, and development of a metagenomic next-generation sequencing assay.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This CDC funding for new assay development signals upcoming demand for reagents, consumables, and potentially new sequencing equipment for ARUP's infectious disease testing capabilities.",
+        "source_url": "https://www.aruplab.com/news/2026/04-29-medical-directors-awards"
+      }
+    ],
+    "project": [
+      {
+        "summary": "ARUP Laboratories launched the first national, multipathogen Infectious Disease Test Positivity Trends Dashboard, a tool developed by a U.S. reference laboratory to track laboratory test positivity trends for multiple pathogens.",
+        "project_name": "National Infectious Disease Test Positivity Trends Dashboard",
+        "scope": "The dashboard provides deidentified test result positivity trends to help clinical laboratories, medical directors, and clinicians identify unusual patterns, seasonal shifts, and emerging infectious disease activity earlier. It features maps and charts drawn from ARUP's test results, refreshed weekly, and pathogen-specific pages.",
+        "timeline": "Launched on May 13, 2026.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new dashboard will likely increase demand for ARUP's infectious disease testing services, requiring more reagents, consumables, and potentially new or expanded testing equipment to handle increased sample volumes.",
+        "source_url": "https://www.prnewswire.com/news-releases/arup-laboratories-launches-national-infectious-disease-test-positivity-trends-dashboard-302770865.html"
+      }
+    ],
+    "regulatory": [],
+    "volume": [
+      {
+        "summary": "ARUP Laboratories added a new GI Bacterial Panel by PCR to its test menu.",
+        "test_or_product_line": "GI Bacterial Panel by PCR",
+        "volume_change": "New test added to menu",
+        "driver": "New diagnostic test code added to lab menu",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Higher test volume for this new panel will directly increase demand for PCR reagents, consumables like reaction plates and pipette tips, and potentially specialized collection media.",
+        "source_url": "https://www.aruplab.com/test-directory/new-tests"
+      },
+      {
+        "summary": "ARUP Laboratories introduced a new GI Bacterial Panel by PCR with reflex testing to an expanded panel.",
+        "test_or_product_line": "GI Bacterial Panel by PCR With Reflex to GI Expanded Bacterial Panel by PCR",
+        "volume_change": "New test added to menu",
+        "driver": "New diagnostic test code added to lab menu",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Increased testing for this reflex panel will drive demand for initial PCR reagents and consumables, with additional demand for expanded panel reagents and supplies when reflex testing is triggered.",
+        "source_url": "https://www.aruplab.com/test-directory/new-tests"
+      },
+      {
+        "summary": "ARUP Laboratories launched a new GI Expanded Bacterial Panel by PCR.",
+        "test_or_product_line": "GI Expanded Bacterial Panel by PCR",
+        "volume_change": "New test added to menu",
+        "driver": "New diagnostic test code added to lab menu",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The introduction of this expanded panel will increase the consumption of specialized PCR reagents, master mixes, and other laboratory consumables required for comprehensive bacterial detection.",
+        "source_url": "https://www.aruplab.com/test-directory/new-tests"
+      },
+      {
+        "summary": "ARUP Laboratories added a new Complement Factor-H Concentration, Plasma test to its offerings.",
+        "test_or_product_line": "Complement Factor-H Concentration, Plasma",
+        "volume_change": "New test added to menu",
+        "driver": "New diagnostic test code added to lab menu",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The availability of this new test will lead to increased demand for specific reagents, calibrators, controls, and plasma collection tubes associated with complement factor analysis.",
+        "source_url": "https://www.aruplab.com/test-directory/new-tests"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:17:31.187378",
+  "ai_summary": "ARUP is actively expanding its diagnostic offerings, launching new GI Bacterial PCR panels and a Complement Factor-H test. They also introduced a national infectious disease dashboard and secured $5 million in CDC funding for research. This growth in specialized testing, R&D, and infectious disease focus signals increased demand for molecular diagnostics reagents, consumables, and advanced lab equipment, creating significant sales opportunities for lab supply teams."
+}

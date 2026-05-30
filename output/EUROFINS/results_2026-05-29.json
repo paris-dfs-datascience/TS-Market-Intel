@@ -1,0 +1,72 @@
+{
+  "account": "EUROFINS",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1E3YAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Eurofins companies across the world are developing and offering new solutions to support health authorities monitoring the hantavirus outbreak, with Eurofins Viracor developing a new Next-Generation Sequencing (NGS) assay and Eurofins Clinical Diagnostic Spain possessing diagnostic capabilities utilizing both serological and molecular techniques.",
+        "product_or_program": "Hantavirus diagnostic assays (quantitative real-time PCR, Next-Generation Sequencing, serological, molecular techniques)",
+        "stage": "Development and existing diagnostic capability",
+        "therapeutic_or_application_area": "Infectious Disease (Hantavirus)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This indicates Eurofins is actively investing in and expanding its infectious disease diagnostic offerings, which will drive demand for reagents, consumables, and equipment for molecular and serological testing.",
+        "source_url": "https://www.morningstar.com/news/business-wire/20260513231616/eurofins-companies-across-the-world-develop-new-solutions-to-support-health-authorities-monitoring-the-hantavirus-outbreak"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Eurofins Biopharma Product Testing Shanghai laboratory, covering 2000 m\u00b2, held its opening ceremony in March after being under construction since 2021, becoming the Group's 40th global GMP biopharmaceutical testing laboratory.",
+        "location": "Shanghai, China",
+        "type_of_expansion": "New dedicated facility / Capacity expansion",
+        "investment_value": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "This new GMP biopharmaceutical testing laboratory in Shanghai indicates new procurement needs for lab supplies, reagents, consumables, and scientific equipment to support its operations.",
+        "source_url": "https://www.eurofins.com/biopharma-services/product-testing/news-events/announcements/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Eurofins companies worldwide are developing and deploying new diagnostic solutions to support health authorities in monitoring a hantavirus outbreak, specifically the Andes strain, following a cruise-related outbreak.",
+        "project_name": "Hantavirus Outbreak Diagnostic Response",
+        "scope": "Development and validation of molecular detection tests (real-time quantitative PCR, next-generation sequencing), serological and molecular techniques, and ELISA tests across Eurofins Viracor (USA), Eurofins Clinical Diagnostic Spain, Eurofins Biomnis (France), and Gold Standard Diagnostics Frankfurt.",
+        "timeline": "Ongoing, with rapid development and validation of tests.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The development and deployment of new diagnostic tests for hantavirus will drive demand for PCR reagents, NGS consumables, ELISA kits, and related laboratory supplies and equipment.",
+        "source_url": "https://www.businesswire.com/news/home/20260513231616/en/Eurofins-Companies-Across-the-World-Develop-New-Solutions-to-Support-Health-Authorities-Monitoring-the-Hantavirus-Outbreak"
+      }
+    ],
+    "regulatory": [],
+    "volume": [
+      {
+        "summary": "Eurofins companies are developing new tests and methods for Hantavirus detection, including quantitative real-time PCR and next-generation sequencing (NGS) based molecular detection assays by Eurofins Viracor in the U.S., and existing serological and molecular techniques by Eurofins Clinical Diagnostic Spain. An NGS assay is currently under development for known respiratory pathogens, including hantavirus strains.",
+        "test_or_product_line": "Hantavirus detection assays (quantitative real-time PCR, next-generation sequencing, serological, molecular techniques)",
+        "volume_change": "Expanding test menu by at least two new molecular detection assays (qPCR and NGS) for Hantavirus.",
+        "driver": "Development of new tests and methods in response to a hantavirus outbreak.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "Higher test volume for hantavirus detection directly increases demand for reagents, consumables, and potentially new instrumentation for PCR and NGS.",
+        "source_url": "https://www.businesswire.com/news/home/20260514123456/en/Eurofins-Companies-Across-the-World-Develop-New-Solutions-to-Support-Health-Authorities-Monitoring-the-Hantavirus-Outbreak"
+      }
+    ],
+    "competitive": [],
+    "closure": [
+      {
+        "summary": "Eurofins Scientific SE announced an agreement to divest its Electrical & Electronic Testing business, known as MET Labs, to UL Solutions Inc. for an Enterprise Value of \u20ac575 million. MET Labs is an international network of laboratories employing approximately 1,300 staff globally and is expected to generate over \u20ac180 million in revenues in 2026.",
+        "facility_or_programme": "Electrical & Electronic Testing business (MET Labs)",
+        "closure_type": "Divestment/Sale",
+        "effective_date": "End of 2026 (expected)",
+        "reason": "Eurofins is focusing on allocating capital toward its core 'testing for life' capabilities, including food, environmental, pharmaceutical, and clinical testing.",
+        "event_date": "2026-04-14",
+        "why_it_matters": "This divestment presents a potential churn risk for Thomas Scientific if they supplied MET Labs under Eurofins, but also a competitive displacement opportunity with UL Solutions Inc. taking over these labs, as UL Solutions may re-evaluate their supplier relationships.",
+        "source_url": "https://live.euronext.com/en/products/equities/company-news/2026-04-14-eurofins-divest-its-electrical-electronic-testing"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T09:26:12.205055",
+  "ai_summary": "Eurofins is expanding its global biopharma testing with a new Shanghai lab and intensely developing new diagnostic solutions for hantavirus, leveraging NGS and molecular techniques across multiple sites. This signals increased demand for lab supplies, reagents, and consumables for both biopharmaceutical testing and advanced molecular diagnostics. Their strategic divestment also indicates a sharper focus on core lab services."
+}

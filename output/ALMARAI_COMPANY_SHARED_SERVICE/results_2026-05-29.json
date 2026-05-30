@@ -1,0 +1,36 @@
+{
+  "account": "ALMARAI COMPANY SHARED SERVICE",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G0000019qkpbIAA",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Almarai is allocating $1.8 billion of its capital expenditure to increase poultry production by 50 to 70 percent by 2026, with the goal of processing 450 million birds annually.",
+        "location": "Saudi Arabia",
+        "type_of_expansion": "Capacity expansion",
+        "investment_value": 1800000000.0,
+        "event_date": "2026-05-23",
+        "why_it_matters": "Increased poultry production capacity will necessitate additional lab supplies, reagents, and equipment for quality control, disease monitoring, and processing efficiency.",
+        "source_url": "https://gulfagriculture.com/2026/05/23/almarai-expands-into-food-sectors-beyond-dairy/"
+      },
+      {
+        "summary": "Almarai is in the process of constructing domestic production plants for seafood, beef, and lamb, which are expected to be operational within two years.",
+        "location": "Saudi Arabia",
+        "type_of_expansion": "New dedicated facilities",
+        "investment_value": null,
+        "event_date": "2026-05-23",
+        "why_it_matters": "New seafood and red meat production facilities will require new lab supplies, reagents, consumables, and scientific equipment for quality control, product development, and processing operations.",
+        "source_url": "https://gulfagriculture.com/2026/05/23/almarai-expands-into-food-sectors-beyond-dairy/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:08:46.191308",
+  "ai_summary": "Almarai is undergoing massive expansion, investing $1.8 billion to boost poultry production by up to 70% and building new domestic plants for seafood, beef, and lamb. This significant growth and diversification mean a substantial increase in demand for quality control, food safety, and pathogen testing. Lab supply sales teams should target these new and expanded facilities for equipment, consumables, and reagents."
+}

@@ -1,0 +1,100 @@
+{
+  "account": "BAYLOR COLLEGE OF MEDICINE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1YvYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Rice University and Baylor College of Medicine renewed their joint Superfund Research Program with a nearly $15 million, five-year grant from the National Institute of Environmental Health Sciences (NIEHS), part of NIH, to advance detection, health research, and cleanup technologies for polycyclic aromatic hydrocarbons.",
+        "recipient": "Baylor College of Medicine (joint with Rice University)",
+        "department_or_lab": "Superfund Research Program (led by BCM)",
+        "amount": "$15,000,000",
+        "agency": "National Institute of Environmental Health Sciences (NIEHS), National Institutes of Health (NIH)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This significant grant indicates ongoing research in environmental health, which will likely require a steady supply of reagents, consumables, and analytical equipment for chemical detection and biological studies.",
+        "source_url": "https://news.rice.edu/news/2026/rice-baylor-college-medicine-renew-superfund-research-program-tackle-toxic-pollutants-and"
+      },
+      {
+        "summary": "A bioRxiv preprint, posted on May 22, 2026, acknowledges funding from NIH and NSF for research on the electrical synapse proteome in retinal neurons, involving Baylor College of Medicine researchers S.B., J.A.R., F.M.F., and A.M.M.",
+        "recipient": "S.B., J.A.R., F.M.F., A.M.M. (researchers at Baylor College of Medicine)",
+        "department_or_lab": "Not explicitly stated for each, but the research involves the Baylor College of Medicine gene vector core facility.",
+        "amount": "Specific amounts for individual grants are not detailed in the source, but multiple NIH (R35GM147010, R00HG010910, R35GM154922, R35GM162528, DP2NS142714, R01NS138605) and NSF (DBI # 2213983) grants are acknowledged.",
+        "agency": "National Institutes of Health (NIH), National Science Foundation (NSF)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Research into retinal neurons, electrical synapses, and proteome analysis, supported by multiple NIH and NSF grants, suggests a need for advanced microscopy, cell culture reagents, protein analysis tools, and potentially gene editing/vector supplies.",
+        "source_url": "https://www.researchgate.net/publication/405069591_Uncovering_the_electrical_synapse_proteome_in_retinal_neurons_via_in_vivo_proximity_labeling"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Researchers at Baylor College of Medicine and the University of Michigan Rogel Cancer Center uncovered a previously unknown mechanism by which T cells target diseased cells, challenging a central principle of immunology and potentially influencing future cancer immunotherapy and bone marrow transplantation strategies.",
+        "researcher_name": "Dr. Pavan Reddy, Emma Lauder, Meng-Chih Wu",
+        "department_or_lab": "Dan L Duncan Comprehensive Cancer Center",
+        "award_or_discovery": "Discovery of a previously unknown mechanism by which T cells kill cancer cells",
+        "significance": "Challenges a central principle of immunology and could influence future strategies for cancer immunotherapy and bone marrow transplantation.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This breakthrough in understanding T-cell mechanisms signals high-impact research in immunology and cancer therapy, likely requiring specialized reagents, cell culture media, and analytical equipment for further investigation and therapeutic development.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo9cRfwFnR4MQ57ERPZJLwf9xAW-J_f5ZjuUFb90FmgryIEOF-UFwM78IqgCC7PALFDKFMpNdgRbEj_Rgw5fu2anXMRsFSbHByyzM-Vi8thf4pYVeD7tChhhmfIMyGknMf2sCd61XupkEsCcNnsaK4pKBH5BKp8TlonQJHm9QuL48YeimKGuwa-Z_shbpSmlgrDzVHZosZ"
+      },
+      {
+        "summary": "Baylor College of Medicine, in collaboration with Rice University, joined the BrainGate consortium to advance brain-computer interface (BCI) technologies, aiming to develop implants that allow paralyzed individuals to control robotic arms for restored independence.",
+        "researcher_name": "Dr. Sameer Sheth, Nicole Provenza",
+        "department_or_lab": "Neurosurgery",
+        "award_or_discovery": "Baylor College of Medicine joins BrainGate consortium to advance brain-computer interface (BCI) technologies",
+        "significance": "Aims to restore movement, independence, and hope for people with paralysis through neuroprostheses.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Involvement in advanced BCI clinical trials indicates demand for specialized neurosurgical tools, imaging equipment, and components for robotic prosthetics and brain-computer interfaces.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEKTXNNX2gh-j-AIKD6pReKyDhqYJC3khYII74giwuxzKyJsx54bRoNzfeXixcp5zqs7hpkKNy9bmbWq6PD9bQIdNgt3JmrKlh6PEjJp5ELUg_epP-OXOhDWYHVbWU3SAhVMY9BygCp0lCBsB7SJlQIZYes4Swt3pzum9LFlPvPhZUY4a9JMDPxNrUOxt6WtDfLVqqdltzcl0Z6wovcIQy5SLbyyaKoz7l"
+      },
+      {
+        "summary": "Baylor College of Medicine researchers discovered that the human brain is capable of sophisticated language processing while in an unconscious state from general anesthesia, challenging existing understanding of consciousness and cognition.",
+        "researcher_name": "Dr. Sameer Sheth, Dr. Benjamin Hayden",
+        "department_or_lab": "Neurosurgery",
+        "award_or_discovery": "Discovery of advanced language processing in the unconscious human brain",
+        "significance": "Challenges long-standing assumptions about the limits of cognition and consciousness, opening new avenues for understanding memory, language, and brain-computer interfaces.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This breakthrough in neuroscience, particularly regarding brain activity under anesthesia and language processing, indicates a need for advanced neuroimaging equipment, neural recording devices, and specialized reagents for brain research.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrItSzTLVunkfqsVLS7t31rhE_unQeAFQAfc060ZKcM9ajGx4m4oUu_unJ8gmPBx27JF47Hu70OHevrT8pJtdCht4HdW5vytlSPGGmeQ9ZTZ4eY4lIOKwAitkE4PTq2Gn66SS7YMTZ_ZoXmtiIwtkbXcSMy-9yvvR-rEroLOEK_DNh5fHWivctZc-wl4n_97Lqv38u2zf2TiUnxwPrD-cYc5CI"
+      },
+      {
+        "summary": "Dr. Susan M. Rosenberg, Ben F. Love Chair in Cancer Research at Baylor College of Medicine, received the 2026 Hill Prize in Biological Sciences for her groundbreaking strategy to combat antibiotic resistance by targeting the evolutionary process itself.",
+        "researcher_name": "Susan M. Rosenberg, Ph.D.",
+        "department_or_lab": "Molecular & Human Genetics, Biochemistry & Molecular Pharmacology, and Molecular Virology & Microbiology, Dan L Duncan Comprehensive Cancer Center",
+        "award_or_discovery": "2026 Hill Prize in Biological Sciences for groundbreaking strategy to combat antibiotic resistance, tied to her endowed chair appointment.",
+        "significance": "Addresses a global health crisis by developing a novel approach to antibiotic resistance.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "A groundbreaking strategy to combat antibiotic resistance will drive demand for microbiology consumables, genetic sequencing tools, and specialized reagents for studying bacterial evolution and drug development.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx2YGLNOj74ba_GEG6qkxJ76bU7ww2RbN4fIpUhGGahfoixN2WvQU3QaCWWQ1omZz4G9RcOCUoEsjCU7rVBE29FN8xzbAA48WODJk_h3pBSfIn__E7AEb4WvYwBnNJGU-9E2Kmwm4G_W0nA3j3nf_18VNdOJmttVMghg=="
+      },
+      {
+        "summary": "Dr. Mary Estes, Distinguished Service Professor at Baylor College of Medicine, was elected to the American Academy of Arts and Sciences for her leadership in virology and work shaping the understanding of viruses that cause gastrointestinal disease.",
+        "researcher_name": "Dr. Mary Estes",
+        "department_or_lab": "Virology",
+        "award_or_discovery": "Election to the American Academy of Arts and Sciences",
+        "significance": "Recognizes exceptional scholarship and contributions to the field of virology.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Recognition of a leading virologist signals ongoing high-level research in virology, potentially increasing demand for viral culture media, diagnostic kits, and molecular biology reagents.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXeNfAtO7xJ0f5cYtSzkf2q17gDexsMWYjePXqGI6zBHTeM_HBj9MEZ2f8X5AdEP94l7M2TC1h8NeSbOQvalm8ung0r1GI7A2nsvW6sk2o1QlkqvONZiDRfhSdMvfgpxC57-tptvFX3aDQ6PQb3ZCNJkkZaWpivI0dh8aedzvBNFHfM0foTkCscZXdrXIms9q3T34="
+      },
+      {
+        "summary": "Dr. Leo Luznik, Senior Faculty in the Department of Medicine at Baylor College of Medicine, received a $1.6 million grant from the Cancer Prevention & Research Institute of Texas (CPRIT) for a clinical trial on Menin inhibition to prevent relapse and enhance immunity in acute leukemias.",
+        "researcher_name": "Dr. Leo Luznik",
+        "department_or_lab": "Department of Medicine, Section Chief of Hematology and Oncology",
+        "award_or_discovery": "$1.6 million CPRIT grant for clinical trials in acute leukemias",
+        "significance": "Funds a clinical trial to develop new strategies for preventing relapse and enhancing immunity in MLL-rearranged acute leukemias or NPM1-mutant myeloid malignancies.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "A $1.6M grant for a clinical trial in acute leukemias indicates significant ongoing research and development, driving demand for specialized reagents, cell culture products, and clinical trial supplies.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEmZUFtl_iRiQ_HGx0DuKwWa-JUobQRIs5DXdX6jp5IrPKI6GS90G7gWNHaba7QGEF6Sn2GyScYHMEmTLiJgulCzFGj1Qoyr3gcbiN4XdgnlJh-eyfgHBbK11IeyCm6NKZZ8LYB9qUzfs8-HK-bSSgHU0k_VnRjeUF64Q0E9QXw5NovGGm4Kpghhgd3zR2Ig=="
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:07:32.704230",
+  "ai_summary": "Baylor College of Medicine is experiencing a surge in high-impact research, fueled by significant grants from NIH, NSF, and CPRIT. Breakthroughs span cancer, neuroscience, immunology, and infectious diseases, including new T-cell mechanisms, BCI technology, and antibiotic resistance strategies. This robust activity indicates a strong demand for diverse lab supplies, reagents, and equipment to support ongoing experiments, clinical trials, and expanding research programs."
+}

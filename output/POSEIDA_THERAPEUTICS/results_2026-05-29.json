@@ -1,0 +1,32 @@
+{
+  "account": "POSEIDA THERAPEUTICS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0011M00002CgGAoQAN",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Poseida Therapeutics has applied for a WIPO patent for Dual CAR Constructs and Methods of Use, with publication number WO2026107088 (A1).",
+        "product_or_program": "Dual CAR Constructs and Methods of Use (Patent WO2026107088 A1)",
+        "stage": "Patent Application",
+        "therapeutic_or_application_area": "Immuno-oncology (CAR-T therapy)",
+        "event_date": "2026-05-25",
+        "why_it_matters": "A patent application for novel CAR constructs indicates early-stage research and development, suggesting potential future demand for specialized lab reagents, cell culture media, and gene editing equipment as the technology advances towards preclinical and clinical studies.",
+        "source_url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2026107088"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:42:56.171644",
+  "ai_summary": "Poseida Therapeutics is actively innovating in cell therapy, evidenced by their WIPO patent application for Dual CAR Constructs. This signifies ongoing, advanced R&D in their pipeline, particularly in CAR-T technology. For lab supply sales, this means a sustained and potentially increasing demand for specialized reagents, cell culture media, gene editing tools, and analytical equipment to support their complex research and development efforts in novel cell therapies."
+}

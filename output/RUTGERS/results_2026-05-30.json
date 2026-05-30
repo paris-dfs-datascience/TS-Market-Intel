@@ -1,0 +1,39 @@
+{
+  "account": "RUTGERS",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CnYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Amin Reihani, assistant professor in the Department of Mechanical and Aerospace Engineering at Rutgers, has received a five-year, $550,000 National Science Foundation (NSF) CAREER Award for his project aiming to uncover precisely how metal nanoparticles use light to promote chemical reactions.",
+        "recipient": "Amin Reihani",
+        "department_or_lab": "Department of Mechanical and Aerospace Engineering",
+        "amount": "$550,000",
+        "agency": "NSF",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This indicates a new, long-term research project requiring lab supplies and equipment for advanced nano-scale thermal measurement tools and custom scanning thermal probes.",
+        "source_url": "https://soe.rutgers.edu/news/mae-professor-receives-prestigious-nsf-career-award"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The first 12-story tower (H1) of the Health & Life Science Exchange (HELIX NJ) was completed in April 2026, becoming the new home for Rutgers Robert Wood Johnson Medical School and a translational research facility for 80 Rutgers research teams. The overall HELIX NJ project represents an investment of approximately $2 billion.",
+        "project_name": "Health & Life Science Exchange (HELIX NJ) - H1 Tower Completion",
+        "scope": "The H1 tower, a 12-story building, houses the Rutgers Robert Wood Johnson Medical School and a translational research facility equipped with laboratories to advance the work of 80 Rutgers research teams. It also includes the New Jersey Innovation Hub with pre-built and furnished labs/office space. The broader HELIX NJ is a three-building complex designed as an innovation district for research, learning, work, and collaboration in health and life sciences.",
+        "timeline": "H1 tower completed in April 2026; overall HELIX NJ complex expected by the end of 2028.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The completion and occupation of a new translational research facility with laboratories for 80 research teams will drive significant demand for new lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://sas.rutgers.edu/about/news/research/research-news-detail/new-research-center-promises-breakthroughs-in-human-health"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:48:52.385670+00:00",
+  "ai_summary": "Rutgers is undergoing significant expansion with the new HELIX NJ facility opening, housing 80 research teams and the Robert Wood Johnson Medical School. Concurrently, researchers are securing major grants, like a $550,000 NSF CAREER Award for nanoparticle research. This growth and funding create substantial demand for new lab equipment, consumables, and specialized supplies across diverse scientific disciplines, offering prime sales opportunities for lab supply teams."
+}

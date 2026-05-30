@@ -1,0 +1,38 @@
+{
+  "account": "AMERICHEM",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1ZwYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Americhem announced the expansion of its healthcare capabilities with a new clean compounding facility in Suzhou, China, which will be purpose-built to meet ISO 13485 and cGMP standards for healthcare manufacturing.",
+        "location": "Suzhou, China",
+        "type_of_expansion": "new facility",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new manufacturing facility signifies upcoming demand for lab supplies, reagents, consumables, and scientific equipment to support its healthcare production operations.",
+        "source_url": "https://www.businesswire.com/news/home/20260519436201/en/Americhem-Launches-High-Performance-Alloy-Platform"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Americhem launched its High Performance Alloy (HPA) platform, engineered to integrate complementary polymer chemistries into a single material system that delivers more balanced performance under demanding real-world conditions.",
+        "facility_or_line": "High Performance Alloy (HPA) platform",
+        "change_type": "New product line being manufactured",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "The introduction of a new product line will generate demand for new raw materials, testing reagents, and specialized analytical equipment for research, development, and quality assurance.",
+        "source_url": "https://www.businesswire.com/news/home/20260519436201/en/Americhem-Launches-High-Performance-Alloy-Platform"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:10:05.177915",
+  "ai_summary": "Americhem is expanding its global healthcare manufacturing with a new clean compounding facility in China, adhering to ISO 13485 and cGMP standards. They also launched a High Performance Alloy platform for demanding applications. This signifies increased R&D and production, creating opportunities for lab supply sales teams to provide compliant materials, analytical instruments, and consumables for both new facility setup and ongoing specialized product development and quality control."
+}

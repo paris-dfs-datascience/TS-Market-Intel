@@ -1,0 +1,29 @@
+{
+  "account": "CITY OF COLUMBUS OHIO",
+  "account_vertical": "Government",
+  "Parent_ID": "0011M00002TurbUQAR",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Defense Logistics Agency (DLA) is seeking bids for two Keysight digital multimeters, Part Number 3458A, for its Product Test Center (PTC) located in Columbus, Ohio. The goal is to procure laboratory equipment meeting specific technical specifications to support PTC operations.",
+        "recipient": null,
+        "department_or_lab": "Product Test Center (PTC), Defense Logistics Agency (DLA), Columbus, Ohio",
+        "amount": null,
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This is a direct signal for upcoming demand for high-precision scientific equipment (digital multimeters) at a DoD lab in Columbus, Ohio, indicating potential sales opportunities for related lab supplies and services.",
+        "source_url": "https://www.highergov.com/contract-opportunity/ptc-digital-multimeter-dmm-keysight-3458a-sp4706-26-q-0006-o-e8bc2/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:22:31.939309",
+  "ai_summary": "The Defense Logistics Agency's Product Test Center in Columbus, Ohio, is actively procuring Keysight digital multimeters. This signals ongoing operations and equipment needs within a key government facility in the city. For a lab supply sales team, this indicates an active budget for laboratory equipment and potential future opportunities to supply other related items, making it a valuable account to monitor and engage."
+}

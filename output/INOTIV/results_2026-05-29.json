@@ -1,0 +1,71 @@
+{
+  "account": "INOTIV",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1VzYAK",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "CordenPharma, a global contract development and manufacturing organization (CDMO), has entered into an agreement to acquire AmbioPharm, a US-headquartered peptide API CDMO, to expand its global peptide manufacturing capacity and footprint across the US and Shanghai, China.",
+        "acquirer": "CordenPharma",
+        "target": "AmbioPharm",
+        "deal_value": "Undisclosed",
+        "deal_status": "Agreement entered into",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This acquisition expands CordenPharma's peptide manufacturing capabilities and geographic reach, potentially leading to new procurement needs for specialized lab supplies, reagents, and equipment for peptide synthesis and purification.",
+        "source_url": "https://www.cordenpharma.com/news/cordenpharma-acquires-ambiopharm-to-expand-global-peptide-api-capacity/"
+      },
+      {
+        "summary": "Contract research organization (CRO) Parexel has acquired Vitrana, a provider of an AI-enabled, end-to-end pharmacovigilance (PV) technology platform, to enhance its patient safety toolkit and technology capabilities.",
+        "acquirer": "Parexel",
+        "target": "Vitrana",
+        "deal_value": "Undisclosed",
+        "deal_status": "Acquired",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The integration of Vitrana's AI platform into Parexel's services may lead to new technology-driven lab supply needs and a potential shift in procurement for pharmacovigilance-related consumables and software-related equipment.",
+        "source_url": "https://pharmaphorum.com/news/parexel-buys-vitrana-boost-patient-safety-toolkit"
+      },
+      {
+        "summary": "Amnovis, a Belgian metal additive manufacturing contract manufacturer, has acquired the additive manufacturing activities of Westconn Precision Technologies, establishing a new operational entity in the United States and expanding its capabilities in hybrid manufacturing.",
+        "acquirer": "Amnovis",
+        "target": "Westconn Precision Technologies (additive manufacturing activities)",
+        "deal_value": "Undisclosed",
+        "deal_status": "Acquired",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This acquisition expands Amnovis's manufacturing footprint and capabilities in precision components, potentially creating new demand for specialized materials, equipment, and consumables for additive manufacturing and post-processing.",
+        "source_url": "https://www.tctmagazine.com/additive-manufacturing-3d-printing-news/metal-additive-manufacturing-news/amnovis-acquires-westconn-additive-manufacturing-activities-and-launches-us-operations/"
+      },
+      {
+        "summary": "InSphero, a global leader in advanced 3D in vitro models, has acquired PhenoVista Biosciences, a California-based contract research organization (CRO) specializing in imaging-based laboratory assays, to expand its US presence and advanced imaging capabilities.",
+        "acquirer": "InSphero",
+        "target": "PhenoVista Biosciences",
+        "deal_value": "Undisclosed",
+        "deal_status": "Acquired",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This acquisition expands InSphero's service offerings in advanced 3D models and high-content imaging, creating opportunities for new lab equipment, reagents, and consumables related to phenotypic analysis and drug discovery.",
+        "source_url": "https://www.insphero.com/news/insphero-accelerates-us-expansion-with-phenovista/"
+      },
+      {
+        "summary": "Alcami Corporation, a US-based contract development and manufacturing organization (CDMO), has completed its acquisition of Tjoapack, a global contract packaging organization, expanding its operational footprint and end-to-end CDMO capabilities across the US and Europe.",
+        "acquirer": "Alcami Corporation",
+        "target": "Tjoapack",
+        "deal_value": "Undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This acquisition expands Alcami's packaging and labeling services and overall CDMO capabilities, which could lead to new procurement needs for packaging materials, quality control supplies, and manufacturing consumables across its expanded global operations.",
+        "source_url": "https://www.prnewswire.com/news-releases/alcami-completes-acquisition-of-tjoapack-302429621.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:07:02.337120",
+  "ai_summary": "The CDMO/CRO sector is experiencing significant M&A activity, with companies acquiring specialized capabilities in areas like peptide manufacturing, AI, advanced imaging, and packaging, while also expanding geographic footprints. This trend indicates a drive for comprehensive, end-to-end services. For lab supply sales, this means new opportunities to provide equipment, consumables, and services to support expanded operations and integrated technologies across these growing entities."
+}

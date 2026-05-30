@@ -1,0 +1,159 @@
+{
+  "account": "H LEE MOFFITT CANCER CENTER",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1VXYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Moffitt Cancer Center announced results from an investigator-initiated phase 2 trial (NATASHA trial) showing that intratumoral dendritic cell therapy, combined with HER2-targeted therapy and a deescalated chemotherapy regimen, improved immune and treatment response in patients with early-stage HER2-positive breast cancer, with half of hormone receptor-positive and 83% of hormone-negative patients achieving pathologic complete responses.",
+        "product_or_program": "NATASHA Trial (Intratumoral Dendritic Cell Therapy)",
+        "stage": "Phase 2 Clinical Trial",
+        "therapeutic_or_application_area": "HER2-positive Breast Cancer",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This indicates a potential shift in breast cancer treatment protocols, creating demand for specialized reagents and equipment for dendritic cell therapy and HER2-targeted approaches.",
+        "source_url": "https://www.moffitt.org/endeavor/archive/could-novel-breast-cancer-immunotherapy-reduce-need-for-chemotherapy/"
+      },
+      {
+        "summary": "Moffitt Cancer Center researchers presented new findings at the 2026 American Society of Clinical Oncology Annual Meeting, suggesting that current National Comprehensive Cancer Network guidelines for routine brain screening in asymptomatic stage 4 breast cancer patients may need reconsideration. A phase 3 trial is now in progress to investigate the benefits and drawbacks of earlier brain surveillance.",
+        "product_or_program": "Routine Brain MRI Surveillance",
+        "stage": "Phase 3 Clinical Trial (in progress)",
+        "therapeutic_or_application_area": "Late-Stage Breast Cancer (Brain Metastases)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The ongoing phase 3 trial for routine brain scans in late-stage breast cancer patients suggests increased demand for imaging-related consumables and diagnostic lab supplies.",
+        "source_url": "https://www.moffitt.org/endeavor/archive/could-routine-brain-scans-change-care-for-late-stage-breast-cancer-patients/"
+      },
+      {
+        "summary": "Moffitt Cancer Center announced the expansion of its hybrid virtual oncology care program with Reimagine Care, deploying the conversational AI-powered assistant Remi alongside a dedicated virtual clinical team.",
+        "product_or_program": "AI-Enabled Virtual Oncology Program (Remi)",
+        "stage": "Program Expansion/Adoption of New Protocol",
+        "therapeutic_or_application_area": "Oncology Care Management",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The expansion of an AI-enabled virtual oncology program indicates a growing need for digital health infrastructure and potentially remote monitoring devices and associated consumables.",
+        "source_url": "https://hitconsultant.net/2026/05/21/moffitt-expands-reimagine-care-oncology-ai-deal/"
+      },
+      {
+        "summary": "Anixa Biosciences reported updated positive survival observations from its ongoing Phase 1 clinical trial of liraltagene autoleucel (lira-cel), a follicle-stimulating hormone receptor (FSHR)-targeted CAR-T therapy for recurrent ovarian cancer, with Moffitt Cancer Center involved in the trial.",
+        "product_or_program": "Lira-cel (CAR-T Therapy)",
+        "stage": "Phase 1 Clinical Trial",
+        "therapeutic_or_application_area": "Recurrent Ovarian Cancer",
+        "event_date": "2026-05-11",
+        "why_it_matters": "Moffitt's involvement in an ongoing CAR-T therapy trial for ovarian cancer signals demand for specialized cell culture media, reagents, and equipment for cell and gene therapy research and manufacturing.",
+        "source_url": "https://ir.anixa.com/press-releases/detail/1124/anixa-biosciences-reports-updated-positive-survival"
+      },
+      {
+        "summary": "A phase II trial evaluated the addition of nivolumab to standard-of-care radiation, hormone, and immunotherapy in patients with high-volume grade group 5 prostate cancer, with Moffitt Cancer Center researchers contributing to the study.",
+        "product_or_program": "Nivolumab in combination with radiation, hormone, and immunotherapy",
+        "stage": "Phase 2 Clinical Trial",
+        "therapeutic_or_application_area": "Grade Group 5 Prostate Cancer",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Participation in a phase II trial combining radiation, hormone, and immunotherapy for prostate cancer suggests a need for supplies related to radiation oncology, hormone therapy, and immunotherapy.",
+        "source_url": "https://www.urotoday.com/recent-abstracts/urologic-oncology/prostate-cancer/168729-phase-ii-trial-of-combination-radiation-hormone-and-immunotherapy-in-grade-group-5-prostate-cancer.html"
+      },
+      {
+        "summary": "A study led by Moffitt Cancer Center researchers identified tumor-derived growth differentiation factor 15 (GDF15) as a key protein enabling uveal melanoma to metastasize to the liver, highlighting GDF15 as a potential drug target.",
+        "product_or_program": "GDF15 (potential drug target)",
+        "stage": "Preclinical Research/Discovery",
+        "therapeutic_or_application_area": "Uveal Melanoma (Liver Metastasis)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The identification of GDF15 as a potential drug target for uveal melanoma metastasis indicates ongoing and future research efforts requiring reagents, assays, and equipment for drug discovery and development.",
+        "source_url": "https://www.moffitt.org/newsroom/news-releases/moffitt-study-identifies-protein-that-helps-eye-cancer-spread-to-the-liver/"
+      },
+      {
+        "summary": "Moffitt Cancer Center researchers contributed to a large international study presented at the 2026 American Society of Clinical Oncology Annual Meeting, which found that GLP-1 receptor agonists (commonly used for diabetes and obesity) were linked to lower metastatic progression in several obesity-related cancers.",
+        "product_or_program": "GLP-1 Receptor Agonists (potential cancer treatment)",
+        "stage": "Clinical Research (Observational Study)",
+        "therapeutic_or_application_area": "Obesity-Related Cancers (Metastasis)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Research suggesting GLP-1 drugs may slow cancer spread could lead to new clinical trials and treatment protocols, increasing demand for metabolic and oncology research supplies.",
+        "source_url": "https://www.moffitt.org/endeavor/archive/study-suggests-glp-1-drugs-may-slow-spread-of-certain-cancers/"
+      },
+      {
+        "summary": "Moffitt Cancer Center's Genitourinary Oncology Program offers advanced focal therapy options for localized prostate cancer, including Irreversible Electroporation (IRE) Ablation, High-Intensity Focused Ultrasound (HIFU), and Cryosurgery, which precisely target cancerous tissue while sparing healthy tissue.",
+        "product_or_program": "Focal Therapy Options (IRE, HIFU, Cryosurgery)",
+        "stage": "New Treatment Protocols/Program Offering",
+        "therapeutic_or_application_area": "Localized Prostate Cancer",
+        "event_date": "2026-05-08",
+        "why_it_matters": "The adoption of advanced focal therapy options for prostate cancer indicates a need for specialized equipment, disposables, and reagents for these precise treatment modalities.",
+        "source_url": "https://www.moffitt.org/for-healthcare-professionals/clinical-programs-and-services/genitourinary-oncology-program/treatments-services/focal-therapy-for-prostate-cancer/"
+      },
+      {
+        "summary": "Moffitt Cancer Center is listed as a participating site for an investigator-initiated randomized trial (NCT05335928) testing whether abatacept reduces major adverse cardiovascular events (MACE) in participants who develop myocarditis after treatment with immune checkpoint inhibitors (ICI).",
+        "product_or_program": "Abatacept in ICI Myocarditis",
+        "stage": "Investigator-Initiated Randomized Trial",
+        "therapeutic_or_application_area": "Immune Checkpoint Inhibitor Myocarditis / Cancer",
+        "event_date": "2026-05-14",
+        "why_it_matters": "Participation in an investigator-initiated trial for ICI-induced myocarditis suggests a need for supplies related to cardiovascular monitoring, immunology, and cancer treatment support.",
+        "source_url": "https://www.trialx.com/clinical-trials/listings/279668/abatacept-in-immune-checkpoint/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Moffitt Cancer Center is set to receive $1.5 million in state funding for its cancer pathology digitization project, which aims to improve diagnoses, research, and patient care by converting traditional glass slides into high-resolution digital images and integrating AI and machine learning.",
+        "amount": 1500000,
+        "funding_type": "Government capital grant",
+        "use_of_proceeds": "Cancer pathology digitization project, including whole-slide imaging and integration of artificial intelligence and machine learning for diagnostics.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This project will require new digital pathology equipment, software, and potentially lab consumables for sample preparation and analysis, leading to increased demand for these supplies.",
+        "source_url": "https://www.wusf.org/health-news-florida/2026-05-26/healthcare-related-highlights-florida-completed-budget-agreement"
+      },
+      {
+        "summary": "Funding support for a phase 3 trial investigating routine brain MRIs for stage 4 breast cancer patients was granted by the Florida Department of Health and the Bankhead Coley Cancer Research Foundation.",
+        "amount": null,
+        "funding_type": "Government grant, Foundation award",
+        "use_of_proceeds": "Phase 3 trial to understand the benefits and drawbacks of earlier brain surveillance in stage 4 breast cancer patients.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Clinical trials require a wide range of lab supplies, reagents, and consumables for patient sample collection, processing, and analysis, as well as potentially new imaging equipment or upgrades.",
+        "source_url": "https://www.moffitt.org/endeavor/archive/could-routine-brain-scans-change-care-for-late-stage-breast-cancer-patients/"
+      },
+      {
+        "summary": "The V Foundation for Cancer Research announced an All-Star Translational Grant to Moffitt Cancer Center for \"bench-to-bedside\" research on multiple cancer types.",
+        "amount": 1000000,
+        "funding_type": "Foundation award",
+        "use_of_proceeds": "\"Bench-to-bedside\" research for multiple cancer types, aiming to advance novel strategies into early-phase clinical trials.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Translational research involves extensive lab work, requiring reagents, consumables, and potentially new scientific equipment for molecular, cellular, and preclinical studies.",
+        "source_url": "https://www.v.org/story/v-foundation-announces-new-cohort-translational-grant-recipients/"
+      },
+      {
+        "summary": "Peter Forsyth, MD, a world-renowned expert in leptomeningeal disease at Moffitt Cancer Center, was awarded a $22.4 million federal grant to explore new treatment options for leptomeningeal disease, including opening clinical trials and basic research.",
+        "amount": 22400000,
+        "funding_type": "Government grant",
+        "use_of_proceeds": "Explore new treatment options for leptomeningeal disease, including opening clinical trials and basic research.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "A large federal grant for research and clinical trials will drive significant demand for lab supplies, reagents, and scientific equipment for basic research, drug discovery, and clinical trial sample analysis.",
+        "source_url": "https://www.moffitt.org/endeavor/archive/dendritic-cell-trial-brings-hope-for-young-mom-with-leptomeningeal-disease/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "A new regional coalition, the Florida Oncology and Radiopharmaceutical Growth Engine (FORGE), launched by Speros and Moffitt Cancer Center, aims to establish Tampa Bay as a leading hub for radiopharmaceutical development, manufacturing, and precision oncology. The initiative projects 4,000 high-wage jobs and $2.6 billion in economic impact over 10 years, and includes plans for a radiopharmaceutical focused incubator and an integrated theranostics center.",
+        "project_name": "Florida Oncology and Radiopharmaceutical Growth Engine (FORGE) Coalition",
+        "scope": "Establishment of a regional hub for radiopharmaceutical innovation, including a radiopharmaceutical focused incubator, an integrated theranostics center, and related training and production facilities.",
+        "timeline": "Over the next 10 years for job creation and economic impact; specific programs and investments to be deployed as funding is secured.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The development of a radiopharmaceutical focused incubator and an integrated theranostics center will generate significant demand for specialized lab equipment, radiochemicals, and consumables for research, development, and manufacturing.",
+        "source_url": "https://moffitt.org/newsroom/news-releases/2026/forge-coalition-launches-to-position-tampa-bay-as-southeast-hub-for-radiopharmaceutical-innovation-training-and-production/"
+      },
+      {
+        "summary": "Dr. Peter Forsyth at Moffitt Cancer Center was awarded a $22.4 million federal grant for research into new treatment options for leptomeningeal disease (LMD). Additionally, Moffitt is expanding treatment options for LMD patients with the upcoming opening of its Speros proton therapy center in Pasco County.",
+        "project_name": "Federal Grant for Leptomeningeal Disease Research and Speros Proton Therapy Center Opening",
+        "scope": "Research into new treatment options for leptomeningeal disease, funded by a $22.4 million federal grant, and the expansion of LMD treatment capabilities with a new proton therapy center.",
+        "timeline": "Grant awarded; Speros proton therapy center opening 'over the summer'.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The substantial federal grant will directly increase demand for advanced research reagents, lab consumables, and specialized equipment for LMD studies, while the new proton therapy center will require new and replacement scientific equipment and associated supplies for its operation and research capabilities.",
+        "source_url": "https://moffitt.org/endeavor/dendritic-cell-trial-brings-hope-for-young-mom-with-leptomeningeal-disease/"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:02:08.672907",
+  "ai_summary": "Moffitt Cancer Center is intensely active, driving numerous clinical trials and advanced therapy research across diverse cancers, including CAR-T and radiopharmaceuticals. Significant new funding supports pathology digitization and a new proton therapy center. This extensive growth and innovation signal a substantial and ongoing demand for a wide range of lab supplies, reagents, and equipment for research, diagnostics, and therapeutic development."
+}

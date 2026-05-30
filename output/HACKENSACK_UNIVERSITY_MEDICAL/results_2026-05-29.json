@@ -1,0 +1,148 @@
+{
+  "account": "HACKENSACK UNIVERSITY MEDICAL",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1YqYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Investigators from Hackensack Meridian John Theurer Cancer Center (JTCC), part of the National Cancer Institute-designated Lombardi Comprehensive Cancer Center at Georgetown University, are reporting research findings at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting, taking place from May 29 to June 2, 2026. The presentations cover advanced cellular therapies, targeted drugs, and studies on healthcare equity, highlighting the center's role in global oncology.",
+        "recipient": "Hackensack Meridian John Theurer Cancer Center",
+        "department_or_lab": "John Theurer Cancer Center",
+        "amount": null,
+        "agency": "National Cancer Institute (via Lombardi Comprehensive Cancer Center affiliation)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This indicates ongoing, high-level cancer research activity at an NCI-designated center, suggesting a continuous demand for oncology-related lab supplies, reagents, and equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/john-theurer-cancer-center-at-hackensack-university-medical-center-presents-innovative-cancer-research-at-major-annual-cancer-meeting-302782117.html"
+      },
+      {
+        "summary": "A study titled 'Fluoroquinolone Prophylaxis Uncovers High Prevalence Rates of Fluoroquinolone-Resistant Enterobacterales Colonization in Multiple Myeloma Autologous Transplant Patients: A Prospective Cohort Study' was published, acknowledging grants from the National Cancer Institute (NCI) and the National Institute of Allergy and Infectious Diseases (NIAID), and Hackensack University Medical Center.",
+        "recipient": "Hackensack University Medical Center",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "NCI NIH HHS, National Institute of Allergy and Infectious Diseases",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This indicates active research in infectious diseases and oncology, specifically related to multiple myeloma and antibiotic resistance, which will drive demand for microbiology consumables, cell culture reagents, and potentially sequencing equipment.",
+        "source_url": "https://www.mdpi.com/2072-6694/18/10/1566"
+      },
+      {
+        "summary": "The Michael J. Fox Foundation for Parkinson's Research hosted the 2026 Parkinson's Unity Walk on April 25, 2026, raising nearly $2 million for Parkinson's research, with Hackensack Meridian Health participating as a community partner.",
+        "recipient": "The Michael J. Fox Foundation (with Hackensack Meridian Health as a community partner)",
+        "department_or_lab": null,
+        "amount": "Nearly $2 million",
+        "agency": "The Michael J. Fox Foundation",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Hackensack Meridian Health's involvement in this significant fundraising event for Parkinson's research signals ongoing and potential future research initiatives in neurology and neurodegenerative diseases, requiring specialized lab equipment and reagents.",
+        "source_url": "https://www.prnewswire.com/news-releases/thousands-of-attendees-raise-nearly-2-million-for-the-michael-j-fox-foundation-at-the-2026-parkinsons-unity-walk-302757427.html"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Hackensack University Medical Center's John Theurer Cancer Center is presenting innovative cancer research, including Phase I oncology discussions, at the 2026 ASCO Annual Meeting, focusing on cellular therapy, immunotherapy, and various cancer types.",
+        "product_or_program": "Innovative cancer research, Phase I oncology trials (STING agonists, trispecific T-cell engagers, next-gen ADCs, KRAS pan-RAS inhibitors, CAR-T/CAR-NK, radioligand therapies).",
+        "stage": "Research findings, Phase I clinical trials.",
+        "therapeutic_or_application_area": "Oncology (blood cancers, solid tumors, melanoma, hematologic cancers, breast cancer, acute myeloid leukemia, diffuse large B-cell lymphoma, multiple myeloma).",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This indicates ongoing advanced cancer research and early-phase clinical trials, suggesting a need for specialized lab supplies, reagents, and equipment for oncology research and clinical trial support.",
+        "source_url": "https://www.hackensackmeridianhealth.org/en/news/2026/05/18/hackensack-university-medical-center-s-john-theurer-cancer-center-presents-innovative-cancer-research-at-major-annual-cancer-meeting"
+      },
+      {
+        "summary": "Hackensack University Medical Center's Urology department presented over 30 research findings at the AUA Annual Meeting, covering robotic oncology, reconstruction, kidney and adrenal surgery, AI, 3D modeling, and surgical education.",
+        "product_or_program": "Research in robotic oncology, reconstruction, kidney and adrenal surgery, AI and analytics, 3D modeling, surgical education, single-port robotic prostatectomy.",
+        "stage": "Research findings, presentations at a major conference.",
+        "therapeutic_or_application_area": "Urology, robotic surgery, oncology (urologic), kidney and adrenal conditions.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This indicates active research and adoption of advanced surgical techniques and technologies in urology, suggesting demand for specialized surgical supplies, imaging equipment, and potentially AI/data analysis tools.",
+        "source_url": "https://www.hackensackmeridianhealth.org/en/news/2026/05/22/from-robotics-to-reconstruction-hackensack-urology-to-unveil-diverse-cutting-edge-research-at-aua-2026"
+      },
+      {
+        "summary": "Hackensack University Medical Center is involved in discussions about scaling innovation in delivering targeted therapies, CAR T-cell therapy, and bispecifics in multiple myeloma, and a 'go slow' approach to launching new cancer programs.",
+        "product_or_program": "Targeted therapies, CAR T-cell therapy, bispecifics in multiple myeloma, new cancer programs.",
+        "stage": "Program implementation, discussion of new treatment protocols.",
+        "therapeutic_or_application_area": "Oncology, multiple myeloma, CAR T-cell therapy.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates the adoption and scaling of advanced cancer therapies like CAR T-cell therapy and bispecifics, which require specialized reagents, cell culture media, and equipment for cell processing and patient monitoring.",
+        "source_url": "https://www.ajmc.com/view/new-jersey-where-cancer-care-choice-abounds-puts-patients-at-the-center"
+      },
+      {
+        "summary": "As of May 27, 2026, Hackensack University Medical Center - John Theurer Cancer Center has 2 paid clinical trials recruiting for conditions such as Acute Myeloid Leukemia, Advanced Solid Tumor, Breast Cancer, Multiple Myeloma, and Heart Failure.",
+        "product_or_program": "Clinical trials for Acute Myeloid Leukemia, Advanced Solid Tumor, Breast Cancer, Multiple Myeloma, Heart Failure.",
+        "stage": "Recruiting clinical trials (various phases implied by conditions).",
+        "therapeutic_or_application_area": "Oncology (Leukemia, Solid Tumors, Breast Cancer, Multiple Myeloma), Cardiology (Heart Failure).",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Active recruitment for multiple clinical trials indicates an immediate and ongoing need for a wide range of lab supplies, reagents, and consumables to support patient screening, sample processing, and research activities.",
+        "source_url": "https://hipa.ai/clinical-trials/hackensack-university-medical-center-john-theurer-cancer-center"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Hackensack Meridian Health has opened the nation's first health and wellness center at a major travel hub, the Metropark train station in Iselin, Woodbridge, New Jersey. This $200 million facility offers comprehensive healthcare services including advanced imaging, urgent care, primary care, surgical and medical specialties, retail pharmacy, physical and occupational therapy, rehabilitation, and phlebotomy. The corporate headquarters of Hackensack Meridian Health will also relocate to the upper floors of this new building.",
+        "location": "Metropark station, Iselin, Woodbridge, New Jersey, USA",
+        "type_of_expansion": "New dedicated facility and capacity expansion for ambulatory care, advanced imaging, and various medical services.",
+        "investment_value": "$200 million",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This new comprehensive health and wellness center will generate demand for a wide range of lab supplies, reagents, consumables, and scientific equipment to support its advanced imaging, phlebotomy, and other medical and rehabilitation operations.",
+        "source_url": "https://www.costar.com/article/795048249/healthcare-comes-to-busy-new-jersey-commuter-train-station"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "SpotitEarly, an early cancer detection startup, announced a research collaboration with the Hennessy Institute for Cancer Prevention and Applied Molecular Medicine, which is part of the Hackensack Meridian John Theurer Cancer Center. Additionally, SpotitEarly is advancing the PINK Study, a 2,000-participant multicenter, double-blind observational study focused on breast cancer detection with Hackensack Meridian Health.",
+        "partner": "SpotitEarly, Hennessy Institute for Cancer Prevention and Applied Molecular Medicine (part of Hackensack Meridian John Theurer Cancer Center)",
+        "deal_type": "Clinical Research Partnership",
+        "deal_value": "Not explicitly disclosed, but involves a 2,000-participant clinical trial.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This collaboration and clinical trial signal new and expanded lab activity in cancer detection and diagnostics, particularly in breast cancer, at Hackensack Meridian Health.",
+        "source_url": "https://www.businesswire.com/news/home/20260528372891/en/AI-Meets-Olfaction-SpotitEarly-Unveils-LUCID-2.0-Scaling-Early-Cancer-Detection-to-Millions"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "The Centers for Medicare & Medicaid Services (CMS) issued a notice limiting the CLIA certificate of Hackensack Meridian Urgent Care Plus, PC due to a failure to meet CLIA requirements.",
+        "product_or_site": "Hackensack Meridian Urgent Care Plus, PC (5 Marine View Plaza Hoboken, NJ 07030)",
+        "regulatory_action": "Limitation of CLIA Certificate",
+        "outcome": "Negative",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This limitation indicates a critical need for remediation supplies, equipment, and services to address laboratory deficiencies and restore full testing capabilities.",
+        "source_url": "https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/NJ-Hackensack-Meridian-Urgent-Care-Plus-PC-05.14.2026.pdf"
+      },
+      {
+        "summary": "Eight Hackensack Meridian Health hospitals, including Hackensack University Medical Center and Pascack Valley Medical Center, received four or five-star ratings from the Centers for Medicare & Medicaid Services (CMS) in the Overall Hospital Quality Star Rating program.",
+        "product_or_site": "Hackensack Meridian Health hospitals (Hackensack University Medical Center, Pascack Valley Medical Center, Bayshore Medical Center, Jersey Shore University Medical Center, Mountainside Medical Center, Ocean University Medical Center, Raritan Bay / Old Bridge Medical Center, Southern Ocean Medical Center)",
+        "regulatory_action": "CMS Overall Hospital Quality Star Rating",
+        "outcome": "Positive",
+        "event_date": "2026-05-13",
+        "why_it_matters": "High CMS star ratings can lead to increased patient volume and demand for a full range of lab supplies, reagents, and consumables to support expanded and high-quality services.",
+        "source_url": "https://www.hackensackmeridianhealth.org/en/News/Press-Releases/2026/Eight-Hackensack-Meridian-Health-Hospitals-Earn-Elite-Ratings-from-Centers-for-Medicare-and-Medicaid-Services"
+      },
+      {
+        "summary": "Hackensack Meridian Mountainside Medical Center was granted a three-year reaccreditation by the Intersocietal Accreditation Commission (IAC) for Vascular Testing.",
+        "product_or_site": "Hackensack Meridian Mountainside Medical Center (Vascular Testing in Extracranial Cerebrovascular, Peripheral Arterial, and Peripheral Venous Testing)",
+        "regulatory_action": "IAC Vascular Testing Reaccreditation",
+        "outcome": "Positive",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Continued IAC accreditation for vascular testing ensures ongoing demand for specialized vascular lab supplies, reagents, and equipment to maintain accredited services.",
+        "source_url": "https://www.mountainsidemedicalcenter.com/news/hackensack-meridian-mountainside-medical-center-earns-vascular-testing-reaccreditation-by-the-iac/"
+      }
+    ],
+    "tender": [],
+    "closure": [
+      {
+        "summary": "Hackensack Meridian Health officially opened its new 240,000-square-foot Health & Wellness Center at Metropark in Woodbridge, New Jersey, which serves as the health care system's new corporate headquarters and centralizes various outpatient services, including advanced imaging, urgent care, primary care, surgical specialties, retail pharmacy, physical therapy, occupational therapy, rehabilitation, and phlebotomy (blood work) services.",
+        "facility_or_programme": "Hackensack Meridian Health & Wellness Center at Metropark (Woodbridge, NJ) - Corporate Headquarters and Outpatient Services (including lab services)",
+        "closure_type": "Consolidation/Centralization of corporate offices and various outpatient services, including lab services, into a new facility.",
+        "effective_date": "2026-04-29",
+        "reason": "To centralize primary and specialty care for patients, consolidate corporate employees previously spread across several office buildings, and provide convenient access to healthcare at a major transportation hub.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The consolidation of lab services and other outpatient care into this new facility indicates a shift in demand for lab supplies, reagents, and consumables, potentially creating new sales opportunities at the Metropark location and altering demand at previously dispersed sites.",
+        "source_url": "https://re-nj.com/hmh-debuts-pioneering-health-care-center-at-metropark-and-a-blueprint-for-nj-transit/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:02:53.378351",
+  "ai_summary": "Hackensack University Medical Center is significantly expanding its oncology research, advanced cellular therapies, and clinical trials, evidenced by new grants and conference presentations. They also opened a large Health & Wellness Center, centralizing outpatient services including phlebotomy. This robust research pipeline and new facility create significant opportunities for lab supply sales, particularly for specialized reagents, consumables, and equipment supporting cancer diagnostics, advanced therapies, and routine lab services."
+}

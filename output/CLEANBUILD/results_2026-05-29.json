@@ -1,0 +1,17 @@
+{
+  "account": "CLEANBUILD",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1DrYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:37:51.533784",
+  "ai_summary": null
+}

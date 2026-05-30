@@ -1,0 +1,66 @@
+{
+  "account": "GASTATE",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DwYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Georgia Institute of Technology is soliciting statements of qualifications for design-build services for the GTRI 1906 - 430 South Hawks Project, which involves the comprehensive renovation of an existing three-story brick building to meet increasing research demands and secure facility requirements of the Georgia Tech Research Institute (GTRI). Key components include the construction of new secure spaces, replacement and modernization of existing elevators and restrooms, in-fill of high bay space for a new data center, and installation of modern electrical infrastructure, HVAC systems, and a new fire alarm system.",
+        "contract_name": "GIT, BR-30-2602-DB GTRI 1906 - 430 South Hawks Project",
+        "estimated_value": "Unspecified",
+        "deadline_or_expiration": "May 22, 2026 (qualifications packages due)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This renovation of a major research institute at Georgia Tech indicates significant upcoming demand for new lab equipment, reagents, and consumables to support expanded research capabilities.",
+        "source_url": "https://www.highergov.com/sl/contract-opportunity/ga-git-br-30-2602-db-gtri-1906-430-south-66841026/"
+      },
+      {
+        "summary": "Georgia State University's Office of Research & Environmental Safety (ORES) is seeking a comprehensive, cloud-based Chemical Inventory Management System (CIMS) to enhance safety, ensure regulatory compliance, and optimize real-time inventory tracking from procurement to disposal across its research operations.",
+        "contract_name": "Georgia Procurement Registry Sciquest #50900-eRFQ-001774-2026 (Chemical Inventory Management System)",
+        "estimated_value": "Unspecified",
+        "deadline_or_expiration": "June 2, 2026 (mandatory pre-bid conference)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The implementation of a chemical inventory management system for Georgia State University directly signals ongoing and future demand for chemical reagents and related lab supplies.",
+        "source_url": "https://app.govly.com/public/opportunities/16606630"
+      },
+      {
+        "summary": "The White County Board of Commissioners in Georgia issued a Request for Proposal (RFP) for a Computer Aided Dispatch (CAD) software system for White County 911 Communications. The RFP includes PSC codes 6640 (Laboratory Equipment And Supplies) and 6505 (Drugs And Biologicals).",
+        "contract_name": "Computer Aided Dispatch (ID 77037 WHITE PE-77037-NONST-2026-000000027)",
+        "estimated_value": "$350,000 - $1,800,000 (AI estimate)",
+        "deadline_or_expiration": "June 26, 2026 - 5:00 PM EST",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The inclusion of PSC codes for laboratory equipment, supplies, drugs, and biologicals in this RFP, despite its primary focus, suggests a potential, albeit indirect, opportunity for Thomas Scientific to supply these items to White County.",
+        "source_url": "https://www.highergov.com/sl/contract-opportunity/ga-computer-aided-dispatch-68168923/"
+      },
+      {
+        "summary": "The University of Georgia Office of Research announced the FY 2027 cycle for Faculty Seed Grants in the Sciences and Engineering. These grants are intended to fund pilot research generating preliminary data to compete for externally funded grant/contract opportunities and contribute to sustainable research programs, supporting resources such as laboratory animals, informatics tools, reagents, cultures, and genetic stocks.",
+        "contract_name": "FY 2027 Faculty Seed Grants in the Sciences and Engineering",
+        "estimated_value": "Unspecified",
+        "deadline_or_expiration": "Application deadline for grants was April 1, 2026; announcement of cycle in article on April 30, 2026.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The announcement of new faculty seed grants in sciences and engineering at the University of Georgia signals increased research activity, which will drive demand for lab supplies, reagents, and equipment.",
+        "source_url": "https://research.uga.edu/research-insights/"
+      }
+    ],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [
+      {
+        "summary": "Arunachalam Ramaiah, Director of Bioinformatics and Project Director/Principal Investigator for the CDC-funded Pathogen Genomics Center of Excellence (PGCoE) at the Georgia Public Health Laboratory (GPHL), secured approximately $17 million through the PGCoE program and several million dollars through the Epidemiology and Laboratory Capacity (ELC)\u2013Advanced Molecular Detection (AMD) program. This funding supports public health testing, pathogen genomic surveillance, outbreak investigations, and genomic epidemiology across the Georgia Department of Public Health (GDPH) and five Georgia-based universities.",
+        "bill_or_budget_name": "CDC-funded Pathogen Genomics Center of Excellence (PGCoE) program and Epidemiology and Laboratory Capacity (ELC)\u2013Advanced Molecular Detection (AMD) program",
+        "jurisdiction": "Federal",
+        "funding_amount": 17000000,
+        "focus_area": "Public health testing, pathogen genomic surveillance, outbreak investigations, genomic epidemiology, wet-lab and bioinformatics workflows",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant federal funding for public health genomics and laboratory operations in Georgia will drive demand for advanced molecular detection reagents, consumables, and potentially new scientific equipment for surveillance and research.",
+        "source_url": "https://aphl.org/membership/recognition-involvement/awards/aphl/2026-awardees"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:29:50.647595",
+  "ai_summary": "GASTATE is experiencing significant research expansion and funding, particularly in genomics and public health. New grants at UGA and substantial CDC funding for GPHL will drive demand for reagents, consumables, and equipment. GTRI's lab renovations and GSU's chemical inventory system further signal active, growing research operations. This creates numerous opportunities for lab supply sales across diverse scientific disciplines."
+}

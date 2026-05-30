@@ -1,0 +1,78 @@
+{
+  "account": "UNIVERSITY OF CONNECTICUT",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkdtYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dan Burkey, Castleman Term Professor of Engineering Innovation and Associate Dean for Undergraduate Education, and Monika Crowl, Assistant Professor-in-Residence, both from the Chemical & Biomolecular Engineering Department at the University of Connecticut, were awarded a $750,000 NSF grant through the Improving Undergraduate STEM Education (IUSE) program to lead a multi-institutional project.",
+        "recipient": "Dan Burkey, Monika Crowl",
+        "department_or_lab": "Chemical & Biomolecular Engineering Department, College of Engineering",
+        "amount": "$750,000",
+        "agency": "NSF",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This grant indicates upcoming demand for lab supplies, reagents, and scientific equipment to support the development and implementation of new undergraduate STEM education initiatives.",
+        "source_url": "https://chemical-biomolecular.engineering.uconn.edu/category/awards/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The University of Connecticut (UConn) is seeking proposals for NSF Certification, Repairs, and Decontamination Services for Clean Air Devices, including Bio-Safety Cabinets, Laminar Flow Benches, and Ventilated Cage Racks. The requirements under the current contract are approximately $22,000.00 per year for Storrs.",
+        "contract_name": "NSF Certification, Repairs and Decontamination Services for Clean Air Devices",
+        "estimated_value": "$22,000.00 per year",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This open Request for Proposal (RFP) indicates an immediate need for services related to scientific equipment, presenting an opportunity for Thomas Scientific to offer relevant supplies, parts, or partner with service providers.",
+        "source_url": "https://purchasing.procurement.uconn.edu/home-2/bid-opportunities-2020/"
+      },
+      {
+        "summary": "The Connecticut General Assembly authorized $20 million for lab renovations and equipment and $35 million for equipment, library collections, and telecommunications at the UConn Health Center under the UConn 2000 Phase III Project Authorizations.",
+        "contract_name": "UConn 2000 Phase III Project Authorizations for Lab Renovations and Equipment / Equipment, Library Collections, and Telecommunications \u2013 Health Center",
+        "estimated_value": "$20,000,000 (Lab renovations and equipment); $35,000,000 (Equipment, library collections, and telecommunications \u2013 Health Center)",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "This significant funding allocation signals a strong upcoming demand for new lab equipment and supplies at UConn and UConn Health, creating a major sales opportunity for Thomas Scientific.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ9Cbu8CsOEO2ffn8zC0p8nJcyPzykf0QscGpt_wFSP-a0hnbIg9W9VeHQyw8CUuHbvK1gEoEzTRqJAaImto_Kv3MBaERu06ZfqavTlee7dc9_5a81j17fkck0POeOCiSJYr1knp2q51ql_8q8-XPHsdvxyVM="
+      },
+      {
+        "summary": "The Department of Energy (DOE) proposes to provide funding to the University of Connecticut (UConn) for a research and development project, CX-024348, focused on a digitalization, automation, and optimization platform for improved resiliency and consistency of distributed anaerobic digestion for wastewater resource recovery.",
+        "contract_name": "CX-024348: A Digitalization, Automation, and Optimization Platform for Improved Resiliency and Consistency of Distributed Anaerobic Digestion for Wastewater Resource Recovery",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "This funded research project at UConn will likely require new scientific equipment, sensors, and consumables for the development and testing of the automation platform, creating a sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.energy.gov/nepa/articles/cx-024348-digitalization-automation-and-optimization-platform-improved-resiliency-and"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": [
+      {
+        "summary": "UConn and UConn Health have experienced significant federal research grant cuts, totaling nearly $100 million since January 2025, leading to the termination or non-renewal of grants and the halting of several research projects, including those focused on natural disasters, antiviral drugs, opioid misuse, cancer prevention, mental health services, SNAP-Ed, and the Early Childhood Intervention Personnel Center.",
+        "facility_or_programme": "Various research programs and projects at UConn and UConn Health, including work on natural disasters, antiviral drugs, opioid misuse, cancer prevention, mental health services, SNAP-Ed, and the Early Childhood Intervention Personnel Center.",
+        "closure_type": "Program termination / Funding termination/stalling",
+        "effective_date": null,
+        "reason": "Reductions in federal support, shifts in federal policy, grant cancellations, and funding stalls from key agencies, partly attributed to the Trump administration's policies.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The termination or stalling of numerous research grants and projects at UConn and UConn Health presents a churn risk for existing lab supply contracts and an opportunity for Thomas Scientific to provide alternative solutions or new equipment for redirected research efforts.",
+        "source_url": "https://www.newsfromthestates.com/article/lamont-backfills-35m-lost-federal-research-grants-uconn"
+      },
+      {
+        "summary": "The National Institutes of Health (NIH) is ending its Continuous Submission option for applications and updating its Late Application Submission Policy, effective August 11, 2026, which will impact how UConn researchers apply for federal funding.",
+        "facility_or_programme": "NIH Continuous Submission option for research grant applications.",
+        "closure_type": "Policy termination (of a submission option)",
+        "effective_date": "2026-08-11",
+        "reason": "Changes in NIH policy (NOT-OD-26-064).",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Changes to NIH grant submission policies could lead to shifts in research focus or funding strategies at UConn, potentially impacting demand for specific reagents and consumables as researchers adapt their projects.",
+        "source_url": "https://ovpr.uconn.edu/services/sps/sps-news-updates/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T07:39:45.356617",
+  "ai_summary": "The University of Connecticut is investing $55M in lab renovations and equipment at UConn Health, alongside new grants for engineering and wastewater research, signaling growth. However, $100M in federal grant cuts have halted numerous research projects. Lab supply teams should target the expanding UConn Health facilities and new grant-funded research, while acknowledging reduced demand from terminated projects."
+}

@@ -1,0 +1,38 @@
+{
+  "account": "TEMPLE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BdYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "A statewide contract for Medical and Laboratory Supplies and Equipment, Award 23154, was updated on May 22, 2026, and is set to expire on July 17, 2026. This contract is available for use by all state agencies and political subdivisions.",
+        "contract_name": "Medical and Laboratory Supplies and Equipment (Statewide) - Award 23154",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-07-17",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The upcoming expiration of this statewide contract for medical and laboratory supplies and equipment presents an opportunity for Thomas Scientific to engage with Temple University, a likely user of such contracts, for potential new bids or renewals.",
+        "source_url": "https://ogs.ny.gov/contract-award-23154"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Temple University's Lewis Katz School of Medicine and AtlantiCare have formalized an agreement to establish a new regional medical school campus in Atlantic City, New Jersey, expected to open in August 2029. This partnership aims to address physician shortages in South Jersey and foster collaboration on new research and educational initiatives.",
+        "project_name": "Lewis Katz School of Medicine AtlantiCare Campus",
+        "scope": "Establishment of a new regional medical school campus for medical education and research, with a targeted class size of 40 students per year.",
+        "timeline": "The first class of students is expected to start in August 2029, indicating a multi-year development and operational timeline.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The launch of a new medical school campus will create significant demand for a wide array of lab supplies, reagents, consumables, and scientific equipment for both educational and research laboratories.",
+        "source_url": "https://now.temple.edu/news/2026-04-30/temple-atlanticare-formalize-agreement-establish-new-medical-school-campus"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:58:59.040052+00:00",
+  "ai_summary": "Temple University's statewide lab supply contract expires July 2026, presenting an immediate sales opportunity for renewal or new procurement. Concurrently, their new medical school campus in Atlantic City, opening August 2029, signals significant future demand for lab equipment and supplies. Sales teams should engage now to understand upcoming contract needs and position themselves for the substantial outfitting requirements of the expanding medical school."
+}

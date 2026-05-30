@@ -1,0 +1,32 @@
+{
+  "account": "HIKMA PHARMACEUTICALS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1ZaYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Hikma Pharmaceuticals and Marius Pharmaceuticals announced an exclusive licensing agreement for the commercialization of KYZATREX\u00ae (testosterone undecanoate) CIII capsules in Canada.",
+        "product_or_program": "KYZATREX\u00ae (testosterone undecanoate) CIII capsules",
+        "stage": "Commercialization/Licensing Agreement",
+        "therapeutic_or_application_area": "Testosterone Replacement Therapy",
+        "event_date": "2026-05-05",
+        "why_it_matters": "A licensing agreement for a commercial-stage product indicates upcoming manufacturing and distribution activities in Canada, which could lead to increased demand for related lab supplies, reagents, and consumables.",
+        "source_url": "https://www.hikma.com/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:30:04.241484",
+  "ai_summary": "Hikma Pharmaceuticals is expanding its Canadian market presence by licensing KYZATREX\u00ae for commercialization. This strategic move indicates potential growth in their Canadian operations, likely requiring increased R&D, quality control, and manufacturing support. A lab supply sales team should note this expansion as it could lead to new opportunities for supplying reagents, consumables, and equipment needed for drug development, testing, and production in the region."
+}

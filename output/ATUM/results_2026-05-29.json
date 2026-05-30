@@ -1,0 +1,40 @@
+{
+  "account": "ATUM",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1TlYAK",
+  "signals": {
+    "capital": [],
+    "contract": [
+      {
+        "summary": "ATUM, a global leader in bioengineering and cell line development, announced the official launch of its Lock-In\u2122 Bispecifics Platform, designed to overcome challenges in bispecific antibody development such as complex molecular design, light-chain mispairing, and biophysical instability.",
+        "contract_name": null,
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "The launch of ATUM's Lock-In\u2122 Bispecifics Platform indicates a future increase in demand for specialized reagents, consumables, and equipment required for advanced bispecific antibody discovery, development, and manufacturing processes, presenting a sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.prnewswire.com/news-releases/atums-new-lock-in-platform-solves-bispecific-mispairing-302767589.html"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "ATUM, a global leader in bioengineering and cell line development, officially launched its Lock-In\u2122 Bispecifics Platform, which is engineered to address critical hurdles in bispecific antibody development such as complex molecular design requirements, light-chain mispairing, and biophysical instability.",
+        "product_or_program": "Lock-In\u2122 Bispecifics Platform",
+        "stage": "Commercial Launch / Technology Platform Expansion",
+        "therapeutic_or_application_area": "Bispecific antibody development, multispecific antibody engineering, biologics manufacturing",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This platform expansion indicates ATUM's increased capabilities in complex biologics manufacturing, suggesting potential for new client programs requiring advanced cell line development and purification supplies.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/12/3293255/0/en/atum-s-new-lock-in-platform-solves-bispecific-mispairing.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:00:53.167311",
+  "ai_summary": "ATUM has launched its Lock-In\u2122 Bispecifics Platform to overcome significant challenges in bispecific antibody development, such as mispairing and instability. This signals increased R&D activity in advanced protein engineering and cell line development. A lab supply sales team should engage to understand evolving needs for specialized reagents, consumables, and analytical equipment required to support this new platform and its associated complex workflows."
+}

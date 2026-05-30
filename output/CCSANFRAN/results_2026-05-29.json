@@ -1,0 +1,58 @@
+{
+  "account": "CCSanFran",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1WvYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The City and County of San Francisco's Department of Public Health (DPH) is approving Amendment No. 3 to an existing agreement with Medline Industries, Inc. for the Low Unit of Measure (LUM) distribution of medical, surgical, and laboratory supplies. This amendment extends the contract term and significantly increases its total value.",
+        "contract_name": "Amendment No. 3 to Agreement with Medline Industries, Inc. for Low Unit of Measure (LUM) Distribution of Medical, Surgical, and Laboratory Supplies",
+        "estimated_value": "$301,562,341",
+        "deadline_or_expiration": "June 30, 2030",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This contract amendment indicates ongoing, substantial demand for laboratory supplies within the City and County of San Francisco's Department of Public Health, representing a significant long-term sales opportunity for Thomas Scientific.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF09qvvmAEmH_fTMa49dKsfZY2oNf3ezZplu7tdsWR_ZF6-zoQpBsN4MgU6ZZZPGNuTJegEWWtnFJyVa9NFJ3SObD2XNEoX43ZE6rFP9r76F0JvK4-TIEpuo1f3irX8MU912l4eZaZFYfvJ7LCkgNVCB4s="
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "The San Francisco Department of Public Health is seeking approval for a contract amendment with Medline Industries, Inc. for the bulk purchase of medical, surgical, and laboratory supplies, extending the contract through June 2030 with a total value exceeding $165 million.",
+        "project_name": "Contract Amendment for Bulk Medical, Surgical, and Laboratory Supplies (Medline Industries, Inc. - Contract 1000021243)",
+        "scope": "Continuation of purchasing high-volume, low unit cost, frequently used medical, surgical, and laboratory supplies for the San Francisco Health Network, including distribution services to Zuckerberg San Francisco General Hospital, Laguna Honda Hospital, and various DPH facilities.",
+        "timeline": "Extended contract term by four years, for a total contract duration of nine years from July 1, 2021, through June 30, 2030.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This multi-year contract for bulk medical, surgical, and laboratory supplies indicates sustained and significant demand for consumables and reagents within San Francisco's public health network, signaling ongoing sales opportunities for scientific distributors.",
+        "source_url": "https://sf.gov/meeting/may-4-2026-finance-and-planning-committee-meeting"
+      },
+      {
+        "summary": "The San Francisco Department of Public Health is seeking approval for a contract amendment with Medline Industries, Inc. for the purchase of low unit of measure medical, surgical, and laboratory supplies, extending the contract through June 2030 with a total value exceeding $301 million.",
+        "project_name": "Contract Amendment for Low Unit of Measure (LUM) Medical, Surgical, and Laboratory Supplies (Medline Industries, Inc. - Contract 1000021257)",
+        "scope": "Continuation of purchasing low unit of measure medical, surgical, and laboratory supplies for the San Francisco Health Network, including distribution services to Zuckerberg San Francisco General Hospital, Laguna Honda Hospital, and various DPH facilities.",
+        "timeline": "Extended contract term by four years, for a total contract duration of nine years from July 1, 2021, through June 30, 2030.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This multi-year contract for low unit of measure medical, surgical, and laboratory supplies signals ongoing and substantial demand for a wide range of scientific consumables and reagents across San Francisco's public health system.",
+        "source_url": "https://sf.gov/meeting/may-4-2026-finance-and-planning-committee-meeting"
+      }
+    ],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "The University of California Board of Regents has approved plans for a new, state-of-the-art UCSF Bakar Ear & Hearing Institute at the Mission Bay campus, which will consolidate services currently dispersed across multiple locations to advance research and care for hearing and balance disorders.",
+        "facility_or_programme": "UCSF Bakar Ear & Hearing Institute (consolidation of existing ear and hearing services/research)",
+        "closure_type": "Facility consolidation",
+        "effective_date": null,
+        "reason": "To unite leading researchers and clinicians, accelerate discoveries, and streamline patient care.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This consolidation into a new, state-of-the-art facility presents a significant opportunity for Thomas Scientific to supply new scientific equipment, lab supplies, reagents, and consumables for the expanded and centralized research and clinical operations.",
+        "source_url": "https://ohns.ucsf.edu/news/uc-regents-approve-new-ucsf-bakar-ear-hearing-institute"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:18:04.285295",
+  "ai_summary": "The San Francisco Department of Public Health is extending multi-million dollar contracts with Medline for bulk and low unit of measure lab supplies through 2030. This solidifies a competitor's long-term hold, making direct DPH sales difficult. However, the new UCSF Bakar Ear & Hearing Institute offers a significant opportunity for our lab supply sales team to engage early for new equipment and supply needs."
+}

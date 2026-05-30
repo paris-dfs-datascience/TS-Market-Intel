@@ -1,0 +1,139 @@
+{
+  "account": "COOPERVISION",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nOkddYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Cancer Center at Illinois (CCIL) has been designated as a Basic Cancer Center by the National Cancer Institute (NCI), making it the nation's 74th NCI-Designated Cancer Center and the 8th Basic Cancer Center, focusing on discovery and development of innovative approaches to cancer detection, treatment, and prevention.",
+        "recipient": "Cancer Center at Illinois (CCIL)",
+        "department_or_lab": "Basic Cancer Center",
+        "amount": null,
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-04-16",
+        "why_it_matters": "This designation indicates increased funding opportunities and research activity at CCIL, creating demand for specialized lab equipment and reagents for basic cancer research.",
+        "source_url": "https://www.aaci-cancer.org/aaci-update-may-2026"
+      },
+      {
+        "summary": "The University of Mississippi Medical Center (UMMC) received a $7 million state appropriation to support its pursuit of National Cancer Institute (NCI) designation, following commitments from NIH officials to work with UMMC on this goal, with plans to expand early detection and screening programs, grow clinical trials and research capabilities, build data and care coordination infrastructure, and recruit physicians and scientists.",
+        "recipient": "University of Mississippi Medical Center (UMMC)",
+        "department_or_lab": "UMMC Cancer Center and Research Institute",
+        "amount": "$7 million",
+        "agency": "State of Mississippi, National Institutes of Health (NIH), National Cancer Institute (NCI)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This significant state investment and NIH support for UMMC's NCI designation efforts signal substantial upcoming demand for new lab infrastructure, equipment, and consumables to expand cancer research and clinical trials.",
+        "source_url": "https://www.hydesmith.senate.gov/hyde-smith-lines-nih-support-ummc-national-cancer-institute-designation"
+      },
+      {
+        "summary": "The National Institute of General Medical Sciences (NIGMS) released a Notice of Funding Opportunity for the Maximizing Investigators' Research Award (MIRA) for Early Stage Investigators (ESIs), providing up to $275,000 per year for five years to support research programs in areas like anesthesiology, clinical pharmacology, sepsis, injury, critical illness, wound healing, and systemic immune/inflammatory responses.",
+        "recipient": "Early Stage Investigators (ESIs)",
+        "department_or_lab": null,
+        "amount": "$275,000 per year",
+        "agency": "National Institute of General Medical Sciences (NIGMS), NIH",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This grant opportunity for early-career investigators will drive demand for a wide range of lab supplies and equipment as new research programs are established or expanded in various biomedical fields.",
+        "source_url": "https://files.simpler.grants.gov/opportunities/9a4aeb2f-d0ac-403b-ac67-9d1fd24d9556/attachments/2037e87d-aae5-4621-8e37-b3fb158c3c26/PAR-27-032-Full-Announcement.pdf"
+      },
+      {
+        "summary": "The National Heart, Lung, and Blood Institute (NHLBI) released a funding opportunity for the INCLUDE Project: Clinical Trials Phased Awards for Down syndrome Research (R61/R33 Clinical Trial Required), supporting clinical trials in this area.",
+        "recipient": "Researchers conducting Down syndrome research",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Heart, Lung, and Blood Institute (NHLBI), NIH",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This funding opportunity for clinical trials in Down syndrome research will generate demand for specialized reagents, consumables, and equipment used in clinical research settings.",
+        "source_url": "https://www.nhlbi.nih.gov/grants-and-training/funding-opportunities-and-contacts"
+      },
+      {
+        "summary": "The National Heart, Lung, and Blood Institute (NHLBI) announced a Limited Competition Small Grant Program (R03 Clinical Trial Optional) for its K01, K08, K23, and K25 award recipients.",
+        "recipient": "NHLBI K01/K08/K23/K25 Recipients",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Heart, Lung, and Blood Institute (NHLBI), NIH",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This small grant program will enable existing NHLBI-funded researchers to pursue new avenues or expand current projects, leading to additional purchases of lab supplies and consumables.",
+        "source_url": "https://www.nhlbi.nih.gov/grants-and-training/funding-opportunities-and-contacts"
+      },
+      {
+        "summary": "The NIH-funded Lasker Clinical Research Scholars program supports early-career medical researchers with five to seven years of support as independent investigators within the NIH Intramural Research Program, with opportunities for continued support at extramural institutions.",
+        "recipient": "Early-career medical researchers (clinician-researchers)",
+        "department_or_lab": "NIH Intramural Research Program",
+        "amount": null,
+        "agency": "NIH (Lasker Foundation and NIH partnership)",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This program fosters the development of independent clinical researchers, directly translating to sustained demand for a broad spectrum of lab supplies and equipment for their ongoing and future research projects.",
+        "source_url": "https://laskerfoundation.org/education/lasker-clinical-research-scholars/"
+      },
+      {
+        "summary": "The NIH released fiscal year (FY) 2025 enrollment data for NIH-supported clinical research, showing a total of 11,048,927 participants worldwide, with 720,577 enrolled in NIH-defined Phase 3 clinical trials.",
+        "recipient": null,
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This data release highlights the ongoing large scale of NIH-supported clinical research, indicating a consistent and high demand for clinical trial supplies, reagents, and equipment across numerous institutions.",
+        "source_url": "https://grants.nih.gov/news-events/nih-extramural-nexus-news/2026/05/fy25-enrollment-data-from-nih-supported-clinical-research-now-available"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "CooperVision appointed Muru Annamalai as President, Asia-Pacific, effective June 1, 2026.",
+        "name": "Muru Annamalai",
+        "department": "President, Asia-Pacific",
+        "start_date": "2026-06-01",
+        "event_date": "2026-05-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/coopervision-names-muru-annamalai-as-president-asia-pacific-302785033.html"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "CooperVision has completed enrollment in its global MiSight\u00ae 1 day post-approval clinical studies (PAS) in the U.S. and China, which are designed to generate real-world evidence for pediatric myopia control. These studies involve over 3,000 children across more than 100 clinical sites, with final data expected between 2027 and 2030.",
+        "product_or_program": "MiSight\u00ae 1 day post-approval clinical studies",
+        "stage": "Post-approval clinical studies (Enrollment Complete)",
+        "therapeutic_or_application_area": "Pediatric myopia control",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Completion of enrollment signals ongoing research and future data releases that could further drive adoption of MiSight 1 day, increasing demand for related contact lenses and monitoring equipment.",
+        "source_url": "https://coopervision.com/our-company/news-center/press-release/coopervision-completes-enrollment-worlds-largest-pediatric"
+      },
+      {
+        "summary": "CooperVision will present new scientific research at BCLA Asia 2026 (May 29-31, 2026) focusing on myopia management, astigmatic lens fitting, and presbyopia. Key presentations include insights into parent education for myopia management, the effect of toric power alterations on soft toric lens fit and rotation, and multifocal contact lens fitting considerations.",
+        "product_or_program": "Clinical research presentations at BCLA Asia 2026 (covering MiSight 1 day, toric lenses, multifocal lenses)",
+        "stage": "Clinical research presentation",
+        "therapeutic_or_application_area": "Myopia management, astigmatism, presbyopia",
+        "event_date": "2026-05-26",
+        "why_it_matters": "New research presentations can lead to updated clinical practices and increased interest in specific contact lens technologies and fitting tools, creating sales opportunities for relevant products.",
+        "source_url": "https://coopervision.com/our-company/news-center/press-release/coopervision-research-bcla-asia-advances-myopia-management"
+      },
+      {
+        "summary": "CooperVision facilitated the development of a Joint Position Statement on standardizing the clinical use of contact lenses for myopia control in the Asia-Pacific region, reaching a consensus on age range, fitting protocols, treatment targets, and stopping criteria.",
+        "product_or_program": "Asia-Pacific Myopia Control Joint Position Statement",
+        "stage": "Development of treatment protocols/guidelines",
+        "therapeutic_or_application_area": "Myopia control",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Standardized protocols can drive wider and more consistent adoption of myopia control treatments, increasing demand for contact lenses and diagnostic equipment for monitoring progression.",
+        "source_url": "https://www.youtube.com/watch?v=h03bYNC9YaA"
+      },
+      {
+        "summary": "A new observational clinical study titled 'Contact Lens Trial Fitting Experience' (NCT07600645), sponsored by CooperVision International Limited, was first submitted to ClinicalTrials.gov on May 4, 2026.",
+        "product_or_program": "Contact Lens Trial Fitting Experience (NCT07600645)",
+        "stage": "Clinical trial (observational) - Study record submitted",
+        "therapeutic_or_application_area": "Contact lens fitting, patient experience",
+        "event_date": "2026-05-04",
+        "why_it_matters": "The initiation of a new clinical study indicates active research and development, potentially leading to new product introductions or refined fitting practices that will require new trial lenses and related equipment.",
+        "source_url": "https://coopervision.com/our-company/news-center/press-release/coopervision-research-bcla-asia-advances-myopia-management"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:48:28.958771",
+  "ai_summary": "CooperVision is conducting extensive clinical research, notably for myopia control, including large-scale MiSight\u00ae 1 day and new observational studies. Their strategic Asia-Pacific focus and upcoming presentations underscore significant R&D. This sustained clinical activity signals an ongoing demand for lab supplies, reagents, and equipment to support their ophthalmic R&D."
+}

@@ -1,0 +1,164 @@
+{
+  "account": "KAISER PERMANENTE",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1C4YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Leona M. and Harry B. Helmsley Charitable Trust awarded a $5 million grant to the Kaiser Permanente Hawaii Cancer Center to fund infusion bays and patient care areas within a new, expanded hematology and medical oncology wing, which will nearly triple the size of the existing space.",
+        "recipient": "Kaiser Permanente Hawaii Cancer Center",
+        "department_or_lab": "Hematology and Medical Oncology wing",
+        "amount": "$5 million",
+        "agency": "The Leona M. and Harry B. Helmsley Charitable Trust",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This significant grant indicates an expansion and upgrade of cancer treatment facilities, suggesting an upcoming demand for new oncology-related lab supplies, reagents, consumables, and scientific equipment for infusion and patient care areas.",
+        "source_url": "https://about.kaiserpermanente.org/news/press-release-archive/trust-awards-5-million-grant-support-new-cancer-center"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Kaiser Permanente has elevated Vivian Tan to Chief Data & Analytics Officer, expanding her leadership role within the organization's data and analytics function.",
+        "name": "Vivian Tan",
+        "department": "Chief Data & Analytics Officer",
+        "start_date": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.cdomagazine.tech/leadership-moves/kaiser-permanente-elevates-vivian-tan-to-chief-data-analytics-officer"
+      },
+      {
+        "summary": "Jay Krishnaswamy was appointed Senior Vice President and Area Manager of Kaiser Permanente's Central Valley Service Area, according to a May 4 health system news release.",
+        "name": "Jay Krishnaswamy",
+        "department": "Central Valley Service Area",
+        "start_date": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.beckershospitalreview.com/hospital-executive-moves/kaiser-names-leader-for-central-valley/"
+      },
+      {
+        "summary": "Patrick Springob was named chief innovation officer for Pasadena-based Southern California Permanente Medical Group.",
+        "name": "Patrick Springob",
+        "department": "Chief Innovation Officer",
+        "start_date": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.beckershospitalreview.com/hospital-executive-moves/22-recent-hospital-health-system-executive-moves-2-2/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Kaiser Permanente National has implemented new clinical outcome measures as part of its clinical quality program for clients in KP Mid-Atlantic, KP Northwest, KP Colorado, KP Hawaii, and KP Washington. These measures are automatically sent to clients and aim to track client progress and support evidence-informed care.",
+        "product_or_program": "Clinical Quality Program - New Outcome Measures",
+        "stage": "Adoption/Implementation",
+        "therapeutic_or_application_area": "Clinical Quality, Mental Health (implied by Grow Therapy context)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "A sales representative should engage this account now to understand the specific new measures and identify potential demand for diagnostic tools, assessment kits, or data collection consumables required for these new clinical quality protocols.",
+        "source_url": "https://help.growtherapy.com/en/articles/14725612-required-measures-for-kaiser-permanente-providers"
+      },
+      {
+        "summary": "Kaiser Permanente has successfully implemented and studied an HPV self-collection program for cervical cancer screening, demonstrating increased screening rates, particularly among Black/African American, Asian, and Hispanic populations, and a reduction in clinician-performed pelvic exams.",
+        "product_or_program": "HPV Self-Collection Program for Cervical Cancer Screening",
+        "stage": "Program Adoption/Evaluation",
+        "therapeutic_or_application_area": "Cervical Cancer Screening, Women's Health, Infectious Disease (HPV)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "A sales representative should engage this account now to supply HPV self-collection kits, HPV testing reagents, and related laboratory equipment to support the expanded screening program.",
+        "source_url": "https://about.kaiserpermanente.org/news/self-collection-kits-boost-cervical-cancer-screening"
+      },
+      {
+        "summary": "Kaiser Permanente Southern California is conducting a Phase 3 clinical trial for an investigational therapy for IgA nephropathy (IgAN), a rare kidney disease.",
+        "product_or_program": "Phase 3 Clinical Trial for IgA Nephropathy (IgAN) Therapy",
+        "stage": "Phase 3 Clinical Trial",
+        "therapeutic_or_application_area": "Nephrology, Rare Diseases",
+        "event_date": "2026-05-19",
+        "why_it_matters": "A sales representative should engage this account now to offer lab supplies, reagents, and equipment for ongoing clinical trial support, including patient monitoring, sample analysis, and drug development.",
+        "source_url": "https://www.kp-scalresearch.org/impact-newsletters/impact-may-2026/"
+      },
+      {
+        "summary": "Kaiser Permanente is building a clinical trials program to transform care for patients with retinal disease, expanding access to new therapies and driving innovation.",
+        "product_or_program": "Clinical Trials Program for Retinal Disease",
+        "stage": "Program Development/Clinical Trials",
+        "therapeutic_or_application_area": "Ophthalmology, Retinal Diseases",
+        "event_date": "2026-05-20",
+        "why_it_matters": "A sales representative should engage this account now to provide lab supplies, reagents, and specialized equipment needed for ophthalmic research, clinical trial execution, and advanced retinal diagnostics.",
+        "source_url": "https://www.kp-scalresearch.org/impact-newsletters/impact-may-2026/"
+      },
+      {
+        "summary": "Kaiser Permanente Hawaii received a $5 million grant from The Leona M. and Harry B. Helmsley Charitable Trust to support the construction of a new, expanded Cancer Center at Moanalua Medical Center, featuring new infusion bays and patient care areas.",
+        "product_or_program": "Kaiser Permanente Hawaii Cancer Center Expansion",
+        "stage": "Construction/Development",
+        "therapeutic_or_application_area": "Oncology, Hematology, Cancer Treatment",
+        "event_date": "2026-05-19",
+        "why_it_matters": "A sales representative should engage this account now to supply new laboratory equipment, reagents, and consumables for expanded oncology diagnostics, treatment monitoring, and infusion services in the new cancer center.",
+        "source_url": "https://about.kaiserpermanente.org/news/press-release-archive/trust-awards-5-million-grant-support-new-cancer-center"
+      },
+      {
+        "summary": "Kaiser Permanente has introduced a new enhanced infertility benefit, effective May 1, 2026, covering diagnosis and treatment of infertility, IUI, IVF (egg retrieval and embryo transfer with lifetime maximums), cryopreservation, and related services including labs, imaging, and fertility medications.",
+        "product_or_program": "Enhanced Infertility Benefit Program",
+        "stage": "Program Implementation",
+        "therapeutic_or_application_area": "Reproductive Health, Infertility Treatment",
+        "event_date": "2026-05-01",
+        "why_it_matters": "A sales representative should engage this account now to provide increased demand for fertility-related lab supplies, reagents for IVF and IUI procedures, and specialized equipment for reproductive health diagnostics and cryopreservation.",
+        "source_url": "https://lamtfund.org/blog/kaiser-permanente-new-enhanced-infertility-benefit-effective-may-1-2026/"
+      },
+      {
+        "summary": "Kaiser Permanente Northern California researchers are leading a $12 million, 5-year study to test the most effective methods of reaching patients at risk for suicide and connecting them to a care team, exploring in-the-moment interventions versus specialized provider support.",
+        "product_or_program": "Suicide Prevention Research Study",
+        "stage": "Investigator-Initiated Trial/Research Program",
+        "therapeutic_or_application_area": "Mental Health, Suicide Prevention",
+        "event_date": "2026-05-27",
+        "why_it_matters": "A sales representative should engage this account now to offer supplies for mental health assessments, data collection tools, and any specialized equipment or reagents required for research into suicide prevention strategies and patient engagement.",
+        "source_url": "https://lookinside.kaiserpermanente.org/blog/2026/05/27/exploring-ways-to-prevent-suicide/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "The Helmsley Charitable Trust awarded a $5 million grant to Kaiser Permanente Hawaii to support the new Kaiser Permanente Hawaii Cancer Center at Moanalua Medical Center, which will feature an expanded hematology and medical oncology wing.",
+        "location": "Moanalua Medical Center, Honolulu, Hawaii",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": 5000000,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The new and expanded cancer center, including clinic, laboratory, and pharmacy services, will drive demand for specialized lab supplies, reagents, and consumables for diagnostics, treatment, and research.",
+        "source_url": "https://helmsleytrust.org/news-and-insights/the-helmsley-charitable-trust-awards-5m-grant-to-support-new-kaiser-permanente-hawaii-cancer-center-at-moanalua/"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "Kaiser Permanente finalized a joint venture with Renown Health to operate a health plan and a new outpatient care delivery system in northern Nevada, with Hometown Health becoming Kaiser Permanente Nevada.",
+        "partner": "Renown Health",
+        "deal_type": "Joint Venture",
+        "deal_value": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "The establishment of a new outpatient care delivery system and the expansion of healthcare services in northern Nevada will likely increase the demand for lab supplies, reagents, consumables, and scientific equipment to support diagnostic and treatment activities.",
+        "source_url": "https://about.kaiserpermanente.org/news/kaiser-permanente-and-risant-health-q1-2026-financial-update"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Leona M. and Harry B. Helmsley Charitable Trust has awarded a $5 million grant to Kaiser Permanente Hawaii to support the new Kaiser Permanente Hawaii Cancer Center, currently under construction at the Kaiser Permanente Moanalua Medical Center. The grant will specifically fund infusion bays and patient care areas within a new, expanded hematology and medical oncology wing. The new center will be 12,500 square feet, nearly triple the size of the existing space, and will feature seamless access to clinic, laboratory, and pharmacy services.",
+        "project_name": "Kaiser Permanente Hawaii Cancer Center expansion at Moanalua Medical Center",
+        "scope": "Expansion of the hematology and medical oncology wing, including new infusion bays, patient care areas, and seamless access to clinic, laboratory, and pharmacy services. The center will be 12,500 square feet.",
+        "timeline": "Currently under construction.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The expansion of a cancer center with new laboratory and pharmacy services indicates an increased demand for specialized lab equipment, reagents for diagnostics and research, and consumables for patient care and clinical trials.",
+        "source_url": "https://about.kaiserpermanente.org/news/press-release-archive/trust-awards-5-million-grant-support-new-cancer-center"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Kaiser Permanente Home Health Agency Maui received a 3.0-star CMS Quality of Patient Care rating.",
+        "product_or_site": "Kaiser Permanente Home Health Agency Maui",
+        "regulatory_action": "CMS Quality of Patient Care Rating",
+        "outcome": "3.0-star rating (Average)",
+        "event_date": "2026-05-08",
+        "why_it_matters": "A CMS quality rating can influence patient volume and thus demand for supplies, as higher-rated facilities might attract more patients, requiring more supplies for patient care.",
+        "source_url": "https://fileflo.com/agencies/home-health/hawaii/wailuku/kaiser-permanente-home-health-agency-maui-127023"
+      }
+    ],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:05:18.592340",
+  "ai_summary": "Kaiser Permanente is undergoing significant expansion, including a new Hawaii Cancer Center with expanded lab services and a Nevada joint venture. They are also launching numerous clinical trials and programs in areas like oncology, retinal disease, and infertility, which explicitly cover labs. These initiatives signal increased demand for lab equipment, reagents, and consumables across various specialties."
+}

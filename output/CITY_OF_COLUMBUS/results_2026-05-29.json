@@ -1,0 +1,67 @@
+{
+  "account": "CITY OF COLUMBUS",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DNYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Anheuser-Busch invested $5 million in its Columbus, Ohio brewery to expand production of Michelob ULTRA and Michelob ULTRA Zero, and to open a new technical skills training center.",
+        "location": "Columbus, Ohio",
+        "type_of_expansion": "Manufacturing capacity expansion and new technical skills training center",
+        "investment_value": 5000000,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This expansion in manufacturing operations could lead to increased demand for various lab supplies, reagents, and consumables for quality control, process monitoring, and research related to beverage production.",
+        "source_url": "https://www.anheuser-busch.com/newsroom/Anheuser-Busch-Invests-5-Million-in-Columbus-Brewery"
+      },
+      {
+        "summary": "Nationwide Children's Hospital opened a new Close To HomeSM Center in Grove City (Columbus, Ohio area) offering expanded pediatric outpatient services, including laboratory services.",
+        "location": "Grove City (Columbus, Ohio area)",
+        "type_of_expansion": "New dedicated facility with laboratory services",
+        "investment_value": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "The establishment of new laboratory services will create new procurement needs for a wide range of lab supplies, reagents, and consumables for diagnostic and therapeutic testing.",
+        "source_url": "https://www.nationwidechildrens.org/newsroom/news-releases/2026/05/grovecity_close-to-home_opening"
+      }
+    ],
+    "project": [],
+    "tender": [
+      {
+        "summary": "The Defense Logistics Agency (DLA) is procuring two Keysight digital multimeters, Part Number 3458A, for the Product Test Center (PTC) located in Columbus, Ohio. This solicitation (SP4706-26-Q-0016) replaces a previous one and requires new, not refurbished, multimeters with specific technical specifications, including at least 8.5 digit precision and NIST Traceable Calibration Certificate.",
+        "tender_name": "PTC Digital Multimeter (DMM), Keysight 3458A",
+        "estimated_value": null,
+        "deadline": "2026-05-22",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This represents a direct sales opportunity for Thomas Scientific to supply high-precision digital multimeters and related laboratory equipment to a DoD facility in Columbus.",
+        "source_url": "https://sam.gov/workspace/contract/opp/5dc9cc029b6c42dd9d2ebbab26686451/view"
+      },
+      {
+        "summary": "The Defense Logistics Agency (DLA) is seeking bids for 38 units of NSN 6665017181935 RADIACMETER, classified under \"INSTRUMENTS AND LABORATORY EQPT,\" to be delivered to DLA DISTRIBUTION in Columbus, OH. The solicitation is an RFQ, and quotes must be submitted electronically.",
+        "tender_name": "RADIACMETER NSN 6665017181935",
+        "estimated_value": null,
+        "deadline": "2026-06-08",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This is a direct sales opportunity for Thomas Scientific to provide specialized laboratory instruments to a federal agency in Columbus.",
+        "source_url": "https://sam.gov/opp/76a1ef6a9e334f9e93c8fc11dcb0db8e/view"
+      }
+    ],
+    "mandate": [
+      {
+        "summary": "The City of Columbus is expanding its Lead-Safe Columbus program to replace lead and galvanized water service lines in 50,000 homes over the next decade, with an estimated investment of $1 billion.",
+        "mandate_type": "Environmental Monitoring Mandate",
+        "jurisdiction": "City of Columbus",
+        "funding_amount": "$1,000,000,000",
+        "effective_date": "2026-04-29",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This mandate creates non-discretionary demand for lab testing equipment and consumables for lead detection in water samples, both before and after pipe replacement, to ensure compliance with federal requirements and protect water quality.",
+        "source_url": "https://www.wosu.org/politics-government/2026-04-29/columbus-to-replace-lead-and-galvanized-pipes-in-50-000-homes-over-the-next-decade-free-of-cost"
+      }
+    ],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:21:37.543448",
+  "ai_summary": "Columbus is seeing increased demand for lab supplies. Nationwide Children's Hospital expanded lab services, Anheuser-Busch opened a technical training center, and the DLA is procuring specialized lab instruments. The City's $1 billion lead pipe replacement program will also drive environmental testing needs. These diverse expansions and procurements signal significant sales opportunities for lab supply teams across healthcare, industrial, defense, and environmental sectors."
+}

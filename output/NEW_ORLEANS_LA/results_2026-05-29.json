@@ -1,0 +1,79 @@
+{
+  "account": "NEW ORLEANS, LA",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1NOYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dr. Selin Zeytinoglu, an Assistant Professor at Tulane University's School of Science and Engineering, has been awarded a K01 Research Scientist Development Award from the National Institute of Mental Health for her research project titled \"Social and Neural Pathways Linking Parental Anxiety with Youths' Daily Emotions.\"",
+        "recipient": "Dr. Selin Zeytinoglu, Tulane University",
+        "department_or_lab": "School of Science and Engineering, Tulane University",
+        "amount": "$616,658",
+        "agency": "NIH (National Institute of Mental Health)",
+        "event_date": "2026-05-03",
+        "why_it_matters": "This research in family mental health and neural pathways may require specialized psychological testing equipment, neuroimaging supplies, and data analysis software, indicating potential sales opportunities for relevant lab supplies.",
+        "source_url": "https://www.energy.gov/cmei/femp/assisting-federal-facilities-energy-conservation-technologies-funding-recipients"
+      },
+      {
+        "summary": "Louisiana Sea Grant announced funding for seven research projects for the 2026-2028 omnibus cycle, with some involving researchers from the University of New Orleans and Tulane University focusing on coastal resources.",
+        "recipient": "University of New Orleans (Kelly Boyle), Tulane University (Thomas DeCarlo)",
+        "department_or_lab": "University of New Orleans, Department of Biological Sciences; Tulane University, School of Science and Engineering",
+        "amount": null,
+        "agency": "NOAA (National Oceanic and Atmospheric Administration) via Louisiana Sea Grant",
+        "event_date": "2026-05-21",
+        "why_it_matters": "These projects on marine biology, coastal restoration, and environmental monitoring suggest demand for field sampling equipment, laboratory analysis tools, and biological reagents.",
+        "source_url": "https://www.highergov.com/contract-opportunity/award-notice-n0003923c0002nsips-award-n0003923c0002-general-dynamics-information-technology-inc-b84fc/"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Jefferson Parish Economic Development Commission (JEDCO) announced $3.65 million in federal funding for the planned Greater New Orleans Food & Beverage Incubator, bringing the total investment in the new incubator to $8.7 million.",
+        "contract_name": "Greater New Orleans Food & Beverage Incubator Federal Funding",
+        "estimated_value": "$3.65 million (federal funding), $8.7 million (total investment)",
+        "deadline_or_expiration": "2028 (planned opening)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This new food and beverage incubator will require a range of lab supplies, reagents, and scientific equipment for shelf-life studies, nutritional analysis, and food safety procedures.",
+        "source_url": "https://www.leakeandersson.com/louisianas-food-incubators-are-helping-startups-grow-but-legal-risks-remain/"
+      },
+      {
+        "summary": "The City of New Orleans is spending an additional $9 million to renovate the New Orleans Police Department's crime lab, which has experienced significant issues, including an HVAC system not designed for scientific laboratory use and water intrusion, since its opening in 2022.",
+        "contract_name": "New Orleans Police Department Crime Lab Renovation",
+        "estimated_value": "$9 million",
+        "deadline_or_or_expiration": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "The renovation of the NOPD crime lab indicates an upcoming need for new or replacement lab equipment, reagents, and consumables for DNA and drug chemistry operations.",
+        "source_url": "https://www.wwltv.com/article/news/investigations/katie-moore/new-orleans-25m-crime-lab-is-4-years-old-why-is-the-city-spending-9m-more-to-renovate-it/289-f59be317-a770-487f-ad91-a567359d602e"
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "New Orleans is spending an additional $9 million to renovate its 4-year-old, $25 million crime lab due to significant problems like water intrusion, mold, and an inadequate HVAC system for scientific use. The original $25 million for construction was largely federal funds. The renovation aims to address these issues and get the DNA lab fully operational.",
+        "project_name": "NOPD Crime Lab Renovation/Repair",
+        "scope": "Renovation of a five-story, 40,000-square-foot crime lab facility at 2761 Gravier St., specifically addressing water intrusion, mold, building vibrations, and HVAC system deficiencies, particularly for the DNA lab.",
+        "timeline": "The renovation is ongoing, with discussions about whether to renovate or build a new one. The original facility opened in 2022. The $9 million renovation was announced in May 2026.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This renovation will require specialized lab equipment, reagents, and consumables for forensic analysis, especially for the DNA lab, to address the existing deficiencies and bring the facility to operational standards.",
+        "source_url": "https://www.wwltv.com/article/news/investigations/katie-moore/new-orleans-25m-crime-lab-is-4-years-old-why-is-the-city-spending-9m-more-to-renovate-it/289-f59be317-a770-487f-ad91-a567359d602e"
+      }
+    ],
+    "tender": [],
+    "mandate": [],
+    "legislation": [
+      {
+        "summary": "New Orleans is spending $9 million to renovate its four-year-old crime lab, which has been plagued by issues including water intrusion, mold, and an inadequate HVAC system since its opening. The renovation specifically targets the DNA lab floor to meet operational standards.",
+        "bill_or_budget_name": "New Orleans Crime Lab Renovation Budget",
+        "jurisdiction": "New Orleans, LA (City)",
+        "funding_amount": 9000000,
+        "focus_area": "Laboratory infrastructure, public health testing (forensic/DNA lab)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This renovation project, particularly for the DNA lab, will require new lab supplies, reagents, and potentially equipment to address the existing issues and bring the facility to operational standards.",
+        "source_url": "https://www.wwltv.com/article/news/investigations/katie-moore/new-orleans-25m-crime-lab-is-4-years-old-why-is-the-city-spending-9m-more-to-renovate-it/289-f59be317-a770-487f-ad91-a567359d602e"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:39:30.831854",
+  "ai_summary": "New Orleans is significantly investing in lab infrastructure. The city is spending $9 million to renovate its crime lab, specifically to get the DNA lab fully operational, indicating a strong need for new equipment and supplies. Additionally, a new $8.7 million Food & Beverage Incubator is planned, creating another opportunity for lab setup and ongoing supply needs. University grants also signal continued research activity."
+}

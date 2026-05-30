@@ -1,0 +1,27 @@
+{
+  "account": "NEOGEN",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1ZjYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Neogen Chemicals Limited's promoters infused INR 161 crore (approximately $19.3 million USD) through a preferential allotment of equity shares to Cadamba Solutions Private Limited, a promoter group entity. The funds are designated for the expansion of Neogen Ionics, working capital, and general corporate purposes, specifically supporting the development of battery materials facilities.",
+        "amount": "INR 161 crore",
+        "funding_type": "Private Equity",
+        "use_of_proceeds": "Expansion of Neogen Ionics (battery materials facilities), working capital, and general corporate purposes, including new production infrastructure and R&D capability.",
+        "event_date": "2026-05-17",
+        "why_it_matters": "This new capital will directly support the expansion of Neogen Ionics' battery materials facilities, leading to increased demand for specialized lab supplies, reagents, and equipment for production and quality control in the battery chemicals sector.",
+        "source_url": "https://www.icicidirect.com/research/equity/rapid-results/neogen-chemicals-ltd"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:33:53.452511",
+  "ai_summary": "Neogen Chemicals secured $19.3 million in funding to expand Neogen Ionics and develop new battery materials facilities. This significant investment signals substantial growth and new infrastructure projects. For lab supply sales, this presents a prime opportunity to provide new equipment, consumables, and reagents for their expanding battery materials R&D and production facilities, requiring proactive engagement to support their growth."
+}

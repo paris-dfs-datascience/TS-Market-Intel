@@ -1,0 +1,126 @@
+{
+  "account": "ENVIRONMENTAL CHEMISTS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G0000019qij5IAA",
+  "signals": {
+    "capital": [
+      {
+        "summary": "A new 34,000-square-foot, LEED-certified hub with classrooms, research and lab spaces, and student advising support, focusing on agriculture and environmental sustainability.",
+        "project_name": "Resnick Center for Agricultural Innovation",
+        "location": "Near the current plant sciences building off Hutchison Drive in Davis, UC Davis, USA",
+        "value": "$50 million",
+        "timeline": "Design on the Resnick Center has begun with construction slated for completion by 2026.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new facility will require a wide range of lab supplies, reagents, and equipment for its research and lab spaces dedicated to agricultural and environmental sustainability.",
+        "source_url": "https://www.ucdavis.edu/news/uc-davis-opens-resnick-center-agricultural-innovation"
+      },
+      {
+        "summary": "Clean Harbors acquired Terra Nova Solutions, a regional provider of hazardous and non-hazardous waste solutions, for $225 million. Terra Nova operates five sites supporting wastewater treatment, solidification, and waste processing.",
+        "project_name": "Acquisition of Terra Nova Solutions (Expansion of Environmental Services Facilities)",
+        "location": "Carolinas, North America",
+        "value": "$225 million",
+        "timeline": "Announced May 14, 2026.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The acquisition and integration of Terra Nova's wastewater treatment and waste processing facilities will likely lead to increased demand for lab supplies, reagents, and equipment for environmental analysis and waste management.",
+        "source_url": "https://www.businesswire.com/news/home/20260514005080/en/Clean-Harbors-Announces-Acquisition-of-Terra-Nova-Solutions"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Minerals Development Oman (MDO) has partnered with Australian Laboratory Services (ALS) Arabia to establish Oman's first advanced mineral testing facility, which will also support environmental chemistry and industrial analysis.",
+        "location": "Oman",
+        "type_of_expansion": "New dedicated facility, new country market entry",
+        "investment_value": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This new facility will require a broad range of lab supplies, reagents, consumables, and scientific equipment for mineral testing and environmental chemistry analysis.",
+        "source_url": "https://omanet.om/en/news/economy/oman-advanced-mining-lab-deal/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Biomanufacturing startup Industrial Microbes (iMicrobes) has secured over $10 million in seed funding to accelerate the global transition to eco-friendly materials by advancing its bioprocessing capabilities and purifying its first commercial samples.",
+        "project_name": "Industrial Microbes Seed Funding Round",
+        "scope": "Advance biomanufacturing of sustainable, drop-in chemicals like acrylic acid, acrylonitrile, and carbon fiber; engineer microbes 3x faster; scale bioprocesses that convert renewable feedstocks into high-performance, biobased chemicals; purify first commercial samples for market testing.",
+        "timeline": "Ongoing with the new funding.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This R&D scale-up initiative will require new lab equipment, reagents for bioprocessing, and consumables for purification and testing of bio-based chemicals.",
+        "source_url": "https://www.causeartist.com/blog/industrial-microbes-raises-10m-to-transform-biomanufacturing"
+      },
+      {
+        "summary": "The University of California, Davis has opened the $66.4 million, 34,000 square-foot Resnick Center for Agricultural Innovation, a new facility equipped with labs, specialized equipment, and research spaces for agricultural and environmental sciences.",
+        "project_name": "Resnick Center for Agricultural Innovation",
+        "scope": "A new 34,000 square-foot building with labs, specialized equipment, and research spaces for agricultural and environmental sciences research, focusing on resilient agricultural systems, water and energy efficiencies, and repurposing agricultural waste.",
+        "timeline": "Construction completed over two years, inaugurated May 2026, fully occupied by Fall 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The opening of this new research center will drive demand for a wide range of lab supplies, reagents, and scientific equipment for agricultural and environmental analysis and experimentation.",
+        "source_url": "https://www.sacbee.com/news/politics-government/capitol-alert/article315896170.html"
+      },
+      {
+        "summary": "EVelution Energy is set to build the first commercial-scale cobalt processing facility in the U.S. near Wellton, Arizona, to process cobalt for electric vehicle batteries, defense systems, and other advanced technologies, with early site work already underway.",
+        "project_name": "U.S. Commercial-Scale Cobalt Processing Facility",
+        "scope": "Construction and operation of a commercial-scale facility near Wellton, Arizona, to process cobalt metal and cobalt sulfate for electric vehicle batteries, defense systems, and other advanced technologies.",
+        "timeline": "Early site work is underway.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "The development of a commercial-scale cobalt processing facility will create significant demand for specialized chemical reagents, analytical equipment for quality control, and various lab consumables for process monitoring and R&D.",
+        "source_url": "https://nam.org/evelution-energy-to-build-first-commercial-scale-cobalt-processing-facility-in-u-s-36526/"
+      },
+      {
+        "summary": "MP Materials Corp. will expand its Mountain Pass rare earth mining and recycling facility with a $120 million investment to recycle rare earth minerals from retired electronic devices.",
+        "project_name": "MP Materials Corp. Mountain Pass Facility Expansion",
+        "scope": "Expansion of the Mountain Pass rare earth mining and recycling facility to recycle rare earth minerals from retired electronic devices.",
+        "timeline": "Ongoing with the $120 million investment.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This facility expansion for rare earth recycling will increase demand for chemical reagents, analytical instruments for material characterization, and various lab supplies for process optimization and quality control.",
+        "source_url": "https://www.causeartist.com/blog/industrial-microbes-raises-10m-to-transform-biomanufacturing"
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Whatcom County is required to conduct an independent capacity analysis and redo its environmental analysis for an AltaGas terminal expansion, following an appeal by environmental groups.",
+        "facility_or_line": "AltaGas terminal",
+        "change_type": "Capacity analysis and environmental analysis required for expansion",
+        "location": "Whatcom County, Washington, USA",
+        "investment_value": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "The requirement for independent capacity and environmental analyses for a terminal expansion will drive demand for specialized environmental testing, monitoring equipment, and reagents for environmental chemists.",
+        "source_url": "https://salish-current.org/2026/04/29/analysis-for-altagas-terminal-pends-litigation/"
+      },
+      {
+        "summary": "Duke University is building a $23 million data center on its Central Campus, designed with a focus on environmental responsibility and sustainability, with room for future expansion.",
+        "facility_or_line": "Duke University Data Center",
+        "change_type": "New facility opening with room for expansion",
+        "location": "Central Campus, Duke University, North Carolina, USA",
+        "investment_value": "$23 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The construction and operation of a new data center with a focus on environmental responsibility will necessitate environmental monitoring and analysis, increasing demand for lab supplies and equipment for environmental chemists.",
+        "source_url": "https://www.theassemblync.com/news/duke-university-plans-a-small-data-center/"
+      },
+      {
+        "summary": "The NRC is accelerating its review of Orano's Project Ike Enrichment Facility, which aims for domestic LEU capacity expansion, with a comprehensive environmental review as one of its three pillars.",
+        "facility_or_line": "Orano's Project Ike Enrichment Facility",
+        "change_type": "Domestic LEU capacity expansion (requiring environmental review)",
+        "location": "Tennessee, USA",
+        "investment_value": "$900 million",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The environmental review for a large-scale nuclear enrichment facility expansion will generate significant demand for environmental monitoring, testing, and analytical lab supplies and services.",
+        "source_url": "https://discoveryalert.com.au/project-ike-nrc-review-domestic-uranium-enrichment-2026/"
+      },
+      {
+        "summary": "The University of Tennessee, Knoxville's Department of Chemistry is expanding its faculty and graduate student programs, with research interests including environmental chemistry, and is seeking a Learning & Teaching Stockroom and Laboratory Support Specialist.",
+        "facility_or_line": "University of Tennessee, Knoxville, Department of Chemistry",
+        "change_type": "Expansion of academic programs and research capacity in environmental chemistry",
+        "location": "Knoxville, Tennessee, USA",
+        "investment_value": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "The growth in environmental chemistry faculty and graduate programs at a university directly indicates an increased need for teaching and research lab supplies, reagents, and equipment.",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451336"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:15:18.843174",
+  "ai_summary": "Environmental chemists are experiencing significant growth with new labs and facilities opening across agriculture, waste management, mineral processing, and biomanufacturing. Substantial investments in sustainable technologies, research, and facility expansions, alongside key acquisitions, signal a rising demand for advanced analytical equipment, consumables, and specialized lab supplies. This widespread activity creates numerous opportunities for lab supply sales."
+}

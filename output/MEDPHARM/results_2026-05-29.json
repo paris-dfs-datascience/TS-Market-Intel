@@ -1,0 +1,79 @@
+{
+  "account": "MEDPHARM",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1V3YAK",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "MedPharm is expanding its manufacturing capabilities at its US site by utilizing Axomatic manufacturing platforms for larger batch sizes, ranging from 10 L to 1,500 L, to support later-stage clinical or registration manufacturing.",
+        "product_or_program": "Scale-Up & Process Development",
+        "stage": "Manufacturing Expansion",
+        "therapeutic_or_application_area": "General Pharmaceutical Manufacturing",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A lab supply sales rep should engage this account now to support their increased capacity for larger batch manufacturing and process optimization with relevant lab supplies and equipment.",
+        "source_url": "https://www.medpharm.com/services-solutions/process-development-scale-up/"
+      },
+      {
+        "summary": "MedPharm is actively developing and testing formulations for specialized and unconventional drug delivery routes, including intravesical (bladder), intra-articular (joint), and otic (ear) applications, utilizing various localized and depot-based delivery systems.",
+        "product_or_program": "Specialized Drug Delivery",
+        "stage": "Technology Platform Expansion",
+        "therapeutic_or_application_area": "Specialized Drug Delivery (Intravesical, Intra-articular, Otic)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A lab supply sales rep should engage this account now to provide specialized reagents, consumables, and equipment for their advanced drug delivery systems and complex anatomical site formulations.",
+        "source_url": "https://www.medpharm.com/routes-of-delivery/specialized-unconventional-delivery/"
+      },
+      {
+        "summary": "MedPharm is developing EYEVPT\u00ae, a new proprietary model for ophthalmic drug delivery assessment that incorporates a reconstructed human cornea, tear pumping, and blinking mimicry to provide more realistic evaluation of ocular drug products.",
+        "product_or_program": "EYEVPT\u00ae Ophthalmic Drug Delivery Model",
+        "stage": "Technology Platform Expansion",
+        "therapeutic_or_application_area": "Ophthalmic Drug Delivery",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A lab supply sales rep should engage this account now to supply materials, reagents, and specialized equipment for the development and testing of their new EYEVPT\u00ae model and advanced ophthalmic formulations.",
+        "source_url": "https://www.medpharm.com/routes-of-delivery/ophthalmic-drug-delivery/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "CordenPharma, a global contract development and manufacturing organization (CDMO), has entered into an agreement to acquire AmbioPharm, a US-headquartered peptide API CDMO with facilities in South Carolina (USA) and Shanghai (China), to expand its global peptide API capacity and capabilities.",
+        "acquirer": "CordenPharma",
+        "target": "AmbioPharm",
+        "deal_value": "Undisclosed",
+        "deal_status": "Agreement entered into, subject to customary closing conditions",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This capacity acquisition creates new procurement opportunities for lab supplies, reagents, and equipment at the expanded and integrated manufacturing sites in the US and China.",
+        "source_url": "https://www.fiercepharma.com/manufacturing/glp-1-manufacturer-cordenpharma-strikes-deal-peptide-cdmo-lining-new-production-sites"
+      },
+      {
+        "summary": "OrganaBio acquired substantially all operating assets of Excellos, establishing a bicoastal cell therapy Contract Development and Manufacturing Organization (CDMO) in the United States. A newly formed subsidiary, Excellos Labs, will oversee San Diego operations.",
+        "acquirer": "OrganaBio",
+        "target": "Excellos (operating assets)",
+        "deal_value": "Undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This acquisition expands OrganaBio's cell therapy CDMO network, creating new procurement needs for specialized lab supplies, reagents, and equipment for cell therapy development and manufacturing across multiple US facilities.",
+        "source_url": "https://www.contractpharma.com/breaking-news/organabio-acquires-excellos-operating-assets-establishing-coast-to-coast-cdmo/"
+      },
+      {
+        "summary": "Alcami Corporation, a U.S.-based contract development and manufacturing organization (CDMO), completed its acquisition of Tjoapack, a global contract packaging organization with facilities in the United States and The Netherlands. This expands Alcami's packaging and labeling services and marks its first European expansion.",
+        "acquirer": "Alcami Corporation",
+        "target": "Tjoapack",
+        "deal_value": "Undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This acquisition expands Alcami's end-to-end CDMO capabilities, including packaging and labeling, which will lead to new procurement needs for packaging materials, equipment, and related lab supplies across its expanded global footprint.",
+        "source_url": "https://www.alcami.com/news/alcami-to-acquire-contract-packaging-organization-tjoapack/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:12:26.243678",
+  "ai_summary": "MedPharm is significantly expanding its US manufacturing capabilities for larger batch sizes and diversifying into specialized drug delivery routes like intravesical and otic. They are also developing advanced ophthalmic testing models. This indicates increased demand for lab supplies, reagents, and specialized equipment for both scaled-up production and innovative R&D, creating new sales opportunities."
+}

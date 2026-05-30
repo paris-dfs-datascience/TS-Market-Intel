@@ -1,0 +1,328 @@
+{
+  "account": "USDA",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DpYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The USDA National Institute of Food and Agriculture (NIFA) announced the Equipment Grants Program (EGP), which aims to provide eligible institutions with funding to acquire shared-use equipment and instruments for scientific research in food and agricultural sciences. The program emphasizes instrumentation that enhances capabilities for researchers, educators, and extension specialists. While it funds equipment purchases, it explicitly excludes operational costs, consumable supplies, or maintenance for facilities and laboratories.",
+        "contract_name": "Equipment Grants Program (EGP)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This program indicates upcoming demand for scientific equipment from institutions that receive these USDA grants, presenting a sales opportunity for Thomas Scientific's equipment offerings.",
+        "source_url": "https://www.nifa.usda.gov/grants/funding-opportunities/equipment-grants-program"
+      },
+      {
+        "summary": "The USDA Agricultural Research Service awarded a contract (ID 1232SA26F0240) to Government Scientific Source Inc. for laboratory equipment and supplies, as well as analytical laboratory instrument manufacturing. The obligated amount for this award is $53,316.",
+        "contract_name": "Laboratory Equipment and Supplies / Analytical Laboratory Instrument Manufacturing (Contract ID: 1232SA26F0240)",
+        "estimated_value": "$53,316",
+        "deadline_or_expiration": "2026-06-12",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This direct contract award for laboratory equipment and supplies signifies ongoing procurement needs within the USDA, representing a direct sales signal for Thomas Scientific.",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_1232SA26F0240_12H2_47QSMS25D00A9_4732"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Worcester Polytechnic Institute (WPI) received a $5 million award from the Massachusetts Clean Energy Center to establish the Central Massachusetts Climatetech Hub Incubator, which includes renovating and expanding industrial laboratory space for pilot-scale climate tech research and manufacturing.",
+        "location": "Worcester, Massachusetts, USA",
+        "type_of_expansion": "Capacity expansion (new incubator with renovated and expanded industrial laboratory space)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This new incubator and expanded lab space will drive demand for specialized lab equipment, reagents, and consumables for climate technology research, materials durability testing, additive manufacturing, and circular manufacturing systems.",
+        "source_url": "https://www.wpi.edu/news/announcements/wpi-awarded-5-million-launch-central-massachusetts-climatetech-hub-incubator"
+      },
+      {
+        "summary": "Combe Incorporated will invest $30 million to expand its manufacturing operations in Rantoul, Illinois, supported by a $5 million grant from the State of Illinois. This expansion is expected to create more than 20 new full-time jobs and retain over 100 existing positions.",
+        "location": "Rantoul, Illinois, USA",
+        "type_of_expansion": "Capacity expansion (manufacturing operations)",
+        "investment_value": "$30 million",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The expansion of manufacturing operations will increase demand for raw materials, processing chemicals, quality control lab supplies, and potentially new manufacturing equipment.",
+        "source_url": "https://www.illinois.gov/news/press-release.24837.html"
+      },
+      {
+        "summary": "Closed Loop Partners provided a $5 million catalytic loan to Supersede to finance manufacturing equipment for a new facility in the Midwest, scheduled to launch in summer 2026, to scale production of high-performance structural materials.",
+        "location": "Midwest, USA",
+        "type_of_expansion": "New manufacturing facility / Capacity expansion",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-05",
+        "why_it_matters": "A new manufacturing facility will require initial procurement of lab supplies for quality control, R&D, and ongoing operational consumables for material production.",
+        "source_url": "https://www.prnewswire.com/news-releases/closed-loop-partners-backs-supersedes-expansion-with-5-million-catalytic-loan-scaling-production-of-high-performance-structural-materials-for-manufacturing-and-construction-300000000.html"
+      },
+      {
+        "summary": "Illinois Institute of Technology (IIT) received $5 million in state funding for the continued development of a state-of-the-art biomedical business incubator and laboratories, involving the renovation of a Main Campus building into a biomedical research and development complex.",
+        "location": "Chicago, Illinois, USA",
+        "type_of_expansion": "Capacity expansion (biomedical research and development complex with labs and incubator space)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-23",
+        "why_it_matters": "The development of new biomedical labs and incubator space will create demand for a wide array of specialized lab equipment, reagents, and consumables for biotechnology and drug development research.",
+        "source_url": "https://news.iit.edu/news/iit-awarded-5m-biomedical-complex"
+      },
+      {
+        "summary": "Colorado School of Mines received a $5 million investment from The Angel Family Foundation to advance its Space Resources Program, supporting education, research, faculty leadership, student funding, and upgrading on-campus lunar and planetary simulation facilities.",
+        "location": "Golden, Colorado, USA",
+        "type_of_expansion": "Capacity expansion (research facilities and program)",
+        "investment_value": "$5 million",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Upgraded lunar and planetary simulation facilities and expanded research in space resources will require specialized scientific equipment, materials, and consumables for extreme environment testing and analysis.",
+        "source_url": "https://www.mines.edu/newsroom/news/5m-gift-angel-family-foundation-advances-space-resources-mines/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "The U.S. Department of Agriculture's Agricultural Research Service (ARS) opened the Knipling-Bushland U.S. Livestock Insects Research Laboratory in Kerrville, TX, a new state-of-the-art facility aimed at combating livestock pests.",
+        "project_name": "Knipling-Bushland U.S. Livestock Insects Research Laboratory",
+        "scope": "A new 52,000-square-foot state-of-the-art laboratory facility featuring cutting-edge laboratory spaces, advanced cattle facilities, and a genomics core to drive research on invasive fly and tick pests threatening the U.S. cattle industry.",
+        "timeline": "Opened on May 27, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The opening of a new state-of-the-art research laboratory indicates a significant demand for new scientific equipment, reagents, and consumables for entomological and veterinary research.",
+        "source_url": "https://www.dlapiper.com/en-us/insights/publications/food-and-beverage-news-and-trends/2026/food-and-beverage-news-and-trends-may-1-2026"
+      },
+      {
+        "summary": "The U.S. Department of Agriculture's Animal and Plant Health Inspection Service (APHIS) announced approximately $12 million in funding to support efforts by States and Tribal governments, research institutions, and universities to control and prevent chronic wasting disease (CWD).",
+        "project_name": "Chronic Wasting Disease Control and Prevention Funding",
+        "scope": "Approximately $12 million in funding for projects that develop innovative tools or methods and support State and Tribal CWD control and prevention efforts in wild and farmed cervids.",
+        "timeline": "Announced on May 15, 2026.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This multi-million dollar program will drive demand for diagnostic kits, reagents, and laboratory equipment for disease surveillance, testing, and research.",
+        "source_url": "https://www.dailyintakeblog.com/2026/05/usda-announces-organizational-changes-that-move-personnel-outside-of-dc-region/"
+      },
+      {
+        "summary": "The USDA announced a reorganization of the Food Safety and Inspection Service (FSIS), which includes establishing a new National Food Safety Center (NFSC) in Urbandale, IA, and expanding scientific capabilities through a Science Center in Athens, GA.",
+        "project_name": "FSIS National Food Safety Center (Urbandale, IA) and Science Center (Athens, GA)",
+        "scope": "The NFSC will serve as the primary hub for FSIS administrative and support operations, while the Science Center in Athens, GA, will expand capabilities in microbiology, chemistry, and epidemiology.",
+        "timeline": "Announced on April 23, 2026.",
+        "event_date": "2026-04-23",
+        "why_it_matters": "The establishment of a new science center focused on microbiology, chemistry, and epidemiology will create significant demand for specialized laboratory equipment, reagents, and consumables.",
+        "source_url": "https://www.fsis.usda.gov/about-fsis/reorganization"
+      },
+      {
+        "summary": "The USDA announced the availability of $65 million in funding for the Conservation Innovation Grants (CIG) program to support new tools, approaches, practices, and technologies for natural resource conservation on private lands.",
+        "project_name": "Conservation Innovation Grants (CIG) Program",
+        "scope": "$65 million in funding for CIG Classic ($15M) and CIG On-Farm Trials ($50M) focusing on areas like irrigation water management, nutrient management, grazing lands, soil health demonstration trials, and pest pressure management.",
+        "timeline": "Announced on May 27, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This significant investment in conservation innovation will drive demand for scientific instruments, sensors, and analytical tools for environmental monitoring, soil analysis, water quality testing, and pest management research.",
+        "source_url": "https://www.fsis.usda.gov/about-fsis/reorganization"
+      }
+    ],
+    "tender": [
+      {
+        "summary": "The USDA NIFA Equipment Grants Program (EGP) aims to increase access to shared special-purpose equipment/instruments for scientific research in food and agricultural sciences programs at higher education institutions and State Cooperative Extension Services.",
+        "tender_name": "Equipment Grants Program (EGP)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This program indicates upcoming demand for scientific equipment from academic and extension institutions involved in food and agricultural sciences, presenting a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.nifa.usda.gov/grants/funding-opportunities/equipment-grants-program"
+      },
+      {
+        "summary": "The USDA Agricultural Research Service (ARS) has issued a Request for Quotation (RFQ) for an Automated Slide Scanner, set aside for small business concerns.",
+        "tender_name": "Automated Slide Scanner (Solicitation 1232SA26Q0676)",
+        "estimated_value": null,
+        "deadline": "2026-06-05",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This solicitation for an automated slide scanner represents a direct sales opportunity for Thomas Scientific to supply advanced laboratory equipment to USDA research facilities.",
+        "source_url": "https://www.highergov.com/contract-opportunity/automated-slide-scanner-1232sa26q0676-k-df9c7/"
+      },
+      {
+        "summary": "The USDA Agricultural Research Service has issued a combined synopsis/solicitation (RFQ) for a Mixing Chamber, designated as a Total Small Business Set-Aside.",
+        "tender_name": "Mixing Chamber (Solicitation 1232SA26Q0573)",
+        "estimated_value": null,
+        "deadline": "2026-05-12",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This solicitation for a mixing chamber presents a direct sales opportunity for Thomas Scientific to provide essential laboratory equipment to USDA research facilities.",
+        "source_url": "https://sam.gov/workspace/contract/opp/98652a24503e4b44a151890c37e906bf/view"
+      },
+      {
+        "summary": "The USDA Food Safety and Inspection Service (FSIS) is forecasting a new procurement for seven Miseq i100s instruments to perform Whole Genome Sequencing on foodborne pathogens.",
+        "tender_name": "Miseq i100s for Whole Genome Sequencing (Forecast)",
+        "estimated_value": "$250,000 - $499,999",
+        "deadline": "2026-07-31",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This forecast indicates significant upcoming demand for advanced sequencing equipment and related consumables within USDA FSIS, presenting a major sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.highergov.com/contract-forecast/miseq-i100s-to-perform-whole-genome-sequencing-wg-1142917/"
+      },
+      {
+        "summary": "The USDA NIFA Resident Instruction Grants Program for Institutions of Higher Education in Insular Areas and Agriculture and Food Sciences Facilities and Equipment aims to strengthen education and research in food and agricultural sciences.",
+        "tender_name": "Resident Instruction Grants Program for Institutions of Higher Education in Insular Areas and Agriculture and Food Sciences Facilities and Equipment",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "This grant program signals upcoming demand for scientific equipment and lab supplies from higher education institutions in Insular Areas focusing on food and agricultural sciences, creating a sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.nifa.usda.gov/grants/funding-opportunities/resident-instruction-grants-program-institutions-higher-education"
+      },
+      {
+        "summary": "The USDA NIFA Agricultural Genome to Phenome Initiative (AG2PI) is a grant program supporting collaborative research in agricultural genomics and phenomics.",
+        "tender_name": "Agricultural Genome to Phenome Initiative (AG2PI)",
+        "estimated_value": "$900,000 (Research) or $50,000 (Workshop)",
+        "deadline": "2026-06-29",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This grant program signals upcoming demand for advanced genomics and phenomics equipment, reagents, and consumables for agricultural research, creating a sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.lsuagcenter.com/articles/page1686679660123"
+      }
+    ],
+    "mandate": [
+      {
+        "summary": "The New York State Senate passed the 2026-27 budget, which includes a $54 million investment in a new state-of-the-art forensics lab for the State Police.",
+        "mandate_type": "forensic lab expansions",
+        "jurisdiction": "New York State",
+        "funding_amount": 54000000,
+        "effective_date": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "This mandate creates non-discretionary lab supply demand for equipment, reagents, and consumables needed to set up and operate a new state-of-the-art forensics lab.",
+        "source_url": "https://www.nysenate.gov/news/articles/2026/state-senate-passes-2026-27-budget"
+      },
+      {
+        "summary": "The Environmental Monitoring and Remediation Technology Assessment Initiative (EMRTAI) is accepting applications for technology assessments focused on recovering critical minerals from waste materials at Superfund legacy hard rock mine and mineral processing sites, with funding for each demonstration potentially exceeding $150,000.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "Federal US",
+        "funding_amount": 150000,
+        "effective_date": null,
+        "event_date": "2026-04-28",
+        "why_it_matters": "This initiative, funded by the U.S. government, will drive demand for lab supplies, reagents, and equipment for environmental monitoring, analysis, and remediation technologies at Superfund sites.",
+        "source_url": "https://www.battelle.org/newsroom/news-releases/2026/battelle-led-environmental-monitoring-and-remediation-technology-assessment-initiative-emrtai-opens-call-for-applications-for-technology-assessments-for-critical-mineral-recovery"
+      },
+      {
+        "summary": "New EPA rules require labs to fully implement dichloromethane (DCM) exposure control plans by May 10, 2027, which is anticipated to increase costs for labs due to required analysis and monitoring.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "Federal US",
+        "funding_amount": null,
+        "effective_date": "2027-05-10",
+        "event_date": "2026-04-29",
+        "why_it_matters": "New EPA regulations on dichloromethane exposure require labs to implement control plans and conduct monitoring, creating non-discretionary demand for analytical equipment, consumables, and services for air sampling and chemical analysis.",
+        "source_url": "https://www.chemistryworld.com/news/stringent-regulations-on-dichloromethane-are-forcing-us-labs-to-rethink-use-of-common-solvent/4019688.article"
+      },
+      {
+        "summary": "The CDC's wastewater program is providing technical assistance to utility providers, laboratories, and health departments to streamline data submission for wastewater monitoring, which serves as an early warning system for emerging infections.",
+        "mandate_type": "wastewater surveillance programs",
+        "jurisdiction": "Federal US",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-04-28",
+        "why_it_matters": "The ongoing CDC initiative to increase and streamline wastewater data submission for infectious diseases creates non-discretionary demand for lab supplies, reagents, and equipment for wastewater sample collection, processing, and analysis.",
+        "source_url": "https://www.cdc.gov/publichealthgateway/phds/real-time-wastewater-data.html"
+      },
+      {
+        "summary": "Wichita State University and the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) marked the opening of a new Forensic Crime Gun Intelligence Laboratory, which is designed to analyze firearms-related evidence and will expand operations over the next several years.",
+        "mandate_type": "forensic lab expansions",
+        "jurisdiction": "Federal US, Kansas",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The opening and planned expansion of this forensic lab will create non-discretionary demand for lab supplies, reagents, and equipment for firearm and toolmark examinations, DNA analysis, and latent fingerprint processing.",
+        "source_url": "https://www.wichita.edu/news/releases/2026/05/atf_lab.php"
+      },
+      {
+        "summary": "The EPA announced nearly $1 billion in grant funding to address PFAS and other emerging contaminants in drinking water through the Emerging Contaminants in Small or Disadvantaged Communities Grant, as part of a larger effort with $5 billion available over five years and an additional $4 billion through Drinking Water State Revolving Funds dedicated to PFAS.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "Federal US",
+        "funding_amount": 1000000000,
+        "effective_date": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "Significant federal funding for addressing PFAS and other emerging contaminants in drinking water will create non-discretionary demand for lab supplies, reagents, and equipment for water testing, analysis, and treatment research.",
+        "source_url": "https://www.epa.gov/newsreleases/epa-advances-comprehensive-pfas-strategy-legally-defensible-practical-scientifically-sound-drinking-water-protections"
+      },
+      {
+        "summary": "The U.S. Department of Energy (DOE) announced $27.8 million for 10 projects aimed at decarbonizing Water Resource Recovery Facilities (WRRFs) by accelerating research, development, and demonstration of technologies to lower greenhouse gas emissions.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "Federal US",
+        "funding_amount": 27800000,
+        "effective_date": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "This DOE funding for decarbonization projects at wastewater facilities will drive demand for lab supplies, reagents, and equipment for environmental monitoring, greenhouse gas analysis, and R&D of new treatment technologies.",
+        "source_url": "https://www.energy.gov/eere/amo/articles/funding-selections-decarbonization-water-resource-recovery-facilities"
+      },
+      {
+        "summary": "The Oregon Department of Energy's TIGHGER 2.0 Project, which assesses progress toward greenhouse gas emission reduction goals, includes a proposed measure for increased nitrate testing in soil and private wells for food and agriculture.",
+        "mandate_type": "environmental monitoring mandates",
+        "jurisdiction": "Oregon",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "The proposed increased nitrate testing in soil and private wells in Oregon, as part of greenhouse gas emission reduction efforts, would create non-discretionary demand for lab supplies, reagents, and equipment for chemical analysis.",
+        "source_url": "https://www.oregon.gov/energy/energy-resources/Documents/TIGHGER-2.0-Public-Comments-Compilation.pdf"
+      }
+    ],
+    "legislation": [
+      {
+        "summary": "The House Appropriations Committee approved the Fiscal Year 2027 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, which includes $1.795 billion for the Agricultural Research Service (ARS), an increase of $2.8 million above the FY26 enacted level.",
+        "bill_or_budget_name": "Fiscal Year 2027 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act",
+        "jurisdiction": "Federal",
+        "funding_amount": 1795000000,
+        "focus_area": "Scientific Research Programs (Agricultural Research Service)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant federal allocation for agricultural research will drive demand for a wide range of lab supplies, reagents, and scientific equipment to support ongoing and new research projects within ARS.",
+        "source_url": "https://www.asas.org/taking-stock/blog-post/taking-stock/2026/05/28/washington-roundup---may-2026"
+      },
+      {
+        "summary": "The House Appropriations Committee approved the Fiscal Year 2027 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, which includes $10 million for the Sustainable Agriculture Research and Education Account.",
+        "bill_or_budget_name": "Fiscal Year 2027 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act",
+        "jurisdiction": "Federal",
+        "funding_amount": 10000000,
+        "focus_area": "Scientific Research Programs (Sustainable Agriculture)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This funding for sustainable agriculture research will generate demand for lab consumables and equipment used in environmental analysis, soil science, and crop development.",
+        "source_url": "https://case.house.gov/news/documentsingle.aspx?DocumentID=4889"
+      },
+      {
+        "summary": "The House Appropriations Committee approved the Fiscal Year 2027 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, which includes $435 million for the Agriculture and Food Research Initiative (AFRI).",
+        "bill_or_budget_name": "Fiscal Year 2027 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act",
+        "jurisdiction": "Federal",
+        "funding_amount": 435000000,
+        "focus_area": "Scientific Research Programs (Agriculture and Food)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The substantial allocation to AFRI will fuel a broad spectrum of agricultural and food science research, leading to increased procurement of specialized lab equipment, reagents, and consumables across various institutions.",
+        "source_url": "https://sustainableagriculture.net/blog/inside-the-houses-fy27-agriculture-spending-bill/"
+      },
+      {
+        "summary": "The U.S. Department of Agriculture (USDA) announced $65 million in funding for the Conservation Innovation Grants (CIG) program in 2026, with $50 million for CIG On-Farm Trials and $15 million for CIG Classic, to support new tools, approaches, practices, and technologies for natural resource conservation on private lands.",
+        "bill_or_budget_name": "Conservation Innovation Grants (CIG) Program",
+        "jurisdiction": "Federal",
+        "funding_amount": 65000000,
+        "focus_area": "Environmental Monitoring, Scientific Research Programs (Natural Resource Conservation)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This funding will drive demand for environmental testing equipment, field monitoring devices, and laboratory supplies necessary for developing and evaluating innovative conservation technologies and practices.",
+        "source_url": "https://www.michiganfarmnews.com/usda-to-invest-65m-for-projects-to-improve-farmer-operations-conserve-natural-resources"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "The USDA is decommissioning the Beltsville Agricultural Research Center (BARC), a 6,500-acre federal research complex in Prince George's County, Maryland, and relocating its research programs to five regional hubs across the country: Salt Lake City, Fort Collins (Colorado), Indianapolis, Kansas City (Missouri), and Raleigh (North Carolina).",
+        "facility_or_programme": "Beltsville Agricultural Research Center (BARC)",
+        "closure_type": "Decommissioning and Relocation/Consolidation",
+        "effective_date": null,
+        "reason": "The move is part of a cost-saving modernization effort, citing outdated or underutilized buildings and significant deferred maintenance, aiming to better connect researchers with regional agricultural needs.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This presents a competitive displacement opportunity for Thomas Scientific to supply new or expanded labs at the regional hubs and a churn risk at the closing BARC facility.",
+        "source_url": "https://nebraskapublicmedia.org/en/news/news-articles/a-research-facility-closure-could-bring-more-usda-scientists-to-nebraska-that-could-benefit-research-if-the-staff-make-it-here/"
+      },
+      {
+        "summary": "The USDA is reorganizing the Forest Service, which includes relocating its national headquarters from Washington, D.C., to Salt Lake City, closing all nine regional offices, and consolidating research activities under a single national research facility in Fort Collins, Colorado. This restructuring also involves nearly 60 research and development facility closures across 31 states.",
+        "facility_or_programme": "USDA Forest Service Regional Offices and various Research & Development Facilities",
+        "closure_type": "Consolidation and Closure",
+        "effective_date": null,
+        "reason": "The reorganization aims to streamline operations, move leadership closer to the forests and communities served, and reduce the overall facilities footprint due to reduced congressional appropriations.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This creates competitive displacement opportunities for Thomas Scientific to equip the new national research facility in Fort Collins and operational service centers, while posing a churn risk at the closed regional and research facilities.",
+        "source_url": "https://www.jdsupra.com/legalnews/update-usda-announces-reorganization-of-6838936/"
+      },
+      {
+        "summary": "The USDA announced a reorganization of the Food Safety and Inspection Service (FSIS), establishing a new National Food Safety Center (NFSC) in Urbandale, Iowa, and a Science Center in Athens, Georgia, and relocating approximately two-thirds of its National Capital Region workforce. Additionally, the Food and Nutrition Service (FNS) will be reorganized into the Food and Nutrition Administration, consolidating its seven regional offices into five new USDA hub locations in Raleigh, NC; Kansas City, MO; Indianapolis, IN; Fort Collins, CO; and Salt Lake City, UT.",
+        "facility_or_programme": "Food Safety and Inspection Service (FSIS) National Capital Region offices, Food and Nutrition Service (FNS) regional offices",
+        "closure_type": "Consolidation and Relocation",
+        "effective_date": null,
+        "reason": "These changes are intended to modernize operations, streamline support functions, reduce duplication, improve coordination, and better align the agencies with the nation's agricultural landscape.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This presents significant competitive displacement opportunities for Thomas Scientific to supply the new National Food Safety Center in Iowa, the Science Center in Georgia, and the consolidated FNS hub locations.",
+        "source_url": "https://www.jdsupra.com/legalnews/update-usda-announces-reorganization-of-6838936/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:49:31.138289",
+  "ai_summary": "USDA is undergoing major reorganization, establishing new research centers and relocating facilities, while increasing funding for scientific equipment and agricultural research. This creates significant opportunities for lab supply sales. New and reconfigured labs will require outfitting with instruments, consumables, and services, evidenced by specific tenders for items like automated slide scanners and sequencers, and a focus on food safety and agricultural genomics."
+}

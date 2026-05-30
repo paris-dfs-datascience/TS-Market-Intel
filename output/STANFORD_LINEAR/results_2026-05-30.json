@@ -1,0 +1,65 @@
+{
+  "account": "STANFORD LINEAR",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001G000001gYYmiIAG",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "SLAC National Accelerator Laboratory is seeking firm fixed price proposals for Mirror Benders, with proposals due by May 29, 2026.",
+        "contract_name": "Mirror Benders",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-29",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This is a direct RFP for scientific equipment (laboratory equipment and supplies, analytical laboratory instrument manufacturing) that Thomas Scientific could potentially supply or facilitate.",
+        "source_url": "https://sam.gov/workspace/contract/opp/657948aeef684e528183d5f12e020060/view"
+      },
+      {
+        "summary": "SLAC National Accelerator Laboratory is inviting firm fixed price proposals for Photon Stopper Holders, with a submission deadline of June 4, 2026.",
+        "contract_name": "Photon Stopper Holders",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-04",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This is a direct RFP for scientific equipment (laboratory equipment and supplies, analytical laboratory instrument manufacturing) that Thomas Scientific could potentially supply or facilitate.",
+        "source_url": "https://app.govly.com/public/opportunities/16528670"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Fermilab has completed and delivered the final cryomodules for the high-energy upgrade of SLAC's Linac Coherent Light Source (LCLS), which will double the energy of the beam and more than double the maximum X-ray energy. The installation and commissioning process is expected to take about two years.",
+        "project_name": "LCLS High-Energy Upgrade (LCLS-II High Energy)",
+        "scope": "Doubling the energy of the LCLS X-ray laser beam and more than doubling the maximum X-ray energy by adding 23 cryomodules to the superconducting accelerator.",
+        "timeline": "Decade-long production run completed; installation and commissioning started December 2025 and expected to take about two years.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The ongoing installation and commissioning of the LCLS high-energy upgrade will drive demand for specialized scientific equipment, maintenance supplies, and potentially new reagents for experiments utilizing the enhanced X-ray capabilities.",
+        "source_url": "https://news.fnal.gov/2026/04/fermilab-completes-its-part-in-upgrading-worlds-most-powerful-x-ray-laser/"
+      },
+      {
+        "summary": "SLAC National Accelerator Laboratory and Citrine Informatics have formed a two-year public-private partnership, funded by the Energy Department's Advanced Manufacturing Office (AMO), to develop a methodology for discovering new materials using AI and SLAC's Stanford Synchrotron Radiation Lightsource (SSRL).",
+        "project_name": "AI for New Materials Discovery",
+        "scope": "Developing a methodology for discovering new materials applicable across manufacturing, initially focusing on metallic glasses and optimizing nanoparticle catalyst synthesis, utilizing AI and SSRL.",
+        "timeline": "Two-year partnership.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This new research program will likely require advanced computational resources, specialized materials for experimentation, and analytical consumables for the Stanford Synchrotron Radiation Lightsource (SSRL).",
+        "source_url": "https://www.energy.gov/cmei/amo/articles/artificial-intelligence-future-new-materials-discovery"
+      },
+      {
+        "summary": "SLAC National Accelerator Laboratory is leading the construction of the massive camera for the Large Synoptic Survey Telescope (LSST), which will conduct a 10-year survey of the night sky, cataloging billions of stars and galaxies and generating vast amounts of data.",
+        "project_name": "Large Synoptic Survey Telescope (LSST) / Vera C. Rubin Observatory Camera Construction",
+        "scope": "Construction of the largest digital camera for optical astronomy and its use in a 10-year survey to study dark energy, dark matter, and galaxy formation.",
+        "timeline": "10-year survey planned; construction is ongoing.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The ongoing construction and future operation of the LSST camera will create demand for high-precision optical components, specialized detectors, data storage solutions, and various laboratory consumables for calibration and maintenance.",
+        "source_url": "https://www.energy.gov/technologycommercialization/articles/ott-poster-series-spotlight-slac-nrel-and-bnl"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:51:02.955350+00:00",
+  "ai_summary": "SLAC is undergoing significant expansion and innovation, with major upgrades to LCLS, new AI-driven materials discovery initiatives, and leading the LSST camera construction. These long-term projects, alongside active procurement for specialized components like Mirror Benders and Photon Stopper Holders, signal increased demand for a wide range of lab supplies, consumables, and specialized equipment over the next several years."
+}

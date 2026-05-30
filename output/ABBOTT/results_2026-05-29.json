@@ -1,0 +1,22 @@
+{
+  "account": "ABBOTT",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1CAYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T05:58:05.752480",
+  "ai_summary": null
+}

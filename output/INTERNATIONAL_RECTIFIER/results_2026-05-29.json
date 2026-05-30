@@ -1,0 +1,27 @@
+{
+  "account": "INTERNATIONAL RECTIFIER",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1UjYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Infineon Technologies AG announced an acceleration of its AI-related investments and capacity investments, including the ramp-up of its new Smart Power Fab in Dresden, as part of its increased planned capital spending for fiscal year 2026, which totals \u20ac2.7 billion. Approximately \u20ac500 million of this investment is specifically allocated to expanding manufacturing capacity for chips used in AI data centers and power infrastructure.",
+        "amount": "\u20ac500 million",
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "New production infrastructure (Smart Power Fab in Dresden), manufacturing capacity expansion for AI data center chips and power infrastructure.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The expansion of manufacturing capacity and the ramp-up of a new fab will drive demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for R&D, quality control, and production processes.",
+        "source_url": "https://capacityglobal.com/news/infineon-ai-data-centre-demand-revenue/"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:43:25.443103",
+  "ai_summary": "Infineon, International Rectifier's parent, is significantly boosting AI-related and manufacturing capacity investments, including a new Smart Power Fab ramp-up in Dresden. With \u20ac500 million specifically for AI data center chip production, this expansion signals increased R&D and production activity. For lab supply sales, this means a growing need for equipment, consumables, and services to support their advanced semiconductor manufacturing and development efforts."
+}

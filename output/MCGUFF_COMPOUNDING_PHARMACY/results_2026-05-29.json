@@ -1,0 +1,42 @@
+{
+  "account": "MCGUFF COMPOUNDING PHARMACY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0011M00002FBPDpQAP",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "McGuff Outsourcing Solutions (MOS) is transitioning its 503A compounding pharmacy to a 503B outsourcing facility and is actively developing and testing compounded drugs, including Glutathione, Methylcobalamin, Taurine, Lipoic Acid, DMPS, Dexpanthenol, Procaine, and NAD, with plans for additional compounds like Alpha Lipoic Acid (ALA), Procaine HCL, Methione, Inositol, Choline Chloride (M.I.C.), and Calcium EDTA.",
+        "product_or_program": "Glutathione, Methylcobalamin, Taurine, Lipoic Acid, DMPS, Dexpanthenol, Procaine, NAD, Alpha Lipoic Acid (ALA), Procaine HCL, Methione, Inositol, Choline Chloride (M.I.C.), Calcium EDTA",
+        "stage": "Development and stability studies for compounded drugs; transition to 503B outsourcing facility",
+        "therapeutic_or_application_area": "Compounded drugs for various medical needs",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The development and testing of multiple compounded drugs in a new 503B outsourcing facility indicate an increased need for raw materials, reagents, consumables, and analytical equipment for quality control and production.",
+        "source_url": "https://www.mcguff.com/503b-compounded-drugs-currently-in-development-at-mcguff-outsourcing-solutions-mos"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "McGuff Compounding Pharmacy is transitioning its 503A compounding pharmacy to a 503B outsourcing facility, McGuff Outsourcing Solutions (MOS), and is actively developing several compounded drugs. These include Glutathione, Methylcobalamin, Taurine, Lipoic Acid, DMPS, Dexpanthenol, Procaine, and NAD, with future plans for Alpha Lipoic Acid (ALA), Methione, Inositol, Choline Chloride (M.I.C.), and Calcium EDTA.",
+        "project_name": "503B Compounded Drug Development and Outsourcing Facility Transition",
+        "scope": "Transitioning to a 503B outsourcing facility (McGuff Outsourcing Solutions - MOS), active testing and stability studies of compounded drugs, and future research and development of additional drugs.",
+        "timeline": "Ongoing development with initial drugs (Glutathione, Methylcobalamin) planned for production upon California Board of Pharmacy (CA BOP) license approval, followed by others.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This initiative will drive demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for drug development, quality control, and manufacturing processes at the new 503B outsourcing facility.",
+        "source_url": "https://www.mcguff.com/503b-compounded-drugs-currently-in-development-at-mcguff-outsourcing-solutions-mos"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:34:13.832198",
+  "ai_summary": "McGuff is transitioning its 503A pharmacy to a 503B outsourcing facility, McGuff Outsourcing Solutions, and actively developing numerous compounded drugs like Glutathione and NAD. This expansion into 503B manufacturing and a broader drug pipeline signifies increased demand for lab supplies, raw materials, and analytical equipment for development, testing, and quality control, creating significant sales opportunities."
+}

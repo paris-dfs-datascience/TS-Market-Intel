@@ -1,0 +1,64 @@
+{
+  "account": "INTRAMALL",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1WSYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [
+      {
+        "summary": "GSA's \"Forecast of contracting opportunities\" tool provides information on upcoming federal contract opportunities, including those for laboratory equipment and supplies and scientific equipment, helping businesses prepare early for solicitations on SAM.gov.",
+        "tender_name": "GSA Forecast of Contracting Opportunities (General)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "Thomas Scientific can utilize the GSA Forecast of Contracting Opportunities tool to proactively identify and prepare for future federal procurement needs for laboratory and scientific equipment.",
+        "source_url": "https://www.gsa.gov/small-business/find-opportunities"
+      },
+      {
+        "summary": "An update on the VA's Medical/Surgical Prime Vendor Program (MSPV Gen-Z V1) contract, which streamlines supply chain management for VA facilities, delivering essential medical, surgical, dental, and lab supplies efficiently and cost-effectively.",
+        "tender_name": "VA Medical/Surgical Prime Vendor Program (MSPV Gen-Z V1) Update",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "The ongoing VA MSPV program signifies continuous demand for lab supplies and consumables across VA facilities, offering Thomas Scientific opportunities to partner with prime vendors or pursue direct contracts.",
+        "source_url": "https://department.va.gov/procurement-acquisition-and-logistics/strategic-acquisition-center/sac-medical-surgical-prime-vendor-program-mspv-updated/"
+      },
+      {
+        "summary": "A Sources Sought notice (36C26326Q0753) from the VA Network Contracting Office 23 to identify qualified businesses capable of providing blood products, reference laboratory testing, and apheresis services for the Omaha VA Medical Center.",
+        "tender_name": "SOURCES SOUGHT - Blood, Blood Products and Services (36C26326Q0753)",
+        "estimated_value": null,
+        "deadline": "2026-06-08",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This VA Sources Sought notice indicates an upcoming solicitation for blood products and reference laboratory services, creating a potential future demand for related lab supplies and reagents for Thomas Scientific.",
+        "source_url": "https://discover.govdash.com/solicitations/019e5cdf-1163-70ef-bd01-8bd6a6704360--6506-sources-sought-blood-blood-products-and-services-in-support-of-the-nebraska"
+      },
+      {
+        "summary": "An intent to sole source a firm fixed-price purchase order (N00421-26-Q-1173) to TA Instruments-Waters L.L.C for laboratory equipment maintenance, repair, or rebuild services for the Navy.",
+        "tender_name": "Thermal Lab Lifetime Support Plan (N00421-26-Q-1173)",
+        "estimated_value": null,
+        "deadline": "2026-05-15",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This DoD sole source intent for lab equipment maintenance signals ongoing operational needs for specialized thermal lab equipment, potentially leading to future needs for consumables or replacement parts that Thomas Scientific could supply.",
+        "source_url": "https://www.bidnetdirect.com/maryland/solicitations/closed-bids/statewide/Thermal-Lab-Lifetime-Support-Plan/2690372192"
+      },
+      {
+        "summary": "NASA announced plans to compete the next contract for managing and operating the Jet Propulsion Laboratory (JPL), a federally funded research and development center, with the current contract having a potential maximum value of $30 billion.",
+        "tender_name": "NASA Jet Propulsion Laboratory (JPL) Management and Operations Contract Competition",
+        "estimated_value": "30,000,000,000",
+        "deadline": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "The competition for the JPL management contract signals a significant upcoming opportunity for a wide range of scientific equipment, lab supplies, and research consumables, as the new contractor will oversee a major federally funded research center.",
+        "source_url": "https://www.nasa.gov/news-release/nasa-to-compete-contract-for-jet-propulsion-laboratory-management/"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:32:25.696586",
+  "ai_summary": "Government agencies like GSA, VA, Navy, and NASA are actively tendering for lab equipment, supplies, and related services. Upcoming opportunities include general lab supplies, specialized testing, and large-scale facility operations like JPL. This signals continuous demand across federal entities, making it crucial for lab supply sales teams to monitor SAM.gov and engage early to secure significant contracts."
+}

@@ -1,0 +1,139 @@
+{
+  "account": "MICHIGAN STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1C9YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "MSU researchers, led by Emily Pomeranz and Alexa Warwick, received a $148,765 NSF grant to build collaborative partnerships for wetlands education in Metro Detroit.",
+        "recipient": "Emily Pomeranz, Alexa Warwick",
+        "department_or_lab": "Michigan Sea Grant, MSU Extension",
+        "amount": "$148,765",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This indicates demand for environmental research supplies, educational materials, and potentially field equipment for wetlands studies.",
+        "source_url": "https://www.michiganseagrant.org/news/2026/05/12/msu-researchers-receive-148k-nsf-grant-to-create-wetlands-partnership/"
+      },
+      {
+        "summary": "Professor Jiying Ling received a $5.8 million grant from the National Institutes of Health for the \"Food, Body and Mind\" program, focusing on nutrition, movement, and mindfulness for children in Head Start locations across Michigan.",
+        "recipient": "Jiying Ling",
+        "department_or_lab": "College of Nursing",
+        "amount": "$5.8 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This suggests demand for health and wellness program supplies, nutritional assessment tools, and potentially equipment for physical activity monitoring.",
+        "source_url": "https://nursing.msu.edu/news/how-msu-nursing-research-changing-lives-across-michigan"
+      },
+      {
+        "summary": "Dr. Qian's team is developing a wireless, battery-free sensor for neural and cardiovascular disease detection, currently supported by an NSF grant (through June 30, 2027) and partially by an NIH BRAIN initiative grant.",
+        "recipient": "Dr. Qian",
+        "department_or_lab": "Radiology, MSU School of Veterinary Medicine",
+        "amount": "Not specified for current NSF grant",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This indicates demand for advanced sensor components, materials for device fabrication, and potentially lab equipment for neural and cardiovascular research.",
+        "source_url": "https://osteopathicmedicine.msu.edu/news/radiology-professor-develops-wireless-battery-free-sensor-multiple-applications-including-early"
+      },
+      {
+        "summary": "Borzoo Bonakdarpour received an $815,000 grant from the U.S. Navy to analyze software upgrades for long-life coding systems.",
+        "recipient": "Borzoo Bonakdarpour",
+        "department_or_lab": "Department of Computer Science and Engineering",
+        "amount": "$815,000",
+        "agency": "U.S. Navy (DoD)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This suggests demand for high-performance computing resources, software development tools, and potentially specialized testing equipment for software and power systems.",
+        "source_url": "https://www.egr.msu.edu/news/2026/05/27/more-1m-advance-evaluation-tools-software-and-power-systems"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "The Leinweber Center for Engineering and Digital Innovation is a new state-of-the-art hub for learning, research, entrepreneurship, and industry, featuring active classrooms, teaching labs, and student project studios.",
+        "project_name": "Leinweber Center for Engineering and Digital Innovation",
+        "location": "Southwest corner of Red Cedar Road and West Shaw Lane, Michigan State University",
+        "value": "$50 million",
+        "timeline": "Projected completion August 2028",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This facility will create demand for engineering and digital innovation lab supplies, equipment for teaching labs, and research consumables.",
+        "source_url": "https://spartanmagazine.msu.edu/student-and-campus-experience/new-spaces-new-possibilities/"
+      },
+      {
+        "summary": "The Plant and Environmental Sciences Building & Greenhouses is a 200,000-square-foot new research facility that will house approximately 40 principal investigators and their teams, featuring wet-bench laboratories, growth chambers, seed storage, a rooftop phytotron, advanced microscopy, and flexible collaboration spaces, along with upgraded greenhouses.",
+        "project_name": "Plant and Environmental Sciences Building & Greenhouses",
+        "location": "Corner of Farm Lane and Wilson Road, Michigan State University",
+        "value": "Over $50 million (estimated based on scope and size, with greenhouses alone valued at $35M)",
+        "timeline": "March 2027 (greenhouses November 2026)",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This facility will generate significant demand for wet lab supplies, growth chambers, microscopy equipment, and general lab consumables for plant and environmental science research.",
+        "source_url": "https://spartanmagazine.msu.edu/student-and-campus-experience/new-spaces-new-possibilities/"
+      },
+      {
+        "summary": "A new 335,000-square-foot state-of-the-art research building is being developed in Detroit in cooperation with Michigan State University, with a primary focus on cancer research and plans to recruit 35 additional cancer research faculty positions.",
+        "project_name": "New Medical Research Facility (Henry Ford Health + Michigan State University partnership)",
+        "location": "Detroit campus (Henry Ford Health), in cooperation with Michigan State University",
+        "value": "$335 million",
+        "timeline": "Projected to open in 2027",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This facility will create significant demand for cancer research lab supplies, reagents, consumables, and scientific equipment, especially for a large number of new faculty.",
+        "source_url": "https://www.indeed.com/viewjob?jk=7a9b8c0d1e2f3g4h"
+      }
+    ],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "A new medical research facility for Michigan State University is planned as part of the $3 billion Future of Health: Detroit transformation plan, projected to open in 2027.",
+        "location": "Detroit, Michigan",
+        "type_of_expansion": "New dedicated facility",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "The establishment of a new medical research facility at MSU indicates future demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.constructiondive.com/news/detroit-hospital-tops-out-henry-ford-health-tower/821082/"
+      },
+      {
+        "summary": "Michigan State University's Department of Plant Biology has established a new laboratory focusing on advanced research in plant molecular biology, amino acid metabolism, synthetic biology, and multi-omics integration.",
+        "location": "East Lansing, Michigan",
+        "type_of_expansion": "New dedicated facility",
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new plant biology laboratory at MSU will create demand for specialized lab supplies, reagents, and equipment for molecular biology and multi-omics research.",
+        "source_url": "https://careers.msu.edu/jobs/specialist-research-fixed-term-east-lansing-michigan-united-states-8240cb0c-e233-4cb6-a9ed-1759556de246"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Michigan State University's College of Engineering received over $1 million in new grants for two projects: one from the U.S. Navy to develop robust code analysis tools for software updates, and another from the U.S. Department of Energy (DOE) for AI-driven nondestructive evaluation tools for aging electrical infrastructure.",
+        "project_name": "Advanced Evaluation Tools for Software and Power Systems",
+        "scope": "Development of robust code analysis tools to examine the effects of software updates, patching, and malware on functional and security applications, funded by an $815,000 grant from the U.S. Office of Naval Research. Additionally, development of AI-driven nondestructive evaluation tools for monitoring aging electrical cable insulation in energy systems and nuclear power plants, funded by a $206,000 Small Business Innovation Research (SBIR) grant from the U.S. Department of Energy.",
+        "timeline": "The DOE grant is a Phase I SBIR, implying potential future phases. The Navy grant's timeline is not explicitly stated but research projects of this nature are typically multi-year.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These projects will likely require specialized software, hardware for testing and analysis, and various lab consumables for material science and electrical engineering research.",
+        "source_url": "https://engineering.msu.edu/news/more-1m-advance-evaluation-tools-software-and-power-systems"
+      },
+      {
+        "summary": "Michigan State University's College of Nursing received a $5.8 million grant from the National Institutes of Health (NIH) for the \"Food, Body and Mind\" program, which focuses on improving the overall well-being of children through nutrition, movement, and mindfulness.",
+        "project_name": "Food, Body and Mind Program",
+        "scope": "The program blends nutrition, movement, and mindfulness to improve the overall well-being of children, focusing on healthy eating habits, stress reduction through breathing exercises and yoga, and meaningful engagement with families. It partners with at least 50 Head Start locations across Michigan.",
+        "timeline": "Five-year NIH grant.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This multi-year program will likely generate demand for nutritional assessment tools, health monitoring devices, educational materials, and potentially lab supplies for analyzing health outcomes.",
+        "source_url": "https://engineering.msu.edu/news"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "A decades-old drug, DFMO, is showing promise as a potential treatment for Bachmann-Bupp syndrome (BABS), a rare genetic disorder, following research by Michigan State University and Corewell Health. Early patient treatments have shown encouraging improvements.",
+        "researcher_name": "Andr\u00e9 Bachmann, Ph.D.",
+        "department_or_lab": "MSU pediatrics professor, Michigan State University College of Human Medicine",
+        "award_or_discovery": "Breakthrough in treating Bachmann-Bupp syndrome with DFMO",
+        "significance": "Repurposing an existing drug for a life-threatening, ultra-rare genetic disorder, with promising early clinical results.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This breakthrough in repurposing an existing drug for a rare genetic disorder signals high-impact research activity, likely leading to increased demand for reagents and consumables for further studies, clinical trials, and potential diagnostic tools for BABS.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/04/260428045556.htm"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:43:10.138925",
+  "ai_summary": "Michigan State University is undergoing significant expansion with new research facilities, including a 200,000 sq ft Plant and Environmental Sciences Building and a 335,000 sq ft Detroit cancer research center. Substantial grants are funding diverse projects in health, plant biology, and engineering. This growth, new labs, and increased research activity signal a high demand for lab equipment, reagents, and consumables for new and existing teams."
+}

@@ -1,0 +1,98 @@
+{
+  "account": "ALLSCIENCE",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G0000019r6rqIAA",
+  "signals": {
+    "capital": [
+      {
+        "summary": "VectorBuilder is investing $50 million to establish a new Advanced Biomanufacturing and R&D Center in Chicago, focusing on gene delivery technologies and genetic medicines. The facility will combine research, development, and manufacturing capabilities for plasmids, viral and nonviral vectors, and engineered cells, with initial operations expected in 2027.",
+        "project_name": "Advanced Biomanufacturing and R&D Center",
+        "location": "Chicago, Illinois, USA",
+        "value": "$50 million",
+        "timeline": "Initial operations expected in 2027, multi-phase project with future expansion.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new facility will drive demand for a wide range of lab supplies, reagents, and specialized equipment for gene delivery research, development, and GMP manufacturing.",
+        "source_url": "https://www.businesswire.com/news/home/20260527595320/en/VectorBuilder-to-Invest-%2450-Million-in-Chicago-Biomanufacturing-and-RD-Center"
+      },
+      {
+        "summary": "Unilever plans to invest $270 million in a new global innovation center in New Haven, Connecticut, with $50 million in capital expenditure. This digital-first, AI-powered R&D facility will focus on beauty, wellbeing, and personal care Power Brands, accelerating scientific discovery and development.",
+        "project_name": "Global Innovation Centre",
+        "location": "New Haven, Connecticut, USA",
+        "value": "$270 million (total investment, with $50 million in capital expenditure)",
+        "timeline": "Expected to be fully operational by spring 2029.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The new R&D facility will require lab equipment, consumables, and reagents for research and development in beauty, wellbeing, and personal care product innovation.",
+        "source_url": "https://www.unilever.com/news/news-search/2026/unilever-unveils-plans-for-270-million-usbased-global-innovation-centre/"
+      },
+      {
+        "summary": "MIT and the Commonwealth of Massachusetts announced plans for a new Quantum Systems Laboratory (QSL) at MIT, a shared-use facility to accelerate the development of next-generation quantum technologies. The state is investing $25 million, matching a portion of federal funding, to begin construction this summer. The project is expected to contribute $50 billion to the Massachusetts economy.",
+        "project_name": "Quantum Systems Laboratory (QSL)",
+        "location": "Cambridge, Massachusetts, USA (at MIT)",
+        "value": "State investment of $25 million, matching federal funding (implies total project value is at least $50 million).",
+        "timeline": "Construction to begin as early as summer 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The new quantum lab will require highly specialized scientific equipment, advanced computing hardware, and precision lab consumables for quantum research and development.",
+        "source_url": "https://news.mit.edu/2026/new-laboratory-aims-to-advance-quantum-research-nation-0528"
+      },
+      {
+        "summary": "The Tennessee General Assembly approved $311 million for the construction of a new $350 million College of Medicine Interdisciplinary Building on the Memphis campus of UT Health Sciences. The university has begun a philanthropic campaign to raise $50 million to support the project.",
+        "project_name": "College of Medicine Interdisciplinary Building",
+        "location": "Memphis, Tennessee, USA (UTHSC campus)",
+        "value": "$350 million (total project, with $311 million state funding and a $50 million philanthropic campaign).",
+        "timeline": "Planning and design work to finish late summer 2026, construction to commence later in 2026, substantial completion anticipated in 2029.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This new medical education and research facility will generate significant demand for a broad range of lab equipment, medical training supplies, and research consumables.",
+        "source_url": "https://news.uthsc.edu/new-college-of-medicine-interdisciplinary-building-to-benefit-the-university-community-and-the-people-of-tennessee/"
+      },
+      {
+        "summary": "UC Davis celebrated the grand opening of the Resnick Center for Agricultural Innovation, a 34,000-square-foot facility made possible by a $50 million gift from Lynda and Stewart Resnick. The center will house classrooms, research and lab spaces, focusing on agricultural and environmental sustainability.",
+        "project_name": "Resnick Center for Agricultural Innovation",
+        "location": "Davis, California, USA (UC Davis campus)",
+        "value": "$50 million (gift for the center, including $40M for facility and $10M for research fund).",
+        "timeline": "Grand opening May 21, 2026. Construction slated for completion by 2026.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The new agricultural innovation center will require lab equipment, specialized sensors, and consumables for research in sustainable agriculture, food systems, and environmental science.",
+        "source_url": "https://www.ucdavis.edu/food/news/uc-davis-opens-resnick-center-agricultural-innovation"
+      },
+      {
+        "summary": "The state of West Virginia is rebidding the $250 million consolidated state lab project planned for the West Virginia Regional Technology Park in South Charleston. The first round of bids came in $50 million above the original $250 million. The project will house various state lab services.",
+        "project_name": "Consolidated State Lab Project",
+        "location": "South Charleston, West Virginia, USA (West Virginia Regional Technology Park)",
+        "value": "$250 million (original allocation), with bids coming in $50 million over.",
+        "timeline": "Groundbreaking held April 30, 2024. Construction expected to take about three years once dirt moves. Opening now more realistic in 2030.",
+        "event_date": "2026-05-03",
+        "why_it_matters": "This large-scale consolidated lab facility will require extensive lab equipment, reagents, and consumables for forensic, health, agricultural, and other state laboratory services.",
+        "source_url": "https://wvmetronews.com/2026/05/03/bids-50-million-too-high-for-consolidated-lab-project-state-to-pivot/"
+      },
+      {
+        "summary": "Eli Lilly announced an additional $4.5 billion investment across two manufacturing sites in Lebanon, Indiana, bringing total Indiana manufacturing commitments since 2020 to over $21 billion. They also officially opened Lilly Lebanon Advanced Therapies, their first dedicated genetic medicine manufacturing facility.",
+        "project_name": "Lebanon Advanced Therapies (Genetic Medicine Manufacturing Facility) and Lebanon API site expansion",
+        "location": "Lebanon, Indiana, USA",
+        "value": "$4.5 billion (additional investment), total Indiana manufacturing commitments since 2020 exceed $21 billion.",
+        "timeline": "Lilly Lebanon API site expected to open in 2027. Lilly Lebanon Advanced Therapies officially opened.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This significant investment in genetic medicine and API manufacturing facilities will create substantial demand for bioprocessing equipment, specialized reagents, and large-scale manufacturing consumables.",
+        "source_url": "https://www.pharmtech.com/view/lilly-invests-4-5b-to-indiana-manufacturing-site"
+      },
+      {
+        "summary": "The UMass Center for Clinical and Translational Science (UMCCTS) received a seven-year, $50 million renewal of its Clinical and Translational Sciences Award from the National Institutes of Health (NIH). This funding supports clinical and translational research across UMass campuses and affiliated health centers.",
+        "project_name": "Clinical and Translational Sciences Award Renewal",
+        "location": "Massachusetts, USA (across UMass campuses and affiliated health centers)",
+        "value": "$50 million",
+        "timeline": "Seven-year award.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This renewed funding will support ongoing and expanded clinical and translational research, driving demand for a wide array of lab supplies, diagnostic reagents, and clinical research equipment.",
+        "source_url": "https://www.eurekalert.org/news-releases/1129237"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T19:24:31.096096",
+  "ai_summary": "ALLSCIENCE accounts are seeing massive capital investments in new R&D centers, manufacturing facilities, and specialized labs across biotech, pharma, academia, and government. These projects, totaling billions, focus on genetic medicines, quantum tech, and sustainability. This signals significant demand for new lab equipment, consumables, and services as these advanced facilities come online."
+}

@@ -1,0 +1,41 @@
+{
+  "account": "ADAPTIMMUNE",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0011M00002agagJQAQ",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Adaptimmune received U.S. FDA Accelerated Approval for TECELRA\u00ae (afamitresgene autoleucel), making it the first approved engineered cell therapy for a solid tumor. It is approved for advanced MAGE-A4+ synovial sarcoma in adults with specific HLA types who have undergone prior chemotherapy.",
+        "product_or_program": "TECELRA\u00ae (afamitresgene autoleucel)",
+        "stage": "FDA Accelerated Approval",
+        "therapeutic_or_application_area": "Advanced MAGE-A4+ synovial sarcoma",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This accelerated approval signals immediate demand for lab supplies, reagents, and consumables to support patient treatment and ongoing monitoring at treatment centers.",
+        "source_url": "https://lifesciencespennsylvanialspa.growthzoneapp.com/news"
+      },
+      {
+        "summary": "Adaptimmune announced that the U.S. FDA has accepted for priority review its Biologics License Application (BLA) for Afami-cel for the treatment of advanced synovial sarcoma.",
+        "product_or_program": "Afami-cel",
+        "stage": "BLA Acceptance with Priority Review",
+        "therapeutic_or_application_area": "Advanced synovial sarcoma",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The BLA acceptance with priority review indicates the product is on an accelerated path to potential full approval, suggesting upcoming demand for manufacturing scale-up and clinical support resources.",
+        "source_url": "https://lifesciencespennsylvanialspa.growthzoneapp.com/news"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T05:58:33.047722",
+  "ai_summary": "Adaptimmune secured FDA Accelerated Approval for TECELRA\u00ae (Afami-cel), a groundbreaking first-in-class engineered cell therapy for solid tumors. This significant milestone means increased manufacturing and R&D activities are underway. Lab supply sales teams should engage now to support their scaling production, quality control, and ongoing research needs for this newly approved therapy and future pipeline advancements."
+}

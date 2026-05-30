@@ -1,0 +1,43 @@
+{
+  "account": "SYCAMORE LIFE SCIENCES",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP159YAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The article \"Super-resolved spatial organization of the nucleolar transcriptome\" details research combining super-resolution imaging with in situ reverse transcription-based sequencing to profile transcriptomes within membraneless organelle subdomains, specifically the human tripartite nucleolus. The study identifies distinct RNA populations and their layered progression during pre-rRNA processing.",
+        "recipient": "Sycamore Research Institute of Life Sciences",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Institutes of Health",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This NIH grant indicates ongoing research at Sycamore Research Institute of Life Sciences, which will likely generate demand for specialized lab supplies, reagents, and equipment for advanced imaging and sequencing.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726041v1"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Sycamore Research Institute of Life Sciences, in collaboration with Tongji University, has introduced Cellist, a new multi-modal cell-segmentation method for high-resolution spatial transcriptomics. This method combines image and expression information to enable comprehensive cell-level analyses, improving within-cell transcriptomic coherence, spatial domain identification, and cell-type annotation. Cellist is compatible with various spatial transcriptomics techniques, including Seq-Scope, seqFISH+, STARmap, and 10x Xenium. The project received funding from the National Natural Science Foundation of China.",
+        "project_name": "Cellist: Accurate, scalable and cross-platform cell identification for high-resolution spatial transcriptomics",
+        "scope": "Development of a new cell-segmentation method for spatial transcriptomics, enhancing data analysis and compatibility across different spatial transcriptomics platforms.",
+        "timeline": "The research and development program was announced with the publication of the article on May 20, 2026.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new R&D program in spatial transcriptomics will likely drive increased demand for specialized reagents, consumables, and advanced scientific equipment used in spatial biology research and analysis.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42162410/"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:48:23.415342",
+  "ai_summary": "Sycamore Life Sciences is actively advancing spatial transcriptomics and super-resolution imaging, profiling transcriptomes within cellular subdomains and developing new cell segmentation methods like Cellist. This indicates a high demand for specialized reagents, advanced microscopy consumables, and sequencing kits for in situ analysis and various spatial transcriptomics platforms, presenting significant sales opportunities for lab suppliers supporting cutting-edge molecular and cellular biology research."
+}

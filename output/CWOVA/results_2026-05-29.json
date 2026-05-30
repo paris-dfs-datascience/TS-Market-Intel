@@ -1,0 +1,120 @@
+{
+  "account": "CWOVA",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DzYAK",
+  "signals": {
+    "grant": [],
+    "capital": [
+      {
+        "summary": "The state of West Virginia is rebidding a $250 million consolidated state lab project in South Charleston after initial bids exceeded the budget, opting for a construction management risk approach to value engineer the project.",
+        "project_name": "Consolidated State Lab Project",
+        "location": "West Virginia Regional Technology Park, South Charleston, West Virginia",
+        "value": "$250 million",
+        "timeline": "Groundbreaking was held on April 30, 2024. The project was initially hoped to open in 2029, now more realistically 2030. A new two-step solicitation process for construction management contractors will occur in the coming months.",
+        "event_date": "2026-05-03",
+        "why_it_matters": "This large-scale consolidated lab facility will create significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for multiple state agencies and universities.",
+        "source_url": "https://wvmetronews.com/2026/05/03/bids-50-million-too-high-for-consolidated-lab-project-state-to-pivot/"
+      }
+    ],
+    "contract": [],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "The state of West Virginia is rebidding its $250 million consolidated state lab project due to initial bids exceeding the budget, and will now use a construction management risk process to value engineer the project to the desired cost.",
+        "project_name": "Consolidated State Laboratories Facility project",
+        "scope": "State funding ($250 million allocated by the legislature), new laboratory infrastructure project",
+        "timeline": "Construction is expected to take about three years once it begins.",
+        "event_date": "2026-05-03",
+        "why_it_matters": "The construction and outfitting of a new 300,000 square foot consolidated state laboratory facility will create significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for various state agencies and universities.",
+        "source_url": "https://wvmetronews.com/2026/05/03/bids-50-million-too-high-for-consolidated-lab-project-state-to-pivot/"
+      }
+    ],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "Bipartisan legislation, the Federal and State Food Safety Information Sharing Act of 2026, was reintroduced in the U.S. House of Representatives to grant the FDA authority to share food safety information, including laboratory sampling testing data, with state and local regulatory agencies.",
+        "mandate_type": "Foodborne illness testing requirements",
+        "jurisdiction": "United States (Federal)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "This proposed legislation would increase the demand for laboratory testing and analysis services as state and local agencies gain access to and act upon shared foodborne illness surveillance data and lab findings.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM6gSt2tLG6TNEQZVJzsgDZfeEDjV6Layk7zGtAFXT-ueLnh9i99NGsePqSdFYFfNcHs3lmB8vKSQ0MsVb_OJ4X9wVhbFq9H1flaPWXk4D58jEHgQNDgDogiUN7sFpAGxu_B5YOG3c73IWeXD6oQGCabQrolrIcGT4TXLsUNE7e1rcwjwrp90hyCmgfmBDLbD9q_jR3N5_f1Nmn1ftjiHi48QcpF92"
+      },
+      {
+        "summary": "The New York State Senate passed the State Fiscal Year (SFY) 2026-27 budget, which includes a significant investment of $54 million for a new state-of-the-art forensics lab for the State Police.",
+        "mandate_type": "Forensic lab expansions",
+        "jurisdiction": "New York State",
+        "funding_amount": "$54 million",
+        "effective_date": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The allocation of funds for a new forensics lab will create substantial demand for new scientific equipment, reagents, and consumables to support expanded forensic analysis capabilities.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg-DqCvmXkImvlwAET7dJvL-lkun-5KGkyo82Y1Tmn8RCeemHxrl16q36PybDhbSMwWfUw_hz4hFN6PCESoEQ2nkySfuUXCdH6Ws8OTp72vsNUNJGlJRWtrUCKir9sVR_oYTGb3X97iTAby6ziMCY6ZI_bW0V0KmV1ojVlcW8cxsfwdk9migwtzdR2oYXkB5jdCgw"
+      },
+      {
+        "summary": "Governor Kathy Hochul signed legislation as part of the FY27 Enacted Budget, investing in crime labs across New York to support upgrades to DNA and drug analysis technology, expand forensic staffing, and strengthen statewide standards.",
+        "mandate_type": "Forensic lab expansions",
+        "jurisdiction": "New York State",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "Investments in crime labs for DNA and drug analysis technology upgrades will drive demand for advanced scientific equipment, specialized reagents, and consumables for forensic testing.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_aOffvsDdH7ylfJITeGdcjD88QOHI5EfQUTqfZNLUxD3nyoc_YHqUerFtnk0O9s4QQj7PlJfrGr8HKHkUkmYI9K2sxedUeZ9HjpZdhWZ1PxHV-0SaBY4xvyMUi6PguZWjq8gjHPLN89z9xpeuGKHpFlC7ylN5j3N5FtHIiuzLecBHYizm6npHkA3q4BOnprV81-SAtzB3nC_d5TSr3xj2xmKE5uWv3NoguXCJoL4iprlneCrVmwcv"
+      },
+      {
+        "summary": "The Pennsylvania State Police (PSP) is expanding its Rapid DNA program to municipal law enforcement agencies, providing local law enforcement with quicker access to critical forensic technology.",
+        "mandate_type": "Forensic lab expansions",
+        "jurisdiction": "Pennsylvania",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "The expansion of the Rapid DNA program to municipal agencies will increase the demand for Rapid DNA instruments, associated consumables, and reagents across local law enforcement labs.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnln2OtCc8HeWm7YSBnfLILNONMa1GRF7YCt-oljVQhFReuFLmZKmZTcfe4YLFUfqCBFeF8EgV-WlMa23voUtxwlda2P3JLXHdUbvxGeFmOKw7da0gnb4EO1QBQTSmd6Gc6WO-Y0dl_4UmH40Jjl7yfLf3-Zj7QhIwt5WLbtbPOCH4sH-mXbB7tFYJ_jfidnwx3yphK_8TcZ1Ij3ST4OYmVos0Wg=="
+      },
+      {
+        "summary": "The U.S. Environmental Protection Agency (EPA) announced the availability of approximately $80 million through the Sewer Overflow and Stormwater Reuse Municipal Grant program, with $468,000 allocated to Maine, to help communities address stormwater and sewer infrastructure needs.",
+        "mandate_type": "Environmental monitoring mandates",
+        "jurisdiction": "United States (Federal, with state allocations)",
+        "funding_amount": "$80 million",
+        "effective_date": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "Funding for stormwater and sewer infrastructure improvements will likely lead to increased demand for water quality testing supplies, reagents, and analytical equipment for environmental monitoring and compliance.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgT3FxXzYyPLM0CXQKYhrg5bP6qTofK4SBkjL2jUqKwXKbMnChmBgsh_6wbtcLzR4r3DAn94aIy8229zZmlrzVKIk3b7ZCi6PbzACbX2ynmX0RieQDGJoZZmGK-D8i2vBV465bNkG5PO4bRjMoB7Qnnnov0NQZrUeCierL9J_dd03EXr1SefXVQbfgwwlUlsDpktSk0szUTKQ="
+      },
+      {
+        "summary": "The U.S. National Science Foundation (NSF) relaunched its Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) programs with $250 million, including a new $40 million pilot emphasis area targeting the next generation of scientific instrumentation.",
+        "mandate_type": "Scientific equipment funding",
+        "jurisdiction": "United States (Federal)",
+        "funding_amount": "$250 million",
+        "effective_date": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new funding emphasis on next-generation scientific instrumentation will stimulate research and development, creating future demand for advanced lab equipment and specialized components.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEkjnylFRPlD21S6vkmfwCgJmwHTlHYTeF1Ii7o3tV1yZ56SnKczk44CzBdSEa4t0rjYpZ2epDzr1N2hz9oju5L96nCrWDFl74qZqkyWanoyr7e6tJOzmo67VEqwsrvliY2L0Xi-6uK8nUlGQtJ8PYof4HVDmFgCuzG8rxCtpYurrNJmf3-SzHQbT6MVI="
+      },
+      {
+        "summary": "Governor Maura Healey announced a commitment of up to $25 million in state matching funds for the construction of a new Quantum Systems Laboratory (QSL) at the Massachusetts Institute of Technology.",
+        "mandate_type": "Lab buildouts driven by legislation or regulation",
+        "jurisdiction": "Massachusetts",
+        "funding_amount": "$25 million",
+        "effective_date": null,
+        "event_date": "2026-05-29",
+        "why_it_matters": "The establishment of a new quantum systems lab will generate demand for highly specialized scientific equipment, components, and potentially unique lab consumables.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdVtCS8tac6R14h-L45XEUmR8VOXPp32UI8fqU7eemF44J6RwspXibjDseHwCO9sNB-x68GQZv0u8hp3uXbHjYbzUVCoGpftraa1O31YiJL3ebkh085GIcOZs6HmvmzA7i6sVlo65HdhWanu3MnLOK0JLSbxqi3L-9ZwOYb1sypNdkT7IQ4TSmwYa5kp3wOnUu8RN7hR5pg4_45bS--UkEdVtfEPRV5ohWWcdbDs1etDhK7nreL-Gp9rJSmxvUZTIs3Bxdzg0DoP_571j-oyyKwgsRnBszTwmL3Y1t"
+      },
+      {
+        "summary": "New York Assemblymember Alex Bores passed a bill (A3283) requiring labs to follow specific safety practices when manufacturing and selling strands of DNA.",
+        "mandate_type": "Public health emergency lab buildouts",
+        "jurisdiction": "New York State",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This legislation will likely increase demand for lab safety equipment, protocols, and potentially specialized reagents or consumables to ensure compliance with new DNA manufacturing and sales safety practices.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGY--XpwFCWnPC3WDPG1wrmobb1snKdmFFPLcgvjFRPq48_rieJYpoVz9qJAu45FJ_X7BhB9_AsOXkbhN7AX61RvIEkK6MpSBuuEqiWbfZXiTFX-12-ZGK-7HEwZZcG-HbsThGEVVUTLi7L8XETHP7dNh0jlEy39xmdzFI-bmXnw5BPwj0BWIOGbILA1j-uuEyVoJDjqXxNx_6Qws0XdPM"
+      }
+    ],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:25:41.237896",
+  "ai_summary": "CWOVA is experiencing significant government investment in new lab construction and technology upgrades. West Virginia is rebidding a $250M state lab, New York is funding new forensics labs and DNA/drug analysis tech, and Pennsylvania is expanding Rapid DNA. These initiatives, coupled with new mandates for food safety and environmental testing, create substantial opportunities for lab equipment, consumables, and service sales across multiple state and federal agencies."
+}

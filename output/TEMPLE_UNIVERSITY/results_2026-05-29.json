@@ -1,0 +1,40 @@
+{
+  "account": "TEMPLE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BdYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "Temple University's Lewis Katz School of Medicine and AtlantiCare are partnering to establish a new regional medical college campus in Atlantic City, New Jersey, backed by a $50 million investment.",
+        "project_name": "Temple University/AtlantiCare Medical College Campus",
+        "location": "Atlantic City, New Jersey",
+        "value": "$50 million",
+        "timeline": "Expected to open in August 2029 with an anticipated enrollment of 40 students per year.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This new medical school will require a complete fit-out of teaching and research laboratories, creating significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.atlanticare.org/news/atlanticare-and-temple-formalize-agreement-medical-school-atlantic-city"
+      }
+    ],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Researchers at Temple University's Lewis Katz School of Medicine, in collaboration with The Wistar Institute, have uncovered a previously unrecognized metabolic pathway in aggressive ovarian cancer cells. This pathway, involving \u03b1KG-mediated carnitine synthesis, helps cancer cells repair DNA damage and survive chemotherapy treatment, opening the door to new therapeutic strategies.",
+        "researcher_name": "Nathaniel Snyder",
+        "department_or_lab": "Aging + Cardiovascular Discovery Center, Department of Cardiovascular Sciences, Lewis Katz School of Medicine at Temple University",
+        "award_or_discovery": "Discovery of \u03b1KG-mediated carnitine synthesis driving DNA repair and chemotherapy resistance in ovarian cancer",
+        "significance": "This is a first-in-class discovery, described as uncovering a \"completely unexpected connection between cellular metabolism and DNA repair\" and a \"new piece of biology that nobody had described before\", published in the prestigious journal Nature.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This breakthrough in understanding cancer metabolism and resistance mechanisms will drive demand for advanced reagents, cell culture supplies, and analytical equipment for further research and drug development.",
+        "source_url": "https://now.temple.edu/news/2026-05-27/temple-university-researchers-uncover-metabolic-weakness-ovarian-cancer"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:56:27.393906",
+  "ai_summary": "Temple University is significantly expanding its medical education and research capabilities with a new $50M regional medical college campus, creating substantial demand for new lab equipment and supplies. Concurrently, researchers made a breakthrough in ovarian cancer metabolism, signaling active, high-impact research that will drive ongoing needs for specialized reagents and instruments for cancer and drug discovery labs."
+}

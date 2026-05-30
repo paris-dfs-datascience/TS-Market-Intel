@@ -1,0 +1,29 @@
+{
+  "account": "LA JOLLA INFECT DISEASE INST",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "0011M00002G5cPJQAZ",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Anjana Rao, a distinguished researcher at the La Jolla Institute for Immunology, was awarded the 2026 Centennial Medal by the Harvard Kenneth C. Griffin Graduate School of Arts and Sciences for her fundamental and lasting contributions to knowledge, particularly her field-opening breakthroughs in cell biology, immunology, and epigenetics.",
+        "researcher_name": "Anjana Rao",
+        "department_or_lab": "Division of Signaling and Gene Expression",
+        "award_or_discovery": "2026 Centennial Medal from Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+        "significance": "The award recognizes her numerous field-opening breakthroughs across cell biology, immunology, and epigenetics, which have unlocked vast new knowledge in human cell biology and opened doors to potentially transformative therapies.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This prestigious award acknowledges Anjana Rao's sustained, high-impact research, signaling ongoing and future demand for advanced reagents, consumables, and equipment in critical research areas such as cell biology, immunology, and epigenetics.",
+        "source_url": "https://gsas.harvard.edu/news/2026-centennial-medalists"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:33:24.338834+00:00",
+  "ai_summary": "Anjana Rao at La Jolla Institute for Immunology received a prestigious award for field-opening breakthroughs in cell biology, immunology, and epigenetics. This signifies high-impact, cutting-edge research is thriving at the institute. For a lab supply sales team, this means a well-funded account with ongoing needs for advanced reagents, equipment, and consumables to support their groundbreaking work and continued innovation."
+}

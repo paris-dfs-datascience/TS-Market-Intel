@@ -1,0 +1,207 @@
+{
+  "account": "STANFORD UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BpYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Stanford Medicine received a $70 million NIH grant to accelerate the conversion of new treatments into care more rapidly.",
+        "recipient": "Stanford Medicine",
+        "department_or_lab": null,
+        "amount": 70000000,
+        "agency": "NIH",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This large grant indicates significant ongoing research and development in clinical and translational science, likely requiring a wide range of lab supplies and equipment.",
+        "source_url": "https://med.stanford.edu/news/all-news/2026/05/transformative-gift-advances-biomedical-ethics.html"
+      },
+      {
+        "summary": "Stanford University received two grants through the NIH IMPROVE Initiative for maternal health research: $2,026,168 for 'Preventing Inequities in Hemorrhage-related Severe Maternal Morbidity' and $1,615,475 for 'Early Intervention for Postpartum PTSD: Comparing Written Exposure and Capnometry-Guided Breathing Therapy'.",
+        "recipient": "Stanford University",
+        "department_or_lab": null,
+        "amount": 2026168,
+        "agency": "NIH",
+        "event_date": "2026-05-15",
+        "why_it_matters": "These grants signal demand for supplies related to maternal health research, potentially including diagnostics, monitoring equipment, and reagents for studies on hemorrhage and PTSD.",
+        "source_url": "https://blackmaternalhealthcaucus.house.gov/news/documentsingle.aspx?DocumentID=1411"
+      },
+      {
+        "summary": "Dr. Nazish Sayed, Associate Professor in the Division of Vascular Surgery at Stanford University, received a Department of Defense (DOD) Toxic Exposures Research Program (TERP) Translational Research Partnership Award for a three-year project totaling approximately $1.08 million, focused on the cardiovascular effects of burn pit exposure in Veterans.",
+        "recipient": "Dr. Nazish Sayed",
+        "department_or_lab": "Division of Vascular Surgery, Stanford University",
+        "amount": 1080000,
+        "agency": "DoD",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This research will require supplies for cardiovascular studies, potentially including cell culture, imaging, and analytical equipment.",
+        "source_url": "https://vascular.stanford.edu/news/2026/dr-nazish-sayed-receives-department-of-defense-grant-to-study-cardiovascular-effects-of-burn-pit-exposure-in-veterans.html"
+      },
+      {
+        "summary": "Andres Cardenas, Assistant Professor of Epidemiology at Stanford University, is a key collaborator on a nearly $3.8 million NIH MPI R01 grant to study how early-life environmental exposures may influence kidney health and blood pressure later in life.",
+        "recipient": "Andres Cardenas",
+        "department_or_lab": "Department of Epidemiology, Stanford University",
+        "amount": 3800000,
+        "agency": "NIH",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This research will require supplies for environmental exposure studies, kidney health assessments, and -omics biomarkers, indicating demand for analytical equipment, reagents, and consumables.",
+        "source_url": "https://www.publichealth.pitt.edu/news/researchers-receive-nih-grant-to-study-how-early-life-environmental-exposures-affect-kidney-health"
+      },
+      {
+        "summary": "Researchers from Stanford University's Department of Pathology received a DoD grant (HT94252310894/DOD) and an NIH grant (CA230156/NH/NIH HHS/United States) for research on enriched methylomes of low-input and fragmented DNA using Fragment Ligation EXclusive methylation sequencing (FLEXseq).",
+        "recipient": "Jingru Yu, Lauren S Ahmann, Yvette Y Yao, and others",
+        "department_or_lab": "Department of Pathology, School of Medicine, Stanford University",
+        "amount": null,
+        "agency": "DoD, NIH",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This research involves DNA sequencing and methylation studies, suggesting demand for genomics equipment, reagents, and consumables.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42130071/"
+      },
+      {
+        "summary": "The U.S. Space Force launched its first artificial intelligence accelerator program at Stanford University's AeroAstro CAESAR Lab to develop AI and machine learning technologies for space operations.",
+        "recipient": "Stanford's AeroAstro CAESAR Lab",
+        "department_or_lab": "AeroAstro CAESAR Lab, Stanford University",
+        "amount": null,
+        "agency": "DoD",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This program will drive demand for high-performance computing hardware, specialized software, and potentially new sensor technologies for AI and machine learning in space applications.",
+        "source_url": "https://executivegov.com/2026/05/space-force-to-advance-data-driven-space-operations-with-stanford-based-ai-accelerator/"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Hannah Barsouk, a first-year doctoral student in biochemistry and a chemical-biology interface trainee at Stanford University, was named a 2026 Hertz Fellow, aiming to develop RNA-based technologies to enable programmable control of biological systems and define how regulatory networks become disrupted in disease.",
+        "name": "Hannah Barsouk",
+        "department": "Biochemistry",
+        "start_date": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.hertzfoundation.org/news/hertz-foundation-announces-19-recipients-of-the-2026-hertz-fellowship/"
+      },
+      {
+        "summary": "Jackson Powell, a second-year medical student in Stanford University's MD-PhD program, was named a 2026 Hertz Fellow for his studies on the brain through cross human-mouse research in the Deisseroth Lab and Human Neural Circuitry program, with plans to become a neurosurgeon and bridge basic neuroscience and clinical care.",
+        "name": "Jackson Powell",
+        "department": "Neuroscience",
+        "start_date": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.hertzfoundation.org/news/hertz-foundation-announces-19-recipients-of-the-2026-hertz-fellowship/"
+      },
+      {
+        "summary": "Marwa Zafarullah is a postdoctoral researcher at Stanford University, whose research focuses on how molecular dysfunction shapes neuromuscular conditions.",
+        "name": "Marwa Zafarullah",
+        "department": "Medical Research",
+        "start_date": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.the-scientist.com/the-lab-chores-scientists-secretly-love-74522"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Stanford University officially opened the Deep Lab, a new 29,600-square-foot nanocharacterization facility resulting from a $29 million renovation of a former physics facility. This expansion for nano@stanford integrates shared facilities, collaborative research space, and educational instruction infrastructure, including a teaching lab and advanced instruments for nanoscale research.",
+        "location": "Stanford, California, US",
+        "type_of_expansion": "new dedicated facility",
+        "investment_value": 29000000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "The opening of the Deep Lab signifies new procurement opportunities for a wide array of lab supplies, reagents, consumables, and scientific equipment to support advanced nanoscale research and educational programs.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSvHuDALvwreAdxG1Tk9dPpDTF88zjJlQDLEXOvyKYV_KHn13c5ZBQm0eCalA5oIhJhxUgEIsOWjETwSixdXixVr18EhsyyGUzLtVoxJCxbduwylvWAz0Z0TQ6wv2b42c_L5u0TBwIWCH5AS1CWIA7ZyvD9tVFuL93JBv8Uw1tcSQ4_Q=="
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The W. M. Keck Foundation has awarded $1.2 million in grants to six Stanford faculty and student teams for basic research in areas such as photovoltaics, quantum materials, and ice-sheet processes.",
+        "project_name": "W. M. Keck Foundation Bridge Funding Initiative Grants",
+        "scope": "Six interdisciplinary research projects focusing on basic physical, life, and biomedical sciences, including non-fullerene acceptors for singlet fission photovoltaics, imaging collective modes and electronic dynamics at the nanoscale, imprinted superlattices, ribbon-like chain theory for orientational ordering of conjugated polymers, and developing large radio-frequency-over-fiber arrays to quantify the 3D evolution of subsurface ice-sheet processes.",
+        "timeline": "Ongoing, designed to support doctoral student research and essential research expenses during a period of significant uncertainty in the federal funding landscape.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These grants will drive demand for specialized lab equipment, reagents, and consumables for advanced materials research, quantum physics, and environmental sensing.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/stanford-researchers-keck-foundation-funding"
+      },
+      {
+        "summary": "Stanford University is merging its two flagship AI and data science organizations, the Stanford Institute for Human-Centered AI (HAI) and the Stanford Data Science initiative, into a single institute under the Stanford HAI name. The merger combines HAI's network of over 400 scholars, extensive industry affiliates program, and $60 million in cumulative grant funding with Stanford Data Science's high-performance Marlowe computing cluster and early scholar fellowship program.",
+        "project_name": "Stanford Institute for Human-Centered AI (Merged Entity)",
+        "scope": "A unified academic force to address AI's rapidly expanding role in society, focusing on advancing AI and data science for discovery across fields, transforming education, and examining and shaping AI's societal impact through evidence-based research.",
+        "timeline": "The merger was announced on May 4, 2026. The new institute will continue and expand these efforts.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This merger and the combined resources, including a high-performance computing cluster, will generate significant demand for advanced computing equipment, specialized software, and data storage solutions for AI and data science research.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/stanford-merges-hai-data-science"
+      },
+      {
+        "summary": "A $90 million gift from Penny and Philip H. Knight will extend the work of the Knight Initiative for Brain Resilience at Stanford's Wu Tsai Neurosciences Institute, aiming to build a new science of healthy brain aging.",
+        "project_name": "Knight Initiative for Brain Resilience (Extension)",
+        "scope": "To extend and deepen its work in building a new science of healthy brain aging, expanding the research community, decoding the secrets of resilient aging, and building a future free from dementia and neurodegenerative disease. The initiative will launch parallel internal research efforts, including creating living cellular models and deploying AI to detect patterns in datasets.",
+        "timeline": "The new gift extends the initiative launched in 2022 with a $75 million gift. The funding will enable continued and expanded efforts in the coming years.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This substantial funding will drive demand for advanced neuroscience equipment, cellular imaging systems, AI computing resources, and a wide range of reagents and consumables for brain research and neurodegenerative disease studies.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/gift-knight-brain-resilience-aging-research"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Researchers at Stanford University have developed a first-in-class 3D lab model of the human uterus, enabling the direct observation of embryo implantation for the first time, which is expected to significantly improve IVF success rates and fertility treatments.",
+        "researcher_name": "Mol\u00e8, Nicole Horsley",
+        "department_or_lab": "Mol\u00e8 lab, Stanford Institute for Stem Cell Biology and Regenerative Medicine, Stanford School of Medicine",
+        "award_or_discovery": "First-in-class 3D uterus model for embryo implantation",
+        "significance": "This breakthrough allows for unprecedented observation of embryo implantation, paving the way for more effective in vitro fertilization (IVF) and enhanced fertility treatments.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This discovery will drive demand for specialized cell culture media, reagents for stem cell differentiation, advanced microscopy equipment, and consumables essential for 3D tissue engineering and reproductive biology research.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/3d-uterus-model-could-embryo-implantation-ivf-infertility"
+      },
+      {
+        "summary": "Stanford Medicine investigators have made a breakthrough discovery, finding that neutrophils, the body's most common white blood cells, can produce the schizophrenia-associated protein C4A, a function previously unknown, linking immune cells to the brain disorder.",
+        "researcher_name": "Agnes Kalinowski, Alexander Urban",
+        "department_or_lab": "Department of Psychiatry and Behavioral Sciences, Stanford Medicine",
+        "award_or_discovery": "Discovery of neutrophil-produced C4A protein linked to schizophrenia",
+        "significance": "This unexpected finding connects various observations about schizophrenia, offering a new understanding of the disorder and potentially leading to improved treatments and diagnostics.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This breakthrough will stimulate demand for immunology reagents, protein analysis kits, cell culture supplies for neutrophil studies, and diagnostic assay development components for schizophrenia research.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/neutrophils-produce-schizophrenia-linked-c4a-protein"
+      },
+      {
+        "summary": "Eric Meffre, PhD, from Stanford University, has been named an inaugural recipient of the Lupus Research Alliance-Genentech Award on Immune Resetting Therapies for Lupus, supporting his research into how CAR-T cell therapy restores immune tolerance in lupus.",
+        "researcher_name": "Eric Meffre",
+        "department_or_lab": "Stanford University",
+        "award_or_discovery": "Lupus Research Alliance-Genentech Award on Immune Resetting Therapies for Lupus",
+        "significance": "This award funds critical research into engineered cell therapies, an emerging approach with the potential to induce long-lasting remission in individuals with difficult-to-treat lupus.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This award will drive demand for specialized cell culture media for CAR-T cell expansion, flow cytometry reagents, gene editing tools, and immunological assays for studying immune system resetting in lupus research.",
+        "source_url": "https://www.lupusresearch.org/lupus-research-alliance-and-genentech-award/"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Stanford University terminated its Black, Indigenous, and People of Color (BIPOC) Cohort teacher certification program.",
+        "facility_or_programme": "BIPOC Cohort within the National Board Resource Center (NBRC) at Stanford's Graduate School of Education",
+        "closure_type": "Programme Termination",
+        "effective_date": "2026-04-29",
+        "reason": "The program was terminated amid a federal Title VI investigation by the U.S. Department of Education's Office for Civil Rights (OCR) into alleged racial discrimination by limiting eligibility to teachers of color. Stanford stated it is committed to meeting its obligations under the federal Civil Rights Act.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This program termination might reduce demand for educational supplies or specific diversity-focused training materials if the program utilized them.",
+        "source_url": "https://www.collegehelpguide.com/blog/stanford-bipoc-program-ocr-investigation-2026/"
+      },
+      {
+        "summary": "Stanford University merged its Stanford Data Science initiative into the Stanford Institute for Human-Centered AI (Stanford HAI).",
+        "facility_or_programme": "Stanford Data Science initiative",
+        "closure_type": "Programme Integration/Restructuring",
+        "effective_date": null,
+        "reason": "To consolidate AI and data science efforts, meet new opportunities, and maintain a human-centered focus.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This merger could lead to a consolidation or shift in procurement for AI and data science-related equipment and software, potentially creating a competitive displacement opportunity if new leadership favors different vendors.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/stanford-merges-hai-data-science"
+      },
+      {
+        "summary": "Stanford University will transition Vaden Medical Services and Mental Health Services to operate as a Stanford Health Care Clinic.",
+        "facility_or_programme": "Vaden Medical Services and Mental Health Services",
+        "closure_type": "Facility Transition/Restructuring",
+        "effective_date": "2026-09-01",
+        "reason": "To enhance patient care access and streamline care, broadening pathways for students to receive timely, high-quality, and coordinated care across Stanford Medicine.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This transition could lead to changes in procurement processes and preferred vendors for medical and mental health supplies, creating a competitive displacement opportunity for Thomas Scientific.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/vaden-transition-stanford-health-care-clinic"
+      }
+    ]
+  },
+  "timestamp": "2026-05-30T11:51:49.247502+00:00",
+  "ai_summary": "Stanford University is experiencing a significant surge in research, driven by substantial new grants across medical, biological, and nanotechnology fields, including a new $70M NIH grant and the opening of the Deep Lab nanocharacterization facility. This expansion in funding, infrastructure, and personnel signifies a heightened demand for a wide range of lab supplies, reagents, and advanced instrumentation to support their growing research endeavors and breakthroughs."
+}

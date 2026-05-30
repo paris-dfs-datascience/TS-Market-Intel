@@ -1,0 +1,125 @@
+{
+  "api_calls": 530,
+  "input_tokens": 226335,
+  "output_tokens": 166601,
+  "token_cost": 0.0893,
+  "grounding_cost": 18.55,
+  "total_cost": 18.6393,
+  "projected_cost": 22.294,
+  "cost_per_hit": 0.0586,
+  "successes": 490,
+  "timeouts": 0,
+  "errors": 0,
+  "empty": 2,
+  "retries": 63,
+  "resolved": 492,
+  "success_rate": 99.6,
+  "total_hits": 318,
+  "accounts_done": 51,
+  "accounts_with_data": 42,
+  "run_duration": "1h 0m 44s",
+  "signal_breakdown": {
+    "grant": {
+      "calls": 56,
+      "hits": 64,
+      "avg_time": 30.9,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "breakthrough": {
+      "calls": 52,
+      "hits": 88,
+      "avg_time": 27.7,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "contract": {
+      "calls": 52,
+      "hits": 28,
+      "avg_time": 24.1,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "expansion": {
+      "calls": 54,
+      "hits": 30,
+      "avg_time": 21.3,
+      "timeouts": 0,
+      "empty": 1,
+      "errors": 0
+    },
+    "project": {
+      "calls": 55,
+      "hits": 46,
+      "avg_time": 21.3,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "faculty": {
+      "calls": 53,
+      "hits": 24,
+      "avg_time": 19.0,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "funding": {
+      "calls": 54,
+      "hits": 8,
+      "avg_time": 17.7,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "closure": {
+      "calls": 53,
+      "hits": 23,
+      "avg_time": 12.6,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    },
+    "capital": {
+      "calls": 59,
+      "hits": 7,
+      "avg_time": 11.4,
+      "timeouts": 0,
+      "empty": 1,
+      "errors": 0
+    },
+    "_ai_summary": {
+      "calls": 42,
+      "hits": 0,
+      "avg_time": 0.0,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    }
+  },
+  "slowest_accounts": [
+    {
+      "account": "STANFORD UNIVERSITY",
+      "elapsed_s": 426.4
+    },
+    {
+      "account": "UNIVERSITY OF ARIZONA",
+      "elapsed_s": 242.7
+    },
+    {
+      "account": "TRANSNETYX",
+      "elapsed_s": 118.7
+    },
+    {
+      "account": "EPFL",
+      "elapsed_s": 107.7
+    },
+    {
+      "account": "UNIVERSITY OF MIAMI",
+      "elapsed_s": 84.3
+    }
+  ]
+}

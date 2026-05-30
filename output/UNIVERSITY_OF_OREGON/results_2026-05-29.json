@@ -1,0 +1,29 @@
+{
+  "account": "UNIVERSITY OF OREGON",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DTYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": [
+      {
+        "summary": "The University of Oregon announced $65 million in budget cuts, a hiring and pay freeze, and limits on non-essential travel due to a projected decline in out-of-state student enrollment. This follows previous budget reductions of $30 million and over 100 layoffs in the prior year. The university aims to refocus and invest in specific research strengths while making these cuts.",
+        "facility_or_programme": "University-wide research and academic programs (potential impact on various labs and departments)",
+        "closure_type": "Budgetary reduction leading to potential program curtailment or consolidation",
+        "effective_date": "Immediately (for hiring freeze and travel limits); ongoing for budget cuts with further details expected in December 2026",
+        "reason": "Lower-than-projected out-of-state enrollment leading to reduced tuition revenue and an anticipated annual budget deficit.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The significant budget cuts and hiring freeze at the University of Oregon indicate a high churn risk for existing lab supply contracts and create potential competitive displacement opportunities as research programs may be curtailed or consolidated.",
+        "source_url": "https://www.dailyemerald.com/news/scholz-announces-65-million-in-budget-cuts/article_62e212f4-12e1-11ed-8b8a-0b2a1a4a4a7c.html"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T08:04:48.687054",
+  "ai_summary": "The University of Oregon faces $65 million in new budget cuts, a hiring freeze, and travel limits, following prior layoffs, due to enrollment declines. This signals a challenging sales environment with reduced overall spending. However, the university plans to refocus and invest in specific research strengths. Lab supply teams must emphasize value, cost-efficiency, and identify these priority research areas to target sales effectively amidst tight budgets."
+}

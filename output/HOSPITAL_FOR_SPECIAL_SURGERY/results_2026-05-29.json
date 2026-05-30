@@ -1,0 +1,32 @@
+{
+  "account": "HOSPITAL FOR SPECIAL SURGERY",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1RwYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Foundation for Anesthesia Education and Research (FAER) announced the Medical Student Anesthesia Research Fellowships (MSARF) Summer Program for 2026, with Hospital for Special Surgery serving as a host site for a participating medical student.",
+        "recipient": "Matthew Ruppert (Medical Student from Wake Forest University School of Medicine), hosted at Hospital for Special Surgery.",
+        "department_or_lab": "Anesthesiology Department (implied by fellowship focus).",
+        "amount": "$4,800 (student stipend for 8 weeks).",
+        "agency": "Foundation for Anesthesia Education and Research (FAER).",
+        "event_date": "2026-05-12",
+        "why_it_matters": "A lab supply sales representative should contact the Anesthesiology Department at Hospital for Special Surgery to offer support for the research activities of the incoming medical student fellow.",
+        "source_url": "https://www.asahq.org/faer/programs/medical-student-fellowships/msarf-summer-program"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:03:29.574695",
+  "ai_summary": "Hospital for Special Surgery will host a medical student for an anesthesia research fellowship in summer 2026. This signifies ongoing research activity and a commitment to academic programs within their anesthesia department. For a lab supply sales team, this presents an opportunity to engage with researchers and potentially supply new projects or expanding research needs related to anesthesia, requiring various lab consumables and equipment."
+}

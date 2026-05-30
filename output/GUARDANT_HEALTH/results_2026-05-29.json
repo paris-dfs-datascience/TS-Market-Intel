@@ -1,0 +1,145 @@
+{
+  "account": "GUARDANT HEALTH",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1YdYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Guardant Health announced that the U.S. Food and Drug Administration (FDA) has approved the Guardant360\u00ae CDx liquid biopsy test as a companion diagnostic for VEPPANU (vepdegestrant), for patients with ER+/HER2- advanced breast cancer with ESR1 mutations. This marks Guardant's third ESR1 companion diagnostic FDA approval and its 26th companion diagnostic indication across multiple tumor types.",
+        "product_or_program": "Guardant360\u00ae CDx",
+        "stage": "FDA Approved (Companion Diagnostic)",
+        "therapeutic_or_application_area": "ER+/HER2- advanced breast cancer with ESR1 mutations",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This approval expands the utility of Guardant360 CDx, indicating increased demand for related lab supplies and reagents for breast cancer testing.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-Receives-FDA-Approval-for-Guardant360-CDx-as-a-Companion-Diagnostic-for-Arvinas-and-Pfizers-VEPPANU-vepdegestrant-for-Patients-with-ERHER2--Advanced-Breast-Cancer-with-ESR1-Mutations/default.aspx"
+      },
+      {
+        "summary": "Guardant Health announced that the U.S. Food and Drug Administration (FDA) has approved Guardant360\u00ae Liquid CDx, an updated blood-based comprehensive genomic testing panel that integrates genomic and epigenomic insights and has a 100x expanded genomic footprint. The approval also transfers seven previously approved companion diagnostic indications.",
+        "product_or_program": "Guardant360\u00ae Liquid CDx",
+        "stage": "FDA Approved",
+        "therapeutic_or_application_area": "Advanced cancer (comprehensive genomic profiling, multiple tumor types including non-small cell lung cancer, colorectal cancer, and advanced breast cancer with ESR1 mutations)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This significant FDA approval for an expanded and enhanced liquid biopsy panel will drive increased adoption and demand for advanced genomic and epigenomic lab supplies and equipment.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/FDA-Approves-New-Guardant360-Liquid-CDx-the-Largest-FDA-Approved-Liquid-Biopsy-Panel-with-a-100x-Expanded-Footprint/default.aspx"
+      },
+      {
+        "summary": "Guardant Health announced a multi-year strategic collaboration with Nuvalent to develop companion diagnostics and support the potential commercialization of Nuvalent's targeted cancer therapies using the Guardant Infinity\u2122 platform.",
+        "product_or_program": "Guardant Infinity\u2122 platform (for companion diagnostic development)",
+        "stage": "Collaboration for Companion Diagnostic Development",
+        "therapeutic_or_application_area": "Targeted cancer therapies (e.g., ROS1-positive, ALK-positive, and HER2-altered non-small cell lung cancer)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This collaboration signals future demand for lab supplies and reagents as Guardant Health develops new companion diagnostics for Nuvalent's oncology pipeline.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-Announces-Multi-Year-Strategic-Collaboration-with-Nuvalent-to-Develop-Companion-Diagnostics-and-Support-Potential-Commercialization-of-Targeted-Cancer-Therapies-Using-the-Guardant-Infinity-Platform/default.aspx"
+      },
+      {
+        "summary": "Guardant Health, in collaboration with Zydus Lifesciences, is set to introduce its 'Shield' blood-based multi-cancer detection test in India, expanding its diagnostic focus in the country to early-stage detection.",
+        "product_or_program": "Shield (multi-cancer detection test)",
+        "stage": "Launched (in India)",
+        "therapeutic_or_application_area": "Early-stage multi-cancer detection (gastric, esophageal, liver, colorectal, ovarian, lung, pancreatic, bladder, breast, and prostate cancers)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The launch of a new multi-cancer early detection test in a major market like India indicates a new sales opportunity for relevant lab supplies and consumables.",
+        "source_url": "https://mugglehead.com/guardant-health-and-zydus-lifesciences-to-launch-shield-multi-cancer-test-in-india/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Guardant Health is set to launch its new multi-cancer early detection blood test, 'Shield', in India, co-marketed with Zydus Lifesciences, and is currently in discussions with approximately 10 hospital chains, wellness centers, and laboratories for its rollout.",
+        "location": "India",
+        "type_of_expansion": "New country/region market entry",
+        "investment_value": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "The expansion into the Indian market with a new blood test and discussions with local laboratories indicate new procurement needs for lab supplies, reagents, and consumables for testing operations.",
+        "source_url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/guardant-health-to-launch-blood-based-cancer-test-in-india-with-zydus-lifesciences/articleshow/130832627.cms?from=mdr"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "Guardant Health announced a multi-year strategic collaboration with Nuvalent to develop companion diagnostics and support potential commercialization of targeted cancer therapies using the Guardant Infinity\u2122 platform.",
+        "partner": "Nuvalent, Inc.",
+        "deal_type": "Co-development agreement, Diagnostic platform licensing deal",
+        "deal_value": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "This collaboration signals expanded lab activity for developing and commercializing companion diagnostics, which will drive demand for Guardant's liquid biopsy platform and associated lab supplies.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-Announces-Multi-Year-Strategic-Collaboration-with-Nuvalent-to-Develop-Companion-Diagnostics-and-Support-Potential-Commercialization-of-Targeted-Cancer-Therapies-Using-the-Guardant-Infinity-Platform/default.aspx"
+      },
+      {
+        "summary": "Guardant Health's Shield\u2122 blood-based screening test for colorectal cancer is now widely accessible for physician order through the nationwide connectivity of Quest Diagnostics.",
+        "partner": "Quest Diagnostics",
+        "deal_type": "Reference lab service partnership",
+        "deal_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "This partnership significantly expands the reach and accessibility of Guardant's Shield test, leading to increased demand for blood collection supplies and lab processing at Quest Diagnostics.",
+        "source_url": "https://nevadabusiness.com/2026/05/guardant-healths-shield-blood-based-screening-test-for-colorectal-cancer-now-accessible-through-national-test-ordering-and-collection-network-of-quest-diagnostics/"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "Guardant Health announced a multi-year strategic collaboration with Nuvalent to develop companion diagnostics and support the potential commercialization of targeted cancer therapies using the Guardant Infinity\u2122 platform.",
+        "amount": null,
+        "funding_type": "Strategic Collaboration",
+        "use_of_proceeds": "Development of Guardant tissue and/or liquid biopsy assays as companion diagnostics (CDx) to support potential regulatory approvals of Nuvalent's investigational candidates.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This collaboration indicates an investment in new assay development, which will drive demand for reagents, consumables, and potentially new scientific equipment for Guardant Health's labs.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-release-details/2026/Guardant-Health-Announces-Multi-Year-Strategic-Collaboration-with-Nuvalent-to-Develop-Companion-Diagnostics-and-Support-Potential-Commercialization-of-Targeted-Cancer-Therapies-Using-the-Guardant-Infinity-Platform/default.aspx"
+      }
+    ],
+    "project": [
+      {
+        "summary": "The U.S. Food and Drug Administration (FDA) has approved Guardant360\u00ae Liquid CDx, a new liquid biopsy panel that integrates genomic and epigenomic insights to provide a more complete, actionable view of cancer from a simple blood draw. This approval makes it the largest FDA-approved liquid biopsy panel, assessing a 100X wider genomic footprint than the previously approved Guardant360 CDx.",
+        "project_name": "FDA Approval of New Guardant360 Liquid CDx",
+        "scope": "U.S. FDA approval for a comprehensive liquid biopsy panel for advanced cancer patients, integrating genomic and epigenomic insights for tumor profiling and treatment selection.",
+        "timeline": "Ongoing commercialization following FDA approval.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This FDA approval for an expanded liquid biopsy panel will increase the volume of advanced cancer testing, driving demand for a wider range of reagents, consumables, and potentially new or upgraded analytical equipment in clinical laboratories.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/FDA-Approves-New-Guardant360-Liquid-CDx-the-Largest-FDA-Approved-Liquid-Biopsy-Panel-with-a-100x-Expanded-Footprint/default.aspx"
+      },
+      {
+        "summary": "Guardant Health announced a multi-year strategic collaboration with Nuvalent, Inc. to develop companion diagnostics and support the potential commercialization of Nuvalent's targeted cancer therapies using Guardant's tissue and liquid biopsy portfolio, including the Guardant Infinity\u2122 platform.",
+        "project_name": "Multi-Year Strategic Collaboration with Nuvalent for Companion Diagnostics",
+        "scope": "Multi-year global collaboration to utilize Guardant's tissue and liquid biopsy tests for Nuvalent's global clinical studies, evaluate opportunities to develop Guardant assays as companion diagnostics (CDx), and collaborate on global commercialization of approved products and CDx.",
+        "timeline": "Multi-year collaboration.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This multi-year collaboration will generate sustained demand for Guardant's diagnostic tests, requiring a steady supply of reagents, consumables, and potentially new instrumentation for both clinical trial support and future commercialization of companion diagnostics.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-Announces-Multi-Year-Strategic-Collaboration-with-Nuvalent-to-Develop-Companion-Diagnostics-and-Support-Potential-Commercialization-of-Targeted-Cancer-Therapies-Using-the-Guardant-Infinity-Platform/default.aspx"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Guardant Health received FDA approval for Guardant360 CDx as a companion diagnostic for Arvinas and Pfizer's VEPPANU (vepdegestrant) for ER+/HER2- advanced breast cancer with ESR1 mutations.",
+        "product_or_site": "Guardant360 CDx",
+        "regulatory_action": "FDA PMA approval (Companion Diagnostic)",
+        "outcome": "Approved",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This approval will drive demand for Guardant360 CDx testing reagents and consumables as the diagnostic is scaled for use with the newly approved breast cancer drug.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/Guardant-Health-Receives-FDA-Approval-for-Guardant360-CDx-as-a-Companion-Diagnostic-for-Arvinas-and-Pfizers-VEPPANU-vepdegestrant-for-Patients-with-ERHER2--Advanced-Breast-Cancer-with-ESR1-Mutations/default.aspx"
+      },
+      {
+        "summary": "Guardant Health received FDA approval for its updated Guardant360 Liquid CDx, described as the largest FDA-approved liquid biopsy panel with a 100x expanded footprint, integrating genomic and epigenomic data for advanced cancer care and expanded companion diagnostic use.",
+        "product_or_site": "Guardant360 Liquid CDx",
+        "regulatory_action": "FDA PMA approval (Expanded indication/update)",
+        "outcome": "Approved",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This expanded FDA approval for Guardant360 Liquid CDx will increase demand for the test kits, reagents, and associated lab equipment due to broader applicability in advanced cancer care.",
+        "source_url": "https://markets.ft.com/data/announce/detail?dockey=600-202605040805BIZWIRE_USPRX____20260504_BW905593-1"
+      }
+    ],
+    "volume": [
+      {
+        "summary": "Guardant Health received FDA approval for Guardant360 Liquid CDx, a new blood-based cancer test that integrates genomic and epigenomic insights, offering a 100x wider genomic footprint and a several-fold increase in sensitivity for circulating tumor DNA (ctDNA) detection compared to the previous Guardant360 CDx.",
+        "test_or_product_line": "Guardant360 Liquid CDx",
+        "volume_change": "100x wider genomic footprint and a several-fold increase in sensitivity for circulating tumor DNA (ctDNA) detection.",
+        "driver": "FDA approval of Guardant360 Liquid CDx and the upgrade of Guardant's full product portfolio to the Smart Platform, an AI-enabled multiomic technology.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Higher test volume and increased complexity of testing directly lead to greater consumption of reagents, consumables, and potentially new equipment for sample processing and analysis.",
+        "source_url": "https://investors.guardanthealth.com/press-releases/press-releases/2026/FDA-Approves-New-Guardant360-Liquid-CDx-the-Largest-FDA-Approved-Liquid-Biopsy-Panel-with-a-100x-Expanded-Footprint/default.aspx"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:29:20.638176",
+  "ai_summary": "Guardant Health is rapidly expanding its liquid biopsy portfolio with multiple FDA approvals for Guardant360 CDx and the advanced Guardant360 Liquid CDx, offering broader genomic and epigenomic insights. New partnerships and the launch of its Shield multi-cancer test in India and via Quest Diagnostics signal increased testing volume and complexity. This growth drives significant demand for specialized lab supplies."
+}

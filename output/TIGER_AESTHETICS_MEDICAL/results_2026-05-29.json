@@ -1,0 +1,31 @@
+{
+  "account": "TIGER AESTHETICS MEDICAL",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000AumdhYAB",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Apyx Medical Corporation announced the publication of new clinical data in Aesthetic Surgery Journal Open Forum, highlighting a promising approach to improving cellulite and skin laxity using a combination treatment of Av\u00e9li\u00ae (Tiger Aesthetics Medical, LLC) and Renuvion.",
+        "partner": "Apyx Medical Corporation",
+        "deal_type": "Clinical Research Partnership",
+        "deal_value": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This indicates ongoing clinical research and development for aesthetic treatments, suggesting continued demand for related lab supplies and consumables for future studies or product enhancements.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/21/3299245/0/en/new-study-shows-significant-improvement-in-cellulite-and-skin-laxity-with-advanced-minimally-invasive-treatment-utilizing-av%C3%A9li-and-renuvion.html"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:13:41.721834",
+  "ai_summary": "Tiger Aesthetics Medical's Av\u00e9li\u00ae product is clinically validated in a new study for cellulite treatment, potentially boosting its market adoption. This signals increased procedural volume and demand for related aesthetic treatments. For a lab supply sales team, this means potential growth in demand for research materials, consumables, and equipment used in developing, manufacturing, or supporting these expanding aesthetic medical procedures."
+}

@@ -1,0 +1,108 @@
+{
+  "account": "JOHNSON MATTHEY",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1BMYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Johnson Matthey has agreed to acquire CORMETECH Inc., a leading US manufacturer of selective catalytic reduction (SCR) catalysts for stationary emissions control, for an enterprise value of $360 million.",
+        "location": "US",
+        "type_of_expansion": "Market entry and capacity expansion through acquisition",
+        "investment_value": 360000000,
+        "event_date": "2026-05-28",
+        "why_it_matters": "This acquisition indicates new or expanded manufacturing and research operations in stationary emissions control, creating demand for specialized lab supplies and equipment.",
+        "source_url": "https://matthey.com/media/2026/jm-set-to-acquire-cormetech"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Johnson Matthey announced an increase in its capital expenditure for the fiscal year 2026/27 to approximately \u00a3230 million, up from a previous guidance of \u00a3140 million. This increased investment is primarily allocated towards the accelerated completion and fit-out of its new Platinum Group Metals (PGM) refinery, which is currently in early-stage commissioning and is expected to be operational in calendar year 2027.",
+        "amount": "\u00a3230 million",
+        "funding_type": "Strategic Investment (Capital Expenditure)",
+        "use_of_proceeds": "New production infrastructure (PGM refinery)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The development and commissioning of a new PGM refinery will drive demand for a wide range of lab supplies, reagents, consumables, and scientific equipment essential for process monitoring, quality control, and operational optimization.",
+        "source_url": "https://matthey.com/media/2026/full-year-results-25-26"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Johnson Matthey has agreed to acquire US-based Cormetech Inc., a leading manufacturer of selective catalytic reduction (SCR) catalysts for stationary emissions control systems, for an enterprise value of $360 million. This acquisition aims to strengthen Johnson Matthey's global stationary emissions control capabilities and expand its clean air technologies, particularly for the rapidly growing data center sector in the US.",
+        "project_name": "Acquisition of Cormetech Inc.",
+        "scope": "Expansion into stationary emissions control, enhancing Johnson Matthey's Clean Air Solutions business and addressing demand from the AI and data center sector.",
+        "timeline": "The acquisition is expected to close by the end of June or in July 2026, subject to customary regulatory approvals and completion conditions.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This acquisition will likely lead to increased demand for raw materials, specialized chemicals, and potentially new or expanded production facilities for SCR catalysts, driving demand for lab supplies and equipment for quality control and R&D.",
+        "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-matthey--jmat/johnson-matthey-full-year-results-/9588672"
+      },
+      {
+        "summary": "Johnson Matthey is investing in a new, world-class PGM (Platinum Group Metals) refinery in the UK. The company has increased its group capital expenditure for 2026/27 to approximately \u00a3230 million (previously c. \u00a3140 million) to support the delivery of this new refinery.",
+        "project_name": "New UK PGM Refinery",
+        "scope": "Upgrade existing assets, improve the efficiency, resilience, safety, and sustainability of operations, reduce existing refining backlogs, and increase capacity for PGM refining.",
+        "timeline": "Early-stage commissioning commenced in March 2026, with the refinery on track to be operational in calendar year 2027.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The construction and operation of a new, world-class PGM refinery will generate significant demand for specialized analytical equipment, process chemicals, and various lab consumables for quality control, process monitoring, and ongoing R&D.",
+        "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-matthey--jmat/johnson-matthey-full-year-results-/9588672"
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Johnson Matthey has agreed to acquire Cormetech Inc., a leading US manufacturer of selective catalytic reduction (SCR) catalysts for stationary power generation and industrial applications, for an enterprise value of $360 million, with a potential earn-out of up to $100 million. This acquisition will materially enhance Johnson Matthey's Clean Air Solutions business.",
+        "facility_or_line": "Cormetech's two manufacturing sites",
+        "change_type": "Acquisition, expansion of product line and capacity",
+        "location": "US",
+        "investment_value": "$360 million (plus up to $100 million earn-out)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This acquisition will increase demand for raw materials, specialized chemicals, and quality control equipment for catalyst production and testing.",
+        "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-matthey--jmat/johnson-matthey-full-year-results-/9588672"
+      },
+      {
+        "summary": "Johnson Matthey is progressing with the early-stage commissioning of a new PGM (Platinum Group Metal) refinery in the UK, which is on track to be operational in calendar year 2027. The company has increased its group capital expenditure to approximately \u00a3230 million for FY 2026/2027 to support the delivery of this new refinery.",
+        "facility_or_line": "New UK PGM refinery",
+        "change_type": "New manufacturing site, increased production capacity",
+        "location": "UK",
+        "investment_value": "\u00a3230 million (increased capital expenditure for FY 2026/2027)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new refinery will require a wide range of lab supplies, reagents for chemical processes, and analytical equipment for quality control and process monitoring.",
+        "source_url": "https://www.marketscreener.com/news/johnson-matthey-full-year-results-announcement-announcement-fy-2025-26-ce7f5ad3d18cfe22"
+      },
+      {
+        "summary": "Guangdong Liquid Sunshine has selected Johnson Matthey's methanol conversion technology for a new commercial-scale biomethanol plant in Tiandong County, Guangxi Province, China. Construction is expected to begin later this year, with the first phase aiming for an annual production capacity of 75,000 tonnes of biomethanol. A second phase is also planned to produce e-methanol.",
+        "facility_or_line": "Biomethanol plant (using JM technology)",
+        "change_type": "New manufacturing site, new product line",
+        "location": "Tiandong County, Guangxi Province, China",
+        "investment_value": null,
+        "event_date": "2026-04-27",
+        "why_it_matters": "The construction and operation of a new biomethanol plant will create demand for various lab supplies, catalysts, and analytical instruments for process control and product quality assurance.",
+        "source_url": "https://www.soci.org/news/2026/4/johnson-matthey-technology-chosen-for-new-biomethanol-fuel-plant"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Johnson Matthey incurred restructuring charges of \u00a35 million following the closure of its China Refining plant, as reported in their preliminary results for the year ended March 31, 2026.",
+        "facility_or_programme": "China Refining plant",
+        "closure_type": "Plant closure",
+        "effective_date": null,
+        "reason": "Restructuring and efficiency initiatives.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This closure presents an opportunity for Thomas Scientific to supply new or replacement equipment and consumables to the facilities taking over the refining activities or to other companies in the region.",
+        "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-matthey--jmat/johnson-matthey-full-year-results-/9588672"
+      },
+      {
+        "summary": "Johnson Matthey consolidated its manufacturing footprint by closing two additional production lines, one in India and one in North America, as part of its efforts to move towards more efficient plants.",
+        "facility_or_programme": "Two production lines (one in India, one in North America)",
+        "closure_type": "Production line shutdown",
+        "effective_date": null,
+        "reason": "Consolidation of existing capacity into more efficient plants.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The shutdown of these production lines creates a potential for Thomas Scientific to provide decommissioning services or to supply new equipment to the more efficient plants where capacity is being consolidated.",
+        "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-matthey--jmat/johnson-matthey-full-year-results-/9588672"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:33:13.070908",
+  "ai_summary": "Johnson Matthey is acquiring US-based Cormetech for clean air solutions and investing in a new UK PGM refinery, while consolidating other sites. These expansions, including biomethanol projects, create strong lab supply demand. Target new/upgraded facilities for R&D, quality control, and process optimization equipment in catalysts, PGM, and sustainable chemistry."
+}

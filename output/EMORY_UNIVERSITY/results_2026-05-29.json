@@ -1,0 +1,137 @@
+{
+  "account": "EMORY UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1cTYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Ten Emory College seniors and recent graduates, as well as three Emory PhD students, were awarded prestigious National Science Foundation Graduate Research Fellowships, which include a cost-of-education allowance paid to Emory University.",
+        "recipient": "Emory University (on behalf of 13 graduate research fellows)",
+        "department_or_lab": "Emory College, James T. Laney School of Graduate Studies (various STEM departments)",
+        "amount": 624000.0,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates ongoing research and educational activities across various STEM fields at Emory, potentially leading to demand for specialized lab equipment and consumables for graduate-level research.",
+        "source_url": "https://news.emory.edu/stories/2026/04/er_nsf_graduate_fellowships_28-04-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      },
+      {
+        "summary": "Emory University has been named a national research site in a landmark $21 million National Institutes of Health-funded initiative (INSPIRE Network) to evaluate the safety and therapeutic potential of psychedelics for older adults, with Emory receiving $4 million.",
+        "recipient": "Emory University School of Medicine",
+        "department_or_lab": "Department of Psychiatry and Behavioral Sciences, Emory Center for Psychedelics and Spirituality",
+        "amount": 4000000.0,
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant funding for psychedelic research at Emory suggests a demand for specialized reagents, analytical equipment, and consumables for neuroscience and pain research.",
+        "source_url": "https://news.emory.edu/stories/2026/04/hs_bhc_nih_psychedelics/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      },
+      {
+        "summary": "Emory University received a grant for a Roybal Translational Research Center focused on promoting context-specific caregiving for community-dwelling persons living with Alzheimer's Disease or related disorders.",
+        "recipient": "EMORY UNIVERSITY",
+        "department_or_lab": "Roybal Translational Research Center",
+        "amount": 6290648.0,
+        "agency": "United States Department of Health and Human Services (NIH/NIA)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This substantial grant for Alzheimer's research indicates a need for lab supplies, reagents, and equipment for neurodegenerative disease studies, potentially including behavioral research tools.",
+        "source_url": "https://matchawards.com/department_of_health_and_human_services/posts/emory-university-ba21ff75-1dc6-4072-9cf0-f7397cf40a32"
+      },
+      {
+        "summary": "Emory University, in partnership with the STRONG STAR consortium, received a $4.9 million grant from the Department of War (DoD) to fund MDMA-assisted therapy studies for active-duty service members with PTSD.",
+        "recipient": "Emory University",
+        "department_or_lab": "Not explicitly stated, likely related to psychiatry or mental health research",
+        "amount": 4900000.0,
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This DoD funding for MDMA-assisted therapy research suggests a demand for specialized reagents, analytical equipment, and consumables for psychiatric and neurological research, particularly in the context of PTSD.",
+        "source_url": "https://www.jdsupra.com/legalnews/from-fringe-to-federal-and-state-6587541/"
+      },
+      {
+        "summary": "Emory chemist Khalid Salaita's lab received a grant from the National Science Foundation and the Center for the Advancement of Science in Space to send force-sensing technology to the International Space Station to study cell mechanics in microgravity.",
+        "recipient": "Khalid Salaita (Emory University)",
+        "department_or_lab": "Chemistry department, Salaita Lab",
+        "amount": null,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This grant indicates a need for advanced microscopy, cell culture equipment, and specialized reagents for mechanobiology and space biology research.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_iss_force_probes-04-05-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "The Leona M. and Harry B. Helmsley Charitable Trust awarded $2.7 million to the STAR Consortium, which includes Emory University, for Crohn's stricture AI development.",
+        "amount": "2,700,000",
+        "funding_type": "Strategic Investment / Program Award",
+        "use_of_proceeds": "Crohn's stricture AI development, involving building AI models and enhancing research capacity in AI for health.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This new capital will directly support advanced AI research and development at Emory, necessitating the acquisition of specialized computing equipment, software, and potentially new lab consumables for data processing and model validation.",
+        "source_url": "https://www.choa.org/research/childrens-researchers-build-specialized-ai-models-to-guide-clinical-decision-making"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Emory University has been designated a national research site in a $21 million National Institutes of Health (NIH)-funded initiative, the INSPIRE Network, to investigate the safety and therapeutic potential of psychedelics for older adults. Emory's Department of Psychiatry and Behavioral Sciences will receive $4 million in NIH funding for its role in this five-year program.",
+        "project_name": "INSPIRE Network (INnovative Science of Psychedelic Inclusive Research in Elders)",
+        "scope": "A five-year national clinical research program evaluating the safety and therapeutic potential of psychedelics (psilocybin or LSD combined with psychological support) in adults aged 65 and older. Emory's contributions include participant enrollment, trial conduction, data interpretation, and application of clinical insights from palliative medicine, geriatric medicine, neurology, psychiatry, and pain management.",
+        "timeline": "Five-year program; Phase I (years one and two) will study physiological and cognitive safety indicators. Participant enrollment for Emory's Phase I study is scheduled to begin May 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This multi-year, multi-million dollar research program will require a significant amount of lab supplies, reagents, and potentially specialized equipment for psychedelic research, clinical trials, and physiological/cognitive safety assessments.",
+        "source_url": "https://news.emory.edu/stories/2026/04/hs_bhc_nih_psychedelics/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      },
+      {
+        "summary": "Emory University has doubled its annual funding for the University Research Committee (URC) program to $2 million, supporting 70 new faculty research projects across all academic departments.",
+        "project_name": "University Research Committee (URC) Grants",
+        "scope": "Provides seed grants for groundbreaking, high-quality research from every academic department of the university through a competitive peer-review process, emphasizing innovative discoveries.",
+        "timeline": "Annual program; funding doubled starting this year.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The doubling of URC funding to $2 million for 70 new faculty research projects indicates a broad increase in demand for a wide range of lab supplies, reagents, consumables, and scientific equipment across multiple disciplines.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_urc_overview_01-05-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      },
+      {
+        "summary": "Emory University chemist Khalid Salaita's lab received a grant from the National Science Foundation (NSF) and the Center for the Advancement of Science in Space to fund a three-year project studying mechanobiology in microgravity on the International Space Station (ISS).",
+        "project_name": "Mechanobiology in Microgravity (ISS National Lab project)",
+        "scope": "A three-year project to study how cell mechanics change at microgravity using force-sensing technology made of synthetic DNA probes. The lab will prepare its force probes for space travel and experimentation aboard the ISS National Laboratory.",
+        "timeline": "Three-year project; the lab will prepare its force probes for space travel during the next year.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This three-year, government-funded project involving a space mission will require specialized and robust scientific equipment, consumables, and reagents for molecular mechanobiology research under microgravity conditions.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_iss_force_probes-04-05-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      },
+      {
+        "summary": "Emory University has been selected as one of 14 institutions for the Beckman Scholars Program, which provides funding for two high-achieving undergraduate students to conduct 15 months of intensive research in biology and chemistry.",
+        "project_name": "Beckman Scholars Program",
+        "scope": "Supports two high-achieving undergraduates with funding to work with research mentors from Emory College and the Emory School of Medicine for 15 months of intensive research in biology and chemistry.",
+        "timeline": "15 months of intensive research, beginning in summer.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This program provides funding for intensive biology and chemistry research, directly increasing the demand for specialized reagents, consumables, and potentially new equipment in the labs of the Beckman research mentors.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_beckman_scholars_named_13-05-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Emory scientists Justin Burton and Ilya Nemenman, along with their student co-authors, received the Cozzarelli Prize from the journal PNAS for their AI-physics article, which made an outstanding contribution to their field through the discovery of new physics in dusty plasma.",
+        "researcher_name": "Justin Burton, Ilya Nemenman, and student co-authors",
+        "department_or_lab": "Department of Physics",
+        "award_or_discovery": "Cozzarelli Prize for discovery of new physics in dusty plasma",
+        "significance": "The Cozzarelli Prize, awarded by the National Academy of Sciences for outstanding scientific research published in PNAS, signifies a high-impact breakthrough in fundamental physics.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This breakthrough in fundamental physics indicates high-level research activity requiring specialized equipment and consumables for plasma physics and potentially materials science.",
+        "source_url": "https://news.emory.edu/ebulletin/emory-report/2026/05/19/index.html"
+      },
+      {
+        "summary": "Jane Chung, PhD, RN, FGSA, an associate professor at Emory University's Nell Hodgson Woodruff School of Nursing, has been named to the National Academy of Medicine's newest class of Emerging Leaders in Health and Medicine.",
+        "researcher_name": "Jane Chung",
+        "department_or_lab": "Nell Hodgson Woodruff School of Nursing",
+        "award_or_discovery": "National Academy of Medicine Emerging Leaders in Health and Medicine program",
+        "significance": "Being selected for the National Academy of Medicine is a major honor, recognizing early- to mid-career professionals for their potential to advance science and address critical health challenges. Chung's research focuses on AI-driven analytic systems and community-embedded sensing to improve the well-being of older adults.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "Research involving AI-driven analytic systems and community-embedded sensing for health monitoring signals demand for advanced computing infrastructure, specialized sensors, and data analysis software and services, as well as consumables for health-related studies.",
+        "source_url": "https://news.emory.edu/stories/2026/05/son_chung_nam_2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:30:09.309563",
+  "ai_summary": "Emory University is experiencing a significant surge in research funding from NIH, DoD, NSF, and private trusts, alongside doubled internal research investment. This fuels numerous new projects across neuroscience, AI, space biology, and cell mechanics. This expansion signals a substantial increase in demand for diverse lab supplies, equipment, and specialized reagents, creating prime sales opportunities for cutting-edge scientific endeavors."
+}

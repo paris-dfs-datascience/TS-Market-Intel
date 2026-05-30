@@ -1,0 +1,102 @@
+{
+  "account": "CRYOLIFE",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1LiYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Cancer Center at Illinois (CCIL) has received designation from the National Cancer Institute (NCI), making it the nation's 74th NCI-Designated Cancer Center and the 8th Basic Cancer Center to earn designation, focusing on discovery and development of innovative approaches to cancer detection, treatment, and prevention.",
+        "recipient": "Cancer Center at Illinois (CCIL)",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This NCI designation indicates a significant increase in cancer research activities, leading to higher demand for specialized lab supplies, reagents, and equipment at the Cancer Center at Illinois.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-vRYCSZzt6mnRzSNcCCgwBCZGlUJJmtedpd7cO6c2Ro3-LEhqugHvDCghieNdTvgBhl2-WeqO1Vh-tRnbK6vRD3ReAkLY6ovfEKowFa4jRt9L7M99qKkmegyBLjOV0EIRSLnncJIYPfRMmg=="
+      },
+      {
+        "summary": "The University of Tennessee Medical Center has received a $7 million state appropriation to support its pursuit of National Cancer Institute (NCI) designation, aiming to expand early detection and screening programs, grow clinical trials and research capabilities, build data and care coordination infrastructure, and recruit leading physicians and scientists.",
+        "recipient": "University of Tennessee Medical Center",
+        "department_or_lab": null,
+        "amount": "$7 million",
+        "agency": "State of Tennessee (appropriation towards NCI designation)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This significant state investment signals upcoming expansion in cancer research and clinical trials at UT Medical, creating immediate and future demand for lab supplies, consumables, and equipment.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAt7gTIq-YC3eJsYl2dHJ70FBbxNHdCmB7qrZ4c2aF8IXkARsrHBZX4ZBrkBGQK_DY2yEOB8gW4d_YRNFpdYHjlexYq_4CkhpXTvqvUaiAk7wzt2KgWk4N-94luTG-ugbi3jhiHcGbxHK-mzlBAfb175tC5xHZQTq-eTBi0-pr0oYruRIfn8Acui6yWn23yaHC8ycAMgMF6YK2IAOsagpF8Vxpm-bmuWQRM9tHpg=="
+      },
+      {
+        "summary": "U.S. Senator Cindy Hyde-Smith received commitments from National Institutes of Health (NIH) officials to work with the University of Mississippi Medical Center (UMMC) in its bid for National Cancer Institute (NCI) designation, supported by a state contribution of $100 million for a new five-story, 250,000-square-foot Cancer Center and Research Institute.",
+        "recipient": "University of Mississippi Medical Center (UMMC)",
+        "department_or_lab": "UMMC Cancer Center and Research Institute",
+        "amount": "$100 million",
+        "agency": "State of Mississippi (contribution towards NCI designation) and National Institutes of Health (NIH) support",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The substantial state funding and NIH commitment for UMMC's new cancer center and NCI designation efforts indicate a major expansion in cancer research infrastructure and activity, driving future demand for a wide range of scientific supplies.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDjDoGXyZqC7MJLIaaPNK2qIn1bfeaptI3sRfk_L3QlYwylUMUha3WGYFHr_GM-YRzvdgBrDshgVyKNR3LcPA-jPYzGREucEUgBecY6eHLHcHVp0wERt0NXNorJw_0Atn0eA6p_7vinsgbMuMxjBNWEAHMa_CFZtFjnHxt3ExdfjbFYOsaJ8CYjOVhO4328LYBPnQYk7BkGo5dx5MxLwmBNtmo"
+      },
+      {
+        "summary": "The Maryland Stem Cell Research Commission announced 38 new awards totaling $12,665,189 through the Maryland Stem Cell Research Fund (MSCRF) to support cutting-edge stem cell and regenerative medicine research, technology development, and commercialization across Maryland, including Commercialization and Clinical awards to various companies and Johns Hopkins University.",
+        "recipient": "Various (including Caleo Biotechnologies Inc., Mirecule Inc, SereNeuro Therapeutics, Reprocell USA, NuGate Therapeutics, Lentigen Technology, John Hopkins University, Theradaptive, Inc.)",
+        "department_or_lab": null,
+        "amount": "$12,665,189",
+        "agency": "Maryland Stem Cell Research Fund (MSCRF)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "These significant awards for stem cell and regenerative medicine research across multiple institutions and companies will generate substantial demand for specialized reagents, cell culture media, consumables, and scientific equipment.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErFOlBa9Qefq0JgzK0AIG5zHwujb5egpt9E1N_9LP5a89pA65nGhgz_6k3djfBOV5Xr7JnmMMG52HfqwucvjZHjpbA_THwpXx3NEXAyYlJ2L9PVWAlJsEJ-3CcSXDETwDI51Wgh9ICVJUkeJm-EOahGERCW-1os0rxWgssUJvxw1pIaYS1EcQ8pKB8NMDKynxLpnDZcubUXjzJ1S85_dbrwskqDgPcPMRRiRdLXrs5dbngeSI="
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Artivion, Inc. (formerly CryoLife) completed the acquisition of Endospan, following the April 2026 U.S. Food and Drug Administration (FDA) Premarket Approval (PMA) of the NEXUS\u00ae Aortic Arch System, an off-the-shelf endovascular solution designed to treat aortic arch disease.",
+        "product_or_program": "NEXUS\u00ae Aortic Arch System",
+        "stage": "FDA Premarket Approval (PMA) and Acquisition Completion",
+        "therapeutic_or_application_area": "Aortic arch disease, including chronic aortic dissections, in patients at high risk for open surgical repair.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The FDA approval and acquisition of the NEXUS system indicate an immediate need for lab supplies, reagents, consumables, and scientific equipment to support the manufacturing, distribution, and clinical implementation of this new endovascular solution for aortic arch disease.",
+        "source_url": "https://www.businesswire.com/news/home/20260518311431/en/Endospan-Announces-Closing-of-Acquisition-by-Artivion-Inc.-Following-FDA-PMA-Approval-of-the-NEXUS-Aortic-Arch-System"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Artivion (formerly CryoLife) completed the acquisition of Endospan Ltd., an Israel-based medical device company focused on endovascular solutions for aortic arch disease, for an upfront cash outlay of $135 million (net), with potential total payments up to $375 million tied to US commercial milestones.",
+        "location": "Herzliya (Tel Aviv), Israel",
+        "type_of_expansion": "Acquisition of a medical device company with research and development capabilities",
+        "investment_value": 135000000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This acquisition expands Artivion's product portfolio and research capabilities, indicating potential new demand for specialized lab supplies and reagents for ongoing development and manufacturing in Israel.",
+        "source_url": "https://meddeviceguide.com/blog/artivion-endospan-nexus-aortic-arch-system-acquisition-guide"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Artivion (formerly CryoLife) acquired Endospan, gaining the FDA-approved NEXUS Aortic Arch System, involving a cash base price of $175.0 million and potential contingent payments up to $200.0 million.",
+        "project_name": "Acquisition of Endospan and NEXUS Aortic Arch System",
+        "scope": "Expansion of Artivion's product portfolio and clinical focus in aortic arch devices with the FDA-approved NEXUS system.",
+        "timeline": "FDA PMA approval for NEXUS in April 2026; acquisition announced/closed around May 18, 2026.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This acquisition and the FDA approval of the NEXUS system indicate a significant expansion in Artivion's product portfolio and clinical focus, likely leading to increased demand for specialized surgical and diagnostic supplies for aortic arch procedures.",
+        "source_url": "https://www.stocktitan.net/sec-filings/AORT/8-k-artivion-inc-reports-material-event-e29e1a6d3978.html"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Artivion (formerly CryoLife) announced the acquisition of Endospan following FDA Premarket Approval of the NEXUS Aortic Arch System.",
+        "product_or_site": "NEXUS Aortic Arch System",
+        "regulatory_action": "FDA Premarket Approval (PMA)",
+        "outcome": "Approved",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This FDA approval allows Artivion to market and distribute the NEXUS system, indicating increased demand for related surgical and implant supplies.",
+        "source_url": "https://www.stocktitan.net/sec-filings/AORT/8-k-artivion-inc-reports-material-event-7862604323de.html"
+      }
+    ],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:00:23.165685",
+  "ai_summary": "Artivion (formerly CryoLife) acquired Endospan, gaining the FDA-approved NEXUS Aortic Arch System for aortic arch disease. This strategic expansion into endovascular solutions signals significant investment in new product development and commercialization. For lab supply sales, this creates opportunities to support Artivion's R&D, quality control, and potential manufacturing needs related to this advanced cardiovascular device and future innovations in their growing portfolio."
+}

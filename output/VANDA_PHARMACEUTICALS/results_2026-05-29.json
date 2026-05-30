@@ -1,0 +1,71 @@
+{
+  "account": "VANDA PHARMACEUTICALS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000IBSwJYAX",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Vanda Pharmaceuticals received orphan drug designation from Japan's Ministry of Health, Labour and Welfare for imsidolimab, a treatment for generalized pustular psoriasis (GPP). This designation provides development incentives, including subsidies for research and development costs.",
+        "recipient": "Vanda Pharmaceuticals",
+        "department_or_lab": "Imsidolimab program for generalized pustular psoriasis",
+        "amount": "Subsidies for research and development costs",
+        "agency": "Japan's Ministry of Health, Labour and Welfare (MHLW)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This designation indicates upcoming R&D activities for imsidolimab in Japan, suggesting potential demand for lab supplies, reagents, and equipment to support the development and clinical trials.",
+        "source_url": "https://www.stocktitan.net/news/VNDA/vanda-pharmaceuticals-announces-orphan-drug-designation-in-japan-for-1mtfyfpj03k2.html"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Vanda Pharmaceuticals announced the U.S. commercial availability of NEREUS\u2122 (tradipitant), the first new pharmacologic treatment for people with motion sickness in over 40 years.",
+        "product_or_program": "NEREUS\u2122 (tradipitant)",
+        "stage": "Commercial Launch",
+        "therapeutic_or_application_area": "Prevention of vomiting induced by motion (motion sickness)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This indicates immediate demand for manufacturing, packaging, and distribution supplies, as well as potential for future clinical trial support for related indications.",
+        "source_url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-us-commercial-availability-of-nereus-tradipitant-the-first-new-pharmacologic-treatment-for-people-with-motion-sickness-in-more-than-40-years-302760737.html"
+      },
+      {
+        "summary": "Vanda Pharmaceuticals reported in its first quarter 2026 financial results that the FDA accepted the Biologics License Application (BLA) for imsidolimab in Generalized Pustular Psoriasis (GPP) with a Prescription Drug User Fee Act (PDUFA) target action date of December 12, 2026.",
+        "product_or_program": "Imsidolimab",
+        "stage": "BLA Accepted (Regulatory Review)",
+        "therapeutic_or_application_area": "Generalized Pustular Psoriasis (GPP)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "BLA acceptance indicates ongoing regulatory review, which may require additional data, testing, and potential for future commercial manufacturing, all requiring lab supplies.",
+        "source_url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-reports-first-quarter-2026-financial-results-302764640.html"
+      },
+      {
+        "summary": "Vanda Pharmaceuticals announced that Japan's Ministry of Health, Labour and Welfare (MHLW) granted orphan drug designation to imsidolimab for the treatment of generalized pustular psoriasis (GPP).",
+        "product_or_program": "Imsidolimab",
+        "stage": "Orphan Drug Designation",
+        "therapeutic_or_application_area": "Generalized Pustular Psoriasis (GPP)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Orphan Drug Designation can accelerate development and regulatory review, potentially increasing demand for research and development lab supplies.",
+        "source_url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-orphan-drug-designation-in-japan-for-imsidolimab-in-generalized-pustular-psoriasis-302782517.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Vanda Pharmaceuticals announced that the U.S. Food and Drug Administration (FDA) accepted the Biologics License Application (BLA) for imsidolimab for the treatment of Generalized Pustular Psoriasis (GPP), with a Prescription Drug User Fee Act (PDUFA) target action date of December 12, 2026.",
+        "product_or_site": "Imsidolimab",
+        "regulatory_action": "BLA Acceptance",
+        "outcome": "Accepted for review",
+        "event_date": "2026-05-06",
+        "why_it_matters": "BLA acceptance signals progression towards potential market entry, which will drive demand for R&D and manufacturing supplies for clinical trials and eventual commercial production scale-up.",
+        "source_url": "https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-reports-first-quarter-2026-financial-results-302764640.html"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:55:18.917519",
+  "ai_summary": "Vanda Pharmaceuticals is actively advancing its pipeline, with imsidolimab for GPP receiving orphan drug status in Japan and FDA BLA acceptance, targeting a December 2026 approval. They also commercially launched NEREUS\u2122 for motion sickness in the U.S. This indicates significant R&D, clinical, and manufacturing activity, creating immediate and future opportunities for lab supply sales to support ongoing development, quality control, and production needs."
+}

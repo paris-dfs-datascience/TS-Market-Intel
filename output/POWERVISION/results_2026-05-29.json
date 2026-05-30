@@ -1,0 +1,32 @@
+{
+  "account": "POWERVISION",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1G5YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Cancer Center at Illinois (CCIL) has been designated as a Basic Cancer Center by the National Cancer Institute (NCI), becoming the nation's 74th NCI-Designated Cancer Center and the 8th Basic Cancer Center to earn this recognition. This marks the first new Basic Cancer Center designation in nearly 40 years, highlighting the University of Illinois Urbana-Champaign's excellence in merging oncology, engineering, and basic science.",
+        "recipient": "Cancer Center at Illinois (CCIL)",
+        "department_or_lab": "Cancer Center at Illinois",
+        "amount": null,
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-04-16",
+        "why_it_matters": "This new NCI designation indicates increased research activity and potential demand for lab supplies, reagents, consumables, and scientific equipment at the Cancer Center at Illinois.",
+        "source_url": "https://news.illinois.edu/view/6367/2921099"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:11:20.267003",
+  "ai_summary": "The Cancer Center at Illinois (CCIL) achieved NCI Basic Cancer Center designation, a rare and significant recognition. This highlights their expanded research capabilities in oncology, engineering, and basic science. For a lab supply sales team, this signals increased funding and a greater need for advanced lab equipment, reagents, and services to support their enhanced research programs, creating a prime sales opportunity."
+}

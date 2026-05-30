@@ -1,0 +1,50 @@
+{
+  "account": "ABBOTT MEDICAL LIMITADA",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "0018Y00002lI3AwQAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Abbott Laboratories Inc. was awarded a firm fixed-price purchase order by the Department of Veterans Affairs (VA), Network Contract Office 16, for medical and surgical instruments, equipment, and supplies.",
+        "contract_name": "Purchase Order 36C25626P0646",
+        "estimated_value": "$26,054",
+        "deadline_or_expiration": "2026-07-29",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates ongoing demand for Abbott's medical and surgical supplies within the VA healthcare system, representing a potential sales signal for Thomas Scientific to supply complementary lab consumables or equipment to facilities working with Abbott products.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQt5YbUZGEXXVWih_YWVpYvtJATWLXJEHAgpQxEKaKfcXuSZYkl1Lp58bVjq3Q93rotBqTgIlQC6S0Tf1xc1D7i66CJPgiAH2CHY0-5olqNDtkiuaHrcJ_Ths80ldtLQhs-TCrQqf8G2_wnl5384sWUvxLgWEi8OX8XrSwsJlm2XkIP_Fm"
+      },
+      {
+        "summary": "An indefinite delivery vehicle (IDV) award for Invitro Diagnostics, Reagents, Test Kits, and Test Sets (FSS 65 VII) with VISN 12, involving Abbott Laboratories, was modified.",
+        "contract_name": "IDV Award 36F79721D0073 (FSS 65 VII)",
+        "estimated_value": "$300.0M (ceiling)",
+        "deadline_or_expiration": "2027-01-03",
+        "event_date": "2026-05-08",
+        "why_it_matters": "A modification to an existing IDV for Invitro Diagnostics, Reagents, Test Kits, and Test Sets indicates ongoing and potentially increasing demand for these types of lab supplies within the VISN 12 healthcare system, presenting a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa3kYRmCZD_PYwUSAnbFndCJkV7ts0NE5c17zTvdq_S-yP9-GcJf41Sa4cVUCckLHcXuUK4GSs_2SNEVnJwe1OuvM7QPDrygYEIK-POMBMYRZ1Be-mwbXJgOHCil68e_nYs2JW72FPLi8AM3UwpHQn3vrozDz50I9O"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Abbott Laboratories (Singapore) Private Limited has an active FDA Establishment Registration for medical devices.",
+        "product_or_site": "Abbott Laboratories (Singapore) Private Limited (medical device establishment)",
+        "regulatory_action": "Establishment Registration (FDA)",
+        "outcome": "Active",
+        "event_date": "2026-05-04",
+        "why_it_matters": "An active FDA registration for a medical device establishment indicates ongoing manufacturing and distribution activities, suggesting a steady demand for associated lab supplies and equipment.",
+        "source_url": "https://www.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm?start_search=1&establishmentName=&regNum=&StateName=&CountryName=&RegistrationNumber=&OwnerOperatorNumber=1415939&OwnerOperatorName=&ProductCode=&DeviceName=&ProprietaryName=&establishmentType=&PAGENUM=10&SortColumn="
+      }
+    ],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:39:35.576090",
+  "ai_summary": "Abbott is actively securing and modifying significant VA contracts for medical, surgical, and Invitro Diagnostics supplies, including reagents and test kits, supported by active FDA registration. This demonstrates Abbott's strong market presence in supplying large health systems with critical lab products. For a lab supply sales team, this highlights Abbott as a key competitor or potential partner, indicating active procurement needs and opportunities to offer complementary solutions to these same VA facilities."
+}

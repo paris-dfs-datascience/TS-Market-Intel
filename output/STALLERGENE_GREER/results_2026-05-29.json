@@ -1,0 +1,52 @@
+{
+  "account": "STALLERGENE GREER",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP15WYAS",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Nuance Pharma announced that China's National Medical Products Administration (NMPA) has cleared its Investigational New Drug (IND) application for Actair\u00ae, enabling the initiation of a pivotal clinical trial in China for house dust mite-induced allergic rhinitis. Stallergenes Greer is an exclusive long-term partner for the development and registration of the Actair\u00ae tablet in China.",
+        "product_or_program": "Actair\u00ae",
+        "stage": "IND Clearance / Clinical Trial Initiation (Pivotal Phase III)",
+        "therapeutic_or_application_area": "House dust mite-induced allergic rhinitis",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This IND clearance and upcoming pivotal clinical trial for Actair\u00ae in China indicates potential future demand for lab supplies, reagents, consumables, and scientific equipment to support the clinical development and potential commercialization of this allergy immunotherapy product.",
+        "source_url": "https://www.prnewswire.com/apac/news-releases/nuance-pharma-announces-ind-clearance-for-actair-pivotal-clinical-trial-in-china-302779685.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "The Stallergenes Greer Foundation announced the recipients of its 2025 Science Awards for Allergy, allocating a total of \u20ac100,000 to four researchers for their contributions to allergy research and patient engagement.",
+        "amount": "\u20ac100,000",
+        "funding_type": "Grant/Award",
+        "use_of_proceeds": "To support ongoing research and scientific initiatives, including improving diagnostic and therapeutic options for allergic patients, integrated multi-omics approaches to elucidate cellular and molecular pathways modulated by allergen-specific immunotherapy, and the development of allergen-specific mRNA vaccines for the treatment of allergic diseases.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Funding for allergy research, diagnostics, and therapeutic development, including advanced techniques like mRNA vaccines and multi-omics approaches, will directly increase demand for specialized lab reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.businesswire.com/news/home/20260527242111/en/Stallergenes-Greer-Foundation-Celebrates-Excellence-in-Allergy-Innovation-With-2025-Awards"
+      }
+    ],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Nuance Pharma announced that China's National Medical Products Administration (NMPA) cleared its Investigational New Drug (IND) application for Actair\u00ae for house dust mite-induced allergic rhinitis, enabling a pivotal clinical trial in China. Stallergenes Greer is an exclusive long-term partner for the development and registration of Actair\u00ae in China.",
+        "product_or_site": "Actair\u00ae (for house dust mite-induced allergic rhinitis)",
+        "regulatory_action": "IND Clearance",
+        "outcome": "Clinical trial initiation in China",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This IND clearance signals the progression of a new drug into pivotal clinical trials, which will drive demand for research-phase lab supplies, reagents, and consumables for the trial.",
+        "source_url": "https://www.prnewswire.com/apac/news-releases/nuance-pharma-announces-ind-clearance-for-actair-pivotal-clinical-trial-in-china-302779685.html"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:47:57.233116",
+  "ai_summary": "Stallergenes Greer is advancing its Actair\u00ae pipeline, with a pivotal clinical trial for allergic rhinitis cleared in China through its partnership with Nuance Pharma. This significant step indicates an increased need for lab supplies, reagents, and equipment to support trial execution and future development. Additionally, their foundation's funding for allergy research highlights a sustained commitment to the field, potentially driving further internal R&D requirements."
+}

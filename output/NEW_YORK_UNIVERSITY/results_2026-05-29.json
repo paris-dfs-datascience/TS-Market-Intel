@@ -1,0 +1,138 @@
+{
+  "account": "NEW YORK UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BoYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "NYU Langone Health has been awarded a nearly $70 million, seven-year renewal grant from the National Institutes of Health (NIH) to fund its Clinical and Translational Science Institute (CTSI). The award is the highest level of funding available nationally under NIH's Clinical and Translational Science Awards (CTSA) Program.",
+        "recipient": "NYU Langone Health",
+        "department_or_lab": "Clinical and Translational Science Institute (CTSI)",
+        "amount": "Nearly $70 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant, multi-year NIH grant indicates sustained research activity and a high demand for lab supplies, reagents, and equipment at NYU Langone's CTSI.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-secures-nearly-70-million-nih-grant-accelerate-scientific-discovery"
+      },
+      {
+        "summary": "Ten NYU Tandon School of Engineering graduate students have been named 2026 National Science Foundation (NSF) Graduate Research Fellows, chosen from a pool of nearly 14,000 applicants for one of the most competitive and prestigious awards in American science.",
+        "recipient": "Vatsal Baherwani, Anvita Bansal, Evan Brody, Jason Chan, Valeria Diaz Moreno, Cooper Sanders, Maya Schuchert, Danna Soriano, Sasha Visek",
+        "department_or_lab": "NYU Tandon School of Engineering",
+        "amount": "The NSF Graduate Research Fellowship Program provides three years of financial support over five years, including a stipend and cost of education allowance.",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The award of NSF Graduate Research Fellowships to multiple students at NYU Tandon indicates new research projects are starting or continuing, creating demand for various lab supplies and equipment in engineering and related STEM fields.",
+        "source_url": "https://engineering.nyu.edu/news/ten-nyu-tandon-students-named-2026-nsf-graduate-research-fellows"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Michael Purugganan, the newly appointed Dean of NYU Arts & Science, oversaw the launch of The Carl P. Feinberg Institute for Theoretical Physics during his tenure as interim dean.",
+        "project_name": "The Carl P. Feinberg Institute for Theoretical Physics",
+        "scope": "The institute is dedicated to theoretical physics research.",
+        "timeline": "The institute was launched during the interim deanship of Michael Purugganan, whose appointment as permanent dean was announced on May 19, 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new institute for theoretical physics will require investment in high-performance computing infrastructure, specialized software, and potentially advanced laboratory equipment for experimental validation.",
+        "source_url": "https://as.nyu.edu/features/impact-makers/2026/michael-purugganan-dean-of-arts-science.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1"
+      },
+      {
+        "summary": "NYU Abu Dhabi's Center for Brain and Health, in collaboration with the United Arab Emirates University, has launched a new Brain Health Initiative, which includes the ASPIRE Research Institute Brain Health Dataset.",
+        "project_name": "NYU Abu Dhabi and UAEU Brain Health Initiative (ASPIRE Research Institute Brain Health Dataset)",
+        "scope": "This collaborative research project focuses on building a large-scale, open neuroimaging and behavioral dataset tailored to the UAE population, with a goal to recruit 2,000 individuals. It draws on interdisciplinary expertise in cognition, health, and data science.",
+        "timeline": "The project is designed as a long-term cohort study.",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This large-scale initiative will generate demand for neuroimaging equipment, behavioral testing supplies, data storage and analysis infrastructure, and reagents for potential biomarker analysis.",
+        "source_url": "https://www.academicjobs.com/ae/research-publication-news/nyu-abu-dhabi-uaeu-brain-health-initiative-launches-with-new-dataset-or-academicjobs-21076"
+      },
+      {
+        "summary": "NYU Langone Health plans to invest at least $1 billion in a new teaching hospital and research center in Melville, Suffolk County.",
+        "project_name": "New Teaching Hospital and Research Center in Melville (NYU Langone Health)",
+        "scope": "The plan involves a major expansion of the health system in Suffolk County, including the construction of a new teaching hospital and research center.",
+        "timeline": "The project is in the planning stages.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The construction of a new $1 billion teaching hospital and research center will create significant demand for a full spectrum of lab supplies, reagents, consumables, and scientific equipment across various medical and research disciplines.",
+        "source_url": "https://www.newsday.com/business/nyu-langone-teaching-hospital-research-center-melville-aefm716l"
+      },
+      {
+        "summary": "NYU Langone Health has been awarded a nearly $70 million, seven-year renewal grant from the National Institutes of Health (NIH) for its Clinical and Translational Science Institute (CTSI).",
+        "project_name": "Clinical and Translational Science Institute (CTSI) NIH Grant Renewal",
+        "scope": "The grant will fund the CTSI's work over the next seven years, focusing on deepening community-engaged research, broadening access to health informatics tools, training the research workforce, forging regional and national collaborations, and accelerating clinical trial start-up and completion.",
+        "timeline": "Seven-year renewal grant.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant multi-year NIH grant will drive sustained demand for a wide range of lab supplies, reagents, consumables, and scientific equipment to support clinical and translational research, health informatics, and workforce training.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-secures-nearly-70-million-nih-grant-accelerate-scientific-discovery"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Hong Wang, a Silver Professor of Mathematics at New York University, has been awarded the 2026 New Horizons in Mathematics Prize from the Breakthrough Prize Foundation for her significant contributions to harmonic analysis, partial differential equations, and geometric measure theory.",
+        "researcher_name": "Hong Wang",
+        "department_or_lab": "Department of Mathematics, NYU Courant Institute",
+        "award_or_discovery": "2026 New Horizons in Mathematics Prize from the Breakthrough Prize Foundation",
+        "significance": "The Breakthrough Prizes are widely recognized as the 'Oscars of Science' and honor significant achievements, indicating a major breakthrough in the field of mathematics.",
+        "event_date": "2026-04-18",
+        "why_it_matters": "Recognition with a major science award like the Breakthrough Prize highlights high-impact theoretical research that often underpins future experimental work, potentially leading to demand for advanced computational resources and specialized mathematical software.",
+        "source_url": "https://cims.nyu.edu/dynamic/news/"
+      },
+      {
+        "summary": "Experts from NYU Langone Health's Department of Neurology presented positive Phase 3 clinical results for a novel epilepsy medication (X-TOLE2) at the American Academy of Neurology (AAN) 2026 Annual Meeting.",
+        "researcher_name": "Steven L. Galetta",
+        "department_or_lab": "Department of Neurology, NYU Grossman School of Medicine",
+        "award_or_discovery": "Successful Phase 3 Clinical Trial for Novel Epilepsy Medication (X-TOLE2)",
+        "significance": "The study met its primary endpoint with high statistical significance, showing a 53.2 percent median reduction in focal onset seizures, and the drugmaker plans to submit a new drug application to the FDA.",
+        "event_date": "2026-04-20",
+        "why_it_matters": "Successful Phase 3 clinical trials for a novel drug indicate significant ongoing and future research and development, driving demand for specialized reagents, consumables, and equipment for neurological studies, drug screening, and clinical trials.",
+        "source_url": "https://www.prnewswire.com/news-releases/nyu-langone-health-neurologists-present-latest-clinical-findings-and-research-at-aan-2026-302747500.html"
+      },
+      {
+        "summary": "Researchers at NYU Grossman School of Medicine are investigating whether microplastics leave detectable mutational signatures in the DNA of tumor tissue from patients with early-onset colorectal cancer.",
+        "researcher_name": "Mia Petljak, Mark Pochapin, Rabia de Latour, Bashar Safar, Leonardo Trasande, Vittorio Albergamo",
+        "department_or_lab": "Department of Pathology, Perlmutter Cancer Center, NYU Grossman School of Medicine",
+        "award_or_discovery": "Investigation into Microplastics and Early-Onset Colorectal Cancer as a 'Breakthrough'",
+        "significance": "This novel research addresses the alarming rise in colorectal cancer rates in younger adults and, if confirmed, could provide tools for understanding cancer risk and the role of synthetic chemicals in human diseases.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This high-impact research into environmental factors and cancer signals demand for advanced analytical equipment for microplastic detection, genomic sequencing reagents, and consumables for pathology and environmental health studies.",
+        "source_url": "https://oncodaily.com/voices/nyu-grossman-school-of-medicine-509812"
+      },
+      {
+        "summary": "New imaging research led by Yulin Ge, MD, at NYU Grossman School of Medicine suggests that brain changes after COVID-19 may contribute to cognitive decline similar to early-stage Alzheimer's disease.",
+        "researcher_name": "Yulin Ge",
+        "department_or_lab": "Department of Radiology, NYU Grossman School of Medicine",
+        "award_or_discovery": "New Imaging Research Linking COVID-19 Brain Changes to Alzheimer's-like Cognitive Decline",
+        "significance": "The study found enlarged choroid plexus volume and reduced cerebral blood flow in long COVID patients, associated with cognitive impairment and plasma biomarkers of Alzheimer's, suggesting a potential link to future dementia risk.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This research highlights ongoing investigations into the long-term neurological impacts of COVID-19, indicating a need for advanced imaging equipment, neurological research reagents, and diagnostic consumables for continued study and potential therapeutic development.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-news-wednesday-april-29-2026"
+      },
+      {
+        "summary": "New legislation introduces Strategic Breakthrough Phase II awards, offering up to $30M over four years, designed to bridge the research-to-practice gap for technologies advancing national security or transformative capabilities.",
+        "researcher_name": "N/A",
+        "department_or_lab": "N/A",
+        "award_or_discovery": "Announcement of Strategic Breakthrough Phase II Awards (up to $30M)",
+        "significance": "These 'massive grants' signal a significant increase in federal funding for 'deep tech' research, requiring a 1:1 capital match and targeting technologies with high impact.",
+        "event_date": "2026-04-15",
+        "why_it_matters": "The availability of substantial federal funding for 'Strategic Breakthrough' research at institutions like NYU will directly translate to increased demand for advanced scientific equipment, specialized reagents, and high-performance computing resources.",
+        "source_url": "https://entrepreneur.nyu.edu/blog/2026/04/15/sbir-sttr/"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "NYU Grossman School of Medicine rescinded program acceptances for an unspecified program after losing a federal grant.",
+        "facility_or_programme": "An unnamed program at NYU Grossman School of Medicine",
+        "closure_type": "Program acceptance rescinded",
+        "effective_date": "2026-04-30",
+        "reason": "Loss of federal grant",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates a potential decrease in demand for lab supplies, reagents, and consumables from the affected program at NYU Grossman School of Medicine, representing a churn risk for Thomas Scientific.",
+        "source_url": "https://nyunews.com/news/2026/04/30/nyu-launches-initiative-graduate-school-application-aid-for-undergrads/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T06:43:46.913846",
+  "ai_summary": "NYU is experiencing significant growth and research expansion, driven by a $70M NIH grant for its CTSI and a $1B investment in a new teaching hospital and research center. New institutes and initiatives in theoretical physics, brain health, and advanced medical research are also launching. This surge in funding and new facilities signals a substantial increase in demand for lab supplies across diverse scientific disciplines."
+}

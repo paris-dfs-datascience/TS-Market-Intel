@@ -1,0 +1,17 @@
+{
+  "account": "PRUDENTIAL OVERALL SUPPLY",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1BDYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:27:47.894067",
+  "ai_summary": null
+}

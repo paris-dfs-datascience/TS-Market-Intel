@@ -1,0 +1,89 @@
+{
+  "account": "CORNING",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1CMYA0",
+  "signals": {
+    "capital": [
+      {
+        "summary": "Corning announced a long-term partnership with NVIDIA, involving a $500 million investment from NVIDIA, to build three new manufacturing plants in North Carolina and Texas. These facilities will expand U.S. optical connectivity manufacturing capacity tenfold and boost domestic fiber production by over 50%, creating more than 3,000 jobs.",
+        "project_name": "New Optical Connectivity Manufacturing Plants",
+        "location": "North Carolina and Texas, USA",
+        "value": "$500 million",
+        "timeline": "Multi-year partnership; completion dates not immediately available.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The construction and outfitting of these new manufacturing facilities will generate significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for quality control, R&D, and production processes.",
+        "source_url": "https://thenextweb.com/news/nvidia-corning-500m-warrant-fiber-optics-partnership"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Corning and NVIDIA announced a multiyear commercial and technology partnership to dramatically expand U.S.-based manufacturing of advanced optical connectivity solutions for AI infrastructure. This includes the construction of three new advanced manufacturing facilities in North Carolina and Texas, and the creation of more than 3,000 new, high-paying American jobs. Corning will increase its U.S.-based optical connectivity manufacturing capacity by 10x and expand its U.S. fiber production capacity by more than 50%. NVIDIA is investing $500 million in Corning as part of this deal.",
+        "location": "North Carolina and Texas, U.S.",
+        "type_of_expansion": "New dedicated manufacturing facilities, capacity expansion, headcount addition",
+        "investment_value": "$500M",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The establishment of three new manufacturing facilities and a significant increase of over 3,000 jobs will drive substantial new demand for lab supplies, reagents, consumables, and scientific equipment for research, development, quality control, and manufacturing operations.",
+        "source_url": "https://www.fierce-network.com/broadband/corning-build-3-new-optical-plants-us-little-500m-help-nvidia"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Corning and NVIDIA announced a multiyear commercial and technology partnership to significantly expand U.S.-based manufacturing of advanced optical connectivity solutions for next-generation AI infrastructure.",
+        "project_name": "U.S. Optical Connectivity Manufacturing Expansion for AI Infrastructure",
+        "scope": "Corning will build three new advanced manufacturing facilities in North Carolina and Texas, increasing U.S.-based optical connectivity manufacturing capacity by 10x and U.S. fiber production capacity by more than 50%. This expansion is expected to create over 3,000 new jobs. NVIDIA is investing $500 million in Corning as part of this partnership.",
+        "timeline": "Multiyear agreement; new facilities are part of this expansion.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant expansion of manufacturing capacity for optical fiber and connectivity solutions directly indicates a substantial increase in demand for raw materials, specialized equipment for fiber production, and potentially lab supplies for quality control and R&D related to these advanced optical technologies.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUf-VEtX7mQ6nBW9nER998jFhVeDU9XdLuqGrw0OAvswn3_6ZfYf6omgoR64j8a7mIsc16NE6yI5bmwSTF-r6jxVefVzowSy6SezceurWNcLUcXhJQFpiFRsaNnAYNQyBTqAZDtx1_MBlcP-KCOGvGEDXGnSQAyViY247jmc-FRS5zwOAkA8z23J6YwToLIQLaAQDKqIUc2ZcBgi3qBZhaJ_dYipMA54P_f-qSHBNrhiJegQ2KpnMYbu903sJ-XxsDIpHf7A=="
+      },
+      {
+        "summary": "Corning's second-quarter 2026 outlook includes an extended maintenance shutdown at its solar wafer facility for repairs, upgrades, and modifications to production equipment to increase future throughput.",
+        "project_name": "Solar Wafer Facility Upgrade",
+        "scope": "Extended maintenance shutdown, transition to a permanent power system, and repair, upgrade, and modification of production equipment. This initiative is expected to incur an additional $30 million in expense in Q2 2026.",
+        "timeline": "Q2 2026",
+        "event_date": "2026-04-28",
+        "why_it_matters": "The repair, upgrade, and modification of production equipment indicate potential demand for new or replacement scientific equipment, parts, and specialized reagents or consumables for testing and maintenance in the solar manufacturing process.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7ej6GHM1UfBtxiNqKYNm_4QYZlSaJR35DDf3nE_MC4EmosPlGVQevUdrnRk2SycQIYsoD2Plp84a5HEgqbqVF4sYCxLprtKmy6AYTESjXbytJ2zr1Q9LSeb5GbKqGbv6X4Weyr5n9PGjpFphmY-4xD7f-A4mEZrqgZDyHFjSUWQNqhi0tlFRLwRRLICN6IOhBHVsPZmyY6_yS4J9uOTS-JgBHhJZ95mEhVb5vzqNq0w=="
+      }
+    ],
+    "hiring": [
+      {
+        "summary": "Corning and NVIDIA announced a multiyear partnership to dramatically expand U.S.-based manufacturing of advanced optical connectivity solutions for next-generation AI infrastructure, including the construction of three new advanced manufacturing facilities in North Carolina and Texas and the creation of more than 3,000 new high-paying American jobs.",
+        "role_or_department": "Manufacturing, advanced manufacturing workforce",
+        "headcount": "3000+",
+        "location": "North Carolina and Texas, U.S.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant expansion of manufacturing operations signals a substantial increase in demand for various lab supplies, reagents, consumables, and scientific equipment required for new facility setup, ongoing production, and quality control processes.",
+        "source_url": "https://lasvegassun.com/news/2026/may/06/nvidia-and-corning-announce-long-term-partnership-/"
+      }
+    ],
+    "production": [
+      {
+        "summary": "Corning and NVIDIA announced a multiyear partnership to dramatically expand U.S.-based manufacturing of advanced optical connectivity solutions and fiber for next-generation AI infrastructure, including building three new advanced manufacturing facilities.",
+        "facility_or_line": "Three new advanced manufacturing facilities for optical connectivity and fiber production.",
+        "change_type": "New manufacturing site openings, shifts in production capacity",
+        "location": "North Carolina and Texas, U.S.",
+        "investment_value": "$500 million from NVIDIA",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The construction and operation of new manufacturing facilities and increased production capacity will drive significant demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for R&D, quality control, and ongoing production processes.",
+        "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Corning announced an extended maintenance shutdown at its solar wafer facility as part of its second-quarter 2026 outlook. The shutdown is for transitioning to a permanent power system and upgrading production equipment to increase future throughput.",
+        "facility_or_programme": "Corning's solar wafer facility",
+        "closure_type": "Extended maintenance shutdown",
+        "effective_date": null,
+        "reason": "Transition to a permanent power system, repair, upgrade, and modify production equipment to increase throughput in future quarters.",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This temporary shutdown could lead to short-term supply disruptions for solar wafers, creating a potential competitive displacement opportunity for Thomas Scientific if alternative suppliers are sought.",
+        "source_url": "https://investor.corning.com/news-and-events/news/news-details/2026/Corning-Announces-Strong-First-Quarter-2026-Financial-Results-1/default.aspx"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:40:02.842392",
+  "ai_summary": "Corning is dramatically expanding U.S. optical connectivity and fiber manufacturing with a $500 million NVIDIA investment, building three new plants in North Carolina and Texas for AI infrastructure. This massive expansion, creating over 3,000 jobs, signals significant opportunities for lab supply sales. New facilities and increased production capacity will require extensive lab equipment, consumables, and services for R&D, quality control, and process optimization."
+}

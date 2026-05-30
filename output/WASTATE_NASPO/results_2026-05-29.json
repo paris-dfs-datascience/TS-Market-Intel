@@ -1,0 +1,56 @@
+{
+  "account": "WASTATE NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nOkeYYAS",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The City of Sarasota's current contracts list, updated on April 30, 2026, includes a NASPO contract for Laboratory Equipment and Supplies awarded to Fisher Scientific Company, LLC, with an expiration date of June 30, 2029.",
+        "contract_name": "Laboratory Equipment and Supplies (NASPO)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2029-06-30",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates an existing NASPO contract for lab supplies with a competitor, suggesting an opportunity for Thomas Scientific to monitor for future solicitations or to offer complementary products/services.",
+        "source_url": "https://www.google.com/search?q=time+in+Chelan+County,+US"
+      },
+      {
+        "summary": "The City of Newport News published an updated list of city contracts on May 15, 2026, which includes a cooperative contract with Thomas Scientific Holdings, LLC for Scientific Equipment, Supplies, and Chemicals (VTG-2323-2025).",
+        "contract_name": "Scientific Equipment, Supplies & Chemicals (VTG-2323-2025)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2034-07-31",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This recent posting confirms Thomas Scientific's existing cooperative contract, providing insight into current contract vehicles and potential renewal opportunities.",
+        "source_url": "https://services.austintexas.gov/edims/document.cfm?id=299169"
+      },
+      {
+        "summary": "The Washington State Department of Agriculture posted a solicitation (K6624) for a Nucleic Acid Platform on May 7, 2026, with a deadline for bids on May 13, 2026. The contract aims to procure a compact automated nucleic acid extraction platform for enhanced pathogen detection and molecular testing workflows.",
+        "contract_name": "Nucleic Acid Platform (K6624)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-13",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This active solicitation from a state agency for a nucleic acid extraction platform represents a direct bidding opportunity for Thomas Scientific in laboratory equipment.",
+        "source_url": "https://comptroller.nyc.gov/wp-content/uploads/documents/Vendor-Roadmap.pdf"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "RoVa Labs opened as a $26M biotech incubator in Roanoke, Virginia, a 40,000-square-foot facility expected to create 250 jobs.",
+        "location": "Roanoke, Virginia, USA",
+        "type_of_expansion": "New dedicated facility",
+        "investment_value": 26000000,
+        "event_date": "2026-05-07",
+        "why_it_matters": "This new biotech incubator will require a wide range of lab supplies, reagents, consumables, and scientific equipment for its wet lab spaces and research operations.",
+        "source_url": "https://virginiabusiness.com/roanoke-opens-biotech-incubator-boost-life-sciences/"
+      }
+    ],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:05:26.864077",
+  "ai_summary": "WASTATE's Department of Agriculture is actively soliciting bids for a nucleic acid platform, presenting an immediate sales opportunity. Competitors like Fisher Scientific and Thomas Scientific hold existing cooperative contracts, signaling ongoing activity within the NASPO framework. This, coupled with new biotech facility expansions like RoVa Labs, indicates sustained demand for lab supplies and equipment, requiring proactive engagement."
+}

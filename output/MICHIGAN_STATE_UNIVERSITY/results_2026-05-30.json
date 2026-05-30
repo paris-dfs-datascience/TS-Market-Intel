@@ -1,0 +1,130 @@
+{
+  "account": "MICHIGAN STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1C9YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Researchers at Michigan State University (MSU) and MSU Extension received a $148,765 U.S. National Science Foundation grant to build collaborative partnerships with watershed non-profit organizations, local community members, and MSU, focusing on community perspectives and needs related to wetlands in Metro Detroit. The project will develop education plans and activities.",
+        "recipient": "A team led by Emily Pomeranz, Alexa Warwick, Lynnea McFadden, Andrea Paine, Lauren Eaton, Kaleigh Snoddy, Erica Anculle, Ben Eiler, Angela Burrow, Lydia Nicholas, McKenzi Waliczek, Sam Davis.",
+        "department_or_lab": "Michigan Sea Grant, MSU Extension, College of Agriculture and Natural Resources.",
+        "amount": "$148,765",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This grant indicates upcoming demand for lab supplies and equipment related to environmental science, wetlands research, community engagement, and educational program development.",
+        "source_url": "https://www.canr.msu.edu/news/msu-researchers-receive-148k-nsf-grant-to-create-wetlands-partnership-msg26-anculle26"
+      },
+      {
+        "summary": "Borzoo Bonakdarpour, an associate professor in the Department of Computer Science and Engineering at MSU, received an $815,000 grant from the U.S. Navy (Office of Naval Research) to develop robust code analysis tools to analyze the effects of software updates, patching, and malware on functional and security applications.",
+        "recipient": "Borzoo Bonakdarpour",
+        "department_or_lab": "Department of Computer Science and Engineering",
+        "amount": "$815,000",
+        "agency": "U.S. Navy (Office of Naval Research, Department of Defense - DoD)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This grant indicates potential demand for high-performance computing resources, software development tools, cybersecurity analysis tools, and related IT infrastructure for research in software engineering and security.",
+        "source_url": "https://engineering.msu.edu/news/more-1m-advance-evaluation-tools-software-and-power-systems"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "The Leinweber Foundation committed $50 million to establish the Leinweber Center for Engineering and Digital Innovation at Michigan State University. This new 200,000-square-foot facility will serve as a state-of-the-art hub for learning, research, entrepreneurship, and industry, featuring active classrooms, teaching labs, and student project studios.",
+        "project_name": "Leinweber Center for Engineering and Digital Innovation",
+        "location": "Southwest corner of Red Cedar Road and West Shaw Lane, Michigan State University, East Lansing, Michigan",
+        "value": "$50 million",
+        "timeline": "Expected completion August 2028; construction began February 2, 2026.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This new engineering and digital innovation center will require a wide range of lab supplies, reagents, consumables, and scientific equipment for its teaching labs and research activities.",
+        "source_url": "https://spartan.msu.edu/spartan-story-hub/magazines/spring-2026/btp-new-buildings-on-msu-campus"
+      },
+      {
+        "summary": "Michigan State University is constructing a new 200,000-square-foot Plant and Environmental Sciences Building and upgrading greenhouses. This new research facility will house approximately 40 principal investigators and their teams, featuring wet-bench laboratories, growth chambers, seed storage, a rooftop phytotron capable of precisely simulating climate conditions, advanced microscopy, and flexible collaboration spaces.",
+        "project_name": "Plant and Environmental Sciences Building & Greenhouses",
+        "location": "Corner of Farm Lane and Wilson Road, Michigan State University, East Lansing, Michigan",
+        "value": "Over $50 million (greenhouse upgrades alone are $35 million, and the main building is a major capital project of 200,000 sq ft)",
+        "timeline": "Plant and Environmental Sciences Building expected March 2027; greenhouses expected November 2026.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This new facility will create significant demand for lab supplies, reagents, consumables, and scientific equipment for plant and environmental research, including wet-bench labs, growth chambers, and advanced microscopy.",
+        "source_url": "https://spartan.msu.edu/spartan-story-hub/magazines/spring-2026/btp-new-buildings-on-msu-campus"
+      },
+      {
+        "summary": "Niowave, a company spun out of Michigan State University's National Superconducting Cyclotron Laboratory, has broken ground on a new $75 million radiopharmaceutical isotope plant in Lansing, Michigan. This facility aims to increase the production of the alpha-emitting isotope Actinium-225 (Ac-225) for cancer treatment, and will include multiple superconducting linear accelerators and state-of-the-art processing and quality systems.",
+        "project_name": "Niowave Radiopharmaceutical Isotope Plant",
+        "location": "Capital Region Airport Authority technology complex, Lansing, Michigan",
+        "value": "$75 million",
+        "timeline": "Expected to become operational in 2028.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new manufacturing plant will require specialized lab supplies, reagents, and equipment for radiopharmaceutical production, quality control, and R&D.",
+        "source_url": "https://www.fiercepharma.com/manufacturing/niowave-kicks-construction-75m-radiopharmaceuticals-plant-michigan"
+      }
+    ],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Michigan State University recently built a state-of-the-art, on-campus Dairy Cattle Teaching and Research Center.",
+        "location": "On-campus, Michigan State University, East Lansing, Michigan.",
+        "type_of_expansion": "new facility",
+        "investment_value": "$30 million",
+        "event_date": "2026-05-01",
+        "why_it_matters": "A new state-of-the-art dairy cattle research center will drive demand for specialized lab supplies, reagents, and equipment for animal science and agricultural research.",
+        "source_url": "https://msutoday.msu.edu/news/2026/05/advancing-dairy-cow-fertility-and-farm-success"
+      },
+      {
+        "summary": "Niowave, a company spun out of Michigan State University, broke ground on a new $75 million radiopharmaceutical isotope plant.",
+        "location": "Capital Region Airport Authority technology complex in Lansing, Michigan.",
+        "type_of_expansion": "new facility",
+        "investment_value": "$75 million",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The construction of a new radiopharmaceutical manufacturing and R&D facility will create significant demand for specialized lab equipment, reagents, and consumables for isotope production and quality assurance.",
+        "source_url": "https://www.fiercepharma.com/manufacturing/niowave-kicks-construction-75m-radiopharmaceuticals-plant-michigan"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Michigan State University celebrated the opening of its newly renovated $35-million Plant Science Research Greenhouse Complex, featuring state-of-the-art environmental controls and LED lighting.",
+        "project_name": "MSU Plant Science Research Greenhouse Complex Renovation",
+        "scope": "Renovation and addition of approximately 60% of the nearly 90,000-square-foot complex, including state-of-the-art environmental controls, LED lighting, and new controlled-environment research greenhouses, to enable controlled experiments under various growth, environmental, and stress conditions. The project also includes a new headhouse with shared workstations, conference rooms, and specialized facilities.",
+        "timeline": "The project was supported by $53 million allocated by the Michigan legislature in July 2022, with MSU contributing $12 million, totaling $35 million in upgrades. Construction started in May 2024 and substantial completion is expected November 2026, with the opening celebration on May 14, 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The upgraded greenhouse complex will drive demand for advanced plant science equipment, environmental sensors, specialized growth media, and various consumables for agricultural and biological research.",
+        "source_url": "https://msutoday.msu.edu/news/2026/05/plant-science-greenhouses"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Teresa K. Woodruff, President Emerita of Michigan State University, was recognized as a recipient of the National Medal of Science, the nation's highest scientific honor.",
+        "researcher_name": "Teresa K. Woodruff",
+        "department_or_lab": "Department of Obstetrics, Gynecology, and Reproductive Biology and the Department of Biomedical Engineering",
+        "award_or_discovery": "National Medal of Science",
+        "significance": "This award recognizes her pioneering work in reproductive science, including coining the term 'oncofertility,' and her significant global contributions to scientific research and the scientific process.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This prestigious national honor signals ongoing, high-impact research in reproductive biology and oncology, indicating potential demand for specialized lab supplies, reagents for fertility preservation, and cancer research consumables.",
+        "source_url": "https://www.amacad.org/person/teresa-k-woodruff"
+      },
+      {
+        "summary": "Teresa K. Woodruff, President Emerita and MSU Research Foundation Distinguished Professor at Michigan State University, has been elected as a Fellow of the Royal Society, the UK's national academy of sciences.",
+        "researcher_name": "Teresa K. Woodruff",
+        "department_or_lab": "MSU Research Foundation Distinguished Professor, Michigan State University",
+        "award_or_discovery": "Fellow of the Royal Society",
+        "significance": "Her election recognizes her exceptional scientific contributions, particularly her development of the field of 'oncofertility,' which aids cancer patients facing fertility-threatening treatments.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This prestigious international recognition highlights sustained, high-level research activity in reproductive biology and cancer, suggesting demand for advanced research equipment and specialized reagents.",
+        "source_url": "https://www.amacad.org/person/teresa-k-woodruff"
+      },
+      {
+        "summary": "Michigan State University Professor Thomas O'Halloran has been elected as a member of the American Academy of Arts and Sciences, joining a distinguished group of leaders in various fields.",
+        "researcher_name": "Thomas O'Halloran",
+        "department_or_lab": "Departments of Chemistry and Microbiology, Genetics and Immunology",
+        "award_or_discovery": "Member of the American Academy of Arts and Sciences",
+        "significance": "The honor recognizes his significant contributions to inorganic chemistry, including the development of drugs for fungal infections and Wilson's disease, and discoveries related to the role of metals in fertilization and new cancer therapies.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "Election to this esteemed academy indicates ongoing, impactful research in chemistry, microbiology, and drug discovery, signaling demand for analytical chemistry equipment, cell culture supplies, and drug screening reagents.",
+        "source_url": "https://msutoday.msu.edu/news/2026/05/thomas-ohalloran-named-to-aaas"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:39:29.379368+00:00",
+  "ai_summary": "Michigan State University is undergoing significant expansion with new facilities like the Leinweber Center for Engineering, a Plant and Environmental Sciences Building, and a radiopharmaceutical plant. These multi-million dollar investments create numerous new wet-bench labs, growth chambers, and specialized research spaces. This surge in infrastructure and research activity signals a substantial increase in demand for diverse lab supplies, equipment, and consumables across various scientific disciplines."
+}

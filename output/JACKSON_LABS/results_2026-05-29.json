@@ -1,0 +1,79 @@
+{
+  "account": "JACKSON LABS",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1Z1YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A preclinical study co-led by researchers at The Jackson Laboratory's Rare Disease Translational Center demonstrated precision DNA editing to target the root cause of severe childhood epilepsy (Dravet syndrome) in a mouse model.",
+        "recipient": "Cathleen (Cat) Lutz, Matthew Simon",
+        "department_or_lab": "Rare Disease Translational Center (RDTC) at The Jackson Laboratory",
+        "amount": "Not specified for JAX; work supported by NIH grants MIRA R35GM118062, CEGS RM1HG009490, and R01NS110869",
+        "agency": "NIH",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This grant indicates ongoing research in gene editing and rare disease models at JAX, suggesting demand for specialized reagents, consumables, and equipment for genetic research and animal models.",
+        "source_url": "https://www.broadinstitute.org/news/precision-dna-editing-targets-root-cause-severe-childhood-epilepsy-preclinical-study"
+      },
+      {
+        "summary": "Research on data-driven prioritization of mouse strains for improved preclinical modeling of rare and common diseases was supported by NIH grants to The Jackson Laboratory's Center for Precision Genetics.",
+        "recipient": "The Jackson Laboratory's Center for Precision Genetics",
+        "department_or_lab": "Center for Precision Genetics at The Jackson Laboratory",
+        "amount": "Not specified; work supported by NIH U54OD030187, NCI CCSG P30CA034196, NIH U24HG000330",
+        "agency": "NIH",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates ongoing research at JAX in mouse model development and phenotyping, suggesting demand for animal care supplies, genetic analysis tools, and specialized reagents.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.27.721175v1.full-text"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "The Jackson Laboratory (JAX) has announced the appointment of Laura F. Bennett as an assistant professor, starting in August 2026. Dr. Bennett is a stem cell biologist whose research focuses on the biological signals guiding the formation of hematopoietic stem cells, with implications for regenerative medicine and stem cell therapies. She joins JAX from the University of Pennsylvania, where she was a postdoctoral researcher in the department of cell and developmental biology. Her work will contribute to JAX's stem cell research efforts, particularly through the JAX-NYSCF Collaborative.",
+        "name": "Laura F. Bennett",
+        "department": "Stem Cell Biology (implied from research focus and JAX-NYSCF Collaborative)",
+        "start_date": "2026-08-01",
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.jax.org/news-and-insights/2026/may/jax-welcomes-stem-cell-biologist-laura-bennett"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Jackson Laboratory (JAX) and Broad Institute researchers have made a significant breakthrough in gene editing, successfully repairing a DNA error causing Dravet syndrome in mice, leading to fewer seizures and extended lifespans. This work is a major step for genetic medicine and is part of a long-standing collaboration to advance gene editing for rare diseases.",
+        "project_name": "Precision DNA Editing for Dravet Syndrome (Rare Disease Translational Center Initiative)",
+        "scope": "Preclinical study utilizing adenine base editing to correct the R613X SCN1A variant responsible for Dravet syndrome. The broader initiative focuses on developing gene editing as a therapeutic platform for various rare diseases.",
+        "timeline": "This breakthrough is part of a long-standing collaboration between JAX and the Broad Institute, indicating an ongoing, multi-year research program.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This ongoing, multi-institutional gene editing research program will drive demand for specialized reagents, consumables for genetic analysis, animal models, and advanced microscopy equipment.",
+        "source_url": "https://www.jax.org/news-and-insights/2026/may/precision-dna-editing-targets-root-cause-of-severe-childhood-epilepsy-in-preclinical-study"
+      },
+      {
+        "summary": "The Maine Technology Institute (MTI) has awarded MaineHealth $2 million to establish the state's first Clinical Research Unit (CRU) in Biddeford, Maine, which will significantly expand patient access to groundbreaking clinical trials. The Jackson Laboratory's Chief Medical Officer highlighted how this CRU will enhance options for cancer patients through JAX's Maine Cancer Genomics Initiative.",
+        "project_name": "MaineHealth Clinical Research Unit (CRU)",
+        "scope": "Establishment of a dedicated facility for early- and late-phase clinical trials, featuring observation rooms, a dedicated pharmacy, and access to essential clinical trial needs such as lab work, imaging, and diagnostics. Initial focus areas include oncology, cardiovascular disease, infectious disease, and mental and behavioral health.",
+        "timeline": "The CRU project is scheduled to commence by December 2026, with patient care anticipated to begin in 2027.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The launch of this new clinical research unit, with JAX's Maine Cancer Genomics Initiative benefiting, will create demand for a wide range of lab supplies, reagents, and equipment for clinical trials, diagnostics, and research in oncology and other disease areas.",
+        "source_url": "https://www.mainehealth.org/news/2026/05/maine-technology-institute-awards-mainehealth-2m-open-states-first-clinical-research-unit"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Gene editing can repair a DNA error in mice that causes Dravet syndrome, a rare and deadly form of childhood epilepsy, leading to fewer seizures and longer lives in preclinical studies.",
+        "researcher_name": "Matthew Simon, Cathleen (Cat) Lutz",
+        "department_or_lab": "The Jackson Laboratory (JAX) Rare Disease Translational Center (RDTC)",
+        "award_or_discovery": "Precision DNA editing breakthrough for Dravet syndrome",
+        "significance": "This work represents a major step for genetic medicine, suggesting a one-time genetic correction could someday treat the root cause of the disease rather than just managing its symptoms, and restoring disease-relevant brain function with gene editing tools remains a major challenge.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in gene editing and rare disease research, indicating potential future demand for specialized reagents, consumables for genetic analysis, and animal models.",
+        "source_url": "https://www.jax.org/news-and-insights/2026/may/precision-dna-editing-targets-root-cause-of-severe-childhood-epilepsy-in-preclinical-study"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:33:35.139921",
+  "ai_summary": "Jackson Labs is expanding its gene editing and stem cell research, notably with breakthroughs in Dravet syndrome and a new stem cell biologist joining. Significant NIH grants support their mouse model work, and they're involved in a new clinical research unit for cancer. This growth signals increased demand for reagents, specialized labware, animal research supplies, and genomics tools."
+}

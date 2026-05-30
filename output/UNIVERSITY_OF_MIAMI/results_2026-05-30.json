@@ -1,0 +1,127 @@
+{
+  "account": "UNIVERSITY OF MIAMI",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkeQYAS",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "Florida Surgeon General Dr. Joseph A. Ladapo, joined by Department of Elder Affairs Secretary Michelle Branham, announced the latest recipients of the Ed and Ethel Moore Alzheimer's Disease Research Program grants, with the University of Miami receiving nearly $700,000 across two research projects.",
+        "amount": "$700,000",
+        "funding_type": "Government program award",
+        "use_of_proceeds": "Alzheimer's disease research",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This new capital will directly support research activities at the University of Miami, leading to increased demand for specialized reagents, consumables, and scientific equipment for Alzheimer's research.",
+        "source_url": "https://www.floridahealth.gov/2026/05/11/florida-surgeon-general-and-secretary-branham-announce-alzheimers-research-grant-recipients-to-advance-innovation-and-improve-outcomes/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "UHealth \u2013 University of Miami Health System launched a new multidisciplinary Comprehensive Aortic Center to provide advanced, lifesaving care for complex aortic diseases. The center will expand rapidly and plans to use a hybrid operating room.",
+        "project_name": "Comprehensive Aortic Center",
+        "scope": "Multidisciplinary program bringing together cardiac and vascular surgeons, cardiologists, and genetic specialists to treat aortic aneurysms, dissections, and valve disease. Plans include the use of a hybrid operating room for advanced imaging during operations.",
+        "timeline": "The center is only a few months old and is expanding rapidly, with plans to introduce a hybrid operating room in the coming months, indicating an ongoing, multi-year initiative.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "The launch of a new comprehensive medical center with plans for a hybrid operating room indicates significant demand for advanced surgical equipment, diagnostic tools, and specialized consumables.",
+        "source_url": "https://news.med.miami.edu/comprehensive-aortic-program-uhealth/"
+      },
+      {
+        "summary": "Congressman Mario D\u00edaz-Balart presented a $3.1 million check to the University of Miami's Miami Project to Cure Paralysis to enhance research capabilities and advance treatment development for neurological conditions.",
+        "project_name": "The Miami Project to Cure Paralysis Research and Innovation Hub Equipment Expansion",
+        "scope": "Research and development of treatments for neurological conditions, including paralysis and Alzheimer's, through the acquisition of advanced technology.",
+        "timeline": "The funding was secured through H.R. 6938, signed into law on January 23, 2026, and the check was presented on May 4, 2026, supporting an ongoing research program.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant government funding for neurological research will drive demand for specialized lab equipment, reagents, and consumables for studies on paralysis and other neurological conditions.",
+        "source_url": "https://mariodiazbalart.house.gov/media-center/press-releases/diaz-balart-delivers-31-million-university-miamis-project-cure"
+      },
+      {
+        "summary": "The Sylvester Firefighter Cancer Initiative at the University of Miami received $1.5 million from the House to support cancer screening, prevention, and treatment programs for firefighters.",
+        "project_name": "Sylvester Firefighter Cancer Initiative",
+        "scope": "Cancer screening, prevention, and treatment programs for firefighters, with most funds allocated toward research, equipment, and supplies.",
+        "timeline": "The funding supports ongoing cancer screening, prevention, and treatment programs.",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This government funding for cancer research and prevention programs will generate demand for cancer screening tools, research equipment, and various lab supplies and consumables.",
+        "source_url": "https://floridapolitics.com/archives/798270-sprinkle-list-lawmakers-steer-millions-toward-south-florida-projects/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Top NFL draft pick Fernando Mendoza and his family launched a $500,000 fund with the National MS Society to accelerate multiple sclerosis research and stem cell therapies at the University of Miami. Dr. Nelson is named principal investigator on a first-of-its-kind clinical trial in the United States focused on intrathecal stem cell transplant for secondary progressive MS.",
+        "researcher_name": "Dr. Nelson, Fernando Mendoza",
+        "department_or_lab": "University of Miami Health System, Miller School of Medicine",
+        "award_or_discovery": "Launch of the Mendoza Family Fund and a first-of-its-kind clinical trial for intrathecal stem cell transplant for secondary progressive MS.",
+        "significance": "The fund supports \"groundbreaking research\" and a \"first-of-its-kind clinical trial\" for a disease with currently no cure, indicating high-impact lab activity and potential for new therapies.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This breakthrough signals high-impact lab activity and supply demand for stem cell research, clinical trial consumables, and specialized equipment for MS therapy development.",
+        "source_url": "https://news.med.miami.edu/12-bascom-palmer-faculty-honored-with-endowed-chairs/"
+      },
+      {
+        "summary": "Researchers at Sylvester Comprehensive Cancer Center, led by Paulo Pinheiro, identified a screening gap for Adult T-cell leukemia/lymphoma (ATLL) in the U.S., particularly among Caribbean-born residents, and suggest maternal screening as a potential prevention strategy. The findings were published in JAMA Oncology.",
+        "researcher_name": "Paulo Pinheiro, M.D., Ph.D.",
+        "department_or_lab": "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Department of Epidemiology and Population Health Sciences",
+        "award_or_discovery": "Identification of a screening gap to prevent Adult T-cell leukemia/lymphoma (ATLL) in the U.S.",
+        "significance": "This is described as a \"discovery\" and a \"powerful opportunity to stop a deadly cancer before it ever begins,\" with important implications for public health and cancer prevention.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This discovery signals increased demand for diagnostic screening tools, reagents for viral detection (HTLV-1), and research consumables for epidemiology and population health studies.",
+        "source_url": "https://lumenis.com/vision/resource-hub/the-potential-benefits-of-periorbital-transcutaneous-electrical-stimulation-for-the-management-of-dry-eye-disease/"
+      },
+      {
+        "summary": "The Spring 2026 issue of University of Miami Medicine Magazine highlights a \"first-in-Florida, genetically engineered implant designed to slow vision loss for patients with a rare eye disease.\" The article describes this as a \"breakthrough\" reflecting decades of research.",
+        "researcher_name": "Not explicitly named in the article snippet for this specific breakthrough.",
+        "department_or_lab": "University of Miami Miller School of Medicine",
+        "award_or_discovery": "First-in-Florida, genetically engineered implant to slow vision loss for a rare eye disease.",
+        "significance": "This is explicitly called a \"first-in-Florida\" and \"breakthrough\" in an institutional publication, indicating advanced research and development in ophthalmology and genetic engineering.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This breakthrough signals high demand for specialized ophthalmic equipment, genetic engineering reagents, and consumables for rare disease research and clinical application.",
+        "source_url": "https://news.med.miami.edu/12-bascom-palmer-faculty-honored-with-endowed-chairs/"
+      },
+      {
+        "summary": "Leonard Petrucelli, Ph.D., and his colleagues at the University of Miami Miller School of Medicine received two major grants, each providing up to $9 million (totaling up to $18 million), from Aligning Science Across Parkinson's (ASAP) to support multi-site initiatives addressing the complex heterogeneity of Parkinson's disease. The program aims to shorten the timeline from \"laboratory breakthrough to clinical application.\"",
+        "researcher_name": "Leonard Petrucelli, Ph.D.",
+        "department_or_lab": "Neuroscience Institute, Department of Neurology, University of Miami Miller School of Medicine",
+        "award_or_discovery": "Two major grants (up to $18M total) for Parkinson's disease research, aiming to accelerate \"laboratory breakthrough to clinical application.\"",
+        "significance": "These are substantial grants ($1M+ prize awards) explicitly tied to accelerating \"laboratory breakthrough\" in neurodegenerative research, indicating significant ongoing high-impact research.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "These major grants signal significant investment and upcoming demand for neurodegenerative research reagents, specialized equipment for brain studies, and consumables for multi-site clinical applications.",
+        "source_url": "https://news.med.miami.edu/12-bascom-palmer-faculty-honored-with-endowed-chairs/"
+      },
+      {
+        "summary": "New research from Sylvester Comprehensive Cancer Center, part of the University of Miami Miller School of Medicine, shows that artificial intelligence can uncover clinically meaningful immune signals hidden in standard bone marrow biopsy slides. These insights could help physicians tailor treatment strategies for patients newly diagnosed with multiple myeloma. Arjun Raj Rajanna will present the findings at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting. C. Ola Landgren, M.D., Ph.D., director of the Sylvester Myeloma Institute and the Paul J. DiMare Endowed Chair in Immunotherapy, is the senior author.",
+        "researcher_name": "Arjun Raj Rajanna, C. Ola Landgren, M.D., Ph.D.",
+        "department_or_lab": "Sylvester Comprehensive Cancer Center, University of Miami Miller School of Medicine, Sylvester Myeloma Institute",
+        "award_or_discovery": "New research demonstrating AI's ability to uncover immune signals in bone marrow biopsies to personalize multiple myeloma treatment.",
+        "significance": "This represents a novel application of AI in precision medicine for cancer, with the potential to significantly improve treatment strategies and patient outcomes.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This breakthrough signals increased demand for AI-compatible lab equipment, advanced imaging systems, and reagents for immunology and cancer research, particularly for multiple myeloma diagnostics and personalized therapies.",
+        "source_url": "https://umiamihealth.org/en/bascom-palmer-eye-institute/healthcare-professionals/continuing-medical-education/cornea/speakers"
+      },
+      {
+        "summary": "Dipen J. Parekh, M.D., chief executive officer of UHealth \u2014 University of Miami Health System and founding director of the Desai Sethi Urology Institute, was awarded the Barringer Medal by the American Association of Genitourinary Surgeons (AAGUS). The award recognizes his distinguished career in urologic cancer treatment and \"pioneering work in artificial intelligence-driven surgery.\"",
+        "researcher_name": "Dipen J. Parekh, M.D.",
+        "department_or_lab": "UHealth \u2014 University of Miami Health System, Desai Sethi Urology Institute",
+        "award_or_discovery": "Barringer Medal for pioneering work in artificial intelligence-driven surgery.",
+        "significance": "This is a highly selective professional honor recognizing \"pioneering work\" in AI-driven surgery, indicating significant advancements and ongoing high-impact research in urology.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This award signals ongoing high-impact research in AI-driven surgical equipment, urologic cancer treatment, and related consumables, indicating future demand for advanced surgical technologies and research tools.",
+        "source_url": "https://news.med.miami.edu/12-bascom-palmer-faculty-honored-with-endowed-chairs/"
+      },
+      {
+        "summary": "Scientists from the University of Miami Rosenstiel School of Marine, Atmospheric and Earth Science outplanted nearly three dozen young lab-grown elkhorn corals, including \"Flondurans\" (an experimental cross-breed of Florida and Honduran elkhorn corals), onto reefs in Florida's Dry Tortugas National Park. This marks the first time this experimental cross-breed was introduced to the remote park.",
+        "researcher_name": "Bailey Marquardt, Andrew Baker",
+        "department_or_lab": "University of Miami Rosenstiel School of Marine, Atmospheric and Earth Science, Coral Reef Futures Lab",
+        "award_or_discovery": "First-time outplanting of \"Flonduran\" (experimental cross-breed) corals in Dry Tortugas National Park.",
+        "significance": "This is a \"first-time\" experimental outplanting of a cross-breed designed for heat resilience, representing a significant breakthrough in coral reef restoration and marine biology.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This breakthrough signals demand for marine biology research equipment, coral propagation supplies, and environmental monitoring tools for climate change adaptation studies.",
+        "source_url": "https://news.med.miami.edu/bascom-palmer-eye-institute-ophthalmologist-reaches-100-case-cataract-surgery-milestone/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T12:12:34.420610+00:00",
+  "ai_summary": "University of Miami is experiencing a surge in research activity, fueled by significant new funding across neuroscience, cancer, Alzheimer's, and Parkinson's. New centers and breakthroughs in stem cell therapies, genetic engineering, and AI-driven research indicate expanding lab needs. This robust growth translates to increased demand for specialized lab equipment, reagents, and consumables for both basic and translational research, presenting prime opportunities for lab supply sales."
+}

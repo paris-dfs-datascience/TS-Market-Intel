@@ -1,0 +1,52 @@
+{
+  "account": "CHRYSALIS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1XVYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [
+      {
+        "summary": "The National Nuclear Security Administration (NNSA) announced the transition of the American-made molybdenum-99 effort to the DOE Office of Energy Dominance Financing, which includes a conditional loan commitment of up to $263 million to SHINE Technologies for its Chrysalis medical isotope production facility in Janesville, Wisconsin.",
+        "location": "Janesville, Wisconsin, USA",
+        "type_of_expansion": "New dedicated facility and capacity expansion for medical isotope manufacturing",
+        "investment_value": 263000000,
+        "event_date": "2026-05-22",
+        "why_it_matters": "This new medical isotope production facility will require a wide range of lab supplies, reagents, consumables, and scientific equipment for its ongoing manufacturing, quality control, and research operations.",
+        "source_url": "https://www.google.com/search?q=time+in+Fond+du+Lac+County,+US"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "SHINE Technologies received a $263 million conditional loan commitment from the U.S. Department of Energy to complete its Chrysalis facility in Wisconsin, which is designed to produce molybdenum-99 (Mo-99), a critical isotope used in nuclear medicine imaging scans.",
+        "amount": "$263 million",
+        "funding_type": "Government Program Award (Conditional Loan Commitment)",
+        "use_of_proceeds": "Completion of the Chrysalis facility for the production of molybdenum-99 (Mo-99), a medical isotope.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The completion and operation of the Chrysalis facility for Mo-99 production will generate significant demand for specialized lab supplies, reagents, and scientific equipment for manufacturing and quality control processes.",
+        "source_url": "https://www.signifyresearch.net/insights/regulatory-clearances-funding-investment-momentum-and-strategic-collaborations/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "SHINE Chrysalis, LLC received a conditional loan commitment of $263 million from the U.S. Department of Energy to complete the construction of its Chrysalis facility in Janesville, Wisconsin, which is designed to become the largest medical isotope production site in the world.",
+        "project_name": "Chrysalis Medical Isotope Production Facility",
+        "scope": "Manufacturing scale-up and government-funded program for high-volume medical isotope production (molybdenum-99).",
+        "timeline": "Construction is underway, with completion and production expected in two years if the DOE loan funding is approved.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This large-scale medical isotope production facility will drive significant demand for specialized lab equipment, reagents, and consumables for nuclear medicine manufacturing and quality control.",
+        "source_url": "https://www.prnewswire.com/news-releases/shine-secures-european-marketing-authorization-for-ilumira-latest-step-in-building-integrated-nuclear-medicine-platform-302158406.html"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:21:05.101916",
+  "ai_summary": "CHRYSALIS (SHINE Technologies) received a $263 million DOE loan to complete its Janesville, Wisconsin facility, aiming to become the world's largest producer of molybdenum-99 medical isotopes. This significant expansion means new labs and high-volume production needs. For lab supply sales, this presents a major opportunity for equipment, consumables, and services to support large-scale isotope manufacturing."
+}

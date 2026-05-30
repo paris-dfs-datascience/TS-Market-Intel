@@ -1,0 +1,288 @@
+{
+  "account": "MAYO",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1DGYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding $2,600 for a project focused on improving chronic pain management through advanced spinal cord stimulation.",
+        "recipient": "Project: Improving Chronic Pain Management through Advanced Spinal Cord Stimulation",
+        "department_or_lab": "Minnesota State Mankato and Mayo Clinic Health System Collaborative Joint Seed Grant Program",
+        "amount": "$2,600",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant indicates new research in pain management and spinal cord stimulation, suggesting demand for specialized lab equipment and consumables for neuroscience and surgical research.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding $20,000 for 'TickSafe Mankato,' a community-based tick-borne disease prevention project.",
+        "recipient": "Project: TickSafe Mankato: Community-Based Tick-Borne Disease Prevention",
+        "department_or_lab": "Minnesota State Mankato and Mayo Clinic Health System Collaborative Joint Seed Grant Program",
+        "amount": "$20,000",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant signals new research and community outreach efforts in infectious disease prevention, potentially requiring diagnostic kits, entomological supplies, and public health research tools.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding $20,000 for an AI-assisted monitoring tool for inflammatory bowel disease.",
+        "recipient": "Project: AI-Assisted Monitoring Tool for Inflammatory Bowel Disease",
+        "department_or_lab": "Minnesota State Mankato and Mayo Clinic Health System Collaborative Joint Seed Grant Program",
+        "amount": "$20,000",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This project indicates investment in AI and gastroenterology research, suggesting demand for bioinformatics tools, data analysis software, and lab supplies for studying inflammatory bowel disease.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding $20,000 for 'ASPIRE,' a project supporting patients with advanced cancer and their caregivers.",
+        "recipient": "Project: ASPIRE: Supporting Patients with Advanced Cancer and Their Caregivers",
+        "department_or_lab": "Minnesota State Mankato and Mayo Clinic Health System Collaborative Joint Seed Grant Program",
+        "amount": "$20,000",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant highlights new research in cancer support and patient care, which may involve psychosocial research tools, quality of life assessment instruments, and clinical research consumables.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding $18,500 for 'Stories That Heal,' a project aimed at strengthening nurse well-being and communication.",
+        "recipient": "Project: Stories That Heal: Strengthening Nurse Well-Being and Communication",
+        "department_or_lab": "Minnesota State Mankato and Mayo Clinic Health System Collaborative Joint Seed Grant Program",
+        "amount": "$18,500",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This project focuses on healthcare professional well-being and communication, indicating potential demand for research tools in psychology, sociology, and healthcare systems.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding $14,000 for improving ICU patient recovery through swallowing assessment protocols.",
+        "recipient": "Project: Improving ICU Patient Recovery through Swallowing Assessment Protocols",
+        "department_or_lab": "Minnesota State Mankato and Mayo Clinic Health System Collaborative Joint Seed Grant Program",
+        "amount": "$14,000",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant signifies new research in critical care and rehabilitation, suggesting demand for medical devices, diagnostic tools, and consumables related to patient recovery and assessment.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "An additional project received separate funding through the MSU-Mayo Clinic Center for Clinical and Translational Science Collaborative Community Research Grant, awarding $20,000 for a machine learning tool for personalized treatment of inflammatory bowel disease.",
+        "recipient": "Project: Machine Learning Tool for Personalized Treatment of Inflammatory Bowel Disease",
+        "department_or_lab": "MSU-Mayo Clinic Center for Clinical and Translational Science Collaborative Community Research Grant",
+        "amount": "$20,000",
+        "agency": "Minnesota State University, Mankato and Mayo Clinic Health System",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant indicates advanced research in personalized medicine and inflammatory bowel disease using machine learning, creating demand for computational resources, specialized software, and reagents for translational research.",
+        "source_url": "https://mankato.mnsu.edu/news/2026/05/21/minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Mayo Clinic developed an AI model (REDMOD) that can detect pancreatic cancer on routine abdominal CT scans up to three years before clinical diagnosis. This AI is being advanced into clinical testing through the AI-PACED prospective study.",
+        "product_or_program": "Radiomics-based Early Detection Model (REDMOD) / AI-PACED (Artificial Intelligence for Pancreatic Cancer Early Detection) prospective study",
+        "stage": "Clinical testing/Prospective study",
+        "therapeutic_or_application_area": "Pancreatic cancer early detection, AI in diagnostics",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates a new clinical program utilizing advanced AI diagnostics, which may drive demand for imaging consumables, data storage solutions, and potentially specialized lab equipment for further validation and research.",
+        "source_url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/"
+      },
+      {
+        "summary": "Mayo Clinic is participating in a clinical trial testing renal autologous cell therapy (REACT) for type 2 diabetes and chronic kidney disease. They also offer an investigational mesenchymal stem cell therapy through the FDA's Expanded Access Program for eligible adults with chronic kidney disease or a failing kidney transplant.",
+        "product_or_program": "Renal Autologous Cell Therapy (REACT) clinical trial; Regenerative Nephrology Compassionate Use Program (mesenchymal stem cell therapy)",
+        "stage": "Clinical trial (REACT), Expanded Access Program/Compassionate Use (mesenchymal stem cells)",
+        "therapeutic_or_application_area": "Regenerative medicine, nephrology, type 2 diabetes, chronic kidney disease, cell therapy",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This signifies demand for cell culture media, bioreactors, cell processing equipment, cryopreservation supplies, and other consumables related to cell therapy and regenerative medicine.",
+        "source_url": "https://www.mayoclinic.org/departments-centers/overview/ovc-20598871"
+      },
+      {
+        "summary": "Mayo Clinic and Bayesian Health co-developed an AI solution to identify hospitalized patients who may benefit from palliative care earlier, aiming to improve goal-concordant care and reduce readmissions. A randomized clinical trial showed increased timely palliative care referrals and reduced readmissions.",
+        "product_or_program": "AI-powered solution for palliative care identification (co-developed with Bayesian Health)",
+        "stage": "Implemented/validated in a randomized clinical trial, now being integrated into clinical workflows",
+        "therapeutic_or_application_area": "Palliative care, AI in healthcare, patient outcomes, readmission reduction",
+        "event_date": "2026-05-19",
+        "why_it_matters": "While not directly lab supplies, this AI solution's implementation might lead to increased demand for specific patient assessment tools, data analytics software, or even specialized kits for palliative care management if new protocols are established. It also indicates a broader trend in AI adoption within clinical settings.",
+        "source_url": "https://www.mayoclinic.org/departments-centers/overview/ovc-20598871"
+      },
+      {
+        "summary": "New studies led by a Mayo Clinic physician-scientist and presented at Digestive Disease Week 2026 further validate the MyPhenome\u00ae test for personalized obesity treatment decisions. The test predicts weight loss outcomes for various treatments, including GLP-1s and surgical interventions, based on an individual's biology.",
+        "product_or_program": "MyPhenome\u00ae test (Phenomix Sciences) for precision obesity medicine",
+        "stage": "Clinical validation/Research findings presented",
+        "therapeutic_or_application_area": "Obesity, precision medicine, diagnostics, metabolic disorders",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This indicates potential demand for diagnostic kits, reagents, and analytical equipment related to metabolic profiling and personalized medicine in obesity management.",
+        "source_url": "https://www.sciencealert.com/ai-can-spot-pancreatic-cancer-years-before-diagnosis-study-finds"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Mayo Clinic is significantly expanding its Phoenix, Arizona campus, doubling its size by adding 1.4 million square feet of space, which includes approximately 400 inpatient beds, to enhance practice, education, and research activities, and to foster a biotech corridor.",
+        "location": "Phoenix, Arizona, USA",
+        "type_of_expansion": "Dedicated facility expansion, capacity expansion (physical and operational), research operations expansion",
+        "investment_value": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "This major campus expansion will drive significant demand for new laboratory equipment, reagents, and consumables to support expanded research, education, and clinical practice facilities, including planned additions of MRI, CT, and ultrasound equipment.",
+        "source_url": "https://jobs.mayoclinic.org/job/scottsdale/department-chair-psychiatry/33647/94743179136"
+      },
+      {
+        "summary": "Mayo Clinic Digital Pathology (MCDP) is building an integrated innovation ecosystem to advance the future of pathology across clinical care and research, involving investments in emerging companies, expanded use of digitized pathology data, and collaborations for diagnostic tool development.",
+        "location": "Rochester, Minnesota, USA",
+        "type_of_expansion": "Research operations expansion, technological capacity expansion (digital pathology, AI, data infrastructure)",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "The expansion of digital pathology and AI capabilities will create new procurement needs for advanced imaging systems, data storage solutions, specialized software, and related laboratory consumables.",
+        "source_url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-digital-pathology-building-ecosystem-to-advance-next-generation-diagnostics/"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "Corvista Health and Mayo Clinic are collaborating to evaluate the non-invasive Corvista-PH test to improve the detection, risk stratification, and referral accuracy for people with suspected pulmonary hypertension (PH). Mayo Clinic holds a financial interest in the technology.",
+        "partner": "Corvista Health",
+        "deal_type": "Clinical Research Partnership, Technology Licensing Agreement",
+        "deal_value": "Undisclosed (Mayo Clinic holds a financial interest in the technology)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This partnership signals new clinical research activity and potential demand for lab supplies related to pulmonary hypertension diagnostics and advanced signal-based diagnostics.",
+        "source_url": "https://corvista.com/news/corvista-health-and-mayo-clinic-announce-collaboration-to-advance-non-invasive-pulmonary-hypertension-diagnostic-test/"
+      },
+      {
+        "summary": "Mayo Clinic and Bayesian Health have co-developed an artificial intelligence (AI) solution to identify hospitalized patients who may benefit from palliative care earlier in their stay. This strategic collaboration includes a licensing or vendor arrangement, and Mayo Clinic has a financial interest in the technology.",
+        "partner": "Bayesian Health",
+        "deal_type": "Technology Licensing Agreement, Clinical Research Partnership",
+        "deal_value": "Undisclosed (Mayo Clinic holds a financial interest in the technology)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This co-development and licensing agreement signals new clinical programs utilizing AI for patient identification and care, potentially increasing demand for data science and clinical informatics resources.",
+        "source_url": "https://www.prnewswire.com/news-releases/mayo-clinic-and-bayesian-health-co-develop-new-ai-powered-solution-to-expand-palliative-care-access-and-improve-patient-outcomes-302778548.html"
+      },
+      {
+        "summary": "Minnesota State University, Mankato and Mayo Clinic Health System announced recipients of a collaborative joint seed grant program, awarding nearly $100,000 in funding across multiple projects focused on improving education, research, and community health.",
+        "partner": "Minnesota State University, Mankato",
+        "deal_type": "Clinical Research Partnership (Joint Seed Grant Program)",
+        "deal_value": "Nearly $100,000",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This joint grant program indicates new collaborative research projects, leading to demand for lab supplies and equipment for the funded initiatives in various healthcare areas.",
+        "source_url": "https://mankato.mnsu.edu/news/2026-05-21-minnesota-state-mankato-mayo-clinic-health-system-announce-research-grants/"
+      },
+      {
+        "summary": "Cosm Medical Corp. entered into a licensing and collaboration agreement with Duke Health and Mayo Clinic to develop and commercialize personalized Gynethotics\u2122 devices for post-surgical pelvic recovery, licensing intellectual property from both institutions.",
+        "partner": "Cosm Medical Corp., Duke Health",
+        "deal_type": "Technology Licensing Agreement, Clinical Research Partnership",
+        "deal_value": "Undisclosed",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This licensing and collaboration agreement signals new clinical programs and product development in personalized gynecological devices, indicating demand for related lab supplies and manufacturing resources.",
+        "source_url": "https://www.cosm.care/news/cosm-medical-announces-licensing-and-collaboration-agreement-to-advance-post-surgical-pelvic-recovery-with-personalized-gynethotics-devices"
+      },
+      {
+        "summary": "Mayo Clinic Digital Pathology (MCDP) is building an integrated innovation ecosystem, including investments in emerging companies like Conflux and ViewsML, expanded use of digitized pathology data, and collaborations to improve diagnostic workflows and speed.",
+        "partner": "Conflux, ViewsML",
+        "deal_type": "Technology Licensing/Investment, Clinical Research Partnership",
+        "deal_value": "Undisclosed (investments in emerging companies)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This initiative signals expanded lab activity in digital pathology and AI-driven diagnostics, creating demand for advanced imaging equipment, software, and related lab consumables.",
+        "source_url": "https://newsnetwork.mayoclinic.org/news/mayo-clinic-digital-pathology-building-ecosystem-to-advance-next-generation-diagnostics/"
+      },
+      {
+        "summary": "Techcyte announced a $15 million capital raise with participation from existing investors, including Mayo Clinic. This funding round also includes access to Mayo Clinic's Safe Harbor dataset of over 17 million de-identified slides and pathology reports to enhance Techcyte's AI solutions.",
+        "partner": "Techcyte, Van Tuyl Companies, Zoetis Inc.",
+        "deal_type": "Investment, Technology Licensing",
+        "deal_value": "Undisclosed (Mayo Clinic participated in a $15 million capital raise)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Mayo Clinic's investment and provision of a large dataset to Techcyte signals expanded activity in AI-powered digital diagnostics and pathology, driving demand for advanced computational resources and potentially new diagnostic service lines.",
+        "source_url": "https://www.businesswire.com/news/home/20260430005200/en/Techcyte-Announces-15-Million-Capital-Raise-Led-by-Van-Tuyl-Companies-to-Support-Growth-and-Path-to-Profitability"
+      },
+      {
+        "summary": "Paula and Randy Ringhaver made a $75 million gift to Mayo Clinic in Florida to support its \"Bold. Forward. Unbound.\" initiative, which involves investments across the organization to transform healthcare through integrated digital and physical spaces, including a five-story tower expansion.",
+        "partner": "Paula and Randy Ringhaver (philanthropic gift)",
+        "deal_type": "Investment/Funding for New Facilities and Programs",
+        "deal_value": "$75 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant investment will fund new and expanded physical spaces and digital technologies, directly leading to increased demand for lab equipment, supplies, and consumables for new clinical programs and research activities in Florida.",
+        "source_url": "https://www.prnewswire.com/news-releases/paula-and-randy-ringhaver-give-75-million-to-mayo-clinic-in-florida-302778548.html"
+      },
+      {
+        "summary": "Castle Biosciences will present new research developed in partnership with Mayo Clinic at Digestive Disease Week, focusing on the role of the TissueCypher test in improving molecular risk stratification for patients with digestive disorders.",
+        "partner": "Castle Biosciences",
+        "deal_type": "Clinical Research Partnership",
+        "deal_value": "Undisclosed",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This research partnership indicates ongoing and potentially expanding lab activity in molecular diagnostics for digestive diseases, suggesting demand for related reagents and consumables.",
+        "source_url": "https://www.castlebiosciences.com/news/castle-biosciences-to-present-new-mayo-clinic-research-on-tissuecypher-test-at-digestive-disease-week/"
+      },
+      {
+        "summary": "The University of North Florida Athletics named Mayo Clinic its Official Healthcare Provider, a transformational collaboration that will enhance medical care, resources, and health services for student-athletes, including weekly on-site clinics.",
+        "partner": "University of North Florida Athletics",
+        "deal_type": "Academic Medical Centre Affiliation",
+        "deal_value": "Undisclosed (sponsorship/collaboration)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This affiliation indicates expanded clinical service provision by Mayo Clinic, potentially leading to increased demand for diagnostic and treatment-related lab supplies and consumables for student-athlete care.",
+        "source_url": "https://unf.edu/athletics/news/2026/05/22/north-florida-athletics-names-mayo-clinic-official-healthcare-provider.html"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "Paula and Randy Ringhaver have made a $75 million philanthropic gift to Mayo Clinic in Florida to support its \"Bold. Forward. Unbound.\" initiative. This gift will specifically aid the newly expanded Lee Ringhaver Tower, which includes new clinical, research, and education space, a biomanufacturing expansion, and a future research and education building.",
+        "amount": 75000000,
+        "funding_type": "Philanthropic Gift",
+        "use_of_proceeds": "The gift will support the Lee Ringhaver Tower, encompassing new clinical, research, and education space, a biomanufacturing expansion, and a soon-to-be-constructed research and education building as part of Mayo Clinic's \"Bold. Forward. Unbound.\" initiative in Florida.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant philanthropic gift will drive demand for new lab supplies, reagents, consumables, and scientific equipment to support the expanded clinical, research, and biomanufacturing facilities.",
+        "source_url": "https://newsnetwork.mayoclinic.org/discussion/paula-and-randy-ringhaver-give-75-million-to-mayo-clinic-in-florida/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Paula and Randy Ringhaver have donated $75 million to Mayo Clinic in Florida to support the \"Bold. Forward. Unbound.\" initiative, which includes significant new clinical, research, and education space.",
+        "project_name": "Bold. Forward. Unbound. initiative in Florida (supported by Ringhaver gift)",
+        "scope": "The initiative encompasses over 725,000 square feet of new clinical, research, and education space, including the Duan Family Building with the Americas' first carbon ion therapy system, a biomanufacturing expansion, and a soon-to-be-constructed research and education building.",
+        "timeline": "The five-story expansion of the Lee Ringhaver Tower began serving patients in 2025, and a research and education building is soon-to-be-constructed.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This substantial investment in new clinical, research, and education facilities, including a biomanufacturing expansion and advanced therapy systems, will significantly increase demand for scientific equipment, reagents, and consumables for ongoing research, diagnostics, and therapeutic development.",
+        "source_url": "https://newsnetwork.mayoclinic.org/discussion/paula-and-randy-ringhaver-give-75-million-to-mayo-clinic-in-florida/"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Mayo Clinic Digital Pathology is advancing efforts to build an integrated innovation ecosystem that supports the future of pathology, including CLIA-certified and CAP-accredited prognostic tests.",
+        "product_or_site": "Mayo Clinic Digital Pathology",
+        "regulatory_action": "CAP Laboratory Accreditation",
+        "outcome": "Accreditation confirmed/maintained for prognostic tests",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Confirmation of CAP accreditation for prognostic tests in digital pathology suggests ongoing and potentially increasing demand for specialized reagents, consumables, and equipment for digital pathology and advanced diagnostics, as these tests are being integrated into future diagnostic workflows.",
+        "source_url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-digital-pathology-building-ecosystem-to-advance-next-generation-diagnostics/"
+      },
+      {
+        "summary": "A test definition document from Mayo Clinic Laboratories for Anti-Phosphatidylcholine Ab (FCLNE) indicates that BioAgilytix Diagnostics, the performing laboratory, is a CLIA certified, CAP accredited laboratory for performing high complexity assays.",
+        "product_or_site": "BioAgilytix Diagnostics (performing laboratory for Mayo Clinic Laboratories)",
+        "regulatory_action": "CAP Laboratory Accreditation",
+        "outcome": "Accreditation confirmed/maintained",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The CAP accreditation of a partner lab performing high-complexity assays for Mayo Clinic Laboratories suggests a continued need for reagents, consumables, and equipment to support these accredited testing services, ensuring quality and compliance.",
+        "source_url": "https://www.mayocliniclabs.com/test-catalog/overview/FCLNE"
+      },
+      {
+        "summary": "Mayo Clinic in Jacksonville, FL, is listed on Medicare.gov with an overall star rating and patient survey rating, indicating its current status as a participating Medicare facility and its performance in various quality areas.",
+        "product_or_site": "Mayo Clinic, Jacksonville, FL",
+        "regulatory_action": "CMS Certification/Participation",
+        "outcome": "Participating Medicare facility with reported quality ratings",
+        "event_date": "2026-05-13",
+        "why_it_matters": "Ongoing participation and positive quality ratings with CMS indicate stable operations and continued patient volume, which translates to a consistent demand for a broad range of lab supplies, reagents, consumables, and scientific equipment to support patient care and diagnostic services.",
+        "source_url": "https://www.medicare.gov/care-compare/hospital/100001"
+      }
+    ],
+    "tender": [
+      {
+        "summary": "Tallahassee Memorial HealthCare has partnered with Inspirity Health Partners, a joint venture between HumanityCorp and Mayo Clinic Supply Chain Management, to expand and integrate its supply chain operations. This collaboration will provide Tallahassee Memorial with direct access to nationally recognized Mayo Clinic Supply Chain Management resources and contract portfolios through Captis and Vizient.",
+        "tender_name": "Multi-year Strategic Supply Chain Partnership (Tallahassee Memorial HealthCare & Inspirity Health Partners/Mayo Clinic Supply Chain Management)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "This partnership provides Tallahassee Memorial HealthCare with direct access to Mayo Clinic's supply chain resources and GPO contracts, indicating potential for increased procurement of lab supplies, reagents, consumables, and scientific equipment that Thomas Scientific can fulfill.",
+        "source_url": "https://www.businesswire.com/news/home/20260528140722/en/Tallahassee-Memorial-HealthCare-and-Inspirity-Health-Partners-Launch-Strategic-Supply-Chain-Partnership"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:05:59.698183",
+  "ai_summary": "Mayo Clinic is significantly expanding its Phoenix and Florida campuses, investing heavily in AI, digital pathology, and personalized medicine research through numerous grants and partnerships. This growth, coupled with active R&D in diagnostics and therapies, creates substantial opportunities for lab supply sales. Teams should focus on providing advanced instruments, specialized reagents, and consumables to support their expanding clinical, research, and biomanufacturing initiatives."
+}

@@ -1,0 +1,171 @@
+{
+  "account": "UCOP",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DmYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "UC San Diego celebrated the $5 million renewal of a grant from the National Institutes of Health (NIH) to support the recruitment of early-career life sciences researchers.",
+        "recipient": "UC San Diego",
+        "department_or_lab": "Life Sciences Research Program",
+        "amount": 5000000,
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This renewed funding ensures continued support for life sciences research and recruitment at UC San Diego, signaling ongoing demand for specialized lab supplies and equipment.",
+        "source_url": "https://www.voiceofsandiego.org/topics/news/d-c-explained-changes-at-the-nih-pose-challenges-for-one-of-san-diegos-economic-pillars/"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "UC San Francisco received a $100 million commitment from Kathy Chiao and Kenneth Hao, with $50 million dedicated to capital projects for modernizing the Parnassus Heights campus and UCSF Benioff Children's Hospital Oakland, and $10 million for the Weill Cancer Hub West, a UCSF-Stanford collaboration for cancer research and treatment.",
+        "project_name": "UCSF Capital Projects and Weill Cancer Hub West",
+        "location": "San Francisco, California (Parnassus Heights campus) and Oakland, California (UCSF Benioff Children's Hospital)",
+        "value": "$60 million (allocated for capital projects and Weill Cancer Hub West)",
+        "timeline": "Modernization efforts are ongoing, with a new UCSF Health Helen Diller Hospital planned to open in 2030.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The modernization of UCSF facilities and the funding for the Weill Cancer Hub West will generate significant demand for new laboratory equipment, reagents, and consumables for advanced research and clinical programs.",
+        "source_url": "https://chancellor.ucsf.edu/news/gift-advances-ucsf-priorities-including-modernization-and-cancer-research"
+      },
+      {
+        "summary": "The University of California, Davis, celebrated the grand opening of the 34,000-square-foot Resnick Center for Agricultural Innovation, a state-of-the-art facility housing classrooms, research, and lab spaces designed to accelerate solutions in food systems and sustainability.",
+        "project_name": "Resnick Center for Agricultural Innovation",
+        "location": "Davis, California",
+        "value": "$66.4 million",
+        "timeline": "Grand opening in May 2026; facility will be fully occupied by fall 2026.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The new research and lab spaces within the Resnick Center will create substantial demand for agricultural research equipment, specialized lab supplies, and consumables to support cutting-edge scientific work.",
+        "source_url": "https://www.ucdavis.edu/food/news/uc-davis-opens-resnick-center-agricultural-innovation"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "UC Systemwide Procurement has secured a contract amendment to the Envigo Animal Feed and Bedding Contract Agreement to now include the Live Animals category. This amendment is attached to the original Envigo RMS (now Inotiv) contract, first executed July 1, 2022, through June 30, 2027.",
+        "contract_name": "Envigo RMS UC-wide Agreement Amendment (Contract #2022003390)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2027-06-30",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This amendment signifies ongoing and expanded demand for research models, lab animal diets, bedding, and support services, which are essential consumables for scientific research within the UC system.",
+        "source_url": "https://procurement.ucop.edu/news/envigo-rms-uc-wide-agreement-amendment"
+      },
+      {
+        "summary": "University of California, State Senator Wiener, and UAW hosted a rally to advocate for the passage of SB 895, a $23 billion bond aimed at bolstering California's leadership in scientific discoveries and medical advancements.",
+        "contract_name": "SB 895 California Science Bond (potential future funding)",
+        "estimated_value": "23000000000",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "The potential passage of a $23 billion bond for scientific discoveries and medical advancements signals significant future demand for scientific equipment, lab supplies, and research consumables across the UC system.",
+        "source_url": "https://www.universityofcalifornia.edu/press-room/uc-state-senator-wiener-uaw-host-rally-california-science-urge-lawmakers-pass-sb-895"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The California Senate passed Senate Bill 895, proposing a $12 billion bond for scientific and health research to be placed on the November 2026 ballot. This bill aims to establish the California Foundation for Science and Health Research to distribute these funds to research projects across public and private universities and research institutions in California.",
+        "project_name": "California Science and Health Research Bond Act (Senate Bill 895)",
+        "scope": "Establish the California Foundation for Science and Health Research to distribute $12 billion in bonds for scientific and health research projects across California's public and private universities and research institutions. The bill prioritizes funding research that replaces federal funding cuts, including areas like climate change, public health, and HIV and AIDS.",
+        "timeline": "The bill passed the California Senate on May 28, 2026, and will now head to the State Assembly for a vote. If passed by the Assembly and signed by the Governor, it will be put on the November 2026 ballot for voter approval.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The potential approval of a $12 billion bond for scientific and health research indicates a significant upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment across various research disciplines within California's academic and research institutions.",
+        "source_url": "https://dailybruin.com/2026/05/27/california-senate-passes-uc-sponsored-bill-proposing-12b-research-bond"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Researchers at the University of California, San Francisco (UCSF), led by James Fraser and William DeGrado, have pioneered a breakthrough method to rapidly design proteins with targeted functions. This approach combines X-ray studies of small molecule fragments with directed evolution, leading to new insights that allowed the creation of highly active designed enzymes. The study was published in Nature Chemistry.",
+        "researcher_name": "James Fraser, William DeGrado",
+        "department_or_lab": "Department of Bioengineering and Therapeutic Sciences, Department of Pharmaceutical Chemistry, UCSF",
+        "award_or_discovery": "Breakthrough method to rapidly design proteins",
+        "significance": "This novel protein design strategy can lead to simpler ways to improve enzymes and medications, and has already yielded the most active designed enzyme to date.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This breakthrough in protein design signals high-impact lab activity in structural biology and drug discovery, driving demand for advanced reagents, crystallography equipment, and computational resources.",
+        "source_url": "https://pharmchem.ucsf.edu/news/fraser-degrado-pioneer-method-rapidly-design-proteins"
+      },
+      {
+        "summary": "The American Academy of Arts and Sciences announced its 2026 class, recognizing 25 UC-affiliated scholars and 23 UC alumni for their significant contributions across various fields. Notable UC faculty elected include Kyriacos A. Athanasiou (UC Irvine), Raphael Bousso (UC Berkeley), Michelle R. Arkin (UC San Francisco), Arshad Desai (UC San Diego), George Fuller (UC San Diego), and Shang-Ping Xie (UC San Diego).",
+        "researcher_name": "Kyriacos A. Athanasiou, Raphael Bousso, Michelle R. Arkin, Arshad Desai, George Fuller, Shang-Ping Xie",
+        "department_or_lab": "Various departments across UC campuses (e.g., Biomedical Engineering, Physics, Pharmaceutical Chemistry, Cell and Developmental Biology, Climate Sciences)",
+        "award_or_discovery": "Election to the American Academy of Arts and Sciences",
+        "significance": "This is one of the nation's oldest and most prestigious honorary societies, recognizing individuals whose work has made significant contributions to their fields.",
+        "event_date": "2026-04-23",
+        "why_it_matters": "Election to the American Academy of Arts and Sciences indicates sustained high-level research activity and leadership across diverse scientific disciplines, suggesting ongoing demand for specialized lab equipment and consumables.",
+        "source_url": "https://www.universityofcalifornia.edu/news/uc-scholars-and-alumni-elected-american-academy-arts-and-sciences"
+      },
+      {
+        "summary": "Three faculty members from the University of California San Diego, Arshad Desai, George Fuller, and Shang-Ping Xie, were elected to the National Academy of Sciences. This honor recognizes their distinguished and continuing achievements in original research in fields such as chromosome segregation, theoretical physics, and ocean-atmosphere interactions.",
+        "researcher_name": "Arshad Desai, George Fuller, Shang-Ping Xie",
+        "department_or_lab": "Department of Cell and Developmental Biology, Department of Cellular and Molecular Medicine, Department of Physics, Scripps Institution of Oceanography, UC San Diego",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "This is one of the most prestigious honors awarded to American scientists and engineers, recognizing distinguished and continuing achievements in original research.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Election to the National Academy of Sciences signifies ongoing cutting-edge research and leadership, indicating sustained demand for advanced scientific instrumentation and specialized reagents.",
+        "source_url": "https://ucsdnews.ucsd.edu/pressrelease/three-uc-san-diego-professors-elected-to-national-academy-of-sciences"
+      },
+      {
+        "summary": "UC Santa Barbara physics professor David Weld was selected for Caltech's 2026 National Brown Investigator Award, receiving up to $2 million over five years. The award supports his research in atomic physics, focusing on quantum dynamical phenomena using ultracold quantum degenerate gases to assemble tiny, fully quantum mechanical optical systems.",
+        "researcher_name": "David Weld",
+        "department_or_lab": "Department of Physics, UC Santa Barbara",
+        "award_or_discovery": "2026 National Brown Investigator Award ($2 million)",
+        "significance": "This award provides stable and secure funding for curiosity-driven research by a distinguished mid-career faculty member, poised to make a significant impact in atomic physics and quantum dynamical phenomena.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "A $2 million award for atomic physics research signals significant investment in quantum science, driving demand for specialized optical components, cryogenic systems, and precision measurement equipment.",
+        "source_url": "https://www.physics.ucsb.edu/news/announcement/2376"
+      },
+      {
+        "summary": "Simon R. Cherry, a Distinguished Professor Emeritus of biomedical engineering and radiology at the University of California, Davis, was elected as a Fellow of the Royal Society. This recognition honors his seminal contributions to biomedical imaging, particularly the development of EXPLORER, the world's first total-body PET scanner, which has revolutionized medical imaging.",
+        "researcher_name": "Simon R. Cherry",
+        "department_or_lab": "Biomedical Engineering and Radiology, University of California, Davis",
+        "award_or_discovery": "Election as Fellow of the Royal Society",
+        "significance": "This honor recognizes his eminent contributions, particularly the development and application of innovative and commercially adopted technologies like the total-body PET scanner, which has reshaped biomedical research and clinical medicine.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Election to the Royal Society for pioneering total-body PET imaging indicates ongoing high-level research in medical diagnostics and imaging technology, suggesting demand for advanced detectors and radiopharmaceuticals.",
+        "source_url": "https://health.ucdavis.edu/news/headlines/uc-davis-medical-imaging-expert-elected-as-fellow-of-the-royal-society/2026/05"
+      },
+      {
+        "summary": "Researchers at the University of California San Diego, including Trey Ideker and JungHo Kong, developed a new artificial intelligence (AI) model, MutationProjector. This model translates a tumor's complex genetic profile into predictions about how that cancer may respond to treatment, offering a new framework for connecting cancer mutations to biological pathways. The study was published in Cancer Discovery.",
+        "researcher_name": "Trey Ideker, JungHo Kong",
+        "department_or_lab": "UC San Diego School of Medicine, Big Data Institute at the University of Oxford (Ideker)",
+        "award_or_discovery": "New AI model (MutationProjector) linking tumor mutations to treatment response",
+        "significance": "This AI tool improves prediction of how multiple cancers may respond to treatment and could make tumor DNA testing more clinically actionable, identifying both known and unexpected biomarkers.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The development of an AI model for predicting cancer treatment response signals high-impact research in bioinformatics, genomics, and precision medicine, driving demand for advanced sequencing consumables, computational resources, and specialized software.",
+        "source_url": "https://today.ucsd.edu/news/story/ai-model-links-tumor-mutations-to-treatment-response"
+      },
+      {
+        "summary": "The W. M. Keck Foundation awarded a $1.2 million grant to the University of California, Irvine, as part of a special initiative to support early-career scientists facing federal research funding uncertainty. Six UC Irvine research teams were selected across various fields, including Earth system science, physics, physiology & biophysics, and biomedical engineering.",
+        "researcher_name": "Katherine Mackey, Shirley Li, Shivashankar Othy, Tim Downing, Maria Rebolleda-G\u00f3mez, Darci Trader",
+        "department_or_lab": "Various departments at UC Irvine (e.g., Earth System Science, Physics and Astronomy, Physiology & Biophysics, Biomedical Engineering, Ecology and Evolutionary Biology, Pharmaceutical Sciences)",
+        "award_or_discovery": "W. M. Keck Foundation grant ($1.2 million) for early-career scientists",
+        "significance": "This grant provides critical bridge funding to sustain research and training, ensuring continuity of discovery and strengthening the pipeline of innovation in diverse scientific fields.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "A $1.2 million grant supporting multiple early-career research teams indicates a broad increase in high-impact scientific activity across various disciplines, leading to increased demand for a wide range of lab supplies and equipment.",
+        "source_url": "https://news.uci.edu/2026/05/14/w-m-keck-foundation-gives-1-2-million-to-uc-irvine-to-support-early-career-scientists/"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "The National Science Foundation (NSF) suspended at least 18 research grants to UC Berkeley in April 2026, including a $1.4 million project for Indigenous Ohlone exhibits at the Lawrence Hall of Science, despite a prior court injunction.",
+        "facility_or_programme": "At least 18 research grants at UC Berkeley, including a project for Indigenous Ohlone exhibits at the Lawrence Hall of Science.",
+        "closure_type": "Programme Termination",
+        "effective_date": "2026-04",
+        "reason": "NSF stated grants did not align with its priorities, including those focusing on diversity, equity, and inclusion. One grant was flagged for alleged 'foreign funding', which researchers denied.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This indicates a direct reduction in funded research projects at UC Berkeley, leading to decreased demand for lab supplies, reagents, and consumables for the affected programs.",
+        "source_url": "https://apnews.com/article/trump-uc-berkeley-research-grants-a95e3df65d9d6d26e947e381dd150cc6"
+      },
+      {
+        "summary": "The U.S. Department of Justice (DOJ) sued the University of California system, alleging UCLA violated civil rights law by being \"deliberately indifferent\" to harassment against Jewish and Israeli students. The DOJ asked a judge to order UCLA to pay back all federal grants it received while allegedly \"noncompliant\" with Title VI.",
+        "facility_or_programme": "Federal grants to UCLA.",
+        "closure_type": "Potential Grant Termination/Repayment",
+        "effective_date": null,
+        "reason": "Allegations of UCLA being \"deliberately indifferent\" to harassment against Jewish and Israeli students, violating civil rights law.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This lawsuit creates significant financial uncertainty and potential for future grant terminations or repayment demands for UCLA, posing a high churn risk for lab supply demand.",
+        "source_url": "https://www.highereddive.com/news/doj-lawsuit-accuses-ucla-ignoring-antisemitism-campus/821173/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-30T12:03:00.795767+00:00",
+  "ai_summary": "UCOP is experiencing substantial growth with new capital projects like UCSF's modernization and UC Davis's Resnick Center, creating demand for lab supplies. Billions in new grants and proposed bond funding for scientific research, coupled with recruitment of early-career scientists and numerous breakthroughs, signal expanding research activity across diverse fields. This presents significant opportunities for lab supply sales."
+}

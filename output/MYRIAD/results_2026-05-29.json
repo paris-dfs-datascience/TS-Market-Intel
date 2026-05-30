@@ -1,0 +1,78 @@
+{
+  "account": "MYRIAD",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1BHYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Myriad Genetics launched the Prolaris + AI Test, which combines genomics and AI-powered digital pathology to improve active surveillance decisions for prostate cancer. The new AI metric will be available for all Prolaris Biopsy Tests in the U.S. (excluding New York State initially) starting May 29, 2026.",
+        "product_or_program": "Prolaris + AI Test",
+        "stage": "Launch",
+        "therapeutic_or_application_area": "Prostate cancer, active surveillance, prognostics",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new test integrates AI and genomics for prostate cancer management, indicating a potential increase in demand for related lab supplies, reagents, and equipment for genomic and digital pathology workflows.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6L-bTQRLFbMOUv04ijNl4axAHgxWEaY4F8tjGGOv6AAzq4UScHvRIvFDRv1CtTl1J_bgRJlvdvkL81UTBtXu_IhABn5A4xe_mI5dy6kgHR4NHYvtWQsFJsXcZR5zti_m7CkoUBLyDrMA0I6JlVKarePwgkwN-z9qxoQUn83Ny"
+      },
+      {
+        "summary": "Myriad Genetics will share data demonstrating the utility of its Precise MRD\u2122 (molecular residual disease) test across diverse cancer types at the 2026 ASCO Annual Meeting. The presentations will showcase the prognostic power of its ultrasensitive MRD assay.",
+        "product_or_program": "Precise MRD\u2122 test",
+        "stage": "Data Presentation",
+        "therapeutic_or_application_area": "Molecular residual disease (MRD), diverse cancer types (ovarian, gastric, head and neck, sarcoma)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The presentation of new data supporting the broad clinical utility of the Precise MRD test could lead to increased adoption and demand for related molecular diagnostic reagents and consumables.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFusGpu4GjDnTn69F_dypP4P79v1rLOuFDI9eolmgnU08Qo5i7ey28ea01kORW-_zAjbiclM9ghTyYTqG8TDcZw3TPGMtWz_3odIrhAxnsJSAhw6kWlveI_VkIPeUrVbH3v8rSzf27K3AI3g40SogfILwGTTnDcLCH3Xwvc9Ivf"
+      },
+      {
+        "summary": "Myriad Genetics received approval from Japan's Ministry of Health, Labour and Welfare (MHLW) for the MyChoice CDx test as a companion diagnostic for Lynparza (olaparib) in prostate cancer patients. This expands the test's utility in Japan to include BRCA1/2 status for prostate cancer, in addition to ovarian and breast cancers.",
+        "product_or_program": "MyChoice CDx test",
+        "stage": "Regulatory Approval (Japan)",
+        "therapeutic_or_application_area": "Prostate cancer, companion diagnostics, homologous recombination deficiency (HRD), BRCA1/2 status",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This regulatory approval in Japan for a companion diagnostic test indicates increased demand for the MyChoice CDx test and associated reagents and consumables in the Japanese market.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEQ7dNRSCtLpbf3WTJir_wLJajFtGYzYUPnBb2IT8CCOQh7XWrYXnxv1vX0srC9NywgYNifNM9oBq5SMFq4RdRMaEhw8pk-jmCYVHkoRm8i9lo5_lkUssS5BKgNqrMd2cwD4WKHG1NnEgiaJtOialzKthoVAEMqry9OSLU5tt-woFnsajjRvjAuo4ra5un2tG9vsZKh98Sx3bYFC6ongAedVywuaPVjwgXjQtsoh38Fmdjvm-eQH3lXBAtuREKnYC47Ae28aUzIaLbnDT2AWO7FYZLK1e6nMNYsgRcwgkase_mSV4dSDf1A0lmkfeZm1fnSWpnwXQRNLeeHnV3-ef2AoR1ZzA="
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Myriad Genetics' MyChoice CDx Test received FDA approval as a companion diagnostic for GSK's PARP inhibitor Zejula (niraparib) for patients with advanced ovarian cancer.",
+        "product_or_site": "MyChoice CDx Test",
+        "regulatory_action": "FDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This approval will likely increase demand for the MyChoice CDx test and associated lab reagents and consumables for ovarian cancer patient stratification.",
+        "source_url": "https://myadlm.org/cln/articles/2026/mayjune/fda-approves-myriad-genetics-companion-diagnostic-for-ovarian-cancer"
+      },
+      {
+        "summary": "Myriad Genetics received approval from Japan's Ministry of Health, Labour and Welfare (MHLW) for the use of the MyChoice CDx test for prostate cancer patients as a companion diagnostic for Lynparza (olaparib).",
+        "product_or_site": "MyChoice CDx test",
+        "regulatory_action": "MHLW Approval (Japan)",
+        "outcome": "Approved",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This approval in Japan expands the market for Myriad's MyChoice CDx test, indicating potential for increased demand for related lab supplies in that region.",
+        "source_url": "https://www.biospace.com/press-releases/myriad-genetics-reports-first-quarter-2026-financial-results-reiterates-2026-financial-guidance-reflecting-ongoing-progress-in-the-cancer-care-continuum-business"
+      }
+    ],
+    "volume": [
+      {
+        "summary": "Myriad Genetics launched the Prolaris + AI Test, which combines genomic analysis with artificial intelligence-powered digital pathology for prostate cancer assessment.",
+        "test_or_product_line": "Prolaris\u00ae + AI Test (prostate cancer biomarker test)",
+        "volume_change": "Implied increase in testing volume due to the launch of an enhanced diagnostic test. The new AI metric will be available for all U.S. Prolaris Biopsy tests (excluding New York State) processed starting May 29, 2026.",
+        "driver": "Launch of a new diagnostic test that integrates AI-powered digital pathology with existing genomic testing, offering a more comprehensive risk assessment.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Higher test volume for Prolaris + AI directly increases the demand for reagents, consumables, and potentially new equipment used in genomic and digital pathology workflows.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/26/3301448/0/en/myriad-genetics-launches-prolaris-ai-the-first-prostate-cancer-test-to-combine-genomics-and-digital-pathology-artificial-intelligence-ai.html"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:32:01.977914",
+  "ai_summary": "Myriad Genetics is actively expanding its diagnostic offerings with new AI-powered genomic tests like Prolaris + AI for prostate cancer and broadening MyChoice CDx utility via new regulatory approvals. Their focus on advanced genomics, AI, and MRD assays indicates growing test volumes and a need for specialized reagents, consumables, and potentially new instrumentation. This presents significant sales opportunities for lab suppliers."
+}

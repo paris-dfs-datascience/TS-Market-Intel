@@ -1,0 +1,278 @@
+{
+  "account": "NIH",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DeYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Department of Commerce announced $2.013 billion in federal incentives under the CHIPS and Science Act to support nine quantum companies, including GlobalFoundries and IBM, to accelerate U.S. leadership in quantum computing.",
+        "recipient": "GlobalFoundries, IBM, and 7 other unnamed quantum computing companies",
+        "department_or_lab": null,
+        "amount": "$2.013 billion",
+        "agency": "Department of Commerce (NIST)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant investment in quantum computing will drive demand for specialized lab equipment, cryogenic systems, high-purity materials, and advanced measurement tools for quantum research and manufacturing.",
+        "source_url": "https://www.nist.gov/news-events/news/2026/05/department-commerce-announces-letters-intent-9-companies-2-billion"
+      },
+      {
+        "summary": "The U.S. Department of War announced several contracts, including a $150 million contract to Stantec-JMT JV for architect-engineer services, a $21.2 million modification to KBR Services LLC for logistics support, and a $9.69 billion blanket purchase agreement to Dell Federal Systems, L.P. for enterprise software.",
+        "recipient": "Stantec-JMT JV, KBR Services LLC, Dell Federal Systems, L.P.",
+        "department_or_lab": "NAVFAC Hawaii, Army Contracting Command, Department of War",
+        "amount": "$150,000,000; $21,284,564; $9,690,000,000",
+        "agency": "Department of War",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These contracts indicate ongoing demand for various services and equipment, from infrastructure and logistics to enterprise software, which can indirectly drive demand for related lab supplies and IT infrastructure.",
+        "source_url": "https://www.defense.gov/News/Contracts/Contract-View/Article/ID/3789000/"
+      },
+      {
+        "summary": "The AAMC provides updates on NIH-obligated funding, noting that the NIH has obligated $5.8 billion of its extramural funding in FY 2026 through May 15.",
+        "recipient": "NIH extramural funding recipients (various institutions)",
+        "department_or_lab": null,
+        "amount": "$5.8 billion",
+        "agency": "NIH (National Institutes of Health)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This provides an overview of the overall NIH funding landscape, indicating a continued high level of investment in biomedical research, which translates to sustained demand for lab supplies and equipment across various institutions.",
+        "source_url": "https://www.aamc.org/data-reports/research-health-insights/interactive-data/tracking-nih-funding"
+      },
+      {
+        "summary": "USDA's National Institute of Food and Agriculture (NIFA) awarded $2.5 million in funding to Iowa State University, Oklahoma State University, Purdue University, and University of California, Davis, to support four projects in Environmental and Natural Resource Economics.",
+        "recipient": "Iowa State University, Oklahoma State University, Purdue University, University of California, Davis",
+        "department_or_lab": null,
+        "amount": "$2.5 million",
+        "agency": "USDA's National Institute of Food and Agriculture (NIFA)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This funding supports research in environmental and agricultural sciences, potentially leading to demand for analytical instruments, field sampling equipment, and reagents for environmental monitoring and agricultural studies.",
+        "source_url": "https://www.nifa.usda.gov/news/nifa-awards-25m-support-environmental-and-natural-resource-economics"
+      },
+      {
+        "summary": "NIH issued a notice reminding the extramural community of its longstanding definition of foreign components in grants, emphasizing that while oversight of foreign collaborations has increased, the definition has not expanded.",
+        "recipient": "NIH grant recipients (extramural community)",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "NIH (National Institutes of Health)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This notice clarifies NIH's policy on foreign collaborations, which can impact how research projects are structured and funded, potentially influencing the procurement of lab supplies for international partnerships.",
+        "source_url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-084.html"
+      },
+      {
+        "summary": "The U.S. Small Business Administration (SBA) announced a new funding opportunity of up to $50 million in grant awards to up to 10 eligible applicant organizations to provide training and technical assistance to small manufacturers in critical industries.",
+        "recipient": "Up to 10 eligible applicant organizations (to be determined)",
+        "department_or_lab": null,
+        "amount": "Up to $50 million",
+        "agency": "U.S. Small Business Administration (SBA)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This initiative supports domestic manufacturing, which could lead to increased demand for industrial lab equipment, quality control instruments, and materials for manufacturing processes.",
+        "source_url": "https://www.sba.gov/article/2026/05/06/sba-announces-new-50-million-grant-opportunity-support-made-america-manufacturing-workforce-training"
+      },
+      {
+        "summary": "Everforth ECS received a $115.5 million contract from the U.S. Army to deliver research and development services to advance artificial intelligence and machine learning technologies for the Department of War.",
+        "recipient": "Everforth ECS",
+        "department_or_lab": null,
+        "amount": "$115.5 million",
+        "agency": "U.S. Army (Department of War)",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This significant contract for AI and machine learning R&D indicates strong demand for high-performance computing infrastructure, specialized software, and potentially new lab equipment for AI development and testing in defense applications.",
+        "source_url": "https://www.govconwire.com/2026/05/everforth-ecs-secures-115m-army-contract-for-ai-machine-learning-rd/"
+      },
+      {
+        "summary": "The U.S. Department of Energy (DOE) announced up to $17.5 million in federal funding to develop cost-effective strategies for communities to manage and recover potential energy sources from waste streams.",
+        "recipient": "Up to 14 financial assistance awards (to be determined)",
+        "department_or_lab": "DOE Bioenergy Technologies Office (BETO) and Vehicle Technologies Office (VTO)",
+        "amount": "Up to $17.5 million",
+        "agency": "U.S. Department of Energy (DOE)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This funding for waste-to-energy solutions suggests demand for analytical instruments, chemical reagents, and processing equipment for research and development in bioenergy and waste management.",
+        "source_url": "https://www.energy.gov/eere/vehicles/articles/funding-notice-us-department-energy-announces-175-million-support-cost"
+      },
+      {
+        "summary": "The Department of War announced an investment of $27.3 million in DPA Title III funds to Pacific Scientific Energetic Materials Company (PacSci EMC) to expand the solid rocket motor industrial base.",
+        "recipient": "Pacific Scientific Energetic Materials Company (PacSci EMC)",
+        "department_or_lab": null,
+        "amount": "$27.3 million",
+        "agency": "Department of War",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This investment in the solid rocket motor industrial base indicates a need for specialized materials, manufacturing equipment, and quality control instruments for defense applications.",
+        "source_url": "https://www.pilieromazza.com/news/weekly-update-for-government-contractors-and-commercial-businesses-may-28-2026/"
+      },
+      {
+        "summary": "The Pentagon reached deals with several defense firms to buy more than 10,000 low-cost, containerized missiles over the next three years.",
+        "recipient": "Several unnamed defense firms",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "Department of Defense (Pentagon)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This indicates a significant upcoming demand for materials, components, and manufacturing processes related to missile production, which could translate to lab supply needs for R&D and quality control.",
+        "source_url": "https://www.jdsupra.com/legalnews/weekly-update-for-government-contractors-and-commercial-businesses-may-2026-3-37462/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "Massachusetts Governor Maura Healey announced a $25 million state investment to match federal funding for the construction of a new Quantum Systems Laboratory (QSL) at MIT, aiming to accelerate the development of next-generation quantum technologies and establish Massachusetts as a national hub for quantum innovation.",
+        "project_name": "Quantum Systems Laboratory (QSL) at MIT",
+        "scope": "Construction of a new laboratory facility at MIT's Building 39, open to government, academic, and industry researchers. The QSL will host specialized facilities for state-of-the-art quantum computers, quantum sensors and peripherals, joined by quantum interconnects.",
+        "timeline": "Construction is anticipated to begin in the summer of 2026, with the lab slated to open in December 2027.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment and operation of the Quantum Systems Laboratory will drive significant demand for specialized scientific equipment, lab supplies, and maintenance services required for advanced quantum research and technology development.",
+        "source_url": "https://www.mass.gov/news/governor-healey-announces-25-million-for-new-mit-quantum-systems-lab-strengthening-mas-global-leadership-in-quantum-computing-research"
+      }
+    ],
+    "tender": [
+      {
+        "summary": "The NIH Office of Logistics and Acquisition Operations (OLAO) intends to award a sole source contract to Leica Microsystems Inc. for a Leica THUNDER Imager Cell widefield microscope.",
+        "tender_name": "Leica THUNDER Imager Cell widefield microscope",
+        "estimated_value": "$180,000 - $349,999",
+        "deadline": "2026-05-29",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This indicates a direct need for a specific piece of scientific equipment at NIH, which Thomas Scientific could potentially supply or offer alternatives/accessories for in future competitive bids.",
+        "source_url": "https://www.highergov.com/contract/75N98026Q00290-leica-thunder-imager-cell-widefield-microscope/"
+      },
+      {
+        "summary": "The National Institute of Allergy and Infectious Diseases (NIAID) intends to negotiate on a sole source basis with SomaLogic Operating Co, Inc. for SomaScan assay kits necessary for ongoing research and clinical protocols across multiple NIH institutes.",
+        "tender_name": "SomaScan Assay Kits NOI-NIAID-26-2280298",
+        "estimated_value": null,
+        "deadline": "2026-05-14",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This indicates a specific need for assay kits and reagents at NIH, representing a potential future sales opportunity for similar or complementary products.",
+        "source_url": "https://www.highergov.com/contract/NOI-NIAID-26-2280298-somascan-assay-kits/"
+      },
+      {
+        "summary": "A new Blanket Purchase Agreement (BPA) under the GSA Multiple Award Schedule (MAS) GS07F161BA was started with Fisher Scientific Company for laboratory supplies, awarded by the Phoenix Area agency.",
+        "tender_name": "Fisher Scientific Company GSA MAS GS07F161BA BPA for Laboratory Supplies",
+        "estimated_value": "$650,000",
+        "deadline": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "This is a direct signal of ongoing federal procurement of lab supplies through a GSA schedule, indicating a continuous demand that Thomas Scientific could compete for or use for market intelligence.",
+        "source_url": "https://www.highergov.com/contract/GS07F161BA-fisher-scientific-company/"
+      },
+      {
+        "summary": "The U.S. State Department is preparing to deploy a new model for purchasing diagnostic tests for infectious diseases abroad, which will include purchasing diagnostic machines, testing materials such as reagents, and maintenance services directly from manufacturers.",
+        "tender_name": "U.S. Global Health Diagnostic Testing Overhaul (RFI/RFP for diagnostic machines, reagents, maintenance)",
+        "estimated_value": "Approximately $200 million per year (overall spending)",
+        "deadline": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "This represents a significant upcoming federal procurement for diagnostic machines and reagents, indicating a large sales opportunity for Thomas Scientific in the federal sector.",
+        "source_url": "https://www.washingtonpost.com/health/2026/05/15/us-rethink-global-health-testing-strategy/"
+      }
+    ],
+    "mandate": [
+      {
+        "summary": "NIH is launching an agency-wide initiative to elevate replication and reproducibility studies, investing in critical infrastructure to embed these practices throughout biomedical research.",
+        "mandate_type": "Public Health Emergency Lab Buildout",
+        "jurisdiction": "United States (Federal - NIH)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This initiative will drive demand for new lab equipment, reagents, and consumables to support enhanced replication and reproducibility studies across NIH-funded biomedical research.",
+        "source_url": "https://www.nih.gov/replicationandreproducibility"
+      },
+      {
+        "summary": "Bipartisan legislation, the Federal and State Food Safety Information Sharing Act of 2026, was introduced in the U.S. House of Representatives to allow the FDA to share food safety information with state and local regulatory agencies.",
+        "mandate_type": "Foodborne Illness Testing Requirements",
+        "jurisdiction": "United States (Federal - FDA, impacting state/local)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "Improved information sharing will likely lead to more targeted and efficient foodborne illness investigations, potentially increasing demand for specific testing reagents and consumables at state and local labs.",
+        "source_url": "https://freshgroupglobal.com/bill-would-give-fda-permission-to-provide-states-with-food-safety-information/"
+      },
+      {
+        "summary": "The EPA proposed two rules related to PFAS in drinking water: one to rescind Biden-era regulations for PFHxS, PFNA, HFPO-DA, and Hazard Index mixtures, and another to extend compliance deadlines for PFOA and PFOS Maximum Contaminant Levels (MCLs) until 2031, while requiring short-term mitigation for levels at or above 12 ppt.",
+        "mandate_type": "Environmental Monitoring Mandates",
+        "jurisdiction": "United States (Federal - EPA, impacting public water systems)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "The continued focus on PFAS in drinking water, especially the requirement for short-term mitigation actions for higher levels, will sustain and potentially increase demand for PFAS testing equipment, reagents, and water treatment solutions for affected water systems.",
+        "source_url": "https://eelp.law.harvard.edu/tracker/pfas-in-drinking-water/"
+      },
+      {
+        "summary": "The Advanced Research Projects Agency for Health (ARPA-H) launched its Intelligent Generator of Research (IGoR) program, an AI-powered research ecosystem designed to accelerate gold-standard biomedical science and expand experimental capabilities.",
+        "mandate_type": "Public Health Emergency Lab Buildout",
+        "jurisdiction": "United States (Federal - ARPA-H, within HHS)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "This program will drive demand for advanced lab infrastructure, computational biology tools, AI/machine learning platforms, and experimental science equipment to support accelerated and reproducible biomedical research.",
+        "source_url": "https://www.hhs.gov/press-room/arpa-h-launches-intelligent-generator-of-research-igor-program.html"
+      },
+      {
+        "summary": "The New York State Senate passed its 2026-27 budget, which includes a $54 million investment for a new state-of-the-art forensics lab for the State Police.",
+        "mandate_type": "Forensic Lab Expansion",
+        "jurisdiction": "New York State",
+        "funding_amount": "$54 million",
+        "effective_date": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "A $54 million investment in a new state-of-the-art forensics lab will create significant demand for a wide range of new scientific equipment, reagents, and consumables for forensic analysis.",
+        "source_url": "https://www.nysenate.gov/newsroom/press-releases/2026/state-senate-passes-2026-27-budget"
+      },
+      {
+        "summary": "NIH announced a Notice of Funding Opportunity (NOFO) for the Instrumentation Grant Program for Resource-Limited Institutions (S10), inviting applications to purchase scientific equipment to increase biomedical research capacity and educational opportunities.",
+        "mandate_type": "Public Health Emergency Lab Buildout",
+        "jurisdiction": "United States (Federal - NIH)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "This grant program will directly stimulate demand for new scientific instruments and related lab supplies from eligible resource-limited institutions across the US.",
+        "source_url": "https://files.simpler.grants.gov/opportunities/ca93b895-6ca4-4379-b016-ff97bbb6ce41/attachments/5aa86a1a-782e-410d-8856-f139b4a9ab84/PAR-27-067-Full-Announcement.html"
+      },
+      {
+        "summary": "Uganda opened an expanded wildlife and timber forensics laboratory, funded by the European Union and supported by Denmark, to strengthen evidence in the Uganda Wildlife Court.",
+        "mandate_type": "Forensic Lab Expansion",
+        "jurisdiction": "Uganda (with EU and Denmark funding)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "The expansion of this forensics lab will create demand for specialized equipment, reagents, and consumables for DNA barcoding and species identification techniques in wildlife and timber forensics.",
+        "source_url": "https://allafrica.com/stories/202605040195.html"
+      },
+      {
+        "summary": "A discussion around the CDC Director's nomination highlighted the risk to core capabilities, including wastewater and traveler-based genomic surveillance programs, which require integration into established budget lines for sustained operation.",
+        "mandate_type": "Wastewater Surveillance Programs",
+        "jurisdiction": "United States (Federal - CDC, impacting local jurisdictions)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The recognition of wastewater surveillance as a critical capability indicates a continued need for lab supplies, reagents, and equipment for these programs, especially if they are successfully integrated into permanent budgets.",
+        "source_url": "https://www.csis.org/analysis/cdc-directors-nomination-opportunity-reconstitute-cdc"
+      },
+      {
+        "summary": "New York Governor Hochul signed legislation that includes reforms to the State Environmental Quality Review Act (SEQRA), adding exemptions for critical projects like clean water infrastructure.",
+        "mandate_type": "Environmental Monitoring Mandates",
+        "jurisdiction": "New York State",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "Expediting clean water infrastructure projects will likely lead to increased demand for water quality testing equipment, reagents, and consumables for monitoring and compliance.",
+        "source_url": "https://www.governor.ny.gov/news/let-them-build-governor-hochul-signs-legislation-delivers-generational-reforms-make-it-easier"
+      }
+    ],
+    "legislation": [
+      {
+        "summary": "The National Cancer Institute (NCI), part of NIH, received a total appropriation of $7.35 billion for fiscal year 2026, representing an increase of $128 million compared to the previous fiscal year.",
+        "bill_or_budget_name": "Consolidated Appropriations Act, 2026 (H.R. 1748)",
+        "jurisdiction": "Federal",
+        "funding_amount": "$7.35 billion",
+        "focus_area": "Cancer research",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This substantial federal appropriation for cancer research will directly increase funding for NCI-supported scientific programs, driving demand for a wide range of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.cancer.gov/about-nci/budget"
+      },
+      {
+        "summary": "The National Institute on Aging (NIA), part of NIH, received a $10 million increase to its FY26 budget, bringing its total to $4.518 billion.",
+        "bill_or_budget_name": "FY26 budget",
+        "jurisdiction": "Federal",
+        "funding_amount": "$10 million",
+        "focus_area": "Aging research",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The $10 million increase in NIA's budget for aging research will enable new or expanded scientific studies, leading to increased procurement of specialized lab supplies, reagents, and equipment.",
+        "source_url": "https://fabbs.org/news/2026/05/nih-round-up-advisory-council-meetings-and-policy-updates/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:40:25.429600",
+  "ai_summary": "NIH is experiencing budget increases for key institutes and has obligated significant extramural funding. New initiatives prioritize enhancing research infrastructure, reproducibility, and AI-powered science, including grants for equipment at resource-limited institutions. This indicates a strong demand for advanced lab equipment, reagents, and related services, creating clear opportunities for lab supply sales teams to support expanding research capabilities and technology adoption."
+}

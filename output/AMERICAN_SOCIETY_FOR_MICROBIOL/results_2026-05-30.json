@@ -1,0 +1,39 @@
+{
+  "account": "AMERICAN SOCIETY FOR MICROBIOL",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "0011M00002TunT3QAJ",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Research on longitudinal analysis of viral and host RNA in blood and saliva during controlled human dengue virus 3 infections, funded by NIH and DoD grants.",
+        "recipient": "Sharon S. Wu, Jennifer N. Bjerke, Casey E. Middleton, Arturo Barbachano-Guerrero, Joshua R. Dye, Emma R. Worden-Sapper, Amy B. Emerman, Timothy P. Endy, Stephen J. Thomas, Adam T. Waickman",
+        "department_or_lab": "Authors publishing in an American Society for Microbiology journal",
+        "amount": "Not specified for individual grants, but funded by NIH grants (DP1-AI-175471, DP1-DA-046108, R01-AI-137011, R01-OD-034046) and Department of Defense (W15QKN-16-9-1002, DHIM-3 clinical study)",
+        "agency": "NIH, Department of Defense",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This research into dengue virus and host response indicates a demand for lab supplies, reagents, and consumables for molecular biology and infectious disease studies.",
+        "source_url": "https://journals.asm.org/doi/10.1128/jvi.00282-26"
+      },
+      {
+        "summary": "TAXIS Pharmaceuticals announced it will present preclinical data on two investigational antibiotic candidates at the upcoming American Society for Microbiology conference, highlighting recent multi-year, multi-million-dollar NIH grants, including a $2.67 million NIH grant for an efflux pump inhibitor candidate.",
+        "recipient": "TAXIS Pharmaceuticals",
+        "department_or_lab": "TAXIS Pharmaceuticals",
+        "amount": "Multi-year, multi-million-dollar grants, including a recent $2.67 million NIH grant",
+        "agency": "NIH",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The ongoing research and development of new antibiotic candidates by TAXIS Pharmaceuticals, supported by NIH grants, signals a need for microbiology media, reagents for drug discovery, and equipment for preclinical studies.",
+        "source_url": "https://www.prweb.com/releases/taxis-pharmaceuticals-to-present-preclinical-data-on-two-investigational-antibiotic-candidates-at-upcoming-american-society-for-microbiology-conference-302154562.htm"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:15:29.639525+00:00",
+  "ai_summary": "The American Society for Microbiology is a hub for significant, well-funded infectious disease research, including NIH/DoD-backed dengue virus studies and TAXIS Pharmaceuticals' antibiotic development. This indicates a strong demand for molecular biology reagents, microbiology media, drug discovery tools, and general lab supplies. Sales teams should target these researchers for their substantial purchasing power and ongoing need for specialized products in virology and bacteriology."
+}

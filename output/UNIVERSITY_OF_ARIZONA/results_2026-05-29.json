@@ -1,0 +1,80 @@
+{
+  "account": "UNIVERSITY OF ARIZONA",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BNYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Researchers with the Sleep and Health Research Program and the Center for Sleep, Circadian and Neuroscience Research in the University of Arizona College of Medicine \u2013 Tucson received a $3.8 million grant from the National Institute of Mental Health (NIH) to examine how being awake in the middle of the night could impact a person's ability to make decisions, focusing on the 'mind after midnight' hypothesis as a suicide risk factor.",
+        "recipient": "Michael Grandner (lead investigator), and researchers with the Sleep and Health Research Program and the Center for Sleep, Circadian and Neuroscience Research",
+        "department_or_lab": "Sleep and Health Research Program, Center for Sleep, Circadian and Neuroscience Research, Department of Psychiatry, University of Arizona College of Medicine \u2013 Tucson",
+        "amount": 3800000,
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This grant indicates a need for sleep research equipment, neuroscience consumables, and potentially psychiatric research reagents for studies on decision-making and suicide risk.",
+        "source_url": "https://news.arizona.edu/news/new-38m-nih-grant-funds-research-mind-after-midnight-suicide-risk-factor"
+      },
+      {
+        "summary": "ECE assistant professor Narayanan Rengaswamy at the University of Arizona earned a $826,210 CAREER Award from the National Science Foundation for his research in quantum computing, specifically to build a network of quantum technology to test error-correcting codes necessary for large-scale quantum computing.",
+        "recipient": "Narayanan Rengaswamy",
+        "department_or_lab": "Electrical and Computer Engineering (ECE), SQALE research group",
+        "amount": 826210,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This award signals demand for quantum computing equipment, specialized electronics, and potentially materials for quantum technology development and error correction research.",
+        "source_url": "https://ece.engineering.arizona.edu/news-events/rengaswamy-wins-nsf-career-award"
+      },
+      {
+        "summary": "Marat Latypov, a faculty member in the University of Arizona College of Engineering, earned a CAREER Award from the National Science Foundation.",
+        "recipient": "Marat Latypov",
+        "department_or_lab": "College of Engineering",
+        "amount": null,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This award indicates potential demand for engineering research equipment and consumables related to his specific field of study.",
+        "source_url": "https://news.engineering.arizona.edu/news/four-engineering-professors-win-nsf-career-awards"
+      },
+      {
+        "summary": "Afrooz Jalilzadeh, a faculty member in the University of Arizona College of Engineering, earned a CAREER Award from the National Science Foundation for advancing a mathematical framework to predict challenges in distributed power systems, smart grids, and large-scale machine learning.",
+        "recipient": "Afrooz Jalilzadeh",
+        "department_or_lab": "College of Engineering",
+        "amount": null,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This award suggests a need for computing resources, data analysis software, and potentially specialized equipment for power systems and machine learning research.",
+        "source_url": "https://news.engineering.arizona.edu/news/four-engineering-professors-win-nsf-career-awards"
+      },
+      {
+        "summary": "Xiaodong Yan, a faculty member in the University of Arizona College of Engineering, earned a CAREER Award from the National Science Foundation.",
+        "recipient": "Xiaodong Yan",
+        "department_or_lab": "College of Engineering",
+        "amount": null,
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This award indicates potential demand for engineering research equipment and consumables related to his specific field of study.",
+        "source_url": "https://news.engineering.arizona.edu/news/four-engineering-professors-win-nsf-career-awards"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Jennifer T. Anger, MD, MPH, has been appointed as the inaugural chair of the Department of Urology at the University of Arizona College of Medicine \u2013 Phoenix.",
+        "researcher_name": "Jennifer T. Anger",
+        "department_or_lab": "Department of Urology, University of Arizona College of Medicine \u2013 Phoenix",
+        "award_or_discovery": "Inaugural Chair of the Department of Urology",
+        "significance": "Dr. Anger is a highly accomplished researcher with over $27 million in independent funding and more than 300 peer-reviewed manuscripts, focusing on improving surgical care for pelvic floor disorders, reducing health care disparities, and enhancing medical and surgical outcomes for adults and adolescents.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This appointment signals a significant investment in urological research at the University of Arizona, likely leading to increased demand for specialized lab supplies, reagents, and equipment to support her ongoing and future projects in clinical and translational urology.",
+        "source_url": "https://phoenixmed.arizona.edu/newsroom/news/college-appoints-inaugural-chair-urology"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T07:21:56.791033",
+  "ai_summary": "The University of Arizona recently secured substantial grant funding, including multiple NSF CAREER Awards in engineering and a major NIH grant for sleep and neuroscience research. This signals expanding programs in quantum computing, smart grids, and brain health. A new Urology Department chair also indicates potential lab growth. These developments create immediate opportunities for lab supply sales, as researchers will require new equipment and consumables for their funded projects."
+}

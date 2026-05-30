@@ -1,0 +1,31 @@
+{
+  "account": "COPAN",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1ZyYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The World Health Organization (WHO) and the Stop TB Partnership have released a toolkit and are preparing consolidated guidelines that will recommend tongue swabbing and sputum pooling for tuberculosis (TB) testing. These new methods are intended to be integrated into national diagnostic programs, with COPAN's FLOQSwabs\u00ae having been used in studies for swab-based TB specimen collection.",
+        "project_name": "WHO Updated Tuberculosis Diagnostic Guidelines (incorporating swab-based testing and sputum pooling)",
+        "scope": "Global impact on national TB diagnostic programs, particularly for individuals unable to produce sputum and in resource-limited settings.",
+        "timeline": "Toolkit released on May 6, 2026; consolidated guidelines to be published later in 2026.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The global adoption of tongue swabbing and sputum pooling, as recommended by the WHO, will significantly increase demand for COPAN's specimen collection devices like FLOQSwabs\u00ae and potentially related laboratory equipment, representing a large-scale shift in diagnostic practices.",
+        "source_url": "https://cosciencehub.copangroup.com/who-tb-diagnostic-updates-tongue-swabs-sputum-pooling/"
+      }
+    ],
+    "regulatory": [],
+    "volume": [],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:22:18.522815",
+  "ai_summary": "COPAN's FLOQSwabs\u00ae are poised for increased demand as the WHO and Stop TB Partnership recommend new tongue swabbing methods for TB testing, integrating them into national programs. This creates a significant opportunity for lab supply sales teams to proactively engage with diagnostic labs. They can highlight how FLOQSwabs\u00ae align with these new global guidelines, driving substantial sales growth for TB specimen collection supplies."
+}

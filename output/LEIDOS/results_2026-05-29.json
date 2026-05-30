@@ -1,0 +1,137 @@
+{
+  "account": "LEIDOS",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1BJYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Leidos was awarded an $869 million contract by the U.S. Army to design, build, and integrate secure systems for the Pentagon, utilizing artificial intelligence, advanced networking, and modular open architecture to accelerate military decision-making.",
+        "recipient": "Leidos",
+        "department_or_lab": "Decision Advantage / Mission Systems",
+        "amount": 869000000,
+        "agency": "U.S. Army (DoD)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This significant contract for AI and advanced networking solutions indicates potential demand for high-performance computing components, specialized software, and related lab infrastructure for development and testing.",
+        "source_url": "https://www.leidos.com/news/press-releases/2026/leidos-receives-869-million-army-contract-accelerate-military-decision-making"
+      },
+      {
+        "summary": "Leidos secured a $456 million, four-year contract from the General Services Administration (GSA) to continue managing Military OneSource services, providing comprehensive well-being services to over 4.7 million Department of War service members and their families.",
+        "recipient": "Leidos",
+        "department_or_lab": "Health Services",
+        "amount": 456000000,
+        "agency": "General Services Administration (GSA) for the Department of War (DoD)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This contract, focused on health and well-being services for military personnel, could signal demand for medical supplies, diagnostic tools, and potentially research-related consumables for mental and physical health studies.",
+        "source_url": "https://www.leidos.com/news/press-releases/2026/leidos-support-over-47-million-service-members-and-families-through-military-onesource"
+      },
+      {
+        "summary": "Leidos was awarded two 5-year tasks totaling approximately $628.5 million by the Defense Information Systems Agency (DISA) for Cybersecurity and Cyberspace Support services.",
+        "recipient": "LEIDOS, INC.",
+        "department_or_lab": "Cyber Defense and Cybersecurity Services / Cyberspace Operations Directorate",
+        "amount": 628508989.72,
+        "agency": "Defense Information Systems Agency (DISA) (DoD)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Cybersecurity and cyberspace support contracts often involve advanced computing infrastructure, specialized testing equipment, and secure lab environments, which may require various IT and lab supplies.",
+        "source_url": "https://orangeslices.ai/2026/05/20/leidos-secures-626m-in-disa-cybersecurity-and-cyberspace-support-tasks/"
+      },
+      {
+        "summary": "Leidos will produce an initial order of 3,000 Low-Cost Containerized Munitions (LCCM) through a framework agreement with the Department of Defense, expanding its workforce and facilities in Huntsville, Alabama, and McEwen, Tennessee.",
+        "recipient": "Leidos",
+        "department_or_lab": "Advanced Missile Technology / Defense Production",
+        "amount": null,
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This initiative in munitions production suggests a need for materials testing equipment, manufacturing consumables, and potentially specialized chemical reagents for propulsion or warhead development.",
+        "source_url": "https://www.leidos.com/news/press-releases/2026/leidos-build-initial-3000-low-cost-containerized-munitions-through-department-war-framework-agreement"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "A contract was awarded to LEIDOS BIOMEDICAL RESEARCH INC by the Department of Health and Human Services, National Institutes of Health, NIH NCI, for health R&D services and applied research.",
+        "contract_name": "CONT_AWD_75N91026F00008_7529_75N91019D00024_7529",
+        "estimated_value": "$1.4 Million",
+        "deadline_or_expiration": "2028-01-19",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This contract for biomedical research services at NIH NCI indicates potential future demand for lab supplies, reagents, and consumables through sub-contracting opportunities for Thomas Scientific.",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_75N91026F00008_7529_75N91019D00024_7529"
+      },
+      {
+        "summary": "A contract was awarded to LEIDOS, INC. by the Department of Homeland Security, U.S. Customs and Border Protection, for hazard-detecting instruments and apparatus.",
+        "contract_name": "CONT_AWD_70B03C26F00000301_7014_70B03C21D00000004_7014",
+        "estimated_value": "$18.5 Million",
+        "deadline_or_expiration": "2027-04-29",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This contract for hazard-detecting instruments and laboratory equipment directly signals demand for scientific equipment that Thomas Scientific may supply.",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70B03C26F00000301_7014_70B03C21D00000004_7014"
+      },
+      {
+        "summary": "Recently awarded tenders to Leidos include the supply and support of Conmed System 5000 Diathermy and Smoke Evacuators, including consumables, and GE Healthcare Logiq P9 and Venue Go Diagnostic Ultrasound Devices, including consumables and capital equipment.",
+        "contract_name": "Framework Agreement for the further Supply and Support (various medical/lab equipment and consumables)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-17",
+        "why_it_matters": "These tenders indicate ongoing demand for specific medical and laboratory equipment, as well as associated consumables, which presents direct sales opportunities for Thomas Scientific.",
+        "source_url": "https://core.contractfinderpro.com/awardresults/Leidos"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Leidos is expanding its workforce and enhancing its facilities in Huntsville, Alabama, and McEwen, Tennessee, to produce an initial 3,000 Low-Cost Containerized Munitions (LCCM) through a framework agreement with the Department of War.",
+        "location": "Huntsville, Alabama, USA; McEwen, Tennessee, USA",
+        "type_of_expansion": "Capacity expansion (manufacturing/production)",
+        "investment_value": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This expansion of manufacturing capabilities will drive new procurement needs for raw materials, equipment, and consumables for munitions production.",
+        "source_url": "https://www.stocktitan.net/news/LDOS/leidos-to-build-initial-3-000-low-cost-containerized-munitions-qgqx7k5o4m86.html"
+      },
+      {
+        "summary": "Leidos is seeking a Quantum Information Research Scientist to participate in and potentially lead a technical team for quantum information science (QIS)-based research at a Leidos research facility in Lawton, Oklahoma.",
+        "location": "Lawton, Oklahoma, USA",
+        "type_of_expansion": "New or expanded research operations (laboratory/research)",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment or expansion of a quantum information science research facility and team will create new demand for specialized lab equipment, reagents, and consumables.",
+        "source_url": "https://careers.leidos.com/jobs/17792981-quantum-information-research-scientist"
+      }
+    ],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [
+      {
+        "summary": "Leidos was awarded a five-year, $869 million contract by the U.S. Army for the Mission Awareness Capabilities Ramp-up and Optimization (MACRO) II program. This contract involves designing, building, and integrating secure systems that utilize artificial intelligence, advanced networking, and modular open architecture to accelerate military decision-making and generate operational insights across various domains.",
+        "bill_or_budget_name": "Mission Awareness Capabilities Ramp-up and Optimization (MACRO) II Contract",
+        "jurisdiction": "Federal (U.S. Army)",
+        "funding_amount": "$869,000,000",
+        "focus_area": "Scientific Research Programs, Laboratory Infrastructure (for AI/ML development and testing)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This contract will drive demand for specialized computing equipment, data storage solutions, and potentially lab-grade environments for the development, testing, and integration of AI-driven systems and advanced networking technologies.",
+        "source_url": "https://www.leidos.com/news/press-releases/2026/leidos-receives-869-million-army-contract-accelerate-military-decision-making"
+      },
+      {
+        "summary": "Leidos secured a $170 million contract from the Defense Threat Reduction Agency (DTRA) to support its Cooperative Biological Engagement Program (CBEP) and Cooperative Threat Reduction (CTR) program through a global Scientific & Technical Engagement Partnership (STEP) program. The work focuses on reducing biological threats by enhancing biological safety and security, supporting biological pathogen research, and providing specialized training in laboratory research and containment-facilities engineering.",
+        "bill_or_budget_name": "Scientific & Technical Engagement Partnership (STEP) Program Contract",
+        "jurisdiction": "Federal (Defense Threat Reduction Agency - DTRA)",
+        "funding_amount": "$170,000,000",
+        "focus_area": "Public Health Testing, Environmental Monitoring, Scientific Research Programs, Laboratory Infrastructure",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This contract directly indicates upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment necessary for biological research, safety, security, and public health preparedness.",
+        "source_url": "https://militaryembedded.com/comms/communications/leidos-wins-170-million-dtra-contract"
+      },
+      {
+        "summary": "Leidos is one of five companies awarded a potential eight-year, $453 million contract by the U.S. Navy to support the Automated Digital Network System. This contract includes providing production units, components, commercial software, spares, and lab materials to maintain and upgrade the Navy's communications backbone for ships, submarines, shore installations, and aircraft.",
+        "bill_or_budget_name": "Automated Digital Network System (ADNS) Contract",
+        "jurisdiction": "Federal (U.S. Navy)",
+        "funding_amount": "$453,000,000",
+        "focus_area": "Laboratory Infrastructure, Scientific Research Programs",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The explicit mention of 'lab materials' within this significant federal contract indicates a direct need for various laboratory supplies and consumables to support the development, testing, and maintenance of advanced communication systems.",
+        "source_url": "https://washingtontechnology.com/articles/2026/05/27/navy-adns-contract.aspx"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:33:15.306036",
+  "ai_summary": "Leidos is rapidly expanding, securing major contracts in health R&D, biological threat reduction, and quantum information science. This includes facility expansions in Alabama, Tennessee, and Oklahoma, and a focus on pathogen research, biosafety, and lab materials for the Navy. This growth signals significant demand for lab supplies, reagents, safety equipment, and specialized instrumentation across their expanding scientific and engineering operations."
+}

@@ -1,0 +1,131 @@
+{
+  "account": "DEFENSE SUPPLY CENTER",
+  "account_vertical": "Government",
+  "Parent_ID": "0018Y000031XOHZQA4",
+  "signals": {
+    "grant": [],
+    "capital": [
+      {
+        "summary": "The American Center for Manufacturing & Innovation (ACMI) broke ground on the Maryland Energetics Innovation Hub (MEIH), a defense manufacturing and innovation hub designed to modernize how the United States develops, tests, and scales critical technologies and energetics production for the military. The project is backed by an initial $50 million award from Naval Surface Warfare Center Indian Head Division (NSWC IHD) and is expected to catalyze over $200 million in additional private investment, totaling $250 million. The hub will include multiple new state-of-the-art buildings near NSWC IHD, with initial operations expected to begin in 2027.",
+        "project_name": "Maryland Energetics Innovation Hub (MEIH)",
+        "location": "Near Naval Surface Warfare Center Indian Head Division, Indian Head, Maryland",
+        "value": "$250 million",
+        "timeline": "Groundbreaking occurred on May 29, 2026; initial operations expected to begin in 2027.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This new defense manufacturing and innovation hub will require a wide range of lab supplies, reagents, consumables, and scientific equipment for its research, development, testing, and production activities in energetics and advanced munitions.",
+        "source_url": "https://defence-industry.eu/acmi-and-nswc-indian-head-break-ground-on-250-million-maryland-energetics-innovation-hub-for-defense-manufacturing/"
+      },
+      {
+        "summary": "BAE Systems is undertaking a $50 million manufacturing overhaul at its Austin, Texas site to scale factory infrastructure for precision munitions, supporting U.S. warfighters.",
+        "project_name": "BAE Systems Austin Manufacturing Overhaul",
+        "location": "Austin, Texas",
+        "value": "$50 million",
+        "timeline": "Announced May 28, 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This manufacturing overhaul for precision munitions will likely require new or upgraded equipment, quality control labs, and associated consumables and reagents for production and testing.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "Government Scientific Source Inc. received a recent award on its GSA Multiple Award Schedule, which includes laboratory equipment and supplies, with DLA Troop Support - Medical as a significant awarding sub-agency.",
+        "contract_name": "GSA Multiple Award Schedule (MAS)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2030-07-13",
+        "event_date": "2026-05-24",
+        "why_it_matters": "This indicates ongoing demand for lab equipment, reagents, consumables, controls, and calibrators through an existing GSA schedule with a key defense agency.",
+        "source_url": "https://www.highergov.com/awardee/government-scientific-source-inc-10000477/"
+      },
+      {
+        "summary": "Branch Medical LLC was added as an awardee to a multiple award contract for laboratory equipment, accessories, and consumables for the Defense Logistics Agency Electronic Catalog.",
+        "contract_name": "Multiple Award Contract for Laboratory Equipment, Accessories and Consumables for DLA Electronic Catalog (SPE2DE-22-R0006)",
+        "estimated_value": "15000000",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This signifies a direct contract award for lab supplies and equipment with DLA Troop Support, presenting a sales opportunity for similar products.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4487224/contracts-for-may-14-2026/"
+      },
+      {
+        "summary": "The Defense Logistics Agency (DLA) is soliciting bids for two Keysight digital multimeters for the Product Test Center at Defense Supply Center Columbus, categorized under Analytical Laboratory Instrument Manufacturing.",
+        "contract_name": "PTC Digital Multimeter (DMM) Keysight 3458A (Solicitation SP4706-26-Q-0006)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-18",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This is a direct solicitation for specific laboratory equipment at a Defense Supply Center, indicating a clear demand for analytical instruments.",
+        "source_url": "https://www.highergov.com/contract-opportunity/ptc-digital-multimeter-dmm-keysight-3458a-sp4706-26-q-0006-o-e8bc2/"
+      },
+      {
+        "summary": "DLA Distribution is seeking bids for 38 RADIACMETER units (NSN 6665017181935) through a Combined Synopsis/Solicitation.",
+        "contract_name": "RADIACMETER Procurement (NSN 6665017181935)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-08",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This is a direct federal procurement for specialized scientific equipment, representing a sales opportunity for Thomas Scientific if they supply such items.",
+        "source_url": "https://sam.gov/opp/76a1ef6a9e334f9e93c8fc11dcb0db8e/view"
+      },
+      {
+        "summary": "DLA Troop Support - Medical has issued a Synopsis Solicitation for a Master Blanket Purchase Agreement for immunizations and supplies, including pharmaceutical preparations and surgical/medical instruments, for the Guam Army National Guard.",
+        "contract_name": "Master Blanket Purchase Agreement for Immunization and Supplies (Solicitation W911YU26QA006)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-03",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates ongoing demand for medical and immunization supplies, which may include related lab consumables and equipment, through DLA Troop Support.",
+        "source_url": "https://www.highergov.com/contract-opportunity/guam-army-national-guard-master-bpa-immunization-a-w911yu26qa006-k-b9c20/"
+      },
+      {
+        "summary": "Found Industries and ARES Strategic Mining Inc. announced an MOU to recover gallium, germanium, and other critical materials, supported by a five-year Indefinite Delivery/Indefinite Quantity contract from the U.S. Department of Defense through the Defense Logistics Agency, which includes reagent-intensive recovery methods.",
+        "contract_name": "Indefinite Delivery/Indefinite Quantity contract by U.S. Department of Defense through Defense Logistics Agency for critical materials recovery",
+        "estimated_value": "168900000",
+        "deadline_or_expiration": "2031-05-11",
+        "event_date": "2026-05-11",
+        "why_it_matters": "The contract's focus on \"reagent-intensive recovery methods\" signals a significant demand for specialized reagents and potentially related lab equipment for critical material processing.",
+        "source_url": "https://www.aresmining.com/post/found-industries-and-ares-strategic-mining-sign-mou-to-advance-domestic-gallium-germanium-and-fluor"
+      }
+    ],
+    "expansion": [],
+    "project": [],
+    "tender": [
+      {
+        "summary": "A presolicitation was issued for two Keysight 3458A digital multimeters for the DLA Product Test Center (PTC) at Defense Supply Center Columbus.",
+        "tender_name": "PTC Digital Multimeter (DMM) Keysight 3458A",
+        "estimated_value": null,
+        "deadline": "2026-05-18",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This indicates an upcoming need for specialized testing equipment at a defense facility, presenting a direct sales opportunity for Thomas Scientific to supply or facilitate the procurement of similar high-precision instruments.",
+        "source_url": "https://www.highergov.com/contract-opportunity/ptc-digital-multimeter-dmm-keysight-3458a-sp4706-26-q-0006-o-e8bc2/"
+      },
+      {
+        "summary": "A notice of intent was issued to award a sole-source contract to Illumina, Inc. for various pathogen identification and antimicrobial resistance enrichment kits and reagents for Tripler Army Medical Center.",
+        "tender_name": "Illumina Urinary Pathogen Identification (ID)/Antimicrobial Resistance (AMR) Enrichment Kits (UPIP) and Respiratory kits",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This signals a direct need for specialized diagnostic reagents and kits at a federal medical facility, representing a sales opportunity for Thomas Scientific in molecular diagnostics and lab consumables.",
+        "source_url": "https://sam.gov/workspace/contract/opp/acd6b39ac112465699cd4091eebe1cfe/view"
+      },
+      {
+        "summary": "The Defense Logistics Agency (DLA) added Becton Dickinson and Co. ($49,000,000) and Branch Medical LLC ($15,000,000) as awardees to a multiple award contract for laboratory equipment, accessories, and consumables for its Electronic Catalog.",
+        "tender_name": "Multiple Award Contract for Laboratory Equipment, Accessories and Consumables for the Defense Logistics Agency Electronic Catalog (Award Notice)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This signifies ongoing federal procurement of lab equipment and consumables by the DLA, indicating a continuous market for Thomas Scientific's product lines and potential for future sub-contracting or direct sales opportunities.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4487224/contracts-for-may-14-2026/"
+      },
+      {
+        "summary": "A notice of intent was issued to solicit on a sole source basis with Hamilton Company for BENZOYLECGONINE (BZE) Immunoassay Reagent Kits for the DoD Drug Demand Reduction Program.",
+        "tender_name": "BENZOYLECGONINE (BZE) Immunoassay Reagent Kits",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "This indicates a specific need for immunoassay reagents within a DoD program, offering a direct sales opportunity for Thomas Scientific in specialized chemical reagents and diagnostic kits.",
+        "source_url": "https://www.highergov.com/people/jorge-dot-e-dot-candelabocanegra-dot-civ-us-dot-navy-dot-mil/"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:28:20.066082",
+  "ai_summary": "The Defense Supply Center and DLA are heavily investing in defense manufacturing modernization and critical materials recovery, establishing new lab infrastructure. Concurrently, they are actively procuring a wide range of laboratory equipment, reagents, and consumables for testing, medical support, and drug reduction programs. This signals substantial, ongoing opportunities for lab supply sales teams to support expanding defense R&D and operational needs across various DLA entities."
+}

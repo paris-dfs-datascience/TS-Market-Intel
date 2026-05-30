@@ -1,0 +1,39 @@
+{
+  "account": "LIMA, OH",
+  "account_vertical": "Government",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Allen County Sheriff's Office received two subgrant awards from the Ohio Office of Criminal Justice Services (OCJS) totaling $126,591.12. The first grant, for $111,591.12 (75% from OCJS), will support a task force with funds for transportation, fuel, partial salaries, and supplies. The second, a $15,000 recovery grant, will support treatment programs, prevention, intervention, assistance, and education.",
+        "recipient": "Allen County Sheriff's Office",
+        "department_or_lab": "Allen County Sheriff's Office",
+        "amount": "$126,591.12",
+        "agency": "Ohio Office of Criminal Justice Services (OCJS)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Funding for task force supplies and treatment programs could indicate upcoming demand for forensic lab supplies, drug testing kits, and other medical or diagnostic consumables for law enforcement and public health initiatives.",
+        "source_url": "https://www.limaohio.com/news/2026/05/07/allen-county-sheriffs-office-approved-for-subgrants/"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The City of Lima, Ohio is soliciting proposals for the Schoonover Observatory Telescope System Project No. 07-26, which includes the procurement of specific off-the-shelf telescope equipment and related materials and services.",
+        "contract_name": "Schoonover Observatory Telescope System Project No. 07-26",
+        "estimated_value": "$250,000 - $1,200,000",
+        "deadline_or_expiration": "2026-06-03",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This project represents an opportunity for Thomas Scientific to bid on the supply of scientific equipment, specifically telescopes and related accessories, for a municipal observatory in Lima, OH.",
+        "source_url": "https://www.highergov.com/sl/contract-opportunity/oh-schoonover-observatory-telescope-system-67318604/"
+      }
+    ],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:34:19.964770",
+  "ai_summary": "Lima government entities have new funding and projects. The Allen County Sheriff's Office received $126k in grants, with funds for task force supplies and recovery programs, suggesting needs for evidence collection or drug testing supplies. The City of Lima is also procuring a new telescope system for an observatory, indicating investment in scientific equipment. These activities present opportunities for lab supply sales."
+}

@@ -1,0 +1,61 @@
+{
+  "account": "ADESIS",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1RXYA0",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Brown University is partnering with Adesis to explore the cost analysis and scale-up of a project focused on \"Innovative Interfacial Engineering for Simultaneous Enhancement in Efficiency, Stability, and Reliability in Perovskite Devices.\" This project is part of the U.S. Department of Energy's Solar Energy Technologies Office Fiscal Year 2020 Perovskite Funding Program.",
+        "project_name": "Innovative Interfacial Engineering for Simultaneous Enhancement in Efficiency, Stability, and Reliability in Perovskite Devices (Perovskite Solar Cells)",
+        "scope": "Adesis's role involves exploring the cost analysis and scale-up aspects of the perovskite solar cell technology. The overall project aims to improve the stability and reliability of metal halide perovskite solar cells by enhancing mechanical adhesion toughness of key interfaces, while also enhancing power conversion efficiency to achieve cell efficiency higher than 25%, operational stability of more than five years, and 18% mini-module efficiency.",
+        "timeline": "The project is part of the SETO Fiscal Year 2020 Perovskite Funding Program. The specific timeline for Adesis's scale-up involvement is not detailed beyond the exploration phase.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Adesis's involvement in the scale-up of perovskite solar cell technology indicates upcoming demand for specialized chemicals, materials, and equipment required for advanced materials synthesis, characterization, and process optimization in solar energy research and manufacturing.",
+        "source_url": "https://www.energy.gov/eere/solar/solar-energy-technologies-office-fiscal-year-2020-perovskite-funding-program"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "OrganaBio acquired substantially all operating assets of San Diego-based Excellos, establishing a bicoastal United States cell therapy CDMO.",
+        "acquirer": "OrganaBio, LLC",
+        "target": "Excellos Inc.",
+        "deal_value": "undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This acquisition expands cell therapy CDMO capabilities, creating new procurement needs for lab supplies, reagents, and equipment for the integrated operations.",
+        "source_url": "https://www.contractpharma.com/breaking-news/organabio-acquires-excellos-operating-assets-establishing-coast-to-coast-cdmo/"
+      },
+      {
+        "summary": "Alcami Corporation, a U.S.-based contract development and manufacturing organization (CDMO), completed its acquisition of Tjoapack, a global contract packaging organization with facilities in the United States and the Netherlands.",
+        "acquirer": "Alcami Corporation",
+        "target": "Tjoapack",
+        "deal_value": "undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The integration of a contract packaging organization by a CDMO will lead to new procurement processes and potential demand for packaging-related lab supplies and consumables.",
+        "source_url": "https://www.prnewswire.com/news-releases/alcami-completes-acquisition-of-tjoapack-302762858.html"
+      },
+      {
+        "summary": "Roche entered into a definitive merger agreement to acquire PathAI, a US-based company in digital pathology and AI-powered technology for pathology laboratories and the biopharma industry.",
+        "acquirer": "Roche",
+        "target": "PathAI",
+        "deal_value": "$750 million upfront and up to $300 million in additional milestone payments",
+        "deal_status": "Definitive merger agreement",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Roche's acquisition of an AI-powered digital pathology platform could lead to increased demand for specialized lab equipment and consumables for pathology and digital imaging, as well as new needs for clinical trial support supplies.",
+        "source_url": "https://www.itnonline.com/content/roche-acquire-pathai-drive-digital-pathology-diagnostics"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:58:22.744106",
+  "ai_summary": "Adesis is collaborating with Brown University on a federally funded project to scale up perovskite device manufacturing. This new R&D and process development work creates immediate opportunities for lab supply sales, particularly in materials science, chemistry, and analytical instrumentation. The broader CDMO market also shows significant M&A, indicating a dynamic and expanding sector for lab suppliers."
+}

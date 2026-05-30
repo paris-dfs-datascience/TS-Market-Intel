@@ -1,0 +1,91 @@
+{
+  "account": "IQVIA",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1CKYA0",
+  "signals": {
+    "capital": [],
+    "contract": [
+      {
+        "summary": "IQVIA and Kexing Biopharm have expanded their strategic collaboration to accelerate global biosimilar development using AI-enabled capabilities, leveraging IQVIA's end-to-end capabilities across the development lifecycle.",
+        "contract_name": "Strategic Collaboration for Global Biosimilar Development (IQVIA and Kexing Biopharm)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This collaboration for biosimilar development indicates potential upcoming demand for lab supplies, reagents, and equipment to support the development lifecycle for Thomas Scientific.",
+        "source_url": "https://www.biospace.com/press-releases/iqvia-and-kexing-biopharm-expand-strategic-collaboration-to-accelerate-global-biosimilar-development-using-ai-enabled-capabilities"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "IQVIA is expanding its strategic collaboration with Kexing Biopharm to support a global, multi-product biosimilar development and commercialization program, integrating IQVIA's AI-enabled clinical trial capabilities.",
+        "product_or_program": "Global, multi-product biosimilar development and commercialization program.",
+        "stage": "Development and commercialization, specifically clinical development, regulatory strategy, advanced analytics, and commercialization, with AI-enabled clinical trial capabilities across protocol design, site identification, and study conduct.",
+        "therapeutic_or_application_area": "Biosimilar development; Kexing Biopharm specializes in recombinant protein drugs and microecological preparations.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This expanded collaboration, particularly the focus on global biosimilar development and AI-enabled clinical trials, indicates potential demand for advanced lab supplies, reagents, and equipment to support R&D, clinical trial execution, and potentially manufacturing of these biosimilars. A lab supply sales rep should engage this account now to understand the specific needs arising from this expanded program.",
+        "source_url": "https://www.businesswire.com/news/home/20260513982386/en/IQVIA-and-Kexing-Biopharm-Expand-Strategic-Collaboration-to-Accelerate-Global-Biosimilar-Development-using-AI-Enabled-Capabilities"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "IQVIA and Kexing Biopharm have announced a strategic collaboration to advance a global, multi-product biosimilar development and commercialization program, leveraging AI-driven capabilities to accelerate international market expansion and improve trial efficiency.",
+        "project_name": "Global Biosimilar Expansion Through AI Enabled Strategic Collaboration with Kexing Biopharm",
+        "scope": "IQVIA will provide comprehensive support across clinical development, regulatory strategy, advanced analytics, and commercialization for Kexing Biopharm's global biosimilar program. The collaboration will integrate AI across key activities, including protocol design, site identification, and study conduct, to streamline execution and enhance overall trial performance.",
+        "timeline": "The program is designed to accelerate biosimilar development for international markets.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This collaboration, particularly the focus on AI-driven clinical development and biosimilar manufacturing, will likely increase demand for advanced lab equipment, specialized reagents for biosimilar analysis, and high-throughput screening consumables.",
+        "source_url": "https://biopharmaapac.com/news/34/7940/iqvia-and-kexing-biopharm-advance-global-biosimilar-expansion-through-ai-enabled-strategic-collaboration.html"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Contract research organization Parexel has acquired Vitrana and its AI-powered pharmacovigilance platform.",
+        "acquirer": "Parexel",
+        "target": "Vitrana",
+        "deal_value": "Undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This acquisition expands Parexel's technology capabilities in pharmacovigilance, potentially leading to new procurement needs for integrated safety monitoring solutions and related lab supplies.",
+        "source_url": "https://pharmaphorum.com/news/parexel-buys-vitrana-boost-patient-safety-toolkit"
+      },
+      {
+        "summary": "Amnovis, a Belgian additive manufacturing contract manufacturing organization, has acquired the additive manufacturing activities of Westconn Precision Technologies and established new US operations.",
+        "acquirer": "Amnovis",
+        "target": "Westconn Precision Technologies' additive manufacturing activities",
+        "deal_value": "Undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This acquisition expands Amnovis's global additive manufacturing capabilities and US presence, indicating potential new demand for specialized materials, equipment, and consumables for additive manufacturing processes.",
+        "source_url": "https://www.tctmagazine.com/additive-manufacturing-3d-printing-news/amnovis-acquires-westconn-precision-technologies-sets-up-north-american-operation/"
+      },
+      {
+        "summary": "CordenPharma, a global contract development and manufacturing organization (CDMO), has entered into an agreement to acquire AmbioPharm, a US-headquartered peptide API CDMO.",
+        "acquirer": "CordenPharma",
+        "target": "AmbioPharm",
+        "deal_value": "Not disclosed",
+        "deal_status": "Agreement entered (subject to customary closing conditions)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This acquisition significantly expands CordenPharma's global peptide API manufacturing capacity and capabilities, suggesting increased demand for specialized reagents, purification media, and analytical equipment for peptide synthesis.",
+        "source_url": "https://www.cordenpharma.com/news-events/cordenpharma-acquires-ambiopharm-to-expand-global-peptide-api-capacity/"
+      },
+      {
+        "summary": "Columna Capital has acquired a majority stake in Evidenze Group, a Spain-based full-service CRO, from Buenavista Equity Partners.",
+        "acquirer": "Columna Capital",
+        "target": "Evidenze Group",
+        "deal_value": "Undisclosed",
+        "deal_status": "Acquired (binding agreement signed, subject to regulatory approvals)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This acquisition by a private equity firm could lead to strategic investments and expansion within Evidenze Group, potentially increasing demand for a wide range of lab supplies and equipment.",
+        "source_url": "https://www.investorsinhealthcare.com/news/spain-columna-capital-acquires-majority-stake-in-evidenze-group-from-buenavista-equity-partners/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:07:38.415513",
+  "ai_summary": "IQVIA is significantly expanding its global biosimilar development and commercialization program with Kexing Biopharm, heavily leveraging AI-enabled capabilities for efficiency. This signals increased demand for lab supplies, reagents, and equipment to support accelerated R&D, clinical trials, and manufacturing for multiple biosimilar products, especially those compatible with AI-driven workflows and global expansion needs."
+}

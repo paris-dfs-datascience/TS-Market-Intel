@@ -1,0 +1,28 @@
+{
+  "account": "FERGUSON ENTERPRISES",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1WWYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Ferguson Enterprises announced several acquisitions to expand its capabilities in water and wastewater treatment, HVAC, and industrial valves and flow control, alongside reporting increased activity in onshoring manufacturing capacity and growth in GLP-1 pharma production.",
+        "facility_or_line": "Expanded capabilities in water and wastewater treatment, residential, commercial and applied HVAC, industrial valves and flow control, and general manufacturing capacity, including GLP-1 pharma production. Specific acquired entities include Carrier Great Lakes, Dealers Supply Company, New England Applied Products, and PRD Technologies Group.",
+        "change_type": "Expansion of capabilities through acquisitions and increased manufacturing capacity.",
+        "location": "Various locations across North America, including New England (Waltham, MA), Eastern U.S. (New Castle, PA, Akron, OH), California, Arizona, and Nevada for the acquired entities.",
+        "investment_value": "Approximately $350 million (aggregate annualized revenue impact from six acquisitions).",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The expansion into water and wastewater treatment, HVAC, industrial, and particularly the life sciences and pharma sectors, coupled with increased manufacturing capacity, indicates a heightened demand for specialized lab equipment, reagents, and consumables for quality control, R&D, and production monitoring.",
+        "source_url": "https://www.businesswire.com/news/home/20260505616731/en/Ferguson-Reports-First-Quarter-Ended-March-31-2026"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:17:00.053035",
+  "ai_summary": "Ferguson is expanding its industrial capabilities via acquisitions in water/wastewater, HVAC, and flow control, driven by increased onshoring manufacturing and significant growth in GLP-1 pharma production. This signals new opportunities for lab supply sales teams to support quality control, R&D, and process monitoring labs within these expanding industrial and pharmaceutical sectors, particularly as domestic manufacturing ramps up."
+}

@@ -1,0 +1,88 @@
+{
+  "account": "WEILL CORNELL MEDICAL COLLEGE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkdrYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Weill Cornell Medicine received a five-year, $5 million grant from the National Cancer Institute (part of NIH) to develop innovative support strategies for adolescents and young adults (AYAs) who have survived cancer, focusing on the long-term effects of therapies and building a novel mobile app.",
+        "recipient": "Dr. Shoshana Rosenberg",
+        "department_or_lab": "Population Health Sciences",
+        "amount": "$5 million",
+        "agency": "National Cancer Institute (NIH)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This grant will fund research into the long-term effects of cancer therapies and the development of a novel mobile app for AYA cancer survivors, indicating potential demand for research consumables, digital health tools, and related lab supplies.",
+        "source_url": "https://news.weill.cornell.edu/news/2026/05/grant-aims-to-transform-care-for-young-cancer-survivors"
+      },
+      {
+        "summary": "Weill Cornell Medicine is a key participant in the American Lung Association Lung Health Cohort Research Study, a large-scale study of young adult lung health, funded by a $24.8 million grant from the National Heart, Lung and Blood Institute (NHLBI) of the NIH.",
+        "recipient": "Dr. Robert Kaner",
+        "department_or_lab": "Lung Health Cohort at Weill Cornell Medicine and NewYork-Presbyterian/Weill Cornell Medical Center",
+        "amount": "$24.8 million",
+        "agency": "National Heart, Lung and Blood Institute (NIH)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This multi-site study will track 4,000 young adults for five years, involving measures of lung function, respiratory symptoms, biomarkers, and chest imaging, suggesting a need for a wide range of diagnostic equipment, reagents, and consumables.",
+        "source_url": "https://www.lung.org/media/press-releases/first-ever-young-adult-lung-health-study-recruiting-in-new-york-city"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Aclarion, Inc. announced a second commercial agreement with Weill Cornell Medicine to use its Nociscan platform in a clinical trial. The trial, led by Dr. Roger H\u00e4rtl, will evaluate lumbar microdiscectomy surgery with and without intradiscal bone marrow aspirate concentrate injection over a two-year period.",
+        "contract_name": "Commercial Agreement for Nociscan Platform / Clinical Trial (IRB Protocol No. 24-09027977)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2-year prospective study",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This agreement indicates Weill Cornell Medicine's investment in new diagnostic and research technologies, potentially leading to demand for related lab supplies and consumables for the trial.",
+        "source_url": "https://www.stocktitan.net/news/ACON/aclarion-announces-second-commercial-agreement-with-weill-cornell-79r7n1etlv0x.html"
+      },
+      {
+        "summary": "NewYork-Presbyterian, affiliated with Weill Cornell Medical Center, is seeking a Specialist Logistics Biomedical to manage the specification, acquisition, installation, and inventory of medical technology and equipment for construction projects, replacements, and new acquisitions.",
+        "contract_name": "Ongoing procurement activities for biomedical equipment",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This job opening signals continuous procurement needs for a wide range of biomedical equipment and technology, presenting opportunities for Thomas Scientific to supply related items or bid on future equipment needs.",
+        "source_url": "https://careers.nyp.org/job/manhattan/specialist-logistics-biomedical/749/60782352112"
+      },
+      {
+        "summary": "Weill Cornell Medicine is hiring an Administrative Assistant whose responsibilities include procurement activities for goods, services, and equipment, maintaining inventory of supplies, equipment, and reagents, and ordering these items as authorized.",
+        "contract_name": "Ongoing procurement of lab supplies, equipment, and reagents",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This position directly involves the ordering and management of lab supplies, equipment, and reagents, indicating a consistent demand for these products at Weill Cornell Medicine.",
+        "source_url": "https://careers.weill.cornell.edu/job/new-york/administrative-assistant/749/60782352112"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Weill Cornell Medicine has received a five-year, $5 million grant from the National Cancer Institute (NCI), part of the National Institutes of Health (NIH), to develop innovative support strategies for adolescent and young adult (AYA) cancer survivors. The research aims to understand the long-term effects of cancer treatments, including biological treatments and immunotherapies, and address challenges such as fertility, sexual health, and financial stress. The project involves building a cohort of 2,000 AYA cancer survivors in New York City, aggregating data to inform new support avenues, identifying risks for long-term complications, and developing earlier interventions. A novel mobile app will be developed to connect with patients and gather data, including biological samples and electronic medical records.",
+        "project_name": "NCI Grant for Adolescent and Young Adult Cancer Survivorship Support",
+        "scope": "Develop innovative support strategies for adolescent and young adult (AYA) cancer survivors. This includes building and engaging a cohort of 2,000 AYA cancer survivors in New York City, characterizing the short- and long-term effects of newer drugs (biological treatments and immunotherapies), focusing on fertility and sexual health concerns, as well as financial stress. The project will aggregate data to inform new avenues for support, identify those at risk for long-term complications and barriers to accessing supportive care, and develop earlier interventions and improve available resources. A novel mobile app will be built for patient interaction, data collection (surveys, sensor-based data like activity or sleep patterns), and potentially for providing biological samples and health data through electronic medical records. The grant is for $5 million.",
+        "timeline": "Five-year program.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This multi-year, multi-million dollar grant will likely increase demand for lab supplies for biological sample collection and analysis, reagents for studying drug effects and biomarkers, and potentially equipment for digital health tool development and data management.",
+        "source_url": "https://news.weill.cornell.edu/news/2026/05/grant-aims-to-transform-care-for-young-cancer-survivors"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "A preclinical study led by Weill Cornell Medicine and MD Anderson Cancer Center investigators discovered that colorectal tumors develop non-genetic adaptive responses, specifically activating inflammation-related cellular pathways, to evade KRAS inhibitor treatment. The research suggests that targeting this tumor-specific inflammatory process could enhance the efficacy of anticancer therapies and prevent drug resistance.",
+        "researcher_name": "Dr. Lukas Dow, Dr. Salvador Alonso, Kevan Chu",
+        "department_or_lab": "Dr. Lukas Dow, Professor of Biochemistry in Medicine, Sandra and Edward Meyer Cancer Center at Weill Cornell Medicine; Dr. Salvador Alonso, Assistant Professor in Gastrointestinal Medical Oncology at The University of Texas MD Anderson Cancer Center; Kevan Chu, Graduate Student in the Dow lab",
+        "award_or_discovery": "Discovery of a mechanism of drug resistance in colorectal cancer and a potential strategy to overcome it, published in Cancer Cell.",
+        "significance": "This breakthrough identified that colorectal tumors develop non-genetic adaptive responses, specifically inflammation-related cellular changes, to evade KRAS inhibitor treatment, and demonstrated that inhibiting this inflammatory process in preclinical models reduced drug resistance, representing a significant advance in understanding and potentially overcoming drug resistance in colon cancer.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This breakthrough signals high-impact lab activity and supply demand for reagents and consumables related to cancer research, inflammation pathways, drug resistance studies, and preclinical model development.",
+        "source_url": "https://gradschool.weill.cornell.edu/news/targeting-inflammation-may-help-overcome-drug-resistance-colon-cancer"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:11:02.902181",
+  "ai_summary": "Weill Cornell Medicine secured substantial NIH grants for cancer survivor and lung health research, involving biological samples and clinical trials. They are actively hiring for procurement and logistics, signaling increased demand for lab supplies, reagents, and equipment. This indicates a growing research pipeline and significant opportunities for lab supply sales to support their expanding scientific endeavors."
+}

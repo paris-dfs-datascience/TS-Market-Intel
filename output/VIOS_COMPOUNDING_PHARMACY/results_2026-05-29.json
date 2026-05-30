@@ -1,0 +1,22 @@
+{
+  "account": "VIOS COMPOUNDING PHARMACY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000mxAe2YAE",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:56:30.110349",
+  "ai_summary": null
+}

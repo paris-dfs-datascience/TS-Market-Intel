@@ -1,0 +1,59 @@
+{
+  "account": "CURIA",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1DLYA0",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Curia Global completed a $4 million upgrade to its two aseptic suites in Valladolid, Spain, aligning with EU GMP Annex 1 standards. The upgrade involved transitioning to a fully closed system and modernizing equipment to enhance sterile manufacturing capabilities, including advanced isolators, HVAC systems, pharmaceutical utilities, automation, and sterilization-in-place processes.",
+        "product_or_program": "API Aseptic Suites Upgrade; Sterile manufacturing capabilities expansion",
+        "stage": "Commercial manufacturing expansion/upgrade",
+        "therapeutic_or_application_area": "Sterile drug products, complex sterile products, API manufacturing",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This significant investment in sterile manufacturing capacity and compliance indicates an increased need for specialized lab supplies, reagents, and equipment for aseptic processing and quality control, presenting an opportunity for sales engagement.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/19/3268484/0/en/Curia-Completes-Upgrade-of-API-Aseptic-Suites-in-Valladolid-Spain.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Curia completed a $4 million upgrade of its two aseptic suites in Valladolid, Spain, in accordance with the EU's GMP Annex 1 standards, enhancing sterile manufacturing capabilities.",
+        "amount": "$4 million",
+        "funding_type": "Company investment",
+        "use_of_proceeds": "Upgrading aseptic manufacturing suites, transitioning to a fully closed system, and modernizing core equipment and systems including advanced isolators, HVAC, pharmaceutical utilities, automation, and sterilization-in-place processes to enhance sterile manufacturing capabilities.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This investment in advanced manufacturing suites and equipment indicates an increased demand for specialized lab supplies, reagents, and consumables for sterile drug product manufacturing.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/19/3840225/0/en/Curia-Completes-Upgrade-of-API-Aseptic-Suites-in-Valladolid-Spain.html"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Curia has completed a $4 million upgrade to its two aseptic suites in Valladolid, Spain, transitioning to a fully closed system and installing advanced isolators, HVAC, pharmaceutical utilities, automation, and sterilization-in-place processes to enhance sterile manufacturing capabilities and reduce microbiological risk.",
+        "project_name": "Valladolid Aseptic Suites Upgrade",
+        "scope": "Upgrade of two aseptic suites, including transition to a fully closed system, installation of advanced isolators, and upgrades to HVAC, pharmaceutical utilities, automation, and sterilization-in-place processes.",
+        "timeline": "Completed on May 19, 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This facility enhancement and technology buildout will increase demand for specialized sterile consumables, reagents, and advanced equipment required for aseptic processing and quality control.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/19/3297525/0/en/curia-completes-upgrade-of-api-aseptic-suites-in-valladolid-spain.html"
+      },
+      {
+        "summary": "Curia is nearing completion of a significant expansion at its commercial drug product facility in Glasgow, UK, which will add an Annex 1 compliant isolator-based vial filling line and lyophilizer, providing capacity for batches up to 20,000 vials.",
+        "project_name": "Glasgow Facility Expansion (Vial Filling Line and Lyophilizer)",
+        "scope": "Addition of an Annex 1 compliant isolator-based vial filling line and lyophilizer to the Glasgow facility, increasing capacity for batches up to 20,000 vials.",
+        "timeline": "Expected to be completed in 2027.",
+        "event_date": "2026-05-25",
+        "why_it_matters": "The installation of a new vial filling line and lyophilizer at the Glasgow facility will drive demand for new sterile consumables, reagents, and maintenance supplies for the expanded equipment.",
+        "source_url": "https://www.thepharmanavigator.com/news/curia-enhances-sterile-manufacturing-integrity-with-upgraded-aseptic-suites"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:05:02.092621",
+  "ai_summary": "Curia is significantly investing in its sterile manufacturing capabilities, completing a $4M upgrade in Spain and expanding in the UK, both aligning with EU GMP Annex 1. These projects involve new isolators, filling lines, and automation. This signals increased demand for specialized sterile consumables, QC reagents, and maintenance supplies to support enhanced production and stringent compliance requirements."
+}

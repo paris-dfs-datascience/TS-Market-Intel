@@ -1,0 +1,131 @@
+{
+  "account": "BIOPROCURE",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1E0YAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Eli Lilly acquired Curevo, a private biotech developing an adjuvanted subunit vaccine for preventing shingles.",
+        "amount": "Up to $1.5 billion",
+        "funding_type": "Strategic Investment (Acquisition)",
+        "use_of_proceeds": "To support amezosvatein, expanding its Phase 2 program and finalizing dose selection for a Phase 3 trial.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This acquisition and funding for clinical programs will drive demand for lab supplies, reagents, and equipment for vaccine development and clinical trials.",
+        "source_url": "https://www.biospace.com/business/lilly-lands-vaccine-trifecta-with-3-new-biotech-buys-valued-at-3-8b"
+      },
+      {
+        "summary": "Eli Lilly acquired LimmaTech Biologics, a biotech developing vaccines against bacterial pathogens.",
+        "amount": "Up to $780 million",
+        "funding_type": "Strategic Investment (Acquisition)",
+        "use_of_proceeds": "To advance its lead program LTB-SA7 in Phase 1 development and preclinical programs for other infections.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The investment in vaccine development and preclinical programs will increase the need for lab supplies, reagents, and equipment for research and clinical studies.",
+        "source_url": "https://www.biospace.com/business/lilly-lands-vaccine-trifecta-with-3-new-biotech-buys-valued-at-3-8b"
+      },
+      {
+        "summary": "Eli Lilly acquired Vaccine Company (VaxCo), which provides an in vivo nanoparticle (IVN) technology platform.",
+        "amount": "Up to $1.55 billion",
+        "funding_type": "Strategic Investment (Acquisition)",
+        "use_of_proceeds": "To provide Lilly with an in vivo nanoparticle (IVN) technology platform that can ease manufacturing of virus-like particle vaccines and advance preclinical programs.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Funding for this technology platform will enhance manufacturing capabilities and R&D, leading to increased demand for specialized lab equipment and consumables.",
+        "source_url": "https://www.biospace.com/business/lilly-lands-vaccine-trifecta-with-3-new-biotech-buys-valued-at-3-8b"
+      },
+      {
+        "summary": "CREATE Medicines closed a Series B funding round.",
+        "amount": "$122M",
+        "funding_type": "Series B",
+        "use_of_proceeds": "To fund its push into in vivo CAR therapies for autoimmune disease and cancer, advance lead autoimmune candidate CRT-402, and a dual CD19 x BCMA program.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This new capital will fuel research and development activities, requiring increased procurement of lab supplies, reagents, and equipment for preclinical and clinical studies.",
+        "source_url": "https://wewillcure.com/insights/news/funding-and-models/biotech-venture-funding-tracker"
+      },
+      {
+        "summary": "Anagram Therapeutics secured a strategic investment from Blackstone Life Sciences.",
+        "amount": "$250M",
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "To advance ANG003, an orally delivered recombinant non-porcine enzyme replacement therapy.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The investment will support the development of their therapeutic, leading to increased demand for lab consumables, reagents, and equipment for research and clinical trials.",
+        "source_url": "https://wewillcure.com/insights/news/funding-and-models/biotech-venture-funding-tracker"
+      },
+      {
+        "summary": "Terremoto Biosciences closed a Series C funding round.",
+        "amount": "$108M",
+        "funding_type": "Series C",
+        "use_of_proceeds": "To fund Phase 1 studies of its AKT1-selective inhibitor pipeline.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Funding for Phase 1 studies will necessitate increased purchases of lab supplies, reagents, and equipment for drug development and clinical trial support.",
+        "source_url": "https://wewillcure.com/insights/news/funding-and-models/biotech-venture-funding-tracker"
+      },
+      {
+        "summary": "Altesa BioSciences closed an oversubscribed Series B funding round.",
+        "amount": "$75M",
+        "funding_type": "Series B",
+        "use_of_proceeds": "To fund the CARDINAL Phase 2b trial of vapendavir, a rhinovirus capsid inhibitor.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The capital will support a Phase 2b clinical trial, driving demand for lab supplies, reagents, and equipment for trial execution and related research.",
+        "source_url": "https://wewillcure.com/insights/news/funding-and-models/biotech-venture-funding-tracker"
+      },
+      {
+        "summary": "Vivatides closed an oversubscribed Series A funding round.",
+        "amount": "$54M",
+        "funding_type": "Series A",
+        "use_of_proceeds": "To advance its extrahepatic delivery platform for RNA therapeutics, with applications in hyperlipidemia, hypertension, and oncology.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This Series A funding will enable further research and development of their RNA therapeutics platform, increasing the need for specialized lab supplies and reagents.",
+        "source_url": "https://wewillcure.com/insights/news/funding-and-models/biotech-venture-funding-tracker"
+      },
+      {
+        "summary": "Accro Bioscience closed a Series C funding round.",
+        "amount": "$50M",
+        "funding_type": "Series C",
+        "use_of_proceeds": "To finance a phase 2b trial of its lead RIPK2 inhibitor, AC-101, for ulcerative colitis, and bolster the rest of Accro's pipeline.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The funding for a Phase 2b trial and pipeline development will increase demand for lab supplies, reagents, and equipment for ongoing research and clinical activities.",
+        "source_url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
+      },
+      {
+        "summary": "Isomorphic Labs closed a Series B funding round.",
+        "amount": "$2.1B",
+        "funding_type": "Series B",
+        "use_of_proceeds": "To fund development of its next-generation artificial intelligence drug design model.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Investment in AI drug design models will likely lead to increased demand for high-performance computing infrastructure and potentially specialized lab equipment for validating AI-generated drug candidates.",
+        "source_url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
+      },
+      {
+        "summary": "Cytospire Therapeutics closed a Series A funding round.",
+        "amount": "$83M",
+        "funding_type": "Series A",
+        "use_of_proceeds": "To support early-stage research and development for its therapeutic pipeline.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This Series A funding will support early-stage research and development, increasing the need for lab supplies, reagents, and equipment.",
+        "source_url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
+      },
+      {
+        "summary": "Vivacta Biotechnology closed Series A and A+ funding rounds.",
+        "amount": "$50M+",
+        "funding_type": "Series A and A+",
+        "use_of_proceeds": "To advance clinical trials of its lead candidate GT801 for patients with relapsed or refractory CD19-positive B-cell malignancies.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Funding for clinical trials will lead to increased demand for lab supplies, reagents, and equipment for trial execution and related research.",
+        "source_url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
+      }
+    ],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:17:27.560682",
+  "ai_summary": "The biopharma sector is experiencing significant capital infusion, with numerous biotechs securing funding and Eli Lilly making strategic acquisitions. This fuels accelerated R&D and expansion. For lab supply sales, this creates heightened demand for equipment, reagents, and services, offering prime opportunities to engage these growing organizations."
+}

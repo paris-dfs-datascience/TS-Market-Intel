@@ -1,0 +1,95 @@
+{
+  "account": "IMS LTD",
+  "account_vertical": "BioPharma",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Full-Life Technologies announced a US$150 million financing package, comprising approximately US$110 million in Series D equity and US$40 million in debt financing, to advance clinical stage assets and facilitate the initiation of GMP-grade 225Ac manufacturing at its facility in Belgium.",
+        "amount": "$150 million",
+        "funding_type": "Series D (equity) and Debt Financing",
+        "use_of_proceeds": "Advance clinical stage assets and initiate GMP-grade 225Ac manufacturing.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This new capital will directly lead to increased spending on lab supplies, reagents, and equipment for clinical trials and the build-out and operation of a GMP manufacturing facility.",
+        "source_url": "https://www.prnewswire.com/news-releases/full-life-technologies-announces-us150-million-financing-to-accelerate-multiple-clinical-stage-assets-and-manufacturing-capabilities-302774963.html"
+      },
+      {
+        "summary": "Isomorphic Labs announced it has raised $2.1 Billion in Series B funding, led by Thrive Capital, with participation from existing backers Alphabet and GV alongside new investors MGX, Temasek, CapitalG, and the UK Sovereign AI Fund.",
+        "amount": "$2.1 billion",
+        "funding_type": "Series B",
+        "use_of_proceeds": "To power its world-leading AI drug design engine, scale its business globally, and progress its drug candidate pipeline.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Investment in AI drug design models will increase demand for high-performance computing infrastructure, specialized software, and potentially wet lab validation experiments requiring lab supplies.",
+        "source_url": "https://www.isomorphiclabs.com/news/isomorphic-labs-announces-series-b-investment-round"
+      },
+      {
+        "summary": "CREATE Medicines announced the closing of its $122 million Series B funding round, co-led by existing investors Newpath Partners, ARCH Venture Partners, and Hatteras Venture Partners.",
+        "amount": "$122 million",
+        "funding_type": "Series B",
+        "use_of_proceeds": "To support advancement of CREATE's clinical pipeline across autoimmune disease and oncology, including its lead program CRT-402 and a dual CD19 x BCMA program.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "Advancing preclinical and clinical programs for CAR therapies will necessitate significant investment in specialized lab supplies, cell culture media, and analytical instruments.",
+        "source_url": "https://www.prnewswire.com/news-releases/create-medicines-announces-122-million-series-b-financing-to-advance-in-vivo-car-pipeline-in-autoimmune-disease-and-oncology-302774963.html"
+      },
+      {
+        "summary": "Blackstone Life Sciences announced a $250 million investment in Anagram Therapeutics, a clinical-stage private biopharmaceutical company, to fund the further development, approval, and launch of Anagram's ANG003, a novel orally delivered recombinant enzyme replacement therapy.",
+        "amount": "$250 million",
+        "funding_type": "Strategic investment",
+        "use_of_proceeds": "To fund the further development, approval, and launch of Anagram's ANG003, a novel orally delivered recombinant enzyme replacement therapy.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This strategic investment will accelerate the development of a therapeutic, leading to increased demand for lab supplies, reagents, and potentially manufacturing consumables.",
+        "source_url": "https://www.blackstone.com/news/press-releases/blackstone-life-sciences-invests-250-million-in-anagram-therapeutics-to-advance-novel-and-patient-friendly-oral-enzyme-replacement-therapy-for-pancreatic-insufficiency/"
+      },
+      {
+        "summary": "Cytospire Therapeutics announced the closing of an oversubscribed \u00a361 million ($83 million) Series A financing to advance its pipeline of first-in-class pan-gamma delta T cell engagers, including its lead program, CYT X300, through IND-enabling preclinical studies and GMP manufacturing, and for a first-in-human clinical study.",
+        "amount": "$83 million",
+        "funding_type": "Series A",
+        "use_of_proceeds": "To advance its pipeline of first-in-class pan-gamma delta T cell engagers through preclinical studies, GMP manufacturing, and a first-in-human clinical study.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "New Series A funding for a biotech company typically translates to increased R&D activities, requiring lab equipment, reagents, and consumables for preclinical development, GMP manufacturing, and clinical trials.",
+        "source_url": "https://cytospiretherapeutics.com/news/cytospire-therapeutics-announces-oversubscribed-61-million-83m-series-a-financing-to-advance-pipeline-of-first-in-class-pan-gamma-delta-t-cell-engagers-into-clinical-trials-for-the-treatment-of-cancer/"
+      },
+      {
+        "summary": "Kanvas Biosciences announced it has raised a $48 million Series A funding round to conduct clinical trials for its lead immuno-oncology drug candidate, KAN-001, and advance commercial partnerships leveraging its spatial imaging and manufacturing platform for next-generation live biotherapeutic product (LBP) development.",
+        "amount": "$48 million",
+        "funding_type": "Series A",
+        "use_of_proceeds": "To conduct clinical trials for its lead immuno-oncology drug candidate and advance commercial partnerships leveraging its spatial imaging and manufacturing platform.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Funding for clinical trials and a manufacturing platform will lead to increased demand for lab supplies, reagents, and equipment for both R&D and manufacturing processes.",
+        "source_url": "https://www.businesswire.com/news/home/20260506062784/en/Kanvas-Biosciences-Secures-%2448M-Series-A-to-Deliver-Novel-Microbiome-Therapeutics-to-Cancer-Patients"
+      },
+      {
+        "summary": "Apogee Therapeutics announced a strategic financing collaboration with funds managed by Blackstone Life Sciences, providing up to USD 1.3 billion in non-dilutive capital to fund Phase III development and potential commercialization of zumilokibart (APG777), its anti-IL-13 monoclonal antibody, for atopic dermatitis, asthma, and eosinophilic esophagitis (EoE).",
+        "amount": "Up to $1.3 billion",
+        "funding_type": "Strategic financing collaboration (royalty financing and senior corporate debt)",
+        "use_of_proceeds": "To fund Phase III development and potential commercialization of zumilokibart for atopic dermatitis, asthma, and eosinophilic esophagitis (EoE).",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Significant funding for late-stage clinical development and commercialization will drive substantial demand for clinical trial supplies, manufacturing materials, and quality control lab consumables.",
+        "source_url": "https://apogeetherapeutics.com/news-releases/news-release-details/apogee-therapeutics-announces-13-billion-strategic-financing"
+      },
+      {
+        "summary": "DARPA anticipates awarding approximately 5 to 7 contracts with a total program value of $36 million across Phases 1 and 2 for its Organoid Cytomorphic Intelligence Resulting from Convergent Understanding and Information Transfer (O-Circuit) program.",
+        "amount": "$36 million",
+        "funding_type": "Government program award (DARPA contracts)",
+        "use_of_proceeds": "To leverage biological substrates for computation, unlocking new capabilities in energy-efficient processing, adaptive learning, and autonomous decision-making, with implications for healthcare diagnostics.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "Funding for biological computing research will drive demand for specialized lab equipment, biological reagents, and consumables for R&D in biohybrid systems.",
+        "source_url": "https://everglade.com/darpa-o-circuit-program-biological-computing/"
+      }
+    ],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:30:27.275858",
+  "ai_summary": "The biopharma sector is experiencing a significant surge in funding, with numerous companies securing substantial investments for R&D, clinical trials, and manufacturing expansion. This influx of capital will accelerate drug development, expand research pipelines, and initiate new GMP production facilities. For a lab supply sales team, this signals a strong increase in demand for equipment, reagents, and consumables as these companies scale operations and advance their therapeutic programs."
+}

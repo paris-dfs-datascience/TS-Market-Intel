@@ -1,0 +1,163 @@
+{
+  "account": "NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DCYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "NIH awarded a $3.9 million grant to a multi-institutional team led by Sanford Burnham Prebys Medical Discovery Institute to develop a non-opioid pain therapeutic and advance it into a Phase 1 clinical trial.",
+        "recipient": "Sanford Burnham Prebys Medical Discovery Institute",
+        "department_or_lab": "Medicinal Chemistry",
+        "amount": "$3.9 million",
+        "agency": "NIH (National Institute of Neurological Disorders and Stroke)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This grant indicates potential demand for reagents and consumables for drug discovery, medicinal chemistry, receptor signaling, and efficacy testing.",
+        "source_url": "https://www.sbpdiscovery.org/news/sanford-burnham-prebys-awarded-39-million-nih-grant-develop-first-class-non-opioid-pain-treatment"
+      },
+      {
+        "summary": "NYU Langone Health's Clinical and Translational Science Institute (CTSI) received a nearly $70 million, seven-year renewal grant from NIH to accelerate scientific discovery into patient care.",
+        "recipient": "NYU Langone Health",
+        "department_or_lab": "Clinical and Translational Science Institute (CTSI)",
+        "amount": "Nearly $70 million",
+        "agency": "NIH (Clinical and Translational Science Awards (CTSA) Program)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant funding suggests increased demand for a wide range of lab supplies, reagents, and equipment for translational research and clinical studies.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-secures-nearly-70-million-nih-grant-accelerate-scientific-discovery"
+      },
+      {
+        "summary": "A food scientist at North Carolina A&T State University received a $3.67 million NIH grant for whole grains research, focusing on identifying bioactive compounds and their correlation to cardiometabolic disease risk factors.",
+        "recipient": "North Carolina A&T State University",
+        "department_or_lab": "Center for Excellence in Post-Harvest Technologies",
+        "amount": "$3.67 million",
+        "agency": "NIH",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This grant indicates demand for analytical equipment, reagents, and consumables for food science research, biomarker identification, and epidemiological studies.",
+        "source_url": "https://www.ncat.edu/news/2026/05/food-scientist-receives-3.67m-nih-grant-for-whole-grains-research.html"
+      },
+      {
+        "summary": "Western Washington University (WWU) was awarded a $3.1 million NIH grant to expand biomedical research opportunities for students, including acquiring equipment and funding pilot projects.",
+        "recipient": "Western Washington University (WWU)",
+        "department_or_lab": "Viking Biomedical Research Initiative",
+        "amount": "$3.1 million",
+        "agency": "NIH (Biomedical Research Environment & Sponsored Programs Administration Development (BRE-SPAD) program)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This grant signifies upcoming demand for new biomedical research equipment and supplies to support expanded student research opportunities.",
+        "source_url": "https://wwnews.wwu.edu/news/2026/wwu-secures-3.1-million-nih-grant-to-expand-biomedical-research-opportunities-for-students"
+      },
+      {
+        "summary": "Voyager Technologies (NYSE: VOYG) was awarded a $16.5 million DARPA Burn n' Go Phase 2 contract to advance propellant-embedded control technology that gives solid rocket motors (SRMs) tailorable, post-manufacturing thrust control.",
+        "recipient": "Voyager Technologies (NYSE: VOYG)",
+        "department_or_lab": "Space, Defense & National Security",
+        "amount": "$16.5 million",
+        "agency": "DARPA",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This contract indicates potential demand for specialized materials, testing equipment, and analytical tools for advanced propulsion technology development.",
+        "source_url": "https://www.businesswire.com/news/home/20260526982311/en/Voyager-Awarded-16.5M-DARPA-Contract"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "The U.S. Department of Energy's Science Laboratories Infrastructure (SLI) program is actively managing and funding construction projects and infrastructure support for the 10 National laboratories under the Office of Science, with a historical investment of $2.4 billion since FY 2006 for modernization efforts.",
+        "project_name": "Science Laboratories Infrastructure (SLI) General Purpose Construction Projects",
+        "scope": "Modernizing enabling infrastructure at 10 SC National Laboratories, including line-item and minor construction projects, infrastructure support, planning, and sustainability.",
+        "timeline": "Ongoing, with $2.4 billion invested since FY 2006, completing 20 Line-Item projects and 29 minor construction projects.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Modernization of national laboratory infrastructure will drive demand for new scientific equipment, lab supplies, and consumables to support advanced research and development.",
+        "source_url": "https://www.google.com/search?q=time+in+United+States+of+America"
+      },
+      {
+        "summary": "The U.S. Department of Energy (DOE) announced an investment of more than $35 million in federal funds for 42 projects through the Technology Commercialization Fund (TCF) Core Laboratory Infrastructure for Market Readiness (CLIMR) lab call, with an additional $21 million in cost-share from private and public partners, bringing total funding to over $57.5 million.",
+        "project_name": "Technology Commercialization Fund (TCF) Core Laboratory Infrastructure for Market Readiness (CLIMR) Lab Call",
+        "scope": "42 projects at DOE National Laboratories, plants, and sites focused on moving innovative energy technologies into the marketplace.",
+        "timeline": "Announced May 22, 2026.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This investment in energy technology commercialization at national labs will create demand for specialized reagents, consumables, and scientific equipment for research and development.",
+        "source_url": "https://www.energy.gov/technologycommercialization/fiscal-year-2025-climr-projects-commercializing-energy-technologies"
+      },
+      {
+        "summary": "ECS Federal LLC was awarded a $115,531,242 cost-plus-fixed-fee contract by the U.S. Department of War for research and development services leveraging artificial intelligence and machine learning to manage massive datasets for next-generation operations.",
+        "project_name": "Research and Development Services for AI/ML and Massive Datasets (ECS Federal LLC)",
+        "scope": "Research and development services for artificial intelligence and machine learning, managing massive datasets, to experimentally implement and robustly test innovative solutions for scalable infrastructure supporting next-generation Department of War operations.",
+        "timeline": "Work locations and funding will be determined with each order, with an estimated completion date of May 30, 2031.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This contract for AI/ML R&D will require advanced computing infrastructure and potentially specialized lab equipment for data processing and experimental validation.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4503104/contracts-for-may-28-2026/"
+      },
+      {
+        "summary": "CH2M Hill Inc. was awarded a $480,000,000 cost-plus-award-fee, indefinite-delivery/indefinite-quantity contract by the U.S. Department of War for comprehensive long-term environmental action services at Navy and Marine Corps sites.",
+        "project_name": "Comprehensive Long-Term Environmental Action Services (CH2M Hill Inc.)",
+        "scope": "Comprehensive long-term environmental action services at Navy and Marine Corps sites in North Carolina, Puerto Rico, Virginia, Maryland, Washington, D.C., West Virginia, and other areas.",
+        "timeline": "Expected completion date of May 2031.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Environmental action services will necessitate a range of field and laboratory testing equipment, reagents, and consumables for analysis and monitoring.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4503104/contracts-for-may-28-2026/"
+      },
+      {
+        "summary": "The U.S. Department of Energy's Argonne National Laboratory received $2.77 million from ARPA-E to launch the Accelerated Catalyst Design Foundry (ACDF), part of a larger $34 million ARPA-E CATALCHEM-E program, aimed at accelerating catalyst discovery using AI and self-driving laboratories.",
+        "project_name": "Accelerated Catalyst Design Foundry (ACDF)",
+        "scope": "Combining artificial intelligence (AI), automated laboratories, rapid testing, and pilot-scale evaluation to accelerate the discovery and commercialization of new industrial catalysts.",
+        "timeline": "Announced May 28, 2026, with the goal to cut development time from 15-20 years to less than five years.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The development of automated laboratories and advanced catalyst research will drive significant demand for robotics, specialized analytical instruments, and a wide array of chemical reagents and consumables.",
+        "source_url": "https://www.anl.gov/article/argonne-to-lead-28m-project-to-accelerate-catalyst-discovery"
+      },
+      {
+        "summary": "MIT and Massachusetts Governor Maura Healey announced plans for the new Quantum Systems Laboratory (QSL) at MIT, a shared-use facility with a $25 million investment from the state, matching federal funding for quantum research already underway at MIT.",
+        "project_name": "Quantum Systems Laboratory (QSL) at MIT",
+        "scope": "A shared-use facility to accelerate the development of next-generation quantum technologies, including a state-of-the-art quantum computer and peripheral hardware like sensors and quantum interconnects.",
+        "timeline": "Construction is anticipated to begin as early as summer 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment of a new quantum research laboratory will require highly specialized scientific equipment, cryogenics, and precision measurement tools.",
+        "source_url": "https://news.mit.edu/2026/new-laboratory-aims-to-advance-quantum-research-nation-0528"
+      },
+      {
+        "summary": "The Advanced Research Projects Agency for Health (ARPA-H) launched its Intelligent Generator of Research (IGoR) program, a five-year initiative to accelerate biomedical science through an AI-powered research ecosystem.",
+        "project_name": "Intelligent Generator of Research (IGoR) program",
+        "scope": "Developing advanced mechanistic models of complex diseases, AI systems for identifying knowledge gaps, standardized experimental protocols, and a network of laboratories for replicating experiments.",
+        "timeline": "Launched May 5, 2026, with a five-year program duration.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The IGoR program's focus on experimental science and lab infrastructure will increase demand for advanced laboratory equipment, computational biology tools, and a variety of reagents and consumables.",
+        "source_url": "https://www.hhs.gov/press-room/arpa-h-launches-intelligent-generator-of-research-igor-program.html"
+      },
+      {
+        "summary": "The National Science Foundation (NSF) Directorate for Technology, Innovation and Partnerships (TIP) announced its intent to solicit Written Proposals for NSF X-Labs teams in the technical domain of scientific instrumentation for sensing and imaging.",
+        "project_name": "NSF X-Labs Initiative - Scientific Instrumentation For Sensing and Imaging",
+        "scope": "Building and accelerating novel platform technologies in sensing, imaging, and supporting technologies, potentially drawing on quantum sensing, AI-driven computational imaging, and adaptive AI-based sensing algorithms.",
+        "timeline": "Published May 14, 2026, with proposals due by July 13, 2026.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This initiative to develop advanced scientific instrumentation for sensing and imaging will directly drive demand for specialized components, materials, and testing equipment for R&D.",
+        "source_url": "https://www.energy.gov/science/science-laboratories-infrastructure"
+      }
+    ],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "A procurement guide from Safecastle highlights federal and state mandates, including FEMA's CPG 101 and PPD-8, which require government agencies to maintain emergency preparedness supply stockpiles, encompassing medical and first aid supplies, with procurement often facilitated through NASPO ValuePoint.",
+        "mandate_type": "Public Health Emergency Preparedness / Medical Supply Stockpiling",
+        "jurisdiction": "Federal, State, and Local Government Agencies (U.S.)",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-03",
+        "why_it_matters": "Federal and state mandates for emergency preparedness, including maintaining physical supply stockpiles and first aid supplies, create non-discretionary demand for medical and potentially lab-related consumables for public health emergency response.",
+        "source_url": "https://ogs.ny.gov/procurement/procurement-services-announcements"
+      },
+      {
+        "summary": "The New York State Office of General Services (OGS) Procurement Services Quarterly Update for May 2026 lists \"Medical and Laboratory Supplies and Equipment\" as a contract award in progress, indicating upcoming procurement for state agencies.",
+        "mandate_type": "General Lab Supply and Equipment Procurement",
+        "jurisdiction": "New York State",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "The ongoing contract award process by New York State for medical and laboratory supplies and equipment indicates a continuous, non-discretionary demand for these products across state agencies.",
+        "source_url": "https://ogs.ny.gov/news/procurement-services-quarterly-update-may-2026"
+      }
+    ],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:38:45.845344",
+  "ai_summary": "Federal and state funding is significantly boosting research, lab infrastructure, and AI integration across institutions and national labs. New grants support biomedical discovery, quantum computing, and catalyst research, while mandates drive emergency supply stockpiling. This creates substantial procurement opportunities for lab equipment, consumables, and advanced instrumentation. Sales teams should leverage NASPO-related contracts to meet this growing demand."
+}

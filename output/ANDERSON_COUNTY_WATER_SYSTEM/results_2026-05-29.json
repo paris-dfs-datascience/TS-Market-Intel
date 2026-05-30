@@ -1,0 +1,37 @@
+{
+  "account": "ANDERSON COUNTY WATER SYSTEM",
+  "account_vertical": "Government",
+  "Parent_ID": "001G000001C6yZUIAZ",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The East Texas Council of Governments (ETCOG) announced that the Texas Water Development Board (TWDB) is accepting applications for Water Supply and Infrastructure Grants (WSIG) for eligible water supply and infrastructure projects, including those in Anderson County, Texas.",
+        "contract_name": "Water Supply and Infrastructure Grants (WSIG)",
+        "estimated_value": null,
+        "deadline_or_expiration": "July 30",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This grant opportunity for water infrastructure improvements in Anderson County, Texas, could lead to demand for water quality testing supplies, reagents, and analytical equipment for water treatment and monitoring.",
+        "source_url": "https://www.etcog.org/water-supply-and-infrastructure-grants-now-open"
+      },
+      {
+        "summary": "The City of Anderson, Indiana, received an award for water-rate backed bonding to fund multiple city water improvements and upgrades, including the construction of a new Southside Water Plant and repairs to reduce water line leaks.",
+        "contract_name": "Water-rate backed bonding for city water improvements",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-10",
+        "why_it_matters": "The construction of a new water plant and upgrades to the water system in Anderson, Indiana, will likely generate demand for a wide range of lab supplies, reagents, and scientific equipment for water quality testing, process control, and ongoing monitoring.",
+        "source_url": "https://www.cityofanderson.com/ArchiveCenter/ViewFile/Item/332"
+      }
+    ],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:16:42.355240",
+  "ai_summary": "Anderson County Water System in Texas can apply for state grants for water supply and infrastructure projects. This presents a significant opportunity for lab supply sales as these projects will require extensive water quality testing, process control, and compliance monitoring. Sales teams should engage now to position their lab equipment and consumables for upcoming project needs."
+}

@@ -1,0 +1,49 @@
+{
+  "account": "FUJI",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1BBYA0",
+  "signals": {
+    "capital": [
+      {
+        "summary": "FUJIFILM Cellular Dynamics opened a new 175,000-square-foot headquarters and iPSC manufacturing facility in Madison, Wisconsin, as part of a $200 million strategic investment. This expansion significantly increases the company's capacity for producing human cells for drug discovery, toxicity testing, stem cell banking, and cell therapy development, and includes process development laboratories and a center of excellence for gene editing.",
+        "project_name": "New Headquarters and iPSC Manufacturing Facility",
+        "location": "Madison, Wisconsin, USA",
+        "value": "$200 million",
+        "timeline": "Opened May 19, 2026, with plans to add three cleanroom suites for iPSC cGMP manufacturing to scale from investigational drug manufacturing to commercial production.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This new facility will drive significant demand for lab supplies, reagents, consumables, and scientific equipment to support expanded iPSC development, manufacturing, and cell therapy production capabilities.",
+        "source_url": "https://www.rdworldonline.com/fujifilm-cellular-dynamics-opens-madison-ipsc-manufacturing-site-as-stem-cell-science-moves-toward-scale/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "FUJIFILM Cellular Dynamics Inc. opened its new headquarters and iPSC development and manufacturing facility in Madison, Wisconsin, significantly expanding its manufacturing footprint for iPSC-based research products and services and its iPSC-derived iCell product lines.",
+        "facility_or_line": "New iPSC development and manufacturing facility and headquarters",
+        "change_type": "New manufacturing site opening, production capacity expansion, new product lines",
+        "location": "Madison, Wisconsin, US",
+        "investment_value": "$200 million (part of a strategic investment)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This expansion will drive significant demand for specialized lab supplies, reagents, and consumables required for large-scale iPSC development, manufacturing, and cell therapy process development.",
+        "source_url": "https://www.businesswire.com/news/home/20260520108331/en/FUJIFILM-Cellular-Dynamics-Launches-New-iPSC-Manufacturing-Facility-in-Madison"
+      },
+      {
+        "summary": "FUJIFILM Biosciences and NextCell Pharma AB launched a new global commercial platform, offering NextCell-Cord RUO (research-use-only MSC product derived from umbilical cord tissue) bundled with FUJIFILM Biosciences' PRIME-XV MSC Expansion XSFM medium.",
+        "facility_or_line": "New commercial platform/product line for NextCell-Cord RUO cells and PRIME-XV MSC Expansion XSFM medium",
+        "change_type": "New product line being manufactured/commercialized",
+        "location": "Global (FUJIFILM Biosciences based in Santa Ana, California, US)",
+        "investment_value": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "The launch of new cell products and associated media will create demand for cell culture reagents, consumables, and related lab supplies for researchers in immunology, regenerative medicine, and cell therapy development.",
+        "source_url": "https://www.businesswire.com/news/home/20260506869796/en/FUJIFILM-Biosciences-and-NextCell-Launch-New-Commercial-Platform-Comprised-of-RUO-Stromal-Cells-and-Cell-Culture-Media"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:18:39.401296",
+  "ai_summary": "FUJIFILM Cellular Dynamics opened a new 175,000 sq ft iPSC manufacturing and R&D facility in Madison, a $200M investment. This significantly expands human cell production, including process development labs and gene editing capabilities. This presents major opportunities for lab supply sales teams in cell culture, reagents, equipment, and bioprocessing consumables to support their increased capacity and advanced research."
+}

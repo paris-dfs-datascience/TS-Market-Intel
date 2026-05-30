@@ -1,0 +1,78 @@
+{
+  "account": "OMNIA",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkegYAC",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The New York State Office of General Services (NYS OGS) contract for Medical and Laboratory Supplies and Equipment (Award 23154), covering Lot 1: Laboratory Supplies, Lot 2: Medical Supplies, Lot 3: Chemicals, and Lot 4: Biologicals, is set to expire on July 17, 2026.",
+        "contract_name": "Medical and Laboratory Supplies and Equipment (Statewide) - Award 23154",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-07-17",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This expiring statewide contract presents a significant opportunity for Thomas Scientific to bid on the renewal or a new contract for laboratory supplies and equipment for all New York State Agencies and Political Subdivisions.",
+        "source_url": "https://ogs.ny.gov/contract-award-23154"
+      },
+      {
+        "summary": "Dutchess BOCES utilizes an OMNIA Contract for Nursing Supplies through Pocket Nurse - National IPA, which is valid through June 30, 2027.",
+        "contract_name": "Nursing Supplies - Pocket Nurse - National IPA - OMNIA Contract",
+        "estimated_value": null,
+        "deadline_or_expiration": "2027-06-30",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This indicates Dutchess BOCES's existing procurement relationship with OMNIA, which could be leveraged by Thomas Scientific to offer a broader range of scientific supplies and consumables to Dutchess BOCES.",
+        "source_url": "https://www.dcboces.org/business/bidding"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Researchers at the University of Pennsylvania's School of Arts & Sciences have developed hybrid light-matter particles that could revolutionize AI computing by dramatically increasing speed and reducing energy consumption, potentially replacing traditional electronic computing processes.",
+        "researcher_name": "Bo Zhen, Li He",
+        "department_or_lab": "Physics, School of Arts & Sciences, University of Pennsylvania",
+        "award_or_discovery": "First-in-class discovery of hybrid light-matter particles for ultra-efficient AI computing",
+        "significance": "This breakthrough may help replace some electronic computing processes with ultra-efficient light-based technology, setting a new benchmark for switching energy in two-dimensional exciton-polariton systems.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This breakthrough signals high-impact research in advanced materials and computing, driving demand for specialized lab equipment, reagents for material synthesis, and high-performance computing components.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm"
+      },
+      {
+        "summary": "Scientists at the University of Pennsylvania School of Dental Medicine have developed a bioengineered chewing gum with antiviral, antibacterial, and antifungal properties, showing promise in preventing oral, head, and neck cancers by targeting microbial causes.",
+        "researcher_name": "Henry Daniell",
+        "department_or_lab": "School of Dental Medicine, University of Pennsylvania",
+        "award_or_discovery": "Development of bioengineered chewing gum for cancer prevention",
+        "significance": "This first-in-class preventative medicine is being tested against HPV, influenza, and other diseases, with potential to reduce person-to-person transmission and cancer risk.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This discovery indicates significant activity in biomaterials, pharmaceutical development, and clinical trials, leading to demand for reagents, cell culture supplies, and analytical equipment.",
+        "source_url": "https://whyy.org/articles/gum-cancer-research-penn-philadelphia-hyacinth/"
+      },
+      {
+        "summary": "Dennis E. Discher, the Robert D. Bent chaired Professor at the University of Pennsylvania and Director of the NCI Physical Sciences Oncology Center/Project, was elected to the American Academy of Arts and Sciences, recognizing his foundational research in mechanobiology and its application to cancer.",
+        "researcher_name": "Dennis E. Discher",
+        "department_or_lab": "School of Engineering & Applied Science, Graduate Groups in Pharmacology and in Physics, University of Pennsylvania; NCI Physical Sciences Oncology Center/Project",
+        "award_or_discovery": "Robert D. Bent chaired Professor (endowed chair appointment) and election to the American Academy of Arts and Sciences for research in mechanobiology",
+        "significance": "His work, including the highly cited 'Matrix elasticity directs stem cell lineage specification,' has significantly advanced understanding in mechanobiology and its application to disease, particularly cancer.",
+        "event_date": "2026-05-24",
+        "why_it_matters": "An endowed chair appointment signals sustained, high-level research funding and activity in areas like cell and molecular biology, oncology, and biomaterials, requiring a steady supply of specialized reagents and equipment.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm"
+      },
+      {
+        "summary": "Carl H. June from the University of Pennsylvania was awarded the 13th annual Ross Prize in Molecular Medicine, recognizing his pioneering contributions to the field, particularly his work in CAR T-cell therapy.",
+        "researcher_name": "Carl H. June",
+        "department_or_lab": "University of Pennsylvania",
+        "award_or_discovery": "13th annual Ross Prize in Molecular Medicine",
+        "significance": "This major award highlights significant contributions to molecular medicine, particularly his pioneering work in CAR T-cell therapy, which has revolutionized cancer treatment.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This prestigious award highlights ongoing, high-impact research in cell therapy and immunology, driving demand for advanced cell culture media, gene editing reagents, and flow cytometry equipment.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:45:21.308815",
+  "ai_summary": "OMNIA's University of Pennsylvania is driving significant breakthroughs in AI computing, cancer therapies, and bioengineered solutions, signaling high demand for advanced lab supplies and specialized equipment. A major NYS OGS contract for lab, medical, chemical, and biological supplies expires July 2026, presenting a substantial future sales opportunity. This account is actively engaged in high-impact research and procurement."
+}

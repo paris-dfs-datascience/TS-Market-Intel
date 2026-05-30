@@ -1,0 +1,40 @@
+{
+  "account": "JACKSON LABS",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1Z1YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Gene editing research at The Jackson Laboratory, in collaboration with the Broad Institute and Children's Hospital of Philadelphia, successfully repaired a DNA error causing Dravet syndrome in mice, supported by NIH grants.",
+        "recipient": "Cathleen (Cat) Lutz (Vice President, JAX Rare Disease Translational Center) and Matthew Simon (Senior Study Director, JAX Rare Disease Translational Center)",
+        "department_or_lab": "JAX Rare Disease Translational Center (RDTC)",
+        "amount": "Not specified",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This grant signals increased research activity in gene editing and rare disease models at JAX, likely leading to demand for specialized reagents, genetic sequencing services, and animal model supplies.",
+        "source_url": "https://www.jax.org/news-and-insights/2026/may/precision-dna-editing-targets-root-cause-of-severe-childhood-epilepsy-in-preclinical-study"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": [
+      {
+        "summary": "The National Institute on Aging (NIA) is terminating its BALB/cBy and CB6F1 mouse colonies, which originated from The Jackson Laboratory, due to limited use and increasing demand for C57BL/6J mice. Entries into these colonies will cease in the fall of 2026, and older mice will be available until the colonies are depleted, estimated for the fall of 2028.",
+        "facility_or_programme": "NIA's BALB/cBy and CB6F1 mouse colonies (derived from The Jackson Laboratory foundation stock)",
+        "closure_type": "Programme Termination",
+        "effective_date": null,
+        "reason": "Limited use of BALB/cBy and CB6F1 strains and increasing demand for aged C57BL/6J mice.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This represents a churn risk for Thomas Scientific if these NIA programs were purchasing supplies for the BALB/cBy and CB6F1 colonies, but also a potential competitive displacement opportunity if the increased demand for C57BL/6J mice leads to new supply needs for other programs.",
+        "source_url": "https://www.nia.nih.gov/research/dab/aged-rodent-colonies"
+      }
+    ]
+  },
+  "timestamp": "2026-05-30T11:30:45.854912+00:00",
+  "ai_summary": "Jackson Lab is advancing grant-funded gene editing research for Dravet syndrome, signaling a strong need for specialized reagents and equipment. Concurrently, the NIA is phasing out certain mouse colonies, originally from Jackson Lab, due to low use and increasing demand for C57BL/6J. Sales teams should focus on supporting gene editing projects and adapt to evolving mouse model requirements, particularly for C57BL/6J-related supplies."
+}

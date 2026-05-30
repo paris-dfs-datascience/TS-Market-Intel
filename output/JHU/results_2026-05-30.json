@@ -1,0 +1,117 @@
+{
+  "account": "JHU",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CDYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "Johns Hopkins Medical Institutions has dedicated its new $59 million cancer research facility, named The Bunting Family - The Family of Jacob and Hilda Blaustein Building, which houses laboratories for more than 400 cancer researchers and staff.",
+        "project_name": "The Bunting Family - The Family of Jacob and Hilda Blaustein Building (Cancer Research Facility)",
+        "location": "Baltimore, across the street from the Weinberg Building.",
+        "value": "$59 million",
+        "timeline": "Dedicated on May 27, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The new facility with over 400 lab benches indicates significant upcoming demand for lab supplies, reagents, consumables, and scientific equipment for cancer research.",
+        "source_url": "https://www.cancernetwork.com/view/new-research-facility-hopkins"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "Diagnostics Direct LLC has received an innovation award from the Johns Hopkins Center for Innovative Diagnostics for Infectious Diseases (JH-CIDID) to advance the development of their 10-minute treponemal/nontreponemal syphilis point-of-care test.",
+        "contract_name": "Innovation Award from Johns Hopkins Center for Innovative Diagnostics for Infectious Diseases",
+        "estimated_value": "Up to $150,000",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "This award signifies ongoing research and development at JHU in diagnostic technologies, creating potential demand for lab supplies, reagents, and equipment from companies like Diagnostics Direct LLC, which is collaborating with JHU.",
+        "source_url": "https://www.biospace.com/press-releases/diagnostics-direct-llc-wins-innovation-award-from-johns-hopkins"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Johns Hopkins University announced the recipients of its 2026 Nexus Awards Program, funding 28 interdisciplinary projects across various academic divisions at the Hopkins Bloomberg Center in Washington, D.C. These awards support convening, research, and teaching endeavors, with research teams eligible for up to $300,000 over two years.",
+        "project_name": "Johns Hopkins Nexus Awards Program 2026",
+        "scope": "Funding for 28 interdisciplinary projects in convening, research, and teaching across various academic divisions, anchored at the Johns Hopkins University Bloomberg Center. Research awards are up to $300,000 for up to two years, convening awards up to $100,000 for one year, and teaching awards up to $25,000 renewable for two years. The total program funding for these 28 projects is expected to exceed $1 million.",
+        "timeline": "Up to two years for research projects, one year for convening projects, and renewable for two years for teaching projects. The 2026 awards were announced.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This interdisciplinary initiative will drive demand for a wide range of lab supplies, reagents, and scientific equipment across various research fields, including AI, rare disease therapies, and space leadership.",
+        "source_url": "https://www.miragenews.com/johns-hopkins-funds-new-dc-projects-research-1683045/"
+      },
+      {
+        "summary": "Johns Hopkins University is moving forward with plans for a $196 million data science and computing center in East Baltimore, aimed at expanding the university's research and artificial intelligence capabilities. The Maryland Board of Public Works approved a $9 million grant for the project.",
+        "project_name": "Johns Hopkins University Data Science and Computing Center",
+        "scope": "A new 25,000-square-foot facility in East Baltimore to support life sciences, biomedical research, and large-scale data processing initiatives, enhancing AI and computational science capabilities. The total project cost is $196 million, with an initial $9 million state grant.",
+        "timeline": "The construction is expected to take about four years.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The launch of this major computing center will create significant demand for high-performance computing equipment, data storage solutions, and specialized software for data science and AI research.",
+        "source_url": "https://www.miragenews.com/johns-hopkins-funds-new-dc-projects-research-1683045/"
+      },
+      {
+        "summary": "Johns Hopkins University, in collaboration with Portland State University, received funding from the National Science Foundation (NSF) and the U.S. Department of Energy's Wind Energy Technologies Office (WETO) for a project to accelerate floating offshore wind research.",
+        "project_name": "Accelerating Floating Offshore Wind Research",
+        "scope": "A joint project combining computational and experimental methods to develop more accurate tools for the design and optimization of floating offshore wind farms in the deep ocean. The project is part of a broader DOE/NSF initiative to unlock the potential of floating offshore wind in the United States.",
+        "timeline": "Ongoing, as part of a larger initiative to accelerate offshore wind development.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This research will require advanced sensors, data acquisition systems, and specialized laboratory equipment for fluid dynamics and materials testing related to wind turbine design and optimization.",
+        "source_url": "https://www.miragenews.com/johns-hopkins-funds-new-dc-projects-research-1683045/"
+      },
+      {
+        "summary": "Johns Hopkins University is a partner in the $2.77 million Accelerated Catalyst Design Foundry (ACDF) project, led by Argonne National Laboratory and funded by the U.S. Department of Energy's Advanced Research Projects Agency-Energy (ARPA-E).",
+        "project_name": "Accelerated Catalyst Design Foundry (ACDF)",
+        "scope": "A $2.77 million project combining artificial intelligence (AI), autonomous laboratories, and pilot-scale testing to accelerate the discovery and commercialization of new industrial catalysts, aiming to reduce the timeline from 15-20 years to less than five years. Johns Hopkins University is a key partner in this initiative.",
+        "timeline": "Aims to cut the development timeline for new catalysts from 15-20 years to less than five years.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Participation in this project will drive demand for advanced laboratory automation, high-throughput screening equipment, and specialized reagents for catalyst synthesis and testing.",
+        "source_url": "https://www.miragenews.com/johns-hopkins-funds-new-dc-projects-research-1683045/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Johns Hopkins University researchers developed the Targeted Real-Time Early Warning System, an AI-based tool that detects sepsis hours faster than traditional methods, reducing deaths by nearly 20%. It received FDA clearance, making it one of the first AI-based medical tools to get such approval.",
+        "researcher_name": "Suchi Saria",
+        "department_or_lab": "AI & Healthcare Lab, Johns Hopkins University",
+        "award_or_discovery": "FDA clearance for Targeted Real-Time Early Warning System (AI-based sepsis detection tool), described as a \"breakthrough\" and \"first AI-based medical tools to get clearance\".",
+        "significance": "This system detects sepsis 2 to 48 hours earlier than traditional methods and has reduced sepsis mortality rates by 18-20% in dozens of hospitals across the United States.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in AI development, clinical diagnostics, and patient monitoring, driving demand for advanced computing, data analysis tools, and diagnostic reagents.",
+        "source_url": "https://www.healthcaredive.com/news/bayesian-health-gets-fda-nod-for-ai-sepsis-detection-tool/820107/"
+      },
+      {
+        "summary": "Scientists at Johns Hopkins Applied Physics Laboratory (APL) developed and tested a novel high-performance coating system that withstands extreme thermal and chemical stress, marking a significant milestone in advanced coatings for extreme environments.",
+        "researcher_name": "Katie Kerrigan (author), Leslie Hamilton (program manager)",
+        "department_or_lab": "Johns Hopkins University Applied Physics Laboratory (APL), Science of Extreme and Multifunctional Materials",
+        "award_or_discovery": "Novel Coating Technology Withstands Extreme Combustion Environments, described as a \"breakthrough\" and \"significant milestone\".",
+        "significance": "This coating system demonstrated exceptional durability in extreme conditions (1,150\u00b0C and highly acidic gas), with potential to significantly extend the operational life of components in intense combustion and acidic environments.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in materials science, advanced coatings, and extreme environment testing, indicating demand for specialized materials, high-temperature equipment, and analytical tools.",
+        "source_url": "https://www.jhuapl.edu/news/news-releases/260429-coating-technology-strengthens-chemical-neutralization-capability"
+      },
+      {
+        "summary": "Researchers with the University of Cincinnati and Johns Hopkins Medicine developed a potential treatment for glioblastoma using nanofibers embedded with a synergistic combination of three federally approved drugs, proving more effective than single-drug administration and extending survival in animal models.",
+        "researcher_name": "Betty Tyler (Johns Hopkins), Daewoo Han (University of Cincinnati), Andrew Steckl (University of Cincinnati)",
+        "department_or_lab": "Johns Hopkins Medicine (Betty Tyler), University of Cincinnati (Daewoo Han, Andrew Steckl)",
+        "award_or_discovery": "Development of a nanofiber drug delivery system for glioblastoma, described as a \"potential breakthrough treatment\" and \"breakthrough 'NanoMesh' drug delivery system\".",
+        "significance": "This NanoMesh system delivers multiple synergistic drugs directly to the tumor site, bypassing the blood-brain barrier and significantly extending survival rates in animal models, with 40% of treated animals surviving past 120 days.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in neuro-oncology, drug delivery systems, and biomaterials, driving demand for specialized reagents, cell culture supplies, and advanced microscopy.",
+        "source_url": "https://scienceblog.com/a-tiny-drug-loaded-mesh-implanted-in-the-brain-is-keeping-glioblastoma-at-bay/"
+      },
+      {
+        "summary": "Astronomers, including those from Johns Hopkins University, using the James Webb Space Telescope, discovered a bizarre daily weather cycle on exoplanet WASP-94A b, where mineral clouds appear in the morning and vanish by nightfall. This marks one of the first direct observations of cloud cycling on a Hot Jupiter exoplanet.",
+        "researcher_name": "David Sing (Johns Hopkins University), Sagnick Mukherjee (Arizona State University, formerly Johns Hopkins University)",
+        "department_or_lab": "Johns Hopkins University (David Sing), Arizona State University (Sagnick Mukherjee)",
+        "award_or_discovery": "First direct observation of cloud cycling on a Hot Jupiter exoplanet (WASP-94A b), described as a \"discovery\" and \"unprecedented event\".",
+        "significance": "This finding provides the clearest look yet into the planet's atmosphere, revealing it's more Jupiter-like than previously believed and offering a powerful new tool to study exoplanet composition.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This discovery signals high-impact research in astrophysics and planetary science, potentially driving demand for advanced optical components, spectroscopic equipment, and high-performance computing for data analysis.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/05/260527023212.htm"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:31:22.461694+00:00",
+  "ai_summary": "Johns Hopkins is experiencing significant growth with new facilities like a $59M cancer research building and a $196M data science center. Numerous interdisciplinary projects, from infectious disease diagnostics to advanced materials and AI-driven healthcare breakthroughs, are receiving substantial funding. This expansion and diverse research activity create immense opportunities for lab supply sales across various scientific disciplines."
+}

@@ -1,0 +1,28 @@
+{
+  "account": "STARKIST SAMOA CO.",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G0000019qRhcIAE",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": [
+      {
+        "summary": "StarKist Seafoods announced it will cut tuna production and more than 1,000 jobs at its American Samoa cannery due to minimum wage hikes and the island's deteriorating economy. The company will reduce daily production from 450 tons to 238 tons and staff from 2,520 to 1,485 employees.",
+        "facility_or_programme": "American Samoa cannery",
+        "closure_type": "Production cut / Job reduction (partial shutdown of operations)",
+        "effective_date": "2026-05-15",
+        "reason": "Minimum wage hikes and deteriorating island economy.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This production cut and job reduction at StarKist Samoa's cannery indicates a decrease in demand for raw materials and consumables, presenting a churn risk for Thomas Scientific's existing sales to this facility.",
+        "source_url": "https://www.seafoodsource.com/news/food-safety-health/starkist-to-cut-production-jobs"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:29:04.685815",
+  "ai_summary": "StarKist Samoa is significantly reducing tuna production and cutting over 1,000 jobs due to minimum wage hikes and a deteriorating economy. This major downsizing means a likely decrease in demand for lab supplies related to production volume and quality control. The sales team should anticipate reduced budgets and adjust their strategy, focusing on essential needs or cost-saving solutions for the remaining operations."
+}

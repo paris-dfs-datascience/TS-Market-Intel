@@ -1,0 +1,22 @@
+{
+  "account": "BIOCHARGE",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP18aYAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:15:52.366686",
+  "ai_summary": null
+}

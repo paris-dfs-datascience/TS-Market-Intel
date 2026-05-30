@@ -1,0 +1,164 @@
+{
+  "account": "PCI",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1ZGYA0",
+  "signals": {
+    "capital": [
+      {
+        "summary": "VectorBuilder is planning a new $50 million research and development lab on Chicago's South Side, aiming for a 2027 opening with approximately 35,000 square feet of lab and office space.",
+        "project_name": "VectorBuilder R&D Lab",
+        "location": "Chicago, Illinois, USA",
+        "value": "$50,000,000",
+        "timeline": "Targeting a 2027 opening.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new R&D lab will require a wide range of lab supplies, reagents, and scientific equipment for its gene delivery and CDMO services.",
+        "source_url": "https://hoodline.com/2026/05/south-side-scores-50-million-lab-gamble-from-vectorbuilder/"
+      },
+      {
+        "summary": "Jesuit High School in Tampa broke ground on a $50 million expansion, including the Jenkins Science Center, which will feature state-of-the-art laboratories.",
+        "project_name": "Jenkins Science Center (part of Jesuit High School's $50M expansion)",
+        "location": "Tampa, Florida, USA",
+        "value": "$50,000,000",
+        "timeline": "Phase III is scheduled for completion in fall 2027.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The new state-of-the-art laboratories in the Jenkins Science Center will create demand for new scientific equipment, consumables, and reagents for STEM education.",
+        "source_url": "https://tbbwmag.com/2026/05/20/jesuit-high-campus-expansion/"
+      },
+      {
+        "summary": "The University of Tennessee Health Science Center is receiving $311 million in state funding for a new College of Medicine Interdisciplinary Building (COMIB), with a total project cost of $350 million, and a philanthropic campaign underway to raise an additional $50 million.",
+        "project_name": "College of Medicine Interdisciplinary Building (COMIB)",
+        "location": "University of Tennessee Health Science Center (Memphis, Tennessee, USA)",
+        "value": "$350,000,000",
+        "timeline": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "This new interdisciplinary building will house various medical college functions, indicating a significant need for new laboratory equipment, medical supplies, and research consumables.",
+        "source_url": "https://uthsc.edu/advisory-board/documents/presentation-may-8-2026.pdf"
+      },
+      {
+        "summary": "Unilever is investing $270 million in a new global innovation center in New Haven, Connecticut, with $50 million in capital expenditure, focusing on personal care, beauty, and wellbeing brands, including a human performance lab and fragrance house.",
+        "project_name": "Unilever Global Innovation Centre",
+        "location": "New Haven, Connecticut, USA",
+        "value": "$270,000,000",
+        "timeline": "Expected to open by spring 2029.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "The new innovation center, including a human performance lab, will require a range of specialized lab equipment, consumables, and reagents for research and development in beauty, wellbeing, and personal care.",
+        "source_url": "https://www.retailgazette.co.uk/blog/2026/05/unilever-bets-270m-on-ai-led-innovation-hub-to-speed-up-beauty-and-wellbeing-launches/"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "PCI Pharma Services announced a significant investment exceeding $1 billion across its U.S. and European operations to substantially expand its sterile fill-finish and advanced drug delivery capabilities, including a $100 million project at its San Diego campus for a high-speed isolator filling line for prefilled syringes and cartridges.",
+        "contract_name": "Major Infrastructure Investments for Sterile Fill-Finish and Advanced Drug Delivery Expansion",
+        "estimated_value": "Exceeding $1 billion (overall investment); $100 million (San Diego campus specific investment)",
+        "deadline_or_expiration": "San Diego filling line operational H1 2028; third autoinjector line added 2027; autoinjector and drug-device assembly upgrades over next six months; Bedford Development CoE operational May 2026; Le\u00f3n Development CoE operational June 2026.",
+        "event_date": "2026-04-27",
+        "why_it_matters": "These expansions indicate significant upcoming demand for new lab equipment, reagents, consumables, and services to support increased sterile fill-finish, drug-device assembly, and development center operations for Thomas Scientific.",
+        "source_url": "https://megaproject.com/news/factory/pci-pharma-services-makes-1b-investment-to-scale-injectable-manufacturing-device-assembly"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "PCI Pharma Services announced a global investment exceeding $1 billion to significantly expand its sterile fill-finish and advanced drug delivery capabilities across its US and European operations.",
+        "product_or_program": "Expansion includes a $100 million project at its San Diego campus for a high-speed isolator filling line for ready-to-use prefilled syringes and cartridges, commissioning of a GMP-ready isolator vial and lyophilization line and a customer-dedicated high-potent sterile fill-finish line at its Bedford, New Hampshire campus, and expansion of drug-device combination assembly infrastructure in Philadelphia and Rockford, Illinois, with a third autoinjector line planned for 2027. Additionally, Development Centers of Excellence are being established in Bedford and Le\u00f3n, Spain, for lyophilization, formulation, and analytical support.",
+        "stage": "Manufacturing and development capability expansion.",
+        "therapeutic_or_application_area": "Biologic and small molecule therapies, complex injectables including oligonucleotides, peptides, nanoparticles, mRNA, monoclonal antibodies, proteins, highly potent compounds, long-acting injectables, and ophthalmics.",
+        "event_date": "2026-04-27",
+        "why_it_matters": "These significant expansions indicate upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment to support new and increased manufacturing and development activities.",
+        "source_url": "https://whattheythink.com/news/130122-backed-investments-exceeding-1-billion-pci-pharma-services-announces-major-expansion-us-sterile-fill-finish-drug-device-delivery-combination-capabilities/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "PCI Pharma Services is investing $100 million at its San Diego campus to install a high-speed isolator filling line for ready-to-use prefilled syringes and cartridges, which will more than double the site's existing capacity and is expected to be operational in the first half of 2028.",
+        "location": "San Diego, California, USA",
+        "type_of_expansion": "Capacity expansion (manufacturing/fill-finish)",
+        "investment_value": 100000000,
+        "event_date": "2026-04-27",
+        "why_it_matters": "This significant expansion of sterile fill-finish capacity will drive demand for specialized lab supplies, reagents, consumables, and quality control equipment for injectable therapies.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI Pharma Services is commissioning a GMP-ready isolator vial and lyophilization line at its Bedford, New Hampshire campus, capable of producing up to 300,000 vials per batch (approximately 33 million units annually), with full-scale production commencing in April 2026. A customer-dedicated high-potent sterile fill-finish line is also planned for the site.",
+        "location": "Bedford, New Hampshire, USA",
+        "type_of_expansion": "Capacity expansion (manufacturing/fill-finish, lyophilization)",
+        "investment_value": null,
+        "event_date": "2026-04-27",
+        "why_it_matters": "The new lyophilization and fill-finish capabilities will create demand for specialized reagents, vials, stoppers, analytical equipment, and quality control consumables.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI Pharma Services is establishing a dedicated Development Center of Excellence in Bedford, New Hampshire, to support lyophilization, formulation, analytical services, drug-device combination development, long-acting injectables, and ophthalmic products. This center is expected to be operational in May 2026.",
+        "location": "Bedford, New Hampshire, USA",
+        "type_of_expansion": "New dedicated facility/lab (Development Center of Excellence)",
+        "investment_value": null,
+        "event_date": "2026-04-27",
+        "why_it_matters": "A new development center will require a wide range of research-grade lab supplies, analytical instruments, and consumables for formulation and analytical services.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI Pharma Services is establishing a dedicated Development Center of Excellence in Le\u00f3n, Spain, to support lyophilization, formulation, analytical services, drug-device combination development, long-acting injectables, and ophthalmic products. This center is expected to be operational in June 2026.",
+        "location": "Le\u00f3n, Spain",
+        "type_of_expansion": "New dedicated facility/lab (Development Center of Excellence)",
+        "investment_value": null,
+        "event_date": "2026-04-27",
+        "why_it_matters": "A new development center will require a wide range of research-grade lab supplies, analytical instruments, and consumables for formulation and analytical services.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI Pharma Services is upgrading its autoinjector and drug-device combination assembly infrastructure at its Philadelphia, Pennsylvania, and Rockford, Illinois, campuses. A third autoinjector line will be added in 2027, increasing total U.S. autoinjector and device assembly capacity to more than 250 million units annually.",
+        "location": "Philadelphia, Pennsylvania, USA and Rockford, Illinois, USA",
+        "type_of_expansion": "Capacity expansion (manufacturing/assembly)",
+        "investment_value": null,
+        "event_date": "2026-04-27",
+        "why_it_matters": "Increased assembly capacity for drug-device combinations will drive demand for specialized packaging, labeling, and quality control consumables.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "PCI Pharma Services is investing $100 million at its San Diego campus to add a high-speed isolator filling line for ready-to-use (RTU) prefilled syringes and cartridges, which will more than double the site's existing capacity.",
+        "project_name": "San Diego Campus Sterile Fill-Finish Expansion",
+        "scope": "Installation of a second high-speed isolator filling line for RTU prefilled syringes and cartridges, doubling the site's existing syringe and cartridge filling capacity.",
+        "timeline": "Scheduled to be operational in the first half of 2028.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This expansion will significantly increase demand for sterile consumables, specialized reagents, and advanced aseptic filling and packaging equipment.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI's Bedford, New Hampshire campus is commissioning a GMP-ready bespoke isolator vial and lyophilization line, capable of producing up to 300,000 vials per batch (33 million annually), and a customer-dedicated high-potent sterile fill-finish line.",
+        "project_name": "Bedford Campus Vial and Lyophilization & High-Potent Fill-Finish Lines",
+        "scope": "Commissioning of a GMP-ready isolator vial and lyophilization line (300,000 vials/batch, 33 million annually) and a customer-dedicated high-potent sterile fill-finish line.",
+        "timeline": "Lyophilization line commencing full-scale production in April 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These new lines will require a consistent supply of vials, stoppers, lyophilization reagents, and specialized equipment for handling highly potent compounds.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI is undertaking multiple buildouts of autoinjector and drug-device combination assembly infrastructure at its Philadelphia and Rockford, Illinois campuses, in partnership with leading device manufacturers.",
+        "project_name": "Autoinjector and Drug-Device Assembly Infrastructure Expansion",
+        "scope": "Upgrades and buildouts of autoinjector and drug-device combination assembly infrastructure, including adding a third autoinjector line in 2027 to increase total U.S. capacity to over 250 million units annually.",
+        "timeline": "Upgrades coming online via a phased approach over the next six months; third autoinjector line added in 2027.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This expansion will increase demand for drug-device combination components, assembly equipment, and packaging materials for patient-centric drug delivery.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      },
+      {
+        "summary": "PCI is investing in dedicated Development Centers of Excellence (CoE) in Bedford, New Hampshire, and Le\u00f3n, Spain, to enhance capabilities in lyophilization, formulation, analytical support, and drug-device combinations.",
+        "project_name": "Development Centers of Excellence Establishment",
+        "scope": "Establishment of CoEs for lyophilization, formulation, analytical support, drug-device combination assets, long-acting injectables, and ophthalmic products, handling potent and non-potent small molecules and biologics.",
+        "timeline": "Bedford Development CoE expected to be operational in May 2026, with Le\u00f3n following in June 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These new centers will require a broad range of analytical instruments, laboratory equipment, and specialized reagents for advanced R&D and formulation development.",
+        "source_url": "https://pharmapress.co.uk/pci-pharma-services-announces-us1-billion-expansion-of-us-sterile-fill-finish-and-drug-device-delivery-combination-capabilities/"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:13:26.354378",
+  "ai_summary": "PCI Pharma Services is investing over $1 billion to significantly expand its sterile fill-finish, advanced drug delivery, lyophilization, and analytical capabilities across US and European sites. This massive build-out of new isolator lines, development centers, and upgraded infrastructure creates substantial opportunities for lab supply sales teams to provide equipment, consumables, and services for these new facilities."
+}

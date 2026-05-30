@@ -1,0 +1,31 @@
+{
+  "account": "ORGAN RECOVERY SYSTEMS",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1PRYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Panayotova et al. published a multicenter, randomized, noninferiority trial comparing liver preservation using the LifePort Liver Transporter to static cold storage, concluding that hypothermic oxygenated machine perfusion (HMP-O2) with the LifePort Liver Transporter is safe, effective, and improves outcomes in liver transplantation.",
+        "product_or_program": "LifePort Liver Transporter, PILOT clinical trial",
+        "stage": "Clinical trial results published",
+        "therapeutic_or_application_area": "Liver transplantation, organ preservation",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Publication of positive clinical trial results for the LifePort Liver Transporter could lead to increased adoption and demand for the device and associated consumables, reagents, and lab supplies.",
+        "source_url": "https://www.organ-recovery.com/cold-ischemia-time-and-delayed-function-in-kidney-transplantatation/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:09:27.941617",
+  "ai_summary": "A new multicenter trial strongly validates Organ Recovery Systems' LifePort Liver Transporter, proving its safety and effectiveness in improving liver transplant outcomes. This positive research will likely drive increased adoption of their technology in hospitals. For lab supply sales, this means a growing market for consumables, reagents, and testing kits associated with advanced organ preservation methods, creating new sales opportunities."
+}

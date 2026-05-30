@@ -1,0 +1,36 @@
+{
+  "account": "CAROLINA COMPONENTS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011M00002W4S45QAF",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "BorgWarner Inc. announced a $100 million investment to expand its Hendersonville, North Carolina operations, adding 378 jobs.",
+        "amount": 100000000,
+        "funding_type": "Company Investment with Government Grant Support",
+        "use_of_proceeds": "Vertical integration of operations and production of critical components, expanding the Hendersonville site by 140,000 square feet for new production infrastructure.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This expansion for new production infrastructure will drive demand for various lab supplies, reagents, consumables, and scientific equipment for quality control and R&D.",
+        "source_url": "https://www.commerce.nc.gov/news/press-releases/2026/05/26/governor-stein-announces-100-million-expansion-for-borgwarner-in-hendersonville"
+      },
+      {
+        "summary": "Novartis announced an additional $220 million investment to build a new facility in Morrisville, North Carolina, focused on active pharmaceutical ingredient (API) manufacturing.",
+        "amount": 220000000,
+        "funding_type": "Company Investment",
+        "use_of_proceeds": "New facility for active pharmaceutical ingredient (API) manufacturing for solid dosage tablets, capsules, and RNA therapeutics, strengthening end-to-end U.S. production capability.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The new API manufacturing facility will require significant lab supplies, reagents, consumables, and scientific equipment for R&D, quality control, and production processes.",
+        "source_url": "https://www.wakegov.com/news/novartis-pharmaceuticals-announces-220-m-expansion-morrisville"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:31:31.473529",
+  "ai_summary": "BorgWarner and Novartis are making significant industrial and pharmaceutical investments in North Carolina. This regional growth will increase demand for lab supplies, equipment, and services for R&D and quality control. For a lab supply sales team, this signals new opportunities within Carolina Components and across the broader industrial and pharma market."
+}

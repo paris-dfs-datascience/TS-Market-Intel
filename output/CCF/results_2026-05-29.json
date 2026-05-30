@@ -1,0 +1,292 @@
+{
+  "account": "CCF",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1DZYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Cleveland Clinic has established a Space Health Center within its Heart, Vascular & Thoracic Institute to broaden research, education, and clinical care for cardiovascular health conditions related to space travel.",
+        "recipient": "Cleveland Clinic",
+        "department_or_lab": "Space Health Center, Heart, Vascular & Thoracic Institute",
+        "amount": null,
+        "agency": "Center for the Advancement of Science in Space\u00ae (ISS National Lab)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The establishment of a new Space Health Center indicates upcoming demand for specialized research equipment and consumables for cardiovascular and space medicine studies.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/04/29/cleveland-clinic-establishes-space-health-center"
+      },
+      {
+        "summary": "A new NIH-funded study led by scientists at Cleveland Clinic suggests that testosterone may suppress brain tumor growth in males, potentially offering a lead for new glioblastoma treatments.",
+        "recipient": "Cleveland Clinic",
+        "department_or_lab": "Brain Tumor Center",
+        "amount": null,
+        "agency": "National Institutes of Health (NIH), National Cancer Institute (NCI)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Research into glioblastoma and hormone-related therapies will require specialized reagents, cell culture supplies, and potentially new equipment for oncology and neuroscience laboratories.",
+        "source_url": "https://www.nih.gov/news-events/news-releases/nih-funded-study-suggests-testosterone-suppresses-brain-tumor-growth-males"
+      },
+      {
+        "summary": "The Cleveland Clinic Children's Derby Soir\u00e9e raised over $6.5 million to fund vital pediatric care and research.",
+        "recipient": "Cleveland Clinic Children's",
+        "department_or_lab": null,
+        "amount": "$6,500,000",
+        "agency": "Fedeli Family Foundation, Cleveland Superstars, Scala Family Foundation, Cleveland Cavaliers (philanthropic event)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Increased funding for pediatric research will drive demand for a wide range of lab supplies, reagents, and equipment across various pediatric specialties.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/05/06/cleveland-clinic-childrens-derby-soire-raises-more-than-65-million-to-support-pediatric-care-and-research"
+      },
+      {
+        "summary": "The Women's Alzheimer's Movement (WAM) at Cleveland Clinic awarded grants for three research projects focusing on gut-brain interactions, menopause, and sarcopenia in relation to Alzheimer's disease.",
+        "recipient": "Women's Alzheimer's Movement (WAM) at Cleveland Clinic",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "Women's Alzheimer's Movement (WAM) at Cleveland Clinic",
+        "event_date": "2026-05-07",
+        "why_it_matters": "New research into Alzheimer's disease, gut-brain axis, and hormonal changes will require specialized reagents, consumables, and equipment for neuroscience and molecular biology studies.",
+        "source_url": "https://consultqd.clevelandclinic.org/new-wam-grants-support-research-on-gut-brain-interactions-menopause-and-sarcopenia"
+      },
+      {
+        "summary": "The Crohn's & Colitis Foundation recognized Dr. Chu from UAB's Multidisciplinary Inflammatory Bowel Disease (IBD) Program and highlighted the foundation's significant investment in IBD research, including a CDC grant for a UAB project.",
+        "recipient": "UAB (University of Alabama at Birmingham)",
+        "department_or_lab": "Multidisciplinary Inflammatory Bowel Disease (IBD) Program",
+        "amount": null,
+        "agency": "Crohn's & Colitis Foundation (CCF), Centers for Disease Control and Prevention (CDC)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Ongoing and new IBD research at UAB, supported by CCF and CDC, will generate demand for reagents, cell culture media, and equipment for gastroenterology and immunology research.",
+        "source_url": "https://www.uab.edu/medicine/news/surgery/crohns-colitis-foundation-recognizes-chu-as-healthcare-honored-hero"
+      },
+      {
+        "summary": "Dr. Cameron J. Gettel of the Yale School of Medicine, a recipient of a National Institute on Aging (NIA) GEMSSTAR R03 and a Beeson Award (K76), was honored for his work in geriatrics, emergency care, and care transitions.",
+        "recipient": "Cameron J. Gettel, MD, MHS, Yale School of Medicine",
+        "department_or_lab": "Department of Emergency Medicine, Yale Center for Outcomes Research and Evaluation",
+        "amount": null,
+        "agency": "National Institute on Aging (NIA), Beeson Award",
+        "event_date": "2026-05-08",
+        "why_it_matters": "Research into digital health interventions for cognitive impairment and care transitions in older adults, supported by NIA, will require technology, data analysis tools, and potentially new methods for patient monitoring and sample collection.",
+        "source_url": "https://www.americangeriatrics.org/media-center/news/dr-cameron-j-gettel-be-honored-ags26-cross-cutting-work-intersection-geriatrics"
+      },
+      {
+        "summary": "The Cancer Center at Illinois (CCIL) has received designation from the National Cancer Institute (NCI), becoming the nation's 74th NCI-Designated Cancer Center.",
+        "recipient": "The Cancer Center at Illinois (CCIL)",
+        "department_or_lab": null,
+        "amount": null,
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "NCI designation typically leads to increased federal funding and expanded research programs, creating significant demand for a broad range of oncology lab supplies, reagents, and equipment.",
+        "source_url": "https://www.aaci-cancer.org/aaci-update-may-2026"
+      },
+      {
+        "summary": "The UMass Center for Clinical and Translational Science (UMCCTS) has been awarded a seven-year, $50 million renewal of its Clinical and Translational Sciences Award (CTSA) from the National Center for Advancing Translational Sciences of the NIH.",
+        "recipient": "UMass Center for Clinical and Translational Science (UMCCTS)",
+        "department_or_lab": null,
+        "amount": "$50,000,000",
+        "agency": "National Center for Advancing Translational Sciences (NCATS) of the National Institutes of Health (NIH)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "A substantial, long-term grant for clinical and translational science will lead to sustained demand for a wide array of lab supplies, reagents, and equipment for clinical trials and translational research.",
+        "source_url": "https://www.eurekalert.org/news-releases/1129237"
+      },
+      {
+        "summary": "The University of Tennessee Medical Center has received a $7 million state appropriation to support its pursuit of National Cancer Institute (NCI) designation.",
+        "recipient": "University of Tennessee Medical Center",
+        "department_or_lab": null,
+        "amount": "$7,000,000",
+        "agency": "State of Tennessee",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This investment indicates a significant expansion of cancer research and clinical trial capabilities, creating demand for oncology-related lab supplies, screening equipment, and research tools.",
+        "source_url": "https://www.teknovation.biz/states-7m-investment-moves-ut-medical-closer-to-national-cancer-institute-designation/"
+      },
+      {
+        "summary": "Congressman Steve Cohen announced over $2.5 million in National Institutes of Health (NIH) grants to the University of Tennessee Health Science Center (UTHSC) and St. Jude Children's Research Hospital for various research projects.",
+        "recipient": "University of Tennessee Health Science Center (UTHSC) and St. Jude Children's Research Hospital",
+        "department_or_lab": null,
+        "amount": "$2,543,243",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These NIH grants will drive demand for specialized reagents, consumables, and equipment for neuroscience, genetics, and communication disorders research at both institutions.",
+        "source_url": "https://cohen.house.gov/media-center/press-releases/congressman-cohen-announces-25-million-nih-grants-uthsc-and-st-jude-0"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Cleveland Clinic announced the appointment of Beri Ridgeway, M.D., as President of Cleveland Clinic London, effective June 1.",
+        "name": "Dr. Beri Ridgeway",
+        "department": "Cleveland Clinic London (President)",
+        "start_date": "2026-06-01",
+        "event_date": "2026-04-01",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/04/01/cleveland-clinic-appoints-beri-ridgeway-m-d-as-president-of-cleveland-clinic-london/"
+      },
+      {
+        "summary": "Dr. Prajwal Rajappa was recruited to Cleveland Clinic as Director of Pediatric Precision Oncology in late 2025 and is now developing the next generation of this program, integrating molecular diagnostics and next-generation sequencing.",
+        "name": "Dr. Prajwal Rajappa",
+        "department": "Pediatric Precision Oncology",
+        "start_date": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://consultqd.clevelandclinic.org/molecular-profiling-can-refine-diagnosis-guide-treatment-for-children-and-young-adults-with-cancer/"
+      },
+      {
+        "summary": "Cleveland Clinic has established the Space Health Center in the Heart, Vascular & Thoracic Institute, led by Kenneth A. Mayuga, M.D., to incorporate research, education, and clinical care for cardiovascular health conditions related to space travel.",
+        "name": "Kenneth A. Mayuga, M.D.",
+        "department": "Space Health Center, Heart, Vascular & Thoracic Institute",
+        "start_date": "2026-04-29",
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/04/29/cleveland-clinic-establishes-space-health-center/"
+      },
+      {
+        "summary": "Dr. Mariam AlHilli, MD, is the Division Chair of Gynecology within Cleveland Clinic Abu Dhabi's Integrated Surgical Institute.",
+        "name": "Dr. Mariam AlHilli",
+        "department": "Division of Gynecology, Integrated Surgical Institute, Cleveland Clinic Abu Dhabi",
+        "start_date": null,
+        "event_date": "2026-05-07",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.clevelandclinicabudhabi.ae/en/physicians/mariam-alhilli"
+      }
+    ],
+    "capital": [
+      {
+        "summary": "A Cleveland-based community foundation provided a $50 million donation to the Cleveland Clinic to support the expansion of its main campus trauma center and improve emergency care.",
+        "project_name": "Main Campus Trauma Center Expansion",
+        "location": "Cleveland Clinic Main Campus, Cleveland, Ohio",
+        "value": "$50 million",
+        "timeline": "The project is ongoing or upcoming, with no specific completion date mentioned.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "New or expanded clinical facilities, especially trauma centers, will require new medical equipment, diagnostic tools, and a steady supply of consumables and reagents for patient care and associated laboratory services.",
+        "source_url": "https://signalcleveland.org/author/celiah/"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "Cleveland Clinic and its partners are planning a significant new laboratory-research facility on Opportunity Corridor, with a major property acquisition for the site closing this week.",
+        "contract_name": "New Laboratory-Research Facility Development (future procurement opportunities)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "The development of a new laboratory facility by Cleveland Clinic signals significant upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for Thomas Scientific.",
+        "source_url": "https://neo-trans.blog/2026/05/01/clinics-big-new-lab-on-opportunity-corridor/"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Cleveland Clinic Children's is launching a pediatric partial hospitalization program this fall at Cleveland Clinic Children's Hospital for Rehabilitation to expand access to mental health care for children and adolescents, incorporating innovative technologies like virtual reality exposure therapy and AI-assisted emotional regulation therapy.",
+        "product_or_program": "Pediatric Partial Hospitalization Program for Behavioral Health",
+        "stage": "New Program Launch (anticipated Fall 2026)",
+        "therapeutic_or_application_area": "Pediatric Behavioral Health, Mental Health",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This new program will require a range of lab supplies, reagents, consumables, and potentially new equipment for behavioral health diagnostics and treatment, creating immediate sales opportunities.",
+        "source_url": "https://www.beckersbehavioralhealth.com/behavioral-health-news/cleveland-clinic-to-establish-pediatric-behavioral-health-program/"
+      },
+      {
+        "summary": "Cleveland Clinic has established a new Space Health Center, indicating a focus on research and advancements in aerospace medicine.",
+        "product_or_program": "Space Health Center",
+        "stage": "New Center Establishment",
+        "therapeutic_or_application_area": "Space Health, Aerospace Medicine, Research",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The establishment of a new research center indicates potential demand for specialized scientific equipment, lab supplies, and consumables to support space health research initiatives.",
+        "source_url": "https://newsroom.clevelandclinic.org/news-releases?page=2"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Cleveland Clinic is developing a significant laboratory-research facility on a 25-acre site at the southeast corner of Opportunity Corridor Boulevard and East 79th Street in Cleveland, intended for the Clinic and other partners to conduct research in healthcare and biotechnology fields.",
+        "location": "Opportunity Corridor Boulevard and East 79th Street, Cleveland, Ohio, USA",
+        "type_of_expansion": "New dedicated laboratory-research facility",
+        "investment_value": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "A new large-scale laboratory-research facility indicates significant upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for various healthcare and biotechnology research.",
+        "source_url": "https://neo-trans.blog/2026/05/01/clinics-big-new-lab-on-opportunity-corridor/"
+      },
+      {
+        "summary": "Cleveland Clinic is expanding its Neurological Institute with a new one-million-square-foot, state-of-the-art facility designed for integrated patient care and research, featuring a neurological clinical trial suite.",
+        "location": "Cleveland Clinic Main Campus, Cleveland, Ohio, USA",
+        "type_of_expansion": "New dedicated facility (Neurological Institute building) with integrated research and clinical trial components",
+        "investment_value": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "A new, large-scale neurological research and clinical trial facility will generate substantial demand for specialized lab supplies, reagents, and equipment for neuroscience research, diagnostics, and clinical trials.",
+        "source_url": "https://jobs.clevelandclinic.org/neurological-institute-expansion/"
+      },
+      {
+        "summary": "Cleveland Clinic Lerner Research Institute is constructing over 400,000 square feet of new research space, housing state-of-the-art laboratories, technologies, and computational resources, with two new state-of-the-art facilities scheduled to open in 2025 and 2026.",
+        "location": "Cleveland and Florida, USA",
+        "type_of_expansion": "New research space/facilities",
+        "investment_value": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "The construction of significant new research space and state-of-the-art laboratories indicates a substantial increase in demand for a broad range of lab supplies, equipment, and consumables for various research programs.",
+        "source_url": "https://www.lerner.ccf.org/careers/faculty/"
+      },
+      {
+        "summary": "Miami University and Cleveland Clinic were awarded $7 million from the state of Ohio to establish the Ohio Institute for Quantum Computing Research, Talent, and Commercialization.",
+        "location": "Cleveland Innovation District, Ohio, USA",
+        "type_of_expansion": "New research institute (Ohio Institute for Quantum Computing Research, Talent, and Commercialization)",
+        "investment_value": 7000000,
+        "event_date": "2026-05-28",
+        "why_it_matters": "A $7 million investment in a Quantum Computing Research Institute indicates a demand for specialized computing equipment, potentially new types of lab equipment for quantum research, and related consumables.",
+        "source_url": "https://miamioh.edu/news/2026/05/miami-students-receive-internship-opportunities-through-collaboration-with-cleveland-clinic.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Cleveland Clinic has established the Space Health Center within its Heart, Vascular & Thoracic Institute, focusing on research, education, and clinical care for cardiovascular health conditions related to space travel.",
+        "project_name": "Space Health Center",
+        "scope": "The center will conduct research on the effects of space travel on cardiovascular function and health, provide medical care for individuals traveling to space, and educate healthcare professionals and students on space medicine. It involves collaborations with NASA Glenn Research Center and the International Space University.",
+        "timeline": "Established on April 29, 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The creation of a new research-intensive center dedicated to space health will drive demand for specialized scientific equipment, lab supplies, reagents, and consumables for cardiovascular and space medicine research.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/04/29/cleveland-clinic-establishes-space-health-center"
+      },
+      {
+        "summary": "Cleveland Clinic and its partners are planning a significant 25-acre laboratory-research facility at the southeast corner of Opportunity Corridor Boulevard and East 79th Street in Cleveland.",
+        "project_name": "Large Laboratory-Research Facility (Opportunity Corridor)",
+        "scope": "This proposed 25-acre site is intended for a large-scale laboratory-research facility where Cleveland Clinic and other partners will conduct research in affiliated healthcare fields. A 3.64-acre parcel with an industrial building, previously listed for $2.3 million, was acquired as part of this major expansion.",
+        "timeline": "The project is in early developmental stages, with a key property acquisition closing on May 1, 2026.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The development of a new, large-scale laboratory-research facility will generate substantial demand for a wide array of scientific equipment, lab supplies, and reagents for various healthcare and biotechnology research initiatives.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/04/29/cleveland-clinic-establishes-space-health-center"
+      },
+      {
+        "summary": "Cleveland Clinic is expanding its Neurological Institute with a new, one-million-square-foot, 15-floor, state-of-the-art facility on its Main Campus.",
+        "project_name": "Neurological Institute Expansion / New Neurological Institute Building",
+        "scope": "This state-of-the-art facility is designed to elevate care for complex neurological conditions and will integrate clinical care with research and education. It will feature a neurological clinical trial suite to support early-stage and advanced neurological clinical trials and the testing of new therapies, devices, and diagnostic methods, with active hiring for laboratory roles.",
+        "timeline": "The facility is scheduled to open in 2027, with career postings for the expansion published on May 22, 2026.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A one-million-square-foot neurological facility with integrated research and clinical trial suites, and hiring for laboratory roles, indicates a significant demand for advanced scientific equipment, lab supplies, reagents, and consumables for neurological research and diagnostics.",
+        "source_url": "https://newsroom.clevelandclinic.org/2026/04/29/cleveland-clinic-establishes-space-health-center"
+      },
+      {
+        "summary": "Miami University and Cleveland Clinic were awarded a $7 million grant from the state of Ohio to establish the Ohio Institute for Quantum Computing Research, Talent, and Commercialization.",
+        "project_name": "Ohio Institute for Quantum Computing Research, Talent, and Commercialization",
+        "scope": "The institute was established with a $7 million grant from the state of Ohio as part of a broader partnership between Miami University and Cleveland Clinic, focusing on quantum computing research.",
+        "timeline": "The grant was awarded earlier in 2026, with the announcement of the institute's establishment being reported on May 28, 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A $7 million government grant for a quantum computing research institute signifies substantial investment in advanced computational and potentially experimental resources, which will drive demand for specialized scientific equipment and consumables for related research.",
+        "source_url": "https://miamioh.edu/news/2026/05/miami-students-receive-internship-opportunities-through-collaboration-with-cleveland-clinic.html"
+      },
+      {
+        "summary": "Research on inflammatory stromal aging in ulcerative colitis and colitis-associated cancer, co-authored by a Cleveland Clinic researcher, acknowledged funding from NIH/NCI grants (7RO1 CA237304 and U01 CA214300) and a Cleveland Clinic Catalyst grant.",
+        "project_name": "Inflammatory Stromal Aging in Ulcerative Colitis and Colitis-Associated Cancer Research",
+        "scope": "This basic research project investigates inflammatory stromal aging in the context of ulcerative colitis and colitis-associated cancer, supported by significant federal and institutional grants.",
+        "timeline": "The research paper acknowledging these grants was published on May 20, 2026.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The acknowledgment of substantial NIH/NCI grants for clinical research indicates ongoing and future demand for reagents, consumables, and specialized equipment used in molecular biology, cell biology, and pathology research.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725891v1.full-text"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Cleveland Clinic has joined 28 other healthcare organizations as an early adopter in the Centers for Medicare & Medicaid Services (CMS) Electronic Prior Authorization Acceleration initiative, aiming to streamline prior authorization workflows through electronic integration and interoperability improvements ahead of a January 1, 2027, federal deadline.",
+        "product_or_site": "Cleveland Clinic (Health System)",
+        "regulatory_action": "CMS Electronic Prior Authorization Acceleration Initiative Participation",
+        "outcome": "Commitment to integrate electronic prior authorization into clinical and administrative systems, reduce manual processes, and improve interoperability.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This participation indicates an upcoming demand for IT infrastructure, software solutions, and training to support the transition to electronic prior authorization, impacting areas like EHR integration and API development.",
+        "source_url": "https://www.hostalky.com/resources-hub/healthcare-news/cms-prior-authorization-initiative-epic-oracle-cleveland-clinic"
+      }
+    ],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:44:33.899308",
+  "ai_summary": "Cleveland Clinic is undergoing massive research expansion, including new lab facilities, a 400k sq ft Lerner Research Institute addition, and a Neurological Institute expansion. Significant grants fund diverse research in oncology, space health, Alzheimer's, and quantum computing, leveraging advanced technologies like NGS. This growth signals substantial opportunities for lab supply sales, requiring equipment, reagents, and consumables."
+}

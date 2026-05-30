@@ -1,0 +1,105 @@
+{
+  "account": "CONFLUENT MEDICAL",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1ZJYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Confluent Medical Technologies and ATI are making a joint investment of over $50 million to triple the melt capacity for medical-grade Nitinol by 2027.",
+        "location": "Undisclosed",
+        "type_of_expansion": "Capacity expansion (manufacturing)",
+        "investment_value": 50000000,
+        "event_date": "2026-05-01",
+        "why_it_matters": "This expansion indicates increased demand for raw materials and processing equipment for Nitinol, a critical component in medical devices, creating opportunities for lab supply distributors.",
+        "source_url": "https://www.prnewswire.com/news-releases/confluent-taps-tom-testa-as-coo-to-steer-aggressive-medtech-growth-302428594.html"
+      },
+      {
+        "summary": "Confluent Medical Technologies scaled up its Costa Rica operations with a new 67,000-square-foot facility to meet soaring demand for Nitinol components and complex catheters.",
+        "location": "Costa Rica",
+        "type_of_expansion": "New dedicated facility, capacity expansion (manufacturing)",
+        "investment_value": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "A new manufacturing facility in Costa Rica will require a full range of lab supplies, reagents, consumables, and scientific equipment for its operations.",
+        "source_url": "https://www.prnewswire.com/news-releases/confluent-taps-tom-testa-as-coo-to-steer-aggressive-medtech-growth-302428594.html"
+      },
+      {
+        "summary": "Confluent Medical Technologies established a new manufacturing site in Chattanooga, Tennessee, its first in the southeastern U.S., focused on producing critical components for cardiovascular and neurovascular devices.",
+        "location": "Chattanooga, Tennessee, USA",
+        "type_of_expansion": "New dedicated facility, new region market entry (manufacturing)",
+        "investment_value": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "The establishment of a new manufacturing site in Chattanooga represents a significant opportunity for new procurement of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/confluent-taps-tom-testa-as-coo-to-steer-aggressive-medtech-growth-302428594.html"
+      },
+      {
+        "summary": "Confluent Medical Technologies announced the opening of its Nitinol Wire Center of Excellence in Hyderabad, India. This dedicated facility provides 26,000 sq ft of manufacturing space and doubles Confluent's Nitinol wire output.",
+        "location": "Hyderabad, India",
+        "type_of_expansion": "New dedicated facility, capacity expansion (manufacturing)",
+        "investment_value": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "The opening of a new manufacturing facility in India will generate demand for a wide array of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/04/3257896/0/en/Confluent-Medical-Technologies-Announces-Nitinol-Wire-Center-of-Excellence.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Confluent Medical Technologies announced the opening of its Nitinol Wire Center of Excellence in Hyderabad, India, a dedicated 26,000 sq ft manufacturing facility that doubles the company's Nitinol wire output.",
+        "project_name": "Nitinol Wire Center of Excellence",
+        "scope": "A new 26,000 sq ft dedicated manufacturing facility in Hyderabad, India, doubling Confluent's Nitinol wire output. This facility is compliant with ISO 13485 standards.",
+        "timeline": "The facility was announced as opened on May 4, 2026.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "The establishment of a new 26,000 sq ft manufacturing facility for Nitinol wire indicates a significant increase in production capacity, which will drive demand for raw materials, processing equipment, quality control instruments, and various lab consumables for ongoing operations and R&D related to Nitinol wire manufacturing.",
+        "source_url": "https://www.biospace.com/press-releases/confluent-medical-technologies-announces-nitinol-wire-center-of-excellence"
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Confluent Medical Technologies announced the opening of a new 26,000 sq ft Nitinol Wire Center of Excellence in Hyderabad, India, which doubles its Nitinol wire output and allows the Fremont, CA facility to focus on Nitinol tubing.",
+        "facility_or_line": "Nitinol Wire Center of Excellence",
+        "change_type": "New manufacturing site opening, shift in production capacity, new product line",
+        "location": "Hyderabad, India",
+        "investment_value": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "New manufacturing facilities and increased production capacity directly drive demand for new lab supplies, reagents, consumables, and scientific equipment for quality control, R&D, and ongoing production.",
+        "source_url": "https://confluentmedical.com/confluent-medical-technologies-announces-nitinol-wire-center-of-excellence/"
+      },
+      {
+        "summary": "Confluent Medical scaled up its Costa Rica operations with a new 67,000-square-foot facility to meet soaring demand for Nitinol components and complex catheters.",
+        "facility_or_line": "Costa Rica operations (new 67,000 sq ft facility)",
+        "change_type": "Shift in production capacity, new manufacturing site opening",
+        "location": "Costa Rica",
+        "investment_value": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "Expansion of existing facilities and increased production capacity for specific medical device components will necessitate additional lab supplies, reagents, consumables, and scientific equipment for manufacturing, quality control, and R&D.",
+        "source_url": "https://briefglance.com/articles/confluent-taps-tom-testa-as-coo-to-steer-aggressive-medtech-growth"
+      },
+      {
+        "summary": "Confluent Medical established a new manufacturing site in Chattanooga, Tennessee, its first in the southeastern U.S., focused on producing critical components for cardiovascular and neurovascular devices.",
+        "facility_or_line": "New manufacturing site",
+        "change_type": "New manufacturing site opening, new product lines",
+        "location": "Chattanooga, Tennessee",
+        "investment_value": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "New manufacturing sites and the introduction of new product lines drive demand for specialized lab supplies, reagents, consumables, and scientific equipment for production, quality control, and research and development.",
+        "source_url": "https://briefglance.com/articles/confluent-taps-tom-testa-as-coo-to-steer-aggressive-medtech-growth"
+      },
+      {
+        "summary": "Confluent Medical entered a pivotal partnership with ATI, backed by a joint investment of over $50 million, to more than triple the melt capacity for medical-grade Nitinol by 2027.",
+        "facility_or_line": "Nitinol melt capacity (via ATI partnership)",
+        "change_type": "Shift in production capacity",
+        "location": null,
+        "investment_value": "Over $50 million",
+        "event_date": "2026-05-01",
+        "why_it_matters": "A significant increase in raw material melt capacity indicates a substantial increase in future manufacturing volume, leading to higher demand for lab supplies and consumables for material testing, processing, and quality assurance.",
+        "source_url": "https://briefglance.com/articles/confluent-taps-tom-testa-as-coo-to-steer-aggressive-medtech-growth"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:38:09.370575",
+  "ai_summary": "Confluent Medical is undergoing massive global expansion, opening new manufacturing sites in Costa Rica, Tennessee, and India, and investing over $50 million to triple Nitinol melt capacity. This significant ramp-up in production for Nitinol components, catheters, and cardiovascular/neurovascular devices signals a huge increase in demand for lab supplies, equipment, and services across multiple new facilities and expanded operations. Sales teams should engage now."
+}

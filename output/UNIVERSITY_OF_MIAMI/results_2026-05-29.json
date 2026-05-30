@@ -1,0 +1,127 @@
+{
+  "account": "UNIVERSITY OF MIAMI",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkeQYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "University of Miami graduate students were honored with NSF fellowships for their research in biomedical and mechanical engineering.",
+        "recipient": "University of Miami graduate students (general)",
+        "department_or_lab": "Biomedical Engineering and Mechanical Engineering",
+        "amount": null,
+        "agency": "NSF",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This indicates ongoing research in engineering disciplines, suggesting a demand for various lab supplies, consumables, and potentially new equipment for engineering and biomedical studies.",
+        "source_url": "https://news.miami.edu/coe/news/2026/05/nsf-fellowships-recognize-engineering-approaches-to-human-health.html"
+      },
+      {
+        "summary": "Jahn Jaramillo and Lacey Despres, Ph.D. students in Prevention Science at the University of Miami, were awarded NIH F31 Fellowship Grants.",
+        "recipient": "Jahn Jaramillo, Lacey Despres",
+        "department_or_lab": "Department of Public Health Sciences, Prevention Science",
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-05-14",
+        "why_it_matters": "These fellowships indicate active, funded research in prevention science, potentially requiring lab supplies and consumables for their studies.",
+        "source_url": "https://publichealth.med.miami.edu/news/public-health-graduates-celebrated-for-leadership-and-impact/index.html"
+      },
+      {
+        "summary": "Kaylie Cullison, an M.D./Ph.D. student at the University of Miami Miller School of Medicine, secured an NIH F30 grant for her doctoral research in glioblastoma imaging.",
+        "recipient": "Kaylie Cullison",
+        "department_or_lab": "University of Miami Miller School of Medicine (M.D./Ph.D. program, glioblastoma imaging research)",
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This grant supports advanced research in glioblastoma, indicating a need for specialized reagents, imaging consumables, and potentially new equipment for cancer research.",
+        "source_url": "https://inventum.miami.edu/news/2026/05/eight-years-one-vision-a-doctor-scientist-who-will-bridge-the-scientific-and-clinical-worlds.html"
+      },
+      {
+        "summary": "Jasmine Murray, a Ph.D. student at the University of Miami, received an NSF Graduate Research Fellowship for her work in biomaterials, neural repair, and immunomodulation for spinal cord injury.",
+        "recipient": "Jasmine Murray",
+        "department_or_lab": "University of Miami (Ph.D. student, biomaterials and neural repair research)",
+        "amount": null,
+        "agency": "NSF",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This fellowship supports cutting-edge research in biomaterials and neural repair, suggesting demand for specialized lab supplies, reagents for tissue engineering, and potentially microscopy equipment.",
+        "source_url": "https://www.marquette.edu/news/2026/five-marquette-students-and-alumni-receive-nsf-grfp-recognition.php"
+      },
+      {
+        "summary": "Peter J Hosein, MBBS, is the Principal Investigator at the University of Miami for a clinical study (NCT07565155) on Lorigerlimab (MGD019) in patients with pancreatic adenocarcinoma and homologous recombination deficiency.",
+        "recipient": "Peter J Hosein, MBBS",
+        "department_or_lab": "University of Miami",
+        "amount": null,
+        "agency": "NIH",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This clinical trial indicates ongoing research in pancreatic cancer, which will require a steady supply of reagents, consumables, and potentially specialized equipment for patient sample analysis and drug efficacy studies.",
+        "source_url": "https://clinicaltrials.gov/study/NCT07565155"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "Congressman Mario D\u00edaz-Balart presented a $3.1 million check to the University of Miami's Miami Project to Cure Paralysis for research equipment.",
+        "amount": "$3,100,000",
+        "funding_type": "Government program award",
+        "use_of_proceeds": "Acquisition of advanced technology and paralysis research equipment for the Research and Innovation Hub Equipment Expansion project, supporting cutting-edge treatments for neurological conditions.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This new capital will directly lead to increased demand for specialized scientific equipment and consumables needed for paralysis research and neurological condition treatments.",
+        "source_url": "https://news.med.miami.edu/fernando-mendoza-family-fund-ms-research-university-miami/"
+      },
+      {
+        "summary": "Fernando Mendoza and his family launched the Mendoza Family Fund with a $500,000 gift in partnership with the National MS Society to support multiple sclerosis research in stem cell transplantation at the University of Miami Health System and the Miller School of Medicine.",
+        "amount": "$500,000",
+        "funding_type": "Strategic investment",
+        "use_of_proceeds": "Support multiple sclerosis research in stem cell transplantation, including a clinical trial and laboratory manufacturing of stem cells.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This capital will drive demand for specialized reagents, consumables, and potentially equipment for stem cell transplantation research related to multiple sclerosis.",
+        "source_url": "https://news.med.miami.edu/fernando-mendoza-family-fund-ms-research-university-miami/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Congressman Mario D\u00edaz-Balart presented a $3.1 million check to the University of Miami's Miami Project to Cure Paralysis for the Research and Innovation Hub Equipment Expansion project. The funding aims to enhance research capabilities and advance treatment development for neurological conditions, including Alzheimer's disease, through the acquisition of advanced technology.",
+        "project_name": "Miami Project to Cure Paralysis Research and Innovation Hub Equipment Expansion",
+        "scope": "Enhancing research capabilities and advancing treatment development for neurological conditions, including Alzheimer's disease, through the acquisition of advanced technology.",
+        "timeline": "The funding was secured through H.R. 6938, signed into law on January 23, 2026.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This project indicates a direct demand for new scientific equipment and potentially specialized reagents and consumables for advanced neurological research and treatment development.",
+        "source_url": "https://www.quiverquant.com/news/Press+Release%3A+D%C3%ADaz-Balart+Presents+%243.1+Million+Check+to+University+of+Miami%27s+Project+to+Cure+Paralysis"
+      },
+      {
+        "summary": "UHealth \u2013 University of Miami Health System launched a new Comprehensive Aortic Center, a multidisciplinary program bringing together cardiac and vascular surgeons, cardiologists, and genetic specialists to provide advanced care for aortic aneurysms, dissections, and valve disease. The center plans to use a hybrid operating room with advanced imaging.",
+        "project_name": "Comprehensive Aortic Center",
+        "scope": "Providing advanced, lifesaving care for aortic aneurysms, dissections, and valve disease through a multidisciplinary approach involving cardiac and vascular surgeons, cardiologists, and genetic specialists. The center will incorporate a hybrid operating room with advanced imaging.",
+        "timeline": "The center is a few months old and is expanding rapidly, with plans to start using a hybrid operating room in the coming months.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "The launch of a new medical center, particularly one incorporating a hybrid operating room with advanced imaging, signals demand for specialized surgical equipment, diagnostic tools, and related consumables.",
+        "source_url": "https://news.med.miami.edu/comprehensive-aortic-program-uhealth/"
+      },
+      {
+        "summary": "The Sylvester Firefighter Cancer Initiative at the University of Miami received $1.5 million from the House to support cancer screening, prevention, and treatment programs for firefighters. Most of the funds are designated for research, equipment, supplies, travel, outreach, education, and recruitment.",
+        "project_name": "Sylvester Firefighter Cancer Initiative",
+        "scope": "Supporting cancer screening, prevention, and treatment programs for firefighters, with funds allocated for research, equipment, supplies, travel, outreach, education, and recruitment.",
+        "timeline": "The funding was part of last-minute allocations by state lawmakers, published on May 25, 2026.",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This government-funded initiative explicitly mentions the need for equipment and supplies for cancer research and programs, indicating upcoming demand for scientific products.",
+        "source_url": "https://floridapolitics.com/archives/798270-sprinkle-list-lawmakers-steer-millions-toward-south-florida-projects/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Dipen J. Parekh, M.D., CEO of UHealth \u2013 University of Miami Health System and founding director of the Desai Sethi Urology Institute, was awarded the Barringer Medal by the American Association of Genitourinary Surgeons for his distinguished career in urologic cancer treatment and pioneering work in artificial intelligence-driven surgery. He also accepted the Magnier Endowed Chair in Urology.",
+        "researcher_name": "Dipen J. Parekh, M.D.",
+        "department_or_lab": "UHealth \u2013 University of Miami Health System, Desai Sethi Urology Institute",
+        "award_or_discovery": "Barringer Medal from the American Association of Genitourinary Surgeons and Magnier Endowed Chair in Urology for pioneering work in artificial intelligence-driven surgery.",
+        "significance": "The Barringer Medal is a highly selective honor in academic urology, recognizing sustained excellence and future impact, particularly for members younger than 60. The endowed chair signifies ongoing leadership and research investment. His pioneering work in AI-driven surgery represents a significant advancement in the field.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This recognition of pioneering work in AI-driven surgery and the establishment of an endowed chair signals increased research activity and investment in advanced surgical technologies and related lab supplies, reagents, and equipment at the Desai Sethi Urology Institute.",
+        "source_url": "https://news.med.miami.edu/dipen-parekh-barringer-medal-urology-ai-surgery/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:03:03.712355",
+  "ai_summary": "University of Miami is seeing a significant boost in research, fueled by new grants and substantial funding for graduate students and major projects. Focus areas include neurological conditions, cancer, MS, and biomedical engineering, with explicit mentions of acquiring research equipment, advanced technology, and supplies. This robust funding and expansion directly signal increased demand for lab supplies, reagents, and instruments across diverse, high-impact research initiatives."
+}

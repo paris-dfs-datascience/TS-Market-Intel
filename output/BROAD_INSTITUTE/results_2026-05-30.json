@@ -1,0 +1,68 @@
+{
+  "account": "BROAD INSTITUTE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1cEYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A new study on Alzheimer's beginnings, with collaborators at the Broad Institute, received funding from an NSF Graduate Research Fellowship, multiple NIH grants, and a Department of Defense grant.",
+        "recipient": "Broad Institute (as collaborator)",
+        "department_or_lab": "Not specified for Broad Institute, but the study is on Alzheimer's",
+        "amount": "Not specified for individual grants, but lists multiple grant numbers: NSF Graduate Research Fellowship (2024369596), NIH (DP5OD028133, RF1AG047644, R01NS090934, U19AG069701, P30AG062421, P30AG066462, R01AG072474, U24AG056270), DoD (W81XWH-21-1-0093).",
+        "agency": "NSF, NIH, Department of Defense",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This indicates ongoing research in Alzheimer's disease at Broad, suggesting potential demand for neuroscience and genomics lab supplies.",
+        "source_url": "https://www.cuimc.columbia.edu/news/new-study-finds-clues-alzheimers-beginnings"
+      },
+      {
+        "summary": "Research on predicting gene perturbations for cancer immunotherapy, with affiliations to Broad Institute's Eric and Wendy Schmidt Center and Klarman Cell Observatory, received funding from NIH/NIAID, NSF CAREER, and the Office of Naval Research.",
+        "recipient": "Eric and Wendy Schmidt Center, Broad Institute; Klarman Cell Observatory, Broad Institute",
+        "department_or_lab": "Eric and Wendy Schmidt Center, Klarman Cell Observatory",
+        "amount": "Not specified for individual grants, but lists grant numbers: NIH/NIAID (DP2AI171161), NSF CAREER (2238831), Office of Naval Research (N00014-24-1-2687).",
+        "agency": "NIH/NIAID, NSF, Office of Naval Research (DoD)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This indicates active research in cancer immunotherapy and machine learning at Broad, suggesting demand for cell culture, genomics, and computational resources.",
+        "source_url": "https://www.biorxiv.org/content/10.1101/2026.05.22.694200v1"
+      },
+      {
+        "summary": "Research on copper depletion for CNS leukemia therapy, with Broad Institute affiliation, was supported by multiple NIH grants (NCI, NHLBI, NIGMS, NIA) and an NSF grant (GFRP/BIO/MCB).",
+        "recipient": "Broad Institute of MIT and Harvard (as affiliation/contributor to research)",
+        "department_or_lab": "Not specified for Broad Institute, but the research is on CNS leukemia therapy.",
+        "amount": "Not specified for individual grants, but lists grant numbers: NIH (1 RO1 CA279550-01, 1 F31 HL178310-01, 5R35GM124749, R21AG091645), NSF (GFRP/BIO/MCB).",
+        "agency": "NIH (NCI, NHLBI, NIGMS, NIA), NSF",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This indicates active research in leukemia therapy and metabolism at Broad, suggesting demand for cell biology, biochemistry, and drug discovery reagents and equipment.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38789304/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Broad Institute researchers, in collaboration with The Jackson Laboratory and Children's Hospital of Philadelphia, have demonstrated the potential of precision DNA base editing to correct mutations causing Dravet syndrome in preclinical models, restoring brain function and reducing seizures. This work builds on a long-standing collaboration in gene editing and is supported by multiple NIH institutes and the Broad Institute Chemical Biology and Therapeutics Science.",
+        "project_name": "Precision DNA Base Editing for Dravet Syndrome",
+        "scope": "Preclinical study demonstrating the efficacy of base editing to repair SCN1A gene mutations in models of Dravet syndrome, with implications for other neurodevelopmental disorders. The goal is to establish the platform's overall safety and efficacy for adapting to new mutations.",
+        "timeline": "Ongoing collaboration with recent breakthroughs reported, building on previous work in gene editing for other rare genetic diseases.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This research will drive demand for gene editing reagents, specialized cell culture media, animal model supplies, and advanced analytical equipment for DNA sequencing and functional assays.",
+        "source_url": "https://www.broadinstitute.org/news/precision-dna-editing-targets-root-cause-severe-childhood-epilepsy-preclinical-study"
+      },
+      {
+        "summary": "The Broad Institute's Data Sciences Platform (DSP) continues its pivotal role in major national and international scientific initiatives, including the NIH-funded All of Us Research Program, NHGRI's Genomic Data Science Analysis, Visualization, and Informatics Lab-Space (AnVIL), and the NIH BRAIN Initiative's Brain Initiative Cell Atlas Network (BICAN) consortium. Broad Clinical Labs is also highlighted as a key partner for a new X01 Resource Access Award opportunity within the All of Us program, focusing on generating multi-omic data from participant biospecimens at scale.",
+        "project_name": "Broad Institute Data Sciences Platform Support for National Biomedical Initiatives (All of Us, AnVIL, BICAN)",
+        "scope": "Developing and operating software products and services for large-scale genomic and clinical data, including data access, variant discovery, single-cell data visualization, and supporting multi-omic data generation from biospecimens for programs like All of Us, AnVIL, and BICAN.",
+        "timeline": "Ongoing, multi-year initiatives with new opportunities for data generation and expanded scope, as evidenced by the new X01 Resource Access Award opportunity.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "These large-scale data and genomics initiatives will drive demand for advanced sequencing reagents, bioinformatics software, high-performance computing infrastructure, and specialized consumables for multi-omic sample preparation.",
+        "source_url": "https://www.broadinstitute.org/data-sciences-platform/offerings-and-projects"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:19:57.038437+00:00",
+  "ai_summary": "Broad Institute is experiencing significant growth with new grants funding diverse research in Alzheimer's, cancer, and leukemia. Key projects include precision gene editing for Dravet syndrome and large-scale multi-omic data generation for national initiatives. This sustained funding and high-impact work across genomics, chemical biology, and clinical labs signals a strong, ongoing demand for a wide array of specialized lab supplies, reagents, and high-throughput instrumentation."
+}

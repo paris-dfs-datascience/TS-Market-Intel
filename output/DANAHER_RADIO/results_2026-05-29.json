@@ -1,0 +1,48 @@
+{
+  "account": "DANAHER RADIO",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1V2YAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Genedata, a Danaher company, launched Genedata Vico\u2122, an AI-native solution designed to accelerate Chemistry, Manufacturing, and Control (CMC) processes in biopharma R&D.",
+        "amount": null,
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "Development and deployment of an AI-native solution for data-driven experimentation, process monitoring, and predictive risk assessment to enhance R&D capability and lab/QC system build-out in biopharma CMC processes.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The introduction of this AI-native platform for CMC processes indicates an investment in advanced R&D and quality control systems, which will likely increase demand for specialized lab equipment, reagents, and consumables.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdpYdvMM34xsN2adcm8l5WFxdcuxM2PxGuokXmYys0xDX9UhYpnlEbxbUP3L8rytkDczdMftRT-q7_z1djiLz62ZZ0-ZTAntXHkHYYDy5T4XLmhuU_nzPtfSesmfF8y6p2H3SdbCMU9Httl6u6msyO9AviNQZ3PWLk53hN9QpNzOnm0xjHuQko8qPQelKeMu5EeXHSeB0zkruifhaUGDdx9A33b-wPIDkrYWNKWGKixco90PGUpJwtGzOft7Qdl-vYPA9bgzM6uUeIgLzKU-s="
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Genedata, a Danaher company, launched Genedata Vico\u2122, an AI-native solution designed to accelerate Chemistry, Manufacturing, and Control (CMC) processes in biopharmaceutical drug development and manufacturing. The solution enables data-driven experimentation, process monitoring, and predictive risk assessment.",
+        "facility_or_line": "Genedata Vico\u2122 (AI-native software platform)",
+        "change_type": "New product line (software solution for manufacturing optimization)",
+        "location": "Global biopharma manufacturing (impacts processes worldwide)",
+        "investment_value": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "New software solutions for manufacturing processes drive demand for compatible lab equipment, reagents for process development, and QC consumables for enhanced monitoring and data analysis.",
+        "source_url": "https://www.genedata.com/company/news"
+      },
+      {
+        "summary": "Masimo Corporation announced that its stockholders voted in favor of the proposal to adopt the previously announced Agreement and Plan of Merger with Danaher Corporation, under which Danaher will acquire Masimo for $180 per share in cash.",
+        "facility_or_line": "Masimo Corporation's manufacturing facilities and product lines (patient monitoring, sensors, medical technologies)",
+        "change_type": "Acquisition leading to expanded product lines and potential shifts in production capacity/integration",
+        "location": "Masimo's global operations",
+        "investment_value": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "An acquisition expands Danaher's product portfolio, potentially increasing demand for raw materials, components, and QC supplies across the newly integrated manufacturing operations.",
+        "source_url": "https://www.masimo.com/media/masimo-shareholders-approve-acquisition-by-danaher"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:32:12.259829",
+  "ai_summary": "Danaher is accelerating biopharma R&D and manufacturing with Genedata's AI-native Vico\u2122 solution for CMC processes. This innovation drives demand for advanced lab supplies, reagents, and equipment to support data-driven experimentation and process monitoring. The Masimo acquisition signals strategic growth, creating new sales opportunities for lab supply teams within Danaher's expanding portfolio."
+}

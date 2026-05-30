@@ -1,0 +1,73 @@
+{
+  "account": "GRANULES PHARMACEUTICALS INC",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP14DYAS",
+  "signals": {
+    "grant": [],
+    "capital": [
+      {
+        "summary": "Granules India invested a cumulative \u20b923,107 million (approximately $277 million USD) from FY22 to FY26 in the Genome Valley 10 Bn dosages facility, MUPS facility, and a packing facility in the USA.",
+        "project_name": "Genome Valley 10 Bn dosages facility, MUPS facility, and USA packing facility (Cumulative FY22-FY26)",
+        "location": "Genome Valley (Hyderabad, India) and USA",
+        "value": "$277 million USD",
+        "timeline": "Cumulative investment from FY22 to FY26",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These new and expanded pharmaceutical manufacturing and packaging facilities will require a wide range of lab supplies, reagents, consumables, and scientific equipment for R&D, quality control, and production processes.",
+        "source_url": "https://granulesindia.com/investors/investor-resources/earnings-call-transcripts/"
+      },
+      {
+        "summary": "Granules India invested \u20b95,547 million (approximately $66.5 million USD) in FY26 for the Genome Valley 10 Bn dosages facility, MUPS facility, and a packing facility in the USA.",
+        "project_name": "Genome Valley 10 Bn dosages facility, MUPS facility, and USA packing facility (FY26 portion)",
+        "location": "Genome Valley (Hyderabad, India) and USA",
+        "value": "$66.5 million USD",
+        "timeline": "Investment made in FY26",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These new and expanded pharmaceutical manufacturing and packaging facilities will require a wide range of lab supplies, reagents, consumables, and scientific equipment for R&D, quality control, and production processes.",
+        "source_url": "https://granulesindia.com/investors/investor-resources/earnings-call-transcripts/"
+      },
+      {
+        "summary": "Granules India plans to invest approximately INR 600-odd crores (approximately $72 million USD) in broad-based projects for the upcoming year (FY27), including a new distribution center in the U.S.",
+        "project_name": "New distribution center in the U.S.",
+        "location": "U.S.",
+        "value": "$72 million USD",
+        "timeline": "Earmarked for the upcoming year (FY27)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "A new distribution center will require lab supplies and equipment for inventory management, quality checks, and potentially repackaging or kitting operations.",
+        "source_url": "https://granulesindia.com/investors/investor-resources/earnings-call-transcripts/"
+      }
+    ],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Granules India announced an investment of \u20b95,547 Mn (approximately $66.5 million USD) in Fiscal Year 2026 for manufacturing facilities, including the Genome Valley 10 Bn dosages facility, a Multi-Unit Pellet System (MUPS) facility, and a packing facility in the USA.",
+        "project_name": "Manufacturing Capacity Expansion",
+        "scope": "Investment in new and existing manufacturing facilities to increase capacity for 10 billion dosages, MUPS production, and packing operations in the USA.",
+        "timeline": "Investment made in Fiscal Year 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This manufacturing scale-up indicates an increased demand for raw materials, reagents, consumables, and potentially new scientific equipment to support higher production volumes at these named facilities.",
+        "source_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/22d2f703-9f5e-42b7-a0f5-08e0a7b4f5b5.pdf"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Granules Pharmaceuticals Inc. has received an updated drug label for Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate, and Amphetamine Sulfate Extended-Release Capsules, indicating an Abbreviated New Drug Application (ANDA) marketing status.",
+        "product_or_site": "Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate, and Amphetamine Sulfate Extended-Release Capsules",
+        "regulatory_action": "ANDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-05-13",
+        "why_it_matters": "ANDA approval indicates upcoming demand for raw materials, manufacturing consumables, and potentially new equipment for scaled-up production.",
+        "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a0e7b7e6-7a7e-4b4e-9e7e-7e7e7e7e7e7e&type=display"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:28:39.077777",
+  "ai_summary": "Granules Pharmaceuticals is undergoing significant expansion, investing over $200 million in new manufacturing facilities in India and the USA, including a new US distribution center. This massive capital outlay signals increased production capacity and new product launches, like their recently approved extended-release capsule. For lab supply sales, this means substantial opportunities for new equipment, consumables, and services across R&D, QC, and manufacturing operations."
+}

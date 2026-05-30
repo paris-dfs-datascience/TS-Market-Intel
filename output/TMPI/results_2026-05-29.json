@@ -1,0 +1,64 @@
+{
+  "account": "TMPI",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011M00002FBPyiQAH",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Forlong Biotechnology, a clinical-stage biotech company, successfully completed an RMB 120 million (approximately USD 17.5 million) Series Pre-B financing round.",
+        "amount": "USD 17.5 million",
+        "funding_type": "Private Equity Funding",
+        "use_of_proceeds": "Proceeds will be used to advance FL115, an IL-15 superagonist, into the pivotal clinical stage, and FL116, a PD-1/IL-18 bispecific, into clinic, strengthening operational readiness and accelerating clinical development momentum.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "New capital for clinical development and operational readiness indicates increased demand for lab supplies, reagents, and consumables for R&D and testing.",
+        "source_url": "https://www.biospace.com/article/releases/forlong-raises-approximately-120-million-rmb-in-series-pre-b-financing-to-advance-its-il-15-and-il-18-pipeline/"
+      },
+      {
+        "summary": "InfiMotion Technology celebrated the rollout of the first prototypes from its Intelligent High-Voltage, Highly Integrated e-Drive project, representing a total investment of RMB 3.3 billion (approximately USD 450 million).",
+        "amount": "USD 450 million",
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "The project strengthens InfiMotion's manufacturing capabilities and enhances end-to-end capabilities from R&D to large-scale manufacturing for high-voltage platforms and highly integrated e-drive systems.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Investment in new production infrastructure and R&D for e-drive systems will likely lead to increased demand for various lab supplies, equipment for testing, quality control, and manufacturing processes.",
+        "source_url": "https://www.infimotion.com/news/detail/20260514"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Annovis Bio, Inc. closed a $10 million underwritten public offering to fund the development of an oral therapy for Alzheimer's and Parkinson's diseases.",
+        "project_name": "Development of buntanetap for Alzheimer's and Parkinson's diseases",
+        "scope": "Funding operations through a key symptomatic data readout of its Phase 3 AD trial and anticipated New Drug Application (NDA) submission to the U.S. Food and Drug Administration (FDA), and an ongoing open-label extension study in PD patients.",
+        "timeline": "Cash runway extended through the second quarter of 2027, with Phase 3 AD trial data readout and NDA submission anticipated.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This investment in late-stage clinical trials and regulatory filings will increase demand for specialized reagents, consumables, and analytical equipment for drug development and clinical sample analysis.",
+        "source_url": "https://pennbizreport.com/news/32469-malvern-company-closes-10m-offering-to-extend-alzheimers-therapy-testing/?amp"
+      },
+      {
+        "summary": "Cartesian Therapeutics secured up to $150 million of non-dilutive financing from K2 HealthVentures, with an initial $50 million tranche, to accelerate commercial launch preparation and fund clinical programs.",
+        "project_name": "Advancement of Descartes-08 clinical programs and commercial launch preparation",
+        "scope": "Funding operations into 2028, including three clinical data readouts (Phase 3 AURORA in MG, Phase 2 TRITON in myositis, and pediatric HELIOS) and a planned mid-2027 Biologics License Application (BLA) filing.",
+        "timeline": "Cash runway extended into 2028; Phase 3 AURORA data expected in Q1 2027, BLA filing planned for mid-2027, Phase 2 TRITON and pediatric HELIOS results in H1 2027.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This significant financing for late-stage clinical trials, BLA filing, and commercial launch preparation signals a substantial increase in demand for R&D consumables, analytical services, and potentially manufacturing scale-up for clinical and commercial supply.",
+        "source_url": "https://www.1stoncology.com/blog/cartesian-therapeutics-secures-up-to-150-million-of-non-dilutive-financing-from-k2-healthventuresexpects-topline-data-from-the-phase-3-aurora-trial-in-first-quarter-20271234666058/"
+      },
+      {
+        "summary": "The FORGE Coalition launched with a vision to transform Tampa Bay into a leading hub for radiopharmaceutical development, manufacturing, and precision oncology.",
+        "project_name": "Florida Oncology and Radiopharmaceutical Growth Engine (FORGE) Coalition",
+        "scope": "Building a complete radiopharmaceutical ecosystem, including a radiopharmaceutical-focused incubator, an integrated theranostics center, imaging technologist training programs, and nuclear pharmacy opportunities.",
+        "timeline": "Projects 4,000 high-wage jobs and $2.6 billion in economic impact over the next 10 years.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The establishment of a new radiopharmaceutical innovation, training, and production hub will drive substantial demand for specialized lab equipment, radiochemicals, and consumables for R&D, manufacturing, and quality control.",
+        "source_url": "https://www.moffitt.org/newsroom/news-releases/forge-coalition-launches-to-position-tampa-bay-as-southeast-hub-for-radiopharmaceutical-innovation-training-and-production/"
+      }
+    ],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T19:19:34.228081",
+  "ai_summary": "New funding and projects are fueling substantial growth in biotech and pharmaceutical R&D, especially for novel therapies and radiopharmaceutical development. Companies are expanding clinical programs and preparing for commercial launches, alongside the creation of new regional hubs. This surge in activity indicates a high demand for lab equipment, consumables, and services, creating significant sales opportunities for lab supply teams."
+}

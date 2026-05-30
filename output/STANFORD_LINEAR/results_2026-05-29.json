@@ -1,0 +1,134 @@
+{
+  "account": "STANFORD LINEAR",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001G000001gYYmiIAG",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "SLAC National Accelerator Laboratory and Citrine Informatics have formed a new two-year public-private partnership, funded by the Department of Energy's Advanced Manufacturing Office, to research new materials, including metallic glasses and nanoparticle catalysts.",
+        "amount": null,
+        "funding_type": "Government Program Award / Public-Private Partnership",
+        "use_of_proceeds": "Materials synthesis and characterization, optimizing nanoparticle catalysts, developing high-strength metallic glasses, and general materials research.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This investment in materials research and optimization will likely lead to increased demand for specialized reagents, characterization consumables, and potentially new or upgraded scientific equipment for materials synthesis and analysis at SLAC.",
+        "source_url": "https://www.energy.gov/cmei/amo/articles/artificial-intelligence-future-new-materials-discovery"
+      },
+      {
+        "summary": "SLAC National Accelerator Laboratory is a partner in a $4 million project led by the National Renewable Energy Laboratory (NREL), funded by the Department of Energy's Advanced Materials & Manufacturing Technologies Office (AMMTO), to advance next-generation solid-state battery technology through novel dry process electrode manufacturing.",
+        "amount": 4000000,
+        "funding_type": "Government Program Award",
+        "use_of_proceeds": "Advancing next-generation solid-state battery technology, novel dry process electrode manufacturing, state-of-the-art modeling, advanced characterization, new material formulation, novel high-throughput processing, and unique three-dimensional cell architecture.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This funding for advanced battery manufacturing and research will drive demand for specialized chemicals, materials, and consumables used in battery development, as well as potentially new processing and characterization equipment for solid-state battery research at SLAC.",
+        "source_url": "https://www.energy.gov/cmei/ammto/funding-selections-fy23-ammto-battery-manufacturing-lab-call"
+      },
+      {
+        "summary": "SLAC National Accelerator Laboratory is a partner in the Accelerated Catalyst Design Foundry (ACDF) project, led by Argonne National Laboratory, which received $2.77 million from the Department of Energy's ARPA-E to accelerate catalyst discovery and commercialization using AI and automated laboratories.",
+        "amount": 2770000,
+        "funding_type": "Government Program Award",
+        "use_of_proceeds": "Accelerating catalyst discovery, automated laboratories, rapid testing, pilot-scale evaluation, and applying AI for chemical manufacturing.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "SLAC's involvement in this project will increase demand for catalysts, reagents, and consumables for chemical synthesis and testing, as well as potentially requiring new or upgraded analytical and automation equipment for catalyst research.",
+        "source_url": "https://www.anl.gov/article/argonne-to-lead-28m-project-to-accelerate-catalyst-discovery"
+      }
+    ],
+    "project": [
+      {
+        "summary": "The X-ray Pump Probe (XPP) instrument at SLAC's Linac Coherent Light Source (LCLS) is back online after a year-long rebuild, marking a key milestone in the ongoing high-energy upgrade to LCLS. This upgrade, which began in 2025 and is expected to take about two years to complete, will significantly increase X-ray output, enabling XPP to gather more data, achieve higher spatial resolution, and support a wider range of experiments.",
+        "project_name": "High-energy upgrade to the Linac Coherent Light Source (LCLS) and X-ray Pump Probe (XPP) instrument rebuild",
+        "scope": "The overhaul prepared XPP for a significant increase in X-ray output from the LCLS high-energy upgrade. The upgrade will produce high-energy X-rays at repetition rates up to a million pulses per second. Fermilab completed its part by delivering the final component for the superconducting accelerator, which adds 23 cryomodules, doubling the beam energy and more than doubling the maximum X-ray energy.",
+        "timeline": "XPP rebuild completed (April 2026). High-energy upgrade began in 2025 and is expected to take about two years to complete (end of 2027).",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This upgrade will drive demand for advanced X-ray optics, detectors, and specialized consumables for high-repetition-rate experiments, as well as maintenance and calibration supplies for the enhanced LCLS facility.",
+        "source_url": "https://www6.slac.stanford.edu/news/2026-04-29-groundbreaking-instrument-back-online-marking-key-milestone-high-energy-upgrade"
+      },
+      {
+        "summary": "The Department of Energy (DOE) High Energy Physics program, Quantum Information Science Enabled Discovery (QuantISED), is entering its next phase, QuantISED 2.0. This program brings together researchers across disciplines to develop quantum technologies for exploring fundamental physics questions, including dark matter and quantum gravity.",
+        "project_name": "QuantISED 2.0 (Quantum Information Science Enabled Discovery)",
+        "scope": "Development of quantum technologies, including new types of quantum detectors and devices, for fundamental physics research (dark matter, quantum gravity).",
+        "timeline": "QuantISED program launched in 2018, now entering 'next phase' (QuantISED 2.0).",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This initiative will generate demand for specialized quantum computing components, cryogenics, ultra-sensitive detectors, and advanced materials for quantum device fabrication and experimentation.",
+        "source_url": "https://www6.slac.stanford.edu/news/2026-05-19-building-quantum-toolbox"
+      },
+      {
+        "summary": "Researchers at SLAC National Accelerator Laboratory and Citrine Informatics have formed a new two-year public-private partnership, funded by the Energy Department's Advanced Manufacturing Office (AMO), to develop a methodology for discovering new materials using artificial intelligence and SLAC's Stanford Synchrotron Radiation Lightsource (SSRL).",
+        "project_name": "AI-driven Materials Discovery Partnership (SLAC & Citrine Informatics)",
+        "scope": "Develop a methodology for discovering new materials by combining AI with SLAC's SSRL data collection. Initial work includes metallic glasses and optimizing nanoparticle catalyst synthesis.",
+        "timeline": "New two-year partnership.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This partnership will create demand for advanced computational hardware, specialized software licenses, materials characterization equipment, and a wide range of reagents and consumables for synthesizing and testing new materials.",
+        "source_url": "https://www.energy.gov/cmei/amo/articles/artificial-intelligence-future-new-materials-discovery"
+      },
+      {
+        "summary": "Recent publications highlight SLAC's ongoing leadership in building the LSST Camera for the NSF\u2013DOE Vera C. Rubin Observatory. The Rubin Observatory will conduct the 10-year Legacy Survey of Space and Time (LSST), mapping the southern sky and generating petabytes of data to study dark energy, dark matter, and galaxy formation.",
+        "project_name": "NSF\u2013DOE Vera C. Rubin Observatory / Legacy Survey of Space and Time (LSST) Camera construction and operation",
+        "scope": "SLAC is leading the construction of the 3.2-billion-pixel LSST Camera, the largest digital camera ever built for astrophysics. The observatory will survey the entire southern sky every few nights for a decade.",
+        "timeline": "The LSST is a 10-year survey. Construction of the camera is ongoing.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This long-term project will drive sustained demand for high-performance computing infrastructure, data storage solutions, specialized optical components, detectors, and various lab supplies for instrument maintenance and calibration.",
+        "source_url": "https://www6.slac.stanford.edu/topics/infrastructure-safety"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "SLAC and Stanford researchers have developed a breakthrough technique to rapidly design proteins, revealing new details that could benefit medicine and manufacturing.",
+        "researcher_name": "SLAC and Stanford researchers",
+        "department_or_lab": "SLAC National Accelerator Laboratory and Stanford University",
+        "award_or_discovery": "Breakthrough method for rapid protein design",
+        "significance": "This method offers a potentially simpler pathway to making improved drugs and catalysts, and generated new insights that allowed the team to turn a single designed protein into two new proteins with completely different functions \u2013 one of which is the most active designed enzyme to date.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This breakthrough in protein design signals high-impact lab activity and potential demand for reagents, consumables, and equipment for structural biology, drug discovery, and materials science.",
+        "source_url": "https://www6.slac.stanford.edu/news/2026-05-04-researchers-pioneer-method-rapidly-design-proteins"
+      },
+      {
+        "summary": "Researchers from Stanford University, UCLA, and SLAC National Accelerator Laboratory have developed a deep learning surrogate model that dramatically speeds up simulations of nonlinear optical processes in ultrafast laser systems, achieving acceleration orders of magnitude higher than traditional methods.",
+        "researcher_name": "Researchers from Stanford University, UCLA, and SLAC National Accelerator Laboratory",
+        "department_or_lab": "SLAC National Accelerator Laboratory, Stanford University, University of California, Los Angeles (UCLA)",
+        "award_or_discovery": "Breakthrough in AI-driven ultrafast laser simulations",
+        "significance": "This method significantly improves computational efficiency while maintaining high fidelity, providing new ideas for the rapid design and optimization of ultrafast laser systems, and could support digital twins and adaptive control methods in laser-driven research facilities.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This breakthrough in AI-driven simulation for ultrafast laser systems indicates increased demand for high-performance computing resources, specialized software, and potentially new experimental setups at SLAC and collaborating institutions.",
+        "source_url": "https://scitechdaily.com/scientists-use-ai-to-supercharge-ultrafast-laser-simulations-by-more-than-250x/"
+      },
+      {
+        "summary": "Scientists at SLAC's Linac Coherent Light Source (LCLS) achieved the first measurement of X-ray photoemission delay using attosecond X-ray pulses, a breakthrough that challenges existing theoretical models and provides an unprecedented tool for investigating electron-electron interactions.",
+        "researcher_name": "Taran Driver",
+        "department_or_lab": "SLAC National Accelerator Laboratory (Linac Coherent Light Source - LCLS)",
+        "award_or_discovery": "First measurement of X-ray photoemission delay",
+        "significance": "This breakthrough refines models of electron-electron interactions and opens pathways to technological advances in next-generation catalysts and quantum computing.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This fundamental breakthrough in understanding electron dynamics using attosecond X-ray pulses signals high-impact research requiring advanced X-ray light sources, detectors, and specialized materials for quantum computing and catalysis.",
+        "source_url": "https://www.energy.gov/science/bes/articles/interactions-between-x-rays-and-matter-provide-insights-how-electrons-behave"
+      },
+      {
+        "summary": "Researchers at SLAC National Accelerator Laboratory have developed a new technique combining physics simulation with machine learning for real-time, six-dimensional particle beam characterization, requiring significantly fewer experimental measurements than previous methods.",
+        "researcher_name": "Ryan Roussel and Auralee Edelen",
+        "department_or_lab": "SLAC National Accelerator Laboratory",
+        "award_or_discovery": "New technique for real-time 6D particle beam characterization using physics and machine learning",
+        "significance": "This approach provides a faster, more flexible, and high-precision tool for accelerator research and development, improving accelerator monitoring and control.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This breakthrough in particle beam characterization signals demand for advanced computational resources, specialized sensors, and control systems for accelerator facilities, impacting future experimental capabilities.",
+        "source_url": "https://www.energy.gov/science/bes/articles/combining-physics-and-machine-learning-analyze-particle-beams-accelerators"
+      },
+      {
+        "summary": "SLAC and Stanford researchers discovered an inexpensive method to significantly extend the lifespan of lithium-ion batteries by optimizing the heating process during cathode manufacturing.",
+        "researcher_name": "SLAC and Stanford researchers",
+        "department_or_lab": "SLAC National Accelerator Laboratory and Stanford University",
+        "award_or_discovery": "Discovery of an inexpensive method to make lithium-ion batteries last longer",
+        "significance": "By adjusting the heating process, the team created batteries that retained nearly 93% of their energy after 500 cycles, representing a significant advancement in battery longevity.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This discovery in battery technology indicates potential demand for materials science equipment, battery testing systems, and specialized reagents for cathode development and manufacturing.",
+        "source_url": "https://www6.slac.stanford.edu/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:54:57.938709",
+  "ai_summary": "SLAC is experiencing a surge in DOE funding for advanced materials, battery technology, and catalyst research, often leveraging AI and automated labs. Major projects include LCLS upgrades and quantum technology development. These initiatives, coupled with breakthroughs in protein design and simulation, indicate a high demand for specialized lab equipment, reagents, and consumables across diverse, cutting-edge scientific fields."
+}

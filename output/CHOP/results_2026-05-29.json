@@ -1,0 +1,245 @@
+{
+  "account": "CHOP",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1VDYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Children's Hospital of Philadelphia (CHOP) announced a five-year funding award from the Patient-Centered Outcomes Research Institute (PCORI) to support PRESERVE 2.0, the largest randomized controlled trial on blood pressure management in children with chronic kidney disease (CKD).",
+        "recipient": "Children's Hospital of Philadelphia (CHOP)",
+        "department_or_lab": "Co-Principal Investigators: Michelle Denburg, MD, MSCE and Christopher Forrest, MD, PhD",
+        "amount": "Undisclosed (five-year award)",
+        "agency": "Patient-Centered Outcomes Research Institute (PCORI)",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This large-scale clinical trial will require significant lab supplies, reagents, and consumables for patient sample analysis and research activities over the next five years.",
+        "source_url": "https://www.chop.edu/news/childrens-hospital-philadelphia-receives-funding-launch-largest-trial-children-chronic-kidney"
+      },
+      {
+        "summary": "CHOP's Awards Selection Committee announced internal competitions for limited submission funding opportunities from the W.M. Keck Foundation, Edward Mallinckrodt, Jr. Grants Program, W.W. Smith Charitable Trust (Heart Disease, Cancer, AIDS), and The G. Harold and Leila Y. Mathers Foundation.",
+        "recipient": "CHOP researchers",
+        "department_or_lab": "CHOP Research Institute, Center for Childhood Cancer Research",
+        "amount": "Undisclosed (call for applications)",
+        "agency": "W.M. Keck Foundation, Edward Mallinckrodt, Jr. Grants Program, W.W. Smith Charitable Trust, The G. Harold and Leila Y. Mathers Foundation",
+        "event_date": "2026-04-28",
+        "why_it_matters": "These internal calls indicate upcoming research projects that will require lab supplies, reagents, and equipment if CHOP researchers are successful in securing these foundation awards.",
+        "source_url": "https://www.chop.edu/research/announcements"
+      },
+      {
+        "summary": "Children's Hospital of Philadelphia (CHOP) Pathology and Laboratory Medicine researchers uncovered how killer T cells fight tumors in nutrient-poor environments. The research was supported by NIH grants F31CA261156 (LT) and T32CA009140 (KR).",
+        "recipient": "Will Bailis, PhD, and his team",
+        "department_or_lab": "Pathology and Laboratory Medicine at CHOP",
+        "amount": "Undisclosed (NIH grants F31CA261156, T32CA009140)",
+        "agency": "NIH (National Institutes of Health)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Ongoing research supported by these NIH grants indicates a continuous need for lab supplies, reagents, and equipment in immunology and cancer research.",
+        "source_url": "https://www.chop.edu/news/immune-cells-rewire-themselves-keep-battling-tumors-nutrient-poor-environments"
+      },
+      {
+        "summary": "Researchers from CHOP found that diagnostic delays are common for US pediatric patients with malaria. The study was supported by several grants, including NIH grants T32AI118684, T32AI007532, T32AI060519, and R01AI103280, the Thrasher Research Fund, the CHOP Foerderer Award, and the Doris Duke Foundation Paragon of Research Excellence Award.",
+        "recipient": "Sesh A. Sundararaman, MD, PhD, and collaborators",
+        "department_or_lab": "Division of Infectious Diseases at CHOP",
+        "amount": "Undisclosed (multiple NIH and foundation grants)",
+        "agency": "NIH, Thrasher Research Fund, CHOP, Doris Duke Foundation",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This research, supported by multiple grants, indicates ongoing work in infectious diseases at CHOP, suggesting a demand for diagnostic tools, reagents, and lab consumables.",
+        "source_url": "https://www.eurekalert.org/news-releases/1043906"
+      },
+      {
+        "summary": "Penn Medicine and CHOP announced the appointment of Eric M. Morrow, MD, PhD, as the founding director of the Lurie Autism Institute, which was launched by a $50 million gift from Jeffrey Lurie Family Foundation and the Nancy Lurie Marks Family Foundation in 2025.",
+        "recipient": "Eric M. Morrow, MD, PhD (as founding director); Lurie Autism Institute",
+        "department_or_lab": "Lurie Autism Institute",
+        "amount": "50000000",
+        "agency": "Jeffrey Lurie Family Foundation, Nancy Lurie Marks Family Foundation",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The establishment of a new institute with significant funding signals new and expanded research activities in autism, leading to increased demand for specialized lab equipment and supplies.",
+        "source_url": "https://www.pennmedicine.org/news/news-releases/2026/april/penn-medicine-and-chop-name-founding-director-for-lurie-autism-institute"
+      },
+      {
+        "summary": "A study on pediatric thyroid carcinoma, with researchers from CHOP, was supported by NCI R01-CA214511.",
+        "recipient": "A.T. Franco and Wanding Zhou",
+        "department_or_lab": "Department of Pediatrics, Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia",
+        "amount": "Undisclosed (NCI R01-CA214511)",
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This published research, supported by an NCI grant, indicates ongoing cancer research at CHOP, requiring specialized reagents, consumables, and equipment for molecular biology and pathology.",
+        "source_url": "https://clincancerres.aacrjournals.org/content/early/2026/04/30/1078-0432.CCR-25-2109"
+      },
+      {
+        "summary": "Dr. Bryan Sisk is leading a clinical project funded under a new NIH U54 grant, 'ARDVARC-Advancing Rare Disorders: Vascular mAlformation Research Network with CaNVAS'. The principal investigators for the U54 grant are Denise Adams, MD (Children's Hospital of Philadelphia) and Michael R. Jeng, MD (Stanford Medicine).",
+        "recipient": "Denise Adams, MD (CHOP) and Michael R. Jeng, MD (Stanford Medicine)",
+        "department_or_lab": "Children's Hospital of Philadelphia (for Denise Adams); research focuses on vascular anomalies",
+        "amount": "Undisclosed (NIH U54 grant)",
+        "agency": "NIH",
+        "event_date": "2026-05-13",
+        "why_it_matters": "A new, multi-year NIH U54 grant with CHOP as a key institution signifies substantial, long-term funding for rare disease research, driving demand for specialized lab supplies, reagents, and equipment.",
+        "source_url": "https://bioethics.wustl.edu/news/"
+      },
+      {
+        "summary": "Brittney Newby, MD, PhD, of Children's Hospital of Philadelphia (CHOP) received the Outstanding Fellow Award from the Childhood Arthritis and Rheumatology Research Alliance (CARRA). She also received a CARRA-Arthritis Foundation Mentored Career Development Award.",
+        "recipient": "Brittney Newby, MD, PhD",
+        "department_or_lab": "Division of Rheumatology at CHOP",
+        "amount": "Undisclosed (CARRA Outstanding Fellow Award and CARRA-Arthritis Foundation Mentored Career Development Award)",
+        "agency": "Childhood Arthritis and Rheumatology Research Alliance (CARRA), Arthritis Foundation",
+        "event_date": "2026-05-10",
+        "why_it_matters": "This award recognizes a promising early-career investigator at CHOP in pediatric rheumatology, suggesting future research growth and associated demand for lab supplies and reagents.",
+        "source_url": "https://www.carragroup.org/news/carra-announces-the-2026-community-award-winners"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Penn Medicine and Children's Hospital of Philadelphia (CHOP) announced the appointment of Eric M. Morrow, MD, PhD, as the founding director of the Lurie Autism Institute.",
+        "name": "Eric M. Morrow, MD, PhD",
+        "department": "Lurie Autism Institute",
+        "start_date": "2026-09-01",
+        "event_date": "2026-04-29",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.pennmedicine.org/news/news-releases/2026/april/penn-and-chop-name-founding-director-for-lurie-autism-institute"
+      }
+    ],
+    "capital": [
+      {
+        "summary": "Penn Medicine and Children's Hospital of Philadelphia (CHOP) announced the appointment of Eric M. Morrow, MD, PhD, as the founding director of the Lurie Autism Institute, which will establish its headquarters and research laboratories on CHOP's campus.",
+        "project_name": "Lurie Autism Institute (Headquarters and Research Laboratories)",
+        "location": "Children's Hospital of Philadelphia's campus",
+        "value": "$50 million",
+        "timeline": "Founding director assumes role on September 1, 2026; headquarters and research laboratories will be located on campus.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The establishment of new research laboratories will generate demand for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.chop.edu/news/penn-medicine-and-chop-name-founding-director-lurie-autism-institute-advancing-new-era-autism"
+      }
+    ],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Children's Hospital of Philadelphia (CHOP) has been activated as the sixth Qualified Treatment Center for ZEVASKYN (prademagene zamikeracel), a gene-modified cellular therapy for recessive dystrophic epidermolysis bullosa (RDEB).",
+        "product_or_program": "ZEVASKYN (prademagene zamikeracel) gene therapy",
+        "stage": "Treatment Adoption",
+        "therapeutic_or_application_area": "Recessive dystrophic epidermolysis bullosa (RDEB)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "CHOP's activation as a treatment center for a novel gene therapy indicates a need for specialized lab supplies, reagents for cell processing, and equipment for gene therapy administration and patient monitoring.",
+        "source_url": "https://patientworthy.com/2026/05/19/expanding-hope-for-rare-skin-disease-chop-becomes-sixth-treatment-center-for-revolutionary-zevaskyn-gene-therapy/"
+      },
+      {
+        "summary": "Penn Medicine and Children's Hospital of Philadelphia (CHOP) announced the appointment of Eric M. Morrow, MD, PhD, as the founding director of the Lurie Autism Institute, which will serve as a hub for autism spectrum disorder research, collaboration, clinical care, and advocacy.",
+        "product_or_program": "Lurie Autism Institute",
+        "stage": "Program Launch/Research Initiative",
+        "therapeutic_or_application_area": "Autism Spectrum Disorder (ASD)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The establishment of a new autism institute with a significant gift and a new director indicates a ramp-up in research and clinical activities, creating demand for a wide range of lab supplies, diagnostic tools, and research equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/penn-medicine-and-chop-name-founding-director-for-lurie-autism-institute-advancing-new-era-of-autism-research-302756097.html"
+      },
+      {
+        "summary": "Researchers from Children's Hospital of Philadelphia (CHOP) found that over one in four pediatric malaria patients in the U.S. experience diagnostic delays, increasing the risk of severe infection, emphasizing the need for improved prevention and prompt diagnosis.",
+        "product_or_program": "Research on diagnostic delays in pediatric malaria",
+        "stage": "Research Publication/Observational Study",
+        "therapeutic_or_application_area": "Malaria diagnosis and prevention in pediatric patients",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This research highlights ongoing diagnostic challenges in malaria, suggesting a potential need for improved diagnostic tools, reagents, and educational materials for rapid and accurate malaria detection in pediatric settings.",
+        "source_url": "https://www.eurekalert.org/news-releases/1127356"
+      },
+      {
+        "summary": "Lindsey George, MD, Director of CHOP's Center for In Vivo Gene Therapy (CIGT), was selected for the National Academy of Medicine's Emerging Leaders Program, recognizing her leadership in advancing in vivo gene therapies for children with genetic disorders.",
+        "product_or_program": "CHOP's Center for In Vivo Gene Therapy (CIGT)",
+        "stage": "Program Recognition/Ongoing Research & Clinical Trials",
+        "therapeutic_or_application_area": "In vivo gene therapy for genetic disorders in children",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Dr. George's leadership in CIGT, which supports a large portfolio of gene therapy trials and implements commercial gene therapies, signals a continuous and growing need for specialized reagents, consumables, and equipment for gene therapy research, development, and clinical application.",
+        "source_url": "https://www.research.chop.edu/cornerstone-blog/national-academy-of-medicine-selects-lindsey-george-for-emerging-leaders-program"
+      },
+      {
+        "summary": "Children's Hospital of Philadelphia (CHOP) has a clinical pathway for thermoregulation in the PICU and PCU, outlining guidelines for managing patient temperature, including rapid temperature decrease and rewarming.",
+        "product_or_program": "Thermoregulation Clinical Pathway in PICU and PCU",
+        "stage": "Clinical Protocol/Standard of Care",
+        "therapeutic_or_application_area": "Patient temperature management (hypothermia, hyperthermia) in pediatric intensive care and progressive care units",
+        "event_date": "2026-05-15",
+        "why_it_matters": "The implementation of a specific thermoregulation clinical pathway suggests a need for temperature management devices, monitoring equipment, and related consumables in the PICU and PCU.",
+        "source_url": "https://www.chop.edu/clinical-pathway/thermoregulation-picu-pcu-clinical-pathway"
+      },
+      {
+        "summary": "Children's Hospital of Philadelphia (CHOP) Pathology and Laboratory Medicine researchers discovered how killer T cells adapt to nutrient-scarce tumor environments, relying on a natural stress-adaptation pathway to maintain anti-tumor immunity.",
+        "product_or_program": "Research on T cell metabolic and transcriptional plasticity in tumor microenvironments",
+        "stage": "Research Publication/Basic Science",
+        "therapeutic_or_application_area": "Cancer immunology, immunotherapy, T cell metabolism",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This fundamental research in cancer immunology and T cell biology indicates ongoing demand for cell culture reagents, analytical equipment for metabolic studies, flow cytometry reagents, and molecular biology consumables for further investigation into T cell resilience and immunotherapy development.",
+        "source_url": "https://www.prnewswire.com/news-releases/immune-cells-rewire-themselves-to-keep-battling-tumors-in-nutrient-poor-environments-302757568.html"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Children's Hospital of Philadelphia (CHOP) opened the 17-story, 350,000-square-foot Morgan Center for Research & Innovation, significantly expanding its laboratory research capacity with dedicated spaces for wet labs, core facilities, and genome sequencing.",
+        "location": "Philadelphia, PA, USA",
+        "type_of_expansion": "New dedicated research facility",
+        "investment_value": null,
+        "event_date": "2026-05-29",
+        "why_it_matters": "This new research center with wet labs and core facilities will drive significant demand for a wide range of lab supplies, reagents, and scientific equipment for ongoing and new research projects.",
+        "source_url": "https://www.chop.edu/centers-programs/facilities-department/construction-and-work-progress"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Penn Medicine and Children's Hospital of Philadelphia (CHOP) announced the appointment of Eric M. Morrow, MD, PhD, as the founding director of the Lurie Autism Institute, which was launched by a $50 million gift from the Jeffrey Lurie Family Foundation and the Nancy Lurie Marks Family Foundation. The institute's headquarters and research laboratories will be located on CHOP's campus.",
+        "amount": 50000000,
+        "funding_type": "Philanthropic Gift",
+        "use_of_proceeds": "To establish and advance the Lurie Autism Institute, focusing on autism spectrum disorder research, collaboration, clinical care, and advocacy, with headquarters and research laboratories located on CHOP's campus.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant philanthropic gift will directly fund the establishment and operation of new research laboratories and programs at the Lurie Autism Institute on CHOP's campus, leading to increased demand for specialized lab supplies, reagents, and scientific equipment for autism research.",
+        "source_url": "https://www.prnewswire.com/news-releases/penn-medicine-and-chop-name-founding-director-for-lurie-autism-institute-advancing-new-era-of-autism-research-302756097.html"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Penn Medicine and Children's Hospital of Philadelphia (CHOP) announced the appointment of Eric M. Morrow, MD, PhD, as the founding director of the Lurie Autism Institute. The institute was launched by a transformational $50 million gift in 2025 and will serve as a nationally and globally recognized hub for autism spectrum disorder research, collaboration, clinical care, and advocacy, with its headquarters and research laboratories located on CHOP's campus.",
+        "project_name": "Lurie Autism Institute",
+        "scope": "Appointment of founding director, establishment of research laboratories and headquarters on CHOP's campus, focusing on autism spectrum disorder research, collaboration, clinical care, and advocacy.",
+        "timeline": "Dr. Morrow will assume his role on September 1, 2026. The institute was launched by a $50 million gift in 2025.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The establishment of new research laboratories and a focus on advanced autism research will drive demand for specialized scientific equipment, reagents, and consumables.",
+        "source_url": "https://www.prnewswire.com/news-releases/penn-medicine-and-chop-name-founding-director-for-lurie-autism-institute-advancing-new-era-of-autism-research-302756097.html"
+      },
+      {
+        "summary": "Labcorp and Children's Hospital of Philadelphia (CHOP) announced a strategic collaboration aimed at accelerating the development and nationwide availability of specialized pediatric diagnostics. The initiative will focus on expanding access to advanced pediatric testing in areas including oncology, metabolic disease, autoimmune disorders, and rare disease.",
+        "project_name": "Labcorp-CHOP Pediatric Diagnostics Collaboration",
+        "scope": "Strategic collaboration to expand access to advanced pediatric testing nationwide, including a joint innovation pipeline intended to move pediatric diagnostic assays from development into broader clinical use more efficiently.",
+        "timeline": "The collaboration was announced on May 13, 2026. The N-glycan assay, a specialized diagnostic offering from CHOP, is expected to launch within Labcorp's testing infrastructure later this year.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This collaboration will increase the need for diagnostic reagents, specialized lab consumables, and potentially new analytical equipment to support the development and scaling of pediatric diagnostic assays.",
+        "source_url": "https://www.clinicallab.com/labcorp-chop-partner-to-expand-access-to-pediatric-diagnostics-nationwide-28643"
+      }
+    ],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Labcorp and Children's Hospital of Philadelphia (CHOP) announced a strategic collaboration to accelerate the development and nationwide availability of specialized pediatric diagnostics, focusing on areas like oncology, metabolic disease, autoimmune disorders, and rare diseases. This partnership involves leveraging CHOP's expertise with Labcorp's national infrastructure for sample transport and high-volume testing, and mentions \"Consumables & Lab Supplies\" and \"Analyzers, Automation, & Diagnostic Platforms\".",
+        "tender_name": "Labcorp-CHOP Strategic Collaboration for Pediatric Diagnostics",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "This collaboration indicates an increased demand for diagnostic platforms, consumables, and lab supplies as pediatric diagnostic testing expands nationwide, presenting a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://ir.labcorp.com/news-releases/news-release-details/labcorp-announces-2026-first-quarter-results-raises-full-year-2026"
+      },
+      {
+        "summary": "Penn Medicine and Children's Hospital of Philadelphia (CHOP) announced the appointment of Eric M. Morrow as the founding director of the Lurie Autism Institute. The institute's headquarters and research laboratories will be located on CHOP's campus, suggesting future demand for lab equipment and supplies for autism research.",
+        "tender_name": "Lurie Autism Institute Establishment at CHOP",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "The establishment of new research laboratories for the Lurie Autism Institute at CHOP presents a future sales opportunity for Thomas Scientific to provide lab equipment and supplies.",
+        "source_url": "https://almanac.upenn.edu/articles/eric-m-morrow-founding-director-of-lurie-autism-institute"
+      },
+      {
+        "summary": "An article discusses CHOP's role in designing a custom CRISPR gene therapy, highlighting the need for \"Reagent and enzyme API sourcing for CRISPR manufacturing\" and emphasizing that companies securing long-term supply agreements for critical CRISPR reagents now will have production certainty in 2026-2027.",
+        "tender_name": "CHOP's CRISPR Gene Therapy Reagent Procurement",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "CHOP's involvement in CRISPR gene therapy indicates a critical and ongoing demand for specialized reagents and enzymes for manufacturing, offering a significant sales opportunity for Thomas Scientific.",
+        "source_url": "https://pharmatradz.com/pharma-articles/the-crispr-revolution-how-a-2-2-million-therapy-made-in-7-months-just-changed-pharma-forever"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:47:23.678957",
+  "ai_summary": "CHOP is undergoing significant research expansion, opening new facilities like the Morgan Center and Lurie Autism Institute, fueled by substantial grants and a $50M gift. A strategic partnership with Labcorp for pediatric diagnostics explicitly signals demand for consumables and lab equipment. This growth in gene therapy, oncology, and rare disease research presents a major opportunity for lab supply sales."
+}

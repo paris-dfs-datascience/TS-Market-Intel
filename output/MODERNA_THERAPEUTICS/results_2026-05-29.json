@@ -1,0 +1,87 @@
+{
+  "account": "MODERNA THERAPEUTICS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1biYAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Moderna announced the publication of pivotal Phase 3 clinical safety and efficacy data for its investigational seasonal influenza vaccine, mRNA-1010, in the New England Journal of Medicine. The study showed an overall relative vaccine efficacy of 26.6% in adults aged 50 years and older. Regulatory filings are under review in the U.S., Europe, Canada, and Australia, with a U.S. FDA PDUFA goal date of August 5, 2026.",
+        "product_or_program": "mRNA-1010",
+        "stage": "Phase 3 Data Publication, Regulatory Review (BLA accepted, PDUFA date set)",
+        "therapeutic_or_application_area": "Infectious Disease (Seasonal Influenza)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Positive Phase 3 data and an assigned PDUFA date indicate potential market entry, which will drive demand for manufacturing, quality control, and distribution supplies.",
+        "source_url": "https://www.stocktitan.net/news/MRNA/moderna-announces-new-england-journal-of-medicine-publication-of-66um37y4re2e.html"
+      },
+      {
+        "summary": "Moderna reported its first-quarter 2026 financial results and provided business updates, including European Commission marketing authorization for mCOMBRIAX (Flu + COVID combination vaccine) and mNEXSPIKE\u00ae (COVID-19 vaccine), and mRESVIA\u00ae (RSV vaccine) for adults 18 and older. The company also announced the initiation of a Phase 3 study for intismeran (mRNA-4157) in high-risk Stage 1 NSCLC and a Phase 3 study for its investigational pandemic influenza vaccine (mRNA-1018). Additionally, the registrational study for its propionic acidemia therapeutic (mRNA-3927) reached target enrollment, and the Phase 3 study for its norovirus vaccine (mRNA-1403) is fully enrolled with data expected in 2026.",
+        "product_or_program": "mCOMBRIAX, mNEXSPIKE\u00ae, mRESVIA\u00ae, Intismeran (mRNA-4157), mRNA-1018, mRNA-3927, mRNA-1403",
+        "stage": "Marketing Authorization, Phase 3 Initiation, Registrational Study (target enrollment reached), Phase 3 Enrollment (fully enrolled)",
+        "therapeutic_or_application_area": "Infectious Disease (Flu, COVID, RSV, Pandemic Flu, Norovirus), Oncology (NSCLC), Rare Disease (Propionic Acidemia)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "Multiple advancements across various therapeutic areas, including new approvals and late-stage clinical trial initiations and enrollments, signal broad and sustained demand for R&D, clinical trial, and manufacturing supplies.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000057/exhibit9912026q1pressrelea.htm"
+      },
+      {
+        "summary": "Moderna and Vertex Pharmaceuticals announced the discontinuation of the Phase 1/2 study of their investigational inhaled CFTR mRNA candidate for cystic fibrosis, VX-522 (also known as mRNA-3692), due to unresolved tolerability issues.",
+        "product_or_program": "VX-522 (mRNA-3692)",
+        "stage": "Phase 1/2 Study Discontinued",
+        "therapeutic_or_application_area": "Rare Disease (Cystic Fibrosis)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "While a discontinuation, it highlights ongoing research and development efforts in rare diseases, indicating a continued need for research consumables and equipment for future programs.",
+        "source_url": "https://www.modernatx.com/media-center/all-media/blogs/update-cystic-fibrosis-collaboration-vertex"
+      },
+      {
+        "summary": "Moderna is preparing to manufacture a 2026\u201327 COVID booster targeting the dominant XFG variant, as FDA advisers are set to vote on updating the vaccine strain.",
+        "product_or_program": "COVID-19 booster (targeting XFG variant)",
+        "stage": "Development / Regulatory Discussion (ahead of potential manufacturing)",
+        "therapeutic_or_application_area": "Infectious Disease (COVID-19)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Preparation for a new COVID-19 booster variant indicates upcoming manufacturing needs and a corresponding demand for raw materials, reagents, and production supplies.",
+        "source_url": "https://www.biospace.com/deals/lilly-wheels-and-deals-moderna-gets-boost-on-hantavirus-scare-asco-excitement-builds"
+      },
+      {
+        "summary": "A shared antigen therapeutic candidate, developed in collaboration between Moderna and Immatics, was submitted for an Investigational New Drug (IND) application, triggering a milestone payment to Immatics.",
+        "product_or_program": "Shared antigen therapeutic candidate (with Immatics)",
+        "stage": "IND Submission",
+        "therapeutic_or_application_area": "Oncology",
+        "event_date": "2026-05-12",
+        "why_it_matters": "An IND filing signals the initiation of human clinical trials, which will create demand for research-grade and clinical-grade materials, reagents, and lab equipment.",
+        "source_url": "https://investors.immatics.com/news-releases/news-release-details/immatics-announces-first-quarter-2026-financial-results-and/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Moderna's mRNA-1010 flu vaccine application, initially rejected with a Refuse-to-File letter in February, was subsequently accepted for FDA review, with an advisory committee meeting scheduled for June 18, 2026, and a PDUFA target action date of August 5, 2026.",
+        "product_or_site": "mRNA-1010 (seasonal influenza mRNA vaccine)",
+        "regulatory_action": "BLA/NDA submission accepted for review (after initial Refuse-to-File)",
+        "outcome": "Application accepted for review, PDUFA date set for August 5, 2026, Advisory Committee meeting scheduled for June 18, 2026.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The acceptance of the BLA/NDA for review indicates potential future demand for manufacturing and distribution supplies if approved, while the initial RTF highlighted a temporary setback in the regulatory pathway.",
+        "source_url": "https://www.biospace.com/article/moderna-beats-revenue-expectations-with-389m-but-litigation-dogs-earnings/"
+      },
+      {
+        "summary": "Moderna and Merck announced positive mid-stage trial data for their personalized cancer vaccine, mRNA-4157, in combination with Keytruda, showing a 59% reduction in the risk of cancer spreading after five years in melanoma patients.",
+        "product_or_site": "mRNA-4157 (personalized cancer vaccine) in combination with Keytruda",
+        "regulatory_action": "Clinical trial data announcement (supporting future BLA/NDA)",
+        "outcome": "Strong positive clinical trial results, supporting advancement towards potential regulatory approval.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Positive clinical trial data for a late-stage oncology asset signals strong potential for future BLA submission and subsequent demand for large-scale manufacturing and associated lab supplies, reagents, and equipment.",
+        "source_url": "https://pienomial.com/moderna-merck-combo-cuts-melanoma-spread-risk-by-59-in-5-year-study/"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:37:14.929544",
+  "ai_summary": "Moderna is experiencing significant late-stage pipeline advancements, securing approvals for multiple vaccines (Flu, COVID, RSV) while initiating new Phase 3 trials in oncology and infectious diseases. They are also preparing for COVID booster manufacturing. This robust activity signals increased demand for lab supplies, reagents, and manufacturing consumables to support ongoing R&D, clinical trials, and production scale-up across diverse therapeutic areas."
+}

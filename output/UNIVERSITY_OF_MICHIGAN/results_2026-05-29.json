@@ -1,0 +1,234 @@
+{
+  "account": "UNIVERSITY OF MICHIGAN",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BwYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "U.S. Representative Debbie Dingell announced she secured over $72 million in federal grant funding from the Department of Health and Human Services (HHS) for the University of Michigan at Ann Arbor to support a wide range of research initiatives, including aging, nursing, neurological disorders, and cancer.",
+        "recipient": "University of Michigan at Ann Arbor",
+        "department_or_lab": "Various research initiatives including Aging Research, Alcohol Research Programs, Allergy and Infectious Diseases Research, Cancer Biology Research, Cardiovascular Diseases Research, Child Health and Human Development Extramural Research, Diabetes Digestive and Kidney Diseases Extramural Research, Environmental Health, Extramural Research Programs in the Neurosciences and Neurological Disorders, Mental Health Research Grants, Oral Diseases and Disorders Research, and Vision Research.",
+        "amount": "$72,215,728",
+        "agency": "NIH (via Department of Health and Human Services)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This significant funding indicates upcoming demand for lab supplies, reagents, consumables, and scientific equipment across a broad spectrum of health-related research at the University of Michigan.",
+        "source_url": "https://dingell.house.gov/news/documentsingle.aspx?DocumentID=4100"
+      },
+      {
+        "summary": "Billy Block, a doctoral student in Industrial & Operations Engineering at the University of Michigan, earned recognition from the National Science Foundation Graduate Research Fellowship Program for his research on the long-term outcomes of transplant patients.",
+        "recipient": "Billy Block",
+        "department_or_lab": "Industrial & Operations Engineering (IOE)",
+        "amount": "Not specified (NSF Graduate Research Fellowship Program)",
+        "agency": "NSF",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This fellowship signals ongoing research in transplant patient outcomes, which may lead to demand for specialized reagents, cell culture supplies, and analytical equipment.",
+        "source_url": "https://ioe.engin.umich.edu/news/u-m-ioe-doctoral-student-earns-nsf-grfp/"
+      },
+      {
+        "summary": "Marshall Vielmetti, joining the Robotics PhD program at the University of Michigan, was named a National Science Foundation Graduate Research Fellow for his work on safety-critical control and multi-agent systems.",
+        "recipient": "Marshall Vielmetti",
+        "department_or_lab": "Robotics PhD program (working with Dimitra Panagou)",
+        "amount": "Not specified (NSF Graduate Research Fellowship Program)",
+        "agency": "NSF",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This fellowship indicates active research in robotics and control systems, potentially driving demand for components, sensors, and specialized software/hardware for robotics development.",
+        "source_url": "https://robotics.umich.edu/news/an-exoskeleton-that-cuts-ankle-torque-19-an-ai-co-pilot-for-shipbuilders-and-5-new-concentrations-for-robotics-majors/"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Ahmed Abdel-Latif has been appointed Daniel R. Goldstein, M.D. Research Professor in the Medical School.",
+        "name": "Ahmed Abdel-Latif",
+        "department": "Medical School",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Joshi J. Alumkal has been appointed Wicha Family Professor of Oncology in the Medical School.",
+        "name": "Joshi J. Alumkal",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Sawsan As-Sanie has been appointed Robert K. Ferguson and Virginia A. Ferguson Professor of Obstetrics and Gynecology in the Medical School.",
+        "name": "Sawsan As-Sanie",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Thomas Brenn has been appointed A. James French Professor of Diagnostic Pathology in the Medical School.",
+        "name": "Thomas Brenn",
+        "department": "Medical School",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Zachary London has been appointed James W. Albers Legacy Professor of Neurology in the Medical School.",
+        "name": "Zachary London",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Costas A. Lyssiotis has been appointed Maisel Research Professor of Oncology in the Medical School.",
+        "name": "Costas A. Lyssiotis",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Anna K. Mapp has been appointed Rowena G. Matthews Professor in the Life Sciences at the Life Sciences Institute.",
+        "name": "Anna K. Mapp",
+        "department": "Life Sciences Institute",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Martha M. Matuszak has been appointed Laurie Snow Research Professor in the Medical School.",
+        "name": "Martha M. Matuszak",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Stacey Missmer has been appointed Judy Frankel Research Professor of Women's Health in the Medical School.",
+        "name": "Stacey Missmer",
+        "department": "Medical School",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Bethany B. Moore has been appointed Nancy Walls Professor of Microbiology and Immunology in the Medical School.",
+        "name": "Bethany B. Moore",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Todd Morgan has been appointed Jack Lapides, M.D. Research Professor in the Medical School.",
+        "name": "Todd Morgan",
+        "department": "Medical School",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Jill Becker has been appointed Patricia Y. Gurin Collegiate Professor of Psychology and research professor at the Michigan Neuroscience Institute, Medical School.",
+        "name": "Jill Becker",
+        "department": "Michigan Neuroscience Institute, Medical School",
+        "start_date": "2026-05-24",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Stewart C. Wang has been appointed professor of surgery in the Medical School, with a Ph.D. in Immunology.",
+        "name": "Stewart C. Wang",
+        "department": "Medical School",
+        "start_date": "2026-05-31",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Bart M. Bartlett has been appointed chair of the Department of Chemistry, LSA.",
+        "name": "Bart M. Bartlett",
+        "department": "Department of Chemistry, LSA",
+        "start_date": "2026-07-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Justin M. Oldham has been appointed associate professor of internal medicine in the Medical School.",
+        "name": "Justin M. Oldham",
+        "department": "Medical School",
+        "start_date": "2026-04-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Anjali Sharma has been appointed associate professor of pharmaceutical sciences in the College of Pharmacy.",
+        "name": "Anjali Sharma",
+        "department": "College of Pharmacy",
+        "start_date": "2026-07-15",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      },
+      {
+        "summary": "Duxin Sun has been appointed Charles R. Walgreen, Jr. Professor of Pharmacy in the College of Pharmacy.",
+        "name": "Duxin Sun",
+        "department": "College of Pharmacy",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Several University of Michigan physicists, as part of the Muon g-2 collaborations, were awarded the 2026 Breakthrough Prize in Fundamental Physics for their unprecedented precision in measuring the anomalous magnetic moment of the muon, a discovery that helps stress-test the Standard Model of particle physics. The award comes with a $3 million prize.",
+        "researcher_name": "Timothy Chupp, Eva Kraegeloh, David Aguillard, Joe Grange, Midhat Farooq, Alexander Tewsley-Booth",
+        "department_or_lab": "Department of Physics, Department of Biomedical Engineering",
+        "award_or_discovery": "2026 Breakthrough Prize in Fundamental Physics",
+        "significance": "This award recognizes a fundamental, cutting-edge breakthrough in particle physics, achieved through decades of collaborative experimental work that pushed the boundaries of precision measurement.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This high-profile award for fundamental physics research indicates ongoing, high-precision experimental work requiring advanced scientific equipment, specialized reagents, and consumables for particle physics and quantum sensor development.",
+        "source_url": "https://news.umich.edu/u-m-physicists-among-2026-breakthrough-prize-winners/"
+      },
+      {
+        "summary": "University of Michigan physics professor Lu Li was named a 2026 Brown Investigator, receiving up to $2 million over five years to advance his research on fundamental challenges in the physical sciences. His work focuses on developing new methods for thermal transport and resonance measurements in high magnetic fields to probe the electronic states of insulators.",
+        "researcher_name": "Lu Li",
+        "department_or_lab": "Department of Physics",
+        "award_or_discovery": "2026 Brown Investigator Award",
+        "significance": "The award supports curiosity-driven research with the potential to open a new field in solid insulators, addressing fundamental challenges in physical sciences.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "A significant award for fundamental research in condensed matter physics suggests increased demand for specialized equipment for high magnetic field experiments, thermal transport measurements, and advanced materials for insulator studies.",
+        "source_url": "https://news.umich.edu/u-m-physicist-receives-2026-national-brown-investigator-award/"
+      },
+      {
+        "summary": "Three University of Michigan professors, Ruma Banerjee, Nancy Burns, and Elizaveta (Liza) Levina, were elected to the National Academy of Sciences for their distinguished and continuing achievements in original research.",
+        "researcher_name": "Ruma Banerjee, Nancy Burns, Elizaveta (Liza) Levina",
+        "department_or_lab": "Biological Chemistry (Banerjee), Political Science (Burns), Statistics (Levina)",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "Election to the National Academy of Sciences is one of the highest honors for scientists and engineers in the United States, recognizing distinguished achievements in original research.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Election to the National Academy of Sciences signifies leading-edge research and ongoing high-level scientific activity, potentially leading to increased funding and demand for specialized lab resources across various scientific disciplines.",
+        "source_url": "https://news.umich.edu/3-u-m-faculty-members-elected-to-national-academy-of-sciences/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:03:41.018867",
+  "ai_summary": "The University of Michigan is experiencing significant growth and funding across its research enterprise, particularly in medical, life sciences, chemistry, and physics. Over $77 million in new grants, numerous faculty appointments, and prestigious research awards signal expanding labs and new initiatives. This surge in activity creates substantial opportunities for lab supply sales, as researchers will require extensive equipment, consumables, and services to support their diverse and well-funded projects."
+}

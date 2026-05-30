@@ -1,0 +1,70 @@
+{
+  "account": "DUKE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BcYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A multi-institutional team, including Ru-Rong Ji from Duke University, was awarded a $3.9 million NIH grant to develop a non-opioid pain therapeutic.",
+        "recipient": "Ru-Rong Ji, PhD",
+        "department_or_lab": "Distinguished Professor of Anesthesiology",
+        "amount": "$3.9 million",
+        "agency": "NIH",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This grant suggests demand for lab supplies and reagents related to medicinal chemistry, receptor signaling, efficacy testing, cryo-electron microscopy, and artificial intelligence for pain therapeutic development.",
+        "source_url": "https://allsci.com/press-release/duke-university-supported-with-usd-1-17m-from-nih-for-combined-t-cell-and-b-cell-hiv-immunotherapy/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Duke University plans to build a new $23 million data center on its Central Campus to provide computing power and support for university researchers.",
+        "location": "Central Campus, Durham, North Carolina, USA",
+        "type_of_expansion": "New dedicated facility",
+        "investment_value": 23000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "A new data center supporting research operations will require new IT infrastructure, cooling systems, and potentially specialized lab equipment for data analysis and storage.",
+        "source_url": "https://indyweek.com/news/duke-university-data-center-environmental-responsibility-sustainability/"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "A Duke research team, co-led by Andrew West and Alberto Bartesaghi, has joined the Collaborative Research Network (CRN) with a $9 million grant to investigate Parkinson's disease. They plan to utilize cryo-electron microscopy and mass spectrometry to gain insights into protein structure changes, which is expected to facilitate the rapid development of diagnostic assays and new therapeutic targets.",
+        "researcher_name": "Andrew West, Alberto Bartesaghi",
+        "department_or_lab": "Department of Pharmacology and Cancer Biology (Andrew West), Department of Computer Science (Alberto Bartesaghi)",
+        "award_or_discovery": "Collaborative Research Network (CRN) membership with a $9 million grant for Parkinson's disease research, focusing on breakthroughs in cryo-electron microscopy and mass spectrometry for diagnostic assays and therapeutic targets.",
+        "significance": "This initiative aims to address critical knowledge gaps in Parkinson's disease by providing an unprecedented view into protein structure changes, enabling rapid development of diagnostics and new therapies.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This significant funding and collaborative research on Parkinson's disease using advanced imaging and analytical techniques signals high demand for specialized lab equipment, reagents for protein analysis, and consumables.",
+        "source_url": "https://cs.duke.edu/news/dukes-research-team-joins-global-network-unravel-complexity-parkinsons-disease"
+      },
+      {
+        "summary": "Ru-Rong Ji, a Distinguished Professor of Anesthesiology at Duke University, is a co-principal investigator on a multi-institutional team that received a $3.9 million NIH grant. The grant is dedicated to developing a first-in-class non-opioid pain therapeutic and advancing it into a Phase 1 clinical trial.",
+        "researcher_name": "Ru-Rong Ji",
+        "department_or_lab": "Department of Anesthesiology, Duke University",
+        "award_or_discovery": "$3.9 Million NIH Grant for \"First-in-Class Non-Opioid Pain Treatment\" development.",
+        "significance": "This grant funds the development of a novel non-opioid pain therapeutic, addressing a critical unmet need in medicine and the opioid epidemic.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "The development of a first-in-class non-opioid pain treatment, supported by a multi-million dollar NIH grant, indicates high-impact research activity and a strong demand for a wide range of lab supplies, reagents for drug discovery and development, and analytical equipment for preclinical and clinical trials.",
+        "source_url": "https://sbpdiscovery.org/press/sanford-burnham-prebys-awarded-3-9-million-nih-grant-to-develop-first-in-class-non-opioid-pain-treatment/"
+      },
+      {
+        "summary": "Jung Wook Park, Duke Rollie Endowed Assistant Professor of Pathology, presented research highlighting the identification of two promising molecular targets, NPTX1 and HDAC6, for treatment-resistant prostate cancer.",
+        "researcher_name": "Jung Wook Park",
+        "department_or_lab": "Department of Pathology, Duke University",
+        "award_or_discovery": "Named as \"Duke Rollie Endowed Assistant Professor of Pathology\" and discovery of molecular targets (NPTX1 and HDAC6) for treatment-resistant prostate cancer.",
+        "significance": "The identification of new molecular targets for treatment-resistant prostate cancer could lead to more effective therapies and offers hope for patients with advanced disease. The endowed chair appointment signifies institutional recognition and support for his research.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "The appointment to an endowed chair, coupled with the discovery of novel molecular targets for prostate cancer, signals sustained, high-level research activity requiring specialized reagents, cell culture supplies, and equipment for molecular biology and drug screening.",
+        "source_url": "https://pathology.duke.edu/news/dr-jung-wook-park-emerging-targets-advanced-prostate-cancer"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:24:13.552227+00:00",
+  "ai_summary": "Duke University is experiencing significant research growth with new grants totaling over $12 million for pain, Parkinson's, and prostate cancer research, utilizing advanced techniques like cryo-EM and mass spectrometry. A new $23 million data center further supports this expansion. This surge in funding and infrastructure creates substantial opportunities for lab supply sales across various research disciplines and specialized equipment needs."
+}

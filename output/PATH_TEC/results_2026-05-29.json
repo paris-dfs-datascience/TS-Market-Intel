@@ -1,0 +1,40 @@
+{
+  "account": "PATH-TEC",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "00116000025gM3nAAE",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Roche has entered into a definitive merger agreement to acquire PathAI, a US-based company specializing in digital pathology and AI-powered technology for pathology laboratories and the biopharma industry.",
+        "partner": "Roche",
+        "deal_type": "Acquisition (Merger Agreement)",
+        "deal_value": "$750 million upfront, with additional milestone payments of up to $300 million",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This acquisition will integrate PathAI's AI-powered digital pathology tools and image management systems into Roche's diagnostics division, significantly expanding AI-driven diagnostic capabilities and workflows globally.",
+        "source_url": "https://www.bioxconomy.com/partnering/roche-acquires-pathai-for-750m-upfront-to-advance-ai-powered-digital-pathology"
+      },
+      {
+        "summary": "PathAI and A.C.Camargo Cancer Center are collaborating to expand digital pathology with AI in Brazil via the SUS (Brazil's public health system).",
+        "partner": "A.C.Camargo Cancer Center",
+        "deal_type": "Cooperation/Partnership (Joint Venture involving new testing infrastructure)",
+        "deal_value": "Not disclosed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This partnership will establish a scalable digital pathology ecosystem and expand access to AI-enabled oncological diagnostics across Brazil, leading to new lab activity and infrastructure development.",
+        "source_url": "https://www.pathai.com/news"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "volume": [],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:33:12.921700",
+  "ai_summary": "Roche is acquiring digital pathology and AI leader PathAI, while PathAI simultaneously expands into Brazil's public health system. This signals growing demand and industry consolidation for advanced diagnostic technologies. Lab supply sales teams should anticipate increased needs for reagents, consumables, and equipment supporting digital pathology and AI integration, driven by Roche's expanded market presence."
+}

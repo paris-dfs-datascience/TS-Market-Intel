@@ -1,0 +1,209 @@
+{
+  "account": "REGENERON",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1cbYAC",
+  "signals": {
+    "grant": [],
+    "capital": [
+      {
+        "summary": "Regeneron Pharmaceuticals plans to invest between $1.1 billion and $1.2 billion in capital expenditures for full-year 2026, primarily for facility expansions.",
+        "project_name": "2026 Global Facility Capital Expenditures",
+        "location": "Global (including U.S. expansions)",
+        "value": "$1.1 billion - $1.2 billion",
+        "timeline": "Full-year 2026",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This substantial capital allocation signals widespread opportunities for new lab supplies, reagents, consumables, and scientific equipment across Regeneron's expanding global operations.",
+        "source_url": "https://markets.businessinsider.com/news/stocks/regeneron-reports-first-quarter-2026-financial-and-operating-results-10500732"
+      }
+    ],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The U.S. Food and Drug Administration (FDA) and European Commission (EC) approved Dupixent for the treatment of chronic spontaneous urticaria (CSU) in children aged 2 to 11 years who remain symptomatic despite antihistamine treatment.",
+        "product_or_program": "Dupixent (dupilumab)",
+        "stage": "FDA/EC Approval",
+        "therapeutic_or_application_area": "Chronic Spontaneous Urticaria (CSU) in children",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This expanded approval opens up a new patient population, increasing demand for Dupixent and associated lab supplies for diagnosis and monitoring.",
+        "source_url": "https://www.biospace.com/press-releases/regeneron-reports-first-quarter-2026-financial-and-operating-results"
+      },
+      {
+        "summary": "The FDA approved the extension of dosing intervals for EYLEA HD up to every 20 weeks (5 months) for patients with wet age-related macular degeneration (wAMD) and diabetic macular edema (DME) following one year of successful response.",
+        "product_or_program": "EYLEA HD (aflibercept)",
+        "stage": "FDA Approval",
+        "therapeutic_or_application_area": "Wet age-related macular degeneration (wAMD) and diabetic macular edema (DME)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Extended dosing intervals can improve patient convenience and adherence, potentially increasing the overall market for EYLEA HD and related ophthalmic supplies.",
+        "source_url": "https://www.biospace.com/press-releases/regeneron-reports-first-quarter-2026-financial-and-operating-results"
+      },
+      {
+        "summary": "Regeneron resubmitted its application seeking FDA approval for filling of the EYLEA HD pre-filled syringe (PFS) at Catalent Indiana.",
+        "product_or_program": "EYLEA HD (aflibercept) Pre-filled Syringe (PFS)",
+        "stage": "Regulatory Submission (Resubmission for FDA approval)",
+        "therapeutic_or_application_area": "Wet age-related macular degeneration (wAMD) and diabetic macular edema (DME)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Approval of the PFS could streamline administration, potentially increasing adoption and demand for the product and associated injection supplies.",
+        "source_url": "https://www.biospace.com/press-releases/regeneron-reports-first-quarter-2026-financial-and-operating-results"
+      },
+      {
+        "summary": "The World Health Organization's (WHO) Therapeutics Advisory Group recommended maftivimab, a component of Inmazeb, to be prioritized for evaluation in clinical trials of investigational treatments for Bundibugyo ebolavirus.",
+        "product_or_program": "Maftivimab (Inmazeb)",
+        "stage": "Clinical Trial Initiation (WHO recommendation for evaluation)",
+        "therapeutic_or_application_area": "Bundibugyo ebolavirus",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The initiation of clinical trials for maftivimab will create demand for research reagents, lab consumables, and diagnostic kits for Ebola virus detection and monitoring.",
+        "source_url": "https://www.biospace.com/press-releases/regenerons-ebola-antibody-recommended-by-world-health-organization-for-investigational-use-in-response-to-current-bundibugyo-ebolavirus-outbreak"
+      },
+      {
+        "summary": "Regeneron's collaboration partner, Alnylam Pharmaceuticals, announced the submission of a New Drug Application (NDA) to the FDA for cemdisiran, an investigational RNAi therapeutic for adults with generalized myasthenia gravis.",
+        "product_or_program": "Cemdisiran",
+        "stage": "NDA Submission",
+        "therapeutic_or_application_area": "Generalized myasthenia gravis",
+        "event_date": "2026-04-30",
+        "why_it_matters": "An NDA submission indicates the drug is nearing potential market entry, which could lead to future demand for diagnostic tests and monitoring equipment for myasthenia gravis.",
+        "source_url": "https://www.biospace.com/press-releases/alnylam-pharmaceuticals-reports-first-quarter-2026-financial-results-and-highlights-recent-period-progress"
+      },
+      {
+        "summary": "Regeneron announced positive results from the Phase 1/2 LINKER-AL2 trial evaluating Lynozyfic (linvoseltamab) in adults with second-line-plus systemic amyloid light chain (AL) amyloidosis, with the Phase 2 portion of the trial with registrational intent underway.",
+        "product_or_program": "Lynozyfic (linvoseltamab)",
+        "stage": "Phase 1/2 Clinical Trial Results (with Phase 2 registrational intent underway)",
+        "therapeutic_or_application_area": "Systemic amyloid light chain (AL) amyloidosis",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Positive clinical trial results and progression to registrational intent signal future demand for research reagents, clinical trial supplies, and potentially diagnostic tools for AL amyloidosis.",
+        "source_url": "https://www.biospace.com/press-releases/lynozyfic-linvoseltamab-monotherapy-demonstrates-deep-and-rapid-responses-in-all-treated-patients-with-second-line-plus-systemic-amyloid-light-chain-amyloidosis"
+      },
+      {
+        "summary": "Regeneron and Sanofi presented results from the REMODEL Phase 4 trial demonstrating that Dupixent (dupilumab) showed significant and clinically meaningful improvements in both esophageal distensibility and disease-related structural changes to the esophagus in adults with eosinophilic esophagitis (EoE).",
+        "product_or_program": "Dupixent (dupilumab)",
+        "stage": "Phase 4 Clinical Trial Results",
+        "therapeutic_or_application_area": "Eosinophilic Esophagitis (EoE)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "Positive Phase 4 results reinforce Dupixent's efficacy in EoE, potentially increasing its use and driving demand for endoscopic equipment, biopsy tools, and pathology supplies for diagnosis and monitoring of EoE.",
+        "source_url": "https://www.biospace.com/press-releases/dupixent-dupilumab-demonstrates-improved-esophageal-function-in-eosinophilic-esophagitis-eoe-phase-4-trial"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Regeneron Pharmaceuticals announced plans to establish a Global Capability Centre (GCC) in Hyderabad, India, to strengthen global operations and expand support functions across drug development, digital technologies, and commercial operations. The center is expected to create hundreds of new jobs in the coming years.",
+        "location": "Hyderabad, India",
+        "type_of_expansion": "New Global Capability Centre (GCC) for drug development, digital technologies, and commercial operations, including data management, statistical programming, artificial intelligence, clinical trial operations, and analytics.",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "The establishment of a new Global Capability Centre in Hyderabad, focusing on clinical trial operations, data management, and AI, will drive demand for advanced IT infrastructure, specialized software, and potentially lab-related data analysis tools and services.",
+        "source_url": "https://www.hrkatha.com/expansion/regeneron-to-create-hundreds-of-jobs-with-new-hyderabad-gcc/"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "OPKO Health's collaboration with Regeneron is progressing, aligning Regeneron's extensive antibody binder libraries with OPKO's multispecific engineering platform for four initial discovery programs in metabolism, oncology, and immunology, with potential milestones exceeding $1 billion.",
+        "partner": "OPKO Health",
+        "deal_type": "Research Collaboration",
+        "deal_value": "Exceeds $1 billion in milestones plus future royalties",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This collaboration signals new lab activity by advancing four initial discovery programs and leveraging OPKO's MODEX platform for generating multispecific antibody candidates.",
+        "source_url": "https://www.benzinga.com/insights/news/26/04/52119392/opko-health-q1-2026-earnings-call-complete-transcript"
+      },
+      {
+        "summary": "The report highlights REGV131-LNP1265, a Factor IX replacement therapy in Phase I/II clinical trials, being co-developed by Regeneron Pharmaceuticals and Intellia Therapeutics.",
+        "partner": "Intellia Therapeutics",
+        "deal_type": "Co-development",
+        "deal_value": null,
+        "event_date": "2026-05-05",
+        "why_it_matters": "This co-development indicates new lab activity through the advancement of a specific Factor IX replacement clinical program (REGV131-LNP1265) in collaboration with Intellia Therapeutics.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/05/3288094/0/en/hemophilia-clinical-trial-pipeline-gains-momentum-50-companies-lead-the-charge-in-pioneering-new-treatments-delveinsight.html"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Regeneron Pharmaceuticals announced a strategic research collaboration with Parabilis Medicines to discover and develop multiple therapeutic candidates based on Parabilis' Helicon\u2122 peptide platform, with a particular focus on Antibody-Helicon\u2122 Conjugates (AHCs). Parabilis is set to receive $125 million from Regeneron, including a $50 million upfront payment and a $75 million equity commitment, with potential for up to approximately $2.2 billion in additional milestone payments and tiered royalties.",
+        "project_name": "Strategic Collaboration with Parabilis Medicines for Antibody-Helicon\u2122 Conjugates (AHCs)",
+        "scope": "New R&D program, drug discovery and development, therapeutic candidates.",
+        "timeline": "Ongoing research and development with potential for future milestone payments.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This collaboration will likely increase demand for specialized reagents, lab consumables, and potentially new equipment for peptide synthesis, antibody conjugation, and drug discovery research.",
+        "source_url": "https://parabilismed.com/press-release/parabilis-medicines-announces-strategic-collaboration-with-regeneron-pharmaceuticals-to-advance-novel-antibody-helicon-conjugates-across-multiple-therapeutic-areas/"
+      },
+      {
+        "summary": "Regeneron Pharmaceuticals announced that the European Medicines Agency (EMA) has accepted for review under Accelerated Assessment the Marketing Authorization Application (MAA) for Otarmeni\u2122 (lunsotogene parvec), an in vivo adeno-associated virus vector-based gene therapy for the treatment of biallelic OTOF variant-associated hearing loss.",
+        "project_name": "Otarmeni\u2122 (lunsotogene parvec) EMA Filing Acceptance",
+        "scope": "Clinical development, regulatory filing for gene therapy.",
+        "timeline": "Under accelerated assessment by EMA.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The advancement of this gene therapy in the EU market indicates potential future demand for specialized reagents, consumables, and equipment required for gene therapy manufacturing, quality control, and clinical administration.",
+        "source_url": "https://www.stocktitan.net/news/REGN/otarmeni-tm-lunsotogene-parvec-receives-ema-filing-acceptance-for-ptfzzblu5rj5.html"
+      },
+      {
+        "summary": "Regeneron Pharmaceuticals announced that maftivimab, the most potent neutralizing antibody included in Inmazeb\u00ae, has been recommended by the World Health Organization's (WHO) Therapeutics Advisory Group to be prioritized for evaluation in clinical trials of investigational treatments for Bundibugyo ebolavirus. Inmazeb was developed with federal funds from BARDA.",
+        "project_name": "Maftivimab (Inmazeb\u00ae) for Bundibugyo Ebolavirus (WHO Recommendation)",
+        "scope": "Clinical development, investigational use, government-funded program (BARDA).",
+        "timeline": "Prioritized for evaluation in clinical trials.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The recommendation for investigational use and potential clinical trials for maftivimab will likely increase demand for diagnostic kits, reagents, and lab supplies for viral research and clinical testing related to Ebola.",
+        "source_url": "https://www.contractpharma.com/breaking-news/parabilis-medicines-regeneron-partner-to-advance-novel-antibody-helicon-conjugates/"
+      },
+      {
+        "summary": "Neomorph, Inc., a biotechnology company, announced the closing of a $100 million Series B financing round, with new participation from Regeneron Ventures. The proceeds will primarily support the ongoing Phase 1/2 trial of NEO-811 for clear cell renal cell carcinoma and the continued advancement of the company's broader novel molecular glue degrader pipeline.",
+        "project_name": "Neomorph Series B Financing for Molecular Glue Degrader Pipeline (including NEO-811)",
+        "scope": "New R&D program funding, clinical development (Phase 1/2 trial).",
+        "timeline": "Ongoing Phase 1/2 trial for NEO-811 and advancement of broader pipeline.",
+        "event_date": "2026-04-13",
+        "why_it_matters": "Regeneron Ventures' investment in Neomorph's R&D programs indicates potential future demand for reagents, consumables, and equipment used in molecular biology, drug discovery, and clinical trial support for targeted protein degradation therapies.",
+        "source_url": "https://neomorph.com/press-release/neomorph-announces-closing-of-100-million-series-b-financing/"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "The FDA granted accelerated approval to Otarmeni (lunsotogene parvec-cwha), Regeneron's first-ever gene therapy for the treatment of pediatric and adult patients with severe-to-profound sensorineural hearing loss associated with biallelic variants in the OTOF gene. The approval was granted under the FDA Commissioner's National Priority Voucher program, and Regeneron announced it would provide the therapy for free in the U.S.",
+        "product_or_site": "Otarmeni (lunsotogene parvec-cwha)",
+        "regulatory_action": "BLA Approval (Accelerated Approval)",
+        "outcome": "Approved",
+        "event_date": "2026-04-23",
+        "why_it_matters": "Approval of this first-in-class gene therapy for genetic hearing loss will drive demand for specialized lab supplies, reagents, and equipment for gene therapy manufacturing, administration, and patient monitoring as production scales up.",
+        "source_url": "https://www.hhs.gov/press-room/wtas-fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher-program.html"
+      },
+      {
+        "summary": "The FDA approved Dupixent (dupilumab) for an expanded indication, allowing its use in children aged 2 to 11 years with chronic spontaneous urticaria (CSU) who remain symptomatic despite antihistamine treatment.",
+        "product_or_site": "Dupixent (dupilumab)",
+        "regulatory_action": "sNDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-04-22",
+        "why_it_matters": "This expanded approval for Dupixent in a new pediatric population will lead to increased demand for reagents, consumables, and diagnostic kits related to immunology and inflammation as the drug's use expands.",
+        "source_url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-first-quarter-2026-financial-and-operating/"
+      },
+      {
+        "summary": "The FDA approved the extension of dosing intervals for EYLEA HD up to every 20 weeks (5 months) for patients with wet age-related macular degeneration (wAMD) and diabetic macular edema (DME) following one year of successful response.",
+        "product_or_site": "EYLEA HD",
+        "regulatory_action": "Approval (label extension)",
+        "outcome": "Approved",
+        "event_date": "2026-05-29",
+        "why_it_matters": "While not a new drug approval, the extended dosing interval for EYLEA HD could impact demand for administration supplies, potentially leading to a slight decrease in frequency of certain consumables, but overall maintaining demand for ophthalmology-related supplies.",
+        "source_url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-first-quarter-2026-financial-and-operating/"
+      },
+      {
+        "summary": "Regeneron announced that the FDA did not act by the April 2026 PDUFA date on its regulatory application for a second contract manufacturer for the EYLEA HD pre-filled syringe (PFS), leaving the application pending. Regeneron has resubmitted its application for filling of the EYLEA HD PFS at Catalent Indiana, which recently underwent an FDA re-inspection.",
+        "product_or_site": "EYLEA HD pre-filled syringe (PFS) manufacturing site",
+        "regulatory_action": "Regulatory application pending/delay",
+        "outcome": "Pending",
+        "event_date": "2026-04-26",
+        "why_it_matters": "Ongoing manufacturing site issues and delays in approval for the pre-filled syringe could lead to a need for remediation supplies, quality control equipment, and potentially impact the steady supply of the product, requiring alternative solutions or increased scrutiny of existing manufacturing processes.",
+        "source_url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-first-quarter-2026-financial-and-operating/"
+      },
+      {
+        "summary": "Regeneron submitted a New Drug Application (NDA) for cemdisiran (C5 siRNA therapy) for myasthenia gravis, utilizing an FDA Rare Pediatric Disease Priority Review Voucher. NDA acceptance is anticipated in Q2 2026, with an FDA decision expected in Q4 2026.",
+        "product_or_site": "Cemdisiran (C5 siRNA therapy)",
+        "regulatory_action": "NDA Submission, Priority Review Voucher utilized",
+        "outcome": "Submitted",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The NDA submission and use of a Priority Review Voucher indicate an accelerated review pathway, potentially leading to earlier approval and subsequent demand for manufacturing and research supplies for this C5 siRNA therapy.",
+        "source_url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-first-quarter-2026-financial-and-operating/"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:44:04.004869",
+  "ai_summary": "Regeneron is undergoing significant expansion with over $1.1 billion in capital expenditures planned for new facilities and a Global Capability Centre in India. This, coupled with multiple recent FDA/EC approvals (Dupixent, EYLEA HD, Otarmeni gene therapy) and a robust pipeline in diverse modalities like gene therapy and peptides, signals increased demand for lab supplies, equipment, and services across R&D and manufacturing."
+}

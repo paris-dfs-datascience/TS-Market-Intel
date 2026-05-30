@@ -1,0 +1,88 @@
+{
+  "account": "STANFORD EQUIPMENT",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "0011600001y2GNNAA2",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Dr. Nazish Sayed, an Associate Professor in the Division of Vascular Surgery at Stanford University, has been awarded a Department of Defense (DoD) Toxic Exposures Research Program (TERP) Translational Research Partnership Award to investigate the cardiovascular effects of burn pit exposure in Veterans.",
+        "recipient": "Dr. Nazish Sayed",
+        "department_or_lab": "Division of Vascular Surgery, Stanford University",
+        "amount": "Amount not specified in source",
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This grant indicates new research activity at Stanford's Vascular Surgery division, likely leading to demand for specialized lab supplies and equipment for cardiovascular and toxicology research.",
+        "source_url": "https://med.stanford.edu/surgery/news/archive/2026/colon-and-rectal-fellowship-receives-acgme-accreditation.html"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The W. M. Keck Foundation has awarded $1.2 million in grants to six Stanford faculty and student teams for basic research projects, including work on singlet fission photovoltaics, imaging collective modes and electronic dynamics at the nanoscale, and designing quantum materials through imprinted superlattices.",
+        "project_name": "W. M. Keck Foundation Bridge Funding Initiative Grants",
+        "scope": "Six interdisciplinary research projects focusing on basic research in areas such as advanced photovoltaics, nanoscale imaging, and quantum materials design.",
+        "timeline": "Ongoing, with grants awarded on May 27, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These research projects will require specialized reagents, advanced microscopy equipment, and materials for developing next-generation solar cells and quantum materials.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/stanford-researchers-keck-foundation-funding"
+      },
+      {
+        "summary": "Applied Materials announced that Stanford University, along with Arizona State University and Rensselaer Polytechnic Institute, are joining its Silicon Valley-based EPIC (Equipment and Process Innovation and Commercialization) Center as inaugural research partners.",
+        "project_name": "EPIC (Equipment and Process Innovation and Commercialization) Center Partnership",
+        "scope": "Collaboration on advanced semiconductor equipment R&D to speed lab-to-fab innovation for energy-efficient AI chips, involving university teams working with Applied's scientists on advanced materials, novel processes, devices, and chip architectures.",
+        "timeline": "The facility is scheduled to become operational in 2026.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "Stanford's involvement in the EPIC Center will drive demand for cutting-edge semiconductor manufacturing equipment, specialized materials, and various lab supplies for advanced chip research and development.",
+        "source_url": "https://www.stocktitan.net/news/AMAT/applied-materials-announces-asu-rpi-and-stanford-to-join-epic-43ca371oxi9i.html"
+      },
+      {
+        "summary": "A $90 million gift from Penny and Philip H. Knight will extend the work of the Knight Initiative for Brain Resilience at Stanford's Wu Tsai Neurosciences Institute, aiming to deepen its work in building a new science of healthy brain aging.",
+        "project_name": "Knight Initiative for Brain Resilience Extension",
+        "scope": "Expanding research into understanding how lifestyle factors build brain resilience, decoding the cellular machinery of aging, and developing new tools for discovery in healthy brain aging and neurodegenerative disease.",
+        "timeline": "The initiative was launched in 2022 and this gift extends its work.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This significant funding will increase demand for advanced neuroscience research equipment, specialized reagents, and consumables for studies on brain resilience and aging.",
+        "source_url": "https://news.stanford.edu/stories/2026/05/gift-knight-brain-resilience-aging-research"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Stanford researchers, including Matteo Cargnello, discovered a new method to synthesize uniform five-metal nanocrystals, which act as a catalyst four times more powerful than single-metal counterparts for ammonia decomposition.",
+        "researcher_name": "Matteo Cargnello, Hee-Tae Jung, Jeesoo Yoon, Jinwon Oh",
+        "department_or_lab": "Chemical Engineering, School of Engineering, Stanford University; KAIST; BASF",
+        "award_or_discovery": "Discovery of a new method to synthesize uniform five-metal nanocrystals and their application as a powerful catalyst.",
+        "significance": "This \"synthesis breakthrough\" opens a new chapter in nanomaterials preparation and has direct implications for the future of hydrogen fuel, as the nanocrystals are significantly more effective in ammonia decomposition.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This breakthrough signals high-impact lab activity and supply demand for advanced materials, catalysts, and potentially specialized equipment for nanomaterial synthesis and characterization, as well as reagents for catalytic reactions.",
+        "source_url": "https://www.eurekalert.org/news-releases/1126735"
+      },
+      {
+        "summary": "Researchers at the Stanford Cancer Institute, led by Kacper Rogala, discovered a unique two-step signaling mechanism for the cancer-associated protein mTORC2, redefining how proteins interact and opening new avenues for drug discovery.",
+        "researcher_name": "Kacper Rogala, Maximilian Wranik",
+        "department_or_lab": "Structural Biology, Chemical and Systems Biology, Stanford Cancer Institute, Stanford University",
+        "award_or_discovery": "Discovery of a unique two-step signaling mechanism for the mTORC2 protein, redefining protein interaction and offering a new approach to halt cancer cell growth.",
+        "significance": "This \"groundbreaking cancer treatments\" study, published in Science, redefines how proteins find one another, unlocking new doors for drug discovery and potentially leading to more effective and safer cancer treatments.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This breakthrough signals high-impact lab activity and supply demand for reagents, consumables, and equipment for structural biology, chemical biology, and cancer research, particularly for protein interaction studies and drug development.",
+        "source_url": "https://med.stanford.edu/cancer/about/news/shaping-the-future-of-drug-discovery--one-protein-at-a-time.html"
+      },
+      {
+        "summary": "Professor Sally Benson, Professor of Energy Resources Engineering at Stanford Doerr School of Sustainability, was elected as a Fellow of the Royal Society.",
+        "researcher_name": "Sally Benson",
+        "department_or_lab": "Energy Resources Engineering, Stanford Doerr School of Sustainability, Stanford University",
+        "award_or_discovery": "Election as a Fellow of the Royal Society.",
+        "significance": "The Royal Society Fellowship recognizes outstanding researchers and their contributions to scientific endeavor, with Professor Benson's work likely in energy resources engineering.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This honor indicates ongoing high-level research in energy resources and sustainability, suggesting demand for specialized equipment and consumables for energy research, environmental analysis, and engineering applications.",
+        "source_url": "https://royalsociety.org/news/2026/05/new-fellows-announcement-2026/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:49:59.212816+00:00",
+  "ai_summary": "Stanford is experiencing significant funding growth across diverse research areas, including advanced materials science, neuroscience, cancer, and vascular health. New grants and partnerships, like the $90M brain aging initiative and Applied Materials collaboration, signal increased demand for specialized lab equipment, reagents, and consumables. This presents numerous opportunities for lab supply sales teams to support cutting-edge research."
+}

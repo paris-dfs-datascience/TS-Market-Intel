@@ -1,0 +1,118 @@
+{
+  "account": "SAINT-GOBAIN",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nosgxYAA",
+  "signals": {
+    "capital": [
+      {
+        "summary": "Saint-Gobain announced an investment of US$850 million for industrial expansion in Nuevo Leon, Mexico, specifically in the municipalities of Apodaca and Santa Catarina. This investment represents the first phase of industrial expansion the company plans in the state.",
+        "project_name": "Industrial Expansion in Nuevo Leon",
+        "location": "Nuevo Leon, Mexico (Apodaca and Santa Catarina)",
+        "value": "US$850 million",
+        "timeline": "First phase of industrial expansion",
+        "event_date": "2026-05-29",
+        "why_it_matters": "New industrial facilities will require a wide range of lab supplies, reagents, consumables, and scientific equipment for quality control, R&D, and manufacturing processes.",
+        "source_url": "https://mexico-now.com/saint-gobain-to-invest-us850-million-in-nuevo-leon/"
+      },
+      {
+        "summary": "Saint-Gobain plans to invest nearly $1 billion in India over the next five years. This investment will fund new factories, research and development, digital capabilities, and acquisitions related to sustainable construction. The company's Oragadam facility near Chennai is being developed into Saint-Gobain's largest industrial site globally, integrating multiple product lines under one campus.",
+        "project_name": "India Investment for New Factories, R&D, and Expansion",
+        "location": "India (Oragadam facility near Chennai mentioned)",
+        "value": "Nearly $1 billion",
+        "timeline": "Over the next five years",
+        "event_date": "2026-05-04",
+        "why_it_matters": "Significant investment in new factories and R&D facilities will generate substantial demand for a wide array of lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://economictimes.indiatimes.com/industry/cons-products/saint-gobain-to-invest-1b-in-india-bets-on-growth-shift/articleshow/130739076.cms?from=mdr"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Saint-Gobain announced an investment of US$850 million to strengthen its operations in Nuevo Leon, Mexico, specifically in Apodaca and Santa Catarina. This is part of an industrial expansion to strengthen production capacity linked to construction and manufacturing.",
+        "location": "Nuevo Leon, Mexico (Apodaca and Santa Catarina)",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": 850000000,
+        "event_date": "2026-05-29",
+        "why_it_matters": "This significant industrial expansion indicates increased demand for manufacturing and potentially laboratory supplies to support enhanced production and quality control.",
+        "source_url": "https://mexiconow.mx/news/saint-gobain-invest-us850-million-nuevo-leon"
+      },
+      {
+        "summary": "Saint-Gobain plans to invest nearly $1 billion in India over the next five years for new factories, research and development, digital capabilities, and acquisitions tied to sustainable construction materials. This includes developing its Oragadam facility near Chennai into its largest industrial site globally.",
+        "location": "India (Oragadam facility near Chennai)",
+        "type_of_expansion": "capacity expansion, new factories, research and development",
+        "investment_value": 1000000000,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This substantial investment in new factories and R&D facilities in India will drive demand for a wide range of lab supplies, reagents, and scientific equipment for research, development, and quality control.",
+        "source_url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/construction/saint-gobain-to-invest-1-billion-in-india-bets-on-growth-shift/articleshow/109823620.cms"
+      },
+      {
+        "summary": "CertainTeed Canada, a subsidiary of Saint-Gobain, is developing a new gypsum mine in Antrim, Nova Scotia, to strengthen its supply chain for gypsum wallboard manufacturing plants in Eastern Canada and the U.S. Nova Scotia granted industry approval for the project in May 2026.",
+        "location": "Antrim, Nova Scotia, Canada",
+        "type_of_expansion": "new facility",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "A new mining operation for raw materials indicates increased industrial activity and potential demand for various industrial and analytical lab supplies for quality control of the extracted gypsum.",
+        "source_url": "https://www.saltwire.com/atlantic-canada/business/new-gypsum-mine-near-halifax-should-ship-15-million-tonnes-a-year-to-ontario-quebec-eastern-us-100863004/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Saint-Gobain is eliminating the Alumina-Zirconia-Silica (AZS) production line at its SEFPRO facility in Falconer, New York, impacting 79 jobs, with production expected to cease in August.",
+        "facility_or_line": "SEFPRO facility, Alumina-Zirconia-Silica (AZS) production line",
+        "change_type": "Production line elimination/reduction in capacity",
+        "location": "Falconer, New York, USA",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "The cessation of a production line indicates a shift in manufacturing focus, potentially leading to a decrease in demand for raw materials and specialized lab supplies related to AZS production.",
+        "source_url": "https://www.observertoday.com/news/top-stories/2026/05/falconer-firm-to-eliminate-line-79-jobs/"
+      },
+      {
+        "summary": "Saint-Gobain has inaugurated a new construction chemicals manufacturing unit in Ras Al Khaimah, UAE, which has been operational since Q2 2025, with a monthly production capacity exceeding 10,000 tonnes of mortar solutions and plans for further expansion.",
+        "facility_or_line": "New construction chemicals manufacturing unit",
+        "change_type": "New manufacturing site opening, expansion of production capacity",
+        "location": "Ras Al Khaimah, UAE (Al Ghail Industrial Zone)",
+        "investment_value": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "A new manufacturing facility and expanded production capacity for construction chemicals will drive increased demand for raw materials, quality control reagents, and various lab consumables and equipment for R&D and production monitoring.",
+        "source_url": "https://www.businessreviewmea.com/2026/05/21/saint-gobain-opens-new-manufacturing-facility-in-ras-al-khaimah/"
+      },
+      {
+        "summary": "Saint-Gobain announced the opening of 11 new production lines and plants during the first quarter of 2026, with 10 of these located in high-growth countries, reflecting a strategic shift in investment towards Asia-Pacific and emerging markets.",
+        "facility_or_line": "11 new production lines and plants (global)",
+        "change_type": "New production lines/plants opening, expansion of production capacity",
+        "location": "Global, with 10 in high-growth countries (Asia-Pacific and emerging markets)",
+        "investment_value": null,
+        "event_date": "2026-04-23",
+        "why_it_matters": "The opening of multiple new production lines and plants globally, especially in high-growth regions, indicates a significant increase in manufacturing activity, leading to a surge in demand for a wide array of lab supplies, reagents, and equipment for process control, quality assurance, and new product development.",
+        "source_url": "https://www.doubleglazingblogger.com/2026/05/saint-gobain-q1-2026-results-show-resilience-amid-global-construction-weakness/"
+      },
+      {
+        "summary": "Saint-Gobain plans to invest approximately $1 billion in India over the next five years as part of its strategy to shift growth focus from Western Europe to emerging markets.",
+        "facility_or_line": "General investment in India operations",
+        "change_type": "Strategic investment, potential for future new sites/lines",
+        "location": "India",
+        "investment_value": "Approximately $1 billion",
+        "event_date": "2026-05-04",
+        "why_it_matters": "A substantial investment in India signals future expansion of manufacturing capabilities and product lines, which will inevitably lead to increased demand for lab equipment, consumables, and reagents for R&D, quality control, and production scale-up in the region.",
+        "source_url": "https://www.saint-gobain.com/en/media"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Saint-Gobain is discontinuing the production of its Alumina-Zirconia-Silica (AZS) line at the SEFPRO facility in Falconer, New York, a move that will result in the loss of 79 union and salaried positions. Production on the AZS line is expected to end in August 2026.",
+        "facility_or_programme": "Alumina-Zirconia-Silica (AZS) production line at the SEFPRO facility (formerly Monofrax) in Falconer, New York",
+        "closure_type": "Production line shutdown",
+        "effective_date": "2026-08-01",
+        "reason": "The decision is part of a new business plan, following careful consideration and evaluation of Saint-Gobain's core business goals. It is also driven by mounting cost pressures in the Alumina-Zirconia-Silica market, including increasing global demand for specialty ceramics, supply chain shortages, stricter environmental regulations, the energy-intensive nature of manufacturing, and a structural supply gap in zirconium raw materials.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This shutdown of a specific production line for refractory materials presents a potential churn risk for existing suppliers to Saint-Gobain for this line and an opportunity for Thomas Scientific to potentially supply alternative materials or equipment to the remaining product lines at the Falconer facility or to other companies in the specialty ceramics or refractory market.",
+        "source_url": "https://www.alcircle.com/news/saint-gobain-to-shut-alumina-zirconia-silica-line-in-falconer-79-jobs-affected-122934"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T19:17:07.557909",
+  "ai_summary": "Saint-Gobain is undergoing significant global expansion, investing billions in new factories, R&D, and production lines across Mexico, India, and the UAE, while strategically shifting focus to emerging markets. This includes developing its largest global industrial site in India. For lab supply sales, this signals substantial opportunities for new lab setups, R&D equipment, and ongoing consumables at these expanding and new facilities worldwide."
+}

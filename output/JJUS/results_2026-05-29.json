@@ -1,0 +1,302 @@
+{
+  "account": "JJUS",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1DqYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The U.S. Food and Drug Administration (FDA) approved a supplemental Biologics License Application (sBLA) for TREMFYA\u00ae (guselkumab) to include evidence for the inhibition of progression of structural joint damage in adults with active psoriatic arthritis (PsA).",
+        "product_or_program": "TREMFYA\u00ae (guselkumab)",
+        "stage": "FDA Approval (sBLA)",
+        "therapeutic_or_application_area": "Psoriatic Arthritis (inhibition of structural joint damage)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This expanded label strengthens TREMFYA's position as a first-line treatment for PsA, potentially increasing its market share and driving demand for related lab supplies for patient monitoring and administration.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-us-fda-approval-of-tremfya-guselkumab-label-expansion-cementing-its-position-as-the-only-il-23-inhibitor-proven-to-help-stop-further-joint-damage-in-adults-with-active-psoriatic-arthritis"
+      },
+      {
+        "summary": "Johnson & Johnson announced that the U.S. Food and Drug Administration (FDA) approved STELARA\u00ae (ustekinumab) for the treatment of patients two years and older with moderately to severely active Crohn's disease (CD).",
+        "product_or_program": "STELARA\u00ae (ustekinumab)",
+        "stage": "FDA Approval",
+        "therapeutic_or_application_area": "Pediatric Crohn's Disease",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This approval expands the patient population for STELARA, leading to increased demand for diagnostic tools, administration supplies, and monitoring reagents for pediatric Crohn's disease patients.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-fda-approval-of-stelara-for-pediatric-crohns-disease"
+      },
+      {
+        "summary": "Johnson & Johnson announced Phase 2b data for JNJ-4804, an investigational co-antibody therapy, and will be initiating Phase 3 DUET ENCORE-CD and DUET ENCORE-UC trials in patients with moderately to severely active ulcerative colitis and Crohn's disease.",
+        "product_or_program": "JNJ-4804 (guselkumab and golimumab fixed-dose combination)",
+        "stage": "Clinical Trial Initiation (Phase 3)",
+        "therapeutic_or_application_area": "Moderately to severely active Ulcerative Colitis and Crohn's Disease",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The initiation of Phase 3 trials indicates significant investment in this co-antibody therapy, suggesting future demand for a wide range of lab supplies, reagents, and equipment for ongoing research, development, and eventual manufacturing.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-investigational-co-antibody-therapy-jnj-4804-shows-potential-to-raise-the-bar-for-clinical-efficacy-in-treating-refractory-inflammatory-bowel-disease"
+      },
+      {
+        "summary": "Johnson & Johnson will present more than 20 abstracts at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting, highlighting data across solid tumors and hematologic malignancies, including late-breaking Phase 3 PROTEUS results for ERLEADA\u00ae (apalutamide).",
+        "product_or_program": "ERLEADA\u00ae (apalutamide), TECVAYLI\u00ae (teclistamab-cqyv), RYBREVANT FASPRO\u2122 (amivantamab and hyaluronidase-lpuj), Pasritamig (JNJ-78278343)",
+        "stage": "Clinical Study Results Presentation (Phase 3, etc.)",
+        "therapeutic_or_application_area": "Oncology (prostate cancer, multiple myeloma, head and neck cancer, lung cancer, colorectal cancer, bladder cancer)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Presentation of significant clinical data, especially Phase 3 results, indicates ongoing and future research, potential for new approvals or label expansions, and continued demand for research-grade reagents, consumables, and analytical equipment.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-ushers-in-the-next-wave-of-innovation-in-cancer-care-with-more-than-20-clinical-and-real-world-studies-at-asco-2026"
+      },
+      {
+        "summary": "Johnson & Johnson has discontinued its CD20 mono CAR-T cell therapy (JNJ-9530) and CD19/CD20-targeting bispecific CAR-T (JNJ-4496) programs based on portfolio priorities and an assessment of the evolving large B-cell lymphoma treatment landscape.",
+        "product_or_program": "JNJ-9530, JNJ-4496 (CAR-T cell therapies)",
+        "stage": "Program Discontinuation (Phase 1 and 1/2 trials)",
+        "therapeutic_or_application_area": "Large B-cell lymphoma",
+        "event_date": "2026-05-01",
+        "why_it_matters": "While a discontinuation, this event highlights the dynamic nature of drug development; resources may be reallocated to other pipeline programs, potentially shifting demand for lab supplies to different therapeutic areas or research stages within J&J.",
+        "source_url": "https://www.fiercebiotech.com/biotech/j-j-axes-5b-car-t-dream-months-after-touting-best-disease-efficacy"
+      },
+      {
+        "summary": "The FDA approved Johnson & Johnson's supplemental new drug application (sNDA) for Caplyta (lumateperone) to include long-term data on the medication's schizophrenia relapse-prevention capabilities.",
+        "product_or_program": "Caplyta (lumateperone)",
+        "stage": "FDA Approval (sNDA)",
+        "therapeutic_or_application_area": "Schizophrenia (relapse prevention)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This label update enhances Caplyta's clinical profile, potentially increasing its prescription rate and driving demand for related diagnostic and monitoring supplies.",
+        "source_url": "https://www.fiercepharma.com/pharma/regulatory-tracker-after-us-nod-pfizers-braftovi-racks-colorectal-cancer-wins-eu-canada"
+      },
+      {
+        "summary": "A clinical study (NCT07601568) for JNJ-95804306, an investigational drug for relapsed or refractory hematological malignancies, was first posted on ClinicalTrials.gov.",
+        "product_or_program": "JNJ-95804306",
+        "stage": "Clinical Trial Initiation (Study Posting)",
+        "therapeutic_or_application_area": "Relapsed or Refractory Hematological Malignancies",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The initiation of a new clinical study signals future demand for research reagents, lab consumables, and specialized equipment for patient screening, sample analysis, and drug administration.",
+        "source_url": "https://clinicaltrials.gov/study/NCT07601568"
+      }
+    ],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "DePuy Synthes, a Johnson & Johnson unit, has entered into a definitive agreement to acquire selective rights to develop, manufacture, and commercialize Gemtrack technology from MinMaxMedical, a Grenoble-based pioneer in medtech and surgical innovation. This proprietary radiofrequency tracking technology is intended for use across its Joints portfolio, including shoulder, hip, and knee, for both navigation and robotic applications.",
+        "partner": "MinMaxMedical",
+        "deal_type": "Licensing/Co-development",
+        "deal_value": "Undisclosed (implied >$5M due to strategic importance)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This deal signals new lab activity in developing and manufacturing advanced radiofrequency tracking technology for robotic-assisted orthopedic surgery, requiring new R&D and potentially manufacturing capabilities.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/depuy-synthes-announces-agreement-to-acquire-miniature-radiofrequency-tracking-technology-across-its-joint-reconstruction-portfolio"
+      },
+      {
+        "summary": "Johnson & Johnson announced a collaboration with the Department of Health \u2013 Abu Dhabi (DOH), Amazon Web Services (AWS), and NVIDIA to launch a global program aimed at developing an open surgical intelligence network. This initiative will establish Abu Dhabi as the first node in a global infrastructure designed to accelerate artificial intelligence (AI) innovation for every stage of the surgery experience, integrating Johnson & Johnson's Polyphonic\u2122 open digital ecosystem.",
+        "partner": "Department of Health \u2013 Abu Dhabi, Amazon Web Services (AWS), NVIDIA",
+        "deal_type": "Research Collaboration/Joint Venture",
+        "deal_value": "Undisclosed (implied >$5M due to global program scope and AI innovation acceleration)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This collaboration indicates new lab programs and technology platform development focused on artificial intelligence and surgical intelligence, requiring advanced data processing and analytical lab capabilities.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-creation-of-global-intelligent-or-network-in-collaboration-with-department-of-health-abu-dhabi"
+      },
+      {
+        "summary": "Johnson & Johnson has secured naming rights for \"The Johnson & Johnson Exchange at the New Jersey Innovation Hub (NJIH), Powered by Portal Innovations,\" a 30,000-square-foot science incubator located within the HELIX in New Brunswick. This collaboration with Portal Innovations and DEVCO will provide early-stage, science-driven startups with flexible lab space, curated programming, and access to Portal's global network.",
+        "partner": "Portal Innovations, DEVCO",
+        "deal_type": "Collaboration/Sponsorship",
+        "deal_value": "Undisclosed (implied >$5M given the scale of the $2-billion life science center and J&J's significant involvement)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This collaboration directly signals new and expanded lab activity by providing flexible lab space and support for early-stage scientific startups, indicating future demand for lab supplies and equipment.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/depuy-synthes-announces-agreement-to-acquire-miniature-radiofrequency-tracking-technology-across-its-joint-reconstruction-portfolio"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Johnson & Johnson received Priority Review designation from the U.S. Food and Drug Administration for its supplemental Biologics License Application (sBLA) for IMAAVY (nipocalimab-aahu) for warm autoimmune hemolytic anemia (wAIHA).",
+        "product_or_site": "IMAAVY (nipocalimab-aahu)",
+        "regulatory_action": "Priority Review designation",
+        "outcome": "Granted",
+        "event_date": "2026-04-27",
+        "why_it_matters": "This designation indicates potential for accelerated approval, which would lead to increased demand for manufacturing and research supplies for scale-up.",
+        "source_url": "https://www.prnewswire.com/news-releases/fda-grants-priority-review-for-imaavy-nipocalimab-aahu-as-the-potential-first-approved-treatment-for-people-living-with-warm-autoimmune-hemolytic-anemia-waiha-302753581.html"
+      },
+      {
+        "summary": "The FDA approved a supplemental new drug application (sNDA) for lumateperone (Caplyta; Johnson & Johnson) for the prevention of relapse in adults with schizophrenia.",
+        "product_or_site": "Lumateperone (Caplyta)",
+        "regulatory_action": "sNDA approval",
+        "outcome": "Approved",
+        "event_date": "2026-04-27",
+        "why_it_matters": "This approval will lead to increased demand for manufacturing and distribution supplies for the expanded indication.",
+        "source_url": "https://www.pharmacytimes.com/view/fda-approves-lumateperone-for-prevention-of-relapse-in-adults-with-schizophrenia"
+      },
+      {
+        "summary": "Zydus Therapeutics' New Drug Application (NDA) for saroglitazar for the treatment of primary biliary cholangitis (PBC) was granted Priority Review by the US FDA.",
+        "product_or_site": "Saroglitazar",
+        "regulatory_action": "Priority Review designation (NDA)",
+        "outcome": "Granted",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This designation indicates potential for accelerated approval, which would lead to increased demand for manufacturing and research supplies for scale-up.",
+        "source_url": "https://www.pharmexec.com/view/fda-approves-caplyta-prevention-schizophrenia-adults"
+      },
+      {
+        "summary": "The FDA granted Breakthrough Therapy Designation to VER-01, Vertanical's non-opioid, cannabinoid-extract-based investigational treatment for chronic low back pain.",
+        "product_or_site": "VER-01",
+        "regulatory_action": "Breakthrough Therapy designation",
+        "outcome": "Granted",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This designation expedites development and review, potentially increasing demand for research and clinical trial supplies.",
+        "source_url": "https://za.investing.com/news/company-news/fda-grants-priority-review-to-jjs-imaavy-for-rare-blood-disorder-93CH-4233996"
+      },
+      {
+        "summary": "The FDA issued a warning letter to Jixianglong, a Chinese company, for breaking GLP-1 import restrictions related to semaglutide shipments.",
+        "product_or_site": "Jixianglong (site), Semaglutide (product)",
+        "regulatory_action": "FDA Warning Letter",
+        "outcome": "Issued",
+        "event_date": "2026-05-20",
+        "why_it_matters": "A warning letter indicates non-compliance, which may lead to demand for remediation supplies, quality control equipment, and consulting services.",
+        "source_url": "https://www.prnewswire.com/news-releases/fda-grants-priority-review-for-imaavy-nipocalimab-aahu-as-the-potential-first-approved-treatment-for-people-living-with-warm-autoimmune-hemolytic-anemia-waiha-302753581.html"
+      },
+      {
+        "summary": "The FDA cleared an Investigational New Drug (IND) application for ENDO-205, a first-of-its-kind, non-hormonal treatment developed by EndoCyclic Therapeutics for endometriosis.",
+        "product_or_site": "ENDO-205",
+        "regulatory_action": "IND clearance",
+        "outcome": "Cleared",
+        "event_date": "2026-04-28",
+        "why_it_matters": "IND clearance allows clinical trials to begin, increasing demand for research reagents, lab consumables, and clinical trial supplies.",
+        "source_url": "https://allsci.com/news/expedited-pathways/jjs-anti-fcrn-mab-imaavy-takes-fda-priority-review-for-waiha/"
+      },
+      {
+        "summary": "Beren Therapeutics' investigational therapy, adrabetadex, for infantile-onset Niemann-Pick disease type C, has received Priority Review, Orphan Drug, and Breakthrough Therapy designations from the FDA.",
+        "product_or_site": "Adrabetadex",
+        "regulatory_action": "Priority Review designation, Breakthrough Therapy designation",
+        "outcome": "Granted",
+        "event_date": "2026-05-28",
+        "why_it_matters": "These designations indicate expedited development and review, potentially increasing demand for research and clinical trial supplies.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-approval-for-imaavytm-nipocalimab-aahu-a-new-fcrn-blocker-offering-long-lasting-disease-control-in-the-broadest-population-of-people-living-with-generalized-myasthenia-gravis-gmg"
+      },
+      {
+        "summary": "Dyne Therapeutics submitted a Biologics License Application (BLA) for zeleciment rostudirsen (z-rostudirsen) for Duchenne muscular dystrophy amenable to exon 51 skipping and requested Priority Review.",
+        "product_or_site": "Zeleciment rostudirsen (z-rostudirsen)",
+        "regulatory_action": "BLA submission, Priority Review request",
+        "outcome": "Submitted (BLA), Requested (Priority Review)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "BLA submission and Priority Review request indicate progression towards market, increasing demand for manufacturing and quality control supplies.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-seeks-fda-approval-of-imaavy-nipocalimab-aahu-as-the-first-ever-fda-approved-treatment-for-warm-autoimmune-hemolytic-anemia-waiha"
+      },
+      {
+        "summary": "The FDA accepted IntraBio Inc.'s supplemental New Drug Application (sNDA) for AQNEURSA (levacetylleucine) for Ataxia-Telangiectasia and granted it Priority Review.",
+        "product_or_site": "AQNEURSA (levacetylleucine)",
+        "regulatory_action": "sNDA acceptance, Priority Review designation",
+        "outcome": "Accepted (sNDA), Granted (Priority Review)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This indicates potential for accelerated approval, which would lead to increased demand for manufacturing and research supplies for scale-up.",
+        "source_url": "https://www.businesswire.com/news/home/20260519107955/en/FDA-Accepts-sNDA-and-Grants-Priority-Review-to-AQNEURSA%C2%AE-for-Ataxia-Telangiectasia"
+      },
+      {
+        "summary": "Chengdu Origen Biotechnology Co., Ltd. and Vanotech Ltd. announced that the US FDA granted \"study may proceed\" to the KHN921 Investigational New Drug (IND) application for hypertrophic cardiomyopathy (HCM) associated with MYBPC3 mutations.",
+        "product_or_site": "KHN921",
+        "regulatory_action": "IND clearance",
+        "outcome": "Cleared",
+        "event_date": "2026-05-13",
+        "why_it_matters": "IND clearance allows clinical trials to begin, increasing demand for research reagents, lab consumables, and clinical trial supplies.",
+        "source_url": "https://www.biospace.com/article/chengdu-origen-and-vanotech-announce-khn921-investigational-new-drug-application-clearance-by-the-us-fda-for-the-treatment-of-hypertrophic-cardiomyopathy-hcm-associated-with-mybpc3-mutations/"
+      },
+      {
+        "summary": "The FDA issued its first-ever warning letter explicitly citing AI misuse as a compliance violation to Purolea Cosmetics Lab, alongside other cGMP violations.",
+        "product_or_site": "Purolea Cosmetics Lab (site)",
+        "regulatory_action": "FDA Warning Letter",
+        "outcome": "Issued",
+        "event_date": "2026-04-30",
+        "why_it_matters": "A warning letter indicates non-compliance, which may lead to demand for remediation supplies, quality control equipment, and consulting services.",
+        "source_url": "https://www.mastercontrol.com/blog/fda-issues-first-warning-letter-for-ai-compliance/"
+      },
+      {
+        "summary": "The FDA issued a Warning Letter to Pure Indulgence Aesthetics, a medical spa in Texas, for significant violations related to the handling of Botox and DSCSA compliance.",
+        "product_or_site": "Pure Indulgence Aesthetics (site), Botox (product)",
+        "regulatory_action": "FDA Warning Letter",
+        "outcome": "Issued",
+        "event_date": "2026-05-16",
+        "why_it_matters": "A warning letter indicates non-compliance, which may lead to demand for remediation supplies, quality control equipment, and consulting services.",
+        "source_url": "https://infinitrak.com/fda-issued-warning-letter-to-a-medical-spa-in-texas/"
+      },
+      {
+        "summary": "ArriVent announced FDA Investigational New Drug (IND) clearance for ARR-002, a novel tetravalent MUC16/NaPi2b targeting antibody-drug conjugate, with an initial focus on ovarian and endometrial cancers.",
+        "product_or_site": "ARR-002",
+        "regulatory_action": "IND clearance",
+        "outcome": "Cleared",
+        "event_date": "2026-05-07",
+        "why_it_matters": "IND clearance allows clinical trials to begin, increasing demand for research reagents, lab consumables, and clinical trial supplies.",
+        "source_url": "https://stocktitan.com/news/AVBP/arrivent-announces-ind-clearance-for-novel-tetravalent-muc16-napi2b-targeting-adc-h1411202605070710.html"
+      },
+      {
+        "summary": "Laguna Biotherapeutics, Inc. announced that the FDA cleared its Investigational New Drug (IND) application for LGNA-100, a novel \u03b3\u03b4 T cell activator for high-risk pediatric leukemias.",
+        "product_or_site": "LGNA-100",
+        "regulatory_action": "IND clearance",
+        "outcome": "Cleared",
+        "event_date": "2026-04-29",
+        "why_it_matters": "IND clearance allows clinical trials to begin, increasing demand for research reagents, lab consumables, and clinical trial supplies.",
+        "source_url": "https://www.biospace.com/article/laguna-announces-fda-clearance-of-ind-application-for-lgna-100-a-novel-gamma-delta-t-cell-activator-for-high-risk-pediatric-leukemias/"
+      },
+      {
+        "summary": "Zenas BioPharma, Inc. announced the submission of its Biologics License Application (BLA) to the U.S. FDA for obexelimab in Immunoglobulin G4-Related Disease (IgG4-RD).",
+        "product_or_site": "Obexelimab",
+        "regulatory_action": "BLA submission",
+        "outcome": "Submitted",
+        "event_date": "2026-05-28",
+        "why_it_matters": "BLA submission indicates progression towards market, increasing demand for manufacturing and quality control supplies.",
+        "source_url": "https://www.barchart.com/story/news/23117498/zenas-biopharma-announces-submission-of-biologics-license-application-bla-to-us-fda-for-obexelimab-in-igg4-rd"
+      }
+    ],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Johnson & Johnson acquired Atraverse Medical, a company focused on developing next-generation tools for left-heart access.",
+        "acquirer": "Johnson & Johnson",
+        "target": "Atraverse Medical",
+        "deal_value": null,
+        "deal_status": "Closed",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This acquisition expands Johnson & Johnson's medical device portfolio, potentially creating new demand for specialized lab supplies and consumables for research, development, and manufacturing of these next-generation tools.",
+        "source_url": "https://tracxn.com/d/acquisitions/acquisitions-by-johnson-johnson/__QQnOvfmDr7cMNF7rAf5SOqW8gO3RJj2wEk4fcibAPFs"
+      }
+    ],
+    "spinoff": [
+      {
+        "summary": "University of Manchester techbio spin-out Imperagen secured \u00a35 million in seed funding to accelerate its R&D platform, scale wet lab operations, and expand its in-house AI team.",
+        "spinoff_name": "Imperagen",
+        "parent_organisation": "University of Manchester",
+        "focus_area": "Enzyme engineering using quantum physics, AI modeling, and automated labs for industries including pharmaceutical manufacturing, personal care, sustainable fine chemicals, and industrial biotech.",
+        "funding_raised": "\u00a35 million (seed round), total funding \u00a38.5 million",
+        "event_date": "2026-05-21",
+        "why_it_matters": "A new spin-off lab expanding its wet lab capabilities presents a greenfield sales opportunity for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.manchester.ac.uk/about/news/university-of-manchester-techbio-spin-out-secures-5-million-to-deploy-quantum-physics-ai-modelling-and-highly-automated-labs-to-power-next-gen-enzyme-engineering/"
+      },
+      {
+        "summary": "Johnson & Johnson secured naming rights for the Johnson & Johnson Exchange at the New Jersey Innovation Hub (NJIH), a 30,000-square-foot science incubator providing flexible lab space and support for early-stage science-driven startups.",
+        "spinoff_name": "Multiple startups within New Jersey Innovation Hub",
+        "parent_organisation": "Johnson & Johnson (collaborator/sponsor), Portal Innovations, New Brunswick Development Corporation",
+        "focus_area": "Supporting early-stage science-driven startups across therapeutics, medical devices, diagnostics, and enabling technologies with lab space and resources.",
+        "funding_raised": "Undisclosed (J&J naming rights and support for the hub)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new science incubator with flexible lab space for multiple startups creates a greenfield sales opportunity for a wide range of lab supplies and equipment.",
+        "source_url": "https://www.marketscreener.com/news/portal-innovations-new-brunswick-development-corporation-and-johnson-johnson-collaborate-to-name-ce7f5adeda80fe27"
+      },
+      {
+        "summary": "Calycia Biosciences, a University of Utah spin-out and part of Altitude Lab's new cohort, secured $400,000 in pre-seed funding after winning Altitude Lab's 2026 Demo Day.",
+        "spinoff_name": "Calycia Biosciences",
+        "parent_organisation": "University of Utah",
+        "focus_area": "Biotech startup, part of an accelerator focused on early-stage life science companies with an emphasis on TechBio and platform-based technology commercialization.",
+        "funding_raised": "$400,000 (pre-seed funding)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "A newly funded university spin-out in biotech will require lab supplies, reagents, consumables, and scientific equipment for its research and development.",
+        "source_url": "https://natlawreview.com/press-releases/altitude-lab-portfolio-companies-surpass-205-million-funding-marking-new-era"
+      },
+      {
+        "summary": "MIT researchers developed a low-cost technique for lithium extraction from hard rock and have begun commercializing the technology through an MIT spinout, Rock Zero, which is scaling up the system.",
+        "spinoff_name": "Rock Zero",
+        "parent_organisation": "MIT (Massachusetts Institute of Technology)",
+        "focus_area": "Low-cost, low-waste lithium extraction from hard rock for battery materials, involving chemical processes and lab work.",
+        "funding_raised": "Not specified (scaling up the system)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new university spin-out scaling up its chemical processes and lab system will require scientific equipment, reagents, and consumables for its R&D and process optimization.",
+        "source_url": "https://news.mit.edu/2026/mit-researchers-develop-low-cost-technique-lithium-from-rocks-0528"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:31:28.536549",
+  "ai_summary": "JJUS is highly active with multiple FDA approvals and pipeline advancements in immunology, oncology, and neuroscience. They are also strategically investing in innovation through acquisitions and establishing a new science incubator. This robust R&D expansion and new lab space creation signal increased demand for lab supplies, reagents, and equipment across diverse therapeutic areas for sales teams."
+}

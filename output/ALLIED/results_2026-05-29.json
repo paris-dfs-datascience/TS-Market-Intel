@@ -1,0 +1,47 @@
+{
+  "account": "ALLIED",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1D7YAK",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Dr. Sicong Zhang has been appointed as an Assistant Professor at the Eppley Institute for Research in Cancer and Allied Diseases at the University of Nebraska Medical Center (UNMC). His research focuses on gene regulation, particularly transcription and RNA regulation, to uncover the molecular mechanisms that drive cancer development and therapeutic resistance.",
+        "name": "Sicong Zhang",
+        "department": "Eppley Institute for Research in Cancer and Allied Diseases",
+        "start_date": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.unmc.edu/newsroom/2026/05/20/new-faculty-spotlight-sicong-zhang-phd/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Allied Critical Metals Inc. announced a corporate and operational update, including securing a U.S.$40 million financing and being fully funded for the next 12 months with over $45 million in cash liquidity, to advance its Borralha and Vila Verde tungsten projects in northern Portugal.",
+        "project_name": "Borralha and Vila Verde Tungsten Projects",
+        "scope": "The update details a drilling campaign at the Borralha Project, which intersected over 200 metres with multiple intercepts of visible tungsten mineralization, and progress towards first tungsten concentrate production targeted for Q4 2026 at the Vila Verde Pilot Plant.",
+        "timeline": "First tungsten concentrate production is targeted for Q4 2026, and the company is fully funded through the end of 2027.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This significant funding and operational progress for tungsten mining and processing projects indicate a demand for specialized geological and mining equipment, analytical laboratory services for mineral analysis, and potentially reagents and consumables for extraction and material science research.",
+        "source_url": "https://www.newsfilecorp.com/release/298128/Allied-Critical-Metals-Announces-Corporate-Update-and-Operational-Update"
+      },
+      {
+        "summary": "Penn State College of Health and Human Development (HHD) was ranked as the nation's No. 1 school of allied health in terms of National Institutes of Health (NIH) funding, having received over $29.5 million in research dollars from the NIH in 2025.",
+        "project_name": "NIH-funded research across various health and human-science fields within the College of Health and Human Development",
+        "scope": "The research encompasses diverse areas such as biobehavioral health, communication sciences and disorders, health policy and administration, human development and family studies, kinesiology, nutritional sciences, and recreation, park, and tourism management, supported by interdisciplinary research centers.",
+        "timeline": "The funding mentioned is for 2025, indicating ongoing research programs.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This substantial NIH funding for allied health research signals a continuous demand for a broad spectrum of lab supplies, reagents, consumables, and scientific equipment used in health and human-science disciplines.",
+        "source_url": "https://hhd.psu.edu/news/2026/college-health-and-human-development-ranked-first-nih-funding-category"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:01:39.832240",
+  "ai_summary": "Dr. Sicong Zhang joined UNMC, focusing on cancer gene regulation, signaling new lab setup needs. Penn State's College of HHD secured $29.5M in NIH funding for allied health research, indicating significant expansion and purchasing power. This signals increased demand for molecular biology, cell culture, and general lab supplies across these growing research areas."
+}

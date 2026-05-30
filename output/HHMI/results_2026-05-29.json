@@ -1,0 +1,60 @@
+{
+  "account": "HHMI",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DnYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Research on CDS-localized m6A driving co-translational RNA decay to relieve biotic and abiotic endoplasmic reticulum stresses.",
+        "recipient": "Chuan He",
+        "department_or_lab": "Howard Hughes Medical Institute, The University of Chicago",
+        "amount": "Not specified in source",
+        "agency": "NIH, NSF",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This research could lead to new insights into cellular stress responses, potentially impacting the demand for reagents and equipment used in RNA biology, protein synthesis, and cell stress studies.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42103909/"
+      },
+      {
+        "summary": "Precision DNA editing targets the root cause of severe childhood epilepsy (Dravet syndrome) in a preclinical study.",
+        "recipient": "David Liu",
+        "department_or_lab": "Howard Hughes Medical Institute and Harvard University",
+        "amount": "Not specified in source",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This breakthrough in gene editing for a severe genetic disease indicates a strong and ongoing need for specialized reagents, enzymes, and equipment for CRISPR/base editing technologies and neurological research.",
+        "source_url": "https://www.eurekalert.org/news-releases/1128135"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "A new project within HHMI's AI@HHMI initiative aims to develop probes using AI-driven protein design and novel dyes to enable the simultaneous observation of multiple proteins within a cell. This project is part of HHMI's broader $500 million, 10-year investment in embedding AI systems across scientific processes.",
+        "project_name": "AI-driven protein design for multi-protein observation (part of AI@HHMI initiative)",
+        "scope": "The project focuses on combining AI-driven protein design with next-generation dyes to create labeling systems for observing multiple proteins simultaneously within a cell. This is a specific endeavor under the larger AI@HHMI initiative, which seeks to integrate AI into experimental design, data collection, and discovery across HHMI labs.",
+        "timeline": "The specific project was announced on May 11, 2026. The overarching AI@HHMI initiative was launched in 2024 and is a 10-year program with a $500 million investment.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This project will drive demand for advanced protein synthesis reagents, specialized fluorescent dyes, high-resolution microscopy equipment, and computational infrastructure for AI model development and data analysis in biological research.",
+        "source_url": "https://www.hhmi.org/shaping-science/ai-hhmi"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Researchers, including those from HHMI's Janelia Research Campus, have developed an AI assistant to interpret petabytes of 5D microscopy data, enabling a holistic study of living tissue over fast timescales and long periods.",
+        "researcher_name": "Tian-Ming Fu, Daniel Milkie",
+        "department_or_lab": "Janelia Research Campus of the Howard Hughes Medical Institute (HHMI)",
+        "award_or_discovery": "Development of an AI assistant for interpreting 5D super-resolution fluorescence microscopy data, published in Nature Methods.",
+        "significance": "This breakthrough allows scientists to analyze complex cellular and organismal processes in living tissue at unprecedented scale and detail, overcoming limitations in interpreting vast amounts of high-resolution imaging data.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This advancement signals high demand for cutting-edge microscopy equipment, advanced computational resources for data processing and AI model training, and specialized reagents for fluorescent labeling in biological imaging.",
+        "source_url": "https://news.berkeley.edu/2026/05/22/hi-res-microscopes-give-biologists-petabytes-of-data-scientists-are-creating-an-ai-assistant-to-make-sense-of-it/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:32:25.111850",
+  "ai_summary": "HHMI is heavily investing in AI for protein design, advanced microscopy, and data interpretation, alongside cutting-edge research in gene editing and RNA biology. This $500M AI initiative signals a major shift towards high-tech, data-intensive science. For lab supply sales, this means increased demand for specialized reagents, advanced imaging consumables, gene editing tools, and cell culture supplies to support these ambitious, well-funded projects."
+}

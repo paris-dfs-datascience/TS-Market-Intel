@@ -1,0 +1,28 @@
+{
+  "account": "INFINERA",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011M00002FBOr3QAH",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Nokia, having acquired Infinera, is currently building a new 6-inch Indium Phosphide (InP) fab in San Jose, California, with its ramp-up anticipated after 2026. This new facility will operate alongside the existing legacy InP fab inherited from Infinera.",
+        "facility_or_line": "New 6-inch Indium Phosphide (InP) fab",
+        "change_type": "New manufacturing site opening / Shift in production capacity",
+        "location": "San Jose, California, USA",
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment and future ramp-up of a new semiconductor fabrication facility will drive significant demand for specialized lab supplies, reagents, consumables, and scientific equipment essential for cleanroom operations, material processing, and quality control.",
+        "source_url": "https://www.gurufocus.com/news/8814473/q1-2026-nokia-oyj-earnings-call-transcript?mobile=true"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:42:48.297310",
+  "ai_summary": "Nokia, having acquired Infinera, is building a new 6-inch Indium Phosphide fab in San Jose, expected to ramp up after 2026, complementing their existing facility. This significant expansion signals increased production capacity and technological advancement. For lab supply sales, this means substantial future opportunities for new equipment, consumables, and services during construction, ramp-up, and ongoing operations at both facilities."
+}

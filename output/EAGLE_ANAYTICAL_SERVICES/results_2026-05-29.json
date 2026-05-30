@@ -1,0 +1,40 @@
+{
+  "account": "EAGLE ANAYTICAL SERVICES",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1J1YAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "volume": [
+      {
+        "summary": "Eagle Analytical Services has implemented ScanRDI\u00ae Rapid Sterility Testing, significantly reducing turnaround time for 503A compounding pharmacies.",
+        "test_or_product_line": "ScanRDI\u00ae Rapid Sterility Testing for 503A Compounding Pharmacies",
+        "volume_change": "Reduced sterility testing turnaround time from 14 days (USP <71>) to 1-2 days, enabling significantly higher throughput.",
+        "driver": "Implementation of ScanRDI\u00ae Rapid Microbial Method as an alternative to USP <71>.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "Higher test volume directly increases consumable spend due to the need for more reagents, media, and disposables to process a greater number of samples in a shorter timeframe.",
+        "source_url": "https://www.eagleanalytical.com/news/scanrdi-rapid-sterility-testing-for-503a-compounding-pharmacies"
+      },
+      {
+        "summary": "Eagle Analytical Services announced a new partnership with ACHC, providing ACHC-accredited pharmacies and facilities access to Eagle's full range of laboratory services.",
+        "test_or_product_line": "Full range of laboratory, consulting, and engineering services, including analytical chemistry and microbiological testing.",
+        "volume_change": "Expanded potential client base to all ACHC-accredited pharmacies and facilities, indicating an expected increase in testing volume.",
+        "driver": "New partnership with ACHC, The Accreditation Commission for Health Care.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "An expanded client base and increased testing volume will lead to higher demand for lab supplies, reagents, and consumables used in analytical chemistry and microbiological testing.",
+        "source_url": "https://www.eagleanalytical.com/news/achc-partnership-announcement"
+      }
+    ],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:24:40.464594",
+  "ai_summary": "Eagle Analytical Services is expanding its market reach by partnering with ACHC and adopting rapid sterility testing, significantly increasing potential sample volume from accredited and compounding pharmacies. This growth signals a heightened demand for their full range of services. For a lab supply sales team, this means a growing need for consumables, reagents, and potentially new equipment to support their expanding operations and increased testing throughput."
+}

@@ -1,0 +1,42 @@
+{
+  "account": "PHARMALOGIC",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1CWYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "PharmaLogic and Ratio Therapeutics expanded their manufacturing collaboration to support the continued clinical development and future commercialization readiness of Ratio's lead therapeutic candidate, [Ac-225]RTX-2358.",
+        "product_or_program": "[Ac-225]RTX-2358",
+        "stage": "Clinical Development (supporting clinical supply)",
+        "therapeutic_or_application_area": "Cancer treatment (FAP-targeted radiopharmaceutical)",
+        "event_date": "2026-05-29",
+        "why_it_matters": "PharmaLogic's increased manufacturing capacity for a clinical-stage radiopharmaceutical indicates an immediate need for specialized raw materials, consumables, and equipment for radiopharmaceutical production and clinical trial support.",
+        "source_url": "https://www.prnewswire.com/news-releases/ratio-therapeutics-and-pharmalogic-expand-manufacturing-collaboration-to-support-clinical-development-of-ac-225rtx-2358-302158933.html"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "PharmaLogic Holdings Corp. announced the opening of its new PET radiopharmaceutical manufacturing facility in Atlanta, Georgia, as a significant step in expanding domestic radiopharmaceutical manufacturing infrastructure and advancing patient access to novel diagnostic and therapeutic radiopharmaceuticals.",
+        "location": "Atlanta, Georgia, U.S.",
+        "type_of_expansion": "New dedicated facility (manufacturing and research operations)",
+        "investment_value": "$250 million (part of a broader investment)",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This new manufacturing and research facility will require a wide range of lab supplies, reagents, consumables, and scientific equipment for its radiopharmaceutical production and development activities.",
+        "source_url": "https://www.biospace.com/press-releases/pharmalogic-announces-opening-of-new-pet-radiopharmaceutical-manufacturing-facility-in-atlanta-georgia"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:41:53.042856",
+  "ai_summary": "PharmaLogic is significantly expanding its radiopharmaceutical manufacturing capabilities, opening a new PET facility in Atlanta and deepening its collaboration with Ratio Therapeutics for clinical and commercial production of [Ac-225]RTX-2358. This expansion signals increased demand for lab supplies, equipment, and specialized reagents to support their growing R&D and production needs, creating significant sales opportunities."
+}

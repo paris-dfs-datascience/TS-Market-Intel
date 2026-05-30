@@ -1,0 +1,114 @@
+{
+  "account": "UC VETERINARY MEDICAL CENTER",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000BJj37YAD",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "UC Davis received a $75 million gift for a new small animal hospital, which is part of a larger $750 million Veterinary Medical Complex expansion. The new hospital will feature state-of-the-art equipment and expanded spaces for specialties like oncology, orthopedic surgery, cardiology, and neurology/neurosurgery, integrating new technologies such as artificial intelligence and precision medicine. The overall complex expansion includes expanded small and large animal teaching hospitals, a a new primary care hospital, a dedicated veterinary cancer center, advanced specialty clinics, and an education pavilion, aiming to increase class sizes from 150 to 200 and patient capacity from 50,000 to 75,000 animals annually.",
+        "location": "UC Davis, California, USA",
+        "type_of_expansion": "New dedicated facility (small animal hospital) and broader veterinary medical complex expansion",
+        "investment_value": "$750 million",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This significant expansion of a veterinary medical center will create substantial new demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for diagnostics, research, and specialized veterinary care.",
+        "source_url": "https://giving.ucdavis.edu/impacts-giving/uc-davis-receives-75m-historic-gift-support-veterinary-medicine"
+      },
+      {
+        "summary": "Upstate Medical University has broken ground on a new Upstate Pathology Institute, a clinical pathology laboratory facility that is expected to add 25 new jobs in its first year of operation, with an additional 10 new jobs in each of the following two years.",
+        "location": "DeWitt (Onondaga County), New York, USA",
+        "type_of_expansion": "New clinical pathology laboratory facility",
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new clinical pathology laboratory and the addition of 25 new jobs indicate a direct need for new laboratory equipment, diagnostic reagents, and consumables.",
+        "source_url": "https://dol.ny.gov/system/files/documents/2026/05/expcont_1.pdf"
+      },
+      {
+        "summary": "Hidden Level Inc. is planning a $45 million expansion for a new headquarters building in Syracuse's Inner Harbor area. The new building will include space for offices, manufacturing, engineering, and labs, as well as warehousing and testing chambers. This expansion is projected to create 100 new jobs over the next five years.",
+        "location": "Syracuse (Onondaga County), New York, USA",
+        "type_of_expansion": "New headquarters building including manufacturing, engineering, and labs",
+        "investment_value": "$45 million",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The inclusion of new labs, manufacturing, and engineering spaces, coupled with a significant investment and headcount increase, signals demand for scientific equipment, lab supplies, and potentially specialized manufacturing consumables.",
+        "source_url": "https://dol.ny.gov/system/files/documents/2026/05/expcont_1.pdf"
+      },
+      {
+        "summary": "RoVa Labs, a $26 million biotech incubator, has opened in Roanoke. The 40,000-square-foot facility features private and open wet lab space, shared equipment, and offices, and is expected to create 250 jobs within five years.",
+        "location": "Roanoke, Virginia, USA",
+        "type_of_expansion": "New biotech incubator with wet lab space",
+        "investment_value": "$26 million",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The opening of a new biotech incubator with extensive wet lab space and a high projected job creation indicates a strong upcoming demand for a broad range of lab equipment, reagents, and consumables for multiple startup companies.",
+        "source_url": "https://virginiabusiness.com/roanoke-opens-biotech-incubator-boost-life-sciences/"
+      },
+      {
+        "summary": "WVU Medicine Princeton Community Hospital (PCH) and the City of Bluefield announced the development of a new pediatrics and primary care clinic in downtown Bluefield. The new clinic will feature 12 exam rooms and an on-site lab.",
+        "location": "Bluefield, West Virginia, USA",
+        "type_of_expansion": "New clinic with an on-site lab",
+        "investment_value": null,
+        "event_date": "2026-05-01",
+        "why_it_matters": "The opening of a new clinic with an on-site lab directly indicates new procurement needs for diagnostic equipment, reagents, and consumables for clinical testing.",
+        "source_url": "https://wvumedicine.org/news/article/wvu-medicine/princeton-community-hospital/pch-city-of-bluefield-announce-new-downtown-clinic/"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "The UC Davis Weill School of Veterinary Medicine received a $75 million gift from Kathy Chiao and Kenneth Hao.",
+        "amount": 75000000,
+        "funding_type": "Gift/Donation",
+        "use_of_proceeds": "The gift will support the construction of a new small-animal hospital, fund veterinary student scholarships, and support research projects that connect animal medicine to human counterparts, featuring state-of-the-art equipment and integrating new technologies like AI and precision medicine.",
+        "event_date": "2026-05-02",
+        "why_it_matters": "This significant investment in a new, state-of-the-art small-animal hospital and expanded research projects will drive substantial demand for advanced lab equipment, reagents, and consumables for veterinary diagnostics, treatment, and translational research.",
+        "source_url": "https://www.dvm360.com/view/uc-davis-vet-school-celebrates-us-75m-donation"
+      }
+    ],
+    "project": [
+      {
+        "summary": "The Center for Animal Locomotion and Innovation (CALI) at UC Davis, a partnership between the College of Engineering and the School of Veterinary Medicine, officially opened.",
+        "project_name": "Center for Animal Locomotion and Innovation (CALI)",
+        "scope": "The facility houses state-of-the-art motion capture and photogrammetry technologies to image birds in flight. The data gathered will inform the design of uncrewed aerial vehicles (UAVs) and provide insights into avian rehabilitation. It is funded by a U.S. Army Combat Compatibility Development Command Army Research Office grant.",
+        "timeline": "Grand opening on May 8, 2026, with ongoing research activities.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "The launch of CALI will create demand for advanced scientific equipment, specialized sensors, imaging technologies, and consumables for biomechanical and biological research related to animal locomotion and engineering applications.",
+        "source_url": "https://www.vetmed.ucdavis.edu/news/center-animal-locomotion-and-innovation-opens"
+      },
+      {
+        "summary": "The California National Primate Research Center (CNPRC) at UC Davis is inviting applications for up to six Assistant, Associate, or Full Professional Researcher positions to establish new, externally funded research programs.",
+        "project_name": "California National Primate Research Center (CNPRC) Professional Researcher Recruitment and Program Expansion",
+        "scope": "Successful candidates will establish rigorous, externally funded, independent research programs leveraging nonhuman primate models and integrating complementary in vitro, in silico, and other New Approach Methodologies (NAMs) to enhance translational impact, mechanistic insight, and scientific rigor. The CNPRC is one of seven NIH-supported National Primate Research Centers, and Core Scientists receive salary support from a P51 base grant.",
+        "timeline": "The application window opened on April 15, 2026, with a first review date of May 2, 2026, indicating a multi-year commitment to establishing new research programs.",
+        "event_date": "2026-05-02",
+        "why_it_matters": "The establishment of multiple new, externally funded research programs at a major primate research center will generate significant demand for a broad spectrum of lab supplies, reagents, consumables, and specialized equipment for primate care, molecular biology, advanced imaging, and various research methodologies.",
+        "source_url": "https://recruit.ucdavis.edu/JPF07561"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "The University of California, Davis, Weill School of Veterinary Medicine received a $75 million gift from Kathy Chiao and Kenneth (Ken) Hao. This gift, the second-largest individual gift in the school's history, will support the construction of a new small animal hospital, fund veterinary student scholarships, and advance research projects connecting animal and human medicine.",
+        "researcher_name": "Not applicable (institutional gift)",
+        "department_or_lab": "UC Davis Weill School of Veterinary Medicine",
+        "award_or_discovery": "$75 Million Gift from Kathy Chiao and Kenneth (Ken) Hao",
+        "significance": "This substantial gift will significantly expand the school's facilities and research capabilities, particularly in small animal care and translational medicine, fostering new discoveries and training for future veterinarians.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "A $75 million gift for a new hospital and research directly signals massive upcoming demand for new scientific equipment, lab supplies, and reagents for expanded research capabilities and increased patient care.",
+        "source_url": "https://www.universityofcalifornia.edu/news/uc-davis-ucsf-receive-major-gifts-support-medicine-research-and-modernization"
+      },
+      {
+        "summary": "Researchers at the University of California, Davis, have identified a naturally occurring OPA1 mutation in rhesus macaques that closely mirrors autosomal dominant optic atrophy (ADOA), a progressive inherited eye disease in humans. This discovery provides a new animal model for studying human vision loss and developing potential therapies.",
+        "researcher_name": "Tracy Jaggers, Sara Thomasy",
+        "department_or_lab": "UC Davis Weill School of Veterinary Medicine, Department of Ophthalmology and Vision Science at UC Davis, California National Primate Research Center",
+        "award_or_discovery": "Discovery of naturally occurring OPA1 mutation in rhesus macaques mirroring human hereditary blindness (autosomal dominant optic atrophy - ADOA)",
+        "significance": "This breakthrough provides a valuable non-human primate model for understanding the mechanisms of ADOA, developing novel diagnostic tools, and exploring therapeutic interventions for human vision loss.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This discovery of a new animal model for human hereditary blindness signals increased demand for specialized ophthalmological equipment, genetic sequencing tools, and reagents for ongoing research into vision loss and therapeutic development.",
+        "source_url": "https://www.dvm360.com/view/rhesus-macaques-carry-mutation-that-mirrors-human-hereditary-blindness-disorder-study-finds"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T12:01:33.650302+00:00",
+  "ai_summary": "UC Davis Veterinary Medical Center is undergoing a $750 million expansion, including a new small animal hospital and advanced research facilities, supported by a $75 million gift. This growth will significantly increase patient capacity, class sizes, and research programs. For lab supply sales, this means substantial demand for new equipment, consumables, and reagents across expanded facilities and growing research initiatives."
+}

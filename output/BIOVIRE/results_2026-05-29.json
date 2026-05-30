@@ -1,0 +1,97 @@
+{
+  "account": "BIOVIRE",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000UWlCEYA1",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "BioVie Inc. announced the completion of the last patient evaluation visit in its SUNRISE-PD Phase 2 trial, evaluating the drug candidate bezisterim in early-stage Parkinson's disease. The company plans to announce topline results in Q3 2026 and use the data to finalize the design for Phase 3 registrational trials.",
+        "product_or_program": "Bezisterim (SUNRISE-PD trial)",
+        "stage": "Phase 2 trial completion",
+        "therapeutic_or_application_area": "Early-stage Parkinson's disease",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The completion of this Phase 2 trial indicates progression towards potential Phase 3 studies and eventual commercialization, suggesting upcoming demand for lab supplies, reagents, and equipment for larger-scale clinical research and development. Sales representatives should engage to understand future needs for expanded trials or manufacturing.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/18/3296537/0/en/biovie-announces-completion-of-phase-2-sunrise-pd-trial-in-early-stage-parkinson-s-disease.html"
+      },
+      {
+        "summary": "BioVie Inc. announced the full enrollment of its ADDRESS-LC Phase 2 trial, evaluating its drug candidate bezisterim for the treatment of neurological symptoms associated with Long COVID. Topline data is expected in late summer 2026.",
+        "product_or_program": "Bezisterim (ADDRESS-LC trial)",
+        "stage": "Phase 2 trial full enrollment",
+        "therapeutic_or_application_area": "Neurological symptoms associated with Long COVID",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Full enrollment signifies active progression of the clinical trial, indicating ongoing demand for consumables, reagents, and potentially equipment for patient sample processing, monitoring, and data analysis. Sales representatives should engage to support current trial needs and anticipate requirements for subsequent phases.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/26/3300996/0/en/biovie-announces-full-enrollment-of-the-address-lc-trial-of-bezisterim-for-the-treatment-of-neurological-symptoms-associated-with-long-covid.html"
+      },
+      {
+        "summary": "CG Oncology discussed its plans to file a Biologics License Application (BLA) for cretostimogene for bladder cancer by Q4 2026, highlighting ongoing work and upgrades at its Biovire fill-and-finish facility in preparation for a CBER inspection.",
+        "product_or_program": "Cretostimogene (CG Oncology's drug); Biovire fill-and-finish facility operations",
+        "stage": "Pre-BLA submission activities, commercialization preparation for manufacturing",
+        "therapeutic_or_application_area": "Bladder cancer (for cretostimogene); pharmaceutical manufacturing (for Biovire facility)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The Biovire facility is undergoing significant upgrades and preparing for regulatory inspections for commercial manufacturing, indicating immediate and future demand for lab supplies, quality control reagents, and equipment to support GMP operations. Sales representatives should engage with CG Oncology and the Biovire facility to support their pre-commercialization and manufacturing needs.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/01/08/3215348/0/en/biovie-completes-enrollment-in-phase-2-sunrise-pd-trial-in-early-parkinson-s-disease.html"
+      },
+      {
+        "summary": "Biovire is actively hiring for key roles in GMP pharmaceutical manufacturing, including Maintenance Technicians and Production Managers, indicating a ramp-up in operations and preparation for commercialization at its Brighton, MI, and Amenia, NY facilities.",
+        "product_or_program": "General pharmaceutical manufacturing and commercialization activities at Biovire facilities",
+        "stage": "Commercialization preparation, GMP manufacturing",
+        "therapeutic_or_application_area": "Pharmaceutical manufacturing (general)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Significant hiring in GMP manufacturing and related support functions signals a strong and ongoing demand for a wide array of lab supplies, reagents, consumables, and scientific equipment to support production, quality control, and facility maintenance. Sales representatives should engage to understand and supply these operational needs.",
+        "source_url": "https://investors.bioviepharma.com/news/news-details/2025/BioVie-Enrolls-First-Patient-in-ADDRESS-LC-Clinical-Trial-Assessing-Novel-Anti-Inflammatory-Candidate-Bezisterim-for-the-Treatment-of-Neurological-Symptoms-Associated-with-Long-COVID/default.aspx"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "BioVie Inc. announced the full enrollment of its ADDRESS-LC Phase 2 trial, evaluating bezisterim for the treatment of neurological symptoms associated with Long COVID. The study is fully funded by a $13.13 million grant from the U.S. Department of War (formerly the U.S. Department of Defense). Topline data release is targeted for late summer 2026.",
+        "project_name": "ADDRESS-LC Phase 2 Trial (Bezisterim for Long COVID)",
+        "scope": "Clinical development of bezisterim for neurological symptoms of Long COVID, funded by a government grant.",
+        "timeline": "Full enrollment completed; topline data expected late summer 2026.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Full enrollment in a government-funded Phase 2 clinical trial indicates ongoing demand for clinical trial supplies, diagnostic reagents, and specialized equipment for neurological assessments.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/26/3300996/0/en/biovie-announces-full-enrollment-of-the-address-lc-trial-of-bezisterim-for-the-treatment-of-neurological-symptoms-associated-with-long-covid.html"
+      },
+      {
+        "summary": "BioVie Inc. announced the completion of the last patient evaluation visit in its SUNRISE-PD Phase 2 trial, evaluating bezisterim in early-stage Parkinson's disease. The company plans to announce topline results in Q3 2026.",
+        "project_name": "SUNRISE-PD Phase 2 Trial (Bezisterim for Parkinson's Disease)",
+        "scope": "Clinical development of bezisterim for early-stage Parkinson's disease, with the aim to inform Phase 3 registrational trial design.",
+        "timeline": "Last patient evaluation visit completed; topline data expected in Q3 2026.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Completion of a Phase 2 clinical trial signifies significant R&D activity and potential for progression to Phase 3, driving demand for research reagents, lab consumables, and specialized equipment for neurological research.",
+        "source_url": "https://www.stocktitan.net/news/BIVI/bio-vie-announces-completion-of-phase-2-sunrise-pd-trial-in-early-7mndxc1riey7.html"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "CG Oncology announced that its rolling Biologics License Application (BLA) filing for cretostimogene in BCG-unresponsive high-risk non-muscle invasive bladder cancer (NMIBC) remains on track for completion by Q4 2026, following recent FDA discussions. The company is also focusing on facility inspection readiness, particularly for a fill-and-finish facility acquired last year, which is identified as the Biovire facility.",
+        "product_or_site": "Cretostimogene; Biovire fill-and-finish facility",
+        "regulatory_action": "BLA Filing (on track)",
+        "outcome": "Expected completion of rolling BLA filing in Q4 2026",
+        "event_date": "2026-05-15",
+        "why_it_matters": "Continued progress towards BLA submission and focus on manufacturing facility readiness indicate ongoing and potentially increased demand for lab supplies, reagents, and consumables for manufacturing and quality control.",
+        "source_url": "https://www.marketbeat.com/instant-alerts/cg-oncology-bla-filing-on-track-as-key-bladder-cancer-data-nears-2026-05-15/"
+      },
+      {
+        "summary": "CG Oncology reported its first quarter 2026 financial results and provided business updates, confirming that the non-clinical and clinical modules for its first BLA submission are complete. The remaining Chemistry, Manufacturing, and Controls (CMC) module is progressing as planned, with the final submission targeted for the fourth quarter of 2026. Manufacturing inspection readiness activities are also progressing.",
+        "product_or_site": "Cretostimogene; manufacturing facilities",
+        "regulatory_action": "BLA Filing (on track)",
+        "outcome": "Expected completion of BLA submission in Q4 2026",
+        "event_date": "2026-05-08",
+        "why_it_matters": "Completion of BLA modules and ongoing manufacturing readiness signal sustained demand for lab supplies, reagents, and consumables for CMC and quality assurance.",
+        "source_url": "https://www.stocktitan.net/news/CGON/cg-oncology-reports-first-quarter-2026-financial-results-and-f2be0rrsp7qz.html"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:18:22.025538",
+  "ai_summary": "Biovire is significantly ramping up GMP manufacturing operations, preparing its fill-and-finish facility for a CBER inspection linked to CG Oncology's BLA submission by Q4 2026. Active hiring for production roles further signals increased activity and commercialization readiness. This surge in manufacturing and regulatory preparation creates high demand for lab supplies, QC reagents, and equipment."
+}

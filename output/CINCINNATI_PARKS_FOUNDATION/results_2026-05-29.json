@@ -1,0 +1,73 @@
+{
+  "account": "CINCINNATI PARKS FOUNDATION",
+  "account_vertical": "Government",
+  "Parent_ID": "0011M00002TurZlQAJ",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Thermo Fisher Scientific officially opened its new bioanalytical and biomarker laboratory in Gothenburg, Sweden, which is expected to create up to 140 jobs.",
+        "location": "Gothenburg, Sweden",
+        "type_of_expansion": "new laboratory, market entry",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "A new laboratory facility indicates new procurement needs for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.investingothenburg.com/news/us-giant-opens-new-laboratory-in-gothenburg"
+      },
+      {
+        "summary": "IBM and the U.S. Department of Commerce announced the establishment of Anderon, a new standalone quantum wafer foundry in Albany, New York, backed by $2 billion in investment.",
+        "location": "Albany, New York, USA",
+        "type_of_expansion": "new manufacturing facility",
+        "investment_value": 2000000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "A new quantum chip foundry will require significant quantities of specialized lab supplies, reagents, and scientific equipment for manufacturing and R&D.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Collins Aerospace announced a $26.5 million investment to expand its Largo, Florida facility, creating more than 100 new highly skilled jobs for radar production.",
+        "location": "Largo, Florida, USA",
+        "type_of_expansion": "capacity expansion (manufacturing)",
+        "investment_value": 26500000,
+        "event_date": "2026-05-11",
+        "why_it_matters": "Expansion of a manufacturing facility suggests increased demand for industrial-scale lab supplies, consumables, and potentially new equipment for quality control and R&D.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "TerraPower Isotopes broke ground on its Bellwether Laboratory, a $450 million, 250,000-square-foot actinium-225 manufacturing facility in Philadelphia, projected to create approximately 225 full-time jobs.",
+        "location": "Philadelphia, Pennsylvania, USA",
+        "type_of_expansion": "new manufacturing facility",
+        "investment_value": 450000000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "A new large-scale manufacturing facility for medical isotopes will generate substantial demand for specialized reagents, lab consumables, and scientific equipment.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Novartis broke ground on a new $280 million, 46,000-square-foot radioligand therapy manufacturing site in Denton, Texas, expected to create between 150 and 175 jobs.",
+        "location": "Denton, Texas, USA",
+        "type_of_expansion": "new manufacturing facility",
+        "investment_value": 280000000,
+        "event_date": "2026-05-07",
+        "why_it_matters": "A new pharmaceutical manufacturing facility, especially for radioligand therapy, will require a wide range of specialized lab supplies, reagents, and equipment for production and quality control.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Eli Lilly announced an additional $4.5 billion investment across two of its Lebanon, Indiana sites, including its newly opened dedicated genetic medicine manufacturing facility, expected to support more than 1,000 jobs.",
+        "location": "Lebanon, Indiana, USA",
+        "type_of_expansion": "capacity expansion (API and advanced therapies manufacturing)",
+        "investment_value": 4500000000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "A multi-billion dollar expansion in API and advanced therapies manufacturing will drive significant demand for bulk reagents, specialized consumables, and high-throughput scientific equipment.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      }
+    ],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:18:43.439304",
+  "ai_summary": "Market signals show significant expansion in scientific and manufacturing labs, creating thousands of jobs across biotech, quantum, and aerospace. This trend suggests the Cincinnati Parks Foundation may boost its environmental science or conservation research. Lab supply sales should investigate the Foundation's evolving needs for equipment and consumables to support new scientific programs."
+}

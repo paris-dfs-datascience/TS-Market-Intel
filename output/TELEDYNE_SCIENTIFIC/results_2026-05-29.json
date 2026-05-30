@@ -1,0 +1,68 @@
+{
+  "account": "TELEDYNE SCIENTIFIC",
+  "account_vertical": "Government",
+  "Parent_ID": "0011M00002FBQ0pQAH",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Teledyne Marine has established a new support facility at Oceansgate, Devonport, UK, dedicated to supporting Royal Navy users of Teledyne's underwater and autonomous systems, marking a significant step in the company's UK footprint.",
+        "location": "Oceansgate, Devonport, UK",
+        "type_of_expansion": "New dedicated facility / New country or region market entry (UK)",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "The establishment of a new dedicated support facility indicates upcoming demand for specialized lab supplies, reagents, consumables, and scientific equipment to support the maintenance, testing, and development of underwater and autonomous systems.",
+        "source_url": "https://pasdfreeport.com/2026/05/global-marine-technology-leader-teledyne-marine-visits-plymouth-to-strengthen-royal-navy-support-and-uk-supply-chain/"
+      }
+    ],
+    "project": [],
+    "tender": [
+      {
+        "summary": "Teledyne DALSA announced Kaleido, a groundbreaking short-wave infrared (SWIR) hyperspectral camera engineered for high-speed industrial inspection, targeting critical applications in recycling, food safety, pharmaceuticals, and waste management.",
+        "tender_name": "Kaleido SWIR Hyperspectral Camera Launch",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "The introduction of the Kaleido SWIR Hyperspectral Camera for pharmaceuticals and food safety applications creates direct sales opportunities for Thomas Scientific in providing complementary lab supplies and reagents.",
+        "source_url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Extends-and-Expands-Integrated-Well-Construction-Contract-with-Petrobras/default.aspx"
+      },
+      {
+        "summary": "Teledyne Space Imaging supplied two CCD370 imaging sensors for the Soft X-ray Imager on the European Space Agency's SMILE mission, a joint European-Chinese scientific collaboration designed to study space weather and the interaction between the Sun and Earth.",
+        "tender_name": "ESA SMILE Mission Sensor Supply",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "Teledyne's provision of advanced imaging sensors for the ESA SMILE scientific mission signifies a need for specialized scientific equipment and related consumables for space research and development.",
+        "source_url": "https://www.businesswire.com/news/home/20260519024700/en/Teledyne-Space-Imaging-Sensors-Launch-Aboard-European-Space-Agencys-SMILE-Mission"
+      }
+    ],
+    "mandate": [],
+    "legislation": [
+      {
+        "summary": "Teledyne Scientific and Imaging LLC received a $12.2 million modification to a cost-plus-fixed-fee contract for a Defense Advanced Research Projects Agency (DARPA) project.",
+        "bill_or_budget_name": "HR001124C0359 / Defense Advanced Research Projects Agency (DARPA) project",
+        "jurisdiction": "Federal",
+        "funding_amount": 12258430,
+        "focus_area": "Scientific Research",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This significant contract modification for a DARPA scientific research project indicates increased activity and potential demand for specialized lab supplies, reagents, and equipment to support the research.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4500905/contracts-for-may-26-2026/"
+      },
+      {
+        "summary": "A Cornell-led NORDTECH microelectronics research project, involving Teledyne Scientific and Imaging, LLC as a collaborator, received $7.05 million in second-year federal funding.",
+        "bill_or_budget_name": "NITRIDER (Nitride RF Next-Generation Technology) project / U.S. Microelectronics Commons program / Northeast Regional Defense Technology Hub (NORDTECH)",
+        "jurisdiction": "Federal",
+        "funding_amount": 7050000,
+        "focus_area": "Scientific Research",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Teledyne Scientific and Imaging's collaboration on this federally funded microelectronics research project suggests potential demand for specialized lab equipment, materials, and consumables for semiconductor and quantum technology development.",
+        "source_url": "https://research-and-innovation.cornell.edu/news/nordtech-funding-renewal/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:46:28.130281",
+  "ai_summary": "Teledyne Scientific is securing substantial government funding for advanced R&D in microelectronics and space imaging, including a $12.2M DARPA contract and $7M for NORDTECH research. This significant investment, alongside new facility expansions and innovative product development, signals increased demand for specialized lab equipment and consumables to support their high-tech scientific projects and growing operational footprint."
+}

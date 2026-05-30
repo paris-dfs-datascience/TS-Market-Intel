@@ -1,0 +1,38 @@
+{
+  "account": "COLORADO MESA UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DTYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Prime Health+ has opened a new flagship facility in Grand Junction, Colorado, which will provide pharmacy, dental, and medical training for 80 Colorado Mesa University students and expand primary care, dental, and behavioral health services to serve an additional 4,000 patients annually.",
+        "location": "Grand Junction, Colorado, United States",
+        "type_of_expansion": "New dedicated facility",
+        "investment_value": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new facility will require new lab supplies, reagents, consumables, and scientific equipment to support the pharmacy, dental, and medical training programs and expanded health services.",
+        "source_url": "https://www.jpmorgan.com/insights/real-estate/community-development-banking/investing-in-rural-healthcare-with-nmtc-equity"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Department of Energy published a case study highlighting Colorado Mesa University's ongoing expansion of its geothermal heat pump system, one of North America's largest, with plans for future funding to connect additional campus buildings.",
+        "project_name": "Colorado Mesa University Geothermal Heat Pump System Expansion",
+        "scope": "Expansion of the geothermal heat pump system to connect an additional 800,000 square feet of campus buildings to the central loop, involving drilling additional fields.",
+        "timeline": "Ongoing, with future funding anticipated for further expansion. The initial system began planning in 2007.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This large-scale infrastructure expansion will likely drive demand for specialized geological survey equipment, environmental monitoring sensors, and materials for fluid analysis and system maintenance.",
+        "source_url": "https://www.energy.gov/hgeo/geothermal/geothermal-heat-pump-case-study-colorado-mesa-university"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:27:49.017249",
+  "ai_summary": "Colorado Mesa University is undergoing significant expansion, particularly in health sciences. A new Prime Health+ facility will train 80 students in pharmacy, dental, and medical fields, creating a strong demand for lab supplies, equipment, and consumables for teaching and research labs. This growth, coupled with a major geothermal system expansion, signals substantial development and new sales opportunities for lab supply teams."
+}

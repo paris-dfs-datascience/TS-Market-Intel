@@ -1,0 +1,45 @@
+{
+  "account": "GMAS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001160000244CwfAAE",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "IBM is set to receive $1 billion in CHIPS Act funding from the U.S. Department of Commerce to build a quantum computer chip manufacturing facility.",
+        "amount": "$1 billion",
+        "funding_type": "Government funding (CHIPS Act with equity stake)",
+        "use_of_proceeds": "New quantum computer chip manufacturing facility",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The construction of a new quantum computer chip manufacturing facility will require significant procurement of specialized lab equipment, reagents, and scientific consumables for R&D and quality control.",
+        "source_url": "https://seekingalpha.com/article/4908029-qtum-and-rigetti-upgrade-just-got-a-major-government-tailwind"
+      },
+      {
+        "summary": "Rigetti Computing is expected to receive approximately $100 million in CHIPS Act funding from the U.S. Department of Commerce for quantum computing development.",
+        "amount": "~$100 million",
+        "funding_type": "Government funding (CHIPS Act with equity stake)",
+        "use_of_proceeds": "Quantum computing development, implying R&D and specialized lab build-out",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This funding for quantum computing development will necessitate investment in advanced scientific equipment, specialized reagents, and ongoing lab consumables for research and development.",
+        "source_url": "https://seekingalpha.com/article/4908029-qtum-and-rigetti-upgrade-just-got-a-major-government-tailwind"
+      },
+      {
+        "summary": "ARES Strategic Mining was awarded a five-year Indefinite Delivery/Indefinite Quantity contract by the U.S. Department of Defense through the Defense Logistics Agency, with an estimated initial award value of approximately $168.9 million and a total contract ceiling of up to $250 million, for strategic mineral resource development.",
+        "amount": "Up to $250 million",
+        "funding_type": "Government manufacturing contract (DoD)",
+        "use_of_proceeds": "Developing strategic mineral resources, including gallium, germanium, and fluorspar, which involves R&D and production infrastructure for secure North American supply chains.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "The development of strategic mineral resources and associated recovery methods will require new lab equipment, analytical instruments, and various reagents for R&D and quality control processes.",
+        "source_url": "https://www.barchart.com/story/news/1874102/found-industries-and-ares-strategic-mining-sign-mou-to-advance-domestic-gallium-germanium-and-fluorspar-recovery-from-utah-s-lost-sheep-mine"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T20:46:53.139950",
+  "ai_summary": "GMAS accounts are experiencing significant government investment in quantum computing and strategic mineral development. IBM is building a quantum chip manufacturing facility, Rigetti is advancing quantum computing, and ARES secured a major contract for mineral resources. This signals new R&D and manufacturing initiatives, creating substantial demand for lab equipment, specialized chemicals, and analytical instruments for sales teams."
+}

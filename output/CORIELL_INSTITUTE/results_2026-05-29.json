@@ -1,0 +1,29 @@
+{
+  "account": "CORIELL INSTITUTE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1VFYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Jean-Pierre Issa, President and CEO of Coriell Institute for Medical Research, presented his lab's work on epigenetics, including the discovery of a class of calcium channel modulators with unsuspected epigenetic activity and the first known CDK9 kinase inhibitor with epigenetic activity through a natural-compound screen.",
+        "researcher_name": "Jean-Pierre Issa",
+        "department_or_lab": "Coriell Institute for Medical Research",
+        "award_or_discovery": "Discovery of a first known CDK9 kinase inhibitor with epigenetic activity and identification of calcium channel modulators with epigenetic activity.",
+        "significance": "This discovery represents a first-in-class CDK9 kinase inhibitor with epigenetic activity, offering new avenues for therapeutic development, particularly in cancer, where epigenetic regulation plays a crucial role.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The identification of a first-in-class epigenetic CDK9 kinase inhibitor indicates active drug discovery and screening efforts, driving demand for epigenetics-related reagents, screening libraries, and analytical equipment.",
+        "source_url": "https://www.cas.org/resources/cas-insights/epigenetics"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:28:17.085872",
+  "ai_summary": "Coriell Institute's CEO, Jean-Pierre Issa, is leading groundbreaking epigenetics research, discovering novel calcium channel modulators and CDK9 kinase inhibitors. This signifies intense activity in drug discovery and molecular biology, creating significant opportunities for lab supply sales. His team will require specialized reagents, screening kits, and advanced equipment to continue their innovative work and capitalize on these breakthroughs."
+}

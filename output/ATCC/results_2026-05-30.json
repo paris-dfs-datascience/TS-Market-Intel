@@ -1,0 +1,149 @@
+{
+  "account": "ATCC",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkeuYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "ATCC won the National Institutes of Health (NIH) Common Fund Replication Prize, specifically the Replication Exemplars Track, for its innovative approach to producing Well-characterized Challenge Material (WCCM) for high-containment virus research, aiming to advance reproducibility in biomedical research.",
+        "recipient": "ATCC Federal Solutions team (Rebecca Bradford, Heather Couch, Sujatha Rashid, Ashley Castens, Manasi Tamhankar, Helen Navin, Michael Parker, Danielle Williams, Deb Hendrickson, Ann Wasko)",
+        "department_or_lab": "ATCC Federal Solutions",
+        "amount": "Up to $50,000",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This award validates ATCC's commitment to reproducible science and highlights the critical importance of standardized, high-quality biological materials, suggesting potential for increased sales of their virus-related products and services.",
+        "source_url": "https://www.vabio.org/atcc-wins-prestigious-national-institutes-of-health-replication-prize-for-advancing-reproducibility-in-virus-research/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Expression of Interest (EOI) for Empanelment of Manufacturers/Authorised Distributors/Dealers for entering into Annual Rate Contract for Supply of Laboratory related items including Chemicals, CRMs, Glass-wares, Plastic-wares, HPLC/GC Columns and their Accessories, small equipments and its accessories, Laboratory Furniture, Lab Waste Disposal Management, Laboratory Equipment Maintenance/Repairing etc. Mentions \"Microbiology Reference Cultures (Traceability ATCC)\".",
+        "contract_name": "Annual Rate Contract for Supply of Laboratory related items (including Microbiology Reference Cultures traceable to ATCC) for NIFTEM",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-20",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This EOI presents an opportunity for Thomas Scientific to become an empaneled supplier for a wide range of lab consumables and equipment, including microbiology reference cultures, for NIFTEM.",
+        "source_url": "https://www.curaj.ac.in/tenders"
+      },
+      {
+        "summary": "Tender document for rate contract of laboratory chemicals, glasswares, plasticwares, minor instrument and general items for the year 2026-27. Lists \"American Type Cell Culture (ATCC)\" as a brand.",
+        "contract_name": "Rate Contract for Laboratory Chemicals, Glasswares, Plasticwares, Minor Instrument and General Items (2026-27) for Central University of Rajasthan",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-16",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This tender offers Thomas Scientific an opportunity to secure an annual rate contract for various lab supplies and minor instruments, including products from ATCC, with the Central University of Rajasthan.",
+        "source_url": "https://www.curaj.ac.in/sites/default/files/Tender%20document%20for%20rate%20contract%20of%20laboratory%20chemicals%2C%20glasswares%2C%20plasticwares%2C%20minor%20instrument%20and%20general%20items%20for%20the%20year%202026-27.pdf"
+      },
+      {
+        "summary": "Invitation to Bid (LITB-2026-9204138) for the Procurement of WASH Lab Equipment and Supplies. Mentions \"E coli ATCC 25922\".",
+        "contract_name": "Procurement of WASH Lab Equipment and Supplies (LITB-2026-9204138) for UNICEF Nepal",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-10",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This Invitation to Bid provides an opportunity for Thomas Scientific to supply WASH lab equipment and supplies, including specific ATCC strains, to UNICEF Nepal.",
+        "source_url": "https://www.unicef.org/nepal/media/29596/file/Tender_LITB9204138_for%20WASH%20Lab%20supplies%20Final.pdf.pdf"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "UCLA opened the Center for Advanced Biotherapies, a 14,000-square-foot FDA-compliant manufacturing facility that nearly doubles the institution's capacity to produce cell and gene therapies for patients enrolled in clinical trials. The facility was built with support from the National Institutes of Health and the California Institute for Regenerative Medicine.",
+        "location": "Los Angeles, California, US",
+        "type_of_expansion": "New manufacturing facility, capacity expansion for cell and gene therapies",
+        "investment_value": 9300000,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing facility will require new lab supplies, reagents, and consumables for cell and gene therapy production.",
+        "source_url": "https://www.uclahealth.org/news/ucla-opens-center-for-advanced-biotherapies-expanding-capacity-to-develop-and-deliver-cell-and-gene-therapies"
+      },
+      {
+        "summary": "PCI Pharma Services is investing $100 million to expand its drug substance manufacturing facility within its San Diego campus in California, US. The expansion will add a second high-speed isolator filling line for ready-to-use prefilled syringes and cartridges, more than doubling the site's current syringe and cartridge filling capacity.",
+        "location": "San Diego, California, US",
+        "type_of_expansion": "Manufacturing facility expansion",
+        "investment_value": 100000000,
+        "event_date": "2026-04-27",
+        "why_it_matters": "This significant investment in manufacturing expansion will drive demand for sterile fill-finish consumables, reagents, and equipment.",
+        "source_url": "https://www.businesswire.com/news/home/20260427005001/en/Backed-by-Investments-Exceeding-1-Billion-PCI-Pharma-Services-Announces-Major-Expansion-of-US-Sterile-Fill-Finish-and-Drug-Device-Delivery-Combination-Capabilities"
+      },
+      {
+        "summary": "Arkana Laboratories celebrated the grand opening of its newly renovated 24,000-square-foot laboratory in Little Rock, Arkansas. This state-of-the-art laboratory, which provides same-day biopsy service, represents a $24 million investment and significantly expands Arkana's diagnostic and research capabilities.",
+        "location": "Little Rock, Arkansas, US",
+        "type_of_expansion": "Laboratory renovation and expansion",
+        "investment_value": 24000000,
+        "event_date": "2026-05-07",
+        "why_it_matters": "The expanded and renovated laboratory will require new diagnostic reagents, lab consumables, and research equipment.",
+        "source_url": "https://www.arkansasedc.com/news/post/arkana-laboratories-celebrates-grand-opening-of-newly-renovated-laboratory"
+      },
+      {
+        "summary": "Eli Lilly and Company announced an additional $4.5 billion investment across two of its three Lebanon, Indiana sites, bringing the company's total Indiana capital expansion commitments since 2020 to more than $21 billion. This includes the opening of Lilly Lebanon Advanced Therapies, its first dedicated genetic medicine manufacturing facility.",
+        "location": "Lebanon, Indiana, US",
+        "type_of_expansion": "New dedicated genetic medicine manufacturing facility and manufacturing site expansion",
+        "investment_value": 4500000000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant investment in genetic medicine manufacturing will create substantial demand for specialized reagents, consumables, and bioprocessing equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-commits-additional-4-5-billion-across-indiana-manufacturing-sites-opens-first-dedicated-genetic-medicine-facility-302480377.html"
+      },
+      {
+        "summary": "Novartis announced plans to add a new 56,200-square-foot facility in Morrisville, North Carolina, focused on active pharmaceutical ingredient (API) manufacturing for solid dosage tablets, capsules, and RNA therapeutics. This is part of the company's $23 billion commitment to US-based manufacturing and R&D, with an additional $220 million investment for this specific facility.",
+        "location": "Morrisville, North Carolina, US",
+        "type_of_expansion": "New API manufacturing facility",
+        "investment_value": 220000000,
+        "event_date": "2026-04-30",
+        "why_it_matters": "The new API manufacturing facility will generate demand for chemical reagents, process equipment, and quality control lab supplies.",
+        "source_url": "https://www.morrisvillenc.gov/Home/Components/News/News/1126/18"
+      },
+      {
+        "summary": "The University of Oklahoma has officially broken ground on its new $80 million, 105,000-square-foot Life Sciences Laboratory Building. This new teaching and research facility will feature 25 modern teaching laboratories and advanced biomedical research space, transforming STEM education on the Norman campus.",
+        "location": "Norman, Oklahoma, US",
+        "type_of_expansion": "New teaching and research laboratory facility",
+        "investment_value": 80000000,
+        "event_date": "2026-05-15",
+        "why_it_matters": "This new life sciences laboratory will require a wide range of lab supplies, reagents, and scientific equipment for teaching and research activities.",
+        "source_url": "https://www.flintco.com/projects/university-of-oklahoma-advances-stem-education-with-new-80m-life-sciences-lab/"
+      },
+      {
+        "summary": "Jabil plans to establish a new 300,000-square-foot manufacturing facility at Crosspointe Logistics Center in Prince George County, Virginia. This facility will produce critical power distribution systems for Siemens, creating an expected 352 new jobs and involving a combined $30 million investment from Jabil and Siemens.",
+        "location": "Prince George County, Virginia, US",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": 30000000,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing facility will create demand for industrial lab supplies, equipment, and consumables for power distribution systems production.",
+        "source_url": "https://www.virginia.gov/news/news-releases/governor-spanberger-announces-jabil-to-open-new-manufacturing-facility-creating-350-jobs-in-prince-george-county/"
+      },
+      {
+        "summary": "Intermountain Electronics announced it will invest more than $15 million to expand its operations in Centralia, Illinois. The expansion will add more than 108,000 square feet of manufacturing space and create 60 new full-time jobs, significantly increasing capacity for the production of Power Distribution Units.",
+        "location": "Centralia, Illinois, US",
+        "type_of_expansion": "Manufacturing facility expansion",
+        "investment_value": 15000000,
+        "event_date": "2026-05-20",
+        "why_it_matters": "This manufacturing expansion will increase demand for industrial lab supplies, equipment, and consumables for power distribution unit production.",
+        "source_url": "https://illinois.gov/news/press-release.28623.html"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "ATCC has been awarded an Indefinite Delivery/Indefinite Quantity (IDIQ) contract by the National Institute of Allergy and Infectious Diseases (NIAID), potentially valued up to $136.6 million, to support NIAID's Evaluation and Testing Services (ETS) program for vaccines and other biologics used to fight infectious diseases.",
+        "amount": "$136.6 million",
+        "funding_type": "Government program award (IDIQ contract)",
+        "use_of_proceeds": "Comprehensive assay development, testing of preclinical and clinical samples, and delivery of biological standards, materials, and expertise for studying emerging infectious diseases.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This new capital will drive demand for lab supplies, reagents, and equipment for assay development, sample testing, and the production of biological standards and materials.",
+        "source_url": "https://www.atcc.org/about-us/newsroom/2026-news-releases/atcc-secures-niaid-contract-to-strengthen-us-preparedness-against-emerging-infectious-diseases"
+      },
+      {
+        "summary": "ATCC has been selected by the Centers for Disease Control and Prevention (CDC) Office of Readiness and Response (ORR) for a new five-year IDIQ contract, valued at up to $148 million, to support rapid test development during public health emergencies.",
+        "amount": "$148 million",
+        "funding_type": "Government program award (IDIQ contract)",
+        "use_of_proceeds": "Rapid test development, validation, and production at scale, focusing on building and validating Nucleic Acid Amplification Tests (NAATs) for high-priority pathogens.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This new capital will increase demand for reagents, consumables, and equipment for developing, validating, and producing diagnostic tests.",
+        "source_url": "https://www.atcc.org/about-us/newsroom/2026-news-releases/atcc-receives-new-cdc-award-to-help-fast-track-diagnostic-tests-for-future-disease-outbreaks"
+      }
+    ],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:17:21.776512+00:00",
+  "ai_summary": "ATCC recently secured over $280M in NIH, NIAID, and CDC contracts for infectious disease research, vaccine evaluation, and rapid test development. This substantial funding highlights ATCC's pivotal role in public health and biomedical reproducibility. For lab supply sales teams, this signifies a major increase in demand for consumables, reagents, and equipment to support ATCC's expanded, high-priority research initiatives."
+}

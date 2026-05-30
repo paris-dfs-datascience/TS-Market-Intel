@@ -1,0 +1,116 @@
+{
+  "api_calls": 2690,
+  "input_tokens": 547890,
+  "output_tokens": 280621,
+  "token_cost": 0.167,
+  "grounding_cost": 94.15,
+  "total_cost": 94.317,
+  "projected_cost": 94.317,
+  "cost_per_hit": 0.2893,
+  "successes": 1155,
+  "timeouts": 23,
+  "errors": 1467,
+  "empty": 45,
+  "retries": 1304,
+  "success_rate": 42.9,
+  "total_hits": 326,
+  "accounts_done": 191,
+  "accounts_with_data": 59,
+  "run_duration": "5h 57m 41s",
+  "signal_breakdown": {
+    "expansion": {
+      "calls": 324,
+      "hits": 61,
+      "avg_time": 26.7,
+      "timeouts": 3,
+      "empty": 1,
+      "errors": 177
+    },
+    "production": {
+      "calls": 329,
+      "hits": 115,
+      "avg_time": 24.7,
+      "timeouts": 7,
+      "empty": 0,
+      "errors": 185
+    },
+    "partnership": {
+      "calls": 333,
+      "hits": 2,
+      "avg_time": 23.7,
+      "timeouts": 2,
+      "empty": 26,
+      "errors": 189
+    },
+    "funding": {
+      "calls": 327,
+      "hits": 41,
+      "avg_time": 20.7,
+      "timeouts": 3,
+      "empty": 4,
+      "errors": 181
+    },
+    "project": {
+      "calls": 329,
+      "hits": 39,
+      "avg_time": 19.7,
+      "timeouts": 3,
+      "empty": 2,
+      "errors": 183
+    },
+    "hiring": {
+      "calls": 332,
+      "hits": 1,
+      "avg_time": 13.5,
+      "timeouts": 3,
+      "empty": 9,
+      "errors": 188
+    },
+    "capital": {
+      "calls": 333,
+      "hits": 33,
+      "avg_time": 8.8,
+      "timeouts": 1,
+      "empty": 3,
+      "errors": 188
+    },
+    "closure": {
+      "calls": 324,
+      "hits": 34,
+      "avg_time": 8.3,
+      "timeouts": 1,
+      "empty": 0,
+      "errors": 176
+    },
+    "_ai_summary": {
+      "calls": 59,
+      "hits": 0,
+      "avg_time": 0.0,
+      "timeouts": 0,
+      "empty": 0,
+      "errors": 0
+    }
+  },
+  "slowest_accounts": [
+    {
+      "account": "NITINOL DEVICES & COMPONENTS",
+      "elapsed_s": 3834.5
+    },
+    {
+      "account": "KOMICO USA",
+      "elapsed_s": 3439.9
+    },
+    {
+      "account": "ATL COMPANY, CA",
+      "elapsed_s": 2103.4
+    },
+    {
+      "account": "KLA",
+      "elapsed_s": 1332.3
+    },
+    {
+      "account": "BDC SERRALLES S A",
+      "elapsed_s": 1293.8
+    }
+  ]
+}

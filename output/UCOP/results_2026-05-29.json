@@ -1,0 +1,244 @@
+{
+  "account": "UCOP",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DmYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Five students affiliated with the University of California, Davis, College of Engineering received National Science Foundation Graduate Research Fellowships for STEM research.",
+        "recipient": "Five students",
+        "department_or_lab": "Departments of Computer Science, Biomedical Engineering, Mechanical and Aerospace Engineering, and Civil and Environmental Engineering at UC Davis College of Engineering",
+        "amount": "Undisclosed, multi-year financial support",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-28",
+        "why_it_matters": "These fellowships indicate active research in STEM fields at UC Davis, suggesting ongoing demand for lab supplies and equipment.",
+        "source_url": "https://engineering.ucdavis.edu/news/uc-davis-students-secure-nsf-graduate-research-fellowships-stem-research"
+      },
+      {
+        "summary": "Food tech startup California Cultured and UC Davis partnered on a project to reduce the production costs of cell-based chocolate, backed by $2.77 million in grants from BioMade (supported by DoD) and the National Science Foundation.",
+        "recipient": "California Cultured and UC Davis",
+        "department_or_lab": "UC Davis (related to food tech/biomanufacturing)",
+        "amount": "$2.77 million",
+        "agency": "National Science Foundation (NSF), US Department of Defense (DoD) via BioMade",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This significant funding for biomanufacturing research at UC Davis indicates a need for specialized lab equipment, reagents, and consumables for cell culture and process monitoring.",
+        "source_url": "https://www.greenqueen.com.hk/california-cultured-uc-davis-cell-cultured-lab-grown-chocolate-biomade-nsf-grants/"
+      },
+      {
+        "summary": "The University of California San Diego was awarded a $5 million renewal for its Faculty Institutional Recruitment for Sustainable Transformation (FIRST) program, a National Institutes of Health initiative to enrich the biomedical workforce.",
+        "recipient": "UC San Diego (FIRST program, led by JoAnn Trejo, PhD)",
+        "department_or_lab": "Life sciences disciplines across UC San Diego campus; JoAnn Trejo, PhD, professor of pharmacology at UC San Diego School of Medicine",
+        "amount": "$5 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "The renewal of this NIH program at UC San Diego suggests continued growth in biomedical research and faculty, leading to sustained demand for a wide range of lab supplies and equipment.",
+        "source_url": "https://www.eurekalert.org/news-releases/1127908"
+      },
+      {
+        "summary": "UCLA opened its new 14,000-square-foot Center for Advanced Biotherapies, which was funded in part by a $7.3 million grant from the National Institutes of Health, to expand its capacity to develop and deliver cell and gene therapies.",
+        "recipient": "UCLA (Center for Advanced Biotherapies)",
+        "department_or_lab": "David Geffen School of Medicine, Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, UCLA Health Jonsson Comprehensive Cancer Center",
+        "amount": "$7.3 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The opening of a new biotherapies manufacturing facility at UCLA, supported by NIH funding, signals a significant increase in demand for specialized cell and gene therapy reagents, consumables, and equipment.",
+        "source_url": "https://newsroom.ucla.edu/releases/ucla-center-for-advanced-biotherapies-opens-gene-cell-therapy-clinical-trials"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Avishek Adhikari has been appointed to the Bernice Wenzel and Wendell Jeffrey Term Endowed Chair in Cognitive Neuroscience at UCLA.",
+        "name": "Avishek Adhikari",
+        "department": "Cognitive Neuroscience",
+        "start_date": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://apo.ucla.edu/academic-listings/endowed-chairs-presidential-chairs-professorial-name-chairs"
+      },
+      {
+        "summary": "David Clewett has been appointed to the Bernice Wenzel and Wendell Jeffrey Term Endowed Chair in Developmental Neuroscience at UCLA.",
+        "name": "David Clewett",
+        "department": "Developmental Neuroscience",
+        "start_date": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://apo.ucla.edu/academic-listings/endowed-chairs-presidential-chairs-professorial-name-chairs"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "UCLA has opened the Center for Advanced Biotherapies, a 14,000-square-foot FDA-compliant manufacturing facility with 10 cleanrooms, including seven manufacturing suites, to nearly double its capacity for producing cell and gene therapies for clinical trials.",
+        "location": "UCLA's Center for Health Sciences, Los Angeles, California",
+        "type_of_expansion": "New Facility",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new manufacturing and research facility will require a wide array of lab supplies, reagents, consumables, and scientific equipment for cell and gene therapy production and related research.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzZ4rg_bGKLhMZKx2TDxTNvNHH18MxiDKDISbLjg1_kQ-q2aiEygcMubfDP6ZlaLxxHqptbEgGp_q1AHVNdjE5PZlLN58dKgkJtsj3jkp2Er2EXyfYJEcggp81W9lSbLIutEkl10iLeJIQ-L1EVmYIggInqF-rehl_snAIZvpjxxqCM7M17Er9umLLnf4ja3q0Cc8cv-bJb6T5tTaj2cCUFjVZ2OOzeXQvzMo="
+      },
+      {
+        "summary": "The UCLA Samueli School of Engineering, in partnership with industry leaders, launched a $125 million Semiconductor Hub to accelerate research and workforce development in AI-powered chip technologies, covering design, software, manufacturing, equipment, and advanced materials.",
+        "location": "UCLA Samueli School of Engineering, Los Angeles, California",
+        "type_of_expansion": "New Facility",
+        "investment_value": 125000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new hub will drive demand for specialized materials, chemicals, and equipment used in semiconductor research, development, and manufacturing processes, as well as general lab supplies for related scientific investigations.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdIJ-nUwFL1xMvMKDRJGRUaNiBfR6ZUHcx-Jtatmcb1r32zmCyro2iVLr6tLZdOKjvUg2PnsCqMsbmNdu1SPiCUBFbnaOoiVGJVK_J6sYmlCSQC5XqzL_ivu0AdamteUvuzPE4-OhZId7K8dPSyHBYPbU4-5oZb3ePT7pvmZSsNoVLh5-1G36X-rBRITrQV0wbPlRfuDBKukA1xKKogNeyNc1m2yuhqtF6Nw=="
+      },
+      {
+        "summary": "UC Davis celebrated the grand opening of the $66.4 million Resnick Center for Agricultural Innovation, a 34,000-square-foot building with labs and specialized equipment to advance research in food systems and sustainability using robotics, sensors, data science, and AI.",
+        "location": "UC Davis campus, California",
+        "type_of_expansion": "New Facility",
+        "investment_value": 66400000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new agricultural research center will require a broad range of lab supplies, reagents, consumables, and scientific equipment for agricultural, environmental, and food science research.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKMz3lTfHYwKqBQRxLh1saBXthTBIcbh7CTS1iDxJJjl76TD384k3GgpQ5EsQ8c91-LCxz3a7CMtp4EXpc9IAmjUYREo_jPdXPnchdA0GNfbw0dpAvQCutptK12nhJc93schFapctAg8PrTudYqYVqqMqGUTqO1vOcUcTP2VdlvEEtFuL0G4w5jW8PcKQzqG7Lyg=="
+      }
+    ],
+    "funding": [
+      {
+        "summary": "The W.M. Keck Foundation has awarded UC Merced nearly $1.8 million in new grants to fuel ambitious research and support early-career scientists.",
+        "amount": 1800000,
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "To provide $600,000 for a bridge funding initiative protecting faculty and doctoral researchers from federal grant disruptions, and $1.2 million for Professor Andy LiWang's laboratory research on how bacteria adapt internal processes to temperature changes, including structural, biochemical, and thermodynamic machinery.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new capital will directly support ongoing laboratory research and protect research capacity, leading to increased demand for specialized reagents, consumables, and scientific equipment.",
+        "source_url": "https://news.ucmerced.edu/news/2026/wm-keck-foundation-expands-investment-uc-merceds-bold-scientific-research"
+      },
+      {
+        "summary": "Food tech startup California Cultured and UC Davis received $2.77 million in US government funding from BioMade and the National Science Foundation to reduce the production costs of cell-based chocolate.",
+        "amount": 2770000,
+        "funding_type": "Government Program Award",
+        "use_of_proceeds": "Improving scale-up processes for cell-based chocolate production, including lower-cost bioreactors, better sterilization methods, process monitoring, and in-line biomass sensors, to enable commercial manufacturing.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This investment in biomanufacturing scale-up will drive demand for advanced bioreactors, sterilization equipment, process monitoring tools, and related lab consumables for cell-based food production.",
+        "source_url": "https://www.greenqueen.com.hk/food-tech/california-cultured-uc-davis-2-8m-govt-grants-lab-grown-chocolate/"
+      },
+      {
+        "summary": "UC San Diego biologist Scott Biering received a $600,000 grant from The Coefficient Giving to research viral toxins that exacerbate viral diseases.",
+        "amount": 600000,
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "To support research on newly discovered viral toxins, including studies of mechanisms underlying virus-triggered vascular leak, with the goal of identifying targets for new therapies and developing anti-leak therapeutics.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This funding for viral research will increase demand for specialized reagents, cell culture media, analytical instruments, and other lab supplies necessary for studying viral pathogenesis and developing new therapies.",
+        "source_url": "https://today.ucsd.edu/news/new-grant-targets-viral-toxins-that-exacerbate-viral-diseases"
+      }
+    ],
+    "project": [
+      {
+        "summary": "UC Irvine received a $1.2 million grant from the W. M. Keck Foundation as part of a special initiative to support early-career scientists facing uncertainty in federal research funding. Six UC Irvine research teams were selected for funding across various fields.",
+        "project_name": "W. M. Keck Foundation Bridge Funding Initiative / Keck Scholar-Fellow Bridge Initiative",
+        "scope": "Supports early-career scientists and their students across California through two-year grants, with six UC Irvine research teams selected for projects spanning ocean ecosystems, quantum physics, and cancer research.",
+        "timeline": "Two-year grants",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This funding will directly support diverse scientific research, requiring a wide array of lab supplies, reagents, and equipment for projects spanning multiple scientific disciplines.",
+        "source_url": "https://news.uci.edu/2026/05/14/w-m-keck-foundation-gives-1-2-million-to-uc-irvine-to-support-early-career-scientists/"
+      },
+      {
+        "summary": "The W.M. Keck Foundation awarded UC Merced nearly $1.8 million in new grants, including $600,000 for a bridge funding initiative for early-career scientists and $1.2 million for Professor Andy LiWang's lab research on bacterial circadian clocks.",
+        "project_name": "W.M. Keck Foundation Grants (Bridge Funding Initiative & LiWang Lab Research)",
+        "scope": "$600,000 for a bridge funding initiative to protect faculty and doctoral researchers from federal grant disruptions; $1.2 million for Professor Andy LiWang's lab to understand how bacteria adapt internal processes to temperature changes, focusing on circadian clocks of cyanobacteria.",
+        "timeline": "Not explicitly stated for the bridge funding, but LiWang's lab research is ongoing.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "The bridge funding will support diverse research, while the specific grant for LiWang's lab will require specialized microbiology equipment, reagents for genetic and protein analysis, and environmental control systems for studying bacterial behavior.",
+        "source_url": "https://news.ucmerced.edu/news/2026/wm-keck-foundation-expands-investment-uc-merceds-bold-scientific-research"
+      },
+      {
+        "summary": "The California HIV/AIDS Research Program (CHRP), administered through the University of California, Office of the President, announced a Request for Proposals (RFP) for statewide HIV Policy Research Centers, anticipating up to $4.5 million in total funding.",
+        "project_name": "Statewide HIV Policy Research Centers (RFP Announcement)",
+        "scope": "Multi-disciplinary teams to conduct and disseminate timely and impactful HIV and HIV-syndemic investigations responsive to policymakers, stakeholders, and California residents.",
+        "timeline": "RFP released annually on April 1; funding decisions announced December 1; performance periods begin March 1 of the following year. Up to four years of funding for centers.",
+        "event_date": "2026-04-01",
+        "why_it_matters": "The establishment of new HIV Policy Research Centers will create demand for diagnostic tools, epidemiological software, and various lab supplies for public health research and analysis.",
+        "source_url": "https://chrp.ucop.edu/funding-opportunities/policy-centers/"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Researchers at the University of California, San Francisco (UCSF) pioneered a breakthrough method to rapidly design proteins by combining X-ray studies of small molecule fragments with directed evolution.",
+        "researcher_name": "James Fraser, William DeGrado, Sagar Bhattacharya",
+        "department_or_lab": "Department of Bioengineering and Therapeutic Sciences, Department of Pharmaceutical Chemistry, UCSF",
+        "award_or_discovery": "Breakthrough method to rapidly design proteins, published in Nature Chemistry",
+        "significance": "This approach generated new insights, allowing the team to turn a single designed protein into two new proteins with completely different functions, one being the most active designed enzyme to date, which could lead to simpler ways to improve enzymes and medications.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This breakthrough in protein design signals high-impact lab activity in synthetic biology and drug discovery, driving demand for advanced reagents, protein purification systems, and analytical equipment.",
+        "source_url": "https://www.slac.stanford.edu/news/article/2026-05-04-researchers-pioneer-method-rapidly-design-proteins"
+      },
+      {
+        "summary": "Kam-Biu Luk and Gary Karpen from Lawrence Berkeley National Laboratory (managed by the University of California) were elected to the prestigious National Academy of Sciences.",
+        "researcher_name": "Kam-Biu Luk, Gary Karpen",
+        "department_or_lab": "Physical Sciences Area (Luk), Biosciences Area / Biological Systems and Engineering Division (Karpen), Department of Molecular and Cell Biology at UC Berkeley (Karpen)",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "This is a prestigious honor recognizing distinguished and continuing achievements in original research by American scientists and engineers.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Election to the National Academy of Sciences indicates sustained, high-level research activity, suggesting ongoing demand for cutting-edge scientific equipment and specialized consumables.",
+        "source_url": "https://newscenter.lbl.gov/2026/05/07/the-national-academy-of-sciences-elects-two-berkeley-lab-researchers/"
+      },
+      {
+        "summary": "Arshad Desai, George Fuller, and Shang-Ping Xie from the University of California San Diego were elected to the National Academy of Sciences.",
+        "researcher_name": "Arshad Desai, George Fuller, Shang-Ping Xie",
+        "department_or_lab": "Department of Cell and Developmental Biology and Department of Cellular and Molecular Medicine (Desai), Department of Physics (Fuller), Scripps Institution of Oceanography (Xie), UC San Diego",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "This is one of the most prestigious honors awarded to American scientists and engineers, recognizing their distinguished and continuing achievements in original research.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Election to the National Academy of Sciences indicates sustained, high-level research activity, suggesting ongoing demand for cutting-edge scientific equipment and specialized consumables.",
+        "source_url": "https://ucsdnews.ucsd.edu/pressrelease/three-uc-san-diego-professors-elected-to-national-academy-of-sciences"
+      },
+      {
+        "summary": "Researchers at the University of California San Diego identified a naturally occurring peptide, catestatin (CST), that can reverse drug resistance in melanoma.",
+        "researcher_name": "Sushil K. Mahata, Satadeepa Kal",
+        "department_or_lab": "UC San Diego School of Medicine, VA San Diego Healthcare System (Mahata)",
+        "award_or_discovery": "Discovery of catestatin (CST) as a foundation for a new class of peptide-based therapies for advanced and therapy-resistant melanoma",
+        "significance": "CST significantly slowed melanoma growth, reduced its ability to spread, and restored sensitivity in drug-resistant melanoma cells, offering a potential new class of targeted therapies.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This first-in-class peptide discovery for melanoma treatment signals intense research and development in oncology, requiring specialized reagents for peptide synthesis, cell culture, and drug screening.",
+        "source_url": "https://www.news-medical.net/news/20260527/Naturally-occurring-peptide-can-reverse-drug-resistance-in-melanoma.aspx"
+      },
+      {
+        "summary": "Scientists at the University of California San Diego unveiled a potentially game-changing experimental drug, ION224, that significantly improved liver health in clinical trials for metabolic dysfunction-associated steatohepatitis (MASH).",
+        "researcher_name": "Rohit Loomba",
+        "department_or_lab": "University of California San Diego School of Medicine",
+        "award_or_discovery": "Breakthrough experimental drug (ION224) for MASH, described as the 'first drug of its kind to show real biological impact'",
+        "significance": "ION224 blocks a fat-producing liver enzyme, leading to significant improvements in liver health without major side effects, potentially halting and reversing liver damage.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This breakthrough in MASH treatment indicates high-impact clinical research and drug development, driving demand for reagents for metabolic assays, liver function tests, and clinical trial consumables.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/05/260527112233.htm"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "PETA called for the closure of the UC Davis California National Primate Research Center following USDA citations in March 2026 for improper handling and housing of primates, including injuries linked to human error and inadequate enclosure conditions.",
+        "facility_or_programme": "California National Primate Research Center at UC Davis",
+        "closure_type": "Call for facility closure (due to citations/potential shutdown)",
+        "effective_date": null,
+        "reason": "USDA citations for improper handling and housing of primates, leading to injuries and deaths.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "A potential closure or significant reduction in operations at this primate research center would lead to a churn risk for animal care, vivarium, and specialized research supplies for Thomas Scientific.",
+        "source_url": "https://davisvanguard.org/2026/05/uc-davis-primate-research-citations/"
+      },
+      {
+        "summary": "The National Science Foundation (NSF) suspended at least 18 research grants to UC Berkeley in April 2026, including a previously restored grant for Indigenous exhibits at the Lawrence Hall of Science, despite a court injunction.",
+        "facility_or_programme": "Multiple research grants at UC Berkeley (e.g., Indigenous exhibits at Lawrence Hall of Science)",
+        "closure_type": "Research grant suspensions/program terminations",
+        "effective_date": "2026-04",
+        "reason": "Federal government actions under the Trump administration, citing non-alignment with priorities (including diversity, equity, and inclusion) and alleged 'foreign funding' for one grant.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "The suspension of multiple research grants indicates a direct reduction in active research projects, leading to a churn risk for consumables, reagents, and equipment associated with these specific programs for Thomas Scientific.",
+        "source_url": "https://apnews.com/article/trump-uc-berkeley-research-grants-a95e3df65d9d6d26e947e381dd150cc6"
+      },
+      {
+        "summary": "The Trump administration's proposed 2027 budget includes significant cuts to federal research funding, causing concern among UCLA professors. The Institute for Pure and Applied Mathematics (IPAM) at UCLA reduced workshop lengths and program sizes in response to the threat of future funding reductions. Additionally, the Department of Justice (DOJ) sued the UC system and asked for court permission to stop paying UCLA existing federal grants.",
+        "facility_or_programme": "Institute for Pure and Applied Mathematics (IPAM) at UCLA; broader UCLA research enterprise",
+        "closure_type": "Program size reduction; threat of future program terminations/funding cuts",
+        "effective_date": null,
+        "reason": "Proposed federal budget cuts by the Trump administration, ongoing legal disputes over previously suspended grants, and allegations of antisemitism and bias.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Reductions in program size and ongoing threats to federal funding at UCLA's research institutes signal a potential decrease in demand for lab supplies and equipment as research activities are curtailed or delayed, presenting a churn risk for Thomas Scientific.",
+        "source_url": "https://dailybruin.com/2026/04/28/op-ed-californians-must-protect-higher-education-funding-with-sb-895"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T07:20:55.480850",
+  "ai_summary": "UCOP is experiencing significant research expansion, with new centers opening at UCLA (cell/gene therapies, semiconductor hub) and UC Davis (agricultural innovation), fueled by major grants from NIH, NSF, and Keck. This growth across biotech, AI, and advanced materials creates strong demand for lab supplies and equipment. However, federal funding cuts and grant suspensions at some campuses present localized challenges for sales teams."
+}

@@ -1,0 +1,41 @@
+{
+  "account": "TWIST BIOSCIENCES",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nOkdjYAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Twist Bioscience expanded its clonal genes portfolio with the early access launch of Complex Genes, enabling the synthesis of long and complex sequences up to 7,000 base pairs. This expansion supports AI-enabled drug discovery and nucleic acid therapeutics.",
+        "product_or_program": "Complex Genes (clonal genes portfolio)",
+        "stage": "Product Launch/Offering Expansion (enabling early-stage drug discovery)",
+        "therapeutic_or_application_area": "AI-enabled drug discovery, nucleic acid therapeutics, cell and gene therapies, mRNA therapies",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This expansion enables faster iteration and accelerated discovery timelines for customers working on complex sequences in drug discovery, indicating increased demand for their gene synthesis products and related lab supplies.",
+        "source_url": "https://www.businesswire.com/news/home/20260504627436/en/Twist-Bioscience-Expands-Clonal-Genes-Offering-to-Include-Long-and-Complex-Sequences"
+      },
+      {
+        "summary": "LenioBio and Twist Bioscience announced a collaboration to integrate LenioBio's ALiCE\u00ae cell-free protein expression platform with Twist's DNA manufacturing and automation capabilities to accelerate the design\u2013build\u2013test cycle for protein expression services in AI-enabled drug discovery.",
+        "product_or_program": "Collaboration integrating LenioBio's ALiCE\u00ae cell-free protein expression platform with Twist's DNA manufacturing and automation capabilities",
+        "stage": "Strategic Collaboration (enabling early-stage drug discovery, protein expression)",
+        "therapeutic_or_application_area": "AI-enabled drug discovery, protein and antibody design, biologics",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This collaboration aims to speed up the design-build-test cycle for protein expression in AI-driven drug discovery, indicating an increased need for reagents, consumables, and equipment for protein expression and characterization.",
+        "source_url": "https://www.businesswire.com/news/home/20260508523530/en/LenioBio-and-Twist-Bioscience-Enter-into-a-Collaboration-to-Further-Enable-AI-drug-discovery"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:53:07.106546",
+  "ai_summary": "Twist Bioscience is expanding its complex gene synthesis and protein expression capabilities, accelerating design-build-test cycles for AI-enabled drug discovery and nucleic acid therapeutics. This strategic focus on advanced R&D signals increased demand for specialized lab supplies, reagents, and equipment. Sales teams should target these growing research efforts."
+}

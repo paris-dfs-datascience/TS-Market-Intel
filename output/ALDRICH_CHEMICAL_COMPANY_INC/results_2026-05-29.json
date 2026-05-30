@@ -1,0 +1,17 @@
+{
+  "account": "ALDRICH CHEMICAL COMPANY INC",
+  "account_vertical": "Industrial",
+  "Parent_ID": null,
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T19:23:11.402117",
+  "ai_summary": null
+}

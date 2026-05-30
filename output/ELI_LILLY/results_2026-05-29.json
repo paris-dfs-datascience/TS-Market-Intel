@@ -1,0 +1,229 @@
+{
+  "account": "ELI LILLY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1Y1YAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Eli Lilly and Company announced an additional US$4.5 billion investment into its Indiana manufacturing network, deepening its domestic pharmaceutical expansion strategy. This investment includes new active pharmaceutical ingredient (API) sites and its first dedicated genetic medicine manufacturing facility, aimed at meeting surging demand for obesity and diabetes therapies and advancing genetic medicines.",
+        "contract_name": "Indiana Manufacturing Network Expansion",
+        "estimated_value": "US$4.5 billion",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-07",
+        "why_it_matters": "This significant investment signals a substantial increase in demand for lab supplies, reagents, consumables, and scientific equipment for both manufacturing and research and development at Eli Lilly's expanded Indiana facilities.",
+        "source_url": "https://www.biopharmaboardroom.com/analysis/1/4682/eli-lilly-and-company-bets-us4-5-billion-on-indiana-to-build-the-future-of-pharmaceutical-manufacturing.html"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Eli Lilly's oral GLP-1 therapy, Foundayo (orforglipron), received FDA approval for chronic weight management in adults with obesity or those who are overweight with at least one weight-related condition.",
+        "product_or_program": "Foundayo (orforglipron)",
+        "stage": "FDA Approval",
+        "therapeutic_or_application_area": "Obesity, Chronic Weight Management",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This approval creates immediate demand for manufacturing and packaging supplies, as well as laboratory equipment for quality control and post-market surveillance studies.",
+        "source_url": "https://www.rivkinrounds.com/2026/04/fda-approves-lillys-oral-glp-1-therapy-for-obesity/"
+      },
+      {
+        "summary": "Confo Therapeutics announced the initiation of a Phase 2a clinical trial for CFTX-1554, a novel antagonist of the angiotensin II type 2 receptor (AT2R) for peripheral pain, being developed in collaboration with Eli Lilly.",
+        "product_or_program": "CFTX-1554",
+        "stage": "Phase 2 Clinical Trial Initiation",
+        "therapeutic_or_application_area": "Peripheral Pain",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The initiation of a Phase 2 trial signals increased demand for reagents, consumables, and analytical equipment for ongoing research and development, as well as potential future manufacturing scale-up.",
+        "source_url": "https://biogenerationventures.com/en/news/confo_therapeutics_announces_phase_2_clinical_trial_initiation_by_lilly_for_peripheral_pain_candidate_cftx_1554"
+      },
+      {
+        "summary": "Eli Lilly announced positive topline results from its Phase 3 TRIUMPH-1 clinical trial for retatrutide, an investigational triple hormone receptor agonist, demonstrating significant weight loss in adults with obesity or overweight.",
+        "product_or_program": "Retatrutide",
+        "stage": "Phase 3 Clinical Trial Results",
+        "therapeutic_or_application_area": "Obesity, Overweight",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Strong Phase 3 results indicate a high likelihood of future regulatory submissions and approvals, driving demand for R&D supplies, manufacturing equipment, and quality control instrumentation.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-to-present-new-data-on-foundayo-mounjaro-and-retatrutide-at-the-american-diabetes-associations-86th-scientific-sessions-building-toward-a-new-era-of-choice-in-diabetes-and-obesity-care-302783855.html"
+      },
+      {
+        "summary": "Eli Lilly announced agreements to acquire three vaccine development companies\u2014Curevo, LimmaTech Biologics, and Vaccine Company, Inc.\u2014to expand its research and development efforts into infectious disease.",
+        "product_or_program": "Curevo (shingles vaccine), LimmaTech Biologics (bacterial vaccines), Vaccine Company, Inc. (EBV vaccine)",
+        "stage": "Acquisition",
+        "therapeutic_or_application_area": "Infectious Diseases, Vaccines (Shingles, Bacterial Pathogens, Epstein-Barr Virus)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "These acquisitions signal a significant expansion into vaccine R&D and manufacturing, creating new opportunities for sales of specialized lab equipment, reagents, and consumables for vaccine development and production.",
+        "source_url": "https://www.biopharmadive.com/news/lilly-deal-acquire-curevo-limmatech-vaccine/821064/"
+      },
+      {
+        "summary": "Eli Lilly acquired Engage Biologics, a preclinical biotechnology company, to advance non-viral genetic medicines using its 'Tethosome' platform.",
+        "product_or_program": "Engage Biologics' 'Tethosome' platform",
+        "stage": "Acquisition (Preclinical)",
+        "therapeutic_or_application_area": "Genetic Medicines, Non-viral DNA delivery",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This acquisition indicates Lilly's strategic investment in genetic medicines, suggesting future demand for advanced gene editing tools, cell culture media, and specialized analytical instruments.",
+        "source_url": "https://www.biopharmadive.com/news/lilly-engage-bio-acquisition-LNPs-genetic-medicines/820736/"
+      },
+      {
+        "summary": "Eli Lilly reported positive interim results from the Phase Ib Heart-2 clinical trial of VERVE-102, an investigational base editing therapy for hypercholesterolemia, showing significant and durable reductions in LDL-cholesterol.",
+        "product_or_program": "VERVE-102",
+        "stage": "Phase 1b Clinical Trial Results",
+        "therapeutic_or_application_area": "Hypercholesterolemia, Cardiovascular Disease, Genetic Medicine",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Positive early-stage clinical trial results for a genetic medicine indicate continued investment in R&D, requiring specialized reagents, consumables, and equipment for gene therapy development and analysis.",
+        "source_url": "https://www.biopharmadive.com/news/lilly-verve-heart-cholesterol-base-editing-phase-1-results/821078/"
+      },
+      {
+        "summary": "CVS Caremark announced it would add Eli Lilly's newly launched Foundayo pill to its formularies and restore the injectable medicine Zepbound as a preferred option, expanding coverage for Lilly's obesity treatments.",
+        "product_or_program": "Foundayo (orforglipron), Zepbound (tirzepatide)",
+        "stage": "Commercial / Market Access",
+        "therapeutic_or_application_area": "Obesity, Chronic Weight Management",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Expanded formulary coverage for these key obesity drugs will likely lead to increased prescription volumes, driving demand for manufacturing supplies, quality control, and potentially new research into broader applications.",
+        "source_url": "https://www.healthcaredive.com/news/lilly-cvs-caremark-formulary-zepbound-foundayo-obesity-glp1/821364/"
+      },
+      {
+        "summary": "Eli Lilly announced an additional $4.5 billion investment across two of its three Lebanon, Indiana sites, bringing its total capital commitments in Indiana to over $21 billion since 2020, to support active pharmaceutical ingredient (API) manufacturing.",
+        "product_or_program": "Manufacturing Expansion (API)",
+        "stage": "Manufacturing Investment",
+        "therapeutic_or_application_area": "Pharmaceutical Manufacturing",
+        "event_date": "2026-05-06",
+        "why_it_matters": "A significant manufacturing expansion indicates a substantial need for new scientific equipment, bulk reagents, and consumables for API production, quality assurance, and facility operations.",
+        "source_url": "https://www.investing.com/news/company-news/lilly-commits-45-billion-to-indiana-manufacturing-expansion-93CH-4663463"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Eli Lilly announced an additional $4.5 billion investment across two of its three Lebanon, Indiana sites, bringing the company's total Indiana capital expansion commitments since 2020 to more than $21 billion. This investment will incorporate new process designs and technologies at Lilly Lebanon API, one of the company's future active pharmaceutical ingredient sites, and Lilly Lebanon Advanced Therapies, which opened as the company's first dedicated genetic medicine manufacturing facility. The Advanced Therapies facility is designed to support both clinical and commercial production of advanced therapies.",
+        "location": "Lebanon, Indiana, USA (LEAP Research and Innovation District)",
+        "type_of_expansion": "New dedicated facility (Lilly Lebanon Advanced Therapies) and capacity expansion/upgrade at Lilly Lebanon API, both tied to manufacturing and research operations.",
+        "investment_value": "$4,500,000,000",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant investment and new facility opening will drive substantial demand for new lab supplies, reagents, consumables, and scientific equipment for genetic medicine manufacturing and API production.",
+        "source_url": "https://www.ibj.com/articles/lilly-announces-additional-4-5b-investment-at-leap-district-manufacturing-site"
+      },
+      {
+        "summary": "Purdue University and Eli Lilly and Company have deepened their collaboration, launched new interdisciplinary research initiatives, and activated the first phase of funding for their $250 million partnership, aimed at accelerating pharmaceutical innovation. The university has received $24 million in funding to support 2025-26 programs and expects to increase participation from 80 to more than 100 graduate students and postdocs in 2026.",
+        "location": "West Lafayette, Indiana, USA (Purdue University)",
+        "type_of_expansion": "Research partnership expansion with increased funding and headcount for research programs.",
+        "investment_value": "$24,000,000",
+        "event_date": "2026-05-11",
+        "why_it_matters": "The expanded research partnership and increased number of graduate students and postdocs will lead to increased demand for research-grade lab supplies, reagents, and specialized equipment for drug discovery, product research and development, and manufacturing.",
+        "source_url": "https://www.purdue.edu/newsroom/2026/Q2/a-year-of-advancing-the-lilly-purdue-250m-research-partnership-to-accelerate-medicine-discovery-and-manufacturing/"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Eli Lilly and Company announced an additional $4.5 billion investment across two of its three Lebanon, Indiana manufacturing sites, bringing the company's total Indiana capital expansion commitments since 2020 to more than $21 billion. This investment coincides with the opening of its first dedicated genetic medicine facility.",
+        "amount": "4.5 billion USD",
+        "funding_type": "Company Investment / Capital Expansion",
+        "use_of_proceeds": "Expansion of manufacturing capacity for genetic medicines, tirzepatide (Zepbound, Mounjaro), Foundayo (oral GLP-1 obesity treatment), and retatrutide (investigational triple hormone receptor agonist) at Lilly Lebanon API and Lilly Lebanon Advanced Therapies sites, including R&D, clinical production, and large-scale commercial supply.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant investment in manufacturing facilities for new and existing drugs, including genetic medicines, will drive substantial demand for lab supplies, reagents, consumables, and scientific equipment for R&D, process development, quality control, and large-scale production.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-commits-additional-4-5-billion-across-indiana-manufacturing-sites-opens-first-dedicated-genetic-medicine-facility-302452796.html"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Eli Lilly announced agreements to acquire three privately held vaccine developers: Curevo Inc., LimmaTech Biologics AG, and Vaccine Company, Inc., for a combined value of up to nearly $4 billion, expanding its research and development efforts into infectious diseases.",
+        "project_name": "Acquisition of Curevo, LimmaTech Biologics, and Vaccine Company",
+        "scope": "Expansion of infectious disease R&D portfolio, including vaccines for shingles, bacterial pathogens with antimicrobial resistance, and Epstein-Barr virus.",
+        "timeline": "Agreements announced May 26, 2026.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "These acquisitions will drive demand for a wide range of lab supplies, reagents, and scientific equipment for vaccine research, development, and manufacturing as Lilly builds out its infectious disease portfolio.",
+        "source_url": "https://www.biopharmadive.com/news/lilly-deal-acquire-curevo-limmatech-vaccine/821064/"
+      },
+      {
+        "summary": "Eli Lilly announced an additional $4.5 billion investment at its manufacturing site at the LEAP Research and Innovation District in Lebanon, Indiana, focusing on new process designs and technologies within its Lilly Lebanon Advanced Therapies (genetic medicine manufacturing) and Lilly Lebanon API (active pharmaceutical ingredient production) facilities.",
+        "project_name": "LEAP District Manufacturing Site Expansion (Lilly Lebanon Advanced Therapies and Lilly Lebanon API)",
+        "scope": "Manufacturing scale-up for genetic medicines and active pharmaceutical ingredients (APIs) for Lilly's evolving drug pipeline, including next-generation weight-loss therapies.",
+        "timeline": "Construction expected to begin in 2026, with the Lebanon API site opening in 2027.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant investment in manufacturing facilities will create substantial demand for large-scale scientific equipment, automation systems, and a continuous supply of raw materials and consumables for pharmaceutical production.",
+        "source_url": "https://www.ibj.com/articles/lilly-announces-additional-4-5b-investment-at-leap-district-manufacturing-site"
+      },
+      {
+        "summary": "Eli Lilly acquired Engage Biologics, a preclinical biotechnology company, for up to $202 million, adding Engage's proprietary non-viral DNA delivery platform, 'Tethosome,' to Lilly's genetic medicines portfolio.",
+        "project_name": "Acquisition of Engage Biologics and Tethosome Platform",
+        "scope": "Expansion of genetic medicines R&D, specifically focusing on non-viral DNA delivery systems to improve potency, tolerability, and re-dosability of genetic therapies.",
+        "timeline": "Acquisition announced May 20, 2026.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This acquisition will increase demand for specialized reagents, cell culture media, and analytical equipment used in the research and development of non-viral gene therapies.",
+        "source_url": "https://www.pharmtech.com/view/lilly-acquires-preclinical-non-viral-dna-delivery-platform"
+      },
+      {
+        "summary": "Eli Lilly's gene editing medicine, VERVE-102 (a PCSK9 base editor), showed significant reductions in bad cholesterol in initial Phase 1b trials, with a Phase 2 clinical trial planned to start before the end of the year.",
+        "project_name": "VERVE-102 Clinical Development",
+        "scope": "Clinical development of a one-time gene editing treatment for hypercholesterolemia, with potential for broader cardiovascular risk populations.",
+        "timeline": "Phase 1b results announced May 2026; Phase 2 clinical trial to begin before the end of 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Advancement of VERVE-102 into Phase 2 trials will generate demand for clinical trial supplies, specialized diagnostic kits, and laboratory services for patient monitoring and sample analysis.",
+        "source_url": "https://m.economictimes.com/industry/healthcare/biotech/pharmaceuticals/gene-therapy-for-cholesterol-initial-test-results-cheer/amp_articleshow/131337038.cms"
+      },
+      {
+        "summary": "Eli Lilly inaugurated 'LillyPod,' a supercomputer built on NVIDIA's DGX SuperPOD architecture, in February 2026 at its Indianapolis headquarters, delivering over 9,000 petaflops of AI performance for drug discovery, medical imaging, clinical trial design, and manufacturing efficiency, and also expanded its TuneLab platform.",
+        "project_name": "LillyPod AI Supercomputer and TuneLab Platform",
+        "scope": "AI-driven drug discovery, genomics analysis, medical imaging-based biomarker development, clinical trial design optimization, and manufacturing efficiency improvements.",
+        "timeline": "LillyPod inaugurated February 2026; TuneLab platform continuously expanding.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The use of advanced AI and supercomputing in drug discovery and development will drive demand for high-performance computing infrastructure, specialized software, and potentially new types of data generation and analysis tools in research labs.",
+        "source_url": "https://www.thebionews.net/news/articleViewAmp.html?idxno=24950"
+      },
+      {
+        "summary": "AC Immune reported a CHF 10 million (approximately $11 million USD) upfront payment from an amended Morphomer Tau collaboration with Eli Lilly, indicating continued investment in neurodegenerative disease research.",
+        "project_name": "Amended Morphomer Tau Collaboration (with AC Immune)",
+        "scope": "Research and development of Morphomer Tau for neurodegenerative diseases, specifically targeting tauopathies.",
+        "timeline": "Upfront payment received in Q2 2026 (reported April 30, 2026). Ongoing collaboration.",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This collaboration, with a significant upfront payment, indicates continued investment in neurodegenerative disease research, which will require specialized reagents, assay kits, and analytical equipment for preclinical and clinical studies.",
+        "source_url": "https://www.stocktitan.net/news/ACIU/ac-immune-first-quarter-2026-financial-and-corporate-wm7t59pc8lwg.html"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "The FDA approved Eli Lilly's oral GLP-1 receptor agonist, Foundayo (orforglipron), for chronic weight management in adults with obesity or those who are overweight with at least one weight-related condition.",
+        "product_or_site": "Foundayo (orforglipron)",
+        "regulatory_action": "NDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-04-01",
+        "why_it_matters": "This approval indicates a significant increase in demand for lab supplies, reagents, and consumables for manufacturing scale-up and ongoing quality control of Foundayo.",
+        "source_url": "https://www.rivkinrounds.com/2026/04/fda-approves-lillys-oral-glp-1-therapy-for-obesity/"
+      },
+      {
+        "summary": "The FDA granted Fast Track designation to VERVE-102, an investigational therapy from Eli Lilly, for reducing LDL-C in people with hyperlipidaemia and elevated long-term cardiovascular risk.",
+        "product_or_site": "VERVE-102",
+        "regulatory_action": "Fast Track Designation",
+        "outcome": "Granted",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Fast Track designation indicates accelerated development and review, potentially leading to earlier market entry and subsequent demand for lab supplies and reagents for clinical trials and future manufacturing scale-up.",
+        "source_url": "https://www.clinicaltrialsarena.com/news/lilly-heart-2-trial-results/"
+      }
+    ],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Eli Lilly and Company announced agreements to acquire three vaccine development companies: Curevo Inc., LimmaTech Biologics AG, and Vaccine Company Inc., to expand its infectious disease research and development efforts.",
+        "acquirer": "Eli Lilly and Company",
+        "target": "Curevo Inc., LimmaTech Biologics AG, Vaccine Company Inc.",
+        "deal_value": "Up to $3.83 billion (Curevo: up to $1.5 billion; LimmaTech Biologics: up to $780 million; Vaccine Company: up to $1.55 billion)",
+        "deal_status": "Announced",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This M&A event creates lab supply opportunities through new procurement needs for R&D and manufacturing as Lilly integrates these vaccine platforms and expands its infectious disease research.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-announces-three-acquisitions-to-build-infectious-disease-portfolio-302781404.html"
+      },
+      {
+        "summary": "Eli Lilly and Company acquired Engage Biologics Inc., a preclinical biotechnology company focused on non-viral DNA delivery systems, for up to $202 million in cash.",
+        "acquirer": "Eli Lilly and Company",
+        "target": "Engage Biologics Inc.",
+        "deal_value": "Up to $202 million",
+        "deal_status": "Acquired",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This acquisition signifies new R&D activities in genetic medicines, leading to demand for specialized reagents, consumables, and equipment for non-viral DNA delivery and genetic research.",
+        "source_url": "https://www.businesswire.com/news/home/20260520932076/en/Engage-Bio-Acquired-by-Lilly-to-Accelerate-Development-of-Non-Viral-Genetic-Medicines"
+      }
+    ],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:26:00.011013",
+  "ai_summary": "Eli Lilly is undergoing massive expansion, investing over $21 billion in new API and genetic medicine manufacturing facilities. This, alongside successful GLP-1 pipeline advancements, acquisitions in genetic medicines and infectious diseases, and AI supercomputing, signals a significant increase in R&D and production. Lab supply teams should target these new facilities and diverse therapeutic areas with specialized equipment and consumables."
+}

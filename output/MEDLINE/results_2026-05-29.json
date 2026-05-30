@@ -1,0 +1,142 @@
+{
+  "account": "MEDLINE",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1QbYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Medline Industries, LP was awarded a delivery order for medical supplies under the Medical/Surgical Prime Vendor Generation-Z Version 1 (MSPV Gen-Z V1) IDIQ contract for FY26 Q4.",
+        "contract_name": "Medical/Surgical Prime Vendor Generation-Z Version 1 (MSPV Gen-Z V1) Delivery Order FY26 Q4",
+        "estimated_value": "$4,900",
+        "deadline_or_expiration": "2026-03-31",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This delivery order indicates ongoing procurement of medical supplies by the VA through Medline, presenting potential subcontracting or partnership opportunities for Thomas Scientific for specific lab supplies.",
+        "source_url": "https://www.highergov.com/vehicle/medical-surgical-prime-vendor-genz-mspv-genz-v1-7547/"
+      },
+      {
+        "summary": "Union Community Care, a nonprofit health system operating in Pennsylvania, signed a prime vendor agreement with Medline.",
+        "contract_name": "Prime Vendor Agreement",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This new prime vendor agreement signifies Medline as a primary supplier for Union Community Care, creating an opportunity for Thomas Scientific to explore supplying lab products through Medline or directly to Union Community Care.",
+        "source_url": "https://www.beckersasc.com/supply-chain/supply-chain-updates-2026/"
+      },
+      {
+        "summary": "LCMC Health and Hunterdon Health signed multiyear agreements with Medline to support their supply chain operations.",
+        "contract_name": "Multiyear Supply Chain Agreements",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "These multiyear agreements establish Medline as a key supply chain partner for LCMC Health and Hunterdon Health, offering Thomas Scientific a chance to identify specific lab supply needs within these systems for potential collaboration or direct sales.",
+        "source_url": "https://www.beckersasc.com/supply-chain/supply-chain-updates-2026/"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Medline launched its Fall Prevention Program as part of its Safe Mobility Solution, offering tools, products, education, and clinical support to reduce patient falls in healthcare facilities.",
+        "product_or_program": "Fall Prevention Program (part of Safe Mobility Solution)",
+        "stage": "New program/protocol adoption",
+        "therapeutic_or_application_area": "Patient safety, fall prevention",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This program indicates healthcare facilities adopting new protocols and products for patient safety, creating demand for Medline's associated lab supplies, equipment, and consumables, which Thomas Scientific could also supply.",
+        "source_url": "https://www.medline.com/solutions/safe-mobility/"
+      },
+      {
+        "summary": "Medline launched its Safe Patient Handling Program as part of its Safe Mobility Solution, providing products, policies, assessments, and staff training to reduce caregiver injury risk and improve patient care.",
+        "product_or_program": "Safe Patient Handling Program (part of Safe Mobility Solution)",
+        "stage": "New program/protocol adoption",
+        "therapeutic_or_application_area": "Patient safety, safe patient handling, caregiver injury prevention",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This program indicates healthcare facilities adopting new protocols and products for patient and caregiver safety, creating demand for Medline's associated lab supplies, equipment, and consumables, which Thomas Scientific could also supply.",
+        "source_url": "https://www.medline.com/solutions/safe-mobility/"
+      },
+      {
+        "summary": "Medline has joined MediWound's chronic wound collaboration network and will provide its Marathon skin protectant for MediWound's upcoming Phase II study in diabetic foot ulcers (DFU).",
+        "product_or_program": "MediWound's Diabetic Foot Ulcer (DFU) Phase II study (Medline providing product)",
+        "stage": "Phase II clinical trial (upcoming, second half of 2026)",
+        "therapeutic_or_application_area": "Chronic wound care, diabetic foot ulcers",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Medline's involvement as a supplier to this upcoming Phase II trial indicates a need for wound care products and other lab supplies for the study, presenting a sales opportunity for Thomas Scientific.",
+        "source_url": "https://seekingalpha.com/article/4698505-mediwound-ltd-mdwd-q1-2026-earnings-call-transcript"
+      },
+      {
+        "summary": "Medline is involved in an upcoming investigator-initiated trial (IIT) in pressure ulcers, planned for the second half of 2026, as part of MediWound's expanded EscharEx studies.",
+        "product_or_program": "Investigator-initiated trial (IIT) in pressure ulcers (Medline providing product/collaboration)",
+        "stage": "Investigator-initiated trial (planned, second half of 2026)",
+        "therapeutic_or_application_area": "Chronic wound care, pressure ulcers",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Medline's collaboration on an upcoming investigator-initiated trial for pressure ulcers signals a demand for wound care products and other lab supplies for the study, creating a sales opportunity for Thomas Scientific.",
+        "source_url": "https://seekingalpha.com/article/4698505-mediwound-ltd-mdwd-q1-2026-earnings-call-transcript"
+      }
+    ],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Medline joined MediWound's EscharEx clinical development program through a research collaboration agreement, providing its Marathon skin protectant for an upcoming DFU Phase II study.",
+        "partner": "MediWound",
+        "deal_type": "Clinical Research Partnership",
+        "deal_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This partnership signals new clinical research activity that will drive demand for Medline's Marathon product and potentially other lab supplies and consumables used in the DFU Phase II study.",
+        "source_url": "https://ir.mediwound.com/news-releases/news-release-details/mediwound-reports-first-quarter-2026-financial-results-and"
+      },
+      {
+        "summary": "Medline launched Mpower, a cloud-based, AI-powered supply chain technology platform developed in collaboration with Microsoft to help healthcare providers manage supply chain disruptions.",
+        "partner": "Microsoft",
+        "deal_type": "Technology Licensing Agreement / Strategic Alliance",
+        "deal_value": null,
+        "event_date": "2026-05-04",
+        "why_it_matters": "This technology partnership indicates an investment in advanced supply chain management tools that could lead to more efficient and data-driven procurement of lab supplies and scientific equipment by healthcare providers utilizing the platform.",
+        "source_url": "https://www.prnewswire.com/news-releases/medline-officially-launches-mpower-a-digital-control-tower-designed-to-predict-respond-and-resolve-supply-chain-risks-302428580.html"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Hudson, Wis.-based Valley Surgery Center has implemented a prime vendor agreement with Medline for medical-surgical products, including surgical packs and gloves, and distribution services.",
+        "tender_name": "Prime Vendor Agreement - Valley Surgery Center",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates a new prime vendor agreement where Medline will be supplying medical-surgical products to Valley Surgery Center, representing a lost opportunity for Thomas Scientific for general medical-surgical supplies.",
+        "source_url": "https://www.zonebourse.com/cours/action/MEDLINE-INC-200622770/"
+      },
+      {
+        "summary": "Medline signed an expanded Prime Vendor agreement with T.J. Regional Health, providing access to Medline's portfolio of lab products, expanding on existing medical-surgical supplies.",
+        "tender_name": "Expanded Prime Vendor Agreement - T.J. Regional Health (Lab Products)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "This is a direct signal of Medline securing a lab prime vendor agreement, meaning Thomas Scientific has lost this opportunity for general lab supplies and reagents with T.J. Regional Health.",
+        "source_url": "https://newsroom.medline.com/releases/prime-vendor-rural-medical-services-inc/"
+      },
+      {
+        "summary": "Medline signed a new Prime Vendor agreement with Rural Medical Services Inc., a federally qualified health center, for medical-surgical products, including point-of-care lab solutions.",
+        "tender_name": "Prime Vendor Agreement - Rural Medical Services Inc.",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "Medline has secured a prime vendor agreement that includes point-of-care lab solutions, indicating a lost opportunity for Thomas Scientific in this specific area with Rural Medical Services Inc.",
+        "source_url": "https://newsroom.medline.com/press-releases/"
+      },
+      {
+        "summary": "Medline signed a new Prime Vendor agreement with Hospice of Western Kentucky for medical-surgical products, including incontinence care, wound care, and personal protection.",
+        "tender_name": "Prime Vendor Agreement - Hospice of Western Kentucky",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "This is a prime vendor agreement for medical-surgical products, which may include some consumables that Thomas Scientific also supplies, representing a lost opportunity for general medical-surgical supplies with this hospice provider.",
+        "source_url": "https://newsroom.medline.com/press-releases/hospice-of-western-kentucky-selects-medline-as-its-prime-vendor"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:08:01.884107",
+  "ai_summary": "Medline is significantly expanding its market reach through numerous prime vendor agreements and government contracts, strengthening its position as a core healthcare supply chain partner. Crucially, new agreements with T.J. Regional Health and Rural Medical Services specifically include Medline's lab products and point-of-care solutions. This growing penetration into the lab sector makes Medline a critical channel or competitor for lab supply sales teams to understand and engage with."
+}

@@ -1,0 +1,28 @@
+{
+  "account": "CINCINNATI ZOO",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001G000001gYYJxIAO",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "United Foods International (UFI) celebrated the grand opening of its new 126,000-square-foot manufacturing facility in Phoenix, Arizona, which is expected to employ up to 100 people and double its liquid production capacity.",
+        "location": "Phoenix, Arizona, USA",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": null,
+        "event_date": "2026-05-07",
+        "why_it_matters": "A new food ingredient manufacturing facility will require laboratory equipment for quality control, process development, and product testing.",
+        "source_url": "https://www.azcommerce.com/news-events/news/2026/5/united-foods-international/"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:21:29.641955+00:00",
+  "ai_summary": "United Foods International's expansion, doubling liquid production capacity, signals potential growth or new research avenues for Cincinnati Zoo's Education_Research department. This could lead to increased demand for lab supplies related to animal nutrition, food safety, or environmental studies. A lab supply sales team should proactively engage to understand emerging research needs and secure new equipment opportunities."
+}

@@ -1,0 +1,59 @@
+{
+  "account": "WEST PHARMACEUTICAL SERVICE",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1ZYYA0",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "West Pharmaceutical Services experienced a material cybersecurity attack, detected on May 4, 2026, which temporarily disrupted global business operations. By May 11, core enterprise systems were restored, and critical shipping, receiving, and manufacturing processes restarted at some sites.",
+        "facility_or_line": "Global business operations, critical shipping, receiving, and manufacturing processes at various sites.",
+        "change_type": "Shift in production capacity (disruption and partial restoration)",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-11",
+        "why_it_matters": "The disruption and subsequent partial restoration of manufacturing operations create an immediate need for restocking and verifying lab supplies and reagents.",
+        "source_url": "https://www.cybersecuritydive.com/news/west-pharmaceutical-ransomware-attack-restore-operations/716165/"
+      },
+      {
+        "summary": "West Pharmaceutical Services reported significant progress in restoring operations globally across its manufacturing facilities by May 15, 2026, with manufacturing ramping production at all High Value Products sites, Standard Packaging sites, HVP Delivery Devices sites, and most West Vantage sites, including its largest site in Eschweiler, Germany.",
+        "facility_or_line": "Proprietary Products Segment (High Value Products sites, Standard Packaging sites, HVP Delivery Devices sites), West Vantage sites, including Eschweiler, Germany.",
+        "change_type": "Shift in production capacity (ramping up after disruption)",
+        "location": "Global, including Eschweiler, Germany",
+        "investment_value": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "Increased production activity drives demand for raw materials, consumables, and maintenance supplies for lab and QC operations.",
+        "source_url": "https://www.westpharma.com/company/company-impact-updates"
+      },
+      {
+        "summary": "By May 20, 2026, West Pharmaceutical Services announced it was fully operational across its manufacturing, supply chain, and commercial sites globally, with production ramping to full capacity across its entire manufacturing network.",
+        "facility_or_line": "Global manufacturing, supply chain, and commercial sites.",
+        "change_type": "Shift in production capacity (full restoration and ramping to full capacity)",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "The complete restoration of operations to full functionality will drive a steady demand for lab supplies, reagents, and consumables for ongoing production and quality assurance.",
+        "source_url": "https://www.westpharma.com/company/company-impact-updates"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "West Pharmaceutical Services disclosed a material cybersecurity attack involving data exfiltration and system encryption, which led to the proactive shutdown of manufacturing, shipping, and receiving operations across multiple global facilities.",
+        "facility_or_programme": "Multiple global manufacturing, shipping, and receiving facilities",
+        "closure_type": "Temporary shutdown/disruption of operations",
+        "effective_date": "2026-05-04",
+        "reason": "Ransomware attack and proactive system shutdown for containment",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This disruption could lead to short-term supply chain instability for West Pharmaceutical Services' customers, creating opportunities for Thomas Scientific to offer alternative lab supplies, reagents, consumables, or equipment to affected pharmaceutical companies.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000068/wst-20260507.htm"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:35:22.196383",
+  "ai_summary": "West Pharmaceutical Services experienced a major cyberattack that temporarily halted global manufacturing and operations. They have rapidly restored systems and are now fully operational, ramping production to full capacity. This creates an urgent need for lab supplies as they replenish stock and accelerate production to catch up, presenting opportunities for sales teams to support their recovery and increased output."
+}

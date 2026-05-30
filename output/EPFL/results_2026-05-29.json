@@ -1,0 +1,120 @@
+{
+  "account": "EPFL",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1XjYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Professor Angela Wittmann has been appointed as Tenure Track Assistant Professor of Physical Chemistry in the School of Basic Sciences at EPFL. Her research focuses on spintronics at the intersection of solid-state physics, materials science, and chemistry within the emerging field of chiraltronics.",
+        "name": "Angela Wittmann",
+        "department": "Physical Chemistry, School of Basic Sciences",
+        "start_date": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.epfl.ch/news/2026/05/22/appointment-of-epfl-professors/"
+      },
+      {
+        "summary": "Professor Raffaella Buonsanti has been appointed as Full Professor of Chemical Engineering in the School of Basic Sciences at EPFL. She is an internationally recognized expert at the interface of nanochemistry, materials chemistry, and electrocatalysis.",
+        "name": "Raffaella Buonsanti",
+        "department": "Chemical Engineering, School of Basic Sciences",
+        "start_date": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.epfl.ch/news/2026/05/22/appointment-of-epfl-professors/"
+      },
+      {
+        "summary": "Dr Alexandre Schmid has been appointed as Adjunct Professor in the School of Engineering at EPFL. His research is at the interface of microelectronics and biological systems, focusing on implantable devices, bioelectronic interfaces, and neuromorphic architectures.",
+        "name": "Alexandre Schmid",
+        "department": "School of Engineering",
+        "start_date": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.epfl.ch/news/2026/05/22/appointment-of-sti-professors/"
+      },
+      {
+        "summary": "Professor Alexander Mathis has been promoted to Associate Professor of Life Sciences in the School of Life Sciences at EPFL. His work is at the interface between computational neuroscience and machine learning, developing tools for analyzing complex behaviors and understanding their neural basis.",
+        "name": "Alexander Mathis",
+        "department": "Life Sciences, School of Life Sciences",
+        "start_date": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.epfl.ch/news/2026/05/22/promotions-to-associate-professor-at-the-school-of-life-sciences/"
+      },
+      {
+        "summary": "Professor Mackenzie Weygandt Mathis has been promoted to Associate Professor of Life Sciences in the School of Life Sciences at EPFL. Her research aims to understand the neural circuits and computational processes underlying motor learning and control.",
+        "name": "Mackenzie Weygandt Mathis",
+        "department": "Life Sciences, School of Life Sciences",
+        "start_date": null,
+        "event_date": "2026-05-22",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.epfl.ch/news/2026/05/22/promotions-to-associate-professor-at-the-school-of-life-sciences/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "EPFL has launched two new interdisciplinary centers: the Robotics Center and the Center for Molecular Design in Medicine (MDM). The MDM center focuses on designing and developing medicines, leveraging expertise in computational biology, bioengineering, cryo-EM, and next-generation screening, including organoids and automation.",
+        "location": "Lausanne, Switzerland",
+        "type_of_expansion": "New dedicated research facilities/centers",
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The establishment of a new Center for Molecular Design in Medicine, with its focus on advanced screening and bioengineering, indicates a strong demand for specialized lab supplies, reagents, and consumables.",
+        "source_url": "https://www.google.com/search?q=time+in+Hamilton+County,+US"
+      },
+      {
+        "summary": "GE HealthCare, University of Cincinnati, UC Health, and Cincinnati Children's officially opened the new Imaging Research & Development Center on UC's medical campus to accelerate MRI innovation. The facility is equipped with an innovative GE HealthCare SIGNA\u2122 Premier 3T wide-bore MRI scanner.",
+        "location": "Cincinnati, Ohio, USA",
+        "type_of_expansion": "New dedicated research facility/center",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "The opening of a new Imaging Research & Development Center, equipped with advanced MRI technology, will drive demand for specialized imaging reagents, consumables, and related scientific equipment.",
+        "source_url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-investing-270m-in-global-innovation-centre-in-new-haven-connecticut/"
+      },
+      {
+        "summary": "Medix Biochemica announced a $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its Espoo, Finland, and St. Louis, Missouri facilities. This phased program includes facility upgrades, new analytical instrumentation, and at least 10 specialized personnel hires.",
+        "location": "Espoo, Finland, and St. Louis, Missouri, USA",
+        "type_of_expansion": "Capacity expansion (laboratory/manufacturing)",
+        "investment_value": 5000000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This expansion of recombinant antigen and cell culture capabilities will increase demand for cell culture media, bioreactors, purification reagents, and analytical lab supplies at both locations.",
+        "source_url": "https://www.google.com/search?q=time+in+Hamilton+County,+US"
+      },
+      {
+        "summary": "Unilever unveiled plans for a new $270 million global innovation center in New Haven, Connecticut, which will serve as a leading R&D hub for its beauty, wellbeing, and personal care businesses. The center will employ approximately 300 people and focus on scientific discovery, AI, and quantum computing capabilities.",
+        "location": "New Haven, Connecticut, USA",
+        "type_of_expansion": "New dedicated research facility/center",
+        "investment_value": 270000000,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment of a new global innovation center with a significant investment and headcount for R&D in biosciences, AI, and quantum computing will generate substantial demand for a wide range of lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-investing-270m-in-global-innovation-centre-in-new-haven-connecticut/"
+      },
+      {
+        "summary": "The USDA's Agricultural Research Service (ARS) opened the Knipling-Bushland U.S. Livestock Insects Research Laboratory in Kerrville, Texas. This new 52,000-square-foot state-of-the-art facility features cutting-edge laboratory spaces, advanced cattle facilities, and a genomics core for research on invasive fly and tick pests.",
+        "location": "Kerrville, Texas, USA",
+        "type_of_expansion": "New dedicated research facility/center",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "The opening of a new 52,000-square-foot state-of-the-art research laboratory with genomics capabilities will create demand for entomology supplies, genomics reagents, and general laboratory consumables and equipment.",
+        "source_url": "https://www.usda.gov/about-usda/news/press-releases/2026/05/27/usda-opens-state-art-livestock-insects-research-laboratory-combat-livestock-pests"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "Neurosoft Bioelectronics, an EPFL spin-off, closed a $7.5 million oversubscribed seed financing round.",
+        "amount": "$7.5 million",
+        "funding_type": "Seed financing round",
+        "use_of_proceeds": "The funding will be used to demonstrate minimally invasive deployment in human patients, achieve US commercialization of their first brain interface, advance the minimally invasive brain interface platform, and accelerate the development of a cortical foundation model for next-generation Brain-Computer Interfaces (BCIs). The company has also established a GMP manufacturing line in Switzerland.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This funding will support clinical trials and the development of advanced brain-computer interfaces, leading to increased demand for specialized neurotechnology components, testing equipment, and lab consumables.",
+        "source_url": "https://www.biospace.com/press-releases/neurosoft-bioelectronics-closes-7-5m-oversubscribed-seed-round-to-build-stretchable-and-scalable-brain-computer-interfaces"
+      }
+    ],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:30:48.722560",
+  "ai_summary": "EPFL is undergoing significant expansion with new faculty appointments in physical chemistry, chemical engineering, bioelectronics, and life sciences, alongside promotions in neuroscience. The launch of the Center for Molecular Design in Medicine, focusing on cryo-EM, organoids, and automation, signals substantial investment in cutting-edge research. This growth across diverse, high-tech fields creates numerous opportunities for lab supply sales, as new and expanding labs will require a wide array of specialized equipment and consumables."
+}

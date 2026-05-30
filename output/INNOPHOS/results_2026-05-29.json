@@ -1,0 +1,28 @@
+{
+  "account": "INNOPHOS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1WgYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Innophos has introduced a new formulation designed to help manufacturers develop dog biscuits that support digestive health and overall wellness while enabling effective mineral fortification.",
+        "facility_or_line": "Not specified (implies existing ingredient production lines)",
+        "change_type": "New product line/formulation",
+        "location": "Not specified",
+        "investment_value": null,
+        "event_date": "2026-05-29",
+        "why_it_matters": "The introduction of new product formulations often necessitates the procurement of new raw materials, specialized reagents for quality control, and potentially new lab equipment for product development and testing.",
+        "source_url": "https://www.innophos.com/news"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:19:26.791344",
+  "ai_summary": "Innophos launched a new dog biscuit formulation for digestive health and mineral fortification, indicating active R&D in functional pet nutrition. This matters for lab supply sales as it suggests increased demand for analytical equipment, reagents, and consumables. Their R&D and QC labs will require tools for nutritional analysis, mineral testing, and quality control to support this new product development."
+}

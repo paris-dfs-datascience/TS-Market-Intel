@@ -1,0 +1,29 @@
+{
+  "account": "WV DEPT OF AGRICULTURE",
+  "account_vertical": "Government",
+  "Parent_ID": "001G000001F7vUvIAJ",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "West Virginia's 14 conservation districts are concerned about losing local control over dams and the potential for budget cuts to their agricultural programs, as duties are being transferred to the West Virginia Conservation Agency due to House Bill 5364.",
+        "facility_or_programme": "Agricultural programs within West Virginia's 14 conservation districts",
+        "closure_type": "Consolidation/Reorganization with potential for program termination or significant reduction",
+        "effective_date": null,
+        "reason": "Transfer of duties to the West Virginia Conservation Agency due to House Bill 5364, leading to concerns about centralized control and potential budget cuts to agricultural programs.",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This consolidation and potential defunding of agricultural programs within West Virginia's conservation districts represents a churn risk for Thomas Scientific, as these entities likely utilize lab supplies for environmental and agricultural testing.",
+        "source_url": "https://www.newsandsentinel.com/news/local-news/2026/05/little-kanawha-conservation-district-worried-about-losing-local-control-over-dams/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:06:24.364136",
+  "ai_summary": "West Virginia's conservation districts are undergoing a significant reorganization due to HB 5364, transferring duties and potentially budgets from local control to the WV Conservation Agency. This centralization could lead to budget cuts for agricultural programs, impacting lab supply purchases. Our sales team needs to understand the new decision-makers and potential shifts in funding priorities at the WV Conservation Agency to adapt our sales strategy."
+}

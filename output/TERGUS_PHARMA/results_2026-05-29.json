@@ -1,0 +1,51 @@
+{
+  "account": "TERGUS PHARMA",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "0011M000027wrfPQAQ",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Gilead Sciences completed its acquisition of Tubulis GmbH, a private Germany-based, clinical-stage biotechnology company developing next-generation antibody-drug conjugates (ADCs).",
+        "acquirer": "Gilead Sciences",
+        "target": "Tubulis GmbH",
+        "deal_value": "$5 billion (up to $3.15 billion upfront and up to $1.85 billion in contingent milestone payments)",
+        "deal_status": "Completed",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The acquisition of a clinical-stage biotechnology company developing complex ADCs will likely increase internal R&D and manufacturing needs, creating demand for specialized lab supplies and reagents.",
+        "source_url": "https://www.businesswire.com/news/home/20260521404169/en/Gilead-Sciences-Completes-Acquisition-of-Tubulis-Further-Strengthening-Oncology-Portfolio"
+      },
+      {
+        "summary": "OrganaBio, LLC acquired substantially all of the operating assets of San Diego-based Excellos Inc. to create a bicoastal cell therapy contract development and manufacturing organization (CTDMO).",
+        "acquirer": "OrganaBio, LLC",
+        "target": "Excellos Inc. (operating assets)",
+        "deal_value": "undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This acquisition creates a bicoastal cell therapy CDMO, indicating new or consolidated lab operations and potential for new procurement needs across multiple facilities.",
+        "source_url": "https://www.businesswire.com/news/home/20260513809635/en/OrganaBio-Acquires-Excellos-Operating-Assets-Establishing-a-Coast-to-Coast-Cell-Therapy-Contract-Testing-Development-and-Manufacturing-Organization"
+      },
+      {
+        "summary": "Alcami Corporation, a U.S.-based contract development and manufacturing organization (CDMO), completed its acquisition of Tjoapack, a global contract packaging organization with facilities in the United States and The Netherlands.",
+        "acquirer": "Alcami Corporation",
+        "target": "Tjoapack",
+        "deal_value": "undisclosed",
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This consolidation of CDMO and contract packaging services expands Alcami's global footprint and integrated offerings, suggesting potential for optimized lab supply procurement and new equipment needs.",
+        "source_url": "https://www.prnewswire.com/news-releases/alcami-completes-acquisition-of-tjoapack-300989098.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:16:18.144317",
+  "ai_summary": "The CDMO/CRO sector is experiencing significant M&A, with companies acquiring specialized capabilities in ADCs and cell therapy, and integrating services like packaging. This consolidation and expansion signals increased R&D and manufacturing activity. For lab supply sales, this means opportunities to support new projects, facility integrations, and evolving technology needs across a growing and diversifying client base."
+}

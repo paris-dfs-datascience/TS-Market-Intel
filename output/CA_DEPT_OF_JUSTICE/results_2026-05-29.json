@@ -1,0 +1,29 @@
+{
+  "account": "CA DEPT OF JUSTICE",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP16BYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "California Attorney General Rob Bonta announced the successful resolution of a multistate lawsuit against the Trump Administration, ensuring that approximately $242 million in previously cut federal Homeland Security Grant Program (HSGP) funds will flow to California and 11 other states as intended.",
+        "recipient": "State of California (represented by California Department of Justice)",
+        "department_or_lab": "Not specified for a direct lab, but the funding is for state and municipal efforts to prevent, prepare for, respond to, and recover from acts of terrorism and other catastrophes.",
+        "amount": "Approximately $242,000,000 (restored to a coalition of 12 states, including California)",
+        "agency": "Federal Emergency Management Agency (FEMA) under the U.S. Department of Homeland Security (DHS)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This indicates an increase in federal funding for homeland security efforts within California, which could lead to increased demand for emergency preparedness and response supplies, including lab equipment for threat detection and analysis.",
+        "source_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-protects-critical-homeland-security-funding-politically"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "project": [],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:17:15.011297",
+  "ai_summary": "The California Department of Justice has secured $242 million in federal Homeland Security Grant Program funds for the state. This significant influx of money means increased budget availability for state and local agencies involved in homeland security initiatives. These programs often require lab supplies for forensic analysis, emergency response, and public health efforts, presenting new sales opportunities for equipment and consumables."
+}

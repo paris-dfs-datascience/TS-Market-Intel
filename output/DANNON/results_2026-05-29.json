@@ -1,0 +1,79 @@
+{
+  "account": "DANNON",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G000001C6uotIAB",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Danone is planning a major expansion of its operations in Macroom, Co Cork, with the development of an Advanced Medical Nutrition (AMN) facility.",
+        "amount": null,
+        "funding_type": "Strategic Investment / Company Expansion",
+        "use_of_proceeds": "New production infrastructure (21,759 sq m production building) and research & development facilities for specialized liquid nutritional drinks for medical use.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "The establishment of a new Advanced Medical Nutrition facility with R&D capabilities will generate significant demand for specialized lab supplies, reagents, consumables, and scientific equipment for both the production processes and ongoing research and development activities.",
+        "source_url": "https://www.irishexaminer.com/business/companies/arid-41843565.html"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Danone is planning a major expansion in Macroom, Co Cork, Ireland, to construct an Advanced Medical Nutrition (AMN) facility, which will include a 21,759 sq m production building and research & development facilities. This project is expected to create up to 230 new jobs and will focus on developing specialized liquid nutritional drinks for medical use.",
+        "project_name": "Advanced Medical Nutrition (AMN) Facility in Macroom, Ireland",
+        "scope": "Construction of a 21,759 sq m production building, research & development facilities, utilities, support infrastructure, and parking. The facility will develop specialized liquid nutritional drinks for medical use, such as for cancer patients and stroke recovery. The project will create 230 new jobs, bringing total employment at the site to approximately 460. This is described as a 'major greenfield investment' for a 'next-generation liquid nutrition facility'.",
+        "timeline": "The facility is set to open in late 2028 and become fully operational by mid-2031. A planning decision is expected by the end of June 2026.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "The development of a new production building and R&D facilities for specialized liquid nutritional drinks will generate significant demand for new scientific equipment, lab supplies, and reagents for both manufacturing processes and ongoing research and quality control.",
+        "source_url": "https://www.irishexaminer.com/business/companies/arid-41843565.html"
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Oikos, a Danone brand, expanded its ready-to-drink high-protein shake lineup with two new flavors: Strawberry and Mocha Latte, to meet growing consumer demand for more variety in their protein routines.",
+        "facility_or_line": "Oikos ready-to-drink protein shake production lines",
+        "change_type": "New product line (flavor expansion)",
+        "location": "United States (Danone USA's manufacturing facilities)",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "New product introductions often require adjustments to existing production lines, new ingredient sourcing, and increased demand for packaging and quality control supplies.",
+        "source_url": "https://www.prnewswire.com/news-releases/oikos-expands-high-protein-shake-lineup-with-new-flavors-302782325.html"
+      },
+      {
+        "summary": "Silk, a Danone brand, launched Silk Protein, a new plant-based drink with the highest protein content of any refrigerated plant-based milk on shelves.",
+        "facility_or_line": "Silk plant-based beverage production lines",
+        "change_type": "New product line",
+        "location": "Not specified, generally Danone North America's facilities",
+        "investment_value": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "Introducing a new plant-based beverage requires new raw material sourcing, potentially new processing equipment, and increased demand for quality control and packaging materials.",
+        "source_url": "https://www.danonenorthamerica.com/news/silk-teams-up-with-pro-basketball-star-monique-billings-to-bring-the-ultimate-protein-packed-power-assist-to-big-ten-fans/"
+      },
+      {
+        "summary": "Dannon discontinued its coffee yogurt flavor as of April 1st, 2026, as announced by a consumer petition created on April 29, 2026, urging its return.",
+        "facility_or_line": "Dannon coffee yogurt production lines",
+        "change_type": "Shift in production capacity (discontinuation of a product line)",
+        "location": "United States (general)",
+        "investment_value": null,
+        "event_date": "2026-04-29",
+        "why_it_matters": "Discontinuation of a product line can free up production capacity, potentially leading to retooling or reallocation of resources for other products, impacting demand for different types of lab supplies.",
+        "source_url": "https://www.change.org/p/urge-dannon-to-bring-back-coffee-yogurt-united-states"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Danone is closing its plant-based beverage manufacturing facility in Bridgeton, New Jersey, impacting 114 employees and redistributing production to other U.S. facilities.",
+        "facility_or_programme": "Bridgeton, New Jersey plant-based beverage facility",
+        "closure_type": "Manufacturing plant closure",
+        "effective_date": "2026-08-04",
+        "reason": "Part of a broader effort to transform its network, consolidate plant-based production, and address unsatisfactory performance in the North American plant-based segment.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This closure presents a competitive displacement opportunity for Thomas Scientific to supply the remaining Danone facilities receiving redistributed production, and potentially new plant-based food and beverage companies emerging in the market.",
+        "source_url": "https://www.dairyherd.com/news/danone-close-new-jersey-plant-based-beverage-facility"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:14:39.863925",
+  "ai_summary": "Danone is significantly expanding its Advanced Medical Nutrition operations in Macroom, Ireland, constructing new R&D and production facilities for specialized liquid nutritional drinks. This major investment creates a substantial opportunity for lab supply sales, requiring extensive new equipment, consumables, and services for both research and quality control. While some product lines are evolving and a plant is closing, the Macroom project signals significant growth."
+}

@@ -1,0 +1,41 @@
+{
+  "account": "EDITCO",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1RhYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Editas Medicine reported Q1 2026 results and business updates, including advancing preclinical studies for EDIT-401, their lead in vivo development candidate for Heterozygous Familial Hypercholesterolemia (HeFH), and preparing to initiate a first-in-human clinical trial later this year, with early human proof-of-concept data expected by the end of 2026.",
+        "product_or_program": "EDIT-401",
+        "stage": "Preclinical advancement, preparing for first-in-human clinical trial initiation",
+        "therapeutic_or_application_area": "Heterozygous Familial Hypercholesterolemia (HeFH), hyperlipidemia, atherosclerotic cardiovascular disease",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The progression of EDIT-401 towards a first-in-human clinical trial indicates an upcoming demand for lab supplies, reagents, and equipment for clinical research and potential manufacturing.",
+        "source_url": "https://ir.editasmedicine.com/node/13141/pdf"
+      },
+      {
+        "summary": "Editas Medicine presented new preclinical data for EDIT-401 at the 94th European Atherosclerosis Society Congress, demonstrating robust reductions in LDL-C, Lp(a), and ApoB in non-human primates. The company also announced plans to submit a Clinical Trial Notification (CTN) in Australia in mid-2026 with the goal of initiating a first-in-human Phase 1/2 clinical trial of EDIT-401 in HeFH patients later in 2026.",
+        "product_or_program": "EDIT-401",
+        "stage": "Preclinical data presentation, CTN submission planned, Phase 1/2 clinical trial initiation planned",
+        "therapeutic_or_application_area": "Heterozygous Familial Hypercholesterolemia (HeFH), hyperlipidemia, atherosclerotic cardiovascular disease",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The upcoming CTN submission and planned initiation of a Phase 1/2 clinical trial for EDIT-401 signal a significant advancement in the drug development process, creating immediate and future demand for lab supplies, reagents, and equipment for clinical research and potential manufacturing.",
+        "source_url": "https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-presents-edit-401-preclinical-data-demonstrating"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:24:53.966884",
+  "ai_summary": "Editas Medicine is rapidly advancing its lead candidate, EDIT-401, for HeFH, moving from preclinical to first-in-human clinical trials later this year, with early human data expected by year-end. This significant progression, backed by strong preclinical results, signals an increased need for lab supplies, reagents, and equipment to support ongoing R&D, manufacturing, and clinical trial activities."
+}

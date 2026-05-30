@@ -1,0 +1,118 @@
+{
+  "account": "MANNKIND CORPORATION",
+  "account_vertical": "BioPharma",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The FDA informed MannKind that it was released from a postmarketing requirement to conduct a five-year, randomized trial in 8,000-10,000 adults with type 2 diabetes to assess pulmonary malignancy risk for Afrezza, significantly reducing long-term clinical and cost obligations.",
+        "product_or_program": "Afrezza (insulin human) Inhalation Powder",
+        "stage": "Post-marketing requirement modification",
+        "therapeutic_or_application_area": "Type 2 Diabetes (pulmonary malignancy risk assessment)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The removal of this large and costly trial obligation improves the financial outlook for Afrezza, potentially freeing up resources for other development or commercialization efforts, and signals increased confidence in the drug's safety profile.",
+        "source_url": "https://www.stocktitan.net/sec-filings/MNKD/8-k-mannkind-corp-reports-material-event-7aa782280b16.html"
+      },
+      {
+        "summary": "MannKind announced that the Ralinepag dry powder inhalation (DPI) program (MNKD-1501) will be pursued for pulmonary arterial hypertension (PAH) by United Therapeutics, followed by pulmonary hypertension associated with interstitial lung disease (PH-ILD), IPF, and progressive pulmonary fibrosis. United Therapeutics made a $5 million payment to support accelerated development, and MannKind is eligible for up to $35 million in development milestones and 10% royalties on net sales.",
+        "product_or_program": "Ralinepag DPI (MNKD-1501)",
+        "stage": "Collaboration / Accelerated Development (pre-clinical/early clinical)",
+        "therapeutic_or_application_area": "Pulmonary Arterial Hypertension (PAH), Pulmonary Hypertension associated with Interstitial Lung Disease (PH-ILD), Idiopathic Pulmonary Fibrosis (IPF), Progressive Pulmonary Fibrosis",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This collaboration and upfront payment indicate significant progress in MannKind's pipeline, potentially leading to future demand for specialized lab supplies and equipment for the development and manufacturing of this DPI product for multiple orphan lung diseases.",
+        "source_url": "https://www.biospace.com/press-releases/mannkind-reports-first-quarter-2026-financial-results-and-provides-business-update"
+      },
+      {
+        "summary": "MannKind announced that Nintedanib DPI (MNKD-201) for Idiopathic Pulmonary Fibrosis (IPF) is advancing into Phase 2, with the INFLO-2 trial anticipating enrolling its first patient in Q2 2026. Enrollment for Cohort 1 in the Phase 1b (INFLO-1) study was completed with no discontinuations or serious adverse events, and topline data is expected in Q3 2026.",
+        "product_or_program": "Nintedanib DPI (MNKD-201)",
+        "stage": "Phase 1b completion / Phase 2 initiation",
+        "therapeutic_or_application_area": "Idiopathic Pulmonary Fibrosis (IPF)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The progression of MNKD-201 to Phase 2 signifies increased research and development activity, which will drive demand for reagents, consumables, and equipment for clinical trials and manufacturing.",
+        "source_url": "https://www.biospace.com/press-releases/mannkind-reports-first-quarter-2026-financial-results-and-provides-business-update"
+      },
+      {
+        "summary": "MannKind has a pending supplemental Biologics License Application (sBLA) for Afrezza (insulin human) Inhalation Powder for use in children and adolescents aged 4-17 with type 1 or type 2 diabetes, with a PDUFA target action date of May 29, 2026.",
+        "product_or_program": "Afrezza (insulin human) Inhalation Powder",
+        "stage": "Regulatory Review (sBLA) / PDUFA",
+        "therapeutic_or_application_area": "Type 1 and Type 2 Diabetes (pediatric)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "A potential approval on May 29, 2026, would open a new patient population for Afrezza, significantly increasing demand for the product and associated inhalation devices and consumables.",
+        "source_url": "https://www.stocktitan.net/sec-filings/MNKD/8-k-mannkind-corp-reports-material-event-7aa782280b16.html"
+      },
+      {
+        "summary": "MannKind has a pending supplemental New Drug Application (sNDA) for FUROSCIX ReadyFlow Autoinjector with a PDUFA target action date of July 26, 2026. If approved, this device would deliver subcutaneous furosemide injection in under 10 seconds.",
+        "product_or_program": "FUROSCIX ReadyFlow Autoinjector",
+        "stage": "Regulatory Review (sNDA) / PDUFA",
+        "therapeutic_or_application_area": "Edema associated with chronic heart failure and chronic kidney disease",
+        "event_date": "2026-05-06",
+        "why_it_matters": "A potential approval in July 2026 would lead to increased manufacturing and distribution of the autoinjector, creating demand for components, packaging, and quality control supplies.",
+        "source_url": "https://www.biospace.com/press-releases/mannkind-reports-first-quarter-2026-financial-results-and-provides-business-update"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "MannKind Corporation received an additional $5 million from United Therapeutics to support the rapid advancement of ralinepag DPI (MNKD-1501), an expanded collaboration program for pulmonary arterial hypertension (PAH).",
+        "location": "N/A",
+        "type_of_expansion": "Capacity expansion in research",
+        "investment_value": 5000000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This investment in a research program indicates increased activity in drug development, potentially leading to new procurement needs for specialized reagents and lab consumables.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/06/3261775/0/en/MannKind-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update.html"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "MannKind Corporation announced an expanded license and collaboration agreement with United Therapeutics for the development of ralinepag DPI (MNKD-1501), a new dry powder inhalation formulation intended for pulmonary arterial hypertension and other fibrotic lung diseases.",
+        "partner": "United Therapeutics",
+        "deal_type": "Expanded License and Collaboration Agreement",
+        "deal_value": "$5 million upfront payment, up to $35 million in development milestones, plus 10% royalties on net sales",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This collaboration indicates new lab activity for MannKind in developing advanced dry powder formulations and expands their pipeline for treating serious lung diseases, requiring further research and development efforts.",
+        "source_url": "https://stocktitan.net/news/MNKD/mannkind-announces-ralinepag-dry-powder-inhalation-dpi-program-to-be-pursued-for-k928236113.html"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "MannKind Corporation announced an expanded collaboration with United Therapeutics, which includes a $5 million payment to support the accelerated development of Ralinepag DPI (MNKD-1501).",
+        "amount": "$5,000,000",
+        "funding_type": "Strategic Investment from Pharma Partner",
+        "use_of_proceeds": "Accelerated development of Ralinepag DPI (MNKD-1501) for pulmonary hypertension and fibrotic lung diseases.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This new capital for accelerated drug development will likely lead to increased demand for lab supplies, reagents, and consumables for research and clinical trial activities.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/06/3268484/0/en/MannKind-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update.html"
+      }
+    ],
+    "project": [
+      {
+        "summary": "MannKind Corporation announced the development of a dry powder inhalation (DPI) formulation of ralinepag (MNKD-1501) in collaboration with United Therapeutics Corporation for pulmonary hypertension and fibrotic lung diseases. United Therapeutics made an additional $5 million payment to MannKind to support the rapid advancement of ralinepag DPI, and MannKind is eligible to receive up to $35 million in development milestones plus 10% royalties on net sales of any resulting commercial product.",
+        "project_name": "Ralinepag Dry Powder Inhalation (DPI) Program (MNKD-1501)",
+        "scope": "The program involves the development of a dry powder inhalation formulation of ralinepag for pulmonary arterial hypertension (PAH) and other fibrotic lung diseases. This includes planned non-clinical studies, a subsequent Phase 1 study in healthy volunteers to assess dosing and pharmacokinetic comparability with oral ralinepag tablets, and a pivotal study in PAH patients to further assess safety and PK comparability.",
+        "timeline": "United Therapeutics plans to be the primary manufacturer of ralinepag DPI and initially intends to seek approval for pulmonary arterial hypertension. The companies are currently in the process of formulating the product for planned non-clinical studies and a subsequent Phase 1 study. MannKind is eligible to receive up to $35 million in development milestones, with $15 million in milestones expected in the next 12 months.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This R&D program will drive demand for lab supplies, reagents, and specialized equipment for formulation development, non-clinical toxicology studies, and clinical trial materials.",
+        "source_url": "https://investors.mannkindcorp.com/node/21256/pdf"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "The FDA released MannKind Corporation from a postmarketing requirement to conduct a five-year, randomized trial in 8,000-10,000 adults with type 2 diabetes to assess the pulmonary malignancy risk of Afrezza.",
+        "product_or_site": "Afrezza (insulin human) Inhalation Powder",
+        "regulatory_action": "Release from Postmarketing Requirement",
+        "outcome": "Favorable",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This significantly reduces MannKind's long-term clinical and financial obligations related to Afrezza, potentially freeing up resources for other development and commercialization efforts, which could indirectly impact demand for related lab supplies.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/899460/000119312526243074/d190118d8k.htm"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:33:42.952597",
+  "ai_summary": "MannKind is actively advancing a diverse pipeline, notably expanding its pulmonary disease programs with United Therapeutics, securing significant funding for new dry powder inhalers. With multiple drugs progressing to later clinical stages and regulatory reviews, including Afrezza and Nintedanib, this signals increased R&D activity and potential for new product launches, driving demand for lab supplies and services."
+}

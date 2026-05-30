@@ -1,0 +1,179 @@
+{
+  "account": "COPEX",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G0000019r6ouIAA",
+  "signals": {
+    "capital": [
+      {
+        "summary": "VectorBuilder plans to invest $50 million to establish a new Advanced Biomanufacturing and R&D Center in Chicago, combining research and development with manufacturing capabilities across its gene delivery portfolio. Initial operations are expected to begin in 2027.",
+        "project_name": "Advanced Biomanufacturing and R&D Center",
+        "location": "Chicago, Illinois, USA",
+        "value": "$50 million",
+        "timeline": "Initial operations expected to begin in 2027",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new facility will require a wide range of lab supplies, reagents, and equipment for gene delivery research, development, and biomanufacturing processes.",
+        "source_url": "https://www.businesswire.com/news/home/20260527025800/en/VectorBuilder-to-Invest-50-Million-in-Chicago-Biomanufacturing-and-RD-Center"
+      },
+      {
+        "summary": "The American Center for Manufacturing & Innovation (ACMI) broke ground on the Maryland Energetics Innovation Hub (MEIH) in Charles County, Maryland. This new campus, backed by an initial $50 million award and expected to catalyze over $200 million in additional private investment, totaling $250 million, is designed to accelerate energetics production, process innovation, and advanced manufacturing for the military.",
+        "project_name": "Maryland Energetics Innovation Hub (MEIH)",
+        "location": "Charles County, Maryland, USA",
+        "value": "$250 million",
+        "timeline": "Groundbreaking occurred May 28, 2026",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This hub will require specialized lab equipment, testing consumables, and advanced manufacturing supplies for energetics research, development, and production.",
+        "source_url": "https://acmi.us/news/acmi-and-nswc-indian-head-division-undertake-a-250-million-dollar-project-to-supercharge-americas-manufacturing-innovation"
+      },
+      {
+        "summary": "SK bioscience announced plans to expand its vaccine manufacturing plant in Andong, North Gyeongsang, South Korea, and upgrade production capacity. This expansion is part of a 300 billion won (approximately $220 million USD) fundraising plan to accelerate late-stage clinical trials of its pneumococcal vaccine and expand manufacturing capabilities.",
+        "project_name": "Vaccine Manufacturing Plant Expansion",
+        "location": "Andong, North Gyeongsang, South Korea",
+        "value": "Approximately $220 million",
+        "timeline": "Funds secured, expansion planned",
+        "event_date": "2026-05-29",
+        "why_it_matters": "Expansion of a vaccine manufacturing plant will drive significant demand for bioprocessing consumables, reagents, quality control lab supplies, and specialized equipment.",
+        "source_url": "https://www.koreatimes.co.kr/www/tech/2026/05/129_397092.html"
+      },
+      {
+        "summary": "Niowave broke ground on a $75 million Actinium-225 production facility in Michigan. This facility will be dedicated to the production of Actinium-225, a radioisotope used in targeted alpha therapy for cancer treatment.",
+        "project_name": "Actinium-225 Production Facility",
+        "location": "Michigan, USA",
+        "value": "$75 million",
+        "timeline": "Groundbreaking occurred",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A facility for producing Actinium-225 will require specialized lab equipment, radiation safety consumables, and reagents for radiopharmaceutical production and research.",
+        "source_url": "https://niowave.com/news/niowave-breaks-ground-on-75m-actinium-225-production-facility-in-michigan/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "A pharmaceutical giant has opened its first dedicated genetic medicine facility in the U.S.",
+        "facility_or_line": "Genetic medicine facility",
+        "change_type": "New manufacturing site opening",
+        "location": "United States",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "New genetic medicine facilities require significant quantities of specialized lab supplies, reagents, and scientific equipment for research, development, and quality control.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "A nuclear innovator has broken ground on the world's largest actinium-225 plant in the U.S.",
+        "facility_or_line": "Actinium-225 plant",
+        "change_type": "New manufacturing site opening",
+        "location": "United States",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new actinium-225 plant will require specialized lab equipment, radiation safety supplies, and reagents for production and quality assurance.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "FUJIFILM Cellular Dynamics celebrated the opening of its new headquarters and iPSC development and manufacturing facility, quadrupling its manufacturing footprint.",
+        "facility_or_line": "iPSC development and manufacturing facility",
+        "change_type": "New manufacturing site opening, shifts in production capacity",
+        "location": "Madison, Wisconsin",
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "An expanded iPSC manufacturing facility will significantly increase demand for cell culture media, reagents, consumables, and specialized scientific equipment for stem cell research and production.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "IBM and the U.S. Department of Commerce announced a Letter of Intent to establish Anderon, America's first purpose-built quantum wafer foundry.",
+        "facility_or_line": "Anderon quantum wafer foundry",
+        "change_type": "New manufacturing site opening",
+        "location": "Albany, New York",
+        "investment_value": "$2 billion",
+        "event_date": "2026-05-21",
+        "why_it_matters": "A new quantum chip foundry will require highly specialized materials, chemicals, and advanced scientific equipment for semiconductor fabrication and quality control.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Coca-Cola Consolidated announced a $35 million investment to add a new glass bottle production line to its Indianapolis manufacturing facility.",
+        "facility_or_line": "Glass bottle production line at Indianapolis manufacturing facility",
+        "change_type": "Changes to production lines, shifts in production capacity",
+        "location": "Indianapolis, Indiana",
+        "investment_value": "$35 million",
+        "event_date": "2026-05-04",
+        "why_it_matters": "A new beverage production line will require increased quality control testing, potentially leading to demand for lab consumables and analytical equipment.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Collins Aerospace announced a $26.5 million investment to expand its Largo, Florida facility to accelerate the production of commercial aviation radars and multi-domain security solutions.",
+        "facility_or_line": "Largo, Florida facility (radar production area)",
+        "change_type": "Shifts in production capacity, retooling of existing plants",
+        "location": "Largo, Florida",
+        "investment_value": "$26.5 million",
+        "event_date": "2026-05-11",
+        "why_it_matters": "Expansion of radar manufacturing may require new materials testing, quality assurance, and specialized equipment, driving demand for lab supplies.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Lockheed Martin is adding 87,000 square feet of production space to its Troy site to support production of Terminal High Altitude Area Defense interceptors.",
+        "facility_or_line": "Troy site (Building 47)",
+        "change_type": "Shifts in production capacity, new manufacturing site opening",
+        "location": "Troy, Alabama",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "Expansion of defense manufacturing facilities will require increased quality control, materials testing, and potentially specialized lab equipment and consumables.",
+        "source_url": "https://www.industryselect.com/blog/new-us-manufacturing-plants-unveiled-in-may-2026"
+      },
+      {
+        "summary": "Beverage manufacturer Diageo North America opened a new $415 million, 360,000-square-foot manufacturing and warehousing facility.",
+        "facility_or_line": "Manufacturing and warehousing facility",
+        "change_type": "New manufacturing site opening",
+        "location": "Montgomery, Alabama",
+        "investment_value": "$415 million",
+        "event_date": "2026-04-21",
+        "why_it_matters": "A new beverage manufacturing facility will require ongoing quality control testing, driving demand for lab consumables, reagents, and analytical equipment.",
+        "source_url": "https://www.manufacturingdive.com/news/siemens-diageo-oxbo-open-us-facilities-in-april/818823/"
+      },
+      {
+        "summary": "Suniva opened a new 620,000-square-foot facility, bringing its total domestic solar cell manufacturing capacity to over 5.5 gigawatts annually.",
+        "facility_or_line": "Laurens facility (solar cell manufacturing)",
+        "change_type": "New manufacturing site opening, shifts in production capacity",
+        "location": "Laurens, South Carolina",
+        "investment_value": "More than $350 million",
+        "event_date": "2026-04-30",
+        "why_it_matters": "Increased solar cell manufacturing capacity will require a greater volume of specialized chemicals, materials, and quality control lab equipment.",
+        "source_url": "https://www.manufacturingdive.com/news/siemens-diageo-oxbo-open-us-facilities-in-april/818823/"
+      },
+      {
+        "summary": "Premier Brands of America plans to build a new facility for health and wellness products in Scranton, Pennsylvania.",
+        "facility_or_line": "New manufacturing facility for health and wellness products",
+        "change_type": "New manufacturing site opening",
+        "location": "Scranton, Pennsylvania",
+        "investment_value": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "A new facility for health and wellness products will require lab supplies, reagents, and scientific equipment for product development, quality assurance, and testing.",
+        "source_url": "https://www.manufacturingdive.com/news/siemens-diageo-oxbo-open-us-facilities-in-april/818823/"
+      },
+      {
+        "summary": "Metals processor Marubeni-Itochu Steel America (MISA) announced plans to build an advanced flat-rolled steel processing plant.",
+        "facility_or_line": "Flat-rolled steel processing plant",
+        "change_type": "New manufacturing site opening",
+        "location": "Osceola, Arkansas",
+        "investment_value": "$37 million",
+        "event_date": "2026-04-23",
+        "why_it_matters": "A new steel processing plant will require materials testing and quality control, leading to demand for analytical lab equipment and consumables.",
+        "source_url": "https://www.manufacturingdive.com/news/siemens-diageo-oxbo-open-us-facilities-in-april/818823/"
+      },
+      {
+        "summary": "The global Co-packaged Optics (CPO) market has crossed its commercial inflection point, with annual shipments of 1.6T CPO modules projected to exceed 5 million units by year-end 2026.",
+        "facility_or_line": "Co-packaged Optics (CPO) module production",
+        "change_type": "Shifts in production capacity",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "A significant surge in CPO module shipments indicates increased manufacturing activity across the industry, driving demand for specialized materials, chemicals, and testing equipment for optical and electronic components.",
+        "source_url": "https://www.hdinresearch.com/news/1382"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T20:42:08.876108",
+  "ai_summary": "COPEX accounts are experiencing a surge in capital investment and production expansion, particularly in biotech, advanced manufacturing, and specialized R&D. New facilities for gene therapy, vaccine production, radioisotopes, and iPSC development are emerging, alongside significant expansions in defense, quantum, and solar. This widespread growth signals a substantial increase in demand for lab equipment, consumables, and services across diverse industrial and life science applications."
+}

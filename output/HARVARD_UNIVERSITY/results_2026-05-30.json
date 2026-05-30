@@ -1,0 +1,80 @@
+{
+  "account": "HARVARD UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CkYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "52 Harvard College students and alumni were awarded a 2026 National Science Foundation Graduate Research Fellowship Program (NSF GRFP) grant.",
+        "recipient": "52 Harvard College students and alumni",
+        "department_or_lab": "Harvard College, Office of Undergraduate Research and Fellowships",
+        "amount": "The NSF GRFP provides a three-year annual stipend of $37,000 along with a $16,000 cost of education allowance for tuition and fees (paid to the institution).",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "These fellowships indicate active research projects by emerging scientists at Harvard, likely requiring new lab supplies and consumables.",
+        "source_url": "https://uraf.harvard.edu/news/2026/05/fifty-two-students-and-alumni-awarded-nsf-grfp-grant"
+      },
+      {
+        "summary": "The Division of Women's Health at Mass General Brigham (MGB) is the home site for the MGB-based, Harvard-wide award \"Building Interdisciplinary Research Careers in Women's Health (BIRCWH)\" from the NIH. The BIRCWH K12 Training Program supports Scholars involved in investigating the role of hormones and genes in understanding sex differences in vulnerabilities to clinical disorders and those disorders specific to women.",
+        "recipient": "Scholars (junior faculty) at Harvard-affiliated institutions including Brigham and Women's Hospital, Massachusetts General Hospital, Beth Israel Deaconess Medical Center, Children's Hospital, Dana-Farber Cancer Institute, McLean Hospital, and HSPH.",
+        "department_or_lab": "Division of Women's Health at Mass General Brigham (MGB), Harvard Medical School (HMS), Harvard T.H. Chan School of Public Health (HSPH)",
+        "amount": "Up to $100,000 direct costs from NIH funds for salary support, plus fringe benefits, annually, and $50,000 for research and career development support per scholar.",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This NIH K12 training program will fund multiple scholars in women's health research, creating sustained demand for specialized reagents and equipment.",
+        "source_url": "https://www.brighamandwomens.org/medicine/womens-health/building-interdisciplinary-research-careers-in-womens-health-bircwh"
+      },
+      {
+        "summary": "Alison Sanders and Izzuddin M. Aris, from Pitt Public Health and Harvard Medical School/Harvard Pilgrim Health Care Institute respectively, received a nearly $3.8 million grant from the National Institutes of Health to study how early-life environmental exposures may influence kidney health and blood pressure later in life.",
+        "recipient": "Alison Sanders and Izzuddin M. Aris",
+        "department_or_lab": "Department of Environmental and Occupational Health at Pitt Public Health (for Sanders); Department of Population Medicine at the Harvard Pilgrim Health Care Institute and Harvard Medical School (for Aris).",
+        "amount": "Nearly $3.8 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This substantial NIH grant for kidney health research will drive demand for reagents, analytical equipment, and consumables for long-term cohort studies.",
+        "source_url": "https://www.publichealth.pitt.edu/news/researchers-receive-nih-grant-study-how-early-life-environmental-exposures-affect-kidney"
+      },
+      {
+        "summary": "Gabrielle Ursin '25, a Ph.D. student at Harvard University in the Department of Earth and Planetary Sciences' Structural Geology and Earth Resources Lab, received a pre-doctoral graduate research fellowship from the National Science Foundation to study geoscience and tectonics.",
+        "recipient": "Gabrielle Ursin '25",
+        "department_or_lab": "Harvard University, Department of Earth and Planetary Sciences' Structural Geology and Earth Resources Lab (Shaw Group)",
+        "amount": "The NSF GRFP provides three years of financial support over five years, including a $37,000 annual stipend and a $16,000 cost of education allowance.",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This NSF fellowship supports a student's research at Harvard, indicating potential demand for geoscience and tectonics-related lab supplies and equipment.",
+        "source_url": "https://columns.wlu.edu/wl-alumni-and-student-awarded-nsf-fellowships-2/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Stuart Orkin, the David G. Nathan Distinguished Professor of Pediatrics at Harvard Medical School, Dana-Farber Cancer Institute, and Boston Children's Hospital, was awarded the 2026 Breakthrough Prize in Life Sciences for his discovery of the mechanism behind the body's transition from fetal to adult hemoglobin, which led to the development of gene therapies for sickle cell disease and beta-thalassemia.",
+        "researcher_name": "Stuart Orkin",
+        "department_or_lab": "Harvard Medical School, Dana-Farber Cancer Institute, Boston Children's Hospital",
+        "award_or_discovery": "2026 Breakthrough Prize in Life Sciences ($3 million award)",
+        "significance": "Orkin's work identified BCL11A as a key regulator that shuts off fetal hemoglobin after birth, providing a new therapeutic strategy for sickle cell disease and beta-thalassemia. This discovery has led to transformative treatments, including the world's first FDA-approved CRISPR-based gene therapy.",
+        "event_date": "2026-04-18",
+        "why_it_matters": "This breakthrough in gene therapy and the development of CRISPR-based treatments signal high demand for specialized reagents, gene-editing tools, and consumables for ongoing research and clinical applications in hematology and genetic disorders.",
+        "source_url": "https://hms.harvard.edu/news/harvard-medical-school-professor-stuart-orkin-wins-2026-breakthrough-prize"
+      },
+      {
+        "summary": "G\u00f6khan Hotam\u0131\u015fl\u0131gil, James Robins, and Pardis Sabeti, faculty members at the Harvard T.H. Chan School of Public Health, were elected to the National Academy of Sciences in April 2026, recognizing their distinguished and continuing achievements in original research.",
+        "researcher_name": "G\u00f6khan Hotam\u0131\u015fl\u0131gil, James Robins, Pardis Sabeti",
+        "department_or_lab": "Harvard T.H. Chan School of Public Health",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "Election to the National Academy of Sciences is one of the highest honors a scientist can receive, acknowledging their significant and ongoing contributions to original research across various scientific fields.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The recognition of these researchers by the National Academy of Sciences indicates ongoing high-level research activity in public health, epidemiology, and immunology, suggesting continued demand for advanced laboratory equipment and reagents.",
+        "source_url": "https://www.hsph.harvard.edu/news/hsph-in-the-news/faculty-news-spring-2026/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:27:50.369940+00:00",
+  "ai_summary": "Harvard University is experiencing a surge in research activity, marked by numerous significant grants from NIH and NSF funding diverse areas like women's health, environmental exposures, and geoscience. The recognition of faculty breakthroughs and a large cohort of new graduate fellows indicate expanding research programs and increased demand for a wide array of lab supplies, reagents, and equipment across multiple departments."
+}

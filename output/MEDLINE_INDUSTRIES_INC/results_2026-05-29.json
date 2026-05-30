@@ -1,0 +1,161 @@
+{
+  "account": "MEDLINE INDUSTRIES INC",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "0011M00002Tv35jQAB",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Woman's Hospital in Baton Rouge, Louisiana, expanded its prime vendor agreement with Medline to include laboratory products and distribution services.",
+        "contract_name": "Prime Vendor Agreement Expansion (Laboratory Products)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates an increased demand for laboratory products and distribution services through Medline, presenting a potential competitive or partnership opportunity for Thomas Scientific in the lab supply market.",
+        "source_url": "https://www.beckersasc.com/supply-chain/supply-chain-updates-2026/"
+      },
+      {
+        "summary": "Texas-based medical provider TenderHeart Health Outcomes partnered with Medline to expand its home delivery of medical supplies, utilizing Medline's Home Direct program.",
+        "contract_name": "Home Direct Program Partnership",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This partnership signifies an expansion of Medline's distribution capabilities for medical supplies, which could lead to increased overall demand for products that Thomas Scientific also supplies.",
+        "source_url": "https://www.beckersasc.com/supply-chain/supply-chain-updates-2026/"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Medline announced its Safe Patient Handling Program, offering products, policies, procedures, assessments, and staff training to reduce caregiver injury risk and improve patient care.",
+        "product_or_program": "Safe Patient Handling Program",
+        "stage": "Program Adoption/Implementation",
+        "therapeutic_or_application_area": "Patient Safety, Mobility, Injury Prevention",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates a new program adoption at healthcare facilities, creating demand for related patient handling equipment, consumables, and training materials.",
+        "source_url": "https://www.medline.com/capabilities/safe-mobility/safe-patient-handling/"
+      },
+      {
+        "summary": "Medline expanded its animal health portfolio with custom spay/neuter surgical packs designed to streamline procedures, reduce staff burden, and enhance access to spay and neuter programs for animal shelters, humane societies, and veterinary practices.",
+        "product_or_program": "Custom Spay/Neuter Surgical Packs",
+        "stage": "New Product Launch/Program Expansion",
+        "therapeutic_or_application_area": "Animal Health, Veterinary Surgery",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This indicates new demand for surgical consumables and equipment in the animal health sector.",
+        "source_url": "https://www.stocktitan.net/news/MDLN/medline-expands-animal-health-portfolio-with-spay-neuter-surgical-tdoy11urqbuc.html"
+      },
+      {
+        "summary": "Medline introduced its Fall Prevention Program, part of its Safe Mobility Solution, providing tools, education, and products to reduce the risk of patient falls in healthcare settings.",
+        "product_or_program": "Fall Prevention Program",
+        "stage": "Program Adoption/Implementation",
+        "therapeutic_or_application_area": "Patient Safety, Fall Prevention",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This indicates a new program adoption at healthcare facilities, creating demand for related fall prevention products, consumables, and training materials.",
+        "source_url": "https://www.medline.com/capabilities/safe-mobility/fall-prevention-program/"
+      },
+      {
+        "summary": "Southern HealthCare adopted Medline's Skin Health Solution and OptiView transparent dressings to prevent pressure injuries, resulting in decreased incidence of pressure injuries and improved healing times.",
+        "product_or_program": "Medline Skin Health Solution, OptiView transparent dressings",
+        "stage": "New Treatment Protocol Adoption",
+        "therapeutic_or_application_area": "Wound Care, Pressure Injury Prevention",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This signifies the adoption of a new treatment protocol and specific Medline products, indicating demand for wound care supplies and dressings.",
+        "source_url": "https://www.medline.com/strategies/skin-health/southern-healthcare-prevent-pressure-injuries-in-long-term-care/"
+      },
+      {
+        "summary": "Medline highlighted innovations in ventilator humidification with its Neptune\u00ae with Dri-Tech system, designed to reduce rainout, simplify clinician setup, and improve efficiency in patient care.",
+        "product_or_program": "Neptune\u00ae with Dri-Tech Ventilator Humidification System",
+        "stage": "Product Innovation/Adoption",
+        "therapeutic_or_application_area": "Respiratory Care, Ventilator Management",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates a new product innovation and potential for adoption of advanced respiratory care equipment and consumables.",
+        "source_url": "https://www.medline.com/strategies/respiratory/ventilator-humidification-innovations-may-improve-efficiency/"
+      },
+      {
+        "summary": "Desert Springs Hospital and Medical Center partnered with Medline to implement its Skin Health Solution, leading to a reduction in healthcare-associated pressure injuries (HAPIs) and associated costs.",
+        "product_or_program": "Medline Skin Health Solution",
+        "stage": "New Treatment Protocol Adoption",
+        "therapeutic_or_application_area": "Wound Care, Pressure Injury Prevention",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This signifies the adoption of a new treatment protocol and Medline's Skin Health Solution, indicating demand for wound care supplies and related products.",
+        "source_url": "https://www.medline.com/strategies/skin-health/las-vegas-hospital-reduces-healthcare-associated-pressure-injuries-with-medline/"
+      },
+      {
+        "summary": "Medline Industries provided an investigator-initiated research grant for the PROMPT-SCI study, a single-arm proof-of-concept trial investigating rapid onset of mobilization in patients with traumatic spinal cord injury.",
+        "product_or_program": "PROMPT-SCI Study (Investigator-Initiated Trial)",
+        "stage": "Clinical Trial (Proof-of-Concept)",
+        "therapeutic_or_application_area": "Spinal Cord Injury, Rehabilitation",
+        "event_date": "2026-05-01",
+        "why_it_matters": "An investigator-initiated trial signals potential future demand for specialized equipment and consumables related to spinal cord injury rehabilitation.",
+        "source_url": "https://bmjopen.bmj.com/content/bmjopen/11/11/e049884.full.pdf"
+      },
+      {
+        "summary": "Medline joined MediWound's collaboration network and will provide its skin protectant, Marathon, for an upcoming Diabetic Foot Ulcer (DFU) Phase II study. An investigator-initiated trial in pressure ulcers is also planned for the second half of 2026.",
+        "product_or_program": "Collaboration for DFU Phase II Study (providing Marathon skin protectant); Investigator-Initiated Trial in Pressure Ulcers",
+        "stage": "Clinical Program Collaboration (Phase II), Planned Investigator-Initiated Trial",
+        "therapeutic_or_application_area": "Wound Care, Diabetic Foot Ulcers, Pressure Ulcers",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates Medline's involvement in new clinical trials, creating demand for their skin protectant and potentially other wound care supplies for these studies.",
+        "source_url": "https://seekingalpha.com/article/4909323-mediwound-ltd-mdwd-q1-2026-earnings-call-transcript"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Medline reported $96 million in capital expenditures for Q1 2026, which included investments in enhancements and automation in distribution centers and capacity expansion of its Mexico kitting manufacturing operations.",
+        "location": "Mexico",
+        "type_of_expansion": "Capacity expansion (manufacturing)",
+        "investment_value": "$96M",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Increased manufacturing capacity will directly lead to higher demand for raw materials, components, and potentially new or expanded laboratory testing for quality assurance of manufactured products.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/06/3288704/0/en/medline-reports-first-quarter-2026-results.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Medline published an article detailing how its role as a medical supplier helps Ambulatory Surgery Centers (ASCs) prepare for Joint Commission and AAAHC accreditations by managing equipment and supply lead times.",
+        "product_or_site": "Medline's supply chain solutions, medical equipment, and supplies for Ambulatory Surgery Centers (ASCs).",
+        "regulatory_action": "Support for Joint Commission and AAAHC accreditation preparation.",
+        "outcome": "Medline positions itself as a strategic partner to ensure facilities meet accreditation requirements, implying successful preparation for accreditation.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This indicates that Medline's customers (ASCs) are actively pursuing or maintaining accreditations, which drives demand for Medline's lab supplies, reagents, consumables, and scientific equipment to meet the stringent standards required for accreditation.",
+        "source_url": "https://www.medline.com/newsroom/article/asc-development-6-reasons-to-call-a-medical-supplier-early/"
+      }
+    ],
+    "tender": [
+      {
+        "summary": "Medline signed an expanded Prime Vendor agreement with T.J. Regional Health, which now includes Medline's portfolio of lab products.",
+        "tender_name": "Prime Vendor Agreement (Lab Supplies) with T.J. Regional Health",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "This expanded agreement for lab products at T.J. Regional Health indicates a shift in their purchasing, creating an opportunity for Thomas Scientific to identify and pursue specific lab product categories or specialized equipment not covered by Medline's offerings.",
+        "source_url": "https://newsroom.medline.com/releases/t-j-regional-health-lab-prime-vendor/"
+      },
+      {
+        "summary": "Medline signed a new Prime Vendor agreement with Hospice of Western Kentucky for medical-surgical products, including incontinence care, wound care, and personal protection.",
+        "tender_name": "Prime Vendor Agreement (Medical-Surgical Products) with Hospice of Western Kentucky",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "While Medline secured the medical-surgical prime vendor agreement with Hospice of Western Kentucky, Thomas Scientific could explore opportunities for specialized lab supplies or equipment that may fall outside the scope of this general medical-surgical agreement.",
+        "source_url": "https://newsroom.medline.com/releases/hospice-of-western-kentucky-prime-vendor/"
+      },
+      {
+        "summary": "Medline signed a new Prime Vendor agreement with Rural Medical Services Inc., providing access to medical-surgical products and point-of-care lab solutions.",
+        "tender_name": "Prime Vendor Agreement (Medical-Surgical and Point-of-Care Lab Solutions) with Rural Medical Services Inc.",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "This agreement for point-of-care lab solutions at Rural Medical Services Inc. presents an opportunity for Thomas Scientific to offer complementary lab supplies, reagents, or specialized equipment that may not be fully covered by Medline's offerings.",
+        "source_url": "https://newsroom.medline.com/releases/prime-vendor-rural-medical-services-inc/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:08:53.212571",
+  "ai_summary": "Medline is aggressively expanding its market share by securing numerous prime vendor agreements, increasingly including laboratory products and point-of-care lab solutions. This strategic move positions Medline as a significant competitor in the lab supply space, consolidating purchasing for healthcare systems. Lab supply sales teams must recognize Medline's growing influence and adapt their strategies to compete or collaborate effectively."
+}

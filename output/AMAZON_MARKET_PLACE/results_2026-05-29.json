@@ -1,0 +1,97 @@
+{
+  "account": "AMAZON MARKET PLACE",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011M00002TunG9QAJ",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Snowflake announced a multi-year strategic collaboration agreement with Amazon Web Services (AWS), committing $6 billion over five years for Graviton compute and AI infrastructure to accelerate enterprise agentic AI adoption.",
+        "partner": "Snowflake",
+        "deal_type": "Strategic Collaboration Agreement / Infrastructure Commitment",
+        "deal_value": "$6 billion",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This significant investment in AI compute capacity and data integration signals expanded demand for advanced computing infrastructure, custom chips, and related lab supplies for AI development and deployment.",
+        "source_url": "https://www.snowflake.com/news/press-releases/2026/05/27/snowflake-expands-aws-collaboration-with-6b-commitment-to-accelerate-enterprise-agentic-ai-adoption/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Amazon has confirmed it will be the first tenant in the new Scannell Westgate Industrial Center, a $100 million mega-warehouse project under construction in west Fresno, California. The facility will provide over 800,000 square feet of modern industrial space and create new jobs.",
+        "project_name": "Scannell Westgate Industrial Center (Fresno Warehouse)",
+        "scope": "New fulfillment and distribution center infrastructure, over 800,000 square feet.",
+        "timeline": "Under construction, Amazon confirmed as first tenant.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "The establishment of a new mega-warehouse facility indicates increased demand for various lab supplies, reagents, consumables, and scientific equipment for quality control, inventory management, and operational maintenance within the expanded logistics network.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzYs_nQeCf-FOV-7OxTQl3Iy89-rm_Me8q_jxyvmds3z18y3dw6ZW1oUW63B904BXum3lkKzTvCKz6Gzx1MPPENJD8FI8w2O6NxFkCS3_ZigOeDM_71AhiQSUCbKiyV9rDuYVQ9FvOuYx7buPXN-rcj0Cow-_isVirfMq1_thzsO6qtQz1X3PZ8rvRTg8b92DQHGAY31kz"
+      },
+      {
+        "summary": "Amazon's Q1 2026 earnings report indicated approximately $1 billion in year-over-year Q2 cost increases tied to Project Kuiper's Leo satellite manufacturing ahead of its commercial launch. The company also reported $43.2 billion in capital expenditure in Q1 alone.",
+        "project_name": "Project Kuiper (Leo Satellite Manufacturing)",
+        "scope": "Satellite manufacturing for the Project Kuiper broadband constellation, with a Q2 cost increase of approximately $1 billion.",
+        "timeline": "Q2 2026 cost increases, commercial launch anticipated.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The significant investment in satellite manufacturing for Project Kuiper suggests a substantial demand for specialized lab supplies, reagents, consumables, and scientific equipment for R&D, production, and quality assurance in aerospace and materials science.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhx6yQhBO1D8PWQ-LqEmnXaUTE8LxMofoJuEAupxxGz_Zo04h5hNEz8wYx0nGhazys57326At8M8YM0LxAWtgLnhLcu7ICNcuJYUjAJSTHfyIX9eMGMvJTY3BriEBvbG7e6zkLja262qgDyndOg1ABXPWnlj0NK4SGnjI3vhT0_UbzraQIxePGvytD9vpk1kkP3Lm9h_OlJL6LOQTXISLQde-xyZFghAdt_hYUNoTokl4SRU="
+      },
+      {
+        "summary": "Amazon's Q1 2026 results highlighted a $59.3 billion year-over-year increase in purchases of property and equipment, primarily reflecting investments in artificial intelligence. The company also announced plans to deploy over one million NVIDIA GPUs starting in 2026.",
+        "project_name": "AI Infrastructure and GPU Deployment",
+        "scope": "Significant investment in AI infrastructure, including property, equipment, and the deployment of over one million NVIDIA GPUs.",
+        "timeline": "Q1 2026 investments, GPU deployment starting in 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Large-scale investments in AI infrastructure and GPU deployment will drive demand for advanced scientific equipment, cooling systems, and specialized consumables for data centers, research labs, and high-performance computing environments.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhx6yQhBO1D8PWQ-LqEmnXaUTE8LxMofoJuEAupxxGz_Zo04h5hNEz8wYx0nGhazys57326At8M8YM0LxAWtgLnhLcu7ICNcuJYUjAJSTHfyIX9eMGMvJTY3BriEBvbG7e6zkLja262qgDyndOg1ABXPWnlj0NK4SGnjI3vhT0_UbzraQIxePGvytD9vpk1kkP3Lm9h_OlJL6LOQTXISLQde-xyZFghAdt_hYUNoTokl4SRU="
+      }
+    ],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Amazon aims to position Vietnam as a manufacturing hub for selected devices serving global exports, including components for its Project Kuiper (now Amazon Leo) satellite internet service.",
+        "facility_or_line": "Device manufacturing facilities in Vietnam, specifically for selected devices and potentially satellite components.",
+        "change_type": "New product lines being manufactured, shift in production capacity (establishing a new hub).",
+        "location": "Vietnam (Hanoi, Ho Chi Minh City mentioned for Amazon Kuiper Vietnam Co. Ltd. in 2025).",
+        "investment_value": null,
+        "event_date": "2026-05-23",
+        "why_it_matters": "The establishment of new device manufacturing facilities and production lines for high-tech devices like satellites will create demand for quality control testing, material analysis, and potentially R&D, requiring various lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://theinvestor.vn/from-satellite-internet-to-device-manufacturing-amazon-expands-ambitions-in-vietnam-d19146.html"
+      },
+      {
+        "summary": "Amazon is investing hundreds of millions of dollars in Florida's Space Coast to develop Amazon Leo, with satellites built and tested at a production facility in Washington state and then shipped to Kennedy Space Center for processing.",
+        "facility_or_line": "Production facility in Washington state (for satellite building and testing), and satellite processing facility at Kennedy Space Center, Florida.",
+        "change_type": "New product lines being manufactured (satellites), expansion of production capacity (for satellite processing and storage).",
+        "location": "Washington state (production facility), Cape Canaveral, Florida (Kennedy Space Center for processing).",
+        "investment_value": "Hundreds of millions of dollars (specifically over $400 million across Florida's Space Coast).",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The manufacturing, testing, and processing of advanced satellites require specialized lab equipment, reagents for material analysis, and consumables for quality control and R&D, indicating a demand for scientific supplies.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZtlSid4SqDUYe9qxDNAaEB0pEk7tEB2LHpVzfz07nxJb5qCKmV-zV0cf5NIldG89JB4JXp84p4RgMfD9luqMq1XENxMaaYevu0ToE7CFaNUQEjpUYuLNfqJDQzGQphnp2JZV3hps6RFE8KO-q0VSD3IeoRGmzIy77U6nt_HYfZPMI_OdsFdnAkiSSu79NrrDXgbc"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Amazon is temporarily closing its logistics warehouse in Homestead, Florida, for conversion into a fulfillment center, impacting 616 employees.",
+        "facility_or_programme": "Amazon Logistics Warehouse (TMB8), Homestead, Florida",
+        "closure_type": "Temporary closure for renovation/conversion",
+        "effective_date": "2026-07-02",
+        "reason": "Conversion of the existing facility into a full-scale fulfillment center to handle the entire order process and better fit business needs.",
+        "event_date": "2026-04-20",
+        "why_it_matters": "This temporary closure and conversion could lead to a short-term decrease in demand for routine lab supplies and consumables at this specific facility, but the long-term reopening as a fulfillment center might present new opportunities for scientific equipment related to automation and logistics optimization.",
+        "source_url": "https://www.newsweek.com/amazon-lose-warehouse-mass-layoffs-homestead-florida-11853404"
+      },
+      {
+        "summary": "Amazon's fulfillment center in Port St. Lucie, Florida, will temporarily close for two years for upgrades and a rebuild, affecting 850 employees.",
+        "facility_or_programme": "Amazon Fulfillment Center, Port St. Lucie, Florida",
+        "closure_type": "Temporary closure for rebuild/upgrades",
+        "effective_date": "2026-09-17",
+        "reason": "Planned $200 million transformation project to build a new, modernized fulfillment center at the existing site.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The two-year closure for a rebuild indicates a temporary cessation of demand from this facility, but the significant investment and modernization could lead to future opportunities for advanced scientific equipment and lab supplies once the new facility is operational.",
+        "source_url": "https://treasurecoast.com/amazon-port-st-lucie-fulfillment-center-closes-september-2026-for-two-year-rebuild/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T19:26:13.172756",
+  "ai_summary": "Amazon is heavily investing in AI infrastructure, satellite manufacturing for Project Leo, and expanding its industrial logistics with new mega-warehouses and facility upgrades. This indicates significant growth in R&D, advanced manufacturing, and quality control operations across diverse locations. Lab supply sales teams should target these expanding needs in materials testing, electronics, cleanroom, and industrial process labs."
+}

@@ -1,0 +1,118 @@
+{
+  "account": "NEW YORK UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BoYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "NYU Langone Health has been awarded a nearly $70 million, seven-year renewal grant from the National Institutes of Health (NIH) to fund its Clinical and Translational Science Institute (CTSI).",
+        "recipient": "NYU Langone Health",
+        "department_or_lab": "Clinical and Translational Science Institute (CTSI)",
+        "amount": "$70 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant NIH renewal grant indicates a long-term commitment to translational research at NYU Langone, suggesting sustained demand for a wide range of lab supplies, reagents, and equipment to support accelerated medical discoveries and clinical trials.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-secures-nearly-70-million-nih-grant-accelerate-scientific-discovery"
+      },
+      {
+        "summary": "Ten graduate students from NYU Tandon School of Engineering have been named 2026 National Science Foundation (NSF) Graduate Research Fellows.",
+        "recipient": "Ten graduate students (individual fellowships)",
+        "department_or_lab": "NYU Tandon School of Engineering",
+        "amount": "$53,000 per fellow per year (stipend + cost of education allowance)",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The awarding of NSF Graduate Research Fellowships to ten NYU Tandon students signals increased research activity in various STEM fields, driving demand for specialized equipment, reagents, and consumables to support their individual research projects.",
+        "source_url": "https://engineering.nyu.edu/news/ten-nyu-tandon-students-named-2026-nsf-graduate-research-fellows"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Samuel Waxman Institute for Aging & Cancer has opened its 2026 Request for Proposals, offering up to $500,000 for research projects focused on aging and cancer, with Letters of Intent due by June 15, 2026.",
+        "contract_name": "Samuel Waxman Institute for Aging & Cancer 2026 Request for Proposals",
+        "estimated_value": "Up to $500,000 per award",
+        "deadline_or_expiration": "June 15, 2026 (Letters of Intent)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This RFP presents an opportunity for Thomas Scientific to supply lab equipment, reagents, and consumables to NYU researchers who may secure funding for projects related to aging and cancer.",
+        "source_url": "https://themarkfoundation.org/aging-and-cancer-grants-2026-rfp/"
+      },
+      {
+        "summary": "New York University (NYU) and IBM have launched a new postdoctoral program for quantum computer science research, focusing on quantum chemistry, computer science, engineering, materials science, physics, and optimization.",
+        "contract_name": "NYU-IBM Quantum Research Postdoc Program",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new quantum research program at NYU will likely generate significant demand for specialized scientific equipment, reagents, and consumables for quantum chemistry, materials science, and physics research.",
+        "source_url": "https://www.meritalkslg.com/articles/nyu-ibm-launch-quantum-research-postdoc-program/"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "NYU Langone Health has received a nearly $70 million, seven-year renewal grant from the National Institutes of Health (NIH) to continue funding its Clinical and Translational Science Institute (CTSI). This award is the highest level of funding available nationally under NIH's Clinical and Translational Science Awards (CTSA) Program.",
+        "project_name": "Clinical and Translational Science Institute (CTSI) NIH Renewal Grant",
+        "scope": "The grant will expand work over the next seven years through five priorities: deepening community-engaged research, broadening access to health informatics tools, training the full spectrum of the research workforce, forging regional and national collaborations, and accelerating clinical trial start-up and completion. The CTSI provides scientists and clinicians with biostatistics support, large-scale patient data infrastructure, clinical trial networks, and career development programs.",
+        "timeline": "Seven years",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant, multi-year funding for clinical and translational science at NYU Langone Health indicates a sustained demand for a wide array of lab supplies, reagents, consumables, and scientific equipment to support expanded research activities and clinical trials.",
+        "source_url": "https://www.news-medical.net/news/20260504/NIH-grant-fuels-NYU-Langone-efforts-to-accelerate-medical-research-discoveries.aspx"
+      },
+      {
+        "summary": "NYU Shanghai researchers are invited to collaborate in the 2026 MOST National Key R&D Plan \"Inter-governmental International Science & Technology Innovation Cooperation\" Joint R&D Project (Round Two). This initiative aims to support 176 research projects with a total funding of approximately 41 million RMB (over $5.7 million USD) across various scientific and technological fields, with a funding period of three years.",
+        "project_name": "2026 MOST National Key R&D Plan \"Inter-governmental International Science & Technology Innovation Cooperation\" Joint R&D Project",
+        "scope": "The project involves 16 research directions allowing collaboration with 12 countries, focusing on areas such as health and bio-medical, environmental science, biotechnology, information and communication technology, renewable energy, medical and health sciences, aerospace, climate change, high-performance computing and artificial intelligence, and agriculture, fisheries, and food.",
+        "timeline": "3 years",
+        "event_date": "2026-05-04",
+        "why_it_matters": "NYU Shanghai's participation in this multi-million dollar, multi-year international research program across diverse scientific fields will drive demand for specialized lab equipment, reagents, and consumables in biotechnology, environmental science, and medical research.",
+        "source_url": "https://www.news-medical.net/news/20260504/NIH-grant-fuels-NYU-Langone-efforts-to-accelerate-medical-research-discoveries.aspx"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "NYU Langone's Perlmutter Cancer Center presented over 20 research findings at the 2026 ASCO Annual Meeting, including a phase 3 trial showing pembrolizumab reduced metastasis in rare Merkel cell carcinoma, a national study on lung cancer screening disparities, and a new prognostic model for metastatic castration-resistant prostate cancer.",
+        "researcher_name": "Researchers from Perlmutter Cancer Center",
+        "department_or_lab": "Perlmutter Cancer Center, NYU Langone Health",
+        "award_or_discovery": "Multiple breakthrough cancer studies presented at the 2026 ASCO Annual Meeting",
+        "significance": "These presentations highlight advancements in personalized cancer care, including immunotherapy timing, prognostic modeling, and CAR T-cell therapies, underscoring the need for equitable access to screening and treatment and the potential for circadian biology to influence treatment outcomes.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "High-impact research in cancer therapies, especially CAR T-cell and immunotherapy, indicates demand for specialized reagents, cell culture media, and analytical equipment for oncology research and clinical trials.",
+        "source_url": "https://briefglance.com/companies/nyu-langone-health/pulses/31032"
+      },
+      {
+        "summary": "Dr. Michelle Krogsgaard and her team at NYU Langone Health's Perlmutter Cancer Center have made key discoveries about how T cells recognize specific cancer cells by their telltale antigens and how to improve immunotherapy treatments, including engineering T cells to eliminate leukemia in mice and identifying a unique cancer antigen created by a genetic mutation.",
+        "researcher_name": "Michelle Krogsgaard, PhD",
+        "department_or_lab": "Perlmutter Cancer Center, NYU Langone Health",
+        "award_or_discovery": "Key discoveries in T-cell recognition of cancer antigens and improving immunotherapy treatments",
+        "significance": "These discoveries aim to provide deep molecular insights into how T-cell therapies work to develop better, safer, and potentially tailored treatments for cancer patients.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "Research into T-cell therapies and cancer antigens indicates a need for advanced cell culture systems, flow cytometry reagents, protein analysis tools, and specialized microscopy for immunology and oncology research.",
+        "source_url": "https://nyulangone.org/news/pinpointing-new-cancer-targets-immune-systems-strike-force"
+      },
+      {
+        "summary": "Dr. Lee Zhao, a urologist and reconstructive surgeon at NYU Langone Health, has pioneered a novel single-port, robot-assisted, retroperitoneal, right-sided donor nephrectomy technique, which has been successfully performed on 10 kidney donors with rapid recoveries.",
+        "researcher_name": "Lee Zhao, MD",
+        "department_or_lab": "Urology and reconstructive surgery, NYU Langone Health",
+        "award_or_discovery": "Pioneering a novel single-port, robot-assisted, retroperitoneal, right-sided donor nephrectomy technique",
+        "significance": "This breakthrough technique promises to expand the number of living kidney donors by making right-sided kidney donations more feasible and reproducible, addressing the critical shortage of transplantable kidneys.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Advancements in robot-assisted surgery and organ transplantation signal demand for specialized surgical instruments, imaging consumables, tissue culture media for organ viability studies, and post-operative monitoring supplies.",
+        "source_url": "https://nyulangone.org/news/novel-surgical-technique-promises-expand-number-living-kidney-donors"
+      },
+      {
+        "summary": "Mia Petljak, PhD, and her collaborators at NYU Grossman School of Medicine are investigating whether microplastics leave detectable mutational signatures in the DNA of tumor tissue from patients with early-onset colorectal cancer, a work featured in the institution's \"Behind the Breakthrough\" series.",
+        "researcher_name": "Mia Petljak, PhD; Mark Pochapin MD; Rabia de Latour, MD; Bashar Safar, MD; Leonardo Trasande, MD, MPP; Vittorio Albergamo, PhD",
+        "department_or_lab": "Department of Pathology at NYU Grossman School of Medicine and Perlmutter Cancer Center",
+        "award_or_discovery": "Research investigating microplastics' potential to leave detectable mutational signatures in DNA of early-onset colorectal cancer",
+        "significance": "If confirmed, these genomic traces could become tools for understanding cancer risk and how chronic exposure to synthetic chemicals contributes to a broader range of human diseases, ultimately aiming for personalized cancer prevention.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Research into microplastics' impact on DNA and cancer development suggests demand for DNA sequencing services, genomic analysis tools, environmental toxicology reagents, and advanced microscopy for cellular and tissue analysis.",
+        "source_url": "https://oncodaily.com/voices/nyu-grossman-school-of-medicine-509812"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:44:35.238764+00:00",
+  "ai_summary": "NYU is experiencing significant growth in research funding, including a $70M NIH grant for its CTSI and new quantum computing and international projects. Breakthroughs in cancer, immunology, and microplastics research highlight diverse, high-impact work across Langone, Tandon, and Grossman. This surge in funded, cutting-edge research signals a substantial and varied demand for lab supplies and equipment."
+}

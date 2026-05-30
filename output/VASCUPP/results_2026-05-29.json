@@ -1,0 +1,170 @@
+{
+  "account": "VASCUPP",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DTYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Virginia Tech was awarded nearly $3 million in grants from the U.S. Department of Health and Human Services for research in cardiovascular disease ($927,818), cancer treatment ($360,632), and biomedical research and training ($390,069), among other efforts.",
+        "recipient": "Virginia Tech",
+        "department_or_lab": "Various research efforts including cardiovascular disease, cancer treatment, biomedical research and training, drug use and addiction programs, and child health and human development.",
+        "amount": "$2,999,999 (approximate total from various grants mentioned)",
+        "agency": "U.S. Department of Health and Human Services (HHS)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "These grants indicate a broad range of active research areas at Virginia Tech that will require a variety of lab supplies, reagents, and consumables.",
+        "source_url": "https://cardinalnews.org/2026/04/30/the-pulse-primary-care-practice-set-to-open-in-martinsville-maternal-health-grants-awarded-virginia-tech-gets-research-funding/"
+      },
+      {
+        "summary": "Virginia Tech received a $112,256 grant from the U.S. Department of Health and Human Services (HHS) for research related to allergies and infectious diseases, specifically from the National Institute of Allergy and Infectious Diseases (NIH).",
+        "recipient": "Virginia Tech",
+        "department_or_lab": "Allergy and Infectious Disease Research",
+        "amount": "$112,256",
+        "agency": "National Institutes of Health (NIH) via HHS",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This funding signals demand for immunology-related reagents, cell culture supplies, and diagnostic kits for infectious disease research.",
+        "source_url": "https://www.quiverquant.com/news/Press+Release%3A+Morgan+Griffith+Announces+%24112%2C256+HHS+Grant+to+Virginia+Tech+for+Research"
+      },
+      {
+        "summary": "Mary Elizabeth Baugh, a research scientist with Virginia Tech's Fralin Biomedical Research Institute at VTC, was awarded a four-year National Institutes of Health (NIH) Mentored Research Scientist Development Award to study how metabolic health influences brain systems related to eating behaviors.",
+        "recipient": "Mary Elizabeth Baugh",
+        "department_or_lab": "Fralin Biomedical Research Institute at VTC",
+        "amount": "Undisclosed (four-year award)",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "Research into metabolism, brain systems, obesity, and insulin resistance will require specialized biochemical reagents, imaging equipment, and animal model supplies.",
+        "source_url": "https://www.eurekalert.org/news-releases/1126788"
+      },
+      {
+        "summary": "Virginia Tech was awarded an $883,097 grant from the U.S. Department of Health and Human Services (HHS) to support research focused on drug use and addiction risk among adolescents.",
+        "recipient": "Virginia Tech",
+        "department_or_lab": "Research on drug use and addiction risk",
+        "amount": "$883,097",
+        "agency": "U.S. Department of Health and Human Services (HHS)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This grant indicates a need for research chemicals, analytical equipment, and potentially behavioral research tools for studying addiction.",
+        "source_url": "https://www.quiverquant.com/news/Press+Release%3A+Morgan+Griffith+Announces+%24883%2C097+HHS+Grant+Awarded+to+Virginia+Tech"
+      },
+      {
+        "summary": "Virginia Tech received a $56,345 grant from the U.S. Department of Health and Human Services (HHS) to support research conducted by veterinary students as part of their training.",
+        "recipient": "Virginia Tech",
+        "department_or_lab": "Veterinary Research",
+        "amount": "$56,345",
+        "agency": "U.S. Department of Health and Human Services (HHS)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Funding for veterinary research suggests demand for animal care supplies, veterinary specific reagents, and laboratory equipment for biological studies.",
+        "source_url": "https://www.quiverquant.com/news/Press+Release%3A+Morgan+Griffith+Announces+HHS+Grant+for+Virginia+Tech+Veterinary+Research"
+      },
+      {
+        "summary": "Virginia Tech researchers, including Thomas (forest resources and environmental conservation) and Carey (aquatic ecology), were awarded a $1 million National Science Foundation (NSF) grant to extend forecasting capabilities beyond water bodies into surrounding landscapes, integrating terrestrial processes with aquatic models.",
+        "recipient": "Thomas and Carey (Virginia Tech researchers)",
+        "department_or_lab": "Forest Resources and Environmental Conservation / Aquatic Ecology",
+        "amount": "$1,000,000",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This grant suggests a need for environmental monitoring equipment, water quality testing kits, and potentially GIS software and related hardware.",
+        "source_url": "https://news.vt.edu/content/dam/news_vt_edu/magazine/pdfs/SpringMagCombinedSingles_v6_web.pdf"
+      },
+      {
+        "summary": "Assistant Professor Ali Anwar from the Department of Computer Science & Engineering at Virginia Polytechnic Institute and State University (Virginia Tech) is a partner on a three-year, $1.1 million grant from the National Science Foundation (NSF) for privacy preservation systems in federated learning, with the University of Minnesota as the lead institution.",
+        "recipient": "Ali Anwar",
+        "department_or_lab": "Department of Computer Science & Engineering",
+        "amount": "$1,100,000 (total grant, Virginia Tech is a partner)",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-28",
+        "why_it_matters": "Research in privacy preservation systems and federated learning may require high-performance computing hardware, specialized software, and data storage solutions.",
+        "source_url": "https://cse.umn.edu/cs/news/ali-anwar-leads-3-year-11m-nsf-grant-privacy-preservation-systems"
+      },
+      {
+        "summary": "Ningshi Yao, Assistant Professor of Electrical and Computer Engineering at George Mason University, received a $628,260 National Science Foundation (NSF) CAREER Award for research on a unified event-triggered real-time scheduling and control co-design framework for networked safety-critical control systems.",
+        "recipient": "Ningshi Yao",
+        "department_or_lab": "Electrical and Computer Engineering, College of Engineering and Computing (CEC)",
+        "amount": "$628,260",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This award indicates a need for advanced computing hardware, sensors, and control system components for research in autonomous systems and robotics.",
+        "source_url": "https://www.eurekalert.org/news-releases/1127871"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "Construction and hiring continue at the $350 million Paul and Diane Manning Institute of Biotechnology at the University of Virginia, which will advance research for cellular and gene therapies and other medical treatments.",
+        "project_name": "Paul and Diane Manning Institute of Biotechnology",
+        "location": "University of Virginia, Charlottesville, Albemarle County, Virginia",
+        "value": "$350 million",
+        "timeline": "Expected completion in late 2027.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This new biotechnology institute will require a wide range of lab supplies, reagents, and scientific equipment for its advanced research in cellular and gene therapies, nanotechnology, and immunotherapy.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrq74nno4pGLO5-J0aRVENIe_ySR8znD6ApgOPBIiozSLU9xjuMGr7cW5Docl7UPrCc0aExk6uQKvbJk_wYwkJ6MoAQwT8dN-0b-pi-pOSnL5y87jnuTDgKuqaXQRnqr9wCvg8aP8A6zYeIKOjkBYbCE0mnXQSnXBDYDlrGkWGf91-c6zvnI3YRDsmuRPwZMr5oy3VZFBBzDHeFOur"
+      },
+      {
+        "summary": "VCU Health broke ground on a new $90 million medical facility in Richmond's Diamond District.",
+        "project_name": "New Medical Facility (VCU Health)",
+        "location": "Richmond, Virginia (Diamond District)",
+        "value": "$90 million",
+        "timeline": "Groundbreaking occurred prior to May 4, 2026.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "A new medical facility associated with VCU Health will require significant quantities of medical and laboratory consumables, diagnostic equipment, and reagents for patient care, research, and diagnostics.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4dwo_lFozogEVNnDUMa3oOxjWMj59EuEvy37XgYHhwESqlHOt1dnrPtT0tQVTCLFTbDEx9PA1mW0ZrJ8JD1JIbuI4FXqD-40sQAXHKSVfmOQenvkKbpLLxu41C3kNqX9ILt7HFmnNspuZI6dmdha3"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "The Virginia Higher Education Procurement Consortium (VHEPC) and The Virginia Association of State College and University Purchasing Professionals (VASCUPP) are seeking proposals for scientific and research services, including contract research, laboratory services, analytical testing, validation, engineering, technical services, calibration, maintenance, repair, research support, and scientific consulting, to modernize and streamline research-related contract coverage for public institutions of higher education. This open enrollment RFP aims to establish competitively awarded, category-based contracts to support diverse research needs.",
+        "contract_name": "Open Enrollment RFP#214584033AZ-R&D Sourcing: Scientific & Research Services",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-01",
+        "event_date": "2026-04-17",
+        "why_it_matters": "This is a direct opportunity for Thomas Scientific to provide a wide range of lab supplies, reagents, consumables, and scientific equipment related to contract research, analytical testing, and calibration services to VASCUPP member institutions.",
+        "source_url": "https://govtribe.com/opportunity/state-local-contract-opportunity/open-enrollment-rfp214584033az-rd-sourcing-scientific-research-services-rfp118380"
+      },
+      {
+        "summary": "The Virginia Higher Education Procurement Consortium (VHEPC) and The Virginia Association of State College and University Purchasing Professionals (VASCUPP) are issuing an Open Enrollment Request for Proposal to establish a vendor pool for research and development sourcing in pharmaceutical, biochemical, and advanced life sciences products and services. This includes pharmaceutical compounds, biochemical reagents and kits, biologics and advanced life science materials, genomics, proteomics, cell biology products, and specialized emerging research products such as drug discovery libraries and synthetic biology tools.",
+        "contract_name": "Open Enrollment RFP#214602275AZ-R&D Sourcing: Pharmaceutical, Biochemical & Advanced Life Sciences",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-01",
+        "event_date": "2026-04-17",
+        "why_it_matters": "This RFP presents a significant opportunity for Thomas Scientific to supply specialized reagents, kits, and consumables for pharmaceutical, biochemical, and advanced life science research to VASCUPP member institutions.",
+        "source_url": "https://www.highergov.com/sl/contract-opportunity/va-open-enrollment-rfp-214584033az-r-d-sour-67815470/"
+      }
+    ],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Virginia Commonwealth University (VCU), on behalf of the Virginia Higher Education Procurement Consortium (VHEPC) and The Virginia Association of State College and University Purchasing Professionals (VASCUPP), is issuing an open enrollment Request for Proposal (RFP #214584033AZ) to establish a competitively awarded pool of qualified firms to provide scientific and research services across five primary categories to public institutions of higher education.",
+        "project_name": "Open Enrollment RFP#214584033AZ-R&D Sourcing: Scientific & Research Services",
+        "scope": "The services include contract research and laboratory services (preclinical, translational, and clinical research support; study design and protocol development; bioanalytical and pharmacokinetic services; toxicology and pathology services; and regulatory reporting support); analytical, testing, and validation services (chemical, biological, and materials testing; assay development; environmental and safety testing; quality control and quality assurance testing; and method development); engineering and technical services (biomedical, mechanical, electrical, and chemical engineering support; instrumentation design and optimization; process development; and facility consulting); calibration, maintenance, and repair services (equipment calibration, preventative maintenance, validation, and standards compliance); and research support and scientific consulting (subject matter expertise, data science, biostatistics, computational modeling, regulatory consulting, grant support, and project management). These services are for diverse research needs across multiple institutions.",
+        "timeline": "The initial term of the contract is expected to be two (2) years with options for up to four (4) additional two-year renewals.",
+        "event_date": "2026-04-17",
+        "why_it_matters": "This multi-year, multi-institution initiative to establish contracts for a broad range of scientific and research services indicates a sustained and significant demand for various lab supplies, reagents, consumables, and scientific equipment across Virginia's higher education research landscape.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzZmXWEAhrQNS-It-M14z3bB7VvqEq6m10dfxXnJBRVJraHkPfNeHsOmRBq87JhWgJCPxbkJtf9pilK8PYIUKIysQ-EUWz9FXlGYrn_fYiQoODYrZTYyA5HdPMHP5YynLXvN3J4FmHqKTEboqs1tRoXxEVvAjCobogfV8tBhnTiDl6xxOso-oV7FYr15aY8k7H0IvVi47r_jBAoHyXhSucejU"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Dr. Fabien Wagner, a researcher at the Vascular Brain Health Institute (VBHI) and the Institute of Neurodegenerative Diseases (IMN) at Bordeaux Neurocampus, was awarded the prestigious CNRS Bronze Medal for his pioneering work in neurotechnology, focusing on neuromodulation to restore altered motor and cognitive functions.",
+        "researcher_name": "Dr Fabien Wagner",
+        "department_or_lab": "Vascular Brain Health Institute (VBHI) / Institute of Neurodegenerative Diseases (IMN), Bordeaux Neurocampus",
+        "award_or_discovery": "CNRS Bronze Medal",
+        "significance": "The CNRS Bronze Medal is a major government honor in France, recognizing promising young researchers for their initial work, which marks them as specialists in their field. His research on neurotechnology and neuromodulation holds significant potential for treating neurological disorders.",
+        "event_date": "2026-04-17",
+        "why_it_matters": "This award signals high-impact research in neurotechnology and neuromodulation at VBHI, likely leading to increased demand for specialized lab equipment, reagents, and consumables for advanced neuroscience and technology development.",
+        "source_url": "https://www.insb.cnrs.fr/fr/cnrsinfo/fabien-wagner-de-la-moelle-epiniere-aux-reseaux-de-la-memoire"
+      },
+      {
+        "summary": "Dr. Laurent Groc, a researcher affiliated with the Vascular Brain Health Institute (VBHI) and CNRS/University of Bordeaux, was named a laureate of the 2026 Precision Mind Award for his project AUTOSCREEN, which aims to identify biological signatures of patients whose psychosis has an immune origin, enabling the development of targeted immunological therapies.",
+        "researcher_name": "Dr Laurent Groc",
+        "department_or_lab": "Vascular Brain Health Institute (VBHI) / CNRS / University of Bordeaux (IINS)",
+        "award_or_discovery": "2026 Precision Mind Award for project AUTOSCREEN",
+        "significance": "This award recognizes collaborative research projects focused on the identification and validation of biomarkers for mental illnesses, specifically addressing the promising hypothesis that some psychoses are caused by immune system dysfunction.",
+        "event_date": "2026-04-14",
+        "why_it_matters": "This award highlights cutting-edge research in neuroimmunology and diagnostics, signaling a demand for specialized reagents, immunoassay kits, and advanced imaging or analytical equipment for studying autoimmune conditions affecting the brain and developing new therapies.",
+        "source_url": "https://www.bordeaux-neurocampus.fr/en/laurent-groc-laureate-of-the-precision-mind-prize/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:09:36.866236",
+  "ai_summary": "VASCUPP institutions, especially Virginia Tech, are securing significant grants for diverse research, from biomedical to environmental studies, indicating increased lab activity. VASCUPP is also actively issuing RFPs to establish vendor pools for scientific services and advanced life science products. This creates a prime opportunity for lab supply sales teams, as members are expanding research capabilities and streamlining procurement for essential lab materials."
+}

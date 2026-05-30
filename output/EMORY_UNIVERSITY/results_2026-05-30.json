@@ -1,0 +1,118 @@
+{
+  "account": "EMORY UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1cTYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Emory University received $1,318,470 from the NIH IMPROVE Initiative for research focused on reducing maternal and child health disparities through point-of-care STI testing in underserved populations (MATCH-POINT).",
+        "recipient": "Emory University",
+        "department_or_lab": "Not explicitly stated, but related to maternal and child health, and point-of-care testing.",
+        "amount": "$1,318,470",
+        "agency": "National Institutes of Health (NIH) IMPROVE Initiative",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This grant for maternal and child health research, particularly involving point-of-care STI testing, suggests a need for diagnostic kits, reagents, and related lab equipment.",
+        "source_url": "https://blackmaternalhealthcaucus.house.gov/news/press-releases/over-40-million-awarded-through-nih-improve-initiative-fy25-support-research-reduce-preventable-maternal-death-secured-bmhc"
+      },
+      {
+        "summary": "Hari Trivedi, MD, an associate professor at Emory University, received NIH grants for a study on AI-assessed mammograms to determine cardiovascular risk in women.",
+        "recipient": "Hari Trivedi, MD",
+        "department_or_lab": "Department of Radiology and Imaging Sciences and the Department of Biomedical Informatics at Emory University School of Medicine",
+        "amount": "NIH Award Number R01HL167811, NIH Award Number R01HL174650-01, NIH Agreement No. 1OT2OD032581",
+        "agency": "National Institutes of Health (NIH), National Heart, Lung and Blood Institute (NHLBI)",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Research involving AI-assessed mammograms for cardiovascular risk suggests demand for advanced imaging consumables, data analysis tools, and potentially reagents for related biomarker studies.",
+        "source_url": "https://news.emory.edu/stories/2026/05/ai_mammograms_cardiovascular_risk/index.html"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Emory University announced nearly 70 new University Research Committee (URC) awards to faculty, doubling the annual funding for the program to $2 million.",
+        "contract_name": "University Research Committee (URC) Awards",
+        "estimated_value": "$2,000,000 (annual program funding)",
+        "deadline_or_expiration": "N/A",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The funding of new research projects across various disciplines at Emory University will generate increased demand for a wide range of lab supplies, reagents, and consumables.",
+        "source_url": "https://news.emory.edu/stories/2026/05/urc-awards-research-funding/index.html"
+      },
+      {
+        "summary": "The Centers for Disease Control and Prevention (CDC) intends to issue a sole source firm fixed price purchase order to Emory University for the development and validation of novel ARV detection methods, requiring the collection of fresh, matched biological specimens.",
+        "contract_name": "Sole Source Award for Novel ARV Detection Methods Development (CDC)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-02",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This project indicates an immediate need for lab consumables for biological specimen collection, processing, and potentially specialized \"research use only (RUO) assays\" at Emory University.",
+        "source_url": "https://highergov.com/opportunity/75D30126R73456-notice-of-intent-to-issue-a-sole-source-award-to-support-development-and-validation-of-novel-arv-detection-methods/"
+      },
+      {
+        "summary": "Emory's Office of Sustainability Initiatives announced the \"Break Free from Plastic Incentives Fund,\" offering grants up to $5,000 for projects that reduce the use of single-use plastics in labs and offices, with applications accepted until May 15, 2026.",
+        "contract_name": "Break Free from Plastic Incentives Fund",
+        "estimated_value": "Up to $5,000 per project",
+        "deadline_or_expiration": "2026-05-15",
+        "event_date": "2026-04-14",
+        "why_it_matters": "This fund directly signals Emory University's interest in procuring sustainable and non-plastic lab consumables and equipment, creating an opportunity for suppliers of such products.",
+        "source_url": "https://sustainability.emory.edu/news/meet-the-2025-26-sustainability-incentives-fund-awardees"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Emory University Hospital has opened a 10-bed airborne isolation research unit, the first in the U.S. specifically dedicated to studying human-to-human transmission of respiratory pathogens. The unit will conduct tightly controlled studies on how viruses move indoors and test interventions like masking, ventilation, and filtration.",
+        "location": "Emory University Hospital, Atlanta, Georgia",
+        "type_of_expansion": "New dedicated research facility",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "This new research unit will require a steady supply of specialized lab consumables, reagents, and potentially new scientific equipment for airborne pathogen studies and isolation protocols.",
+        "source_url": "https://hoodline.com/2026/05/emory-s-new-airborne-virus-ward-puts-atlanta-on-the-front-lines/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Emory University is doubling its annual funding for the University Research Committee (URC) program to $2 million, supporting nearly 70 new faculty research projects across various departments.",
+        "project_name": "University Research Committee (URC) Grant Program Expansion",
+        "scope": "Funding for approximately 70 new faculty research projects across all academic departments of Emory University, emphasizing innovative discoveries.",
+        "timeline": "Annual funding of $2 million, beginning in 2026.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This significant increase in funding for a broad range of research projects will directly lead to increased demand for diverse lab supplies, reagents, consumables, and scientific equipment across numerous scientific disciplines at Emory University.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_urc_overview_01-05-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Emory physicists Justin Burton and Ilya Nemenman, along with former PhD students Wentao Yu and Eslam Abdelaleem, received the Cozzarelli Prize for Mathematical and Physical Sciences from PNAS for their work using machine learning to discover new physics in dusty plasma.",
+        "researcher_name": "Justin Burton, Ilya Nemenman, Wentao Yu, Eslam Abdelaleem",
+        "department_or_lab": "Department of Physics",
+        "award_or_discovery": "Cozzarelli Prize for discovery of new physics in dusty plasma using machine learning",
+        "significance": "The research, published in PNAS, represents one of the few instances of AI being used to discover new physical laws, challenging long-held assumptions about non-reciprocal forces in many-body systems.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This award for a breakthrough in physics research using AI indicates high-level experimental and theoretical work, likely requiring specialized equipment and consumables for plasma studies and advanced computational resources.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_cozzarelli_prize/story.html"
+      },
+      {
+        "summary": "Dennis Liotta, Raymond Schinazi, and Woo-Baeg Choi were honored with Emory's President's Medal for their collaborative development of key HIV antiretroviral medications, emtricitabine (FTC) and lamivudine (3TC), which transformed HIV treatment and saved millions of lives.",
+        "researcher_name": "Dennis Liotta, Raymond Schinazi, Woo-Baeg Choi",
+        "department_or_lab": "Samuel Candler Dobbs Professor of Chemistry (Liotta), Frances Winship Walters Professor of Pediatrics (Schinazi), FOB Synthesis (Choi)",
+        "award_or_discovery": "Emory's President's Medal for the development of HIV antiretroviral medications (emtricitabine and lamivudine)",
+        "significance": "Their discoveries led to medications that have been taken by over 90% of people with HIV in the U.S. and millions worldwide, reshaping global public health.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This recognition of groundbreaking drug discovery signals ongoing high-impact pharmaceutical research, potentially driving demand for advanced chemical reagents, analytical equipment, and cell culture consumables.",
+        "source_url": "https://news.emory.edu/stories/2026/05/er_commencement_presidents_medal_07-05-2026/story.html?utm_source=together.emory.edu&utm_medium=referral&utm_campaign=Advancement%253Aand%253AAlumni%253AEngagement"
+      },
+      {
+        "summary": "Emory Healthcare performed the first U.S. patient case in the ARISE III clinical trial, utilizing an investigational Gore Ascending Stent Graft for acute type A aortic dissection, a minimally invasive procedure offering a new treatment option for high-risk patients.",
+        "researcher_name": "Brad Leshnower, MD, Yazan Duwayri, MD, Jonathan Zurcher, MD",
+        "department_or_lab": "Thoracic Aortic Surgery, Emory Healthcare; Department of Surgery, Emory University School of Medicine",
+        "award_or_discovery": "First patient in U.S. receives new treatment (investigational Gore Ascending Stent Graft) for acute type A aortic dissection in the ARISE III clinical trial",
+        "significance": "This minimally invasive procedure is considered a 'game changer' for high-risk patients, offering an alternative to open-heart surgery with the potential to reduce morbidity and mortality.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The initiation of a first-in-U.S. clinical trial for a novel medical device indicates significant activity in surgical innovation and clinical research, requiring specialized surgical instruments, imaging consumables, and patient monitoring supplies.",
+        "source_url": "https://www.emoryhealthcare.org/newsroom/2026/01/first-patient-in-us-receives-new-treatment-for-life-threatening-heart-condition-at-emory-healthcare"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:25:02.579964+00:00",
+  "ai_summary": "Emory University is experiencing significant research expansion, evidenced by new NIH and CDC grants, doubled internal funding for nearly 70 projects, and the opening of a specialized airborne isolation unit. This surge in activity across infectious disease, AI, and clinical trials creates substantial demand for diverse lab supplies. Additionally, a new \"Break Free from Plastic\" initiative presents opportunities for sustainable product solutions."
+}

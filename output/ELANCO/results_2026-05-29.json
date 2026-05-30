@@ -1,0 +1,93 @@
+{
+  "account": "ELANCO",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1YNYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Elanco Animal Health announced the phased launch of Befrena\u2122 (tirnovetmab), a new anti-IL-31 monoclonal antibody (mAb) injection for the treatment of canine allergic and atopic dermatitis.",
+        "product_or_program": "Befrena\u2122 (tirnovetmab)",
+        "stage": "Product Launch",
+        "therapeutic_or_application_area": "Canine allergic and atopic dermatitis",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This new product launch indicates immediate demand for related lab supplies, reagents, and consumables for veterinary clinics and research supporting its use and potential future development.",
+        "source_url": "https://www.prnewswire.com/news-releases/elanco-launches-befrena-tirnovetmab-new-anti-il-31-monoclonal-antibody-a-breakthrough-addition-to-the-1-3-billion-us-canine-dermatology-market-302774316.html"
+      },
+      {
+        "summary": "Elanco Animal Health has finalized its acquisition of AHV International, a Dutch innovator in farm animal health, expanding Elanco's presence in the global dairy market with products supporting transition cow health and productivity.",
+        "product_or_program": "AHV International's portfolio (e.g., StopLac, Quorum Sensing Technology)",
+        "stage": "Acquisition",
+        "therapeutic_or_application_area": "Farm animal health, dairy market, transition cow health, sustainability, animal welfare, reducing antibiotic use",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This acquisition expands Elanco's product portfolio and R&D capabilities in farm animal health, suggesting increased demand for research and development supplies, as well as manufacturing and distribution support for the newly acquired products.",
+        "source_url": "https://www.feedstrategy.com/business-markets/mergers-acquisitions/news/15825298/elanco-finalizes-acquisition-of-ahv-international"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Elanco Animal Health announced the phased launch of Befrena (tirnovetmab), a new anti-IL-31 monoclonal antibody injection for the treatment of canine allergic and atopic dermatitis in the U.S. The treatment provides 6 to 8 weeks of itch relief and starts controlling symptoms within 24 hours of administration. Befrena was approved by the U.S. Department of Agriculture in December 2025.",
+        "project_name": "Befrena (tirnovetmab) Launch",
+        "scope": "Commercial launch of a new monoclonal antibody injection for canine allergic and atopic dermatitis treatment in the U.S. This product is a result of Elanco's clinical development platform in animal health.",
+        "timeline": "Phased launch initiated in May 2026; USDA approval received in December 2025.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The introduction of a new monoclonal antibody treatment for canine dermatitis will increase demand for veterinary consumables such as syringes, needles, and potentially diagnostic reagents for allergy assessment in veterinary clinics.",
+        "source_url": "https://ng.investing.com/news/stock-market-news/elanco-launches-canine-dermatitis-treatment-befrena-in-us-93CH-2515918"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "Elanco Animal Health Incorporated received Emergency Use Authorization (EUA) from the U.S. Food and Drug Administration (FDA) for Negasunt Powder (coumaphos, propoxur, sulfanilamide topical powder) for the prevention and treatment of New World screwworm infestations in a variety of livestock species.",
+        "product_or_site": "Negasunt Powder",
+        "regulatory_action": "Emergency Use Authorization (EUA)",
+        "outcome": "Authorized for emergency use",
+        "event_date": "2026-04-27",
+        "why_it_matters": "This authorization creates immediate demand for Negasunt Powder and potentially related diagnostic and remediation supplies for New World screwworm infestations in livestock.",
+        "source_url": "https://www.elanco.com/us/newsroom/press-releases/negasunt-and-tanidil-for-new-world-screwworm"
+      }
+    ],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Elanco Animal Health completed the acquisition of AHV International, a Dutch innovator in farm animal health, to expand its presence in the global dairy market with new health and nutritional solutions.",
+        "acquirer": "Elanco Animal Health Incorporated",
+        "target": "AHV International B.V.",
+        "deal_value": null,
+        "deal_status": "Closed",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This acquisition expands Elanco's portfolio in dairy animal health, which will likely lead to new procurement needs for lab supplies, reagents, consumables, and scientific equipment as AHV's technologies are integrated and scaled globally.",
+        "source_url": "https://www.elanco.com/us/newsroom/press-releases/elanco-animal-health-reports-first-quarter-2026-results"
+      }
+    ],
+    "spinoff": [],
+    "closure": [
+      {
+        "summary": "Elanco's 2025 Restructuring Plan includes the expected 2026 closure of the animal studies portion of its R&D facilities in Monheim, Germany, with $15 million in non-cash shut-down costs recorded in Q1 2026.",
+        "facility_or_programme": "Animal studies portion of R&D facilities in Monheim, Germany",
+        "closure_type": "R&D site shutdown",
+        "effective_date": null,
+        "reason": "Part of the 2025 Restructuring Plan to support margin expansion, optimize global footprint, and invest in innovation.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This closure presents a churn risk for existing lab supply contracts and an opportunity for Thomas Scientific to engage with the expanding Indianapolis R&D operations.",
+        "source_url": "https://www.elanco.com/us/newsroom/press-releases/elanco-animal-health-reports-first-quarter-2026-results"
+      },
+      {
+        "summary": "Elanco's 2025 Restructuring Plan also includes the expected 2026 closure of its manufacturing facility in Kansas City, Kansas, related to exiting certain farm animal implant products.",
+        "facility_or_programme": "Manufacturing facility in Kansas City, Kansas",
+        "closure_type": "Manufacturing facility decommissioning",
+        "effective_date": null,
+        "reason": "Part of the 2025 Restructuring Plan, specifically related to exiting certain farm animal implant products.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This manufacturing facility closure indicates a potential loss of demand for production-related consumables and equipment, creating a churn risk for Thomas Scientific.",
+        "source_url": "https://www.elanco.com/us/newsroom/press-releases/elanco-animal-health-reports-first-quarter-2026-results"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T08:25:23.454005",
+  "ai_summary": "Elanco is expanding its animal health portfolio with new product launches, including Befrena for canine dermatitis and Negasunt for livestock, plus acquiring AHV International for dairy. Despite some facility closures, this signals a strong innovation drive. Lab supply sales teams should target their R&D, quality control, and manufacturing operations to support these growing product lines."
+}

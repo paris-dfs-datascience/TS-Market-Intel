@@ -1,0 +1,135 @@
+{
+  "account": "AMAZON",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1bKYAS",
+  "signals": {
+    "capital": [
+      {
+        "summary": "Amazon Manufacturing Services (AMS) is seeking a Sr. Real Estate Developer to lead the end-to-end construction execution of a new manufacturing facility in Indiana, managing capital project budgets of $50 million or greater with a target completion by December 31, 2026.",
+        "project_name": "New Manufacturing Facility (Indiana)",
+        "location": "Indiana, USA",
+        "value": "$50 million or greater",
+        "timeline": "Target completion by December 31, 2026",
+        "event_date": "2026-05-29",
+        "why_it_matters": "A new manufacturing facility will require a range of lab supplies, reagents, and scientific equipment for quality control, process development, and potential R&D activities.",
+        "source_url": "https://www.amazon.jobs/de/jobs/10430463/sr-real-estate-developer"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Amazon One Medical opened its third primary care office in Englewood, New Jersey, in partnership with Hackensack Meridian Health, offering comprehensive care including drop-in lab services.",
+        "location": "Englewood, New Jersey, USA",
+        "type_of_expansion": "New dedicated facility (primary care office with lab services)",
+        "investment_value": null,
+        "event_date": "2026-04-30",
+        "why_it_matters": "This new primary care office with integrated lab services will generate demand for various lab consumables, diagnostic reagents, and potentially new point-of-care testing equipment.",
+        "source_url": "https://www.hackensackmeridianhealth.org/en/news/2026/04/30/hmh-and-amazon-one-medical-opens-its-third-primary-care-office-in-nj"
+      },
+      {
+        "summary": "Amazon opened its first \"Think Big Space\" in Indiana, a STEM education lab at New Prairie High School in New Carlisle, providing hands-on technology and resources for robotics, coding, media production, and 3D design to 3,000 students.",
+        "location": "New Prairie High School, New Carlisle, Indiana, USA",
+        "type_of_expansion": "New dedicated facility (STEM education lab)",
+        "investment_value": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This new STEM education lab will require a variety of educational scientific supplies, robotics kits, 3D printing materials, and other consumables for hands-on learning and experimentation.",
+        "source_url": "https://www.hackensackmeridianhealth.org/en/news/2026/04/30/hmh-and-amazon-one-medical-opens-its-third-primary-care-office-in-nj"
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "Amazon expanded its compute deal with Anthropic by $100 billion for 5GW of compute capacity.",
+        "partner": "Anthropic",
+        "deal_type": "Extended partnership for new production infrastructure",
+        "deal_value": "$100 billion",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This massive investment in AI compute capacity signals significant demand for advanced semiconductor manufacturing, specialized cooling systems, and potentially new materials for data center infrastructure, driving demand for related lab supplies and equipment for R&D and testing.",
+        "source_url": "https://www.wheresyoured.at/ai-is-too-expensive/"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "Imperagen Ltd, a Manchester-based techbio innovator accelerating industrial enzyme engineering, successfully finalized a \u00a35 million (6.7 million USD) seed funding round.",
+        "amount": "$6.7 million USD",
+        "funding_type": "Seed Funding Round",
+        "use_of_proceeds": "Expand automated wet-lab infrastructure, scale data science engineering group, and drive market commercialization.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "The expansion of automated wet-lab infrastructure directly indicates upcoming demand for lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://quantumcomputingreport.com/2026/05/29/manchester-techbio-spin-out-imperagen-raises-5-million-6-7-million-usd-seed-round-to-scale-closed-loop-quantum-biocatalysis-platform/"
+      },
+      {
+        "summary": "Mafer AI, a Barcelona-based startup building an AI operating system for R&D teams in formulation industries, closed a \u20ac2 million pre-Seed funding round.",
+        "amount": "\u20ac2 million",
+        "funding_type": "Pre-Seed Funding Round",
+        "use_of_proceeds": "Expand the technical team by hiring additional founding engineers and strengthening both the Forward Deployed Engineering and research functions, and gained access to NVIDIA H100 infrastructure and the MareNostrum V supercomputer.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "Strengthening research functions and access to supercomputing infrastructure for R&D teams in formulation industries suggests potential demand for specialized software, data analysis tools, and potentially lab equipment for validating formulations.",
+        "source_url": "https://bebeez.it/en/2026/05/29/barcelonas-mafer-ai-raises-e2-million-to-build-an-ai-operating-system-for-rd-teams-in-formulation-industries/"
+      },
+      {
+        "summary": "Closed Loop Partners announced a $5 million catalytic loan to Supersede, an engineered building materials company, to scale production of high-performance structural materials.",
+        "amount": "$5 million",
+        "funding_type": "Catalytic Loan",
+        "use_of_proceeds": "Finance manufacturing equipment at the Arizona-based company's new facility in the Midwest to increase production capacity and geographic reach.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "Financing manufacturing equipment for a new facility indicates upcoming demand for industrial-scale lab equipment for quality control and material testing in the production of structural materials.",
+        "source_url": "https://www.closedlooppartners.com/news/closed-loop-partners-backs-supersedes-expansion-with-5-million-catalytic-loan-scaling-production-of-high-performance-structural-materials-for-manufacturing-and-construction/"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Amazon's Q1 2026 earnings report highlighted its ongoing plan to invest approximately $200 billion in capital expenditures for the year, primarily focused on data centers, AI infrastructure, robotics, semiconductors, and satellites. This investment includes over $44 billion already spent in Q1 2026.",
+        "project_name": "2026 Capital Expenditure for AI and Infrastructure",
+        "scope": "Global investment in data centers, AI infrastructure, robotics, semiconductors, and satellites.",
+        "timeline": "Ongoing throughout 2026, with over $44 billion already spent in Q1 2026.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This massive investment in AI and data center infrastructure will drive significant demand for advanced scientific equipment, specialized reagents for chip manufacturing, and various lab consumables for R&D and operational support.",
+        "source_url": "https://www.nasdaq.com/press-release/amazoncom-announces-first-quarter-results-2026-04-29"
+      },
+      {
+        "summary": "Amazon announced plans to invest more than \u20ac15 billion in France over three years (2026-2028) to build new logistics centers, enhance its existing network, and develop cloud and AI capabilities, creating over 7,000 permanent jobs.",
+        "project_name": "France Investment for Logistics, Cloud, and AI Expansion",
+        "scope": "Construction of new logistics centers, investment in existing network, and development of cloud and AI capabilities across France. Creation of over 7,000 permanent jobs.",
+        "timeline": "2026-2028, with job creation beginning in 2026 with the opening of three distribution centers, and another in late 2027.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The development of new logistics centers and AI capabilities will increase demand for automation equipment, specialized materials for facility construction, and potentially lab supplies for quality control and R&D related to logistics optimization.",
+        "source_url": "https://www.aboutamazon.com/news/company-news/amazon-france-15-billion-investment"
+      }
+    ],
+    "hiring": [],
+    "production": [],
+    "closure": [
+      {
+        "summary": "Amazon is temporarily closing its logistics warehouse in Homestead, Florida, for conversion into a full-scale fulfillment center, impacting approximately 616 employees. The facility is expected to reopen in mid-to-late 2028 after renovations.",
+        "facility_or_programme": "Amazon Logistics Warehouse, Homestead, Florida",
+        "closure_type": "Temporary facility closure for renovation/conversion",
+        "effective_date": "2026-07-02",
+        "reason": "Conversion of the existing logistics warehouse into a full-scale fulfillment center to better fit business needs and improve the experience for employees, customers, partners, and drivers.",
+        "event_date": "2026-04-20",
+        "why_it_matters": "The temporary closure and renovation of this large logistics facility may create a short-term churn risk for existing lab supply contracts, but the eventual reopening as a fulfillment center could present new opportunities for equipment and consumables for the upgraded facility.",
+        "source_url": "https://www.cbsnews.com/miami/news/amazon-homestead-facility-closing-conversion-fulfillment-center-workers-transfer-miami-dade/"
+      },
+      {
+        "summary": "Amazon's fulfillment center in Port St. Lucie, Florida, will temporarily close for two years for upgrades and a rebuild, affecting approximately 850 employees. The facility is expected to reopen in mid-to-late 2028.",
+        "facility_or_programme": "Amazon Fulfillment Center, Port St. Lucie, Florida",
+        "closure_type": "Temporary facility closure for rebuild/upgrades",
+        "effective_date": "2026-09-17",
+        "reason": "Planned $200 million transformation project to build a new, modernized fulfillment center at the existing site.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The temporary closure and significant investment in upgrading this fulfillment center indicate a potential for new equipment and supply needs upon its reopening, creating a future sales opportunity for Thomas Scientific.",
+        "source_url": "https://treasurecoast.com/amazon-port-st-lucie-fulfillment-center-closes-september-2026-for-two-year-rebuild/"
+      },
+      {
+        "summary": "Amazon is closing several Amazon Fresh stores and implementing corporate layoffs across Washington, California, New York, and Maryland, with layoffs taking effect April 28, 2026. For example, five Amazon Fresh stores in Maryland are closing, resulting in 742 layoffs.",
+        "facility_or_programme": "Multiple Amazon Fresh stores and corporate offices across Washington, California, New York, and Maryland",
+        "closure_type": "Store closures and corporate office reductions",
+        "effective_date": "2026-04-28",
+        "reason": "Pandemic-era overhiring, AI integrations, recent economic shifts, and a strategic focus on Whole Foods, with some Amazon Fresh stores converting to Whole Foods.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Closures of Amazon Fresh stores and corporate layoffs may indicate a shift in Amazon's retail and operational strategies, potentially impacting demand for certain types of lab supplies if these facilities had associated quality control or R&D labs.",
+        "source_url": "https://www.techrepublic.com/article/news-amazon-layoffs-fresh-ai-workforce-cuts/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T19:25:23.017313",
+  "ai_summary": "Amazon is significantly expanding, planning a new manufacturing facility in Indiana and opening One Medical primary care offices with drop-in lab services. They also launched a STEM education lab. These initiatives, alongside massive capital investments in AI, data centers, and semiconductors, signal numerous new facilities and R&D projects. Lab supply sales teams should proactively engage to provide equipment and consumables for these diverse new lab and healthcare operations."
+}

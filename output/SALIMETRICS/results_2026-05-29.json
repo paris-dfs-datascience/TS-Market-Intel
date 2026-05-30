@@ -1,0 +1,51 @@
+{
+  "account": "SALIMETRICS",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001G000001BPOBmIAP",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Salimetrics announced new initiatives to expand its CoreLab+ laboratory services, enabling research teams worldwide to access their logistics and analytical services for DRG and IBL salivary assays.",
+        "contract_name": "CoreLab+ Laboratory Service Expansion",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-04-28",
+        "why_it_matters": "This expansion indicates increased operational capacity and a broader range of supported assays at Salimetrics, potentially leading to increased demand for general lab supplies, reagents, and consumables from Thomas Scientific.",
+        "source_url": "https://salimetrics.com/news/"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [
+      {
+        "summary": "Salimetrics announced new initiatives to expand the services of its CoreLab+ laboratory, enabling support for DRG and IBL salivary assays for research teams globally.",
+        "location": "Carlsbad, CA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": null,
+        "event_date": "2026-04-28",
+        "why_it_matters": "This expansion indicates increased demand for salivary bioscience research and testing, leading to potential new procurement needs for lab supplies and reagents.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcmfQABXpiHHFffKju6nsDHjhyHAygxfrbrPdKBRa3qqyWe_4g3uZ50jpgW3qz4F679EMz03TtQuYXTyV6vRKCMeYusak-Bg8UKX0jWJOtnNVWFlV1tbd4TNZGIxIrQ4TyvXqIwow_9t167hmVxCAD8vtNLaNX-csmN-VLO0J9eMFeUebZWdyby23t-IhK_n45z3DP7voUzlsZjeS-wR6YC5ODCQsaa2txqr1jJ3sePX4="
+      }
+    ],
+    "partnership": [
+      {
+        "summary": "Salimetrics announced new initiatives to expand its CoreLab+ laboratory services to support DRG and IBL salivary assays, enabling research teams using these assays to access Salimetrics' logistics, analytical services, customer service, scientific advice, and consulting.",
+        "partner": "DRG and IBL (assay manufacturers)",
+        "deal_type": "Expanded Reference Lab Services",
+        "deal_value": "Not disclosed, but involves the expansion of Salimetrics' CoreLab+ to support DRG and IBL salivary assays.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This expansion signals new and expanded lab activity by increasing the range of assays Salimetrics' CoreLab+ can process, indicating a broader demand for specialized salivary biomarker testing services and associated lab supplies.",
+        "source_url": "https://www.einpresswire.com/article/908486537/salimetrics-corelab-new-initiatives-expanded-services-now-support-drg-and-ibl-salivary-assays"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "volume": [],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:35:07.998671",
+  "ai_summary": "Salimetrics is significantly expanding its CoreLab+ laboratory services to support DRG and IBL salivary assays for global research teams. This expansion signals increased demand for a wide range of lab supplies, reagents, and potentially new instrumentation to handle the expanded assay portfolio and higher sample volumes. A sales team should engage now to meet these growing needs."
+}

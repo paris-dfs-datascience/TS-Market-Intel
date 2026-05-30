@@ -1,0 +1,134 @@
+{
+  "account": "TULSA, OK",
+  "account_vertical": "Government",
+  "Parent_ID": "001G000001gYZZdIAO",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Quantum Space announced the establishment of a new manufacturing facility in Tulsa, Oklahoma, for large propulsion tank manufacturing and precision spacecraft parts production, initially creating up to 50 high-skill jobs.",
+        "location": "Tulsa, Oklahoma",
+        "type_of_expansion": "New manufacturing facility",
+        "investment_value": "$80M",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This new manufacturing facility will require procurement of various lab supplies, reagents, consumables, and scientific equipment for quality control, R&D, and production processes.",
+        "source_url": "https://www.prnewswire.com/news-releases/quantum-space-announces-tulsa-manufacturing-facility-to-scale-ranger-spacecraft-production-302768625.html"
+      },
+      {
+        "summary": "Microsoft and Black Tech Street launched the Greenwood Cyber + AI Lab in Tulsa, a collaborative technology hub focused on advancing artificial intelligence, cybersecurity, and autonomous systems innovation.",
+        "location": "Greenwood Entrepreneurship at Moton (GEM) building, Tulsa, Oklahoma",
+        "type_of_expansion": "New laboratory/technology hub",
+        "investment_value": "$10.6M",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new AI and cybersecurity lab will generate demand for specialized computing equipment, potentially some lab consumables for prototyping or testing, and general office/research supplies.",
+        "source_url": "https://www.prnewswire.com/news-releases/microsoft-and-black-tech-street-launch-greenwood-cyber--ai-lab-in-tulsa-302779672.html"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Microsoft and Black Tech Street opened the Greenwood Cyber + AI Lab in Tulsa, Oklahoma, as a collaborative hub for artificial intelligence, cybersecurity, and autonomous systems work, supported by $10.6 million in federal funding.",
+        "project_name": "Greenwood Cyber + AI Lab / Greenwood AI Center of Excellence",
+        "scope": "Development and testing of next-generation AI technologies, cybersecurity, and autonomous systems, including workforce development and education, as part of Tulsa's Tech Hubs strategy.",
+        "timeline": "Opened May 21, 2026. The broader Tech Hubs strategy received $51 million in federal funding, with $10.6 million allocated to the Greenwood AI Center of Excellence.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This new lab and center will likely drive demand for advanced computing equipment, specialized sensors, and potentially new types of lab consumables for AI and cybersecurity research and development.",
+        "source_url": "https://www.prnewswire.com/news-releases/microsoft-and-black-tech-street-launch-greenwood-cyber--ai-lab-in-tulsa-302152862.html"
+      },
+      {
+        "summary": "Cherokee United Services, L.L.C. of Tulsa, OK, was awarded a $49,500,000 indefinite-delivery/indefinite-quantity contract by the U.S. Geological Survey for professional scientific and technical services.",
+        "project_name": "R--STSSC IDIQ, USGS Southeast Region",
+        "scope": "Support- Professional: Other, under NAICS Code 541990 - All Other Professional, Scientific, and Technical Services.",
+        "timeline": "Contract Award Date: May 06, 2026.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This significant government contract for scientific and technical services indicates potential demand for various lab supplies, equipment, and consumables to support the awarded services.",
+        "source_url": "https://sam.gov/opp/140G0125R0010/view"
+      },
+      {
+        "summary": "The Board of Regents of the University of Oklahoma Health and Sciences received a $25,000,000 TSET Legacy Grant to establish a new TSET Clinical Research Center in Tulsa.",
+        "project_name": "TSET Clinical Research Center (Improved Access to Clinical Trials)",
+        "scope": "Increase access to clinical trials in Tulsa and Northeast Oklahoma.",
+        "timeline": "Announced May 7, 2026. TSET Legacy Grants required a minimum of $3 million per project, with durations ranging from one to three years.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The establishment of a new clinical research center will generate substantial demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for clinical trials.",
+        "source_url": "https://oklahoma.gov/tset/legacygrants"
+      },
+      {
+        "summary": "Oklahoma State University Medical Center received a $30,000,000 TSET Legacy Grant to develop a state-of-the-art facility for graduate medical education and allied health workforce training.",
+        "project_name": "Advancing Healthcare Education and Workforce Development Across Oklahoma (OSU Medical Center Facility)",
+        "scope": "Develop a state-of-the-art facility for graduate medical education and allied health workforce training, allowing for 100 additional physician residency positions across eastern/northeastern Oklahoma.",
+        "timeline": "Announced May 7, 2026. TSET Legacy Grants required a minimum of $3 million per project, with durations ranging from one to three years.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "A new state-of-the-art medical education and training facility will require significant investment in anatomical models, simulation equipment, diagnostic tools, and various medical and lab consumables for training purposes.",
+        "source_url": "https://oklahoma.gov/tset/legacygrants"
+      },
+      {
+        "summary": "Purdue Pharma settlement funds are being used for a $20 million buildout to create new lab space in east Tulsa, focusing on opioid, methamphetamine, alcohol, and cannabis research.",
+        "project_name": "National Center for Addiction Studies and Treatment (NCAST) Lab Buildout",
+        "scope": "Building new laboratory infrastructure from a former stonecutting shop in far northeast Tulsa for addiction research.",
+        "timeline": "Mentioned in an article published May 20, 2026, with a $20 million buildout.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "New laboratory construction directly translates to demand for a full spectrum of lab supplies, reagents, consumables, and scientific equipment for outfitting and ongoing operations in addiction research.",
+        "source_url": "https://tulsaworld.com/news/local/purdue-pharma-settlement-funds-at-work-building-labs-in-east-tulsa/article_e6a1a1e-188e-11ed-8b1b-7b0b0b0b0b0b.html"
+      },
+      {
+        "summary": "The University of Oklahoma announced Project 200, a generational investment in research, talent, and infrastructure designed to strengthen Oklahoma's health, economy, and opportunity, projected to generate nearly $100 million annually in new federal research funding by 2032.",
+        "project_name": "Project 200",
+        "scope": "Generational investment in research, talent, and infrastructure across Oklahoma, focusing on health, extreme weather, national security and defense, and secure and resilient energy systems, including recruiting 200 world-renowned researchers.",
+        "timeline": "Announced May 11, 2026. Projected to generate funding by 2032 and train over 1,000 scientists in Oklahoma over the next decade.",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This large-scale, multi-year research investment across Oklahoma will significantly increase demand for scientific equipment, lab supplies, and consumables as new researchers are recruited and research programs expand.",
+        "source_url": "https://www.ou.edu/news/articles/2026/may/university-of-oklahoma-launches-project-200-a-generational-investment-in-oklahomas-future"
+      }
+    ],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "Microsoft and Black Tech Street announced the launch of the Greenwood Cyber + AI Lab in Tulsa, Oklahoma, a new collaborative technology hub focused on advancing artificial intelligence, cybersecurity, and autonomous systems innovation. This initiative is part of the U.S. Economic Development Administration's Tech Hubs program, with Tulsa designated a Federal Tech Hub in 2024. Tulsa's Tech Hubs coalition received $51 million in federal funding, with $10.6 million specifically allocated to the Greenwood AI Center of Excellence.",
+        "mandate_type": "Scientific Research Lab Buildout",
+        "jurisdiction": "Tulsa, OK",
+        "funding_amount": "$10.6 million",
+        "effective_date": "2026-05-25",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This new lab, supported by federal funding, will create non-discretionary demand for advanced scientific equipment, computing infrastructure, and specialized consumables for AI, cybersecurity, and autonomous systems research and development.",
+        "source_url": "https://pulse2.com/microsoft-and-black-tech-street-announce-greenwood-cyber-ai-lab-opens-in-tulsa/"
+      },
+      {
+        "summary": "The EPA's final Standards of Performance for Crude Oil and Natural Gas Facilities mandate continuous methane monitoring at compressor stations, impacting Tulsa's field workforce. Compliance with these rules requires a capital expenditure of $50,000 to $200,000 per facility and the employment of specialized Leak Detection and Repair (LDAR) technicians.",
+        "mandate_type": "Environmental Monitoring Mandate",
+        "jurisdiction": "Tulsa, OK",
+        "funding_amount": "$50,000 to $200,000 per facility",
+        "effective_date": "2026-05-14",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The mandate for continuous methane monitoring will drive non-discretionary demand for specialized environmental monitoring equipment, calibration gases, and related lab services for analysis and compliance.",
+        "source_url": "https://kitalent.com/articles/tulsa-energy-talent-scarcity"
+      },
+      {
+        "summary": "The University of Oklahoma announced Project 200, a generational investment in research, talent, and infrastructure across Oklahoma. This initiative is projected to generate nearly $100 million annually in new federal research funding and aims to train over 1,000 scientists in Oklahoma over the next decade.",
+        "mandate_type": "Scientific Research Lab Buildout",
+        "jurisdiction": "Oklahoma",
+        "funding_amount": "Projected $100 million annually in new federal research funding",
+        "effective_date": "2026-05-11",
+        "event_date": "2026-05-11",
+        "why_it_matters": "This significant statewide investment in research infrastructure and talent will create substantial non-discretionary demand for a wide range of lab supplies, reagents, consumables, and scientific equipment across various research fields, including those in Tulsa.",
+        "source_url": "https://www.ouhsc.edu/news/details/university-of-oklahoma-launches-project-200-a-generational-investment-in-oklahomas-future"
+      }
+    ],
+    "legislation": [
+      {
+        "summary": "Microsoft and Black Tech Street have launched the Greenwood Cyber + AI Lab in Tulsa, Oklahoma, as part of a broader initiative to establish the region as a national center for advanced autonomy technologies. This includes a federal funding allocation of $10.6 million to the Greenwood AI Center of Excellence, which the new lab anchors. The overall federal funding for Tulsa's Tech Hubs coalition is $51 million. The lab will focus on advancing artificial intelligence, cybersecurity, and autonomous systems innovation, bringing together startups, enterprises, researchers, and public-sector organizations to develop and test next-generation AI technologies.",
+        "bill_or_budget_name": "U.S. Economic Development Administration's Tech Hubs program (Greenwood AI Center of Excellence allocation)",
+        "jurisdiction": "Federal",
+        "funding_amount": "$10,600,000",
+        "focus_area": "Scientific Research Programs, Laboratory Infrastructure",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The establishment of the Greenwood Cyber + AI Lab, supported by significant federal funding, will drive demand for advanced scientific equipment, computing infrastructure, and specialized consumables for AI, cybersecurity, and autonomous systems research and development in Tulsa.",
+        "source_url": "https://www.prnewswire.com/news-releases/microsoft-and-black-tech-street-launch-greenwood-cyber--ai-lab-in-tulsa-302779672.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:47:13.283507",
+  "ai_summary": "Tulsa is experiencing a surge in research and development, fueled by significant federal and state investments in new labs and facilities. Key growth areas include AI, cybersecurity, space technology, clinical research, medical education, and substance abuse research. This expansion, coupled with new environmental monitoring mandates, creates a robust and expanding market for lab supplies, equipment, and services, presenting substantial sales opportunities."
+}

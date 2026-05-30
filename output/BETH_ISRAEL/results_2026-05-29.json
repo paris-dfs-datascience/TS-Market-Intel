@@ -1,0 +1,87 @@
+{
+  "account": "BETH ISRAEL",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nOkewYAC",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Beth Israel Lahey Health was recognized with a GHXcellence Award for \"Elevating the clinically integrated supply chain\" on May 13, 2026.",
+        "contract_name": "GHXcellence Award for Elevating the Clinically Integrated Supply Chain",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This award indicates Beth Israel Lahey Health's strategic focus on supply chain integration, suggesting potential for new or expanded GPO contracts and procurement opportunities for Thomas Scientific.",
+        "source_url": "https://www.beckershospitalreview.com/supply-chain/ghx-awards-health-systems-leaders-for-supply-chain-performance.html"
+      },
+      {
+        "summary": "Exeter Health Resources' merger with Beth Israel Lahey Health includes a planned $375 million capital investment over 10 years and a collaboration for a new standalone cancer hospital involving Beth Israel Deaconess Medical Center and Dana-Farber Cancer Institute.",
+        "contract_name": "Capital Investment and New Cancer Hospital Construction (part of Exeter Health Resources merger)",
+        "estimated_value": "$375 million (capital investment over 10 years)",
+        "deadline_or_expiration": "Over 10 years",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The significant capital investment and new cancer hospital construction indicate substantial upcoming demand for lab supplies, reagents, consumables, and scientific equipment for Beth Israel Deaconess Medical Center.",
+        "source_url": "https://www.seacoastonline.com/story/news/2026/04/30/exeter-hospital-patients-say-care-declined-after-merger-with-beth-israel-lahey-health/73523450007/"
+      },
+      {
+        "summary": "A project at 1 Joslin Place Hospital involves the demolition of the existing Joslin Diabetes Center Building and the construction of a new 14-story building with clinical support space for Beth Israel Deaconess Medical Center and an inpatient imaging department for Dana-Farber Cancer Institute.",
+        "contract_name": "1 Joslin Place Hospital Redevelopment Project",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-04-28",
+        "why_it_matters": "The construction of new clinical support space and an inpatient imaging department for Beth Israel Deaconess Medical Center signals future procurement needs for lab equipment and supplies.",
+        "source_url": "https://www.bostonplans.org/projects/development-projects/1-joslin-place-hospital"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Beth Israel Deaconess Medical Center's (BIDMC) Spatial Technologies Unit (STU), a Harvard Cancer Center Core Facility, has been designated as a G4X\u2122 Center of Excellence by Singular Genomics. This recognition highlights the STU's leadership in spatial tissue profiling and single-cell studies.",
+        "project_name": "Spatial Technologies Unit (STU) G4X\u2122 Center of Excellence Designation",
+        "scope": "The STU supports academic and industry investigators in spatial tissue profiling and single-cell studies, offering full-service spatial and single-cell capabilities, from tissue-to-data support and assay development to training and education. The designation acknowledges its excellence in G4X\u2122 platform operation, experimental design, and scientific rigor.",
+        "timeline": "The STU received $3.3 million through the MLSC's Research Infrastructure program in 2021, and the Center of Excellence designation was recent.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This designation indicates an increased focus and capacity for advanced spatial biology research, which will drive demand for specialized reagents, consumables, and cutting-edge spatial multiomics equipment.",
+        "source_url": "https://www.masslifesciences.com/mlsc-supported-bidmc-core-facility-named-a-g4x-center-of-excellence/"
+      },
+      {
+        "summary": "Beth Israel Deaconess Medical Center (BIDMC) and NeuroXT have expanded their partnership to advance AI-driven Alzheimer's medicine.",
+        "project_name": "Expanded Partnership for AI-driven Alzheimer's Medicine with NeuroXT",
+        "scope": "The expanded partnership focuses on advancing AI-driven Alzheimer's medicine, indicating a growing commitment to research and development in this neurological area.",
+        "timeline": "Not explicitly stated beyond 'expand partnership'.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This expanded collaboration in AI-driven Alzheimer's research will likely increase demand for specialized reagents, diagnostic tools, and advanced computing infrastructure for neurological studies.",
+        "source_url": "https://longevity.technology/news/insilico-and-human-longevity-eye-to-predict-disease-early-with-ai/"
+      }
+    ],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Beth Israel Lahey Health is seeking a Senior Project Manager for Supply Chain Value Analysis to lead initiatives optimizing clinical quality, patient outcomes, and total cost of care by managing the end-to-end intake, evaluation, and implementation of clinical products. This role involves driving standardization and evidence-based decision-making in partnership with clinicians, sourcing, finance, and operations, and collaborating with Strategic Sourcing and GPO for contract compliance and standardization.",
+        "tender_name": "Senior Project Manager \u2013 Supply Chain Value Analysis (Job Posting)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-18",
+        "why_it_matters": "This role directly influences product selection and standardization for clinical products, presenting an opportunity for Thomas Scientific to engage in product evaluations and secure future supply agreements for lab supplies, reagents, and consumables.",
+        "source_url": "https://jobs.bilh.org/jobs/senior-project-manager-supply-chain-value-analysis-charlestown-ma-jr96195/"
+      },
+      {
+        "summary": "Beth Israel Lahey Health is hiring a Senior Strategic Sourcing Specialist to negotiate optimal system-wide contracts for capital equipment and clinical and purchased services. This role focuses on consolidation and other initiatives to generate substantial savings for the health system, managing vendor relationships, and leading multidisciplinary teams for contract review, trials, and implementation.",
+        "tender_name": "Senior Strategic Sourcing Specialist (Job Posting)",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "This position is responsible for system-wide contract negotiations for capital equipment and clinical services, indicating direct opportunities for Thomas Scientific to bid on equipment and supply contracts.",
+        "source_url": "https://www.ziprecruiter.com/c/Beth-Israel-Lahey-Health/Job/Senior-Strategic-Sourcing-Specialist/-in-Charlestown,MA?jid=352b4a92262ffec8"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:42:37.058217",
+  "ai_summary": "Beth Israel is expanding with new facilities and capital investment, fueling advanced research in spatial biology and AI-driven medicine. Their supply chain is centralizing, prioritizing value, standardization, and cost savings. Lab supply teams must offer innovative solutions for new research, align with system-wide contracts, and demonstrate cost-effectiveness to secure business."
+}

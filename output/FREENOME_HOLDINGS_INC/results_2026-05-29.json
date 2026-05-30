@@ -1,0 +1,59 @@
+{
+  "account": "FREENOME HOLDINGS INC",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "0011M00002CgFLRQA3",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The American Cancer Society (ACS) has updated its colorectal cancer screening guidelines to include blood-based testing, specifically mentioning Freenome's SimpleScreen\u2122 CRC screening test as an option for individuals who decline or do not complete other recommended screening approaches.",
+        "product_or_program": "SimpleScreen\u2122 CRC Blood-Based Test",
+        "stage": "Guideline Inclusion",
+        "therapeutic_or_application_area": "Colorectal Cancer Screening",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Inclusion in ACS guidelines signals increased acceptance and potential for broader adoption of Freenome's blood-based colorectal cancer test, indicating upcoming demand for related lab supplies and reagents.",
+        "source_url": "https://www.prnewswire.com/news-releases/freenomes-simplescreen-crc-blood-based-test-included-in-updated-acs-colorectal-cancer-screening-guideline-302473653.html"
+      },
+      {
+        "summary": "Freenome Holdings, Inc. announced a proposed business combination with Perceptive Capital Solutions Corp (PCSC) to go public via a SPAC merger, which is expected to provide approximately $525M in pro forma cash to support commercial growth and continued pipeline and platform development, including anticipated LDT launches and IVD approvals for colorectal and lung cancer tests.",
+        "product_or_program": "Pipeline Development (SimpleScreen CRC v1/v2, Lung v1, Personalized Cancer Detection LDTs)",
+        "stage": "Company Merger & Pipeline Funding",
+        "therapeutic_or_application_area": "Colorectal Cancer, Lung Cancer, Personalized Cancer Detection",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This significant capital infusion and outlined pipeline development plans, including future LDT launches and IVD approvals, indicate a strong likelihood of increased R&D and commercial testing activities, driving demand for lab supplies and equipment.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0002017526/000119312526149999/ef20074243_form425.htm"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Freenome Holdings, Inc. announced a proposed business combination with Perceptive Capital Solutions Corp (PCSC) to go public via a SPAC merger, involving a $240M PIPE and an expected pro forma cash balance of ~$525M. The proceeds are intended for current and future product development, ongoing and new clinical studies, preparation for commercial launch, and expansion of commercial operations.",
+        "project_name": "SPAC Merger and Funding for Product Development and Commercial Expansion",
+        "scope": "~$525M in pro forma cash for current and future product development, ongoing and new clinical studies, preparation for commercial launch, and expansion of commercial operations.",
+        "timeline": "Transaction expected to close in 1H 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This significant capital infusion will drive increased demand for lab supplies, reagents, consumables, and scientific equipment to support expanded R&D, clinical trials, and commercial operations.",
+        "source_url": "https://www.marketbeat.com/stocks/NASDAQ/PCSC/sec-filings/"
+      },
+      {
+        "summary": "Abbott announced an agreement to commercialize a blood-based test from Freenome, pending FDA approval, designed for individuals who decline other screening methods.",
+        "project_name": "Commercialization Agreement with Abbott for Blood-Based Colorectal Cancer Screening Test",
+        "scope": "Abbott will commercialize Freenome's SimpleScreen\u2122 CRC blood-based test, leveraging Abbott's Nexus platform, to expand participation in noninvasive colorectal cancer screening.",
+        "timeline": "Pending FDA approval, expected mid-2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This agreement indicates a future large-scale diagnostic program that will require significant quantities of reagents, consumables, and potentially new equipment for manufacturing, processing, and distribution of the blood-based test.",
+        "source_url": "https://www.prnewswire.com/news-releases/freenomes-simplescreen-crc-blood-based-test-included-in-updated-acs-colorectal-cancer-screening-guideline-302783233.html"
+      }
+    ],
+    "regulatory": [],
+    "volume": [],
+    "competitive": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:27:12.280532",
+  "ai_summary": "Freenome is undergoing a SPAC merger, raising $525M to fund significant commercial growth and pipeline development for its colorectal and lung cancer tests. The ACS now includes their SimpleScreen\u2122 test in screening guidelines, and Abbott will commercialize a key test. This expansion signals increased demand for lab supplies, reagents, and equipment to support ongoing R&D, clinical studies, and scaling up commercial operations and manufacturing."
+}

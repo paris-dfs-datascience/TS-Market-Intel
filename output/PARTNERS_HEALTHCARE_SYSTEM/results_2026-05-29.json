@@ -1,0 +1,269 @@
+{
+  "account": "PARTNERS HEALTHCARE SYSTEM",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nOke0YAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "MGB Research Leadership invites proposals for the Rappaport MGH Grand Challenge Award, a philanthropic initiative supporting multidisciplinary teams to tackle medical challenges.",
+        "recipient": "Multidisciplinary teams of investigators at Mass General Brigham",
+        "department_or_lab": "MGB Research",
+        "amount": "$3,000,000",
+        "agency": "Phyllis & Jerome Lyle Rappaport Foundation (via MGB Research)",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This significant foundation award for multidisciplinary research indicates upcoming demand for a broad range of lab supplies, reagents, consumables, and scientific equipment across various research areas within MGB.",
+        "source_url": "https://mgbresearch.org/rappaport-mgh-grand-challenge-award/"
+      },
+      {
+        "summary": "Mass General Brigham researchers conducted a randomized controlled trial showing that a parental support package significantly reduces burnout in physician trainees.",
+        "recipient": "Physician trainees at Mass General Brigham and affiliated institutions",
+        "department_or_lab": "Well-Being, Surgical and Perioperative Services at Mass General Brigham",
+        "amount": "Undisclosed (multiple foundation awards)",
+        "agency": "New England Surgical Society Scholars Foundation, Massachusetts General Hospital Polsky Award, Mass General Brigham Graduate Medical Education Award",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This clinical trial, supported by multiple foundation awards, indicates ongoing research activities that may require consumables and supplies for participant monitoring and data collection.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/parental-support-package-reduced-burnout-in-physician-trainees"
+      },
+      {
+        "summary": "A Mass General Brigham research team, supported by NIH funding, conducted a validation study showing external control data can be used for future glioblastoma clinical trials.",
+        "recipient": "Mass General Brigham authors including Isabel Arrillaga-Romany, Tracy T. Batchelor, Wenya L. Bi, Omar Arnaout, Pier Paolo Peruzzi, Daphne Haas-Kogan, Shyam Tanguturi, Ayal Aizer, Sandro Santagata, David M. Meredith, E. Antonio Chiocca, Keith L. Ligon, and Patrick Y. Wen.",
+        "department_or_lab": "Not explicitly stated, but related to Glioblastoma research and clinical trials.",
+        "amount": "Undisclosed (NIH R01LM013352)",
+        "agency": "National Institutes of Health (R01LM013352)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This NIH-funded research on glioblastoma clinical trials suggests ongoing and future demand for specialized reagents, consumables, and equipment for oncology research and clinical trial support.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/articles/external-controls-promising-for-glioblastoma-clinical-trials"
+      },
+      {
+        "summary": "The Mass General Brigham-based, Harvard-wide \"Building Interdisciplinary Research Careers in Women's Health (BIRCWH)\" K12 Training Program, funded by NIH, is accepting applications for scholars to investigate the role of hormones and genes in sex differences in clinical disorders.",
+        "recipient": "BIRCWH Scholars at Mass General Brigham (MGB)",
+        "department_or_lab": "Division of Women's Health at Mass General Brigham",
+        "amount": "Up to $100,000 annually per scholar (plus research/career development costs)",
+        "agency": "National Institutes of Health (NIH) (K12 Training Program)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This NIH K12 training grant supports new research careers in women's health, indicating a sustained demand for lab supplies, equipment, and reagents for ongoing and new projects.",
+        "source_url": "https://mgbresearch.org/rappaport-mgh-grand-challenge-award/"
+      },
+      {
+        "summary": "The Curing Coma\u00ae Campaign, in collaboration with Spaulding Rehabilitation, invites applications for the Innovative Treatments in Disorders of Consciousness (ITDC) Grant Program to advance diagnosis, understanding, and treatment of disorders of consciousness.",
+        "recipient": "U.S.-based nonprofit organizations, including academic institutions, with at least one Mass General Brigham (MGB) collaborator.",
+        "department_or_lab": "Not specified for the recipient, but projects must include an MGB collaborator.",
+        "amount": "Up to $200,000 per year (max $400,000 total)",
+        "agency": "Curing Coma\u00ae Campaign, in collaboration with Spaulding Rehabilitation and Rehabilitation Outcomes Center at Spaulding (ROCS)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This grant program, requiring MGB collaboration, signals new research projects in neuroscience and rehabilitation, creating demand for specialized lab equipment, reagents, and consumables.",
+        "source_url": "https://www.neurocriticalcare.org/About-NCS/Partner-With-NCS/Research-Grants/ITDC-Grant"
+      },
+      {
+        "summary": "A multicenter randomized clinical trial conducted by Mass General Brigham researchers demonstrated that an emergency department intervention can improve advance care planning and goal-aligned end-of-life care.",
+        "recipient": "Mass General Brigham authors including Hacho Bohossian, Yuchiao Chang, Charlotta Lindvall, Michael K. Paasche-Orlow, Seth Randa, Upeka Samarakoon, Tadayuki Hashimoto, Nanako Shirai, Aretha D.",
+        "department_or_lab": "Not explicitly stated, but related to Emergency Department and patient care research.",
+        "amount": "Undisclosed (NIH R01AG065254)",
+        "agency": "National Institute on Aging (NIH) (R01AG065254)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This NIH-funded clinical trial indicates ongoing research in patient care and outcomes, potentially requiring consumables for data collection, analysis, and patient interaction.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/articles/emergency-department-intervention-boosts-advance-care-planning"
+      },
+      {
+        "summary": "Mass General Brigham researchers developed and validated a new genetic risk test to estimate inherited risk for eight common cardiovascular conditions, using NIH and AHA funding.",
+        "recipient": "Mass General Brigham Heart and Vascular Institute researchers and collaborators, including Anika Misra, Amanda Jowell, Sara Haidermota, Emma Perez, Lisa Mahanta, Kimberly J. O'Brien, Anna Nagy, Limin Hao, Buu Truong, Krishna Aragam, Akl C.",
+        "department_or_lab": "Mass General Brigham Heart and Vascular Institute",
+        "amount": "Undisclosed (multiple NIH and AHA grants)",
+        "agency": "US National Institutes of Health (NIH) (Polygenic Risk Methods in Diverse Populations (PRIMED) Consortium, National Heart, Lung, and Blood Institute), American Heart Association (AHA)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This NIH and AHA-funded genetic risk research in cardiovascular health suggests a demand for genomics-related lab supplies, reagents for genetic testing, and bioinformatics equipment.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/polygenic-risk-score-predicts-risk-of-cardiovascular-conditions"
+      },
+      {
+        "summary": "A research team co-led by Mass General Brigham developed and validated an AI model (ECG2Stroke) to predict stroke risk using a 10-second cardiology test, funded by NIH and AHA grants.",
+        "recipient": "Mass General Brigham Neuroscience Institute and the Broad Cardiovascular Disease Initiative researchers, including Rahul Mahajan, MD, PhD.",
+        "department_or_lab": "Mass General Brigham Neuroscience Institute, Broad Cardiovascular Disease Initiative",
+        "amount": "Undisclosed (multiple NIH, AHA, and foundation grants)",
+        "agency": "National Institutes of Health (NIH), American Heart Association (AHA), Fondation Leducq",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This NIH and AHA-funded AI research in cardiology and neuroscience indicates ongoing demand for computational resources, data analysis tools, and potentially specialized equipment for neurological and cardiovascular studies.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/ai-model-predicts-10-year-stroke-risk"
+      },
+      {
+        "summary": "The Mark Foundation for Cancer Research's Emerging Leader Awards support innovative, high-impact, high-risk cancer research projects from early career investigators worldwide.",
+        "recipient": "Outstanding early career investigators worldwide (MGB researchers are eligible)",
+        "department_or_lab": "Not specified, as it's an external award for individual investigators.",
+        "amount": "$1,000,000 (USD) distributed over four years ($250,000 USD per year)",
+        "agency": "The Mark Foundation for Cancer Research",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This significant foundation award for cancer research, open to MGB investigators, indicates potential for new high-impact projects requiring advanced lab equipment, reagents, and consumables.",
+        "source_url": "https://themarkfoundation.org/emerging-leader-award-2/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Mass General Brigham announced $2 million in Community Health Impact Funding awards to five community-based organizations to advance economic stability and mobility and expand access to mental and behavioral health services across Greater Boston.",
+        "product_or_program": "Community Health Impact Funding for Mental and Behavioral Health Services Expansion",
+        "stage": "Program Expansion/Community Initiative",
+        "therapeutic_or_application_area": "Mental and Behavioral Health, Economic Stability and Mobility",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Increased funding and focus on behavioral health services may lead to demand for diagnostic tools, therapy supplies, and potentially new research initiatives in mental health.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/mass-general-brigham-announces-2-million-in-community-health-impact-funding-awards"
+      },
+      {
+        "summary": "Researchers at Mass General Brigham Heart and Vascular Institute developed and validated a new genetic risk test, a Polygenic Risk Score (PRS), that can estimate a person's inherited risk for eight common cardiovascular conditions.",
+        "product_or_program": "Polygenic Risk Score (PRS) for Cardiovascular Conditions",
+        "stage": "Validation Study / New Diagnostic Tool",
+        "therapeutic_or_application_area": "Cardiovascular Diseases, Genetic Risk Assessment",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The introduction of a new genetic risk test indicates potential demand for genetic sequencing reagents, bioinformatics tools, and related lab consumables for cardiovascular diagnostics.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/polygenic-risk-score-predicts-risk-of-cardiovascular-conditions"
+      },
+      {
+        "summary": "Mass General Brigham secured $865.5 million in bond financing for its new two-tower Ragon building, a patient care complex projected to cost nearly $2 billion, which will house 482 patient beds dedicated to cancer care and heart and vascular services.",
+        "product_or_program": "Ragon Building (New Patient Care Complex)",
+        "stage": "Facility Expansion / Construction",
+        "therapeutic_or_application_area": "Cancer Care, Heart and Vascular Services",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The construction of a new patient care complex for cancer and heart/vascular services signifies substantial future demand for a wide range of scientific equipment, lab supplies, and consumables for these specialized areas.",
+        "source_url": "https://www.newenglandcouncil.com/news-article/mass-general-brigham-secures-865-5-million-for-new-patient-care-complex/"
+      },
+      {
+        "summary": "Mass General Brigham Cancer Institute researchers presented findings at the 2026 ASCO Annual Meeting, including an evaluation of the experimental targeted lung cancer therapy neladalkib for ALK-positive non-small cell lung cancer, and outcomes of patients admitted to an oncology service within a multisite home hospital program. They also presented on an electronic frailty index to inform risk ahead of CAR-T cell therapy.",
+        "product_or_program": "Neladalkib (targeted lung cancer therapy), Oncology Home Hospital Program, Electronic Frailty Index for CAR-T cell therapy",
+        "stage": "Clinical Trial Results (Neladalkib), Program Evaluation (Home Hospital), New Tool/Protocol (Frailty Index)",
+        "therapeutic_or_application_area": "ALK-positive Non-Small Cell Lung Cancer, Oncology, CAR-T Cell Therapy",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Presentations on new therapies and protocols at ASCO indicate ongoing and potentially expanding research and clinical adoption, driving demand for oncology-related reagents, cell therapy consumables, and diagnostic equipment.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/articles/mgb-researchers-present-at-asco-2026"
+      },
+      {
+        "summary": "A Mass General Brigham team discovered common gene expression changes in different mammalian tissues during aging, leading to new \"transcriptomic clocks\" that can measure aging and identify processes contributing to mortality risk.",
+        "product_or_program": "Transcriptomic Clocks for Aging and Mortality",
+        "stage": "Research Discovery / New Diagnostic Method",
+        "therapeutic_or_application_area": "Aging, Mortality Risk, Genomics, Biomarkers",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The development of new transcriptomic clocks suggests increased research activity in genomics and aging, potentially leading to demand for RNA sequencing reagents, gene expression analysis tools, and related lab equipment.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/gene-expression-clocks-reveal-shared-molecular-signatures-of-aging-mortality"
+      },
+      {
+        "summary": "Massachusetts General Hospital is conducting an investigator-initiated trial to evaluate if psychedelic coaching can enhance the effects of ketamine or esketamine maintenance treatment for individuals with treatment-resistant depression.",
+        "product_or_program": "Psychedelic Coaching as Adjunct to Ketamine Therapy for Treatment-Resistant Depression (Clinical Trial NCT07588932)",
+        "stage": "Investigator-Initiated Trial (Enrolling)",
+        "therapeutic_or_application_area": "Treatment-Resistant Depression, Mental Health, Psychedelic-Assisted Therapy",
+        "event_date": "2026-05-04",
+        "why_it_matters": "An ongoing investigator-initiated trial involving ketamine therapy and coaching indicates a need for specialized reagents, monitoring equipment, and potentially new protocols for psychedelic-assisted therapies.",
+        "source_url": "https://ctv.veeva.com/study/coaching-as-an-adjunct-to-ketamine-therapy-for-treatment-resistant-depression"
+      },
+      {
+        "summary": "Mass General Brigham's Center for Digital Mental Health is developing digital and AI tools to prevent, assess, and treat mental illness, including an app for cognitive behavioral therapy skills and AI-driven tools for clinicians.",
+        "product_or_program": "Digital and AI Tools for Mental Healthcare (Center for Digital Mental Health)",
+        "stage": "Program Development / Implementation",
+        "therapeutic_or_application_area": "Mental Health, Digital Health, Artificial Intelligence",
+        "event_date": "2026-04-28",
+        "why_it_matters": "The development and implementation of digital and AI tools in mental healthcare may lead to demand for data infrastructure, specialized software, and potentially new diagnostic or monitoring devices.",
+        "source_url": "https://giving.massgeneral.org/stories/technologies-open-new-pathways-in-mental-healthcare"
+      },
+      {
+        "summary": "Mass General Brigham researchers reported that their AI tool, FaceAge, which estimates biological age from photos, can serve as a non-invasive biomarker for cancer prognosis, with rapid aging between photos correlating with lower survival chances.",
+        "product_or_program": "FaceAge AI Tool for Cancer Prognosis",
+        "stage": "Research Findings / New Diagnostic Tool",
+        "therapeutic_or_application_area": "Cancer Prognosis, Artificial Intelligence, Biomarkers",
+        "event_date": "2026-04-28",
+        "why_it_matters": "The validation of an AI tool for cancer prognosis suggests potential future clinical adoption, which could drive demand for imaging equipment, data storage, and computational resources for AI model deployment.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/faceage-tool-face-aging-rate-cancer-biomarker"
+      },
+      {
+        "summary": "Mass General Brigham expanded its 24/7 virtual care primary service, which uses an AI chatbot to triage patients, having treated thousands since its September launch.",
+        "product_or_program": "24/7 Virtual Care (AI-powered primary service)",
+        "stage": "Program Expansion",
+        "therapeutic_or_application_area": "Virtual Care, Primary Care, Artificial Intelligence",
+        "event_date": "2026-05-11",
+        "why_it_matters": "The expansion of an AI-powered virtual care service indicates a growing need for digital health infrastructure, telemedicine equipment, and potentially at-home diagnostic tools.",
+        "source_url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/mass-general-brigham-expands-24-7-virtual-care-5-notes/"
+      },
+      {
+        "summary": "Massachusetts General Hospital is conducting a clinical trial (NCT07588932) investigating the use of Telmisartan, Cilostazol IR, and Metformin ER pharmacotherapy combined with robot-assisted upper-extremity training to improve motor gains in chronic stroke survivors.",
+        "product_or_program": "Pharmacotherapy and Robot-Assisted Training for Chronic Stroke (Clinical Trial NCT07588932)",
+        "stage": "Clinical Trial (Recruiting)",
+        "therapeutic_or_application_area": "Chronic Stroke, Motor Rehabilitation, Pharmacotherapy, Robotics",
+        "event_date": "2026-05-15",
+        "why_it_matters": "An active clinical trial combining pharmacotherapy and robot-assisted training for stroke rehabilitation suggests demand for specific drugs, robotic rehabilitation equipment, and associated monitoring devices.",
+        "source_url": "https://clinicaltrials.gov/study/NCT07588932"
+      },
+      {
+        "summary": "A feasibility randomized controlled trial (NCT07586397) at MGB is evaluating HIPS-1, a 6-session mind-body intervention delivered via live-video by a trained physical therapist, to teach relaxation and coping skills and provide pain education.",
+        "product_or_program": "HIPS-1 Feasibility Randomized Controlled Trial (Mind-Body Intervention for Pain Management) (Clinical Trial NCT07586397)",
+        "stage": "Clinical Trial (Recruiting)",
+        "therapeutic_or_application_area": "Pain Management, Mind-Body Intervention, Physical Therapy, Digital Health",
+        "event_date": "2026-05-15",
+        "why_it_matters": "A clinical trial for a mind-body intervention delivered virtually indicates a need for telemedicine platforms, patient monitoring tools, and potential future demand for related digital health solutions.",
+        "source_url": "https://clinicaltrials.gov/study/NCT07586397"
+      },
+      {
+        "summary": "A research team co-led by Mass General Brigham developed and validated an AI model, ECG2Stroke, that can predict 10-year stroke risk using a single 10-second electrocardiogram (ECG) test.",
+        "product_or_program": "ECG2Stroke AI Model for Stroke Risk Prediction",
+        "stage": "Research Findings / New Diagnostic Tool",
+        "therapeutic_or_application_area": "Stroke Risk Prediction, Cardiology, Artificial Intelligence, Diagnostics",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The development of an AI model for stroke risk prediction from ECGs suggests future demand for advanced ECG devices, AI integration platforms, and related diagnostic consumables in cardiology.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/ai-model-predicts-10-year-stroke-risk"
+      }
+    ],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Neurizon Therapeutics Limited announced the expansion of Regimen I of the HEALEY ALS Platform Trial from 160 to 240 participants, conducted by the Sean M. Healey & AMG Center for ALS at Mass General Brigham in partnership with the Network of Excellence for ALS (NEALS).",
+        "partner": "Neurizon Therapeutics Limited, Network of Excellence for ALS (NEALS)",
+        "deal_type": "Clinical Research Partnership",
+        "deal_value": "Philanthropic funds from the Sean M. Healey & AMG Center for ALS at Mass General Brigham to offset expanded cohort costs.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Expansion of a clinical trial signals increased demand for research reagents, consumables, and potentially specialized equipment for ALS research and diagnostics.",
+        "source_url": "https://www.prnewswire.com/news-releases/healey-als-platform-trial-regimen-i-expands-to-240-participants-302480000.html"
+      },
+      {
+        "summary": "A personalized DNA vaccine to treat glioblastoma, co-led by Mass General Brigham and Geneos Therapeutics, showed promise in an early-stage clinical trial, demonstrating safety and robust immune responses.",
+        "partner": "Geneos Therapeutics, Washington University School of Medicine in St. Louis",
+        "deal_type": "Clinical Research Partnership",
+        "deal_value": "Named program: Personalized DNA vaccine for glioblastoma.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "A new clinical trial for a personalized DNA vaccine indicates demand for specialized reagents, consumables, and equipment for genomic analysis, vaccine development, and clinical trial support.",
+        "source_url": "https://medicine.wustl.edu/news/personalized-vaccine-shows-promise-against-aggressive-brain-cancer/"
+      },
+      {
+        "summary": "A new clinical study titled \"Multi-organ Imaging of Microvascular and Metabolic Function\" with Mass General Brigham as the funder was posted on ClinicalTrials.gov.",
+        "partner": null,
+        "deal_type": "Clinical Research Program",
+        "deal_value": "Named program: Multi-organ Imaging of Microvascular and Metabolic Function study.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "A new multi-organ imaging clinical study signals demand for imaging reagents, specialized equipment, and lab consumables for metabolic and microvascular function analysis.",
+        "source_url": "https://clinicaltrials.gov/study/NCT07604207"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "Axoft, a neurotechnology company, raised an oversubscribed $55 million Series A funding round to expand global clinical trials for its implantable Brain-Computer Interfaces (iBCIs), progress U.S. regulatory approval, and build a good manufacturing practice (GMP) facility in Cambridge, MA. Clinical collaborations are underway with Mass General Brigham.",
+        "amount": 55000000,
+        "funding_type": "Venture Capital (Series A)",
+        "use_of_proceeds": "Expand global clinical trials, progress U.S. regulatory approval for iBCIs, build a GMP manufacturing facility for mass production of iBCIs, and expand software engineering, microfabrication, and chemistry teams.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant funding for clinical trials and the establishment of a GMP manufacturing facility for a neurotechnology device, with Mass General Brigham as a clinical collaborator, indicates a strong upcoming demand for specialized lab supplies, reagents, and scientific equipment for advanced neurological research and clinical applications at MGB.",
+        "source_url": "https://www.businesswire.com/news/home/20260429285106/en/Axoft-Secures-%2455M-Series-A-to-Advance-Clinical-Trials-Globally-for-its-Bio-Inspired-Implantable-Brain-Computer-Interface"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Mass General Brigham announced a significant hospital expansion, including the Phillip and Susan Ragon Building at Massachusetts General Hospital and a vertical expansion at Brigham and Women's Faulkner Hospital, funded in part by an $866 million bond sale. The expansion aims to increase inpatient capacity for oncology and cardiovascular patients and support cutting-edge clinical trials.",
+        "project_name": "Mass General Brigham Hospital Expansion and Cancer Institute Expansion",
+        "scope": "The expansion includes increasing inpatient beds at Massachusetts General Hospital (MGH) from 95 to 152 with the completion of the Phillip and Susan Ragon Building, and additional beds at Brigham and Women's Hospital (BWH). Brigham and Women's Faulkner Hospital will undergo a five-story vertical expansion, including upgrades to clinical space and major equipment purchases. The Ragon Building alone has an estimated total cost of nearly $2 billion.",
+        "timeline": "The Phillip and Susan Ragon Building at MGH is scheduled to open in phases between 2027 and 2030.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This significant capital investment in new facilities and clinical space, particularly for oncology and cardiovascular care, will drive substantial demand for advanced scientific equipment, lab supplies, and reagents for diagnostics, research, and patient care.",
+        "source_url": "https://www.massgeneralbrigham.org/en/about/newsroom/articles/meeting-inpatient-care-needs-of-oncology-patients"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:10:11.862539",
+  "ai_summary": "Partners Healthcare is undergoing significant expansion and research growth, fueled by extensive grants across diverse areas like cancer, cardiovascular health, neurology, and AI-driven diagnostics. A major $2 billion hospital expansion, including new facilities for oncology and heart/vascular services, will dramatically increase research and clinical trial capacity. This surge in R&D and new infrastructure creates substantial demand for a wide array of lab supplies, reagents, and equipment."
+}

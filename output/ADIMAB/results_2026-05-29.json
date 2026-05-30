@@ -1,0 +1,101 @@
+{
+  "account": "ADIMAB",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": null,
+  "signals": {
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Coherus Oncology made a $10.5 million development milestone payment to Adimab LLC for the progress of casdozokitug, an anti-IL27 antibody, under an existing exclusive license agreement. This payment was incurred during the three months ended March 31, 2026, and reported in their Q1 2026 10-Q filing.",
+        "contract_name": "Exclusive License Agreement with Adimab, LLC for Casdozokitug (development milestone payment)",
+        "estimated_value": "$10.5 million",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This development milestone payment indicates active progress in the casdozokitug program, signaling ongoing demand for lab supplies, reagents, consumables, and scientific equipment for its continued research, development, and potential future manufacturing.",
+        "source_url": "https://www.stocktitan.net/sec-filings/CHRS/10-q-coherus-oncology-inc-quarterly-earnings-report-8dc3ee157f6a.html"
+      }
+    ],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "CordenPharma has entered into an agreement to acquire AmbioPharm, a U.S.-headquartered peptide API CDMO, expanding its global peptide manufacturing capacity.",
+        "acquirer": "CordenPharma",
+        "target": "AmbioPharm",
+        "deal_value": null,
+        "deal_status": "Agreement entered into",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This acquisition expands CordenPharma's peptide API development and manufacturing capabilities, creating new procurement needs for lab supplies and reagents for peptide synthesis.",
+        "source_url": "https://www.prnewswire.com/news-releases/cordenpharma-acquires-ambiopharm-to-expand-global-peptide-api-capacity-302782526.html"
+      },
+      {
+        "summary": "Alcami Corporation has completed its acquisition of Tjoapack, a global contract packaging organization, creating an end-to-end CDMO platform.",
+        "acquirer": "Alcami Corporation",
+        "target": "Tjoapack",
+        "deal_value": null,
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The strategic integration of Alcami and Tjoapack creates an end-to-end CDMO platform, potentially leading to new procurement processes and demand for a wider range of lab supplies and packaging consumables.",
+        "source_url": "https://www.prnewswire.com/news-releases/alcami-completes-acquisition-of-tjoapack-302762858.html"
+      },
+      {
+        "summary": "GI Partners completed the acquisition of Charles River Laboratories' CDMO and Cell Solutions businesses, forming Rose BioSolutions, a new leader in advanced therapy manufacturing.",
+        "acquirer": "GI Partners",
+        "target": "CDMO and Cell Solutions businesses from Charles River Laboratories International, Inc.",
+        "deal_value": null,
+        "deal_status": "Completed",
+        "event_date": "2026-05-07",
+        "why_it_matters": "The formation of Rose BioSolutions as an independent company focused on cell and gene therapy manufacturing will create new procurement channels and demand for specialized lab equipment and reagents in this rapidly growing field.",
+        "source_url": "https://www.biospace.com/press-releases/gi-partners-completes-acquisition-of-the-cdmo-and-cell-solutions-businesses-from-charles-river-laboratories-and-forms-rose-biosolutions"
+      },
+      {
+        "summary": "Bora Pharmaceuticals will acquire MacroGenics' biologics manufacturing facility and related warehouse operations in Rockville, Maryland, for $122.5 million upfront.",
+        "acquirer": "Bora Pharmaceuticals",
+        "target": "MacroGenics' biologics manufacturing facility and related warehouse operations",
+        "deal_value": "$122.5 million upfront, with potential for an additional $5 million",
+        "deal_status": "Definitive agreement entered into; expected to close in Q3 2026",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This acquisition expands Bora's U.S. manufacturing footprint and adds biologics production capabilities, leading to new procurement needs for biologics-related lab supplies, reagents, and equipment.",
+        "source_url": "https://biobuzz.io/news/bora-pharmaceuticals-to-acquire-macrogenics-manufacturing-facility-in-122-5-million-deal/"
+      },
+      {
+        "summary": "Avista Healthcare Partners and Damier Group have signed a definitive agreement to acquire sanotact Group, a German consumer health company with a full-service CDMO business.",
+        "acquirer": "Avista Healthcare Partners and Damier Group",
+        "target": "sanotact Group",
+        "deal_value": null,
+        "deal_status": "Definitive agreement signed",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The acquisition of sanotact Group, which includes a full-service CDMO business, may lead to changes in procurement strategies and new demand for lab supplies and reagents for manufacturing vitamins, minerals, and supplements.",
+        "source_url": "https://www.investorsinhealthcare.com/articles/category/news/germany-avista-healthcare-partners-and-damier-to-acquire-sanotact-group/"
+      },
+      {
+        "summary": "Tevogen is evaluating strategic acquisition opportunities, including a contract research organization, to evolve into a revenue-generating healthcare enterprise.",
+        "acquirer": "Tevogen",
+        "target": "A contract research organization and other healthcare services (potential)",
+        "deal_value": null,
+        "deal_status": "Ongoing evaluation/initiatives",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Tevogen's strategic initiatives to acquire a CRO indicate future expansion and potential new demand for lab supplies, reagents, and equipment as they build out their healthcare services arm.",
+        "source_url": "https://www.stocktitan.net/news/TVGN/tevogen-advances-strategic-acquisition-initiatives-with-potential-to-lj396q8wdu10.html"
+      },
+      {
+        "summary": "Columna Capital has acquired a majority stake in Evidenze Group, a Spain-based full-service CRO, from Buenavista Equity Partners.",
+        "acquirer": "Columna Capital",
+        "target": "Evidenze Group",
+        "deal_value": null,
+        "deal_status": "Completed",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The acquisition of Evidenze Group by Columna Capital could lead to new investment and expansion, creating new demand for lab supplies and equipment for their full-service CRO operations.",
+        "source_url": "https://www.investorsinhealthcare.com/articles/category/news/spain-columna-capital-acquires-majority-stake-in-evidenze-group-from-buenavista-equity-partners/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:58:47.398418",
+  "ai_summary": "Adimab received a $10.5 million milestone payment for an advancing antibody program, highlighting strong progress in their core discovery and engineering services. This success, amidst significant CDMO/CRO market consolidation, indicates robust R&D activity. For lab supply sales, this means Adimab's continued program advancement and potential expansion will drive consistent demand for specialized reagents, consumables, and equipment for biologics development."
+}

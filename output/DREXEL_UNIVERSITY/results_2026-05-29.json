@@ -1,0 +1,160 @@
+{
+  "account": "DREXEL UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1bhYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Research on 2-aminobutyrate mediating the impact of air pollution on blood biomarkers of Alzheimer's disease received funding from the Department of Defense (DoD) and National Institutes of Health (NIH). Drexel University is listed as an affiliation for researchers involved in this study.",
+        "recipient": "Researchers affiliated with Drexel University",
+        "department_or_lab": "Not specified for Drexel's specific department",
+        "amount": "Amount not specified for Drexel's portion",
+        "agency": "DoD, NIH",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This indicates ongoing research into Alzheimer's disease and environmental impacts, suggesting demand for lab supplies for biomarker analysis, neurobiology studies, and related research equipment.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38749875/"
+      },
+      {
+        "summary": "A bioengineering student at Drexel University, Fertil, was awarded an NSF Graduate Research Fellowship, which provides financial support for graduate studies and research in biomaterials and inflammatory responses.",
+        "recipient": "Fertil, a bioengineering student",
+        "department_or_lab": "Bioengineering, Tissue Instructive Materials Laboratory",
+        "amount": "Financial support for three years over five years (stipend and cost of education allowance)",
+        "agency": "NSF",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This indicates active research in biomaterials and inflammatory responses, creating demand for specialized reagents, cell culture supplies, and analytical equipment within the bioengineering department.",
+        "source_url": "https://news.lafayette.edu/2026/05/15/students-and-alums-awarded-as-part-of-nsfs-graduate-research-fellowship-program/"
+      },
+      {
+        "summary": "Drexel University is a partner in the new NSF AIRFoundry, an AI-powered biotech lab launched with an $18 million NSF grant, focusing on accelerating RNA discovery and drug development.",
+        "recipient": "Drexel University (as a partner in the consortium led by Penn Engineering)",
+        "department_or_lab": "Not specified for Drexel's specific department, but related to AI-powered biotech and RNA research",
+        "amount": "$18,000,000 (total grant amount for the consortium)",
+        "agency": "NSF",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Involvement in a large-scale AI-driven RNA research facility suggests significant demand for advanced robotics, automation equipment, RNA synthesis and analysis reagents, and drug development consumables.",
+        "source_url": "https://whyy.org/articles/david-mccormick-tours-ai-powered-biotech-labs-at-penn/"
+      }
+    ],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "Drexel University is progressing with the fit-out of its College of Medicine research facilities within the 3201 Cuthbert Street life sciences building, with core and shell complete and occupancy anticipated in mid-2027.",
+        "project_name": "3201 Cuthbert Street Life Sciences Building (Drexel University College of Medicine Research Facilities)",
+        "location": "3201 Cuthbert Street, University City, Philadelphia",
+        "value": "$450 million",
+        "timeline": "Core and shell complete, fit-out work begun on Drexel's floors, occupancy slated for mid-2027.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The ongoing fit-out and upcoming occupancy of new medical research and laboratory spaces will generate significant demand for new lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://drexel.edu/facilities/design/currentprojects"
+      },
+      {
+        "summary": "Work continues on the interior fit-out for Spark Therapeutics' 500,000-square-foot Gene Innovation Center on Drexel's campus, with an anticipated opening in 2027.",
+        "project_name": "Spark Therapeutics Gene Innovation Center",
+        "location": "30th and Chestnut streets, Drexel University campus, Philadelphia",
+        "value": "$575 million",
+        "timeline": "Interior fit-out ongoing, anticipated opening in 2027.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The ongoing fit-out of a large-scale gene innovation center indicates substantial demand for specialized laboratory equipment, reagents, and consumables for gene therapy research and manufacturing.",
+        "source_url": "https://drexel.edu/facilities/design/currentprojects"
+      }
+    ],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Drexel University's College of Medicine research operations are consolidating into four floors, totaling approximately 150,741 square feet, within a newly opened 11-story, half-million-square-foot life-sciences tower at 3201 Cuthbert Street in University City, Philadelphia. The facility is designed for advanced life sciences research, including vivarium space and cGMP manufacturing capabilities.",
+        "location": "3201 Cuthbert Street, University City, Philadelphia, PA",
+        "type_of_expansion": "New dedicated facility and capacity expansion for research and laboratory operations",
+        "investment_value": "Implied over $5M (long-term lease for 150,741 sq ft of advanced lab space within a $500M life sciences center)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant expansion of advanced laboratory and research space will create substantial new demand for lab supplies, reagents, consumables, and scientific equipment for Drexel University's College of Medicine.",
+        "source_url": "https://hoodline.com/2026/05/new-university-city-lab-tower-muscles-into-philly-s-biotech-boom/"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Josiah Kephart, an assistant professor in the Dana and David Dornsife School of Public Health's Urban Health Collaborative at Drexel University, received a $3.9 million grant from the Wellcome Trust. The grant will fund research into how extreme heat in cities impacts the mental health of young people.",
+        "project_name": "Impact of Extreme Heat on Youth Mental Health in Cities",
+        "scope": "This research project will investigate the effects of extreme heat on the mental health of young people in urban environments. The study involves collaboration with six other researchers across Canada, Mexico, and Argentina.",
+        "timeline": "Multi-year (implied by the significant funding amount and research scope).",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This large-scale public health research project will likely require various data collection tools, environmental sensors, and analytical software, leading to demand for scientific equipment and consumables for data acquisition and analysis.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQs3Hrsq6RXYzzmDHQly3tH6DkKX-RIfBuUzcit91-tkD737yLdcgdiZNiTSemLbMZcolCFGGERXdGsBzQuho26mUMVomD_GpDalmfjYbIL4yKKyCg-ggjni6zhaoy0Jzfv22dZnJwK_zxEX0gsWhGfE3s17GoonbZECGL9UON-lc="
+      },
+      {
+        "summary": "Drexel University has selected a new, world-class life sciences building at 3201 Cuthbert Street to consolidate the entirety of its medical research and laboratory operations for the Drexel University College of Medicine. The long-term lease agreement encompasses four floors totaling 150,741 square feet.",
+        "project_name": "Consolidation of College of Medicine Research Operations at 3201 Cuthbert Street",
+        "scope": "The project involves relocating and consolidating all research and laboratory operations for the Drexel University College of Medicine into 150,741 square feet across four floors of a new, purpose-built life sciences facility.",
+        "timeline": "Occupancy is slated for mid-2027.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The establishment of a large, consolidated medical research facility will create significant demand for new and upgraded laboratory equipment, reagents, and consumables to support expanded and centralized research activities.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ01ewf4eHZJXRprKM_gCEKgQ6XQ0dDAvGAUvqf6uRswmJtmivWL2A-oTjgzI_T44el1Bn511lKU5y_3FxykYb-mAciPoXmSk1yvns50ykL9ivOvwUqpFEczEyYKARXmjWrLwolqlZwNSTS0yI"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Alexander Fridman, John A. Nyheim Chair Professor and director of the C. & J. Nyheim Plasma Institute at Drexel University, was elected to the International Hall of Fame in Plasma Materials Science for his pioneering contributions to the establishment and advancement of the interdisciplinary field of plasma medicine.",
+        "researcher_name": "Alexander Fridman",
+        "department_or_lab": "C. & J. Nyheim Plasma Institute, College of Engineering",
+        "award_or_discovery": "Election to the International Hall of Fame in Plasma Materials Science",
+        "significance": "Honors pioneering contributions to the establishment and advancement of the interdisciplinary field of plasma medicine.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This recognition highlights ongoing high-impact research in plasma medicine, signaling potential demand for specialized equipment and consumables in plasma-related scientific applications.",
+        "source_url": "https://drexel.edu/news/archive/2026/May/faculty-highlights-winter-2026"
+      },
+      {
+        "summary": "Kapil R. Dandekar, E. Warren Colehower Endowed Chair Professor and interim dean of the College of Engineering at Drexel University, was named a 2025 National Academy of Inventors (NAI) Fellow.",
+        "researcher_name": "Kapil R. Dandekar",
+        "department_or_lab": "College of Engineering",
+        "award_or_discovery": "2025 National Academy of Inventors (NAI) Fellow",
+        "significance": "Recognition for outstanding inventive contributions.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Appointment as an NAI Fellow indicates a strong pipeline of innovative research and development, suggesting future demand for prototyping materials, testing equipment, and specialized components.",
+        "source_url": "https://drexel.edu/news/archive/2026/May/faculty-highlights-winter-2026"
+      },
+      {
+        "summary": "Sandhya Kortagere, professor and vice dean of research and innovation at Drexel University's College of Medicine, received the 2026 Scientific Achievement Award in Drug Discovery and Development from the American Society for Pharmacology and Experimental Therapeutics.",
+        "researcher_name": "Sandhya Kortagere",
+        "department_or_lab": "College of Medicine",
+        "award_or_discovery": "2026 Scientific Achievement Award in Drug Discovery and Development from the American Society for Pharmacology and Experimental Therapeutics",
+        "significance": "Recognizes outstanding investigators who have made significant contributions in drug discovery, translational and/or drug development science.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This award signals active and impactful research in drug discovery and development, likely leading to increased demand for reagents, assay kits, and screening equipment.",
+        "source_url": "https://drexel.edu/news/archive/2026/May/faculty-highlights-winter-2026"
+      },
+      {
+        "summary": "John Kounios, professor of psychological and brain sciences in Drexel University's College of Arts and Sciences, received the Rudolf Arnheim Award for outstanding lifetime achievement in the Psychology of Aesthetics, Creativity, and the Arts from the American Psychological Association.",
+        "researcher_name": "John Kounios",
+        "department_or_lab": "College of Arts and Sciences, Psychological and Brain Sciences",
+        "award_or_discovery": "Rudolf Arnheim Award for outstanding lifetime achievement in the Psychology of Aesthetics, Creativity, and the Arts",
+        "significance": "Recognizes outstanding lifetime achievement in the Psychology of Aesthetics, Creativity, and the Arts.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Significant lifetime achievement awards in psychology can indicate a highly active and influential research group, potentially requiring specialized cognitive testing equipment or neuroimaging supplies.",
+        "source_url": "https://drexel.edu/news/archive/2026/May/faculty-highlights-winter-2026"
+      },
+      {
+        "summary": "Radhika Aravamudhan, professor of audiology in Drexel University's College of Nursing and Health Professions, was accepted as a Distinguished Fellow of the National Academies of Practice (NAP) Audiology Academy.",
+        "researcher_name": "Radhika Aravamudhan",
+        "department_or_lab": "College of Nursing and Health Professions, Audiology",
+        "award_or_discovery": "Distinguished Fellow of the National Academies of Practice (NAP) Audiology Academy",
+        "significance": "Recognition for significant contributions to the field of audiology.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This honor suggests ongoing advanced research in audiology, which could drive demand for specialized acoustic testing equipment, diagnostic tools, and related consumables.",
+        "source_url": "https://drexel.edu/news/archive/2026/May/faculty-highlights-winter-2026"
+      },
+      {
+        "summary": "Researchers at Drexel University, including Ahmet Sacan, are investigating primary mitochondrial diseases, with expected outcomes including the discovery of novel molecular targets and mechanistic insights, and the identification of therapeutic candidates for preclinical development or clinical translation.",
+        "researcher_name": "Ahmet Sacan",
+        "department_or_lab": "School of Biomedical Engineering, Science and Health Systems",
+        "award_or_discovery": "Discovery of novel molecular targets and therapeutic candidates for Primary Mitochondrial Diseases",
+        "significance": "This research aims to improve understanding of PMD pathophysiology and therapeutic strategies through multiomics profiling, high-throughput drug screening, and mechanistic studies, leading to novel disease pathways and treatments.",
+        "event_date": "2026-05-23",
+        "why_it_matters": "This breakthrough research in mitochondrial diseases indicates high-impact lab activity, likely requiring advanced multiomics equipment, high-throughput screening reagents, and specialized cell culture consumables.",
+        "source_url": "https://drexel.edu/pennoni/news-events/events/event?_i=46562_122640"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:28:42.177087",
+  "ai_summary": "Drexel University is rapidly expanding its research enterprise, securing major grants for diverse studies including Alzheimer's and RNA discovery. Their College of Medicine is consolidating into a new 150,000 sq ft life sciences building with vivarium and cGMP capabilities, plus Spark Therapeutics' campus growth. This significant funding and infrastructure development create immense opportunities for lab supply sales, requiring extensive new equipment and consumables."
+}

@@ -1,0 +1,17 @@
+{
+  "account": "GRAINGER",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1S0YAK",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T20:47:31.435129",
+  "ai_summary": null
+}

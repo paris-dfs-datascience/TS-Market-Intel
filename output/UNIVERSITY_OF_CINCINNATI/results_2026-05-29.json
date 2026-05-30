@@ -1,0 +1,79 @@
+{
+  "account": "UNIVERSITY OF CINCINNATI",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1bOYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "University of Cincinnati researchers, led by Daewoo Han and Andrew Steckl, developed a multidrug treatment for glioblastoma using nanofibers, with the research supported by a grant from the National Institutes of Health.",
+        "recipient": "Daewoo Han, Andrew Steckl",
+        "department_or_lab": "College of Engineering and Applied Science (NanoLab)",
+        "amount": "Undisclosed",
+        "agency": "NIH",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This research likely requires specialized lab supplies, reagents for drug formulation, and potentially equipment for nanofiber production and cancer cell studies, indicating potential sales opportunities for relevant products.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/uc-nanofiber-multidrug-treatment-glioblastoma.html"
+      },
+      {
+        "summary": "The University of Cincinnati's Center for Collaboration on Climate & Community for Health received a three-year, $4 million grant from the National Institutes of Health to conduct an extreme heat health study, recruiting older adults to track their health during heat waves and analyze blood samples using transcriptomics.",
+        "recipient": "Center for Collaboration on Climate & Community for Health",
+        "department_or_lab": "University of Cincinnati's Center for Collaboration on Climate & Community for Health",
+        "amount": "$4,000,000",
+        "agency": "NIH",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This study will require lab consumables for blood sample collection and processing, reagents for transcriptomics analysis, and potentially equipment for environmental monitoring and biological sample analysis, presenting sales opportunities.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/uc-extreme-heat-older-adults-health-research.html"
+      },
+      {
+        "summary": "Dr. Le Xu's lab in the Division of Pulmonary Biology at Cincinnati Children's, focusing on lung cell stemness, plasticity, and communication, is funded by a startup package and a grant from the National Institutes of Health.",
+        "recipient": "Le Xu, PhD",
+        "department_or_lab": "Division of Pulmonary Biology at Cincinnati Children's",
+        "amount": "Undisclosed",
+        "agency": "NIH",
+        "event_date": "2026-05-16",
+        "why_it_matters": "Dr. Xu's research involves genetic models, cell culture, advanced imaging, and single-cell epigenomic approaches, indicating a need for a wide range of lab supplies, cell culture media, reagents, and advanced scientific equipment.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/uc-nanofiber-multidrug-treatment-glioblastoma.html"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Dorothy Mae Supp is listed as a Research Professor in the Department of Surgery at the University of Cincinnati College of Medicine.",
+        "name": "Dorothy Mae Supp",
+        "department": "Department of Surgery, College of Medicine",
+        "start_date": null,
+        "event_date": "2026-05-09",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://public.era.nih.gov/pubroster/Reports?AGENDA_SEQ_NUM_P=559263&DOCTYPE=SEP&DESFORMAT=PDF"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "GE HealthCare, University of Cincinnati, UC Health, Cincinnati Children's, and JobsOhio officially opened the new Imaging Research & Development Center on UC's medical campus, a facility equipped with a GE HealthCare SIGNA\u2122 Premier 3T wide-bore MRI scanner, to accelerate next-generation magnetic resonance imaging (MRI) technologies.",
+        "location": "UC's medical campus, Cincinnati, Ohio.",
+        "type_of_expansion": "New dedicated research facility (Imaging Research & Development Center).",
+        "investment_value": null,
+        "event_date": "2026-05-27",
+        "why_it_matters": "The establishment of a new imaging research and development center on the University of Cincinnati's medical campus signifies new procurement opportunities for specialized lab supplies, reagents, and scientific equipment required for advanced MRI technology research.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/27/3302222/0/en/new-cincinnati-imaging-center-unites-industry-academic-medicine-to-accelerate-mri-innovation.html"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The University of Cincinnati, in collaboration with UC Health, Cincinnati Children's, GE HealthCare, and JobsOhio, has officially opened a new Imaging Research & Development Center on its medical campus. The center aims to accelerate the development of next-generation magnetic resonance imaging (MRI) technologies.",
+        "project_name": "Imaging Research & Development Center",
+        "scope": "The center will focus on advancing imaging innovation, improving diagnostic accuracy, enhancing patient comfort, supporting personalized care, and contributing to workforce development. It houses an innovative GE HealthCare 3T wide-bore magnetic resonance imaging (MRI) scanner, one of only a handful of such centers worldwide. Researchers, clinicians, and scientists will collaborate on projects ranging from investigator-initiated studies to large-scale national and international clinical trials.",
+        "timeline": "The center officially opened on May 27, 2026, following plans announced nearly two years prior. Research and development activities are ongoing.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The launch of this advanced imaging center will generate significant demand for specialized MRI consumables, reagents for clinical trials, and maintenance supplies for high-tech scientific equipment.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/new-imaging-research-development-center-opens-on-ucs-medical-campus.html"
+      }
+    ],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T07:39:19.040092",
+  "ai_summary": "University of Cincinnati is experiencing significant research growth, fueled by multiple NIH grants for glioblastoma, climate health, and lung biology studies. A new Imaging Research & Development Center also opened, enhancing MRI capabilities. This expansion, coupled with new faculty, indicates increased demand across diverse disciplines for cell culture media, molecular biology reagents, analytical consumables, and general lab supplies to support ongoing and new projects."
+}

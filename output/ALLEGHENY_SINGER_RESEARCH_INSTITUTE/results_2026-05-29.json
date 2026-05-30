@@ -1,0 +1,29 @@
+{
+  "account": "ALLEGHENY SINGER RESEARCH INSTITUTE",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "0011M00002W6LfUQAV",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": [
+      {
+        "summary": "Allegheny Health Network's Psychiatry and Behavioral Health Institute has relocated from its long-standing facility at Four Allegheny Center to a new, upgraded space on the third floor of the Federal North building on Pittsburgh's North Side. The old facility was described as dark and deteriorating with problematic heating and air conditioning. The new space officially opens for patients on May 11, 2026.",
+        "facility_or_programme": "Allegheny Health Network's Psychiatry and Behavioral Health Institute (old location at Four Allegheny Center)",
+        "closure_type": "facility closure",
+        "effective_date": "2026-05-01",
+        "reason": "Deteriorating conditions of the old facility and a desire for a brighter, newer space with improved collaboration opportunities.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This relocation presents a potential opportunity for Thomas Scientific to supply new lab supplies, reagents, consumables, and scientific equipment to the newly established facility or to any new tenants of the vacated Four Allegheny Center space.",
+        "source_url": "https://www.cbsnews.com/pittsburgh/news/allegheny-health-network-behavioral-health-hub/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T06:01:21.177153",
+  "ai_summary": "Allegheny Health Network's Psychiatry and Behavioral Health Institute is relocating to a new, upgraded facility opening May 2026. This move from a deteriorating space signifies a major investment in modernizing their operations. For lab supply sales, this presents a significant opportunity to equip new labs, replace outdated equipment, and provide supplies for an advanced research and clinical environment, requiring proactive engagement now."
+}

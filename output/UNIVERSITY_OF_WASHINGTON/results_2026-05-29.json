@@ -1,0 +1,100 @@
+{
+  "account": "UNIVERSITY OF WASHINGTON",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1XfYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Kristin Goodsell, MD, a general surgery research resident at the University of Washington, received an NIH Stimulating Access to Research in Residency (StARR) (R38) grant to advance research on immune interactions in colorectal cancer metastases, focusing on macrophages and T cells in human-derived tumor models.",
+        "recipient": "Kristin Goodsell, MD",
+        "department_or_lab": "Department of Surgery, Tumor Immune Microenvironment (TIME) lab",
+        "amount": "Amount not specified",
+        "agency": "NIH",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This grant indicates new research activity in tumor immunology and colorectal cancer, potentially leading to demand for cell culture reagents, immunology assays, and microscopy supplies.",
+        "source_url": "https://uwsurgery.org/kristin-goodsell-receives-nih-starr-grant/"
+      },
+      {
+        "summary": "The first participant in the University of Washington's NIH-funded clinical trial of CorTec's Brain Interchange\u2122 BCI system successfully controlled a computer through thought alone. The study is co-led by Dr. Jeffrey G. Ojemann and involves Prof. Jeffrey Herron from the University of Washington School of Medicine.",
+        "recipient": "Dr. Jeffrey G. Ojemann, Prof. Jeffrey Herron",
+        "department_or_lab": "Department of Neurological Surgery, University of Washington School of Medicine",
+        "amount": "Over $7 million USD",
+        "agency": "NIH",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This NIH-funded clinical trial in brain-computer interfaces suggests demand for neurophysiology equipment, surgical tools, and potentially specialized reagents for neural research.",
+        "source_url": "https://cortec-neuro.com/brain-interchange-stroke-patient-computer-mind-control/"
+      },
+      {
+        "summary": "Seattle Children's Hospital received a $2.1 million NIH R01 grant to develop an AI-driven platform for designing intracellularly functional, conditionally stable nanobodies, with Principal Investigator Jonathan C. Y. Tang having prior work experience at the University of Washington.",
+        "recipient": "Jonathan C. Y. Tang",
+        "department_or_lab": "Seattle Children's Hospital (with PI having ties to University of Washington)",
+        "amount": "$2.1 million",
+        "agency": "NIH",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This grant for AI-driven nanobody engineering indicates demand for protein engineering reagents, high-throughput screening consumables, and bioinformatics software/services, potentially impacting UW-affiliated researchers and collaborations.",
+        "source_url": "https://allsci.com/news/funding/grants/seattle-childrens-hospital-picks-up-usd-2-1m-nih-grant-for-ai-nanobody-engineering-platform/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Mary E. Brunkow, a University of Washington alumna, shared the 2025 Nobel Prize in Physiology or Medicine for \"groundbreaking discoveries concerning peripheral immune tolerance that prevents the immune system from harming the body.\" Her research, conducted with Frederick J. Ramsdell, identified a mutation in the Foxp3 gene linked to autoimmune disorders. This work, combined with Shimon Sakaguchi's research on regulatory T cells, led to the concept of peripheral immune tolerance, which has implications for cancer therapies, autoimmune disease treatments, and transplant medicine. She will also be addressing the UW's 151st Commencement and receiving the Alumna Summa Laude Dignata Award.",
+        "researcher_name": "Mary E. Brunkow",
+        "department_or_lab": "UW alumna (studied molecular and cellular biology at UW), conducted key research at Celltech Chiroscience (formerly Darwin Molecular), now a distinguished investigator at the Institute for Systems Biology in Seattle.",
+        "award_or_discovery": "2025 Nobel Prize in Physiology or Medicine (shared), Alumna Summa Laude Dignata Award.",
+        "significance": "Groundbreaking discoveries concerning peripheral immune tolerance that prevents the immune system from harming the body. This research has opened new avenues for cancer therapies, autoimmune disease treatments, and transplant medicine.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This Nobel Prize-winning research signals high-impact activity in immunology, cell biology, and gene therapy, driving demand for advanced reagents, cell culture media, and analytical equipment for further therapeutic development.",
+        "source_url": "https://www.washington.edu/news/2026/05/12/nobel-prize-winner-and-husky-alumna-mary-e-brunkow-to-address-graduates-at-uws-151st-commencement/"
+      },
+      {
+        "summary": "Researchers in Nobel laureate David Baker's lab at the University of Washington's Institute for Protein Design have developed a method to build larger, virus-like protein cages. These cages could serve as delivery capsules for genetic medicines, overcoming limitations of current viral delivery methods. The discoveries, described in two Nature papers, open new possibilities for designing proteins from scratch.",
+        "researcher_name": "David Baker, Shunzhi Wang, Sangmin Lee, David Chemielewsk",
+        "department_or_lab": "University of Washington's Institute for Protein Design.",
+        "award_or_discovery": "Breakthrough in designing larger, quasisymmetrical virus-like protein cages for gene therapy delivery. Published in Nature.",
+        "significance": "This breakthrough enables the creation of protein cages two to three times larger than previously possible, allowing for larger genetic payloads and advancing gene therapy applications for various ailments, including hemophilia and cancer.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This breakthrough in protein engineering and gene therapy delivery indicates a strong demand for protein synthesis reagents, purification systems, advanced microscopy, and gene sequencing consumables for further research and development.",
+        "source_url": "https://www.geekwire.com/2026/uw-nobel-winning-lab-creates-blueprints-for-roomier-protein-cages-to-deliver-genetic-medicines/"
+      },
+      {
+        "summary": "A. Bruce Montgomery, MD, was recognized as the American Lung Association Endowed Chair in Pulmonary and Critical Care Medicine at the University of Washington. This was part of the ATS Recognition Awards for Scientific Accomplishments.",
+        "researcher_name": "A. Bruce Montgomery",
+        "department_or_lab": "Pulmonary and Critical Care Medicine, University of Washington.",
+        "award_or_discovery": "American Lung Association Endowed Chair in Pulmonary and Critical Care Medicine.",
+        "significance": "This endowed chair recognizes significant scientific accomplishments in pulmonary and critical care medicine, suggesting ongoing and well-funded research in this area.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "An endowed chair appointment signals sustained, high-level research in pulmonary and critical care, likely leading to consistent demand for respiratory research equipment, cell culture supplies, and specialized reagents.",
+        "source_url": "https://www.atsconferencenews.org/recognition-awards-for-scientific-accomplishments-honors-four-trailblazing-investigators/"
+      },
+      {
+        "summary": "Su-In Lee, an endowed chair professor of computer science at the University of Washington, delivered a special lecture at Seoul Forum 2026, emphasizing the importance of \"explainable artificial intelligence (XAI)\" in medicine and life sciences. Her work on the SHapley Additive exPlanations (SHAP) framework is globally recognized. She stated that XAI is a foundational technology for scientific discovery and validating models for clinical application, including new drug development.",
+        "researcher_name": "Su-In Lee",
+        "department_or_lab": "Computer Science, University of Washington.",
+        "award_or_discovery": "Endowed Chair Professor, globally recognized for expanding the research frontier of \"explainable artificial intelligence (XAI)\" and developing the SHAP framework.",
+        "significance": "Her work is critical for making AI trustworthy and applicable in medical and life sciences, enabling scientific discovery and new drug development.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Research in Explainable AI for life sciences will drive demand for high-performance computing infrastructure, bioinformatics software, and potentially new types of data analysis tools and services for biological data.",
+        "source_url": "https://finance.biggo.com/news/wSkCbp4BYH_ypPqO9Y6P"
+      },
+      {
+        "summary": "Dr. Nancy Davidson, Executive Vice President, Chief Academic Officer, and Professor at Fred Hutchinson Cancer Center, also holds the Raisbeck Endowed Chair in Collaborative Research and is a Professor of Medicine at the University of Washington School of Medicine. She was recognized as a recipient of the ASCO Special Awards for her physician-scientist work in breast cancer, spanning preclinical studies to phase III clinical trials.",
+        "researcher_name": "Nancy Davidson",
+        "department_or_lab": "Professor of Medicine at University of Washington School of Medicine (also Fred Hutchinson Cancer Center).",
+        "award_or_discovery": "Raisbeck Endowed Chair in Collaborative Research, ASCO Special Award recipient.",
+        "significance": "This endowed chair and award highlight her significant contributions to breast cancer research, indicating ongoing and impactful work in oncology.",
+        "event_date": "2026-05-25",
+        "why_it_matters": "An endowed chair and recognition for breast cancer research suggest continued high-level activity in oncology, requiring cell line reagents, cancer research models, drug screening consumables, and clinical trial support supplies.",
+        "source_url": "https://connection.asco.org/do/asco-congratulates-2026-special-award-recipients"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:07:40.531471",
+  "ai_summary": "University of Washington is experiencing significant research growth, securing new NIH grants and achieving Nobel-level breakthroughs. Focus areas include cancer, immunology, AI for drug discovery, protein engineering, and genetic medicine. This robust funding and expanding, high-impact work signal a strong, sustained demand for lab supplies, reagents, and specialized equipment."
+}

@@ -1,0 +1,69 @@
+{
+  "account": "JIREH",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP1PbYAK",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "JIREH Nutrition Hub announced the completion of its four-facility group model, including the commissioning of an Ayurvedic & Herbal Processing Centre and a Peptide Synthesis Laboratory, expanding its global manufacturing network to 195,000 sq ft across four specialized facilities.",
+        "location": "Meerut, Uttar Pradesh, India",
+        "type_of_expansion": "Capacity expansion",
+        "investment_value": null,
+        "event_date": "2026-05-16",
+        "why_it_matters": "This expansion of specialized manufacturing and laboratory facilities indicates new procurement needs for reagents, consumables, and scientific equipment for nutraceutical, pharmaceutical, Ayurvedic, and peptide production.",
+        "source_url": "https://jnhub.com/about-us/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Jireh Nutrition Hub has commissioned an Ayurvedic & Herbal Processing Centre and a Peptide Synthesis Laboratory, completing a four-facility group model in India. These purpose-built facilities enhance their capabilities as a CDMO for nutraceuticals, pharmaceuticals, Ayurvedics, and peptides, featuring specialized equipment for various product types and dedicated cleanroom environments.",
+        "facility_or_line": "Ayurvedic & Herbal Processing Centre, Peptide Synthesis Laboratory",
+        "change_type": "New manufacturing site openings, expansion of production capabilities, new product lines",
+        "location": "India",
+        "investment_value": null,
+        "event_date": "2026-05-16",
+        "why_it_matters": "The commissioning of new specialized facilities for Ayurvedic/Herbal processing and peptide synthesis will increase demand for specific botanical extraction equipment, peptide synthesis reagents, chromatography columns, and analytical instruments for quality control and R&D.",
+        "source_url": "https://jnhub.com/about-us/"
+      },
+      {
+        "summary": "Jireh Semiconductor, a subsidiary of Alpha and Omega Semiconductor, is actively engaged in a product diversification program, developing new silicon and packaging platforms. This ongoing initiative, highlighted in a recent SEC filing summary, indicates continuous innovation in their wafer fab operations.",
+        "facility_or_line": "Jireh Semiconductor wafer fab",
+        "change_type": "New product lines, retooling",
+        "location": "Hillsboro, OR",
+        "investment_value": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "The development of new silicon and packaging platforms signifies a need for advanced materials, specialized chemicals, and new analytical and testing equipment for semiconductor R&D and manufacturing processes.",
+        "source_url": "https://www.stocktitan.net/sec-filings/AOSL/10-q-alpha-omega-semiconductor-ltd-quarterly-earnings-report-04b7ee3e39c2.html"
+      },
+      {
+        "summary": "Jireh Semiconductor in Hillsboro, Oregon, is hiring an Equipment Maintenance Technician for its Photolithography team, indicating ongoing and potentially increasing production demands within its wafer fabrication facility. The role involves maintaining and troubleshooting advanced equipment, suggesting sustained investment in operational capacity.",
+        "facility_or_line": "Jireh Semiconductor wafer fab, Photolithography team",
+        "change_type": "Sustained production capacity, ongoing equipment maintenance and improvement projects",
+        "location": "Hillsboro, OR",
+        "investment_value": null,
+        "event_date": "2026-05-06",
+        "why_it_matters": "Active hiring for equipment maintenance in a high-tech wafer fab suggests consistent production levels, driving demand for spare parts, calibration standards, process chemicals, and safety consumables for continuous operation and quality control.",
+        "source_url": "https://www.ziprecruiter.com/c/Jireh-Semiconductor/Job/Equipment-Technician-Photo-(Nights)/-in-Hillsboro,OR?jid=555f3cbdd79d6368"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "Chinese company Jereh laid off Tunisian employees involved in a gas processing plant project in Tataouine, Tunisia, due to an alleged nine-month payment default by ETAP, leading to a halt in the project.",
+        "facility_or_programme": "Gas processing plant in Tataouine, Tunisia.",
+        "closure_type": "Production line shutdown/Project halt",
+        "effective_date": "2026-05-10",
+        "reason": "Alleged nine-month payment default by ETAP, causing a severe cash flow crisis for Jereh.",
+        "event_date": "2026-04-24",
+        "why_it_matters": "This event indicates potential churn risk for Thomas Scientific if Jereh was a customer for this project, or a competitive displacement opportunity if ETAP or a new contractor takes over the project and requires new suppliers for lab supplies and equipment.",
+        "source_url": "https://en.africanmanager.com/chinese-company-jereh-lays-off-its-tunisian-employees-to-pressure-etap/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T16:43:52.654109",
+  "ai_summary": "JIREH is significantly expanding its Nutrition Hub with new Ayurvedic and Peptide Synthesis labs, enhancing CDMO capabilities for pharmaceuticals and nutraceuticals. Concurrently, Jireh Semiconductor is innovating its wafer fab operations and increasing production, evidenced by new hires. This indicates a substantial and immediate need for specialized lab equipment, reagents, cleanroom supplies, and consumables across both their life science and semiconductor divisions."
+}

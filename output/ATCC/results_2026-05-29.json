@@ -1,0 +1,74 @@
+{
+  "account": "ATCC",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nOkeuYAC",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The National Institute of Food Technology Entrepreneurship and Management (NIFTEM) has issued an Expression of Interest (EOI) for an Annual Rate Contract for the supply of various laboratory-related items, including chemicals, CRMs, glassware, plasticware, HPLC/GC columns and accessories, and small equipment. The EOI specifically mentions a \"Testing requirement of Microbiology Reference Cultures (Traceability. ATCC)\".",
+        "contract_name": "Annual Rate Contract for Supply of Laboratory Related Items",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-20",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This EOI presents a direct opportunity for Thomas Scientific to supply a wide range of lab consumables and equipment, particularly microbiology reference cultures traceable to ATCC, to NIFTEM through an annual rate contract.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOeBUMnOy46y0doLzPKjOkd-7VqXCizU9TUxYtGSwnq03_X5CklYoIBlxb-10EnvtHtyUevv6pmBPBU-9xJg9BtHkZ64ylrdTVz9Qx2hKMWvYaXddacie8Ke3Taf8xLfrAu4BnvCCPtqc1X-zIWNqF8vRyyRK0rjRJfXNoXabKlwtoI8Vzjuk="
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "UCLA has opened the Center for Advanced Biotherapies (CAB), a new 14,000-square-foot manufacturing facility within UCLA's Center for Health Sciences, featuring 10 cleanrooms, including seven manufacturing suites, two bioengineering rooms, and a dedicated suite for viral vector manufacturing, along with a centralized quality control laboratory.",
+        "location": "Los Angeles, California, USA",
+        "type_of_expansion": "New manufacturing and research facility",
+        "investment_value": "$9.3M",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new facility will require a wide range of lab supplies, reagents, and consumables for cell and gene therapy manufacturing, bioengineering, and quality control operations.",
+        "source_url": "https://www.uclahealth.org/news/release/ucla-opens-center-advanced-biotherapies-expanding-capacity"
+      },
+      {
+        "summary": "Micron Biomedical has celebrated the grand opening of its new 26,000-square-foot commercial-scale manufacturing site in Alpharetta, Georgia, which is the most advanced site globally for its dissolvable vaccine and therapeutic technology.",
+        "location": "Alpharetta, Georgia, USA",
+        "type_of_expansion": "New commercial-scale manufacturing facility",
+        "investment_value": " undisclosed (implied >$5M)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "The opening of this commercial-scale manufacturing facility indicates significant demand for manufacturing consumables, reagents, and scientific equipment for vaccine and therapeutic production.",
+        "source_url": "https://www.galifesciences.org/micron-biomedical-celebrates-the-grand-opening-of-its-commercial-scale-manufacturing-site-in-georgia"
+      },
+      {
+        "summary": "BioLife Solutions Inc. plans to relocate its manufacturing and research operations in Indianapolis to a new $16 million, 40,000-square-foot facility in Noblesville, Indiana, by 2027, with an investment of $11 million in construction and $5 million in personal property, and the creation of at least 10 new full-time jobs, adding to 20 retained jobs.",
+        "location": "Noblesville, Indiana, USA",
+        "type_of_expansion": "New manufacturing and research facility (relocation and expansion)",
+        "investment_value": "$16M",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The establishment of a new, larger facility for biomanufacturing, research, and cold storage will generate substantial demand for lab supplies, equipment, and consumables.",
+        "source_url": "https://www.ibj.com/articles/life-sciences-firm-planning-16m-relocation-to-noblesville"
+      },
+      {
+        "summary": "The Massachusetts Institute of Technology (MIT) is establishing a new Quantum Systems Laboratory (QSL) in Cambridge with a state investment of $25 million, which will serve as a shared-use facility for quantum research, including applications in life sciences, and is expected to create over 220 permanent jobs.",
+        "location": "Cambridge, Massachusetts, USA",
+        "type_of_expansion": "New research facility",
+        "investment_value": "$25M",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The new quantum research lab, with its focus on life sciences applications, will require specialized scientific equipment, reagents, and lab consumables to support its advanced research activities.",
+        "source_url": "https://www.wgbh.org/news/education-news/2026-05-28/massachusetts-makes-25m-bet-on-quantum-research-lab-at-mit"
+      },
+      {
+        "summary": "Countable Labs has closed an oversubscribed $26 million financing round to accelerate clinical product development and global commercialization of its Countable PCR technology, supporting applications in cell and gene therapy, minimal residual disease testing, biomarker validation, and vaccine quality control.",
+        "location": "Undisclosed (global commercial expansion)",
+        "type_of_expansion": "Accelerated product development and global commercialization (implying lab and manufacturing expansion)",
+        "investment_value": "$26M",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This significant investment in product development and global commercialization signals increased demand for lab supplies, reagents, and consumables across various scientific applications, particularly in cell and gene therapy and molecular diagnostics.",
+        "source_url": "https://www.morningstar.com/news/business-wire/20260528682954/countable-labs-raises-26-million-to-accelerate-clinical-product-development-and-global-commercialization-of-countable-pcr"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:06:56.313543",
+  "ai_summary": "Multiple accounts are expanding, opening new biomanufacturing facilities (UCLA, Micron, BioLife) or research labs (MIT, Countable Labs). This signifies substantial new purchasing opportunities for lab supplies, reagents, and equipment. NIFTEM specifically requires ATCC microbiology reference cultures, highlighting a direct need for ATCC products and related consumables for quality control and R&D across these growing biotech and research operations."
+}

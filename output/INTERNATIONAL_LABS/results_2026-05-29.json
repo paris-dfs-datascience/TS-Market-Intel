@@ -1,0 +1,27 @@
+{
+  "account": "INTERNATIONAL LABS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G0000019qRhiIAE",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Isomorphic Labs, an AI-first drug design and development company, has secured $2.1 billion in Series B funding to scale its AI drug design engine, expand globally, and advance its drug candidate pipeline.",
+        "amount": 2100000000,
+        "funding_type": "Private Equity Funding Round",
+        "use_of_proceeds": "The new capital will be used for the continued development and deployment of Isomorphic Labs' AI drug design engine (IsoDDE), accelerating and expanding its pipeline of therapeutic programs towards the clinic, and supporting hiring for AI, engineering, drug design, and clinical talent across its sites.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This new capital will drive significant R&D activities and potential expansion of lab facilities, leading to increased demand for specialized lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T20:49:06.690223",
+  "ai_summary": "Isomorphic Labs secured $2.1 billion in Series B funding to scale its AI drug design engine, expand globally, and advance its drug candidate pipeline. This substantial investment signals a major growth phase, creating significant opportunities for lab supply sales. They will require new equipment, consumables, and reagents for expanded R&D, global facility setups, and increased drug discovery activities."
+}

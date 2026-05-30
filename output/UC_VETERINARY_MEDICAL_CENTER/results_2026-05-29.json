@@ -1,0 +1,58 @@
+{
+  "account": "UC VETERINARY MEDICAL CENTER",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000BJj37YAD",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Dr. Allan Gunn has joined the Department of Population Health and Reproduction at UC Davis School of Veterinary Medicine as Health Sciences Associate Clinical Professor of Livestock Herd Health and Reproduction. His research focuses on large animal medicine and reproduction.",
+        "name": "Dr. Allan Gunn",
+        "department": "Population Health and Reproduction",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-05",
+        "why_it_matters": "New faculty hires often require outfitting new labs with supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.vetmed.ucdavis.edu/news/dr-antonio-maria-tardo-joins-school-assistant-professor-small-animal-internal-medicine"
+      },
+      {
+        "summary": "Dr. Antonio Maria Tardo has joined the Department of Medicine and Epidemiology at UC Davis School of Veterinary Medicine as Assistant Professor of Small Animal Internal Medicine. His research focuses on small animal endocrinology, with a particular interest in canine and feline diabetes mellitus.",
+        "name": "Dr. Antonio Maria Tardo",
+        "department": "Medicine and Epidemiology",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-05",
+        "why_it_matters": "New faculty hires often require outfitting new labs with supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.vetmed.ucdavis.edu/news/dr-antonio-maria-tardo-joins-school-assistant-professor-small-animal-internal-medicine"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "The UC Davis Weill School of Veterinary Medicine received a $75 million gift from Bay Area residents Kathy Chiao and Kenneth Hao.",
+        "amount": 75000000,
+        "funding_type": "Philanthropic Gift",
+        "use_of_proceeds": "The gift will support the construction of a new small animal hospital, expand veterinary care facilities, fund animal-human translational medicine research projects, and increase space for student and specialty training.",
+        "event_date": "2026-04-23",
+        "why_it_matters": "This new capital will lead to increased demand for lab supplies, reagents, consumables, and scientific equipment for the new hospital, expanded facilities, and advanced research projects.",
+        "source_url": "https://giving.ucdavis.edu/impacts-giving/uc-davis-receives-75m-historic-gift-support-veterinary-medicine"
+      }
+    ],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "The UC Davis Weill School of Veterinary Medicine received a $75 million gift from Bay Area residents Kathy Chiao and Kenneth Hao. This is the second-largest individual gift ever made to the school. The gift will fund a new small animal hospital, scholarships, and animal-human translational medicine, accelerating innovative work and potential new discoveries for animals and humans. The new hospital will feature state-of-the-art equipment and integrate artificial intelligence and precision medicine.",
+        "researcher_name": "N/A",
+        "department_or_lab": "UC Davis Weill School of Veterinary Medicine",
+        "award_or_discovery": "$75 Million Gift from Kathy Chiao and Kenneth Hao",
+        "significance": "This significant philanthropic investment will accelerate innovative work in animal-human translational medicine and support the construction of a new state-of-the-art small animal hospital, which will include advanced equipment and integrate AI and precision medicine, leading to new discoveries and enhanced veterinary care.",
+        "event_date": "2026-04-23",
+        "why_it_matters": "This significant philanthropic investment signals increased high-impact research activity in translational medicine, oncology, orthopedic surgery, cardiology, neurology/neurosurgery, AI, and precision medicine, driving demand for advanced lab supplies, reagents, consumables, and scientific equipment for the new state-of-the-art small animal hospital and expanded research programs.",
+        "source_url": "https://www.ucdavis.edu/news/uc-davis-receives-75m-historic-gift-support-veterinary-medicine"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T07:06:38.251777",
+  "ai_summary": "UC Davis Vet Med is experiencing significant growth with two new faculty specializing in large animal reproduction and small animal endocrinology. A $75 million gift will fund a new state-of-the-art small animal hospital and accelerate translational medicine, integrating AI and precision medicine. This expansion and new research focus create substantial opportunities for lab supply sales, requiring new equipment and consumables for growing research programs and advanced facilities."
+}

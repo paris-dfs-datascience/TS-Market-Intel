@@ -1,0 +1,39 @@
+{
+  "account": "DREXEL UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1bhYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A $3.7 million grant from the National Institutes of Health on Nursing Research was awarded to A.J. Drexel Autism Institute researchers to examine how financial support from the U.S. Department of Housing and Urban Development impacts access and use of medical treatments, particularly for adults managing chronic health issues.",
+        "recipient": "A.J. Drexel Autism Institute researchers",
+        "department_or_lab": "A.J. Drexel Autism Institute",
+        "amount": "$3.7 million",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This grant indicates a need for research consumables, reagents, and equipment related to nursing research, chronic health issues, and potentially data analysis tools for studying medical treatment access and utilization.",
+        "source_url": "https://drexel.edu/soe/about/News/2026/May/drexel-academic-activity-winter-2026/"
+      },
+      {
+        "summary": "The AIRFoundry, an AI-driven research lab, was launched in April through an $18 million NSF grant, bringing together researchers from Penn, Children's Hospital of Philadelphia, Drexel University, and others to speed the development of RNA-based medicines, drug delivery systems, and other biotechnology applications.",
+        "recipient": "Researchers from Penn, Children's Hospital of Philadelphia, Drexel University, and others (as part of AIRFoundry)",
+        "department_or_lab": "AIRFoundry (a collaborative effort involving Drexel University)",
+        "amount": "$18 million",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This large NSF grant for an AI-driven biotech lab indicates significant demand for advanced scientific equipment, reagents for RNA-based medicines, and lab consumables for biotechnology research.",
+        "source_url": "https://whyy.org/articles/david-mccormick-tours-ai-powered-biotech-labs-at-penn/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:23:30.958102+00:00",
+  "ai_summary": "Drexel University secured significant grants: $3.7M from NIH for nursing research on chronic health issues and $18M from NSF for the AIRFoundry, an AI-driven lab developing RNA-based medicines and biotech. These signals indicate expanding research in healthcare, chronic disease management, and cutting-edge biotechnology, creating strong opportunities for lab supply sales in areas like molecular biology, drug discovery, and general research consumables."
+}

@@ -1,0 +1,160 @@
+{
+  "account": "ARIZONA STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "0011M00002FBO1dQAH",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Arizona State University has been awarded a federal contract from the Department of Defense to offer a new Master of Arts in War and Strategy program, training military officers and government civilians in national security efforts.",
+        "recipient": "Arizona State University",
+        "department_or_lab": "School of Civic and Economic Thought and Leadership (implied)",
+        "amount": "Approximately $10 million (three-year contract)",
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This new master's program will require ongoing supplies for educational materials, potentially specialized software, and administrative support for a new cohort of high-level military and government students.",
+        "source_url": "https://news.asu.edu/20260430-local-national-and-global-affairs-arizona-state-university-wins-federal-contract-masters-degree-war-strategy"
+      },
+      {
+        "summary": "The Southwest Advanced Prototyping (SWAP) Hub, led by Arizona State University, has been awarded $36.3 million in Year 2 funding from the Department of War under the CHIPS and Science Act for microelectronics projects, with ASU receiving approximately $34 million.",
+        "recipient": "Southwest Advanced Prototyping (SWAP) Hub, led by Arizona State University",
+        "department_or_lab": "ASU's MacroTechnologyWorks",
+        "amount": "$36.3 million (Year 2 funding), with approximately $34 million to ASU",
+        "agency": "Department of War (DoD)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Significant funding for microelectronics research indicates a strong demand for specialized lab equipment, materials, and consumables essential for advanced prototyping and semiconductor development.",
+        "source_url": "https://www.semiconductor-digest.com/asu-led-southwest-advanced-prototyping-hub-awarded-36-3m-for-second-year-of-funding-for-microelectronics-projects/"
+      },
+      {
+        "summary": "An Arizona State University research team, including Nicole Roberts and Ming Zhao, received a grant to develop AI tools for edge devices to improve healthcare outcomes for aging Veterans, focusing on combating loneliness and social isolation through the 'EdgeCare' project.",
+        "recipient": "Nicole Roberts and Ming Zhao (ASU research team)",
+        "department_or_lab": "School of Social and Behavioral Sciences (Nicole Roberts) and School of Computing and Augmented Intelligence (Ming Zhao)",
+        "amount": "Not specified",
+        "agency": "Department of Defense (implied)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The development of AI tools for healthcare will necessitate computing resources, specialized software, and potentially sensors or other edge devices for research and prototyping phases.",
+        "source_url": "https://azpbs.org/horizon/2026/05/asu-builds-new-tools-to-help-veterans-combat-loneliness-social-isolation/"
+      },
+      {
+        "summary": "The Department of Defense increased funding for the Purdue University-led Scalable Asymmetric Lifecycle Engagement (SCALE) consortium to over $100 million for microelectronics workforce development, with Arizona State University listed as one of the 35 partner universities.",
+        "recipient": "Purdue University-led SCALE consortium (including Arizona State University)",
+        "department_or_lab": "Not specified for ASU, generally related to microelectronics and engineering",
+        "amount": "Over $100 million (total for consortium); specific amount for ASU not disclosed",
+        "agency": "Department of Defense (DoD)",
+        "event_date": "2026-05-08",
+        "why_it_matters": "ASU's involvement in this large DoD-funded microelectronics workforce program suggests an increased demand for training equipment, lab supplies, and educational materials in semiconductor and AI-enabled systems.",
+        "source_url": "https://www.manufacturingdive.com/news/defense-purdue-scale-microelectronics-workforce-program-contract/819553/"
+      },
+      {
+        "summary": "Rakibul Hasan, an assistant professor of computer science and engineering at Arizona State University, received a 2026 National Science Foundation (NSF) Faculty Early Career Development Program (CAREER) Award to develop new methods for safeguarding sensitive data.",
+        "recipient": "Rakibul Hasan",
+        "department_or_lab": "School of Computing and Augmented Intelligence, Ira A. Fulton Schools of Engineering",
+        "amount": "Not specified (NSF CAREER Award)",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This prestigious award indicates new research in data privacy and cybersecurity, which will require computing infrastructure, specialized software, and potentially data storage solutions.",
+        "source_url": "https://news.asu.edu/b/20260522-fight-protect-student-data-age-ai"
+      },
+      {
+        "summary": "The NSF APPEX Center (Center for Analysis and Prediction of Pandemic Expansion) at Arizona State University officially relaunched, signifying continued National Science Foundation funding and activity in pandemic science research.",
+        "recipient": "NSF APPEX Center",
+        "department_or_lab": "NSF APPEX Center (Center for Analysis and Prediction of Pandemic Expansion)",
+        "amount": "Not specified (NSF-funded center)",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-05-12",
+        "why_it_matters": "Ongoing NSF funding for a pandemic science center suggests a continuous need for biological reagents, lab consumables, and potentially specialized equipment for infectious disease research and modeling.",
+        "source_url": "https://appex.org/news/"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Dr. Christina Flynn has been appointed as the research director for the newly launched CLIA-certified Autism Diagnostics Laboratory and a senior research scientist for Gut Brain Axis Therapeutics at Arizona State University, following her doctoral studies in chemical engineering through the Ira A. Fulton Schools of Engineering at ASU.",
+        "name": "Christina Flynn",
+        "department": "Biodesign Center for Health Through Microbiomes, Biodesign Institute",
+        "start_date": "2026-05-27",
+        "event_date": "2026-05-27",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://neurosciencenews.com/urine-test-microbial-metabolites-autism-30773/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "Arizona State University broke ground on its new 175,000-square-foot, five-story Health Headquarters building in downtown Phoenix, which will house its new medical and engineering school, clinical space, a simulation center, and various labs.",
+        "location": "Downtown Phoenix, Arizona, USA",
+        "type_of_expansion": "new facility",
+        "investment_value": null,
+        "event_date": "2026-05-10",
+        "why_it_matters": "This new facility will require a wide range of lab supplies, reagents, consumables, and scientific equipment for its medical and engineering research, clinical skills training, and simulation centers.",
+        "source_url": "https://aztechcouncil.org/asu-breaks-ground-on-downtown-phoenix-health-headquarters/"
+      },
+      {
+        "summary": "Arizona State University (ASU) intends to expand its existing direct air capture testbed to include a world-class team of experts and facilities for evaluating direct air capture systems, biomass carbon dioxide removal, and marine carbon dioxide removal pathways, with a total project value of over $8.6 million.",
+        "location": "Tempe, Arizona, USA",
+        "type_of_expansion": "capacity expansion",
+        "investment_value": 8682753,
+        "event_date": "2026-05-22",
+        "why_it_matters": "The expansion of this testbed facility will create new demand for specialized lab supplies, reagents, and scientific equipment for carbon capture, biomass processing, and marine carbon dioxide removal research.",
+        "source_url": "https://www.energy.gov/fossil/articles/project-selections-foa-3082-carbon-negative-shot-pilots"
+      }
+    ],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Arizona State University has launched a new Center for Heat Preparedness with a $2.6 million federal investment to develop predictive models, anticipate extreme heat events, and create practical solutions to mitigate heat impacts on various systems and public health.",
+        "project_name": "Center for Heat Preparedness",
+        "scope": "The center will focus on developing predictive models for extreme heat events, studying the impact of heat on power grids, transportation, and public health, and collaborating with city leaders and first responders to implement practical solutions such as improving cooling centers and expanding shade infrastructure.",
+        "timeline": "The establishment of a new center implies an ongoing, multi-year research effort, supported by a significant initial federal investment.",
+        "event_date": "2026-05-09",
+        "why_it_matters": "This new research center will likely drive demand for environmental monitoring equipment, specialized sensors for heat stress analysis, data acquisition systems, and laboratory consumables for studies related to public health and material science in extreme heat conditions.",
+        "source_url": "https://www.youtube.com/watch?v=ySDFyce5jHk"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Two Arizona State University professors, Robert E. Page Jr. and Amber Wutich, were elected to the prestigious National Academy of Sciences, one of the highest honors awarded to scientists in the United States, recognizing their distinguished and continuing achievements in original research.",
+        "researcher_name": "Robert E. Page Jr., Amber Wutich",
+        "department_or_lab": "School of Life Sciences (Page), School of Human Evolution and Social Change (Wutich)",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "This is one of the highest honors awarded to scientists in the United States, recognizing exceptional scholarly achievement and distinguished contributions to their field. It elevates ASU's national research profile and strengthens its position as a major contributor to high-impact research.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This honor signals sustained, high-level research activity and potential for increased funding and collaboration, driving demand for advanced scientific equipment and specialized reagents.",
+        "source_url": "https://news.asu.edu/20260501-science-and-technology-2-asu-professors-elected-prestigious-national-academy-sciences"
+      },
+      {
+        "summary": "Researchers at Arizona State University made a breakthrough discovery that fog droplets are not merely suspended water particles but can function as active microscopic ecosystems filled with living bacteria capable of removing atmospheric pollutants like formaldehyde.",
+        "researcher_name": "Thi Thuong Thuong Cao, Ferran Garcia-Pichel, Soumyadev Sarkar, Pierre Herckes",
+        "department_or_lab": "ASU Biodesign Center for Fundamental and Applied Microbiomics, School of Life Sciences",
+        "award_or_discovery": "Breakthrough discovery that fog droplets are active microbial ecosystems capable of pollutant degradation",
+        "significance": "Described as a \"breakthrough study that could redefine how scientists understand the atmosphere,\" these findings, published in mBio, challenge the long-held view of fog as chemically passive moisture.",
+        "event_date": "2026-05-16",
+        "why_it_matters": "This breakthrough in microbiology and atmospheric science indicates high-impact research requiring specialized equipment for microbial analysis, atmospheric sampling, and potentially bioremediation studies, leading to demand for related lab supplies.",
+        "source_url": "https://www.indiablooms.com/health/did-you-know-fog-contains-bacteria-that-can-eat-pollutants-and-clean-the-air-new-study-reveals/details"
+      },
+      {
+        "summary": "Hao Yan, a professor in Arizona State University's School of Molecular Sciences and director of the Biodesign Center for Molecular Design and Biomimetics, was elected to the European Academy of Sciences and Arts for his pioneering work in structural DNA nanotechnology.",
+        "researcher_name": "Hao Yan",
+        "department_or_lab": "School of Molecular Sciences, Biodesign Center for Molecular Design and Biomimetics",
+        "award_or_discovery": "Election to the European Academy of Sciences and Arts for pioneering work in structural DNA nanotechnology",
+        "significance": "The European Academy of Sciences and Arts is a prestigious international institution that includes dozens of Nobel laureates, and membership is reserved for scholars whose work has transformed their fields. Yan's pioneering work has \"changed the direction of entire fields\" by building molecular devices and engineered programmable materials.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This prestigious international recognition for DNA nanotechnology signals advanced research in molecular design and biomimetics, driving demand for specialized reagents, microscopy, and synthesis equipment.",
+        "source_url": "https://news.asu.edu/20260501-science-and-technology-2-asu-professors-elected-prestigious-national-academy-sciences"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "A city of Tempe waterline replacement project will cause temporary, planned shutdowns of fire waterline services in several Arizona State University research and academic buildings from May 18 through August 19, 2026, with actual service shutdowns expected in July.",
+        "facility_or_programme": "Engineering Center G, Engineering Research Center, Goldwater Center, ISTB II, ISTB II Support, ISTB V, Noble Science Library, Physical Sciences Center F, Psychology Building, Psychology North, Research Support Services 1, Tyler Mall Cantina, Urban Systems Engineering, Wexler Hall",
+        "closure_type": "Temporary service shutdown (fire waterline services)",
+        "effective_date": null,
+        "reason": "City of Tempe waterline replacement project",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Temporary disruptions to fire waterline services in ASU research and academic facilities could lead to temporary lab closures or reduced operations, creating a short-term churn risk for consumables and reagents, and potential demand for alternative lab spaces or services.",
+        "source_url": "https://cfo.asu.edu/article/20260518-tempe-campus-impacted-city-waterline-work"
+      }
+    ]
+  },
+  "timestamp": "2026-05-30T11:16:04.152101+00:00",
+  "ai_summary": "Arizona State University is experiencing massive expansion with new health and engineering buildings, significant federal grants for microelectronics, AI, defense, and environmental research, and new research centers. This surge in funding and facility growth across diverse scientific fields indicates a substantial and ongoing need for a wide array of lab supplies, equipment, and consumables for new and expanding research projects and educational programs."
+}

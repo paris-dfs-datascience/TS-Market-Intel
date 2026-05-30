@@ -1,0 +1,121 @@
+{
+  "account": "STAAR SURGICAL",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "0011M00002FBPu4QAH",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Sanford Burnham Prebys Medical Discovery Institute, in collaboration with Duke University and the University of Minnesota, received a $3.9 million NIH grant to develop a non-opioid pain therapeutic and advance it into a Phase 1 clinical trial.",
+        "recipient": "Sanford Burnham Prebys Medical Discovery Institute",
+        "department_or_lab": "Steven H. Olson, PhD (Sanford Burnham Prebys), Ru-Rong Ji, PhD (Duke University), Lauren M. Slosky, PhD (University of Minnesota)",
+        "amount": "$3.9 million",
+        "agency": "National Institute of Neurological Disorders and Stroke (NIH HEAL Initiative)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This grant indicates a need for lab supplies and reagents for drug discovery, medicinal chemistry, receptor signaling, efficacy testing, cryo-electron microscopy, and artificial intelligence applications in pain research.",
+        "source_url": "https://www.sbpdiscovery.org/news/sanford-burnam-prebys-awarded-39-million-nih-grant-develop-first-class-non-opioid-pain-treatment"
+      },
+      {
+        "summary": "The University of Tennessee Medical Center received a $7 million state appropriation to support its pursuit of National Cancer Institute designation.",
+        "recipient": "University of Tennessee Medical Center",
+        "department_or_lab": "N/A",
+        "amount": "$7 million",
+        "agency": "State of Tennessee (for NCI designation efforts)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This investment indicates a significant expansion of cancer research and treatment capabilities at UT Medical Center, leading to increased demand for specialized lab equipment and consumables.",
+        "source_url": "https://www.utmedicalcenter.org/news/states-7m-investment-moves-ut-medical-closer-to-national-cancer-institute-designation/"
+      },
+      {
+        "summary": "The Cancer Center at Illinois (CCIL) received designation from the National Cancer Institute (NCI), becoming the nation's 74th NCI-Designated Cancer Center and the 8th Basic Cancer Center.",
+        "recipient": "The Cancer Center at Illinois (CCIL)",
+        "department_or_lab": "Rohit Bhargava, PhD, Phillip and Ann Sharp Director of CCIL",
+        "amount": "N/A",
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "NCI designation for CCIL signifies a major increase in cancer research activities, driving demand for a wide range of lab supplies, reagents, and equipment.",
+        "source_url": "https://aaci-cancer.org/news/aaci-update-may-2026/"
+      },
+      {
+        "summary": "NYU Langone Health received a nearly $70 million, seven-year renewal grant from the NIH to fund its Clinical and Translational Science Institute (CTSI).",
+        "recipient": "NYU Langone Health",
+        "department_or_lab": "Clinical and Translational Science Institute (CTSI), directed by Miriam A. Bredella, MD, MBA",
+        "amount": "Nearly $70 million",
+        "agency": "National Institutes of Health (NIH Clinical and Translational Science Awards Program)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This substantial renewal grant for a Clinical and Translational Science Institute indicates sustained and expanded research activities, leading to ongoing demand for a broad range of lab supplies, reagents, and equipment.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-secures-nearly-70-million-nih-grant-accelerate-scientific-discovery"
+      },
+      {
+        "summary": "Congressman Steve Cohen announced $2,543,243 in NIH grants to the University of Tennessee Health Science Center (UTHSC) and St. Jude Children's Research Hospital for hearing loss research.",
+        "recipient": "University of Tennessee Health Science Center (UTHSC) and St. Jude Children's Research Hospital",
+        "department_or_lab": "UTHSC: Dr. Max L. Fletcher, Dr. Stanislav S. Zakharenko; St. Jude: Dr. Wei Li, Dr. Jian Zuo, Dr. Andrew Rosch",
+        "amount": "$2,543,243",
+        "agency": "National Institute on Deafness and Other Communication Disorders (NIH)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "These NIH grants for hearing loss research at UTHSC and St. Jude indicate new or expanded projects requiring specialized lab supplies, reagents, and equipment for neuroscience and communication disorders research.",
+        "source_url": "https://cohen.house.gov/media-center/press-releases/congressman-cohen-announces-25-million-nih-grants-uthsc-and-st-jude"
+      },
+      {
+        "summary": "Senator Cindy Hyde-Smith received commitments from NIH officials to work with the University of Mississippi Medical Center (UMMC) in its bid for National Cancer Institute (NCI) designation.",
+        "recipient": "University of Mississippi Medical Center (UMMC)",
+        "department_or_lab": "N/A",
+        "amount": "N/A (commitment for support towards designation)",
+        "agency": "National Institutes of Health (NIH) / National Cancer Institute (NCI)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This commitment from NIH/NCI signals a strong likelihood of UMMC achieving NCI designation, which will significantly increase its cancer research infrastructure and demand for lab supplies.",
+        "source_url": "https://www.hydesmith.senate.gov/hyde-smith-lines-nih-support-ummc-national-cancer-institute-designation"
+      },
+      {
+        "summary": "The Pershing Square Foundation announced $6 million in funding to support eight pioneering scientists advancing innovative ovarian cancer research across the United States through its 2026 Lotus Award Recipients program.",
+        "recipient": "Eight pioneering scientists (unnamed in source)",
+        "department_or_lab": "Ovarian cancer research",
+        "amount": "$6 million",
+        "agency": "The Pershing Square Foundation",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This significant funding for ovarian cancer research will create demand for specialized reagents, cell culture supplies, and equipment used in oncology and molecular biology labs.",
+        "source_url": "https://www.businesswire.com/news/home/20260529005080/en/The-Pershing-Square-Foundation-Announces-Its-2026-Lotus-Award-Recipients"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Medical Readiness Contracting Office \u2013 West (MRCO-W) intends to award a Firm Fixed-Price sole source purchase order to STAAR Surgical Company for Food and Drug Administration (FDA) approved EVO Toric Lenses and EVO Lenses for the Carl R. Darnall Army Medical Center.",
+        "contract_name": "Sole Source Purchase Order for EVO Toric Lenses and EVO Lenses",
+        "estimated_value": "$1,655,866.00",
+        "deadline_or_expiration": "2031-09-30",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This sole source award to STAAR Surgical for ophthalmic lenses at a military medical center indicates a stable, long-term demand for specialized surgical supplies and potentially related consumables or equipment that Thomas Scientific could supply to similar facilities.",
+        "source_url": "https://www.highergov.com/contract-opportunity/notice-of-intent-to-award-sole-source-food-and-dru-0012413751-s-ec2aa/"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "STAAR Surgical reported a strong launch of its EVO+ ICL in China, indicating a successful market entry and adoption of the product in a key region.",
+        "product_or_program": "EVO+ ICL",
+        "stage": "Commercial Launch/Market Adoption",
+        "therapeutic_or_application_area": "Vision Correction (Myopia and Astigmatism)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "The successful launch of a new product in a major market like China indicates increased demand for related surgical and diagnostic supplies, reagents, and consumables.",
+        "source_url": "https://investors.staar.com/news-and-events/press-releases/2026/05-13-2026-210133481"
+      },
+      {
+        "summary": "STAAR Surgical received FDA approval to expand the indication for its EVO ICL to include patients aged 45-60, significantly broadening its addressable market in the U.S.",
+        "product_or_program": "EVO ICL",
+        "stage": "Regulatory Approval / Market Expansion",
+        "therapeutic_or_application_area": "Vision Correction (Myopia and Astigmatism)",
+        "event_date": "2026-05-13",
+        "why_it_matters": "An expanded patient indication for an existing product broadens the potential market, leading to increased procedures and demand for associated lab supplies, reagents, consumables, and equipment.",
+        "source_url": "https://investors.staar.com/news-and-events/press-releases/2026/05-13-2026-210133481"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:11:52.673157",
+  "ai_summary": "STAAR Surgical is expanding its market via new product launches, FDA approvals, and securing lens contracts. Concurrently, numerous hospitals and research institutions are receiving significant grants for cancer research, clinical trials, and NCI designations. This robust funding signals increased research activity and facility development, creating substantial demand for lab supplies at these accounts."
+}

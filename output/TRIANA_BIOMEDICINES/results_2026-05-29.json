@@ -1,0 +1,32 @@
+{
+  "account": "TRIANA BIOMEDICINES",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0018Y00002pfjMgQAI",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "TRIANA Biomedicines' investigational molecular glue degrader therapy, TRI-611, was granted U.S. FDA Fast Track designation for the treatment of ALK-positive non-small cell lung cancer.",
+        "product_or_site": "TRI-611",
+        "regulatory_action": "Fast Track Designation",
+        "outcome": "Granted",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Fast Track designation indicates the potential for expedited development and review, suggesting an accelerated path to market and earlier demand for related lab supplies.",
+        "source_url": "https://www.businesswire.com/news/home/20260518005273/en/TRIANA-Biomedicines-Announces-the-Appointment-of-Mohan-Bala-as-Chief-Operating-Officer-and-Attracts-Leading-Experts-to-its-Scientific-Advisory-Board"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:52:45.352161",
+  "ai_summary": "TRIANA Biomedicines' lead drug, TRI-611, received FDA Fast Track designation for ALK-positive NSCLC, signaling accelerated development. This regulatory milestone suggests increased R&D activity and potential for expanded clinical trials. For lab supply sales, this means a likely surge in demand for reagents, consumables, and equipment to support ongoing research, development, and future manufacturing needs as the company pushes this promising therapy forward."
+}

@@ -1,0 +1,98 @@
+{
+  "account": "ALLIED",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1D7YAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The ACS Green Chemistry Institute Pharmaceutical Roundtable (GCIPR) issued RFPs for Ignition Grants ($40,000) and Key Research Area Grants ($80,000) to explore greener chemistries for pharma and allied industries, with proposals due May 1, 2026.",
+        "contract_name": "2026 GCIPR Ignition Grant RFP / 2026 Key Research Area Grants",
+        "estimated_value": "$40,000 (Ignition Grants) and $80,000 (Key Research Area Grants)",
+        "deadline_or_expiration": "2026-05-01",
+        "event_date": "2026-05-01",
+        "why_it_matters": "These grants fund research in pharmaceutical and allied industries, explicitly allowing for the purchase of laboratory supplies, indicating upcoming demand for Thomas Scientific's products.",
+        "source_url": "https://acsgcipr.org/funding-awards/research-grants/"
+      }
+    ],
+    "expansion": [],
+    "funding": [
+      {
+        "summary": "Allied Critical Metals Inc. announced a corporate and operational update, including securing a U.S.$40 million financing and tungsten off-take agreement. The company is fully funded for the next 12 months with over $45 million in cash liquidity. The financing will support a 20,000-meter drilling campaign at the Borralha Project and aims for first tungsten concentrate production in Q4 2026.",
+        "amount": "40,000,000 USD",
+        "funding_type": "Financing and off-take agreement",
+        "use_of_proceeds": "20,000-meter drilling campaign, tungsten concentrate production, operational plans, and general corporate purposes to fast-track tungsten concentrates production.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Increased tungsten production capacity indicates upcoming demand for lab supplies and equipment for mineral processing, quality control, and research and development in the mining and metals sector.",
+        "source_url": "https://alliedcritical.com/2026/05/20/allied-critical-metals-announces-corporate-update-and-operational-update/"
+      },
+      {
+        "summary": "K3Metrology closed a $3.5 million seed funding round to advance its Metralis laser-based coordinate measurement system. This system is designed to help advanced manufacturers improve precision and automation in their processes.",
+        "amount": "3,500,000 USD",
+        "funding_type": "Seed funding round",
+        "use_of_proceeds": "Development and scaling of Metralis laser-based coordinate measurement system for advanced manufacturing.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The development and scaling of advanced manufacturing measurement systems will drive demand for precision lab equipment, calibration tools, and related consumables for quality assurance and R&D.",
+        "source_url": "https://www.trysignalbase.com/news/funding/k3metrology-secures-35"
+      }
+    ],
+    "project": [
+      {
+        "summary": "The Australian Government announced a significant investment of $169.7 million over five years, with ongoing funding, to increase fees for allied health providers treating veterans through the Department of Veterans' Affairs (DVA) from July 1, 2027. This is the largest increase in allied health fees for veterans in over 20 years and is part of the 2026-27 Federal Budget, responding to recommendations from the Royal Commission into Defence and Veteran Suicide.",
+        "project_name": "Increased Allied Health Funding for Australian Veterans (DVA)",
+        "scope": "The funding will increase fees for a broad range of allied health services, including physiotherapy, psychology, occupational therapy, exercise physiology, podiatry, speech pathology, dietetics, and social work. The existing 12-session treatment cycle will be removed, and a $5,000 annual monetary limit for allied health services will be established from July 1, 2027, with a mechanism for additional funding for clinically indicated needs.",
+        "timeline": "$169.7 million over five years from 2025-26, with $58.8 million per year ongoing. The increased fees and the annual monetary limit will commence from July 1, 2027.",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This substantial government investment in allied health services for veterans is expected to increase the demand for a wide array of scientific supplies, diagnostic equipment, and rehabilitation consumables used by various allied health professionals across Australia.",
+        "source_url": "https://www.dva.gov.au/about-us/publications/budgets/budget-2026-27/changes-for-allied-health-from-july-2027"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "Janet S. Lee, MD, has been installed as the inaugural Selma and Herman Seldin Distinguished Professor of Medicine at WashU Medicine, recognizing her work in pulmonary and critical care medicine, including the discovery that thrombospondin-1 can reduce harmful inflammation in severe pneumonia.",
+        "researcher_name": "Janet S. Lee, MD",
+        "department_or_lab": "Division of Pulmonary & Critical Care Medicine, John T. Milliken Department of Medicine, WashU Medicine",
+        "award_or_discovery": "Inaugural Selma and Herman Seldin Distinguished Professor of Medicine; Discovery of thrombospondin-1's role in reducing inflammation in severe pneumonia",
+        "significance": "This appointment recognizes Dr. Lee's international leadership and groundbreaking research in understanding and treating acute lung injury, translating fundamental scientific discoveries into advances in patient care.",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This endowed professorship and ongoing research signal sustained, high-impact activity in pulmonary and critical care medicine, likely driving demand for advanced reagents, cell culture supplies, and specialized equipment for lung disease research.",
+        "source_url": "https://www.miragenews.com/lee-appointed-first-seldin-distinguished-1683223/"
+      },
+      {
+        "summary": "The FDA approved Veppanu (vepdegestrant), developed by Arvinas in partnership with Pfizer, as the first approved PROteolysis TArgeting Chimera (PROTAC) therapy globally for estrogen receptor-positive (ER+), HER2-negative, ESR1-mutated advanced or metastatic breast cancer.",
+        "researcher_name": "Arvinas (in partnership with Pfizer)",
+        "department_or_lab": null,
+        "award_or_discovery": "First Approved PROTAC Therapy (Veppanu/vepdegestrant)",
+        "significance": "This approval marks a fundamentally different approach to targeted therapy, representing a significant breakthrough in breast cancer treatment by introducing a new drug class.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The approval of the first PROTAC therapy indicates a surge in research and development in targeted protein degradation, increasing demand for specialized reagents, protein analysis tools, and cell line development consumables.",
+        "source_url": "https://www.geneonline.com/5-fda-first-in-class-approvals-in-2026-new-mechanisms-new-modalities-new-markets/"
+      },
+      {
+        "summary": "The FDA granted accelerated approval to Beqalzi (sonrotoclax), developed by BeOne Medicines, as the first and only BCL-2 inhibitor approved specifically for relapsed or refractory mantle cell lymphoma (MCL).",
+        "researcher_name": "BeOne Medicines",
+        "department_or_lab": null,
+        "award_or_discovery": "First and only BCL-2 inhibitor for MCL (Beqalzi/sonrotoclax)",
+        "significance": "Beqalzi is the first new BCL-2 inhibitor approved in the United States in a decade, targeting an anti-apoptotic protein overexpressed by cancer cells to evade programmed cell death.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This first-in-class approval for MCL suggests increased research into BCL-2 inhibition and related pathways, driving demand for oncology reagents, cell signaling assay kits, and high-throughput screening consumables.",
+        "source_url": "https://www.geneonline.com/5-fda-first-in-class-approvals-in-2026-new-mechanisms-new-modalities-new-markets/"
+      },
+      {
+        "summary": "The FDA approved Baxfendy (baxdrostat), developed by AstraZeneca, as the first aldosterone synthase inhibitor (ASI) for the treatment of hypertension, representing the first mechanistically new antihypertensive drug class in decades.",
+        "researcher_name": "AstraZeneca",
+        "department_or_lab": null,
+        "award_or_discovery": "First Aldosterone Synthase Inhibitor (ASI) for hypertension (Baxfendy/baxdrostat)",
+        "significance": "This approval introduces a novel mechanism to address hypertension, a leading modifiable cardiovascular risk factor, by targeting the hormonal driver of the disease.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The introduction of a new class of antihypertensive drugs will stimulate research into cardiovascular disease mechanisms and drug development, increasing demand for blood pressure monitoring equipment, biochemical assay kits, and cell culture media for cardiovascular research.",
+        "source_url": "https://www.geneonline.com/5-fda-first-in-class-approvals-in-2026-new-mechanisms-new-modalities-new-markets/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T11:14:24.930789+00:00",
+  "ai_summary": "ALLIED (Education_Research) is experiencing increased research activity, driven by new funding opportunities for greener chemistry and significant pharmaceutical breakthroughs inspiring related academic studies. A new professorship at WashU also signals ongoing advanced medical research. These developments create strong demand for specialized lab supplies, reagents, and equipment, presenting key sales opportunities for our team."
+}

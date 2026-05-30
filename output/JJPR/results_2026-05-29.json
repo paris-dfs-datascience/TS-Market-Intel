@@ -1,0 +1,79 @@
+{
+  "account": "JJPR",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nOkdwYAC",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Cancer Center at Illinois (CCIL) has received designation from the National Cancer Institute (NCI), becoming the nation's 74th NCI-Designated Cancer Center and the 8th Basic Cancer Center to earn designation.",
+        "recipient": "The Cancer Center at Illinois (CCIL)",
+        "department_or_lab": "Basic Cancer Center",
+        "amount": "Not specified",
+        "agency": "National Cancer Institute (NCI)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This new NCI designation indicates increased research activity and funding at the Cancer Center at Illinois, creating potential demand for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.aaci-cancer.org/aaci-update-may-2026"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "A prospective, randomized, double-blind trial investigated the analgesic effects of acupressure needle therapy combined with lumbar plexus block for anesthesia in elderly patients undergoing unilateral hip arthroplasty.",
+        "product_or_program": "Acupressure Needle Therapy Combined with Lumbar Plexus Block",
+        "stage": "Clinical Trial (Prospective, randomized, double-blind trial)",
+        "therapeutic_or_application_area": "Perioperative analgesia, pain management, hip arthroplasty",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new treatment protocol for pain management in hip arthroplasty could drive demand for anesthesia-related consumables, pain assessment tools, and potentially acupressure-related supplies.",
+        "source_url": "https://www.dovepress.com/acupressure-needle-therapy-combined-with-lumbar-plexus-block-in-patien-peer-reviewed-fulltext-article-JPR"
+      },
+      {
+        "summary": "This research estimated the cost-effectiveness of Differential Target Multiplexed Spinal Cord Stimulation (DTM-SCS) for Persistent Spinal Pain Syndrome Type 1 (PSPS T1) in Belgium, using data from a randomized controlled clinical trial where patients were implanted with the Medtronic Intellis\u2122 97715 rechargeable SCS system.",
+        "product_or_program": "Differential Target Multiplexed Spinal Cord Stimulation (DTM-SCS) with Medtronic Intellis\u2122 97715 rechargeable SCS system",
+        "stage": "Clinical Trial (cost-effectiveness analysis based on RCT data)",
+        "therapeutic_or_application_area": "Chronic neuropathic back and leg pain, Persistent Spinal Pain Syndrome Type 1 (PSPS T1)",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The use of advanced spinal cord stimulation systems indicates a need for surgical equipment, implantable devices, and potentially pain management consumables.",
+        "source_url": "https://www.tandfonline.com/doi/full/10.2147/JPR.S596123"
+      },
+      {
+        "summary": "This preprint investigates the effects of subcutaneously administered GLP-1 analogs, semaglutide and lixisenatide, in a mouse model of Parkinson's disease, noting their ability to reverse motor and non-motor deficits and normalize dysregulation. It also references previous Phase II clinical trials for lixisenatide and ongoing trials for semaglutide in PD patients.",
+        "product_or_program": "GLP-1 analogs (semaglutide, lixisenatide)",
+        "stage": "Preclinical research (mouse model) with references to ongoing and completed Phase II clinical trials",
+        "therapeutic_or_application_area": "Parkinson's disease, neurodegenerative disorders",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Ongoing and referenced clinical trials for GLP-1 analogs in Parkinson's disease suggest demand for reagents, consumables, and equipment for neurological research, drug development, and clinical trial support.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.726024v1"
+      },
+      {
+        "summary": "A single-center, retrospective cohort study compared the clinical effectiveness and safety of intra-articular corticosteroid (IAC) injections versus radiofrequency ablation (RFA) for advanced hip osteoarthritis.",
+        "product_or_program": "Intra-articular corticosteroid injection (IAC) and radiofrequency ablation (RFA)",
+        "stage": "Retrospective Cohort Study (comparing existing treatment protocols)",
+        "therapeutic_or_application_area": "Advanced hip osteoarthritis, chronic pain management",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This study comparing treatment effectiveness could lead to updated treatment protocols, driving demand for supplies related to injections, ablation procedures, and pain assessment.",
+        "source_url": "https://agridergisi.com/full-text/975/eng"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "MeiraGTx and Janssen, a Johnson & Johnson company, announced an Asset Purchase Agreement for MeiraGTx's gene therapy candidate for the treatment of X-linked retinitis pigmentosa (XLRP). The agreement includes up to $415 million in payments to MeiraGTx, comprising $130 million in upfront and near-term milestone payments, and an additional $285 million upon first commercial sales of bota-vec in the U.S. and EU, as well as manufacturing technology transfer.",
+        "project_name": "XLRP Gene Therapy (bota-vec)",
+        "scope": "Development and commercialization of a gene therapy candidate for X-linked retinitis pigmentosa.",
+        "timeline": "Upfront and near-term milestone payments, with additional payments upon first commercial sales.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This significant investment by Janssen in a gene therapy program will drive demand for specialized reagents, consumables, and equipment required for gene therapy research, development, and manufacturing.",
+        "source_url": "https://meiragtx.com/latest-news/"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:04:29.867955",
+  "ai_summary": "JJPR is actively investing in gene therapy, evidenced by Janssen's significant asset purchase for XLRP treatment. Concurrently, preclinical research into GLP-1 analogs for Parkinson's disease indicates ongoing drug discovery efforts. These initiatives, alongside the broader expansion of cancer research with new NCI-designated centers, signal a growing need for specialized lab supplies, reagents, and equipment across oncology, neuroscience, and gene therapy R&D, creating prime sales opportunities."
+}

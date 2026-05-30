@@ -1,0 +1,50 @@
+{
+  "account": "BIOAGILYTIX",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1ZoYAK",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "BioAgilytix highlighted the continued impact of its strategic investment in GMP testing capabilities in Morrisville, North Carolina, and Hamburg, Germany, one year after the expansion, demonstrating expanded GMP analytical capacity.",
+        "product_or_program": "Expanded GMP analytical capacity; GMP testing services",
+        "stage": "Expansion/Manufacturing support",
+        "therapeutic_or_application_area": "Advanced therapeutics, pharmacokinetics (PK), immunogenicity, biomarkers, GMP testing, and Analytical services",
+        "event_date": "2026-05-14",
+        "why_it_matters": "A lab supply sales rep should engage this account now because BioAgilytix's expanded GMP analytical capacity and ongoing investments in technology indicate increased demand for lab supplies, reagents, and equipment to support their growing client programs.",
+        "source_url": "https://www.google.com/search?q=time+in+Wake+County,+US"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "BioAgilytix highlighted the continued impact of its strategic investment in GMP testing capabilities in Morrisville, North Carolina, and Hamburg, Germany, one year after the initial expansion. This initiative established dedicated GMP QC laboratory infrastructure and strengthened the company's ability to support GMP analytical testing programs for advanced therapeutics.",
+        "project_name": "Expanded GMP Analytical Capacity in Morrisville, NC and Hamburg, Germany",
+        "scope": "Dedicated GMP QC laboratory infrastructure and enhanced GMP analytical testing programs, including state-of-the-art biochemistry lab supporting product characterization testing and expanded bioassay capability, across U.S. and European laboratories.",
+        "timeline": "Ongoing impact and investments one year after the initial strategic expansion, with continued focus on technology, capacity, and scientific leadership.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The expansion of GMP QC laboratory infrastructure and analytical testing capabilities will directly increase demand for specialized lab equipment, reagents, and consumables to support the heightened volume and complexity of advanced therapeutic programs.",
+        "source_url": "https://www.bioagilytix.com/newsroom/press-releases/bioagilytix-demonstrates-expanded-gmp-analytical-capacity-one-year-after-strategic-investment-in-morrisville"
+      }
+    ],
+    "regulatory": [
+      {
+        "summary": "BioAgilytix highlighted the continued impact of its strategic investment in GMP testing capabilities in Morrisville, North Carolina, and Hamburg, Germany, one year after the expansion.",
+        "product_or_site": "Morrisville, North Carolina, and Hamburg, Germany facilities",
+        "regulatory_action": "Strategic investment in GMP testing capabilities",
+        "outcome": "Expanded GMP analytical capacity and strengthened ability to support GMP analytical testing programs",
+        "event_date": "2026-05-14",
+        "why_it_matters": "Expanded GMP capacity indicates potential for increased demand for lab supplies and equipment to support enhanced testing programs.",
+        "source_url": "https://www.bioagilytix.com/about/newsroom/press-releases/"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:01:58.058554",
+  "ai_summary": "BioAgilytix is successfully leveraging its expanded GMP testing capabilities in Morrisville, NC, and Hamburg, Germany, one year after strategic investments. This has significantly increased their GMP analytical capacity and strengthened support for advanced therapeutics. For lab supply sales, this signals a growing need for GMP-grade reagents, consumables, and equipment to support their expanded operations and dedicated QC lab infrastructure."
+}

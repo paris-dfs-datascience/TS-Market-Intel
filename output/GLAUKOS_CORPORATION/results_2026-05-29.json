@@ -1,0 +1,41 @@
+{
+  "account": "GLAUKOS CORPORATION",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Glaukos Corporation announced advancements in its interventional glaucoma pipeline, including iDose TRIO in Phase 3b and iDose TREX, a next-generation iDose TR variant designed to carry approximately twice the drug capacity for potentially longer duration, which is advancing into a Phase 2b/3 clinical program. Initial Phase 2a results for iDose TREX indicated robust intraocular pressure (IOP)-lowering.",
+        "product_or_program": "iDose TRIO, iDose TREX (next-generation iDose TR)",
+        "stage": "Phase 3b (iDose TRIO), Phase 2b/3 (iDose TREX)",
+        "therapeutic_or_application_area": "Glaucoma (reduction of intraocular pressure)",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This indicates Glaukos is actively developing advanced glaucoma therapies, suggesting future demand for clinical trial supplies and eventual commercial launch supplies for these improved products.",
+        "source_url": "https://www.stocktitan.net/sec-filings/GKOS/8-k-glaukos-corp-reports-material-event-fbc9a4b5ff5d.html"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Glaukos Corporation announced its first-quarter 2026 financial results, reporting a 36% increase in research and development (R&D) expenses to $44.1 million, indicating continued investment in its ophthalmic pipeline.",
+        "project_name": "Ongoing Clinical Program Advancement (iDose TREX, iDose TRIO, iDose TR Phase 4 Studies) supported by increased R&D investment",
+        "scope": "Increased R&D investment of $44.1 million for Q1 2026, supporting the advancement of multiple clinical programs focused on glaucoma, corneal disorders, and retinal diseases, including the Phase 2b/3 clinical program for iDose TREX, the Phase 3b study for iDose TRIO, and various Phase 4 studies for iDose TR.",
+        "timeline": "Ongoing, with Q1 2026 R&D expenses reflecting current investment.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant investment in research and development and the advancement of multiple clinical programs will drive demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for ongoing research and clinical trials.",
+        "source_url": "https://www.businesswire.com/news/home/20260429247646/en/Glaukos-Announces-First-Quarter-2026-Financial-Results"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:01:33.969660",
+  "ai_summary": "Glaukos is significantly increasing R&D investment and advancing its glaucoma drug pipeline, including iDose TRIO and iDose TREX, into later-stage clinical trials. This signals a growing need for lab supplies, reagents, and equipment to support their expanded research, development, and clinical testing activities. Sales teams should engage to capitalize on these increased demands."
+}

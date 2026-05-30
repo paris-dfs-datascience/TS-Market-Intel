@@ -1,0 +1,32 @@
+{
+  "account": "PHENOMENEX",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP199YAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "The U.S. Food and Drug Administration (FDA) granted approval for VEPPANU (vepdegestrant), developed by Arvinas and Pfizer, for the treatment of adults with estrogen receptor-positive (ER+)/human epidermal growth factor receptor 2-negative (HER2-), estrogen receptor 1 (ESR1)-mutated advanced or metastatic breast cancer. A Phenomenex Luna C18 column was used in the preparative HPLC purification of the drug substance.",
+        "product_or_site": "Phenomenex Luna C18 column (used in Vepdegestrant purification)",
+        "regulatory_action": "NDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The approval of Vepdegestrant, which utilized a Phenomenex Luna C18 column in its purification process, indicates potential for increased demand for Phenomenex chromatography columns and related lab supplies as manufacturing scales up for commercial production.",
+        "source_url": "https://www.targetedonc.com/view/fda-approves-vepdegestrant-for-esr1-mutated-er-her2-advanced-breast-cancer-69-characters-"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:42:22.974779",
+  "ai_summary": "Phenomenex's Luna C18 column was integral to VEPPANU's preparative HPLC purification, a new FDA-approved breast cancer drug from Arvinas and Pfizer. This validates Phenomenex's product quality for drug development. For sales, this means potential for increased demand for the Luna C18 column for ongoing manufacturing and offers a strong case study to attract new biopharma clients, showcasing proven expertise."
+}

@@ -1,0 +1,129 @@
+{
+  "account": "SCSTATE NASPO",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DhYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The Department of Health and Human Services, Food and Drug Administration, issued a solicitation for a direct high-speed alphanumeric printing system for labware.",
+        "contract_name": "Direct high-speed alphanumeric printing system for labware (Notice ID: 75F40126Q133788)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-08",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This federal solicitation for specialized lab equipment represents a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://sam.gov/opp/75F40126Q133788/view"
+      },
+      {
+        "summary": "The Department of Justice, ATF, announced an award for a Blanket Purchase Agreement (BPA) for LAB Services -BPA for DNA supplies.",
+        "contract_name": "LAB Services -BPA for DNA supplies (Notice ID: DJA-26-ALAB-PR-0197)",
+        "estimated_value": "$2,393,103.83",
+        "deadline_or_expiration": "2026-05-19",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This federal BPA award for DNA lab supplies indicates ongoing demand and potential future opportunities for Thomas Scientific.",
+        "source_url": "https://sam.gov/opp/DJA-26-ALAB-PR-0197/view"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Medix Biochemica announced a $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its Espoo, Finland and St. Louis, Missouri facilities, including facility expansion, new analytical instrumentation, and at least 10 specialized hires.",
+        "location": "Espoo, Finland and St. Louis, Missouri, USA",
+        "type_of_expansion": "Expansion of recombinant antigen and cell culture technology capabilities (facility expansion, new analytical instrumentation)",
+        "investment_value": 5000000,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The expansion of recombinant antigen and cell culture capabilities, along with new analytical instrumentation, will drive demand for specialized reagents, consumables, and lab equipment.",
+        "source_url": "https://www.clinicalresearchnewsonline.com/news/2026/05/19/medix-biochemica-announces-$5-million-investment-to-expand-recombinant-antigen-capabilities"
+      },
+      {
+        "summary": "Sono-Tek is planning a manufacturing capacity expansion for medical and microelectronics production systems, with an estimated headcount growth of 30-40% from its current 90 employees (27-36 new hires).",
+        "location": "Undisclosed existing facility location",
+        "type_of_expansion": "Manufacturing capacity expansion for medical and microelectronics production systems",
+        "investment_value": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "The expansion of manufacturing capacity for medical and microelectronics production systems, coupled with significant headcount growth, indicates increased demand for specialized materials, components, and quality control lab supplies.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/28/3302677/0/en/sono-tek-reports-fiscal-fourth-quarter-and-full-year-2026-financial-results.html"
+      }
+    ],
+    "project": [],
+    "tender": [
+      {
+        "summary": "Procurement for Brand Name MicroView Mini 6000 Hygrometers Supersonic Wind Tunnel, set aside for small business by the National Aeronautics and Space Administration.",
+        "tender_name": "MicroView Mini 6000 Hygrometers Supersonic Wind Tunnel",
+        "estimated_value": null,
+        "deadline": "2026-05-08",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This is a direct opportunity for Thomas Scientific to supply specific analytical laboratory instruments if they are a small business or partner with one.",
+        "source_url": "https://sam.gov/opp/80NSSC26930013Q/view"
+      },
+      {
+        "summary": "Presolicitation notice for lab courier services for Durham VA Medical Center and CBOCs, including transport of laboratory specimens, x-rays, and medical equipment, set aside 100% for Service Disabled Veteran Owned Small Businesses.",
+        "tender_name": "R602--LAB Courier Service",
+        "estimated_value": null,
+        "deadline": "2026-06-05",
+        "event_date": "2026-05-27",
+        "why_it_matters": "While this is for courier services, it indicates ongoing lab operations at a VA Medical Center, which could lead to future needs for lab supplies and reagents.",
+        "source_url": "https://sam.gov/opp/36C24626Q0536/view"
+      },
+      {
+        "summary": "Solicitation for Brand Name Only '67--R7 Lab FSB Trail Camera Security Box SB400' for US EPA Region 7 Lab, issued as a Request for Quote (RFQ).",
+        "tender_name": "R7 Lab FSB Trail Camera Security Box SB400",
+        "estimated_value": null,
+        "deadline": "2026-05-15",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This is a direct opportunity for Thomas Scientific to supply specific lab equipment or related security solutions to the EPA.",
+        "source_url": "https://highergov.com/procurement/PR-R7-26-00317"
+      },
+      {
+        "summary": "Addition of product(s) to the Procurement List by the U.S. AbilityOne Commission, to be furnished by nonprofit agencies employing persons who are blind or have other severe disabilities, effective May 31, 2026.",
+        "tender_name": "Procurement List; Additions",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-15",
+        "why_it_matters": "This indicates changes in mandatory sources for federal procurement, which could impact Thomas Scientific's competitive landscape for certain products.",
+        "source_url": "https://www.federalregister.gov/documents/2026/05/15/2026-09746/procurement-list-additions"
+      },
+      {
+        "summary": "Intent to award a sole source firm fixed-price purchase order to TA Instruments-Waters L.L.C for laboratory equipment maintenance, repair, or rebuild services under FAR Part 13.",
+        "tender_name": "Thermal Lab Lifetime Support Plan",
+        "estimated_value": null,
+        "deadline": "2026-05-15",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This indicates ongoing use and maintenance of thermal lab equipment within the DoD, suggesting potential future needs for related consumables, reagents, or replacement parts.",
+        "source_url": "https://sam.gov/opp/31cf015245294660a3e30cb054e69885/view"
+      },
+      {
+        "summary": "RFI/Sources Sought for vendors to support the repair of NHR 9300 Cabinets, NHR 9200 Regenerative Cycler, NHR 4700/4760 programmable loads, and NHR 4800 regenerative battery cyclers for Naval Surface Warfare Center, Crane.",
+        "tender_name": "REQUEST FOR INFORMATION (RFI)/SOURCES SOUGHT \u2013 EQUIPMENT REPAIR (NHR/NI equipment)",
+        "estimated_value": null,
+        "deadline": "2026-06-01",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This RFI indicates a need for maintenance and repair of specialized lab equipment, which could lead to opportunities for Thomas Scientific to supply replacement parts or related consumables.",
+        "source_url": "https://sam.gov/opp/N0016426SNB69/view"
+      },
+      {
+        "summary": "Becton Dickinson and Co. was added as an awardee to a multiple award contract for laboratory equipment, accessories and consumables for the Defense Logistics Agency Electronic Catalog.",
+        "tender_name": "DLA Electronic Catalog - Laboratory Equipment, Accessories and Consumables",
+        "estimated_value": "$49,000,000",
+        "deadline": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This indicates ongoing high-value procurement of laboratory equipment and consumables by the DLA, representing a significant market for Thomas Scientific.",
+        "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3773950/"
+      },
+      {
+        "summary": "Indefinite-delivery/indefinite-quantity, firm-fixed-price contracts awarded for Automated Digital Network System production units, components, COTS software, spares, and lab material.",
+        "tender_name": "Automated Digital Network System (ADNS) Production and Lab Material",
+        "estimated_value": "$452,930,000",
+        "deadline": null,
+        "event_date": "2026-05-21",
+        "why_it_matters": "This significant contract for 'lab material' indicates a substantial and ongoing demand for scientific supplies within the DoD, presenting a large potential market for Thomas Scientific.",
+        "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3779313/"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:44:59.747946",
+  "ai_summary": "Government agencies are actively procuring diverse lab supplies, from DNA kits and labware to specialized analytical instrumentation and general lab materials. Significant expansions by Medix Biochemica and Sono-Tek signal new facility needs and increased equipment demand. This robust activity across federal labs presents numerous opportunities for a lab supply sales team to engage with growing requirements and secure new contracts."
+}

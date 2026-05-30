@@ -1,0 +1,135 @@
+{
+  "account": "UNIVERSITY OF ILLINOIS",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DKYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "A total of 52 students, including 30 graduate students and 22 undergraduates, from the University of Illinois Urbana-Champaign have been offered Graduate Research Fellowships from the National Science Foundation (NSF). An additional twenty-six students have been accorded Honorable Mention. Awardees receive three years of support including a $37,000 annual stipend and a $16,000 cost-of-education allowance.",
+        "recipient": "52 graduate and undergraduate students",
+        "department_or_lab": "Various STEM fields across University of Illinois Urbana-Champaign",
+        "amount": "$37,000 annual stipend and $16,000 cost-of-education allowance per fellow for three years",
+        "agency": "National Science Foundation (NSF)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These fellowships indicate increased research activity and potential demand for lab supplies, reagents, and equipment across various STEM departments at the University of Illinois Urbana-Champaign.",
+        "source_url": "https://grad.illinois.edu/news/record-number-illinois-students-earn-prestigious-nsf-graduate-research-fellowships"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Assistant Professor Wenjie Zhou joined the Department of Materials Science and Engineering in Spring 2026. His research focuses on using geometry-inspired principles to organize nanoscale matter and how architecture and connectivity can be treated as primary design variables in materials.",
+        "name": "Wenjie Zhou",
+        "department": "Department of Materials Science and Engineering, affiliated with Mechanical Science and Engineering and Materials Research Laboratory.",
+        "start_date": "Spring 2026",
+        "event_date": "2026-05-14",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://matse.illinois.edu/news/82965"
+      },
+      {
+        "summary": "Assistant Professor Yuanwei Li joined the Department of Materials Science and Engineering in Spring 2026. His lab develops nanophotonic materials and optical sensors for applications in data processing and real-time health monitoring.",
+        "name": "Yuanwei Li",
+        "department": "Department of Materials Science and Engineering, affiliated with Chemistry, Chemical and Biomolecular Engineering, Materials Research Laboratory, and Holonyak Micro and Nanotechnology Laboratory.",
+        "start_date": "Spring 2026",
+        "event_date": "2026-05-14",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://matse.illinois.edu/news/82965"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [
+      {
+        "summary": "The iFAB Tech Hub, anchored by University of Illinois Urbana-Champaign research, is transforming a 51-square-mile region into an epicenter for biomanufacturing.",
+        "location": "Central Illinois (51-square-mile region).",
+        "type_of_expansion": "new dedicated facility/capacity expansion",
+        "investment_value": "$680,000,000",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This new biomanufacturing hub will drive significant demand for lab supplies, reagents, and equipment for research and production.",
+        "source_url": "https://news.uillinois.edu/view/7815/319904286"
+      },
+      {
+        "summary": "The Illinois Quantum and Microelectronics Park (IQMP), a 128-acre campus in Chicago's Quantum Shore, is a multibillion-dollar facility with over $500 million invested by the State of Illinois. IBM is opening a new FutureNow Chicago delivery center at IQMP, creating 750 new full-time jobs in AI, cybersecurity, data science, and quantum.",
+        "location": "Chicago's South Side, Illinois (Illinois Quantum and Microelectronics Park).",
+        "type_of_expansion": "new dedicated facility/capacity expansion",
+        "investment_value": "$500,000,000+",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The IQMP and IBM's new center will generate substantial demand for advanced scientific equipment, specialized reagents, and consumables for quantum computing, microelectronics, AI, and cybersecurity research and development.",
+        "source_url": "https://www.illinois.gov/news/release.html?releaseid=32453"
+      },
+      {
+        "summary": "A new lab facility at the University of Illinois Urbana-Champaign has been established for testing materials at ultra-high speeds using a two-stage, light-gas gun for space-related applications.",
+        "location": "University of Illinois Urbana-Champaign.",
+        "type_of_expansion": "new dedicated facility",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new research lab will require specialized materials, testing equipment, and consumables for high-speed impact studies.",
+        "source_url": "https://aerospace.illinois.edu/news/85796"
+      }
+    ],
+    "funding": [
+      {
+        "summary": "Argonne National Laboratory and University of Illinois Chicago (UIC) are launching three new research collaborations through the Convergence Intelligence Seed Funding Program, backed by the George Crabtree Institute for Discovery, to accelerate discovery at the intersection of artificial intelligence (AI), data science, and the natural sciences.",
+        "amount": 225000,
+        "funding_type": "Strategic Investment / Program Award",
+        "use_of_proceeds": "To develop machine learning and high-performance computing tools for reconstructing neural connectivity from advanced light microscopy images of brain tissue, combine AI with advanced sensor arrays to detect and measure contaminants in water systems, and improve precision in surgery through AI.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This investment in AI-driven research will likely increase demand for advanced microscopy equipment, specialized sensors, reagents for contaminant detection, and various lab consumables to support experimental work and data generation in neuroscience, environmental science, and biomedical imaging.",
+        "source_url": "https://www.anl.gov/article/argonne-and-university-of-illinois-chicago-launch-new-aidriven-research-collaborations"
+      },
+      {
+        "summary": "The U.S. Department of Energy (DOE) Bioenergy Technologies Office (BETO) announced $52 million in funding for six university and industry projects, including the University of Illinois - Urbana-Champaign, to advance the production of low carbon intensity, purpose-grown energy crops.",
+        "amount": 6116043,
+        "funding_type": "Government Program Award",
+        "use_of_proceeds": "For optimizing algae cultivation and harvesting methods, validating large-scale algae production, and linking new and ongoing data streams from commercial-scale fields of miscanthus, switchgrass, and sorghum to advance low-carbon intensity herbaceous feedstocks for biofuels and bioproducts.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This funding for bioenergy crop research and large-scale algae production will drive demand for agricultural lab supplies, specialized cultivation equipment, analytical instruments for biomass characterization, and reagents for chemical analysis and bioproduct development.",
+        "source_url": "https://www.energy.gov/cmei/fuels/funding-selections-regional-resource-hubs-purpose-grown-energy-crops"
+      },
+      {
+        "summary": "The Board of Trustees of the University of Illinois at Urbana-Champaign received DOE funding to conduct a front-end engineering design (FEED) study to retrofit Voestalpine Texas LLC's hot briquetted iron plant in Portland, Texas, with Air Liquide's Cryocap\u2122 FG system for industrial carbon capture.",
+        "amount": 3998328,
+        "funding_type": "Government Program Award",
+        "use_of_proceeds": "To conduct a front-end engineering design (FEED) study for retrofitting an industrial plant with a carbon capture system, involving the design, fabrication, testing, and assessment of an engineering-scale integrated capture system.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This investment in carbon capture technology development and engineering studies will require lab supplies for material testing, analytical equipment for CO2 analysis, and potentially pilot-scale equipment for process validation and optimization.",
+        "source_url": "https://www.energy.gov/hgeo/additional-selections-funding-opportunity-announcement-2515"
+      }
+    ],
+    "project": [
+      {
+        "summary": "Argonne National Laboratory and the University of Illinois Chicago (UIC) have launched three new AI-driven research collaborations through the inaugural Convergence Intelligence Seed Funding Program, backed by the George Crabtree Institute for Discovery. The program aims to accelerate discovery at the intersection of artificial intelligence, data science, and the natural sciences.",
+        "project_name": "Convergence Intelligence Seed Funding Program (AI-driven Research Collaborations)",
+        "scope": "Three interdisciplinary projects are funded: 1) Mapping the brain at unprecedented scale using machine learning and high-performance computing; 2) Detecting emerging contaminants (including per- and polyfluoroalkyl substances) in complex water systems in real-time using AI and advanced sensor arrays; and 3) Improving precision in surgery through AI.",
+        "timeline": "Each selected project will receive a two-year investment totaling $225,000 per year from both institutions, resulting in a total program funding of $2.7 million for the three projects.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "These multi-year, interdisciplinary research projects will drive demand for advanced computing hardware, specialized sensors, microscopy equipment, and a wide range of reagents and consumables for neuroscience, environmental monitoring, and medical imaging research.",
+        "source_url": "https://www.anl.gov/article/argonne-and-university-of-illinois-chicago-launch-new-aidriven-research-collaborations"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "University of Illinois Urbana-Champaign Professor and Department Head Vidya Madhavan has been elected a member of the National Academy of Sciences, recognizing her outstanding contributions as a condensed matter experimentalist and her impact on the field of quantum materials.",
+        "researcher_name": "Vidya Madhavan",
+        "department_or_lab": "Department of Physics, University of Illinois Urbana-Champaign",
+        "award_or_discovery": "Election to the National Academy of Sciences",
+        "significance": "This is a major government honor, recognizing Madhavan's outstanding contributions to condensed matter experimentalism and her impact on quantum materials, including the invention of a new optical pump-probe ultrafast scanning tunneling microscopy (STM) technique.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This recognition signals high-impact research in quantum materials and advanced microscopy techniques, indicating potential demand for specialized lab equipment and consumables for quantum research.",
+        "source_url": "https://physics.illinois.edu/news/Madhavan-elected-to-National-Academy"
+      },
+      {
+        "summary": "Hyungyo Kim, a Ph.D. candidate in Electrical and Computer Engineering at the University of Illinois Urbana-Champaign, has been named a 2026 ML and Systems Rising Star by MLCommons for his groundbreaking research in large language model (LLM) efficiency.",
+        "researcher_name": "Hyungyo Kim",
+        "department_or_lab": "Electrical and Computer Engineering department, The Grainger College of Engineering, University of Illinois Urbana-Champaign",
+        "award_or_discovery": "2026 ML and Systems Rising Star by MLCommons for groundbreaking research in LLM efficiency",
+        "significance": "This international distinction recognizes emerging researchers for their groundbreaking work in efficient machine learning and large language model systems, specifically focusing on LLM efficiency, GPU-CPU heterogeneous computing, and memory-efficient AI training.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This award highlights cutting-edge research in AI systems and large language models, suggesting increased demand for high-performance computing components, specialized AI hardware, and related lab supplies for advanced computational research.",
+        "source_url": "https://csl.illinois.edu/news-and-media/rising-star-lowering-cost-ece-phd-candidate-receives-international-distinction-for-thinking-outside-the-gpu"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:01:34.207883",
+  "ai_summary": "University of Illinois is undergoing massive expansion with new faculty in materials science and nanophotonics, major facilities like the iFAB Tech Hub for biomanufacturing and IQMP for quantum/AI, and significant funding across energy and AI research. This growth and new research activity will drive substantial demand for a wide array of lab supplies and equipment."
+}

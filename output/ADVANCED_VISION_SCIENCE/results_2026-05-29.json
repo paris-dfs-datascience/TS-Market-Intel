@@ -1,0 +1,40 @@
+{
+  "account": "ADVANCED VISION SCIENCE",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1AeYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Stryker completed the acquisition of Amplitude Vascular Systems, Inc. (AVS), a privately held medical technology company focused on developing a next-generation intravascular lithotripsy (IVL) platform.",
+        "project_name": "Acquisition of Amplitude Vascular Systems by Stryker",
+        "scope": "Stryker acquired AVS to integrate its next-generation intravascular lithotripsy (IVL) platform, which utilizes CO\u2082-generated pressure wave technology, into Stryker's peripheral vascular portfolio to address complex arterial disease. The acquisition was valued at up to $835 million.",
+        "timeline": "Acquisition completed on May 7, 2026.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This significant capital investment by Stryker into AVS's technology indicates future investment in research, development, and manufacturing, leading to increased demand for scientific equipment, reagents, and lab consumables.",
+        "source_url": "https://investors.stryker.com/press-releases/news-details/2026/Stryker-completes-acquisition-of-Amplitude-Vascular-Systems-to-add-next-generation-IVL-technology-to-peripheral-vascular-portfolio/default.aspx"
+      },
+      {
+        "summary": "Amplitude Vascular Systems (AVS), now part of Stryker, announced the enrollment of the first patient in its first-in-human (FIH) study for Pulsatile Intravascular Lithotripsy (PIVL) therapy in a coronary indication and simultaneously quadrupled its capacity with a new global headquarters.",
+        "project_name": "POWER CAD I Study and New Global Headquarters",
+        "scope": "The POWER CAD I study will evaluate the feasibility of the Pulse IVL\u2122 System for the treatment of patients with moderate to severely calcified coronary arterial disease, enrolling up to 15 subjects at up to four facilities in Australia and New Zealand. The new 37,811 square-foot global headquarters in Waltham, Massachusetts, will serve as a hub for innovation, operations, and commercialization.",
+        "timeline": "The first patient was enrolled in the POWER CAD I study on May 18, 2026, with primary endpoints assessed at 30 days. The new headquarters is operational.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "The initiation of a new clinical study and the expansion of headquarters and operational capacity will drive demand for specialized lab equipment, reagents, and consumables for cardiovascular research and device development, as well as general lab supplies for expanded operations.",
+        "source_url": "https://investors.stryker.com/press-releases/news-details/2026/Stryker-completes-acquisition-of-Amplitude-Vascular-Systems-to-add-next-generation-IVL-technology-to-peripheral-vascular-portfolio/default.aspx"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:40:49.774085",
+  "ai_summary": "Stryker's acquisition of Amplitude Vascular Systems (AVS) signals significant investment in next-gen intravascular lithotripsy. AVS is rapidly expanding with a new headquarters and initiating a first-in-human study for its PIVL therapy. This growth and R&D activity mean increased demand for lab supplies, consumables, and equipment, presenting a prime opportunity for sales teams to support their expanding research and clinical trial needs."
+}

@@ -1,0 +1,281 @@
+{
+  "account": "VETERANS ADMINISTRATION",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DoYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Department of Veterans Affairs announced the availability of $16 million in grants for national, regional, and community-based organizations that provide adaptive sports programs for Veterans and service members with disabilities.",
+        "recipient": "National, regional, and community-based organizations providing adaptive sports programs for Veterans and service members with disabilities.",
+        "department_or_lab": "Adaptive Sports Grant Program, Department of Veterans Affairs",
+        "amount": 16000000,
+        "agency": "Department of Veterans Affairs (VA)",
+        "event_date": "2026-04-09",
+        "why_it_matters": "This significant VA funding indicates increased activity and support for veteran well-being programs, which could indirectly lead to demand for related health and rehabilitation equipment or supplies.",
+        "source_url": "https://news.va.gov/press-room/va-announces-16m-in-disabled-veterans-adaptive-sports-grants/"
+      },
+      {
+        "summary": "The VA Office of Research & Development published a list of FY 2026 VA-Funded Projects, current as of April 10, 2026, detailing various research initiatives across multiple VA medical centers.",
+        "recipient": "Multiple VA research institutions and individual investigators (e.g., Sheldon Brown, Ying Chen, Drew Moghanaki, Elizabeth Eklund)",
+        "department_or_lab": "VA Office of Research & Development (ORD)",
+        "amount": null,
+        "agency": "Department of Veterans Affairs (VA)",
+        "event_date": "2026-04-13",
+        "why_it_matters": "This list directly identifies ongoing VA research projects, providing immediate sales signals for lab supplies, reagents, consumables, and scientific equipment needed by these specific research teams.",
+        "source_url": "https://www.research.va.gov/funded_projects/fy2026.cfm"
+      }
+    ],
+    "capital": [
+      {
+        "summary": "The U.S. Department of Veterans Affairs announced a record $4.8 billion non-recurring maintenance budget for fiscal year 2026, with $596 million approved in the second quarter for infrastructure improvements, repairs, replacements, and major modernization projects at VA medical centers and healthcare facilities nationwide.",
+        "project_name": "VA National Infrastructure Investment / Facility Upgrades and Modernization Projects",
+        "location": "Nationwide (VA medical centers and healthcare facilities)",
+        "value": "$4.8 billion (total FY2026 budget), with $596 million approved in Q2 FY2026 for infrastructure improvements.",
+        "timeline": "FY2026 budget, Q2 FY2026 approvals.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This significant investment across numerous VA facilities indicates upcoming demand for a wide range of lab supplies, reagents, consumables, and scientific equipment as existing infrastructure is modernized and upgraded.",
+        "source_url": "https://www.ibj.com/articles/nearly-2b-sought-for-new-indy-veterans-hospital"
+      },
+      {
+        "summary": "Congress is considering a federal budget proposal that includes over $2 billion for a new hospital to replace the nearly 75-year-old Richard L. Roudebush Veterans' Administration Medical Center in Indianapolis and a new outpatient facility in Fishers, Indiana.",
+        "project_name": "Richard L. Roudebush VA Medical Center Replacement Hospital and Fishers Outpatient Facility",
+        "location": "Indianapolis, Indiana (hospital) and Fishers, Indiana (outpatient facility)",
+        "value": "Over $2 billion (requested for both projects, with most for the hospital).",
+        "timeline": "Funding is part of the 2027 budget proposal and is currently under consideration by Congress.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "The construction of a new, full-scale VA hospital and an outpatient facility will generate substantial demand for new scientific equipment, lab supplies, and consumables for diagnostic, research, and patient care laboratories.",
+        "source_url": "https://www.ibj.com/articles/nearly-2b-sought-for-new-indy-veterans-hospital"
+      }
+    ],
+    "contract": [
+      {
+        "summary": "The Department of Veterans Affairs, Network Contracting Office (NCO) 19, intends to award a sole source 4-month FSS Task Order to Roche Diagnostics Corporation for Blood Gas testing on a Reagent Rental Agreement basis for the Eastern Oklahoma VA Health Care System (Muskogee and Tulsa VA). This serves as a bridge until a new long-term contract is awarded, and includes reagents, supplies, consumables, maintenance, repairs, and training.",
+        "contract_name": "Blood Gas Testing on a Reagent Rental Agreement basis - Four Month FSS Task Order",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-04-30",
+        "event_date": "2026-04-28",
+        "why_it_matters": "This indicates an immediate, albeit short-term, need for blood gas testing reagents and consumables, and signals a larger, upcoming long-term contract opportunity for similar supplies and equipment.",
+        "source_url": "https://sam.gov/workspace/contract/opp/4af8bc277d07496a98ffe1fb1afa5de7/view"
+      },
+      {
+        "summary": "The Department of Veterans Affairs Veterans Integrated Service Network (VISN) 22 is seeking quotes for Laboratory Washer and Accessories (RFQ 36C26226Q0760) to support Clinical Research at the New Mexico VA Health Care System.",
+        "contract_name": "Laboratory Washer and Accessories",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-21",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This is a direct solicitation for laboratory equipment, presenting a sales opportunity for Thomas Scientific to supply the requested items.",
+        "source_url": "https://sam.gov/workspace/contract/opp/e214442056364fe8a9c7d4af2b3ea061/view"
+      },
+      {
+        "summary": "Fidelity Partners Services LLC was awarded a 1-year task order valued at $349,951.02 to provide Medical Lab Technician Services in support of the Department of Veterans Affairs.",
+        "contract_name": "Medical Lab Technician Services",
+        "estimated_value": "$349,951.02",
+        "deadline_or_expiration": "1-year task",
+        "event_date": "2026-05-29",
+        "why_it_matters": "While a service contract, it signifies ongoing laboratory operations within the VA, which indirectly drives demand for lab supplies and consumables.",
+        "source_url": "https://orangeslices.ai/fidelity-partners-services-beats-out-5-to-win-department-of-veterans-affairs-medical-lab-technician-services-task/"
+      },
+      {
+        "summary": "The North Texas VA Medical Center is conducting market research through a Sources Sought Notice for a reagent rental lease agreement for eight Werfen Gem Premier 7000 blood gas analyzers, including data management software, installation, training, and technical support, for a base plus four option years.",
+        "contract_name": "Blood Gas Analyzers Gem Premier 7000 (Reagent Rental Lease Agreement)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-14",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This is a clear signal for upcoming demand for blood gas analyzers, reagents, and associated consumables, representing a significant potential sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.bidnetdirect.com/texas/solicitations/closed-bids/statewide/6632-New-Blood-Gas-Analyzers-Gem-Premier-7000/2689184402"
+      },
+      {
+        "summary": "The VA's Medical/Surgical Prime Vendor Program (MSPV) Gen-Z V1 contract, which streamlines and centralizes supply chain management for VA facilities, was updated, emphasizing its role in delivering essential medical, surgical, dental, lab, and environmental supplies efficiently and cost-effectively.",
+        "contract_name": "MSPV Generation-Z Version 1 (MSPV Gen-Z V1) Distribution Contracts",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "This program is a major contract vehicle for lab supplies and equipment, and understanding its updates is crucial for Thomas Scientific to align its sales strategy and identify potential sub-contracting opportunities.",
+        "source_url": "https://department.va.gov/procurement-acquisition-and-logistics/strategic-acquisition-center/sac-medical-surgical-prime-vendor-program-mspv-updated/"
+      },
+      {
+        "summary": "A Presolicitation Notice was issued for LAB Courier Service for the Durham VA Medical Center and CBOCs, set-aside 100% for Service Disabled Veteran Owned Small Businesses.",
+        "contract_name": "LAB Courier Service",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-05",
+        "event_date": "2026-05-28",
+        "why_it_matters": "While a service contract, lab courier services are directly tied to the operation of VA labs, indicating ongoing demand for lab testing and thus supplies.",
+        "source_url": "https://www.rfpmart.com/1121542-us-fed-r602--lab-courier-service.html"
+      },
+      {
+        "summary": "The Department of Veterans Affairs (VA) Network Contracting Office (NCO 21) intends to award a sole source, firm fixed price Indefinite Delivery Indefinite Quantity (IDIQ) contract to Cepheid for test kits (reagents) to be used at VA Southern Nevada Healthcare System.",
+        "contract_name": "IDC 36C26126D0034 Cepheid (Test Kits/Reagents)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "This is a direct signal for demand for reagents at a specific VA facility, representing a potential sales opportunity for similar or complementary products.",
+        "source_url": "https://www.highergov.com/idv/36C26126D0034/"
+      },
+      {
+        "summary": "A Sources Sought Notice was issued for a Colorectal Analyzer for the Northport VA Medical Center in support of the Fecal Immunochemical Testing Program, including equipment, service, and supplies.",
+        "contract_name": "Colorectal Analyzer (Fecal Immunochemical Testing Program)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-05",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This indicates an upcoming procurement for specialized lab equipment and associated consumables, presenting a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.rfpmart.com/1120707-us-fed-6515--sources-sought-colorectal-analyzer-for-the-northport-va-medical-center-in-support-of-the-fecal-immunochemical-testing-pr.html"
+      },
+      {
+        "summary": "The Department of Veterans Affairs (VA), Veterans Health Administration (VHA), Network Contracting Office (NCO) 21, is conducting market research for a motorized weight trolley for the VA Central California Health Care System (VACCHCS).",
+        "contract_name": "Motorized Weight Trolley",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-09",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This is a direct signal for a specific piece of lab/medical equipment, representing a potential sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.highergov.com/contract-opportunity/6515-new-25k-motorized-trolley-36c26126q0724-r-010b0/"
+      },
+      {
+        "summary": "The Department of Veterans Affairs, Veterans Health Administration, Network Contracting Office (NCO) 21 is seeking sources for a surgical table for the VA San Francisco Health Care System (VASFHCS) through a Sources Sought Notice.",
+        "contract_name": "Surgical Table",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-06",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This is a direct signal for a specific piece of medical equipment, representing a potential sales opportunity for Thomas Scientific.",
+        "source_url": "https://sam.gov/workspace/contract/opp/20a670343a5649c7b09d73bf5b5a1170/view"
+      },
+      {
+        "summary": "The Puget Sound VA Medical Center is conducting market research through a Sources Sought Announcement for a MALDI (Matrix-Assisted Laser Desorption Ionization) Mass Spectrometry (Microbial Identification System), including instrumentation, to identify microorganisms.",
+        "contract_name": "MALDI Biotyper Sirius CA (Microbial Identification System)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-11",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This indicates an upcoming procurement for specialized lab equipment for microbial identification, representing a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://sam.gov/workspace/contract/opp/3a0899015cf6423891cb2ac3d8d0384f/view"
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "The House of Representatives approved an amendment to increase funding for the Department of Veterans Affairs Medical and Prosthetic Research program by $94 million, bringing the total to $994 million for Fiscal Year 2027.",
+        "project_name": "VA Medical and Prosthetic Research Program Funding Increase (FY2027)",
+        "scope": "National, focusing on areas like oncology, traumatic brain injury, psychedelic-assisted therapies, and assistive devices.",
+        "timeline": "Fiscal Year 2027.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This significant increase in research funding indicates a higher demand for a wide range of scientific supplies, reagents, and specialized equipment across various medical research fields within the VA.",
+        "source_url": "https://www.aamc.org/advocacy-policy/washington-highlights/house-adopts-va-research-funding-amendments"
+      },
+      {
+        "summary": "The Military Construction, Veterans Affairs, and Related Agencies Appropriations Act for Fiscal Year 2027 includes a landmark federal investment of more than $1.6 billion to replace and modernize the Richard L. Roudebush VA Medical Center campus in Indianapolis.",
+        "project_name": "Richard L. Roudebush VA Medical Center Campus Modernization",
+        "scope": "Indianapolis, Indiana.",
+        "timeline": "Part of the FY2027 appropriations package.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This major infrastructure investment will create significant demand for new scientific equipment, laboratory furniture, and a wide array of medical and research supplies for the modernized facility.",
+        "source_url": "https://www.aamc.org/advocacy-policy/washington-highlights/house-adopts-va-research-funding-amendments"
+      },
+      {
+        "summary": "William S. Middleton Memorial Veterans Hospital and Clinics in Madison, WI, received funding for Non-recurring Maintenance projects in FY2026, including renovations for Sterile Processing Service, Digital Radiography Fluoroscopy Suite, and a Cardiovascular Lab, as part of a $4.8 billion nationwide VA spending initiative.",
+        "project_name": "Madison VA Hospital Infrastructure Improvements (FY2026 Non-recurring Maintenance)",
+        "scope": "Madison, Wisconsin, specifically for Sterile Processing Service, Digital Radiography Fluoroscopy Suite, and Cardiovascular Lab.",
+        "timeline": "Fiscal Year 2026.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "These renovations and upgrades to specialized lab and medical imaging suites will necessitate the procurement of new diagnostic equipment, sterile processing consumables, and related lab supplies.",
+        "source_url": "https://www.va.gov/madison-health-care/news-releases/madison-va-hospital-receives-funding-for-continued-infrastructure-improvements/"
+      },
+      {
+        "summary": "The White River Junction VA Healthcare System in Vermont received funding for Non-recurring Maintenance projects in FY2026, specifically for a Pathology Lab Renovation, as part of a $4.8 billion nationwide VA initiative to modernize healthcare facilities.",
+        "project_name": "White River Junction VA Healthcare System Pathology Lab Renovation (FY2026 Non-recurring Maintenance)",
+        "scope": "White River Junction, Vermont, specifically for Pathology Lab Renovation.",
+        "timeline": "Fiscal Year 2026.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The renovation of a pathology lab will lead to demand for new pathology equipment, diagnostic reagents, and various laboratory consumables to support updated operations.",
+        "source_url": "https://www.va.gov/white-river-junction-health-care/news-releases/white-river-junction-va-healthcare-system-receives-funding-for-continued-infrastructure-improvements/"
+      }
+    ],
+    "tender": [
+      {
+        "summary": "The Kentucky Department of Veteran Affairs is seeking comprehensive medical laboratory services for the Bowling Green Veterans Center, including conducting tests, integrating results with electronic medical records, ensuring compliance, and managing billing.",
+        "tender_name": "074/Bgvc/Lab Services/4.29.26",
+        "estimated_value": null,
+        "deadline": "2026-06-01",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This represents a direct sales opportunity for Thomas Scientific to provide a wide range of lab supplies, reagents, and consumables required for comprehensive medical laboratory testing.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG48wimh3pizJCU-B0jKW5xEHIlGswubwbCb6n8LtOMZG4gg1xRHltbAdjdiu-VlV9U_0I7-HpILGpF_Kjpp5QlaUUZoIwLtfiiAmvoFFYCjBVcHcNusXXIKeF6Za-iSJpOOQohaEdrAjCSfI7w9JQYiebQQ7xuT4-Pm0Ho5iubi4c_PJW3QRwlFkSrsb09lrk8rmoAPPJc"
+      },
+      {
+        "summary": "The Department of Veterans Affairs, VISN 22, is seeking quotes for Laboratory Washer and Accessories to support Clinical Research at the New Mexico VA Health Care System.",
+        "tender_name": "Laboratory Washer and Accessories",
+        "estimated_value": null,
+        "deadline": "2026-05-21",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This is a direct sales opportunity for Thomas Scientific to supply essential laboratory equipment and accessories for clinical research.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt-Pdli62f446T9jG5m8AuMc4uoSE7TSL2jaIp9QL1Xg0H4j015RVTz53oIamNqA_csdaEkuF7JG8JPwg3s9LSj2COdmkFkdqOzmuPZr1wPWxFTmM8f79afyCMAzgLfEbBhkc0NyC7jANj8ZwFIFL0uePjqZBBQU1RhcZu0g4sPWli-Sppy60"
+      },
+      {
+        "summary": "The Department of Veterans Affairs, Network Contracting Office (NCO 16), is issuing a Combined Synopsis/Solicitation to acquire Philips Transesophageal Echocardiography (TEE) probes and associated components for Cardiology.",
+        "tender_name": "RFQ - SDVOSB - Philips TEE Probes for Cardiology (FUS9354, FUS9358, NNAV817)",
+        "estimated_value": null,
+        "deadline": "2026-05-28",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This represents a sales opportunity for Thomas Scientific to provide specialized scientific and medical equipment, such as TEE probes, to the VA healthcare network.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwe1K-GzobIs9NSrTmkEt3HtEjvtOYIrHQ8IJ7U2VeOXcMfC-wsLHcrpeRfGMamA-2fvUzkJqjUmbXy7etqTLjetD7lags9lfMQkHptWyUPpUY7XB3sllygdB1qQZmi8vLY8W6VguD4ZGm"
+      },
+      {
+        "summary": "The Department of Veterans Affairs, Veterans Health Administration, Network Contracting Office (NCO) 21, is seeking sources for a surgical table for the VA San Francisco Health Care System.",
+        "tender_name": "6515--36C26126Q0677 | SURGICAL TABLE | SF",
+        "estimated_value": null,
+        "deadline": "2026-05-06",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This is a potential sales opportunity for Thomas Scientific to supply scientific and medical equipment, such as a surgical table, to a VA healthcare facility.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnJ--kRoA-5Wg_agWmT3JdaeCm8whvyhV9l_bvMNV2eFD6wjVALxOZWeVAsQrpPRKnum9tFrgS1yXx10xETUNt0kt_gvcze9xEvp75DGYjdf4LsDFZnXMO9AYKNNzc_5L5lJXRstC_aCI8pj5LcWRAxUR9heE3cDuS1YNl5DS53bRIuKqFhlo="
+      },
+      {
+        "summary": "The Department of Veterans Affairs, VISN 02 Network Contracting Office, is seeking sources that can provide a colorectal analyzer to support the mailed Fecal Immunochemical Testing Program for VISN 2.",
+        "tender_name": "Sources Sought: Colorectal Analyzer for the Northport VA Medical Center",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-25",
+        "why_it_matters": "This is a direct sales opportunity for Thomas Scientific to provide analytical scientific equipment and potentially associated reagents and consumables for a critical testing program.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtX76UrLWrLZfWUp_TpbWkDQBkH29xDCOMon-1qKnwa6PbLgQAOxVdzr_XC9BLAWHXZy2q4YnjfWZtHWYp4dCun-kcKseBE3snMCneXzgwVVQHSXGnfoUnZ9MArXZKoXgwMVNm03uugtqYziaNrNl2Bu_rbjN-I_gYPnkIf-4Ty7tDIHRz1Ogckk8XbU1MqRFNfM0fNrfVCr0Jf2IeqLj6OzVKz0yhki5Bqb3HBbDlxoCv2IvFx3boJc1TaLmTfWclzhyvxyhGcD7Qo09jxG0Hx2eojvWED329zh2_wKKHP26W_31nNA=="
+      },
+      {
+        "summary": "The North Texas VA Medical Center is conducting market research to obtain Blood Gas Analyzers Gem Premier 7000 rental for base plus four option years under a reagent rental lease agreement.",
+        "tender_name": "6632--new - Blood Gas Analyzers Gem Premier 7000",
+        "estimated_value": null,
+        "deadline": "2026-05-14",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This is a direct sales opportunity for Thomas Scientific to provide analytical laboratory instruments and associated reagents and consumables through a rental agreement.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRoojX0MoMGtLjFeTZhhfwsZvOfJUmWghgr_QDferbPAov3TSlZBES5OKg2q9wCWVBHXfY3XTrhYoj5W63VDoQWqQwy3zA4gecAaYR2MoZviuFmKlNFoKpVgaVW7_GajRt__6U3VaBn75OsmtdR_qtq8zINZu3HO-pYBth5mcbxabYGhM6kKFvaqYU-J8xKf9kJPUw8_KABqg6glnQER3Y768cOFAmDbI-d2Fyp64Gdi9-lrO39dIoPOs="
+      },
+      {
+        "summary": "The Department of Veterans Affairs, Network Contracting Office 9, is seeking a Service-Disabled Veteran-Owned Small Business contractor for a base plus two water analysis services contract at the Robley Rex VA Medical Center.",
+        "tender_name": "36C24926Q0204 'Base + 2' Water Analysis Service Contract (Eng.)",
+        "estimated_value": null,
+        "deadline": "2026-05-19",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This presents a sales opportunity for Thomas Scientific to supply lab supplies, reagents, and consumables necessary for various water testing services at a VA medical center.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0BV2tcC_YRaupktXtfHvF1gxtsV5Wj31Wy2C90c89TqZnKOU1ZXIk1xxmj4a3SBsb1pUCqGptTYc46ocbmNjHPFnqAiKDxvmeb8x8sH9EIWVmdXTLEqVpDjdopDMeOWrRczLIFCvEVU6iMHdrOoniflSksBJwv0KpCZxOLcP1oyknupflSmT2nJjajAS6nAwEDQ=="
+      },
+      {
+        "summary": "The Department of Veterans Affairs Garner VA Outpatient Clinic has a requirement for ice and water dispensers to support patient needs.",
+        "tender_name": "Garner VA Clinic PKG 12A Ice and Water Dispensers",
+        "estimated_value": null,
+        "deadline": "2026-06-13",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This is a sales opportunity for Thomas Scientific to provide essential equipment, such as ice and water dispensers, for a VA outpatient clinic.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYPtQ8e03X0eJfNTv532F6Vxmbcy2-cJSs7uhR61Ogg2eTwO5rYUUYdCJRaX-9Wnr-6QDkc8gc5d24TBfITmLcFKxVuBfFdZbtdXzxth5CDQqFUlh9SJnMz6mBNZoM4kNGagQ2mMuJaMeM4ZWd1LsGoURj7PEEX_ZqlryrVeQH1SvhPLg94drgJM8_KKX7WymX9zsNB-eRdRTiFYiTTee9Y7cIeRrtwZdul5KmCGFD9AKW_"
+      }
+    ],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "The Department of Veterans Affairs is undertaking a significant reorganization, with proposed legislation (H.R. 6733, the VISN Reform Act) aiming to streamline the network structure of its Veterans Integrated Service Networks (VISNs). This effort seeks to improve efficiency and address long-standing concerns about VISN organization and management.",
+        "facility_or_programme": "Veterans Integrated Service Networks (VISNs)",
+        "closure_type": "Consolidation",
+        "effective_date": null,
+        "reason": "To modernize the Department of Veterans Affairs, improve efficiency, and streamline the network structure.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This consolidation could lead to churn risk for existing suppliers due to new procurement processes or competitive displacement opportunities as new regional structures emerge, potentially altering demand patterns for lab supplies and equipment.",
+        "source_url": "https://legis1.com/news/va-reform-legislation-committee-confronts-amid"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:51:05.894930",
+  "ai_summary": "The VA is undergoing massive modernization with billions in capital improvements, new hospitals, and increased research funding. This includes numerous active tenders for lab equipment like blood gas analyzers, washers, and specialized systems, plus significant reagent rental agreements. The updated MSPV contract also emphasizes lab supplies, creating substantial opportunities for sales teams to support facility upgrades and ongoing operational needs."
+}

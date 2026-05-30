@@ -1,0 +1,132 @@
+{
+  "account": "CEDAR SINAI MEDICAL CENTER",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1UVYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Cedars-Sinai partnered with OpenEvidence to deploy an AI-enabled clinical reference tool that links individual patient electronic health records with the latest medical evidence to enhance diagnoses and treatments.",
+        "product_or_program": "OpenEvidence AI-enabled clinical reference tool",
+        "stage": "Adoption/Deployment",
+        "therapeutic_or_application_area": "Clinical decision support, diagnosis, treatment enhancement across various medical fields",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This indicates a need for IT infrastructure, data management solutions, and potentially new diagnostic or monitoring tools that integrate with AI platforms.",
+        "source_url": "https://www.openevidence.com/news/openevidence-partners-with-cedars-sinai-to-create-patient-aware-clinical-intelligence-with-agentic-clinical-ai"
+      },
+      {
+        "summary": "Cedars-Sinai investigators are collaborating on a $9 million grant-funded project to use induced pluripotent stem cells to study the connection between pesticide exposure and Parkinson's disease.",
+        "product_or_program": "Parkinson's disease research using induced pluripotent stem cells",
+        "stage": "Investigator-initiated trial/Research program",
+        "therapeutic_or_application_area": "Parkinson's disease, neurodegenerative conditions, stem cell research",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This signals demand for stem cell culture media, reagents, specialized lab equipment for cell reprogramming and differentiation, and potentially analytical tools for studying neurodegeneration and environmental toxins.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-adds-stem-cell-skill-to-key-parkinsons-disease-study/"
+      },
+      {
+        "summary": "Cedars-Sinai is expanding clinical and research initiatives with Israeli healthcare institutions, including collaborations on digital health, AI-driven solutions, perioperative care for IBD, stem cell studies on the ISS, and CAR T-cell therapies for solid cancers.",
+        "product_or_program": "Multiple collaborations: Digital health/AI solutions, IBD perioperative care program, ISS stem cell studies, CAR T-cell therapy for solid cancers",
+        "stage": "New programs/collaborations/research initiatives",
+        "therapeutic_or_application_area": "Digital health, AI, inflammatory bowel disease, stem cell biology, oncology (CAR T-cell therapy)",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This indicates potential demand across multiple areas, including digital health infrastructure, IBD diagnostics/monitoring, stem cell research consumables, and reagents/equipment for CAR T-cell therapy development and application.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-expands-medical-and-research-ties-with-israel-healthcare-partners/"
+      },
+      {
+        "summary": "Cedars-Sinai investigators developed Path2Space, an AI-based tool that uses digital images of biopsy slides to predict spatial gene expression in cancerous tumors, aiming to make personalized cancer treatment more accessible and cost-effective. They plan to bring it into clinical trials.",
+        "product_or_program": "Path2Space (AI-based tool for spatial gene expression profiling)",
+        "stage": "Development, moving to clinical trials",
+        "therapeutic_or_application_area": "Oncology, personalized cancer treatment, spatial biology, genomics, pathology",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This signals demand for high-resolution imaging equipment, digital pathology solutions, reagents for tissue processing, and potentially consumables for future clinical trials validating the tool.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/new-ai-tool-could-replace-costly-cancer-gene-expression-profiling/"
+      },
+      {
+        "summary": "Cedars-Sinai Guerin Children's launched the first Neuro Neonatal Intensive Care Unit (Neuro NICU) in the Los Angeles region, offering multidisciplinary care, advanced technology, and rapid whole-genome sequencing for newborns with complex neurological conditions.",
+        "product_or_program": "Neuro Neonatal Intensive Care Unit (Neuro NICU)",
+        "stage": "New clinical program launch",
+        "therapeutic_or_application_area": "Neonatal neurology, genomics, precision gene therapy, pediatric critical care",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This indicates demand for advanced neonatal monitoring equipment, genomic sequencing services/reagents, specialized neurological diagnostic tools, and consumables for critical care.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-guerin-childrens-launches-first-neuro-nicu-in-la-region/"
+      },
+      {
+        "summary": "Cedars-Sinai Guerin Children's launched a new program for children with asthma using AeviceMD, an FDA-cleared smart wearable stethoscope, for continuous or on-demand remote monitoring of lung sounds and early detection of breathing problems.",
+        "product_or_program": "At-home asthma monitoring program with AeviceMD smart wearable stethoscope",
+        "stage": "New clinical program launch",
+        "therapeutic_or_application_area": "Pediatric pulmonology, asthma management, remote patient monitoring, digital health",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This suggests demand for remote monitoring devices, data integration solutions, and potentially consumables related to respiratory assessment and management in a home setting.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/at-home-device-could-improve-asthma-care-for-children/"
+      },
+      {
+        "summary": "Cedars-Sinai experts presented advances at DDW 2026, including a multicenter randomized trial on virtual reality for IBS, a less invasive laparoscopic procedure for GERD, a clinical trial on combination biologic therapies for ulcerative colitis, and research on novel endoscopic therapy using pulsed electric fields.",
+        "product_or_program": "Multiple research findings/clinical trials: VR for IBS, laparoscopic GERD procedure, combination biologics for ulcerative colitis, novel endoscopic therapy (pulsed electric fields)",
+        "stage": "Clinical trial results, research findings, new treatment approaches",
+        "therapeutic_or_application_area": "Gastroenterology, IBS, GERD, ulcerative colitis, endoscopy, Type 2 diabetes (gut microbiome link)",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This indicates potential demand for reagents and consumables for IBD research, endoscopic equipment, and supplies related to gastrointestinal procedures and diagnostics.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/ddw-2026-cedars-sinai-experts-share-advances-in-digestive-disease/"
+      },
+      {
+        "summary": "Cedars-Sinai Medical Center is a location for an investigator-initiated randomized trial (NCT05335928) testing abatacept against placebo to reduce major adverse cardiac events (MACE) in participants who develop myocarditis after immune checkpoint inhibitor (ICI) treatment.",
+        "product_or_program": "Abatacept in Immune Checkpoint Inhibitor Myocarditis (ATRIUM) (NCT05335928)",
+        "stage": "Investigator-initiated randomized trial",
+        "therapeutic_or_application_area": "Oncology (immune checkpoint inhibitor adverse events), cardiology (myocarditis), immunology",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This signals demand for reagents and consumables for cardiac monitoring, immunology assays, and general clinical trial supplies.",
+        "source_url": "https://clinicaltrials.gov/study/NCT05335928"
+      },
+      {
+        "summary": "Cedars-Sinai physician-scientists will present clinical breakthroughs at ASCO 2026, including late-breaking results for a new advanced pancreatic cancer therapy, Phase II results for a combination therapy targeting pancreatic cancer mutations, and advances in CAR T-cell therapies for relapsed multiple myeloma.",
+        "product_or_program": "Multiple clinical trials/therapies: New therapy for advanced pancreatic cancer, combination therapy for pancreatic cancer mutations, CAR T-cell therapies for relapsed multiple myeloma",
+        "stage": "Clinical trial results (late-breaking, Phase II), emerging treatments",
+        "therapeutic_or_application_area": "Oncology (pancreatic cancer, multiple myeloma), CAR T-cell therapy, targeted therapy",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This indicates strong demand for oncology research reagents, cell culture media for CAR T-cell development, and specialized equipment for cancer diagnostics and treatment monitoring.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-experts-present-advances-in-cancer-care-at-asco-2026/"
+      },
+      {
+        "summary": "Cedars-Sinai researchers conducted a pilot trial using blood filtering technology to reduce preeclampsia severity in pregnant women by removing a harmful protein from the mother's blood, effectively extending pregnancy.",
+        "product_or_program": "Blood filtering technology for preeclampsia (pilot trial)",
+        "stage": "Pilot clinical trial",
+        "therapeutic_or_application_area": "Obstetrics, maternal-fetal medicine, preeclampsia, blood purification",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This suggests potential demand for specialized blood filtration systems, associated consumables (e.g., filters, tubing), and reagents for protein analysis in maternal health research.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/scientific-american-could-blood-filtering-help-treat-one-of-pregnancys-most-deadly-conditions/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Cedars-Sinai investigators are collaborating on a Parkinson's disease study funded by a $9 million grant to investigate the link between pesticide exposure and the disease, utilizing stem cell expertise.",
+        "project_name": "Parkinson's Disease and Pesticide Exposure Study (funded by Aligning Science Across Parkinson's and The Michael J. Fox Foundation)",
+        "scope": "This three-year project involves investigators from Cedars-Sinai, UCLA, the University of Southern California (USC), and the University of M\u00fcnster in Germany. The study focuses on creating neurons from the induced pluripotent stem cells of people with Parkinson's disease to investigate the connection between the disease and pesticide exposure, aiming to clarify how environmental and genetic factors interact.",
+        "timeline": "The project is funded by a three-year grant.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This project will drive demand for specialized cell culture reagents, stem cell differentiation media, microscopy equipment, and analytical instruments for neurological research.",
+        "source_url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-adds-stem-cell-skill-to-key-parkinsons-disease-study/"
+      }
+    ],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Cedars-Sinai Medical Center is seeking a Manager, Strategic Sourcing to provide leadership and oversight for sourcing, contracting, and purchasing-related activities within Supply Chain Shared Services, including the evaluation of new products, services, equipment, and technologies.",
+        "tender_name": "Manager, Strategic Sourcing Position",
+        "estimated_value": null,
+        "deadline": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new leadership role indicates Cedars-Sinai's intent to review and optimize its purchasing agreements, creating opportunities for Thomas Scientific to bid on future lab supply and equipment contracts.",
+        "source_url": "https://careers.cshs.org/job/beverly-hills/manager-supply-chain-sourcing/252/95057997184"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:45:23.872345",
+  "ai_summary": "Cedars-Sinai is aggressively expanding cutting-edge research and clinical programs, focusing on AI, stem cells, genomics, and advanced cancer therapies. New initiatives like the Neuro NICU, international collaborations, and numerous clinical trials signal a significant increase in demand for specialized lab supplies, reagents, and instruments. A new Strategic Sourcing Manager will evaluate innovative technologies, creating direct opportunities for lab supply sales to support their growing scientific endeavors."
+}

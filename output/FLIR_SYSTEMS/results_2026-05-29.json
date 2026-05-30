@@ -1,0 +1,68 @@
+{
+  "account": "FLIR SYSTEMS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001UR00000nP16HYAS",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "ASELSAN, a Turkish defense company, announced the opening of 14 new facilities, including an Electro-Optic FLIR Systems Production Facility, as part of a USD 280 million investment. These facilities will significantly expand cleanroom capacity, laboratories, integration areas, and R&D spaces, leading to a 40% increase in capacity and creating new employment opportunities.",
+        "location": "T\u00fcrkiye",
+        "type_of_expansion": "New dedicated production facility (Electro-Optic FLIR Systems Production Facility) and capacity expansion for laboratories and R&D spaces",
+        "investment_value": "$280M",
+        "event_date": "2026-04-21",
+        "why_it_matters": "A new production facility and expanded laboratory and R&D spaces for FLIR Systems in T\u00fcrkiye indicate new procurement needs for manufacturing, laboratory supplies, and scientific equipment.",
+        "source_url": "https://www.aselsan.com/ar/haberler/aselsan-launches-the-largest-defense-industry-investment-in-turkiyes-history"
+      }
+    ],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Teledyne FLIR Defense, Inc. was awarded a contract for the purchase of Electro/Optical (EO/IR) Infrared Sensor Systems Modernization (ESS-M) Components for MH-65 and MH-60 Helicopters.",
+        "amount": "$21.9 Million",
+        "funding_type": "Government Manufacturing Contract",
+        "use_of_proceeds": "Modernization of sensor systems, involving manufacturing and research and development for advanced components.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This contract for sensor system modernization and manufacturing indicates a demand for specialized lab supplies and equipment for R&D, production, and quality control processes.",
+        "source_url": "https://www.usaspending.gov/award/CONT_AWD_70Z03826FD0000008_7008_70Z03825DE0000001_7008"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Teledyne FLIR Defense launched its new FirstLook\u00ae 125 throwable personal reconnaissance robot at SOF Week, designed for remote engagement and featuring a common controller with the Black Hornet\u00ae 4 nano-drone for combined ground-air operations.",
+        "facility_or_line": "FirstLook\u00ae 125 throwable personal reconnaissance robot production",
+        "change_type": "New product line",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The introduction of a new robot platform will generate demand for specialized components, testing reagents, and quality control consumables throughout its manufacturing and assembly processes.",
+        "source_url": "https://www.businesswire.com/news/home/20260519834388/en/"
+      },
+      {
+        "summary": "Teledyne FLIR Defense released Rogue\u2122 1 Block 2, a major upgrade to its lethal unmanned aerial system, featuring a new anti-armor payload, improved thermal management, enhanced durability, and a new Android-based ground control system.",
+        "facility_or_line": "Rogue\u2122 1 Block 2 Lethal Unmanned Aerial System production",
+        "change_type": "Product line upgrade / Retooling",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-20",
+        "why_it_matters": "Upgrades to existing product lines necessitate re-evaluation of manufacturing processes, potentially requiring new lab equipment for R&D, material analysis, and quality assurance of updated components.",
+        "source_url": "https://www.flir.com/news-center/defense/teledyne-flir-defense-announces-new-block-2-upgrades-to-rogue-1-lethal-unmanned-aerial-system/"
+      },
+      {
+        "summary": "Flir announced an expansion of its firefighting product offerings at Interschutz 2026, including the new NFPA 1930:2025 certified Flir K85-N thermal imaging camera and updated 2026 versions of the K75 and K85 models with improved optical design and connectivity.",
+        "facility_or_line": "Flir K85-N, K75, and K85 thermal imaging cameras production",
+        "change_type": "New product line / Product line upgrades",
+        "location": "Global",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "Expanding product lines and introducing new models for specialized applications will increase demand for raw materials, testing equipment, and consumables for manufacturing and quality control.",
+        "source_url": "https://www.securityinformed.com/news/flir-expands-firefighting-lineup-interschutz-2026-co-1698226068-ga.html"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:17:57.648671",
+  "ai_summary": "FLIR Systems is experiencing significant growth, driven by new product launches in defense (robots, UAS) and firefighting, alongside major contract awards. A key partner, ASELSAN, is also expanding a FLIR production facility, adding cleanrooms, labs, and R&D spaces. This expansion and increased R&D activity signal a strong demand for lab equipment, consumables, and services for testing, development, and manufacturing."
+}

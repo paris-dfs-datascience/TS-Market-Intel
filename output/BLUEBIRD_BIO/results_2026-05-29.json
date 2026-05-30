@@ -1,0 +1,32 @@
+{
+  "account": "BLUEBIRD BIO",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1bfYAC",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Lonza and Genetix Biotherapeutics (formerly Bluebird Bio) extended their commercial manufacturing agreement for Zynteglo, with Lonza expanding manufacturing capacity at its Houston cell and gene therapy site to support growing demand.",
+        "project_name": "Zynteglo Manufacturing Capacity Expansion",
+        "scope": "Manufacturing scale-up at Lonza's Houston cell and gene therapy site for Zynteglo.",
+        "timeline": "In 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This manufacturing expansion indicates increased production needs for gene therapy, driving demand for specialized lab equipment, reagents, and consumables at the Lonza Houston facility.",
+        "source_url": "https://xtalks.com/the-most-expensive-drugs-on-the-market-in-2026-and-why-they-cost-so-much-4682/"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:19:04.468998",
+  "ai_summary": "Bluebird Bio, via Genetix Biotherapeutics, is seeing growing demand for its gene therapy Zynteglo, prompting Lonza to expand manufacturing capacity in Houston. This expansion signals increased production needs, creating significant opportunities for lab supply sales teams to provide essential reagents, consumables, and equipment for cell and gene therapy manufacturing and quality control at Lonza's facility."
+}

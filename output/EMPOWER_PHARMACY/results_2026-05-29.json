@@ -1,0 +1,32 @@
+{
+  "account": "EMPOWER PHARMACY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "0011M00002FBOZFQA5",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The FDA restored non-injectable GHK-Cu to Category 1 of the 503A bulk drug substances list, confirming that the earlier withdrawal applied only to injectable routes of administration. This allows compounding pharmacies like Empower to continue working with GHK-Cu for topical and other non-injectable applications under the current interim policy.",
+        "product_or_program": "GHK-Cu (non-injectable, topical preparations including Facial Serum and Scalp Solution)",
+        "stage": "Regulatory Clarity/Restoration of 503A Bulk Drug Substance List Category 1 status",
+        "therapeutic_or_application_area": "Skin and scalp health (topical applications)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This regulatory clarity ensures Empower Pharmacy can continue to compound and sell GHK-Cu topical products, indicating ongoing demand for raw materials and consumables for these formulations.",
+        "source_url": "https://www.empowerpharmacy.com/expanding-access-peptides/"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:26:34.136924",
+  "ai_summary": "Empower Pharmacy can continue compounding non-injectable GHK-Cu after the FDA restored it to Category 1. This stabilizes Empower's operations, ensuring ongoing production of topical GHK-Cu products. For lab supply sales, this signals sustained demand for raw materials, testing reagents, and compounding equipment, presenting clear sales opportunities."
+}

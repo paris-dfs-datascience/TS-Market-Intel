@@ -1,0 +1,32 @@
+{
+  "account": "WEDGEWOOD PHARMACY",
+  "account_vertical": "BioPharma",
+  "Parent_ID": null,
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Dechra Pharmaceuticals received FDA approval for CosACTHen (cosyntropin injection) on May 19, 2026, as the first canine-labeled cosyntropin product, which is expected to convert ACTH stim test volume away from compounded supply previously provided by pharmacies like Wedgewood.",
+        "product_or_program": "Compounded cosyntropin (for Wedgewood Pharmacy); CosACTHen (for Dechra Pharmaceuticals)",
+        "stage": "FDA Approval (for CosACTHen); Market impact (for Wedgewood Pharmacy's compounded product)",
+        "therapeutic_or_application_area": "Canine Cushing's disease diagnosis (ACTH stimulation test)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The FDA approval of a commercially available alternative for a previously compounded product indicates a potential decrease in demand for compounded cosyntropin from Wedgewood Pharmacy, signaling a shift in their lab supply needs.",
+        "source_url": "https://www.theunderbite.co/news/dechra-cosacthen-fda-approval"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:57:17.426069",
+  "ai_summary": "Wedgewood Pharmacy is facing a significant shift as Dechra's FDA-approved CosACTHen will likely divert canine ACTH stim test volume away from their compounded cosyntropin. This matters for lab supply sales as it signals a potential decrease in Wedgewood's need for raw materials and supplies related to this specific compounding, requiring sales teams to reassess their product offerings and focus areas."
+}

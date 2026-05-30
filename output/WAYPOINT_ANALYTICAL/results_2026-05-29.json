@@ -1,0 +1,28 @@
+{
+  "account": "WAYPOINT ANALYTICAL",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011600001nXMqUAAW",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Waypoint Analytical has introduced new soil biology testing services that utilize DNA analysis to identify specific microbial functions, such as nitrogen fixation and phosphorus solubilization, across its seven agricultural labs in the US.",
+        "facility_or_line": "Waypoint Analytical's 7 agricultural labs across the US",
+        "change_type": "New product line/service (soil biology testing using DNA analysis) and shift in analytical capacity",
+        "location": "United States",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "The introduction of new DNA analysis services will drive demand for molecular biology reagents, consumables, and specialized equipment for DNA extraction, amplification, and sequencing in their labs.",
+        "source_url": "https://extension.illinois.edu/podcasts/illinois-nutrient-loss-reduction-podcast/episode-81-role-soil-microbiome-reducing-nutrient-loss"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:30:54.859632",
+  "ai_summary": "Waypoint Analytical is launching new DNA-based soil biology testing across its seven US agricultural labs. This significant expansion into advanced analytics signals a substantial investment in their capabilities. For lab supply sales, this creates immediate opportunities for molecular biology equipment, reagents, and consumables to support their new DNA analysis workflows."
+}

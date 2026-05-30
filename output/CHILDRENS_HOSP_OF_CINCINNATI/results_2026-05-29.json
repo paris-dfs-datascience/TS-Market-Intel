@@ -1,0 +1,235 @@
+{
+  "account": "CHILDRENS HOSP OF CINCINNATI",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1Z9YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Cincinnati Children's released its 2025 Research Annual Report, detailing over $239 million in external grants and contracts and $26 million in philanthropic support for research in fiscal 2025, highlighting ongoing discoveries across 49 divisions and the Schubert Research Clinic's 450+ active studies.",
+        "recipient": "Cincinnati Children's Hospital Medical Center",
+        "department_or_lab": "Cincinnati Children's Research Foundation, Schubert Research Clinic, 49 research institutes, divisions and areas",
+        "amount": "$239,000,000 (external grants and contracts), $26,000,000 (philanthropic support for research)",
+        "agency": "Federal and state grants, industry collaborations, philanthropic support",
+        "event_date": "2026-04-30",
+        "why_it_matters": "This report indicates substantial and ongoing research funding and activity across numerous departments, suggesting a consistent demand for a wide range of lab supplies and equipment.",
+        "source_url": "https://www.prnewswire.com/news-releases/cincinnati-childrens-releases-2025-research-annual-report-highlighting-discoveries-poised-to-improve-health-across-the-life-span-302759227.html"
+      },
+      {
+        "summary": "Cincinnati Children's Hospital received NIH funding to conduct a randomized controlled trial (NCT06609694) comparing oxygen delivery methods in children with Down syndrome and obstructive sleep apnea, serving as a pilot study for a larger multi-site project.",
+        "recipient": "Cincinnati Children's Hospital Medical Center",
+        "department_or_lab": "Not explicitly stated, but related to clinical research for obstructive sleep apnea",
+        "amount": "Not specified, NIH funding mentioned",
+        "agency": "NIH",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This new clinical trial indicates specific demand for respiratory-related lab supplies, consumables, and potentially monitoring equipment for sleep studies.",
+        "source_url": "https://www.uc.edu/news/articles/2026/04/goldwater-scholar-applying-machine-learning-to-medical-imaging.html"
+      },
+      {
+        "summary": "An article describes the establishment and operation of a Model-informed precision dosing (MIPD) consultation service within an academic children's hospital, supported by Cincinnati Children's Research Foundation and Crohn's and Colitis Foundation.",
+        "recipient": "Cincinnati Children's Hospital Medical Center",
+        "department_or_lab": "Division of Translational and Clinical Pharmacology, Department of Pediatrics, Cancer and Blood Diseases Institute, Department of Pharmacology and Systems Physiology, Department of Pharmaceutical Sciences, Division of Hospital Medicine",
+        "amount": "Not specified",
+        "agency": "Cincinnati Children's Research Foundation, Crohn's and Colitis Foundation",
+        "event_date": "2026-05-10",
+        "why_it_matters": "The establishment of a precision dosing service suggests a need for analytical equipment, reagents for drug concentration measurements, and related consumables for personalized medicine.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42108662/"
+      },
+      {
+        "summary": "Cincinnati Children's CuSTOM Accelerator, led by Magdalena Kasendra, PhD, was awarded $50,000 as an NIH Replication Exemplar for its work in advancing a human liver organoid platform for predictive toxicology and translational medicine.",
+        "recipient": "Cincinnati Children's CuSTOM Accelerator",
+        "department_or_lab": "CuSTOM Accelerator (directed by Magdalena Kasendra, PhD)",
+        "amount": "$50,000",
+        "agency": "NIH Common Fund",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This award indicates active and recognized research in organoid technology and toxicology, suggesting demand for cell culture supplies, reagents, and advanced imaging/analytical equipment.",
+        "source_url": "https://commonfund.nih.gov/replication-initiative/news/announcing-winners-nih-replication-prize-shaping-future-rigorous"
+      },
+      {
+        "summary": "Cincinnati Children's opened the Winslow Research Pavilion, a new facility housing the Vaccine Research Center, the Discover Together Biobank, and a Freezer Archive, which includes a new automated -80\u00b0C freezer.",
+        "recipient": "Cincinnati Children's Hospital Medical Center",
+        "department_or_lab": "Vaccine Research Center, Discover Together Biobank, Freezer Archive",
+        "amount": "$42,000,000 (institutional investment in design, construction, and equipment)",
+        "agency": "Cincinnati Children's (internal investment)",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The opening of a new research pavilion with a biobank and vaccine research center, including a new automated freezer, signals demand for biorepository supplies, cold storage, and vaccine research consumables.",
+        "source_url": "https://scienceblog.cincinnatichildrens.org/winslow-research-pavilion-opens/"
+      },
+      {
+        "summary": "Alex Knapp, an electrical engineering student at the University of Cincinnati working at Cincinnati Children's Artificial Intelligence Imaging Research Center, received a 2026 Goldwater Scholarship for his research applying AI to improve pediatric medical imaging.",
+        "recipient": "Alex Knapp (student researcher at Cincinnati Children's)",
+        "department_or_lab": "Artificial Intelligence Imaging Research Center at Cincinnati Children's Hospital Medical Center",
+        "amount": "Goldwater Scholarship (amount not specified)",
+        "agency": "Goldwater Foundation",
+        "event_date": "2026-05-05",
+        "why_it_matters": "Research in AI and medical imaging indicates potential demand for advanced imaging equipment, computational resources, and related software/hardware.",
+        "source_url": "https://www.uc.edu/news/articles/2026/04/goldwater-scholar-applying-machine-learning-to-medical-imaging.html"
+      },
+      {
+        "summary": "The University of Cincinnati is seeking a Director for its Cancer Center, with a key objective of achieving National Cancer Institute (NCI) Designation, involving collaboration with Cincinnati Children's Hospital Medical Center.",
+        "recipient": "University of Cincinnati Cancer Center (in partnership with Cincinnati Children's)",
+        "department_or_lab": "UC Cancer Center",
+        "amount": "Not a direct grant, but a strategic initiative with significant implied funding for future NCI designation",
+        "agency": "University of Cincinnati, NCI (future designation)",
+        "event_date": "2026-05-17",
+        "why_it_matters": "The pursuit of NCI designation by a partner institution, explicitly mentioning collaboration with Cincinnati Children's, signals a future increase in cancer research funding and associated demand for oncology-related lab supplies and equipment.",
+        "source_url": "https://www.uc.edu/news/articles/2026/02/university-of-cincinnati-cancer-center-names-david-gius-md-phd-as-director.html"
+      },
+      {
+        "summary": "Cincinnati Children's is hiring a Research Grants Administrator, noting its consistent ranking among the top 3 Children's Hospitals for National Institutes of Health (NIH) Funding, indicating a high volume of ongoing and future grant activity.",
+        "recipient": "Cincinnati Children's Hospital Medical Center",
+        "department_or_lab": "Sponsored Programs",
+        "amount": "Not a grant, but an indication of significant ongoing NIH funding",
+        "agency": "NIH (general statement about consistent funding)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This job posting confirms Cincinnati Children's ongoing high volume of NIH funding and active pursuit of new grants, indicating sustained demand for lab supplies and equipment across various research areas.",
+        "source_url": "https://www.remoterocketship.com/us/company/honu-services/jobs/subcontracts-administrator-mid-level-united-states-remote/"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Justin H. Lee has been appointed as the Director of Clinical Research for the Division of Pediatric General and Thoracic Surgery at Cincinnati Children's, joining from Phoenix Children's Hospital.",
+        "name": "Justin H. Lee",
+        "department": "Division of Pediatric General and Thoracic Surgery",
+        "start_date": "2026-05-12",
+        "event_date": "2026-05-12",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.cincinnatichildrens.org/bio/l/justin-lee"
+      },
+      {
+        "summary": "Le Xu, PhD, has joined Cincinnati Children's as a tenure-track assistant professor in the Division of Pulmonary Biology and is leading a new lab.",
+        "name": "Le Xu",
+        "department": "Division of Pulmonary Biology",
+        "start_date": "2026-05-16",
+        "event_date": "2026-05-16",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.cincinnatichildrens.org/bio/x/le-xu"
+      },
+      {
+        "summary": "Vivek J. Khandwala, PhD, has been appointed as the Administrative Director of the newly opened Imaging Research & Development Center, a collaboration between GE HealthCare, University of Cincinnati, UC Health, Cincinnati Children's, and JobsOhio.",
+        "name": "Vivek J. Khandwala",
+        "department": "Imaging Research & Development Center",
+        "start_date": "2026-05-28",
+        "event_date": "2026-05-28",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.uc.edu/news/articles/2026/05/uc-imaging-research-development-center-mri.html"
+      },
+      {
+        "summary": "Emily Harris, MD, MPH, a child psychiatrist in the Division of Child and Adolescent Psychiatry, was recruited by Cincinnati Children's physician-hospital organization, Tri-State Child Health Services, to serve as the lead psychiatrist and content expert for a mental health work group.",
+        "name": "Emily Harris",
+        "department": "Division of Child and Adolescent Psychiatry / Tri-State Child Health Services",
+        "start_date": "2026-05-28",
+        "event_date": "2026-05-28",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.cincinnatichildrens.org/professional/subspecialist-news/mental-behavioral-health/pediatric-mental-health-care-upstream"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Cincinnati Children's Hospital Medical Center's new $60 million Applied Gene and Cell Therapy Centre, opened in November 2025, features advanced manufacturing capabilities and testing laboratories, and includes a distribution hub for CCHMC's supply chain, with on-site manufacturing expected by early 2027.",
+        "contract_name": "Establishment of Applied Gene and Cell Therapy Centre",
+        "estimated_value": "$60 million investment in the facility",
+        "deadline_or_expiration": "On-site manufacturing expected by early 2027",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The new Applied Gene and Cell Therapy Centre signifies a substantial and ongoing demand for specialized lab supplies, reagents, and scientific equipment to support its advanced manufacturing, testing, and research operations.",
+        "source_url": "https://www.pharmaceutical-technology.com/projects/applied-gene-cell-therapy-center-ohio-us/"
+      },
+      {
+        "summary": "Cincinnati Children's released its 2025 Research Annual Report, detailing $239 million in external grants and contracts for research in fiscal year 2025, highlighting significant research achievements across 49 institutes and divisions.",
+        "contract_name": "2025 Research Annual Report (summarizing research funding)",
+        "estimated_value": "$239 million in external grants and contracts for research",
+        "deadline_or_expiration": "Fiscal year 2025 ended June 30 (2025)",
+        "event_date": "2026-04-30",
+        "why_it_matters": "The reported $239 million in research funding indicates a consistent and high demand for a wide range of lab supplies, reagents, consumables, and scientific equipment to support Cincinnati Children's extensive research initiatives.",
+        "source_url": "https://www.cincinnatichildrens.org/research/about/annual-report/2025"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Cincinnati Children's Hospital Medical Center is leveraging artificial intelligence (AI) to develop precision medicine strategies for children with inflammatory bowel disease (IBD), aiming to create tailored treatment approaches for optimal outcomes.",
+        "product_or_program": "AI for Precision Medicine in Inflammatory Bowel Disease (IBD)",
+        "stage": "Discovery phase, with long-term goal of introducing algorithms into clinical setting",
+        "therapeutic_or_application_area": "Inflammatory Bowel Disease (IBD)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new research program will require lab supplies for data analysis, potentially new diagnostic tools, and future clinical implementation, signaling upcoming demand.",
+        "source_url": "https://www.cincinnatichildrens.org/professional/subspecialist-news/gastroenterology/ai-precision-medicine-ibd"
+      },
+      {
+        "summary": "Cincinnati Children's Hospital Medical Center is sponsoring a clinical trial (NCT06560242) to track the early emergence of sound perception impairments in infants and toddlers with Fragile X Syndrome using multimodal fNIRS/EEG.",
+        "product_or_program": "Tracking Early Emergence of Sound Perception Impairments in FXS With Multimodal fNIRS/EEG- Infant (NCT06560242)",
+        "stage": "Recruiting clinical trial",
+        "therapeutic_or_application_area": "Fragile X Syndrome (FXS), Neurodevelopmental Disorders, Sound Perception Impairments",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This ongoing clinical trial will require specialized equipment (fNIRS/EEG), consumables, and reagents for patient monitoring and sample analysis.",
+        "source_url": "https://www.trialx.com/clinical-trials/listings/301687/tracking-early-emergence-of-2/"
+      },
+      {
+        "summary": "Emalex Biosciences plans to seek FDA approval for ecopipam, a new drug for Tourette Syndrome, based on positive Phase III clinical trial results led by Cincinnati Children's. An Expanded Access Program for ecopipam is also available for eligible patients.",
+        "product_or_program": "Ecopipam Expanded Access Program for Tourette Syndrome",
+        "stage": "Expanded Access Program (post-Phase III results, pre-FDA approval)",
+        "therapeutic_or_application_area": "Tourette Syndrome (TS)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The availability of an Expanded Access Program indicates a new treatment pathway that will require ongoing patient monitoring, potentially specialized drug handling, and associated lab tests.",
+        "source_url": "https://scienceblog.cincinnatichildrens.org/new-med-to-manage-tourette-syndrome-shows-promise-in-phase-iii-clinical-trial/"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Cincinnati Children's Hospital Medical Center celebrated the opening of the Winslow Research Pavilion, which expands laboratory and clinical research capacity and houses the Vaccine Research Center, Discover Together Biobank, and a Freezer Archive for research samples.",
+        "location": "Cincinnati, Ohio, USA",
+        "type_of_expansion": "new facility, capacity expansion",
+        "investment_value": "$42 million",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The opening of a new research pavilion with expanded laboratory and biobanking capacity indicates a significant upcoming demand for new lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9ZHZAU5-p4662jFoU5_5fU8zFsok7k2ZsY0nK0RBk-0cBn9VaI2hYVjX1JCSuj4ar7mDub2Tvv-MhIzhmuMLnHrJURLV65vRem9e8qdur5ay5BFO3RrlPLeJDeWLgVHJ71LUSCil0GF_WHRQj-d002r67elMGhdJtcUvzfmSzhfVi"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Cincinnati Children's celebrated the opening of the Winslow Research Pavilion, a new facility designed to expand laboratory space for pediatric research, including a Vaccine Research Center, Discover Together Biobank, and Freezer Archive.",
+        "project_name": "Winslow Research Pavilion",
+        "scope": "The new 45,000 square-foot facility houses the Vaccine Research Center, Discover Together Biobank, and a Freezer Archive for long-term storage of research samples. It includes a state-of-the-art Hamilton BiOS automated -80\u00b0C freezer for biospecimen storage and is designed to strengthen collaboration between scientists and clinicians. The total investment was $42 million, covering design, construction, and equipment. It will house approximately 70 employees, including physicians, research investigators, and laboratory scientists.",
+        "timeline": "Construction began in 2024, and the facility officially opened on May 5, 2026.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The opening of new, advanced laboratory and biobanking facilities will significantly increase demand for specialized lab consumables, reagents, cryopreservation equipment, and various scientific instruments to support expanded vaccine research, biospecimen processing, and long-term storage.",
+        "source_url": "https://scienceblog.cincinnatichildrens.org/winslow-research-pavilion-opens/"
+      },
+      {
+        "summary": "Cincinnati Children's developed the Applied Gene and Cell Therapy Centre (AGCTC) with a $60 million investment to renovate an existing building for the production of gene, cell, and immunotherapy products for clinical trials.",
+        "project_name": "Applied Gene and Cell Therapy Centre (AGCTC)",
+        "scope": "The AGCTC is a 50,000 sq ft facility within a 111,000 sq ft renovated building, designed to meet current good manufacturing practice (cGMP) standards. It houses the Cincinnati Children's Cellular Manipulations Lab and Vector Production Facility, focusing on producing innovative therapies for cancer, blood diseases, and genetic disorders. The facility can house approximately 100 employees.",
+        "timeline": "The facility opened in November 2025. It is set to undergo a 12-month certification program, with on-site manufacturing of gene, cell, and immunotherapy therapies expected to start by early 2027.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "The operation and ongoing certification of a cGMP-compliant gene and cell therapy manufacturing facility will generate substantial demand for specialized cell culture media, single-use bioprocessing consumables, quality control reagents, and advanced analytical and manufacturing equipment.",
+        "source_url": "https://scienceblog.cincinnatichildrens.org/winslow-research-pavilion-opens/"
+      },
+      {
+        "summary": "Cincinnati Children's, in collaboration with GE HealthCare, University of Cincinnati, UC Health, and JobsOhio, officially opened the new Imaging Research & Development Center to accelerate the development of next-generation magnetic resonance imaging (MRI) technologies.",
+        "project_name": "Imaging Research & Development Center",
+        "scope": "The facility is equipped with an innovative GE HealthCare SIGNA\u2122 Premier 3T wide-bore MRI scanner. It serves as a hub for academic researchers, clinicians, and GE HealthCare scientists to collaborate on advancing MRI hardware, software, and imaging techniques, with a focus on improving diagnostic accuracy, enhancing patient comfort, and supporting personalized care.",
+        "timeline": "The center officially opened on May 27, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "The establishment of this advanced imaging research center will drive demand for specialized imaging reagents, contrast agents, and various consumables and equipment essential for cutting-edge MRI research and clinical trials, as well as potential future upgrades and maintenance.",
+        "source_url": "https://scienceblog.cincinnatichildrens.org/winslow-research-pavilion-opens/"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": [
+      {
+        "summary": "Cincinnati Children's Hospital Medical Center opened the Winslow Research Pavilion, consolidating the Vaccine Research Center, Discover Together Biobank, and a Freezer Archive into a new, larger laboratory space. This expansion aims to improve operational efficiency and increase biospecimen volume.",
+        "facility_or_programme": "Winslow Research Pavilion (housing Vaccine Research Center, Discover Together Biobank, Freezer Archive)",
+        "closure_type": "Consolidation/Expansion",
+        "effective_date": "2026-05-05",
+        "reason": "To strengthen collaboration, accelerate discovery into treatments, improve operational efficiency, and increase biospecimen volume.",
+        "event_date": "2026-05-05",
+        "why_it_matters": "This consolidation and expansion of research facilities at Cincinnati Children's indicates potential new demand for advanced lab equipment, reagents, and consumables to support increased research capacity and efficiency.",
+        "source_url": "https://scienceblog.cincinnatichildrens.org/winslow-research-pavilion-opens/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T09:46:28.184141",
+  "ai_summary": "Cincinnati Children's is undergoing significant research expansion, driven by over $239 million in grants and new facilities like the Winslow Research Pavilion and Applied Gene and Cell Therapy Centre. This includes expanded lab space, biobanking, and advanced manufacturing capabilities, alongside key faculty hires. This surge in research, particularly in gene/cell therapy, vaccines, and AI, creates substantial demand for lab supplies, equipment, and consumables for a sales team."
+}

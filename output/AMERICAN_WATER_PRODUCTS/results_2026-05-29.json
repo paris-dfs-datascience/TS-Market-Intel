@@ -1,0 +1,105 @@
+{
+  "account": "AMERICAN WATER PRODUCTS",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011M00002TuniGQAR",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Pennsylvania American Water is investing $143 million to construct the new Lock 57 Water Treatment Plant in East Vincent Township, Royersford District, PA, to increase capacity and improve water quality.",
+        "location": "East Vincent Township, Royersford District, Pennsylvania",
+        "type_of_expansion": "New dedicated facility (water treatment plant) and capacity expansion",
+        "investment_value": 143000000,
+        "event_date": "2026-05-05",
+        "why_it_matters": "A new water treatment plant requires a wide array of lab supplies, reagents, consumables, and scientific equipment for water quality testing, process control, and ongoing operations.",
+        "source_url": "https://vista.today/2026/05/pennsylvania-american-water-lock-57-royersford/"
+      },
+      {
+        "summary": "West Virginia American Water opened a new state-of-the-art training facility in Nitro, WV, featuring modern classroom space alongside hands-on, real-world training environments for water and wastewater systems.",
+        "location": "Nitro, West Virginia",
+        "type_of_expansion": "New dedicated facility (training facility with hands-on operational training)",
+        "investment_value": null,
+        "event_date": "2026-05-26",
+        "why_it_matters": "The hands-on training environments for water and wastewater systems will require lab supplies, reagents, and consumables for practical demonstrations and skill development.",
+        "source_url": "https://www.prnewswire.com/news-releases/west-virginia-american-water-expands-investment-in-nitro-with-new-training-facility-302782232.html"
+      },
+      {
+        "summary": "Illinois American Water announced planned investments of approximately $290 million in 2026 for strengthening water and wastewater infrastructure across Illinois, including enhanced water treatment projects addressing PFAS and wastewater system improvements.",
+        "location": "Statewide, Illinois",
+        "type_of_expansion": "Capacity expansion and infrastructure upgrades for water and wastewater treatment",
+        "investment_value": 290000000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "Significant investments in water and wastewater treatment plants, especially for enhanced treatment like PFAS removal, will drive demand for specialized reagents, analytical equipment, and consumables for monitoring and process control.",
+        "source_url": "https://www.prnewswire.com/news-releases/illinois-american-water-highlights-290-million-of-infrastructure-investments-expected-in-2026-during-infrastructure-week-302775055.html"
+      },
+      {
+        "summary": "Pennsylvania American Water announced a $17.8 million plan for 2026 to rehabilitate seven existing water storage tanks and construct two new tanks statewide to ensure reliable service and water quality.",
+        "location": "Statewide, Pennsylvania",
+        "type_of_expansion": "Capacity expansion (new water storage tanks) and infrastructure upgrades",
+        "investment_value": 17800000,
+        "event_date": "2026-05-18",
+        "why_it_matters": "New water storage tanks and rehabilitated infrastructure require initial and ongoing water quality testing, creating demand for sampling equipment, reagents, and analytical instruments.",
+        "source_url": "https://www.prnewswire.com/news-releases/pennsylvania-american-water-announces-major-water-tank-upgrades-statewide-302775030.html"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "American Water plans to invest approximately $3.7 billion across its footprint in 2026, with a significant portion dedicated to infrastructure renewal, resiliency, water quality (including PFAS compliance), operational efficiency, technology, and system expansion.",
+        "facility_or_line": "Various water and wastewater infrastructure across its regulated operations in 14 states.",
+        "change_type": "Production capacity increase, retooling of existing plants, infrastructure renewal, system expansion, water quality improvements.",
+        "location": "Regulated operations in 14 states.",
+        "investment_value": "$3.7 billion",
+        "event_date": "2026-04-29",
+        "why_it_matters": "These extensive capital investments in infrastructure, water quality, and system expansion will drive significant demand for new lab supplies, reagents, consumables, and scientific equipment for construction, upgrades, and ongoing operational and quality control testing.",
+        "source_url": "https://ir.amwater.com/news-and-events/financial-releases/financial-release-details/2026/AMERICAN-WATER-REPORTS-FIRST-QUARTER-2026-RESULTS-ON-TRACK-AFFIRMS-2026-EPS-GUIDANCE-AND-LONG-TERM-TARGETS/default.aspx"
+      },
+      {
+        "summary": "California American Water plans approximately $277 million in infrastructure investments in 2026, including new groundwater storage in Isleton, major water treatment upgrades in Monterey, replacement of aging water infrastructure, enhanced water storage, and technology upgrades.",
+        "facility_or_line": "Groundwater storage in Isleton, water treatment plant in Monterey, various distribution systems, and tank projects across California.",
+        "change_type": "New manufacturing site opening, retooling of existing plants, production capacity increase, infrastructure renewal.",
+        "location": "Isleton, Monterey, and various locations across California.",
+        "investment_value": "$277 million",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Investments in new groundwater storage, treatment plant upgrades, and infrastructure renewal will necessitate new lab equipment, reagents, and consumables for water quality testing, process monitoring, and environmental compliance.",
+        "source_url": "https://newsroom.amwater.com/2026-05-20-INFRASTRUCTURE-WEEK-CALIFORNIA-AMERICAN-WATER-HIGHLIGHTS-277-MILLION-OF-INFRASTRUCTURE-INVESTMENTS-EXPECTED-IN-2026"
+      },
+      {
+        "summary": "Illinois American Water plans approximately $290 million in infrastructure investments in 2026, including PFOS water treatment plant improvements in Lincoln, a wastewater clarifier replacement in Granite City, a booster tank installation in Woodridge, lift station improvements in Homer Glen, and water storage tank renovations in Bolingbrook.",
+        "facility_or_line": "PFOS water treatment plant in Lincoln, wastewater clarifier in Granite City, booster tank in Woodridge, lift stations in Homer Glen, water storage tanks in Bolingbrook, and lead service lines across Illinois.",
+        "change_type": "Retooling of existing plants, production capacity increase, infrastructure renewal.",
+        "location": "Lincoln, Granite City, Woodridge, Homer Glen, Bolingbrook, and various locations across Illinois.",
+        "investment_value": "$290 million",
+        "event_date": "2026-05-18",
+        "why_it_matters": "Upgrades to water treatment plants for PFAS, wastewater clarifier replacements, and other infrastructure improvements will create demand for specialized lab supplies, analytical instruments, and testing kits for contaminant detection and process optimization.",
+        "source_url": "https://newsroom.amwater.com/2026-05-18-Illinois-American-Water-Highlights-290-Million-of-Infrastructure-Investments-Expected-in-2026-During-Infrastructure-Week"
+      },
+      {
+        "summary": "The combined American Water and Essential Utilities company plans to invest $28 billion in infrastructure over the next five years, including pipe replacements and treatment upgrades, following their merger.",
+        "facility_or_line": "Water and wastewater infrastructure across 17 states.",
+        "change_type": "Infrastructure renewal, retooling of existing plants, production capacity increase.",
+        "location": "Across 17 states.",
+        "investment_value": "$28 billion",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This substantial multi-year investment in infrastructure and treatment upgrades will generate sustained demand for a wide range of lab supplies, reagents, and scientific equipment for water quality analysis, process control, and environmental monitoring across a broad geographic area.",
+        "source_url": "https://www.stocktitan.net/sec-filings/WTRG/425-essential-utilities-inc-business-combination-communication-682a2f14e6f2.html"
+      },
+      {
+        "summary": "American Water and Essential Utilities received approval from the Public Utilities Commission of Ohio for their proposed merger, marking a significant regulatory milestone.",
+        "facility_or_line": "N/A",
+        "change_type": "N/A",
+        "location": "Ohio.",
+        "investment_value": "N/A",
+        "event_date": "2026-05-14",
+        "why_it_matters": "Regulatory approvals for mergers like this are crucial precursors to large-scale infrastructure investments, which will subsequently drive demand for lab supplies and equipment for expanded operations and quality control.",
+        "source_url": "https://ir.amwater.com/news-and-events/financial-releases/financial-release-details/2026/American-Water-and-Essential-Utilities-Proposed-Merger-Progresses-with-Approval-from-the-Public-Utilities-Commission-of-Ohio/default.aspx"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:09:21.552866",
+  "ai_summary": "American Water is investing billions in new treatment plants, infrastructure upgrades, and expansions across multiple states, driven by water quality, PFAS compliance, and a recent merger. This significant growth and emphasis on advanced treatment and monitoring mean increased demand for lab supplies, including new equipment, consumables, and analytical solutions for expanded testing."
+}

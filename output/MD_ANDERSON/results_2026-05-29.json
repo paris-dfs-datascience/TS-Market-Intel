@@ -1,0 +1,127 @@
+{
+  "account": "MD ANDERSON",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1cPYAS",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The University of Texas MD Anderson Cancer Center was awarded over $19 million from the Cancer Prevention and Research Institute of Texas (CPRIT) to support a statewide platform for young cancer survivors, groundbreaking cancer research efforts, and faculty recruitment and training programs.",
+        "recipient": "The University of Texas MD Anderson Cancer Center",
+        "department_or_lab": "Pediatrics, Lymphoma/Myeloma (for AYA LASSO); Experimental Radiation Oncology (for The Future of Cancer Research training program); Head and Neck Surgery (for I-PROTECT)",
+        "amount": "$19,000,000+",
+        "agency": "Cancer Prevention and Research Institute of Texas (CPRIT)",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This significant funding indicates new and ongoing research projects and faculty expansion at MD Anderson, creating demand for lab supplies, reagents, consumables, and scientific equipment.",
+        "source_url": "https://www.mdanderson.org/newsroom/cprit-awards-ut-md-anderson-over-19-million-for-cancer-research-and-faculty-recruitment.h00-159855345.html"
+      },
+      {
+        "summary": "Dr. Sharon Giordano and Dr. Eduardo Vilar-Sanchez from The University of Texas MD Anderson Cancer Center received Special Awards at the 2026 American Society of Clinical Oncology (ASCO) Annual Meeting for their significant contributions to breast cancer care and research, and cancer prevention research, respectively.",
+        "recipient": "Sharon Giordano, M.D., and Eduardo Vilar-Sanchez, M.D., Ph.D. (The University of Texas MD Anderson Cancer Center)",
+        "department_or_lab": "Breast Medical Oncology (for Sharon Giordano); Clinical Cancer Prevention (for Eduardo Vilar-Sanchez)",
+        "amount": null,
+        "agency": "American Society of Clinical Oncology (ASCO) / American Cancer Society",
+        "event_date": "2026-05-27",
+        "why_it_matters": "Recognition of leading researchers at MD Anderson suggests active and potentially expanding research programs in breast cancer and cancer prevention, which will require ongoing lab supplies and equipment.",
+        "source_url": "https://www.mdanderson.org/newsroom/asco-ut-md-anderson-faculty-honored-as-2026-special-award-recipients.h00-159855345.html"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Albert Koong, M.D., Ph.D., an internationally recognized physician-scientist, has been appointed chief scientific officer (CSO) at The University of Texas MD Anderson Cancer Center, effective June 1, 2026.",
+        "name": "Albert C. Koong",
+        "department": "Chief Scientific Officer",
+        "start_date": "2026-06-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.mdanderson.org/newsroom/ut-md-anderson-names-albert-koong-md-phd-chief-scientific-officer.h00-159855345.html"
+      },
+      {
+        "summary": "Khanh D. Vu, MD, FACP, has been appointed Section Chief in the Department of General Internal Medicine at The University of Texas MD Anderson Cancer Center, with the appointment effective in 2026.",
+        "name": "Khanh D. Vu",
+        "department": "Section Chief, Department of General Internal Medicine",
+        "start_date": "2026",
+        "event_date": "2026-05-11",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://faculty.mdanderson.org/profiles/khanh_vu.html"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "The University of Texas MD Anderson Cancer Center and CTMC announced that the FDA has cleared an Investigational New Drug (IND) application for a novel CAR T cell therapy, JV-394, targeting CD94+ relapsed or refractory T/NK cell lymphomas, allowing it to proceed into a Phase 1 clinical trial.",
+        "product_or_program": "JV-394 (novel CD94+ CAR T cell therapy)",
+        "stage": "Phase 1 clinical trial",
+        "therapeutic_or_application_area": "Relapsed or refractory CD94+ T/NK cell lymphomas",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This indicates a new clinical trial starting at MD Anderson, creating demand for cell culture media, reagents, and other consumables for CAR T cell manufacturing and research.",
+        "source_url": "https://www.mdanderson.org/newsroom/novel-car-t-cell-therapy-developed-by-ut-md-anderson-researchers-moves-into-clinical-studies.h00-159855345.html"
+      },
+      {
+        "summary": "TransCode Therapeutics, Inc. announced the initiation of its Phase 2a clinical trial to evaluate TTX-MC138 in patients with circulating tumor DNA (ctDNA) positive colorectal cancer following curative-intent therapy. Dr. Paula Pohlmann of MD Anderson Cancer Center is chairing the trial, and MD Anderson is a participating clinical site.",
+        "product_or_program": "TTX-MC138 (microRNA-10b inhibitor)",
+        "stage": "Phase 2a clinical trial",
+        "therapeutic_or_application_area": "ctDNA positive colorectal cancer",
+        "event_date": "2026-05-27",
+        "why_it_matters": "MD Anderson's involvement as a trial site and with a chairing investigator suggests increased research activity and potential demand for molecular biology reagents, liquid biopsy consumables, and general lab supplies for colorectal cancer research.",
+        "source_url": "https://www.prnewswire.com/news-releases/transcode-therapeutics-initiates-phase-2a-clinical-trial-with-ttx-mc138-in-patients-with-ctdna-positive-colorectal-cancer-302782666.html"
+      },
+      {
+        "summary": "MD Anderson clinicians and researchers presented new findings at the 2026 American Society for Clinical Oncology (ASCO) Annual Meeting, showcasing breakthrough therapies. These include results from the Phase 1 SOLARA trial for a new OMNI-EGFR inhibitor in non-small cell lung cancer and a clinical trial testing ABBV-706, a novel antibody-drug conjugate, for small cell lung cancer.",
+        "product_or_program": "OMNI-EGFR inhibitor (SOLARA trial) and ABBV-706 (antibody-drug conjugate)",
+        "stage": "Phase 1 clinical trial (OMNI-EGFR inhibitor); Clinical trial (ABBV-706)",
+        "therapeutic_or_application_area": "Non-small cell lung cancer (EGFR-mutant) and Small cell lung cancer (targeting SEZ6)",
+        "event_date": "2026-05-28",
+        "why_it_matters": "Presentation of new clinical trial data indicates ongoing research and potential for future trials, driving demand for reagents, consumables, and equipment for oncology research, particularly in lung cancer and personalized medicine.",
+        "source_url": "https://www.mdanderson.org/cancerwise/top-5-asco-studies-advancing-personalized-medicine.h00-159855345.html"
+      },
+      {
+        "summary": "Researchers at The University of Texas MD Anderson Cancer Center and The University of Texas at Austin identified specific blood-based genomic biomarkers that distinguish inflammatory breast cancer (IBC) from other subtypes, using an improved RNA sequencing method called TGIRT sequencing.",
+        "product_or_program": "Identification of blood-based genomic biomarkers for inflammatory breast cancer (using TGIRT sequencing)",
+        "stage": "Research/Discovery (pre-clinical with clinical implications)",
+        "therapeutic_or_application_area": "Inflammatory breast cancer (diagnosis, monitoring, treatment development)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This research indicates ongoing demand for advanced sequencing reagents, liquid biopsy consumables, and pathology lab supplies for breast cancer research and potential diagnostic applications.",
+        "source_url": "https://www.mdanderson.org/newsroom/research-newsroom/scientists-find-blood-based-biomarkers-for-inflammatory-breast-cancer.h00-159855345.html"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "The University of Texas MD Anderson Cancer Center received a $19 million grant for cancer research and faculty recruitment and training.",
+        "location": "Houston, TX",
+        "type_of_expansion": "Capacity expansion (research and training)",
+        "investment_value": 19000000,
+        "event_date": "2026-05-25",
+        "why_it_matters": "This significant investment in cancer research and training at MD Anderson will likely lead to increased demand for laboratory supplies, reagents, and equipment to support new projects and expanded personnel.",
+        "source_url": "https://philanthropistsnotebook.com/2026/05/25/rockefeller-foundation-deployed-over-350m-in-2025-scaling-climate-energy-health-programs-for-731m-people/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "The Cancer Prevention and Research Institute of Texas (CPRIT) awarded over $19 million to The University of Texas MD Anderson Cancer Center for various initiatives, including groundbreaking cancer research efforts, faculty recruitment, and training programs.",
+        "project_name": "CPRIT Grants for Cancer Research and Faculty Recruitment",
+        "scope": "Over $19 million in grants for academic research awards and recruitment awards. Specific projects include AYA LASSO: A statewide platform to assess and improve long-term health outcomes in AYA cancer survivors ($4,995,254), The Future of Cancer Research: Training program for basic and translational scientists ($4,000,000), I-PROTECT - Intratumoral Prevention and Risk Outcomes in Targeted Early Cancer Treatment with Immunotherapy ($1,577,123), and the recruitment of three CPRIT Scholars, including Adam Grippin, M.D., Ph.D. ($8,000,000 total for recruitment).",
+        "timeline": "Announced May 20, 2026; funding supports ongoing research and recruitment efforts.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "These substantial grants for clinical research and faculty recruitment will drive increased demand for a wide range of lab supplies, reagents, and scientific equipment to support new and expanded research initiatives and the work of newly recruited scientists.",
+        "source_url": "https://www.mdanderson.org/newsroom/cprit-awards-ut-md-anderson-over-19-million-for-cancer-research-and-faculty-recruitment.h00-159855345.html"
+      },
+      {
+        "summary": "The University of Texas MD Anderson Cancer Center and CTMC, a joint venture between UT MD Anderson and Resilience, received FDA Investigational New Drug (IND) clearance to initiate a Phase 1 clinical trial for a novel CAR T cell therapy.",
+        "project_name": "Phase 1 Clinical Trial for Novel CD94+ CAR T Cell Therapy",
+        "scope": "Initiation of a Phase 1 clinical trial for a novel chimeric antigen receptor (CAR) T cell therapy targeting CD94+ relapsed or refractory T/NK cell lymphomas. CTMC will manufacture the therapy for the trial.",
+        "timeline": "Announced May 15, 2026; clinical trial to commence.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "The launch of a new Phase 1 clinical trial for a CAR T cell therapy, including its manufacturing, will generate demand for specialized cell culture media, reagents for cell processing and characterization, and consumables for clinical trial execution and monitoring.",
+        "source_url": "https://www.mdanderson.org/newsroom/cprit-awards-ut-md-anderson-over-19-million-for-cancer-research-and-faculty-recruitment.h00-159855345.html"
+      }
+    ],
+    "regulatory": [],
+    "tender": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:06:58.387462",
+  "ai_summary": "MD Anderson is significantly expanding its cancer research, securing over $19 million in grants and launching multiple clinical trials for novel therapies like CAR T cells and targeted inhibitors. New scientific leadership and faculty appointments further bolster these efforts. This surge in research activity, including advanced sequencing and biomarker discovery, creates significant opportunities for lab supply sales, as new projects and trials will require increased consumables and equipment."
+}

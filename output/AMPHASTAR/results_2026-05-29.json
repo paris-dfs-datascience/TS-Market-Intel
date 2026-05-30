@@ -1,0 +1,51 @@
+{
+  "account": "AMPHASTAR",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nOzwAYAS",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Amphastar Pharmaceuticals launched its Ipratropium Bromide HFA Inhalation Aerosol (AMP-007), a generic version of Atrovent\u00ae HFA, in April 2026, securing 180 days of generic exclusivity in a market valued over $100 million annually.",
+        "product_or_program": "Ipratropium Bromide HFA Inhalation Aerosol (AMP-007)",
+        "stage": "Product Launch (Generic)",
+        "therapeutic_or_application_area": "Maintenance treatment of bronchospasm associated with chronic obstructive pulmonary disease (COPD), including chronic bronchitis and emphysema.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "A new product launch with generic exclusivity indicates immediate demand for manufacturing, quality control, and distribution supplies, presenting a direct sales opportunity for lab supply representatives.",
+        "source_url": "https://www.investing.com/news/company-news/amphastar-may-2026-slides-pipeline-shift-masks-nearterm-headwinds-93CH-4671008"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [
+      {
+        "summary": "Amphastar Pharmaceuticals announced the FDA approval and subsequent launch of Ipratropium Bromide HFA.",
+        "product_or_site": "Ipratropium Bromide HFA (AMP007)",
+        "regulatory_action": "ANDA Approval",
+        "outcome": "Approved",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This approval and launch will increase demand for raw materials, manufacturing consumables, and quality control lab supplies for large-scale production.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1297184/000129718426000031/amph-20260507x8k.htm"
+      },
+      {
+        "summary": "International Medication Systems Ltd., an Amphastar Pharmaceutical Company, had a Class II voluntary recall of EPINEPHRINE Injection, USP, due to lack of assurance of sterility.",
+        "product_or_site": "EPINEPHRINE Injection, USP, 1 mg/10mL (0.1 mg/mL)",
+        "regulatory_action": "FDA Recall Enforcement Report",
+        "outcome": "Class II Recall",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This recall indicates a need for remediation supplies, quality control testing equipment, and potentially new manufacturing consumables to address sterility issues.",
+        "source_url": "https://ndclist.com/recalls/98690"
+      }
+    ],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:12:14.949608",
+  "ai_summary": "Amphastar is launching a significant new generic product, Ipratropium Bromide HFA, into a lucrative market, signaling growth and increased production. Simultaneously, a subsidiary faces a Class II recall for Epinephrine due to sterility issues. This creates opportunities for lab supply sales teams to support expanded manufacturing and address potential quality control and sterility testing upgrades."
+}

@@ -1,0 +1,31 @@
+{
+  "account": "MATICA BIO",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "0011M00002eYKfBQAW",
+  "signals": {
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Eli Lilly and Company has acquired Engage Biologics Inc., a preclinical biotechnology company focused on non-viral DNA delivery, for up to $202 million in cash, including an upfront payment and subsequent payments upon achievement of specified development milestones.",
+        "acquirer": "Eli Lilly and Company",
+        "target": "Engage Biologics Inc.",
+        "deal_value": "Up to $202 million",
+        "deal_status": "Completed",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This platform buyout by Eli Lilly for non-viral DNA delivery technology indicates a strategic investment in genetic medicines, which will likely drive demand for specialized reagents, consumables, and equipment for research and development in this area.",
+        "source_url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-engage-bio-202m-non-viral-dna-delivery-platform/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:11:11.938434",
+  "ai_summary": "Eli Lilly's acquisition of Engage Biologics, focused on non-viral DNA delivery, signals significant investment in gene therapy. This indicates a growing market for advanced therapy manufacturing, directly impacting Matica Bio. A lab supply sales team should anticipate increased demand for Matica Bio's CDMO services and new supply needs related to non-viral vector development and production as they support this expanding sector."
+}

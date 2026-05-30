@@ -1,0 +1,63 @@
+{
+  "account": "BAYLOR GENETICS",
+  "account_vertical": "Clinical_Mol_Dx",
+  "Parent_ID": "001UR00000nP1J7YAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Baylor College of Medicine researchers, supported by an NIH/NIAID grant, developed a hybrid-capture genetic sequencing method to detect and track multiple cancer-causing viruses in wastewater, enabling public health interventions.",
+        "recipient": "Baylor College of Medicine",
+        "department_or_lab": "Maresso lab (Molecular Virology and Microbiology)",
+        "amount": null,
+        "agency": "NIH/NIAID",
+        "event_date": "2026-05-15",
+        "why_it_matters": "This grant indicates ongoing research and development in advanced genetic sequencing for diagnostic purposes, suggesting potential demand for related lab supplies, reagents, and consumables for viral detection and analysis.",
+        "source_url": "https://www.bcm.edu/news/study-is-first-to-detect-track-multiple-cancer-causing-viruses-in-wastewater"
+      },
+      {
+        "summary": "The University of Houston received an $11.8 million NIH grant to establish a national Clinical Research Center on Developmental Language Disorders, with Baylor College of Medicine as a partner, to study early language development.",
+        "recipient": "University of Houston (with Baylor College of Medicine as a partner)",
+        "department_or_lab": null,
+        "amount": "$11.8 million",
+        "agency": "NIH",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Baylor College of Medicine's involvement in this large NIH-funded clinical research center suggests a need for various lab supplies and equipment to support studies on language development and related neurological processes.",
+        "source_url": "https://houston.innovationmap.com/tag/baylor-college-of-medicine"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "Researchers at Baylor College of Medicine, in collaboration with the University of Texas Health Science Center at Houston, published a study on detecting and tracking multiple cancer-causing viruses in wastewater using a hybrid-capture genetic sequencing method. The study was supported by NIH/NIAID (Grant number U19 AI157981), among other sources.",
+        "amount": null,
+        "funding_type": "Government award",
+        "use_of_proceeds": "Development and implementation of a hybrid-capture genetic sequencing assay for comprehensive viral detection in wastewater, enabling public health interventions.",
+        "event_date": "2026-05-15",
+        "why_it_matters": "The development and application of a new genetic sequencing assay for viral detection will require ongoing procurement of specialized reagents, consumables, and potentially new or upgraded sequencing equipment for research and potential public health implementation within the Baylor genetic testing ecosystem.",
+        "source_url": "https://www.bcm.edu/news/study-is-first-to-detect-track-multiple-cancer-causing-viruses-in-wastewater"
+      }
+    ],
+    "project": [],
+    "regulatory": [],
+    "volume": [],
+    "competitive": [],
+    "closure": [
+      {
+        "summary": "Baylor Genetics will temporarily close its facilities and will not accept specimens via any courier, including FedEx\u00ae, on Monday, May 25, 2026, in observance of Memorial Day. Standard business operations will resume on Tuesday, May 26, 2026. Clients are encouraged to plan ahead for time-sensitive testing requests and sample submissions to prevent delays.",
+        "facility_or_programme": "Baylor Genetics laboratories and specimen acceptance",
+        "closure_type": "temporary lab closure",
+        "effective_date": "2026-05-25",
+        "reason": "Observance of Memorial Day holiday",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This temporary closure presents a minor churn risk for Thomas Scientific if clients seek alternative suppliers for urgent needs, but also an opportunity to reinforce reliability for future orders.",
+        "source_url": "https://www.baylorgenetics.com/news/2026-memorial-day-hours/"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T09:18:08.002597",
+  "ai_summary": "Baylor Genetics, through its College of Medicine, is expanding genetic sequencing research with new NIH grants. Projects focus on hybrid-capture methods for detecting cancer-causing viruses in wastewater and studying developmental language disorders. This indicates a growing need for advanced sequencing reagents, consumables, and molecular diagnostic tools, presenting significant sales opportunities for lab supply teams supporting these well-funded initiatives."
+}

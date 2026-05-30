@@ -1,0 +1,121 @@
+{
+  "account": "LOUISIANA STATE UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1DaYAK",
+  "signals": {
+    "grant": [],
+    "faculty": [],
+    "capital": [
+      {
+        "summary": "Louisiana State University (LSU) opened the Our Lady of the Lake Health Interdisciplinary Science Building in April 2026, a $148 million facility designed to be a hub for scientific inquiry, STEM education, and industry collaboration. The building features leading-edge laboratories, including venues for data visualization, a trace metals lab, and a trace isotope facility, spanning 148,000 square feet.",
+        "project_name": "Our Lady of the Lake Health Interdisciplinary Science Building",
+        "location": "Baton Rouge, Louisiana",
+        "value": "$148 million",
+        "timeline": "Opened in April 2026",
+        "event_date": "2026-05-13",
+        "why_it_matters": "The opening of this new interdisciplinary science building indicates a significant demand for new lab supplies, reagents, consumables, and scientific equipment to support the advanced research and teaching laboratories.",
+        "source_url": "https://www.tradelineinc.com/news/louisiana-state-university-opens-interdisciplinary-science-building"
+      },
+      {
+        "summary": "Louisiana's Capital Outlay bill includes funding for a new $107 million building for Construction Management & Advanced Manufacturing at LSU, with construction expected to begin in 2027. This project aims to centralize advanced manufacturing spaces and support the development of construction and manufacturing methods.",
+        "project_name": "Construction & Advanced Manufacturing Building",
+        "location": "South Stadium Drive, Baton Rouge, Louisiana",
+        "value": "$107 million",
+        "timeline": "Construction expected to begin in 2027",
+        "event_date": "2026-05-28",
+        "why_it_matters": "The upcoming construction of this advanced manufacturing facility will create demand for specialized lab equipment, materials, and consumables for research and development in manufacturing processes.",
+        "source_url": "https://www.govtech.com/education/higher-ed/capital-outlay-is-reshaping-lsu-southern"
+      },
+      {
+        "summary": "The Capital Outlay bill also includes plans for a new $137 million library at LSU, located at South Stadium and Field House drives, with construction to be completed by 2028. This new facility will replace the existing library.",
+        "project_name": "New Library at South Stadium and Field House",
+        "location": "South Stadium and Field House drives, Baton Rouge, Louisiana",
+        "value": "$137 million",
+        "timeline": "Construction to be completed by 2028",
+        "event_date": "2026-05-28",
+        "why_it_matters": "While primarily a library, large capital projects of this scale often include modern technology and potential specialized learning or archival labs, indicating a need for various supplies and equipment.",
+        "source_url": "https://www.govtech.com/education/higher-ed/capital-outlay-is-reshaping-lsu-southern"
+      }
+    ],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Louisiana State University recently celebrated the ribbon cutting for the Our Lady of the Lake Health Interdisciplinary Science Building, a $148 million facility designed to be an epicenter for academics, research, and industry collaboration.",
+        "project_name": "Our Lady of the Lake Health Interdisciplinary Science Building",
+        "scope": "The 148,000 sq ft facility supports five focus disciplines: biological sciences, chemistry, geology and geophysics, mathematics, and physics and astronomy, and includes the LSU Theoretical Institute, a premier research incubator for theoretical sciences and mathematics.",
+        "timeline": "The building opened in April 2026 and will fully open to students for classes in Fall 2026.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "The launch of this advanced interdisciplinary science building with specialized laboratories will generate significant demand for new and specialized lab supplies, reagents, consumables, and scientific equipment across multiple scientific disciplines.",
+        "source_url": "https://www.lsu.edu/eng/news-stories/2026/05/royomartiniii-honorary-doctorate.php"
+      }
+    ],
+    "breakthrough": [
+      {
+        "summary": "LSU researchers have developed a pioneering method to generate green electricity without fuel, achieving efficiency comparable to natural gas-fired power plants under laboratory conditions. This breakthrough is recognized by LSU's Vice Chancellor of Research and Economic Development and the Office of Innovation & Technology Commercialization as a significant advancement in sustainable energy solutions.",
+        "researcher_name": "Li and Yu",
+        "department_or_lab": "Sustainable Energy Solutions (affiliated with LSU's Office of Innovation & Technology Commercialization)",
+        "award_or_discovery": "Breakthrough in generating electricity without fuel",
+        "significance": "This pioneering work positions LSU as a leader in sustainable energy solutions, with the potential to transform future power generation.",
+        "event_date": "2026-05-25",
+        "why_it_matters": "This breakthrough signals high-impact lab activity in sustainable energy, likely requiring advanced materials, catalysts, and energy measurement equipment.",
+        "source_url": "https://www.lsu.edu/blog/2026/05/green_energy_final.php"
+      },
+      {
+        "summary": "LSU researchers contributed to the first clear detection of gamma rays from a superluminous supernova using data from NASA's Fermi Gamma-ray Space Telescope, providing new insights into the powerful magnetars believed to drive these stellar explosions.",
+        "researcher_name": "LSU Researchers (Guillem Mart\u00ed-Devesa mentioned as a contributing researcher)",
+        "department_or_lab": "LSU College of Science",
+        "award_or_discovery": "First clear detection of gamma rays from a superluminous supernova",
+        "significance": "This breakthrough offers new insight into the powerful magnetars believed to drive some of the universe's brightest stellar explosions.",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This discovery in astrophysics indicates advanced research in high-energy physics, potentially driving demand for specialized detectors, computational resources, and astronomical observation equipment.",
+        "source_url": "https://www.lsu.edu/science/news/2026/05/nasa-fermi-gammaray.php"
+      },
+      {
+        "summary": "Dr. Syed Noor from LSU Shreveport received a research award for his exemplary funded research record, which includes four funded projects, with two grants exceeding $1 million and two grants from the U.S. National Institute of Mental Health, each for more than $3 million.",
+        "researcher_name": "Dr. Syed Noor",
+        "department_or_lab": "Kinesiology and Health Science, LSU Shreveport",
+        "award_or_discovery": "Research Award for exemplary funded research record, including multiple $1M+ grants",
+        "significance": "Dr. Noor's funded research record is exemplary, with significant grants indicating substantial ongoing research activity.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "Dr. Noor's multiple large grants (over $1M each) signal substantial, ongoing research activity in kinesiology and health science, driving demand for specialized equipment and consumables.",
+        "source_url": "https://www.lsu.edu/blog/2026/05/green_energy_final.php"
+      },
+      {
+        "summary": "Umar Farooq, an Assistant Professor in the LSU Division of Computer Science and Engineering, received a five-year, $506,020 National Science Foundation (NSF) CAREER Award to develop tools for managing quantum security risks and protecting digital data from quantum cyberattacks.",
+        "researcher_name": "Umar Farooq",
+        "department_or_lab": "Division of Computer Science and Engineering, LSU Engineering",
+        "award_or_discovery": "NSF CAREER Award for securing software for the quantum era",
+        "significance": "The prestigious CAREER Award supports critical research in quantum security, addressing a major future challenge in digital data protection.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Research into quantum security and post-quantum cryptography will require advanced computing resources, specialized software development tools, and potentially new types of testing and validation equipment.",
+        "source_url": "https://www.lsu.edu/eng/news-stories/2026/05/umar-farooq-nsf-career.php"
+      },
+      {
+        "summary": "Associate Professor Laura Lagomarsino from LSU Science received a prestigious Fulbright U.S. Scholar award to conduct evolutionary research on wild coffee plants in Colombia, studying how their flower shapes and colors have diversified over time.",
+        "researcher_name": "Laura Lagomarsino",
+        "department_or_lab": "LSU Science",
+        "award_or_discovery": "Fulbright U.S. Scholar award for evolutionary research on wild coffee plants",
+        "significance": "The Fulbright program supports global, collaborative research, providing a unique opportunity to study evolution in one of the most biodiverse regions on Earth while building scientific partnerships.",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This research in evolutionary biology and phylogenomics will likely require lab supplies for genetic sequencing, microscopy, and field equipment for botanical studies.",
+        "source_url": "https://www.lsu.edu/science/news/2026/05/lagomarsino-fulbright.php"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "The University of New Orleans (UNO) is eliminating or restructuring nine academic programs as part of broader efforts to stabilize the school financially, ahead of its transition back into the LSU System, which will officially occur on July 1, 2026.",
+        "facility_or_programme": "Nine academic programs at the University of New Orleans",
+        "closure_type": "Programme Termination/Restructuring",
+        "effective_date": null,
+        "reason": "Financial stabilization efforts, declining enrollment, and the transition into the LSU System.",
+        "event_date": "2026-05-22",
+        "why_it_matters": "The termination or restructuring of academic programs at UNO, as it integrates into the LSU System, presents a churn risk for existing lab supply accounts and an opportunity for Thomas Scientific to engage with the newly structured LSU New Orleans to understand evolving supply needs.",
+        "source_url": "https://www.wwltv.com/article/news/local/orleans/uno-president-announces-departure-ahead-of-lsu-takeover/289-904ce362-d3ba-4e01-a20e-1ad63e0c8cf4"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T06:38:57.803266",
+  "ai_summary": "LSU is experiencing significant growth with the opening of its $148M Interdisciplinary Science Building, featuring leading-edge labs for trace metals and isotopes. Further investment includes a new advanced manufacturing facility. Concurrently, researchers are securing substantial grants and achieving breakthroughs in green energy, astrophysics, and mental health. This robust expansion and active, well-funded research environment create a strong, ongoing demand for a wide range of lab supplies, equipment, and specialized instrumentation."
+}

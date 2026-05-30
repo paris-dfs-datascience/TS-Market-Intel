@@ -1,0 +1,90 @@
+{
+  "account": "JOHNS HOPKINS UNIVERSITY",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1ZPYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Researchers at Johns Hopkins Wilmer Eye Institute received NIH and DoD grants to advance efforts in restoring vision through transplanted neurons by overcoming structural obstacles in the eye.",
+        "recipient": "Johns Hopkins Wilmer Eye Institute researchers",
+        "department_or_lab": "Johns Hopkins Wilmer Eye Institute",
+        "amount": "Not specified in article",
+        "agency": "National Institutes of Health (NIH), Department of Defense (DoD)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This research involves advanced surgical procedures and cell transplantation, indicating potential demand for specialized lab equipment, reagents for cell culture, and consumables for ophthalmic research.",
+        "source_url": "https://www.advfn.com/p.php?pid=news&symbol=BOV%5EAESBG960"
+      },
+      {
+        "summary": "The Johns Hopkins Center for Innovative Diagnostics for Infectious Diseases (JH-CIDID) is funded by the NIH to support the development of novel diagnostics for infectious diseases.",
+        "recipient": "Johns Hopkins Center for Innovative Diagnostics for Infectious Diseases (JH-CIDID)",
+        "department_or_lab": "Johns Hopkins Center for Innovative Diagnostics for Infectious Diseases (JH-CIDID)",
+        "amount": "Not specified in article",
+        "agency": "National Institutes of Health (NIH)",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Ongoing NIH funding for infectious disease diagnostics at Johns Hopkins suggests a continuous need for reagents, consumables, and equipment for diagnostic development and testing.",
+        "source_url": "https://www.prnewswire.com/news-releases/diagnostics-direct-llc-wins-innovation-award-from-johns-hopkins-302776523.html"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Scientists at Johns Hopkins APL developed and successfully tested novel high-performance coating systems designed to endure extreme thermal and chemical stress, marking a significant milestone in advanced coatings for extreme environments.",
+        "researcher_name": "A cross-disciplinary team at Johns Hopkins APL",
+        "department_or_lab": "Johns Hopkins University Applied Physics Laboratory (APL)",
+        "award_or_discovery": "Novel Coating Technology Withstands Extreme Combustion Environments",
+        "significance": "This breakthrough has the potential to contribute to a safer, more agile way to neutralize hazardous chemicals and significantly extend the operational life of components exposed to intense combustion and acidic environments.",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This breakthrough in materials science signals demand for specialized chemicals, materials, and testing equipment used in developing and applying advanced coatings for extreme environments.",
+        "source_url": "https://www.jhuapl.edu/news/news-releases/260429-coating-technology-strengthens-chemical-neutralization-capability"
+      },
+      {
+        "summary": "Johns Hopkins APL researchers are investigating Human Erythrocytes Available for Reconstitution and Transfusion (HEART), a research initiative leveraging lab-made, stem-cell-derived red blood cells to develop freeze-dried, shelf-stable red blood cells.",
+        "researcher_name": "Corrine Fuller, Claire Bell",
+        "department_or_lab": "Johns Hopkins University Applied Physics Laboratory (APL)",
+        "award_or_discovery": "Research initiative (HEART) on shelf-stable blood substitute",
+        "significance": "This research aims to address the accessibility and supply of blood for trauma care and medical interventions, particularly in remote or challenging environments, by creating a blood substitute without relying on donors.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "This research into lab-made, stem-cell-derived red blood cells indicates high-impact activity in cell culture, bioreactor technology, and lyophilization equipment, driving demand for related consumables and reagents.",
+        "source_url": "https://www.jhuapl.edu/news/news-releases/260507-shelf-stable-blood-substitute"
+      },
+      {
+        "summary": "Johns Hopkins researchers discovered a daily cloud cycle on a Hot Jupiter planet, WASP-94A b, using James Webb Space Telescope data, which is among the first to detect such cycles on an exoplanet and provides a clearer picture of its composition.",
+        "researcher_name": "David Sing",
+        "department_or_lab": "Department of Earth and Planetary Sciences, Johns Hopkins University",
+        "award_or_discovery": "New cloud-detecting method for exoplanet atmospheres and discovery of daily cloud cycle on a Hot Jupiter",
+        "significance": "This research, published in Science, is a significant advance in planetary science, allowing for more accurate measurement of exoplanet atmospheres and providing insights into cloud dynamics in extreme environments.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This breakthrough in exoplanetary atmospheric analysis signals demand for advanced spectroscopic equipment, data processing hardware, and specialized software used in astronomical research.",
+        "source_url": "https://www.eurekalert.org/news-releases/1128131"
+      },
+      {
+        "summary": "Johns Hopkins University researchers found that the FDA-approved blood pressure medication Losartan increases the survival rate of aged mice and improves the metabolic outlook of pre-frail older adults, suggesting a potential for repurposing existing drugs for longevity.",
+        "researcher_name": "Dr. Peter M. Abadir",
+        "department_or_lab": "Johns Hopkins University",
+        "award_or_discovery": "Discovery of Losartan's potential to extend lifespan and counter metabolic aging",
+        "significance": "This study suggests a new era of medicine where FDA-approved drugs could be repurposed to promote longevity, with implications for treating prefrailty and improving metabolic health in older adults.",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This discovery in drug repurposing for longevity indicates increased research activity in pharmacology, gerontology, and metabolic studies, driving demand for analytical reagents, animal models, and clinical trial supplies.",
+        "source_url": "https://www.jhuapl.edu/news/news-releases/260429-coating-technology-strengthens-chemical-neutralization-capability"
+      },
+      {
+        "summary": "Synthetic biologist Reza Kalhor received the $250,000 President's Innovation Award from Johns Hopkins University for his work developing genomic recording technologies that translate breakthrough discoveries into real-world solutions for tracking biological events over time.",
+        "researcher_name": "Reza Kalhor",
+        "department_or_lab": "Department of Biomedical Engineering, Johns Hopkins University",
+        "award_or_discovery": "President's Innovation Award for genomic recording technologies",
+        "significance": "Kalhor's research addresses a fundamental challenge in medicine by converting early-life biological signals into durable DNA records, allowing researchers to trace the emergence and evolution of conditions like cancer, aging-related diseases, and developmental disorders.",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This award for genomic recording technologies signals high-impact research in synthetic biology and genomics, driving demand for DNA sequencing equipment, molecular biology reagents, and bioinformatics tools.",
+        "source_url": "https://www.miragenews.com/kalhor-wins-250k-presidents-innovation-award-1665527/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:35:25.619962",
+  "ai_summary": "Johns Hopkins is experiencing significant grant funding and breakthroughs across diverse biological and medical fields. New NIH/DoD grants support vision restoration and infectious disease diagnostics, while researchers advance stem cell-derived red blood cells, genomic recording, and drug repurposing for longevity. This activity signifies a high demand for advanced lab supplies, reagents, and equipment for cell culture, molecular biology, and diagnostic development."
+}

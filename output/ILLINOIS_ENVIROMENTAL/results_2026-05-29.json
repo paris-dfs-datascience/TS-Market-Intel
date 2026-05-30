@@ -1,0 +1,137 @@
+{
+  "account": "ILLINOIS ENVIROMENTAL",
+  "account_vertical": "Government",
+  "Parent_ID": "0011M00002TuyiGQAR",
+  "signals": {
+    "grant": [
+      {
+        "summary": "The Illinois Environmental Protection Agency received $14,412,221 from the Department of Energy to increase household battery collection sites, execute additional collection events, and boost battery collection by at least 60 million AA Lithium-ion equivalent batteries.",
+        "recipient": "Illinois Environmental Protection Agency",
+        "department_or_lab": null,
+        "amount": 14412221,
+        "agency": "Department of Energy (DOE)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This indicates a demand for equipment and consumables related to battery collection, sorting, and potentially initial processing for recycling, which a lab supply sales rep could target.",
+        "source_url": "https://tax.illinois.gov/research/press-releases-archive.html"
+      },
+      {
+        "summary": "The State of Illinois was awarded over $430 million for its Climate Pollution Reduction Grant plan, with the Illinois Environmental Protection Agency (Illinois EPA) and the Illinois Department of Agriculture (IDOA) announcing $67 million in funding for cost-share/financial incentives to producers and landowners for no-till or strip-till practices.",
+        "recipient": "State of Illinois",
+        "department_or_lab": "Illinois Environmental Protection Agency (Illinois EPA) and Illinois Department of Agriculture (IDOA)",
+        "amount": 430000000,
+        "agency": "Federal (Climate Pollution Reduction Grant)",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This large grant indicates significant state and federal investment in environmental and agricultural initiatives, potentially leading to demand for analytical equipment for soil testing, water quality, and other environmental monitoring.",
+        "source_url": "https://www.illinois.gov/news/release.html?releaseid=32550"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The State of Illinois is undertaking the construction of a new state-of-the-art public health laboratory facility, which will include a main lab, a clinical laboratory, and require gas infrastructure for equipment such as incubators and mass spectrometers, as well as deionized water and independent temperature and humidity control systems.",
+        "contract_name": "Construct a Public Health Laboratory (CDB Project No: 573-000-005-01)",
+        "estimated_value": "$226,356,700",
+        "deadline_or_expiration": "Design completion within 18-24 months of executed contract",
+        "event_date": "2026-05-12",
+        "why_it_matters": "This significant project indicates a substantial upcoming demand for a wide array of lab equipment, reagents, and consumables for a new public health laboratory in Illinois.",
+        "source_url": "https://cdb.illinois.gov/content/dam/soi/en/web/cdb/procurement/bulletin/psbnew/documents/573-000-005-scope-of-work.pdf"
+      },
+      {
+        "summary": "A solicitation was issued for an Indefinite Delivery/Indefinite Quantity (IDIQ) contract for Environmental Laboratory Services by the U.S. Army Corps of Engineers in Illinois.",
+        "contract_name": "Environmental Laboratory Services IDIQ",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-20",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This contract signals ongoing demand for laboratory services, which will require a continuous supply of lab consumables, reagents, and potentially new equipment for the performing laboratories.",
+        "source_url": "https://www.bidnetdirect.com/illinois/solicitations/closed-bids"
+      },
+      {
+        "summary": "The Environmental Protection Agency - Region 5 Contracting Office in Illinois sought to procure Agilent helium conservation modules.",
+        "contract_name": "Procure Agilent helium conservation modules",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-22",
+        "event_date": "2026-05-16",
+        "why_it_matters": "This is a direct procurement for specialized lab equipment components, indicating a specific need for related supplies, parts, or maintenance services.",
+        "source_url": "https://www.bidnetdirect.com/illinois/solicitations/closed-bids"
+      },
+      {
+        "summary": "The Illinois Department of Environmental Quality issued a solicitation for the supply of laboratory bottles required for environmental testing and analysis purposes.",
+        "contract_name": "Supply laboratory bottles for environmental testing and analysis purposes",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-22",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This represents a direct and immediate demand for essential lab consumables, specifically bottles, for ongoing environmental testing activities.",
+        "source_url": "https://www.highergov.com/sl/contract-opportunity/il-idoc-nema-4-wi-fi-enclosure-67717340/"
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "U.S. Senators Tammy Duckworth and Dick Durbin announced over $316 million in federal funding for the Illinois Environmental Protection Agency (IEPA) to improve drinking water quality across Illinois. This includes $295,551,000 for the Drinking Water State Revolving Fund (DWSRF) to replace lead service lines and $21,335,000 from the U.S. Environmental Protection Agency's (EPA) Emerging Contaminants in Small or Disadvantaged Communities grant program to address PFAS and other emerging contaminants.",
+        "project_name": "Drinking Water State Revolving Fund (DWSRF) for Lead Service Line Replacement and Emerging Contaminants in Small or Disadvantaged Communities Grant Program for PFAS and Emerging Contaminants",
+        "scope": "The funding will be used by the Illinois Environmental Protection Agency to replace lead service lines in drinking water systems and to address per- and polyfluoroalkyl substances (PFAS) and other emerging contaminants in Illinois communities.",
+        "timeline": "The funding is made possible through Senator Duckworth's water provisions in the 2021 Bipartisan Infrastructure Law, with the Bipartisan Infrastructure Law funding set to expire at the end of 2026.",
+        "event_date": "2026-05-20",
+        "why_it_matters": "This substantial federal investment will drive significant demand for water testing equipment, lead pipe replacement materials, and advanced technologies for PFAS removal and other contaminant remediation in Illinois.",
+        "source_url": "https://www.duckworth.senate.gov/news/press-releases/duckworth-durbin-announce-over-316-million-for-cleaner-water-in-illinois"
+      }
+    ],
+    "tender": [],
+    "mandate": [
+      {
+        "summary": "Illinois lawmakers passed a new law establishing more robust requirements for monitoring per- and polyfluoroalkyl substances (PFAS) in wastewater discharges at major facilities across the state, requiring ongoing sampling in wastewater, biosolids, and sewage sludge, and detailed sampling data for new or renewed permits.",
+        "mandate_type": "Environmental monitoring (PFAS in wastewater)",
+        "jurisdiction": "Illinois",
+        "funding_amount": null,
+        "effective_date": "Upon enactment",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This mandate creates non-discretionary demand for PFAS testing equipment, reagents, and lab services for wastewater, biosolids, and sewage sludge analysis.",
+        "source_url": "https://www.circleofblue.org/2026/water-policy-politics/illinois-tightens-pfas-oversight-amid-federal-rollback-efforts/"
+      },
+      {
+        "summary": "The Illinois Environmental Protection Agency (EPA) issued a statement reaffirming the state's commitment to address PFAS contamination in community water supplies, maintaining Illinois' adopted amendments to groundwater and drinking water regulations for PFAS, with initial monitoring due April 25, 2027, ongoing compliance monitoring beginning April 26, 2027, and compliance with Maximum Contaminant Levels (MCLs) beginning April 26, 2029.",
+        "mandate_type": "Environmental monitoring (PFAS in drinking water)",
+        "jurisdiction": "Illinois",
+        "funding_amount": null,
+        "effective_date": "Initial monitoring deadline 2027-04-25",
+        "event_date": "2026-05-21",
+        "why_it_matters": "This mandate creates non-discretionary demand for PFAS testing equipment, reagents, and lab services for drinking water analysis, with specific deadlines for monitoring and compliance.",
+        "source_url": "https://www.illinois.gov/news/release.html?releaseid=32545"
+      },
+      {
+        "summary": "Illinois EPA's updates to 35 IAC Part 217, which made NOx requirements applicable to more sources with compliance beginning July 1, 2025, included a specific reporting requirement for applicable sources to submit an Annual Compliance Certification (ACC) Report due May 1, 2026, detailing compliance methods, test methods, monitoring, recordkeeping, and reporting requirements.",
+        "mandate_type": "Environmental monitoring (NOx emissions)",
+        "jurisdiction": "Illinois",
+        "funding_amount": null,
+        "effective_date": "ACC report due 2026-05-01",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This mandate creates non-discretionary demand for NOx emissions monitoring equipment, testing services, and analytical methods for affected facilities in Illinois.",
+        "source_url": "https://trinityconsultants.com/resources/nox-ract-rule-updates-in-illinois-new-annual-compliance-certification-acc-report-due-may-1-2026/"
+      },
+      {
+        "summary": "The U.S. Environmental Protection Agency (EPA) is approving portions of Illinois' 2015 ozone National Ambient Air Quality Standard (NAAQS) Moderate nonattainment area State Implementation Plan (SIP) submittal for the Chicago and Metro East St. Louis areas, including the motor vehicle inspection and maintenance (I/M) program and the nonattainment new source review (NNSR) program, with the final rule effective on June 15, 2026.",
+        "mandate_type": "Environmental monitoring (air quality, ozone, motor vehicle emissions)",
+        "jurisdiction": "Illinois (Chicago and Metro East St. Louis areas)",
+        "funding_amount": null,
+        "effective_date": "2026-06-15",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This approval reinforces and potentially expands existing requirements for motor vehicle emissions testing and industrial air pollution monitoring, driving demand for related lab equipment and services.",
+        "source_url": "https://www.federalregister.gov/documents/2026/05/14/2026-09613/air-plan-approval-illinois-moderate-attainment-plan-elements-for-the-chicago-and-metro-east-areas"
+      },
+      {
+        "summary": "A new report from the Environmental Defense Fund (EDF) highlights pollution from warehouses in Illinois and supports the proposed \"Warehouse Pollution Reduction Act,\" which aims to establish an Indirect Source Rule to regulate facilities indirectly responsible for pollution and increase transparency with a public warehouse registry.",
+        "mandate_type": "Environmental monitoring (air pollution from warehouses)",
+        "jurisdiction": "Illinois",
+        "funding_amount": null,
+        "effective_date": null,
+        "event_date": "2026-05-28",
+        "why_it_matters": "If passed, this proposed legislation would create non-discretionary demand for air quality monitoring equipment and services for warehouses in Illinois.",
+        "source_url": "https://blogs.edf.org/energyexchange/2026/05/28/new-edf-report-nearly-4-million-illinois-residents-live-within-half-a-mile-of-a-warehouse/"
+      }
+    ],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:31:39.943619",
+  "ai_summary": "Illinois Environmental is experiencing a surge in federal funding for water quality (PFAS, lead), climate initiatives, and battery recycling. A new state public health lab is under construction, requiring extensive equipment. New mandates for PFAS and NOx monitoring are driving increased testing. This heightened activity, new facilities, and regulatory demands create significant opportunities for lab equipment, consumables, and specialized testing supplies."
+}

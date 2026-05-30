@@ -1,0 +1,43 @@
+{
+  "api_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "token_cost": 0.0,
+  "grounding_cost": 0.0,
+  "total_cost": 0.0,
+  "projected_cost": 0.0,
+  "cost_per_hit": 0.0,
+  "successes": 0,
+  "timeouts": 0,
+  "errors": 0,
+  "empty": 0,
+  "retries": 0,
+  "success_rate": 0,
+  "total_hits": 0,
+  "accounts_done": 28,
+  "accounts_with_data": 26,
+  "run_duration": "0m 0s",
+  "signal_breakdown": {},
+  "slowest_accounts": [
+    {
+      "account": "ADESIS",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "ADIMAB",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "AJINOMOTO ALTHEA",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "AMERICAN CELL TECHNOLOGY",
+      "elapsed_s": 0.0
+    },
+    {
+      "account": "ATUM",
+      "elapsed_s": 0.0
+    }
+  ]
+}

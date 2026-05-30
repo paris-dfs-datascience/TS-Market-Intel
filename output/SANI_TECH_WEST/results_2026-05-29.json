@@ -1,0 +1,90 @@
+{
+  "account": "SANI-TECH WEST",
+  "account_vertical": "Industrial",
+  "Parent_ID": "0011M00002FBPoFQAX",
+  "signals": {
+    "capital": [],
+    "expansion": [
+      {
+        "summary": "Sapho Bio secured $5M in funding to accelerate its rapid microbiology release platform for precision medicine, including a rapid sterility testing service and a sterility testing kit in development, validating the market need and the science.",
+        "location": "San Carlos, California, US",
+        "type_of_expansion": "Funding to accelerate platform development and expand research and development capabilities for rapid microbiology testing.",
+        "investment_value": 5000000,
+        "event_date": "2026-04-29",
+        "why_it_matters": "New funding for Sapho Bio's microbiology platform indicates increased R&D and potential for new lab equipment and consumables for rapid sterility testing.",
+        "source_url": "https://firstwordpharma.com/story/7246837"
+      },
+      {
+        "summary": "The federal government is spending $5 million to fund an Ontario Tech University project that expands a research and testing lab, the ACE Climatic Aerodynamic Wind Tunnel, in Oshawa for defence-sector technology.",
+        "location": "Oshawa, Ontario, Canada",
+        "type_of_expansion": "Expansion of a research and testing lab (ACE Climatic Aerodynamic Wind Tunnel).",
+        "investment_value": 5000000,
+        "event_date": "2026-05-19",
+        "why_it_matters": "Expansion of a research and testing lab for defence technology will create demand for specialized scientific equipment and consumables.",
+        "source_url": "https://www.cbc.ca/news/canada/toronto/federal-government-funding-ace-ontario-tech-university-9.7205048"
+      },
+      {
+        "summary": "Medix Biochemica announced a Board-approved $5 million investment to expand its recombinant antigen and cell culture technology capabilities across its Espoo, Finland and St. Louis, Missouri facilities, funding facility expansion, new analytical instrumentation, and at least 10 specialized hires.",
+        "location": "Espoo, Finland and St. Louis, Missouri, US",
+        "type_of_expansion": "Facility expansion, new analytical instrumentation, and headcount addition for recombinant antigen and cell culture technology capabilities.",
+        "investment_value": 5000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Expansion of recombinant antigen and cell culture capabilities will drive demand for cell culture media, reagents, analytical instruments, and lab consumables.",
+        "source_url": "https://www.bionity.com/en/news/1188731/medix-biochemica-invests-5m-to-expand-its-recombinant-antigen-capabilities.html"
+      },
+      {
+        "summary": "Herat health authorities procured nearly $5 million worth of advanced laboratory equipment to strengthen the province's Medicine and Food Laboratory, expanding and upgrading services to include broader pharmaceutical quality control.",
+        "location": "Herat, Afghanistan",
+        "type_of_expansion": "Upgrade and expansion of a Medicine and Food Laboratory with new equipment, enhancing pharmaceutical quality control services.",
+        "investment_value": 5000000,
+        "event_date": "2026-05-07",
+        "why_it_matters": "Upgrading a food and drug lab with new equipment will lead to increased procurement of lab supplies, reagents, and consumables for quality control.",
+        "source_url": "https://pajhwok.com/2026/05/07/5m-investment-upgrades-food-drug-lab-in-herat/"
+      },
+      {
+        "summary": "Imperagen, a UK-based biotech startup, raised $5 million in seed funding to develop its quantum physics and AI-driven platform for enzyme engineering, supporting the expansion of the company's research capabilities, AI development, and laboratory infrastructure.",
+        "location": "Manchester, UK",
+        "type_of_expansion": "Expansion of research capabilities, AI development, and laboratory infrastructure for enzyme engineering.",
+        "investment_value": 5000000,
+        "event_date": "2026-05-21",
+        "why_it_matters": "Investment in AI-driven biotech and enzyme innovation will create demand for specialized lab equipment, reagents, and consumables for enzyme engineering and research.",
+        "source_url": "https://news.fundsforngos.org/2026/05/21/manchester-based-imperagen-gains-5m-investment-to-accelerate-ai-driven-biotech-and-enzyme-innovation/"
+      },
+      {
+        "summary": "UCLA opened the Center for Advanced Biotherapies (CAB), a new 14,000-square-foot manufacturing facility, nearly doubling its capacity to produce cell and gene therapies, funded in part by a $7.3 million grant from the National Institutes of Health and a $2 million grant from the California Institute for Regenerative Medicine.",
+        "location": "UCLA, Los Angeles, California, US",
+        "type_of_expansion": "New 14,000-square-foot manufacturing facility with cleanrooms and a centralized quality control laboratory for cell and gene therapies.",
+        "investment_value": 9300000,
+        "event_date": "2026-05-27",
+        "why_it_matters": "A new cell and gene therapy manufacturing facility and QC lab will generate significant demand for specialized reagents, cell culture media, consumables, and analytical equipment.",
+        "source_url": "https://newsroom.ucla.edu/releases/ucla-center-for-advanced-biotherapies-opens-gene-cell-therapy-clinical-trials"
+      },
+      {
+        "summary": "Eli Lilly announced an additional $4.5 billion investment in two facilities at its Lebanon, Indiana campus, including the newly operational Lilly Lebanon Advanced Therapies, its first dedicated genetic medicine manufacturing facility, and the Lilly Lebanon API plant.",
+        "location": "Lebanon, Indiana, US",
+        "type_of_expansion": "New dedicated genetic medicine manufacturing facility and additional investment in API plant, supporting research-stage development through large-scale commercial supply.",
+        "investment_value": 4500000000,
+        "event_date": "2026-05-06",
+        "why_it_matters": "A massive investment in new genetic medicine manufacturing and API facilities will create substantial demand for a wide range of lab supplies, reagents, and equipment for R&D, process development, and manufacturing.",
+        "source_url": "https://www.prnewswire.com/news-releases/lilly-commits-additional-4-5-billion-across-indiana-manufacturing-sites-opens-first-dedicated-genetic-medicine-facility-302763332.html"
+      },
+      {
+        "summary": "Governor Maura Healey announced a commitment of up to $25 million in state matching funds for the construction of a new Quantum Systems Laboratory (QSL) at MIT in Cambridge, which will be a shared-use facility for quantum compute-enhanced sensing and will house 220 permanent jobs.",
+        "location": "Cambridge, Massachusetts, US",
+        "type_of_expansion": "New Quantum Systems Laboratory (research facility) with a significant headcount.",
+        "investment_value": 25000000,
+        "event_date": "2026-05-29",
+        "why_it_matters": "A new quantum systems lab with a significant headcount will require specialized scientific equipment, components, and potentially unique consumables for quantum research.",
+        "source_url": "https://www.mass.gov/news/governor-healey-announces-25-million-for-new-mit-quantum-systems-lab-strengthening-mas-global-leadership-in-quantum-computing-research"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "hiring": [],
+    "production": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T19:17:44.775859",
+  "ai_summary": "Significant investments are fueling broad expansion in biotech, pharma, and academic research, establishing new facilities for advanced therapies, genetic medicine, and quantum computing. This surge creates substantial demand for specialized lab equipment and consumables, presenting significant opportunities for lab supply sales teams to support these expanding operations and capitalize on the growing need for advanced laboratory infrastructure."
+}

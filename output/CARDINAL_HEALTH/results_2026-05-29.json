@@ -1,0 +1,146 @@
+{
+  "account": "CARDINAL HEALTH",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1bTYAS",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Navista, Cardinal Health's oncology practice alliance, announced the appointment of Lalan Wilfong, MD, as its Chief Medical Officer.",
+        "name": "Lalan Wilfong, MD",
+        "department": "Navista (Cardinal Health's oncology practice alliance)",
+        "start_date": null,
+        "event_date": "2026-04-13",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://www.ajmc.com/view/wilfong-joins-navista-as-chief-medical-officer-we-really-want-to-partner-with-practices-"
+      }
+    ],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The City of Austin issued a purchase order for medical supplies, including items for emergency patient care and reagents and tests, with Cardinal Health.",
+        "contract_name": "City of Austin Medical Supplies Purchase Order MA9300GA120000098",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-25",
+        "why_it_matters": "This indicates ongoing demand for medical supplies and reagents through Cardinal Health by a municipal entity, representing a potential sales opportunity for Thomas Scientific if they can supply similar items or compete for future orders.",
+        "source_url": "https://data.austintexas.gov/api/views/3ebq-e9iz/rows.pdf?app_token=U29jcmF0YS0td2VraWNrYXNz0"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Cardinal Health announced a significant expansion of its Actinium-225 (Ac-225) production capabilities at its Center for Theranostics Advancement (CTA) in Indianapolis, substantially increasing supply for use in investigational therapeutic drug products and future commercial manufacturing of novel therapies. This expansion supports over 15 clinical trials worldwide.",
+        "product_or_program": "Actinium-225 (Ac-225) production capabilities and support for clinical trials",
+        "stage": "New clinical program support, expanded production",
+        "therapeutic_or_application_area": "Novel cancer therapies, theranostics, radiopharmaceuticals",
+        "event_date": "2026-04-01",
+        "why_it_matters": "This expansion indicates increased demand for radiopharmaceutical precursors, specialized lab equipment for radioisotope handling, and consumables for clinical trials and manufacturing of targeted cancer therapies.",
+        "source_url": "https://www.cardinalhealth.com/newsroom/press-releases/2026/cardinal-health-expands-actinium-225-production-capacity-to-support-growing-demand-for-novel-cancer-therapies"
+      },
+      {
+        "summary": "Cardinal Health's 2026 Advanced Therapies Report highlights a growing shift toward decentralizing care, with advanced therapies like cell and gene therapies moving from academic medical centers to community oncology practices. Fran Gregory, VP of Emerging Therapies, emphasized the critical role of specialty pharmacies in providing clinical, operational, and financial support for this transition.",
+        "product_or_program": "Advanced Therapies Report, Advanced Therapies Access Program",
+        "stage": "New treatment protocols, clinical program expansion",
+        "therapeutic_or_application_area": "Cell and gene therapies, bispecifics, individualized neoantigen treatments, oncology",
+        "event_date": "2026-04-14",
+        "why_it_matters": "The expansion of advanced therapies into community settings will drive demand for specialized lab equipment, reagents, and consumables required for handling, preparation, and administration of these complex treatments in a broader range of healthcare facilities.",
+        "source_url": "https://www.cardinalhealth.com/newsroom/press-releases/2026/cardinal-health-report-highlights-growing-momentum-to-expand-advanced-therapies-into-community-care-settings"
+      },
+      {
+        "summary": "Fran Gregory, PharmD, vice president of emerging therapies at Cardinal Health, discussed at Asembia's AXS26 Summit the rapid expansion of the advanced therapy pipeline and the critical need to transition these complex therapies from academic medical centers into community-based settings to improve patient access. Specialty pharmacies are evolving to provide essential support for community providers.",
+        "product_or_program": "Advanced Therapy Pipeline Expansion, Specialty Pharmacy Support",
+        "stage": "New treatment protocols, clinical program expansion",
+        "therapeutic_or_application_area": "Cell and gene therapies, bispecifics, individualized neoantigen treatments",
+        "event_date": "2026-04-29",
+        "why_it_matters": "The push to move advanced therapies into community settings creates new opportunities for sales of specialized lab supplies, equipment, and consumables needed for the preparation, handling, and administration of these complex treatments in non-academic environments.",
+        "source_url": "https://www.pharmacytimes.com/view/axs2026-how-specialty-pharmacies-support-advanced-therapy-access-in-community-settings"
+      },
+      {
+        "summary": "Cardinal Health reported strong Q3 fiscal year 2026 results, with its 'Other Growth Businesses' segment, including Nuclear and Precision Health Solutions and At-Home Solutions, showing significant profit growth. The ContinuCare Pathway program for diabetes supplies has grown 20% and serves 165,000 patients, connecting retail pharmacies with at-Home Solutions for streamlined fulfillment and home delivery of diabetes supplies, including continuous glucose monitors (CGMs).",
+        "product_or_program": "ContinuCare Pathway program",
+        "stage": "New treatment protocol adoption, program expansion",
+        "therapeutic_or_application_area": "Diabetes management, home healthcare",
+        "event_date": "2026-05-01",
+        "why_it_matters": "The growth of the ContinuCare Pathway program indicates increasing demand for diabetes-related consumables, such as continuous glucose monitors and associated supplies, for home-based patient care.",
+        "source_url": "https://www.homedme.com/news/cardinal-health-has-positive-perspective-on-at-home-solutions/"
+      },
+      {
+        "summary": "SQ Innovation announced that its product Lasix\u00ae ONYU (furosemide injection), a novel subcutaneous formulation of furosemide for heart failure-associated edema, is now available for ordering through Cardinal Health's Specialty Pharmaceutical Distribution (SPD). This follows its FDA approval in October 2025 and positive topline results from the SUBCUT HF II investigator-sponsored trial.",
+        "product_or_program": "Lasix\u00ae ONYU (furosemide injection)",
+        "stage": "New treatment protocol adoption, commercial availability",
+        "therapeutic_or_application_area": "Heart failure, edema, at-home treatment",
+        "event_date": "2026-05-11",
+        "why_it_matters": "The availability of Lasix\u00ae ONYU through Cardinal Health's distribution network signals new demand for supplies related to subcutaneous drug administration and at-home patient care for heart failure patients.",
+        "source_url": "https://sqinnovation.com/newsroom/"
+      },
+      {
+        "summary": "Lalan Wilfong, MD, a leader in value-based community oncology, has joined Navista, Cardinal Health's oncology practice alliance, as its Chief Medical Officer. His role will involve aiding the development and adoption of evidence-based pathways, advancing value-based care initiatives, and assisting practices in bringing advanced therapies to the community setting.",
+        "product_or_program": "Navista Oncology Practice Alliance, Advanced Therapies to Community Setting",
+        "stage": "New clinical program, treatment protocol adoption",
+        "therapeutic_or_application_area": "Oncology, advanced therapies, value-based care",
+        "event_date": "2026-05-25",
+        "why_it_matters": "The appointment of a Chief Medical Officer focused on integrating advanced therapies and value-based care within Navista's community oncology network suggests a strategic push that will require new lab supplies, equipment, and consumables to support these evolving treatment paradigms.",
+        "source_url": "https://www.ajmc.com/view/wilfong-joins-navista-as-chief-medical-officer-we-really-want-to-partner-with-practices"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Cardinal Health announced a significant expansion of its Actinium-225 (Ac-225) production capabilities at its Center for Theranostics Advancement (CTA) in Indianapolis, Indiana, by adding a high-capacity production line to substantially increase supply for investigational therapeutic drug products and future commercial manufacturing of novel therapies.",
+        "location": "Indianapolis, Indiana, USA",
+        "type_of_expansion": "Capacity Expansion",
+        "investment_value": null,
+        "event_date": "2026-04-01",
+        "why_it_matters": "This expansion indicates an increased need for specialized lab supplies, reagents, and consumables for radiopharmaceutical manufacturing and research operations.",
+        "source_url": "https://newsroom.cardinalhealth.com/company-news?l=100"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "The U.S. Department of Veterans Affairs (VA) updated its Medical/Surgical Prime Vendor Program (MSPV) Gen-Z V1 contract, which centralizes supply chain management for VA facilities, delivering essential medical, surgical, dental, lab, and environmental supplies. Cardinal Health 200, LLC is listed as a prime vendor under this program. Vendors interested in doing business with the VA should contact the Product List Management Team for general inquiries and questions about items on the MSPV Product List, which is updated monthly.",
+        "tender_name": "SAC-Medical/Surgical Prime Vendor Program (MSPV) Gen-Z V1 Product List Change Requests / Vendor Inquiries",
+        "estimated_value": null,
+        "deadline": "2026-06-15",
+        "event_date": "2026-05-20",
+        "why_it_matters": "Thomas Scientific can explore opportunities to get its lab supplies, reagents, consumables, or scientific equipment added to the MSPV Gen-Z V1 product list by contacting the VA's Product List Management Team, potentially becoming a sub-vendor to Cardinal Health or another prime vendor.",
+        "source_url": "https://department.va.gov/procurement-acquisition-and-logistics/strategic-acquisition-center/sac-medical-surgical-prime-vendor-program-mspv-updated/"
+      },
+      {
+        "summary": "The Defense Health Agency (DHA) issued a Request for Information (RFI) for an Enterprise Polysomnography (PSG) System to provide effective diagnosis of sleep disorders, enhance patient experiences, and increase overall readiness within the Military Health System (MHS). The RFI seeks capability statements from contractors. Cardinal Health is listed as a vendor with 2025 obligations to DHA, indicating an existing relationship.",
+        "tender_name": "RFI - DHA Enterprise Polysomnography (PSG) System",
+        "estimated_value": null,
+        "deadline": "2026-06-09",
+        "event_date": "2026-05-19",
+        "why_it_matters": "Thomas Scientific could potentially supply specific lab equipment, consumables, or reagents that are components of or used in conjunction with a Polysomnography system, especially if Cardinal Health (a potential bidder/integrator) is involved in responding to this RFI.",
+        "source_url": "https://www.highergov.com/contract-opportunity/rfi-dha-enterprise-polysomnography-psg-system-ht9427-26-rfi-0002-s-07912/"
+      }
+    ],
+    "closure": [
+      {
+        "summary": "KPR US LLC, a subsidiary of Cardinal Health, plans to lay off 213 employees as it closes its manufacturing facility in Augusta, Georgia. The layoffs will occur in phases beginning May 15, with the site expected to shut down permanently by September 30, 2026.",
+        "facility_or_programme": "KPR US LLC manufacturing facility in Augusta, Georgia",
+        "closure_type": "Manufacturing facility shutdown",
+        "effective_date": "2026-09-30",
+        "reason": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "This facility shutdown represents a churn risk for Thomas Scientific if they were supplying this manufacturing site, and an opportunity to understand the disposition of equipment.",
+        "source_url": "https://xtalks.com/medtech-medical-device-industry-layoffs-2026-a-roundup/"
+      },
+      {
+        "summary": "Cardinal Health plans to eliminate 58 jobs in Tewksbury, Massachusetts, before June 30, according to Worker Adjustment and Retraining Notices (WARN) filed with the state.",
+        "facility_or_programme": "Cardinal Health operations in Tewksbury, Massachusetts",
+        "closure_type": "Workforce reduction/Layoffs",
+        "effective_date": "2026-06-30",
+        "reason": null,
+        "event_date": "2026-05-08",
+        "why_it_matters": "These layoffs could indicate a reduction in operations or a restructuring, potentially leading to reduced demand for lab supplies or equipment in that location, or a shift in purchasing patterns.",
+        "source_url": "https://patch.com/massachusetts/across-massachusetts/another-200-jobs-will-go-away-soon-ma"
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T09:43:58.233024",
+  "ai_summary": "Cardinal Health is significantly expanding its advanced therapy and theranostics capabilities, notably Actinium-225 production, and actively decentralizing complex care to community oncology settings. This, alongside securing prime vendor status for VA lab supplies and new medical supply contracts, signals increased demand for specialized reagents, tests, and lab equipment in both hospital and community-based labs. Lab supply teams should focus on supporting these evolving needs."
+}

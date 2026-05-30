@@ -1,0 +1,33 @@
+{
+  "account": "CUREXA",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1EQYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Eli Lilly and Company has entered into a definitive agreement to acquire Curevo Vaccine, a clinical-stage biotechnology company focused on developing a next-generation shingles vaccine.",
+        "acquirer": "Eli Lilly and Company (Lilly)",
+        "target": "Curevo Vaccine (Curevo)",
+        "deal_value": "Up to $1.5 billion in cash, inclusive of an upfront payment and a subsequent payment upon achievement of a specified milestone.",
+        "deal_status": "Announced, subject to customary closing conditions.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This acquisition by a major pharmaceutical company will likely lead to the integration of Curevo's R&D and manufacturing processes into Lilly's existing infrastructure, creating new procurement needs for lab supplies, reagents, and equipment as operations are scaled or consolidated.",
+        "source_url": "https://curevovaccine.com/uncategorized/curevo-to-be-acquired-by-lilly-to-advance-next-generation-shingles-prevention/"
+      }
+    ],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:21:57.511525",
+  "ai_summary": "Eli Lilly's acquisition of Curevo Vaccine signals heightened activity and competition in the next-generation vaccine development space. This development could prompt CUREXA to accelerate or pivot its own R&D initiatives in similar therapeutic areas, potentially increasing demand for specialized lab supplies, reagents, and equipment to support intensified research and development efforts."
+}

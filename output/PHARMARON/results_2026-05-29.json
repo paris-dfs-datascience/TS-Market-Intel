@@ -1,0 +1,117 @@
+{
+  "account": "PHARMARON",
+  "account_vertical": "CDMO_CRO",
+  "Parent_ID": "001UR00000nP1OrYAK",
+  "signals": {
+    "capital": [],
+    "contract": [
+      {
+        "summary": "Pharmaron Beijing Co., Ltd. signed an investment agreement with Hangzhou Qiantang Investment Service Center to construct a new commercial drug production and CDMO R&D facility in Qiantang District, Hangzhou.",
+        "contract_name": "Investment Agreement with Hangzhou Qiantang Investment Service Center for Hangzhou CDMO Facility",
+        "estimated_value": "RMB 2.0 billion",
+        "deadline_or_expiration": "Operations expected to begin in 2029",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This new CDMO R&D and production facility will require a broad range of lab supplies, reagents, consumables, and scientific equipment for its innovative drug manufacturing processes.",
+        "source_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0526/2026052600259.pdf"
+      },
+      {
+        "summary": "Pharmaron Beijing Co., Ltd. plans to invest approximately RMB 3.0 billion to build new facilities in Shaoxing, Zhejiang, with an annual capacity of 200 tonnes of high-end pharmaceutical intermediates and APIs.",
+        "contract_name": "Investment in Shaoxing API Manufacturing Hub",
+        "estimated_value": "RMB 3.0 billion",
+        "deadline_or_expiration": "First phase operational by 2028, second phase by 2030",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This large-scale API manufacturing hub will create significant demand for bulk raw materials, specialized reagents, process consumables, and advanced analytical and production equipment.",
+        "source_url": "https://www.minichart.com/news/pharmaron-beijing-announces-rmb3-billion-investment-in-shaoxing-for-high-end-pharmaceutical-apis-and-cdmo-expansion-2026-05-28"
+      }
+    ],
+    "pipeline": [
+      {
+        "summary": "Pharmaron announced an investment in the construction of an annual production capacity in Zhejiang Shaoxing.",
+        "product_or_program": "Annual production capacity in Zhejiang Shaoxing",
+        "stage": "Expansion/Construction",
+        "therapeutic_or_application_area": "General pharmaceutical manufacturing",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This indicates an expansion of manufacturing capabilities, suggesting increased demand for lab supplies and equipment for the new facility.",
+        "source_url": "https://www.pharmaron.com/investors/information-disclosure/announcements-circulars"
+      },
+      {
+        "summary": "Pharmaron announced entry into an investment agreement with Hangzhou Qiantang Investment Service Center.",
+        "product_or_program": "Investment agreement with Hangzhou Qiantang Investment Service Center",
+        "stage": "Investment/Expansion",
+        "therapeutic_or_application_area": "General business development or facility expansion",
+        "event_date": "2026-05-22",
+        "why_it_matters": "This investment agreement could signal future facility development or program initiation, leading to demand for scientific supplies.",
+        "source_url": "https://www.pharmaron.com/investors/information-disclosure/announcements-circulars"
+      }
+    ],
+    "expansion": [
+      {
+        "summary": "Pharmaron Beijing Co., Ltd. announced a RMB 3 billion investment to construct a large-scale pharmaceutical manufacturing facility in Shaoxing, Zhejiang Province, for high-end pharmaceutical intermediates and APIs.",
+        "location": "Shaoxing, Zhejiang Province, China.",
+        "type_of_expansion": "New dedicated manufacturing facility and capacity expansion.",
+        "investment_value": 413793103,
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new manufacturing facility will create significant demand for lab supplies, reagents, consumables, and scientific equipment for API production.",
+        "source_url": "https://www.minichart.com.sg/2026/05/28/pharmaron-beijing-announces-rmb3-billion-investment-in-shaoxing-for-high-end-pharmaceutical-apis-and-cdmo-expansion/"
+      },
+      {
+        "summary": "Pharmaron Beijing Co., Ltd. signed an investment agreement for approximately RMB 2 billion to build a new drug commercialization production and CDMO R&D facility in Qiantang District, Hangzhou.",
+        "location": "Qiantang District, Hangzhou, China.",
+        "type_of_expansion": "New dedicated R&D and production facility, and capacity expansion.",
+        "investment_value": 275862069,
+        "event_date": "2026-05-26",
+        "why_it_matters": "This new R&D and production facility will generate substantial demand for laboratory equipment, reagents, and consumables for drug development and manufacturing.",
+        "source_url": "https://www.minichart.com.sg/2026/05/28/pharmaron-beijing-announces-rmb2-billion-investment-agreement-for-new-cdmo-facility-in-hangzhou/"
+      }
+    ],
+    "partnership": [],
+    "funding": [],
+    "project": [
+      {
+        "summary": "Pharmaron plans to invest RMB 5 billion (approximately $690 million USD) in drug manufacturing projects to expand capacity in Hangzhou and Shaoxing. This expansion will focus on large-scale API production and integrated CDMO R&D and production capabilities, specifically targeting high-end pharmaceutical intermediates and APIs used in obesity, diabetes, and oncology therapeutics. This initiative follows a collaboration with Eli Lilly and Co.",
+        "project_name": "RMB 5 Billion Drug Manufacturing Projects and Capacity Expansion in Hangzhou and Shaoxing",
+        "scope": "Investment of RMB 5 billion for new facilities in Hangzhou (integrated CDMO R&D and production) and Shaoxing (large-scale API production).",
+        "timeline": "Announced May 27-28, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This significant investment in new facilities and expanded manufacturing capabilities will drive substantial demand for a wide range of lab supplies, reagents, consumables, and scientific equipment for drug discovery, development, and large-scale production.",
+        "source_url": "https://www.moomoo.com/news/post/70647115/pharmaron-to-invest-rmb-5-billion-to-expand-capacity-in"
+      },
+      {
+        "summary": "Pharmaron Beijing entered into an investment agreement with the Hangzhou Qiantang Investment Service Center. This agreement is a specific component of Pharmaron's broader RMB 5 billion capacity expansion initiative, focusing on projects within Hangzhou.",
+        "project_name": "Investment Agreement with Hangzhou Qiantang Investment Service Center",
+        "scope": "Investment agreement for projects in Hangzhou, contributing to Pharmaron's overall capacity expansion.",
+        "timeline": "Announced May 27, 2026.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This specific investment agreement signals upcoming demand for lab infrastructure, equipment, and supplies to support the new facilities and R&D capabilities in Hangzhou.",
+        "source_url": "https://www.marketscreener.com/news/pharmaron-beijing-entered-investment-agreement-with-hangzhou-qiantang-investment-service-center-ce7f5ad3db81f12d"
+      }
+    ],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [
+      {
+        "summary": "Siegfried, a global Contract Development and Manufacturing Organization (CDMO), announced the closing of its acquisition of three small molecule drug substance sites in the US and Australia from an affiliate of SK Capital Partners.",
+        "acquirer": "Siegfried",
+        "target": "Noramco (Wilmington, Delaware, US), Purisys (Athens, Georgia, US), and Extractas Bioscience (Westbury, Tasmania, Australia)",
+        "deal_value": "Undisclosed",
+        "deal_status": "Closed",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This acquisition expands Siegfried's global drug substances network and manufacturing capacity, particularly in the US, which will lead to new procurement needs for lab supplies and equipment for drug substance production.",
+        "source_url": "https://chemanager-online.com/en/news/siegfried-secures-antitrust-green-light-for-us-and-australia-drugsubstance-site-takeover"
+      },
+      {
+        "summary": "Sun Pharmaceutical Industries Limited has entered into a definitive agreement to acquire all outstanding shares of Organon & Co. for an enterprise valuation of US$11.75 billion.",
+        "acquirer": "Sun Pharmaceutical Industries Limited",
+        "target": "Organon & Co.",
+        "deal_value": "US$11.75 billion",
+        "deal_status": "Definitive agreement entered, expected to close in early 2027",
+        "event_date": "2026-04-26",
+        "why_it_matters": "The acquisition grants Sun Pharma access to Organon's biosimilars arm and manufacturing facilities, indicating an expansion in biosimilar production that will create new demand for lab supplies, reagents, and equipment.",
+        "source_url": "https://www.organon.com/news/sun-pharma-signs-definitive-agreement-to-acquire-organon/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T09:14:13.095853",
+  "ai_summary": "Pharmaron is undergoing a massive RMB 5 billion expansion, building new CDMO R&D and large-scale API manufacturing facilities in Hangzhou and Shaoxing, China. This significant capacity increase targets high-end intermediates for obesity, diabetes, and oncology. For lab supply sales, this means substantial opportunities for new equipment, consumables, and reagents across multiple new labs and production lines."
+}

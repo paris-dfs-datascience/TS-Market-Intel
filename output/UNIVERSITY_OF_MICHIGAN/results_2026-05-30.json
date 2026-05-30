@@ -1,0 +1,90 @@
+{
+  "account": "UNIVERSITY OF MICHIGAN",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1BwYAK",
+  "signals": {
+    "grant": [
+      {
+        "summary": "U.S. Representative Debbie Dingell secured $67,881,860 in federal grant funding for the University of Michigan at Ann Arbor to support various healthcare research initiatives, including aging, nursing, neurological disorders, and cancer.",
+        "recipient": "University of Michigan at Ann Arbor",
+        "department_or_lab": "Various research initiatives (Aging Research, Allergy and Infectious Diseases Research, Arthritis Musculoskeletal and Skin Diseases Research, Biomedical Research and Research Training, Blood Diseases and Resources Research, Cancer Research, Cardiovascular Diseases Research, Child Health and Human Development Extramural Research, Drug Use and Addiction Research Programs, Extramural Research Programs in the Neurosciences and Neurological Disorders, Ryan White Title III Outpatient EIS Program, Health Center Program, Lung Diseases Research, Mental Health Research Grants, Research Infrastructure Programs, Research Related to Deafness and Communication Disorders, Vision Research)",
+        "amount": "$67,881,860",
+        "agency": "NIH",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This significant federal funding indicates increased research activity across multiple health-related fields at U-M, driving demand for a broad range of lab supplies, reagents, and equipment.",
+        "source_url": "https://ece.engin.umich.edu/stories/eight-ece-graduate-students-awarded-nsf-graduate-research-fellowships"
+      },
+      {
+        "summary": "U.S. Representative Debbie Dingell secured $72,215,728 in federal grant funding for the University of Michigan at Ann Arbor to support various healthcare research initiatives, including aging, nursing, neurological disorders, and cancer.",
+        "recipient": "University of Michigan at Ann Arbor",
+        "department_or_lab": "Various research initiatives (Aging Research, Alcohol Research Programs, Allergy and Infectious Diseases Research, Arthritis Musculoskeletal and Skin Diseases Research, Cooperative Agreements, Biomedical Research and Research Training, Blood Diseases and Resources Research, Cancer Biology Research, Cancer Cause and Prevention Research, Cancer Research Manpower, Cancer Treatment Research, Cardiovascular Diseases Research, Child Health and Human Development Extramural Research, Preventive Medicine Residencies, Diabetes Digestive and Kidney Diseases Extramural Research, Discovery and Applied Research for Technological Innovations to Improve Human Health, Drug Use and Addiction Research Programs, Environmental Health, Extramural Research Programs in the Neurosciences and Neurological Disorders, Hemophilia Treatment Centers (SPRANS), Lung Diseases Research, Medical Library Assistance, Mental Health Research Grants, Minority Health and Health Disparities Research, Oral Diseases and Disorders Research, Research Infrastructure Programs, Research on Healthcare Costs Quality and Outcomes, Research Related to Deafness and Communication Disorders, RFA-CE-22-003 Rigorously Evaluating Programs and Policies to Pre)",
+        "amount": "$72,215,728",
+        "agency": "NIH",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This substantial federal funding signals expanded research efforts in diverse health sciences at U-M, creating demand for a wide array of lab supplies, reagents, and scientific equipment.",
+        "source_url": "https://me.engin.umich.edu/news-events/news/five-me-students-selected-for-nsf-graduate-research-fellowship-two-receive-honorable-mention-recognition/"
+      },
+      {
+        "summary": "Eight Electrical and Computer Engineering graduate students at the University of Michigan were awarded National Science Foundation Graduate Research Fellowships for their dissertation research in areas such as fiber-optic sensing, photonics, machine learning for complex systems, and quantum information science.",
+        "recipient": "Muhammad Ashiq, Shawn Chen, Jessica Jiang, Yiran Li, AJ Liss, Junho Park, Eron Ristich, Ian Van Horn",
+        "department_or_lab": "Electrical and Computer Engineering (ECE)",
+        "amount": "$159,000 per student over three years",
+        "agency": "NSF",
+        "event_date": "2026-04-30",
+        "why_it_matters": "These fellowships indicate new, funded research projects by individual graduate students in ECE, suggesting upcoming demand for specialized equipment and consumables related to their specific research areas.",
+        "source_url": "https://ece.engin.umich.edu/stories/eight-ece-graduate-students-awarded-nsf-graduate-research-fellowships"
+      }
+    ],
+    "faculty": [
+      {
+        "summary": "Laurie K. Svoboda has been appointed as the John G. Searle Assistant Professor of Environmental Health Sciences in the School of Public Health at the University of Michigan.",
+        "name": "Laurie K. Svoboda",
+        "department": "Environmental Health Sciences, School of Public Health",
+        "start_date": "2026-09-01",
+        "event_date": "2026-05-21",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://record.umich.edu/articles/regents-roundup-may-2026/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [
+      {
+        "summary": "Several University of Michigan physicists were among the Muon g-2 collaborators awarded the 2026 Breakthrough Prize in Fundamental Physics for their precision measurement of the anomalous magnetic moment of the muon, a discovery that helps stress-test the Standard Model of particle physics.",
+        "researcher_name": "Timothy Chupp, Eva Kraegeloh, David Aguillard, Joe Grange, Midhat Farooq, Alexander Tewsley-Booth",
+        "department_or_lab": "Department of Physics, Biomedical Engineering, Muon g-2 Collaboration",
+        "award_or_discovery": "2026 Breakthrough Prize in Fundamental Physics",
+        "significance": "Major international prize ($3 million shared among laureates) recognizing fundamental, cutting-edge, breakthrough science in particle physics.",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This significant award for fundamental physics research indicates ongoing high-level experimental activity and a need for advanced scientific equipment and specialized consumables in particle physics and related fields.",
+        "source_url": "https://news.umich.edu/u-m-physicists-among-2026-breakthrough-prize-winners/"
+      },
+      {
+        "summary": "Researchers from Brown University and the University of Michigan College of Engineering, including Tim Moore and Sharon Glotzer's lab, stabilized a fleeting structural phase of matter using custom-shaped silver nanoparticles, described as a fundamental breakthrough in materials science with promising quantum properties at room temperature.",
+        "researcher_name": "Tim Moore, Sharon Glotzer",
+        "department_or_lab": "Sharon Glotzer's lab, University of Michigan College of Engineering",
+        "award_or_discovery": "Stabilization of a novel structural state of matter (nanoparticle superlattice) published in Science",
+        "significance": "Explicitly described as a \"fundamental breakthrough in materials science\" by major science news outlets and published in the journal Science, with implications for quantum computing.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This breakthrough in materials science and quantum technology suggests increased research and development in nanotechnology, advanced materials, and quantum computing, driving demand for specialized synthesis equipment, characterization tools, and high-purity reagents.",
+        "source_url": "https://www.eurekalert.org/news-releases/1130008"
+      },
+      {
+        "summary": "University of Michigan physics professor Lu Li received the 2026 national Brown Investigator Award, providing up to $2 million over five years for his work on fundamental challenges in the physical sciences, specifically developing new methods for thermal transport and resonance measurements in high magnetic fields to probe electronic states of insulators.",
+        "researcher_name": "Lu Li",
+        "department_or_lab": "Department of Physics, University of Michigan",
+        "award_or_discovery": "2026 Brown Investigator Award ($2 million over five years)",
+        "significance": "Major award ($1M+ prize award) for fundamental research in physical sciences with potential for long-term practical applications.",
+        "event_date": "2026-05-18",
+        "why_it_matters": "This substantial funding for fundamental physics research, particularly in thermal transport and resonance measurements in high magnetic fields, indicates a need for specialized cryogenic equipment, high-field magnets, and advanced measurement instruments.",
+        "source_url": "https://news.umich.edu/u-m-physicist-receives-2026-national-brown-investigator-award/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-30T12:14:03.165542+00:00",
+  "ai_summary": "The University of Michigan is experiencing a surge in research activity, fueled by over $140 million in new federal grants for healthcare, ECE, and physics. Significant breakthroughs in materials science and particle physics, alongside new faculty and graduate fellowships, indicate expanding labs and cutting-edge projects. This robust funding and diverse research focus present substantial opportunities for lab supply sales across multiple scientific disciplines."
+}

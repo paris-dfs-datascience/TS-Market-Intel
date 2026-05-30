@@ -1,0 +1,50 @@
+{
+  "account": "EYEPOINT",
+  "account_vertical": "BioPharma",
+  "Parent_ID": "001UR00000nP1PFYA0",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "EyePoint announced that the independent Data Safety Monitoring Committee (DSMC) completed its third scheduled review of the Company's pivotal Phase 3 program evaluating DURAVYU for wet age-related macular degeneration (wet AMD) and recommended that both the LUGANO and LUCIA trials continue as planned with no protocol modifications. Topline data for wet AMD is expected to begin mid-2026.",
+        "product_or_program": "DURAVYU (EYP-1901)",
+        "stage": "Phase 3 Clinical Trial (Wet AMD)",
+        "therapeutic_or_application_area": "Wet Age-related Macular Degeneration (wet AMD)",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This positive DSMC recommendation reinforces the safety and progress of DURAVYU, indicating continued demand for lab supplies, reagents, and consumables as the Phase 3 trials advance towards key data readouts.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/14/3268897/0/en/EyePoint-Announces-Third-Consecutive-Positive-DSMC-Recommendation-for-Phase-3-Wet-AMD-Trials-for-DURAVYU-Building-Confidence-Ahead-of-Mid-2026-Topline-Data.html"
+      },
+      {
+        "summary": "EyePoint reported its first quarter 2026 financial results and highlighted recent corporate developments, including the rapid advancement of its Phase 3 DME clinical trials (COMO and CAPRI) with over one-third of patients enrolled and full enrollment expected in Q3 2026. The company also reiterated that Phase 3 wet AMD trials (LUGANO and LUCIA) remain on track for topline data beginning mid-2026.",
+        "product_or_program": "DURAVYU (EYP-1901)",
+        "stage": "Phase 3 Clinical Trial (DME) / Phase 3 Clinical Trial (Wet AMD)",
+        "therapeutic_or_application_area": "Diabetic Macular Edema (DME) and Wet Age-related Macular Degeneration (wet AMD)",
+        "event_date": "2026-05-06",
+        "why_it_matters": "The ongoing enrollment and progress in both DME and wet AMD Phase 3 trials signal sustained and potentially increased demand for a wide range of lab supplies and equipment to support these large-scale clinical studies.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/04/29/3264448/0/en/EyePoint-to-Report-First-Quarter-2026-Financial-Results-on-May-6-2026.html"
+      },
+      {
+        "summary": "EyePoint Pharmaceuticals executives stated that the company remains on track to report top-line data from its Phase 3 wet age-related macular degeneration program for DURAVYU, with the LUGANO readout expected in August and LUCIA about two months later. The company also plans to commercialize the drug itself in the U.S. if approved and is scaling its manufacturing facility.",
+        "product_or_program": "DURAVYU (EYP-1901)",
+        "stage": "Phase 3 Clinical Trial (Wet AMD) / Commercialization Preparation",
+        "therapeutic_or_application_area": "Wet Age-related Macular Degeneration (wet AMD)",
+        "event_date": "2026-05-26",
+        "why_it_matters": "Upcoming topline data readouts and preparations for commercialization, including manufacturing scale-up, indicate a strong potential for future demand in manufacturing-related lab supplies and equipment, as well as continued R&D support.",
+        "source_url": "https://www.investing.com/news/stock-market-news/eyepoint-pharmaceuticals-eyes-transformative-2026-as-duravyu-phase-3-data-nears-432SI-3992226"
+      }
+    ],
+    "expansion": [],
+    "partnership": [],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "hiring": [],
+    "ma": [],
+    "spinoff": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T08:27:01.595641",
+  "ai_summary": "EyePoint is rapidly advancing multiple Phase 3 clinical trials for wet AMD and DME, with topline data expected mid-2026. The company plans to self-commercialize its drug, DURAVYU, in the U.S. if approved, and is scaling its manufacturing facility. This signals increasing demand for lab supplies, reagents, and equipment to support ongoing clinical research and future large-scale drug production."
+}

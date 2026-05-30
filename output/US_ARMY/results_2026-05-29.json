@@ -1,0 +1,169 @@
+{
+  "account": "US ARMY",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1DiYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "The U.S. Army Contracting Command at Redstone Arsenal published a solicitation for a closed-circuit wind tunnel for the Army Primary Standards Laboratory to support Laser Doppler Velocimetry testing.",
+        "contract_name": "Solicitation for Closed-Circuit Wind Tunnel",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-05-18",
+        "event_date": "2026-05-01",
+        "why_it_matters": "This indicates an upcoming need for specialized scientific equipment and potentially related lab setup/calibration supplies for the Army's primary measurement standards laboratory.",
+        "source_url": "https://defence-blog.com/u-s-army-orders-closed-circuit-wind-tunnel/"
+      },
+      {
+        "summary": "Becton Dickinson and Co. was added as an awardee to a multiple award contract for laboratory equipment, accessories, and consumables for the Defense Logistics Agency Electronic Catalog.",
+        "contract_name": "Multiple Award Contract for Laboratory Equipment, Accessories, and Consumables (DLA Electronic Catalog, Solicitation SPE2DE-22-R0006)",
+        "estimated_value": "$49,000,000",
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-14",
+        "why_it_matters": "This indicates an ongoing demand for a wide range of lab supplies, equipment, and consumables through a major federal catalog, representing a direct sales opportunity for Thomas Scientific.",
+        "source_url": "https://www.defense.gov/News/Contracts/Contract-View/Article/3773415/"
+      },
+      {
+        "summary": "The U.S. Army Research Laboratory is issuing a sole source solicitation for a Maintenance Service Agreement for Gatan ancillary instrument systems, critical for its research and development activities.",
+        "contract_name": "Maintenance Service Agreement for Gatan Ancillary Instrument Systems (Solicitation W911QX26QA82)",
+        "estimated_value": "Not specified, prior contract was $491,425",
+        "deadline_or_expiration": "2026-06-01",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This indicates ongoing need for maintenance and potential future upgrades or replacement parts for specialized scientific instruments at an Army research lab.",
+        "source_url": "https://highergov.com/solicitations/notice-of-intent-to-sole-source-forgatan-ancillary-instrument-systems-maintenance-service-agreement-w911qx26qa82/"
+      },
+      {
+        "summary": "The U.S. Army issued a solicitation for the procurement of Mass Flow Controllers, specifically Sierra, Part Number: 840L-2-OV1-Series, as commercial products for operational requirements.",
+        "contract_name": "Mass Flow Controllers (Solicitation W911S226U3309)",
+        "estimated_value": null,
+        "deadline_or_expiration": "2026-06-02",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This is a direct solicitation for specific laboratory equipment, indicating an immediate sales opportunity for suppliers of mass flow controllers.",
+        "source_url": "https://highergov.com/solicitations/mass-flow-controllers-w911s226u3309/"
+      },
+      {
+        "summary": "MTEC pre-announced an upcoming Defense Threat Reduction Agency (DTRA) Request for Project Proposals (RPP) for the \"PROMPT\" program, seeking a rugged, man-portable system for rapid manufacturing of clinical-quality nucleic acid primers and probes for field diagnostics.",
+        "contract_name": "PROMPT (Request for Project Proposals)",
+        "estimated_value": null,
+        "deadline_or_expiration": null,
+        "event_date": "2026-05-29",
+        "why_it_matters": "This signals a future demand for innovative solutions in nucleic acid synthesis, purification, and quality control, directly impacting the need for specialized reagents and potentially related equipment for Army medical research.",
+        "source_url": "https://mtec-sc.org/an-upcoming-funding-opportunity-prompt/"
+      },
+      {
+        "summary": "LSU AgCenter highlighted a U.S. Army Combat Capabilities Development Command Broad Agency Announcement (BAA) seeking solutions in areas including \"Combat Feeding & Equipment\" and \"Soldier Protection & Survivability,\" and mentions support for \"Animal and Biological Material Resource Centers\" that provide laboratory animals, reagents, cultures, and genetic stocks.",
+        "contract_name": "US Army Combat Capabilities Development Command Broad Agency Announcement",
+        "estimated_value": null,
+        "deadline_or_expiration": "2030-02-27",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This BAA indicates a long-term interest in research and development that could require various lab supplies, reagents, and services for biological and material science applications relevant to soldier support.",
+        "source_url": "https://www.lsuagcenter.com/articles/page1688636254000"
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "Everforth ECS (formerly ECS Federal LLC) secured a $115.5 million cost-plus-fixed-fee contract from the U.S. Army for research and development services to advance artificial intelligence and machine learning technologies for the Department of War.",
+        "project_name": "AI & Machine Learning R&D Services for Next-Generation Department of War Operations",
+        "scope": "Development and testing of AI and machine learning capabilities designed to process massive datasets and support scalable infrastructure for next-generation military operations. Work will be performed in Fairfax, Virginia.",
+        "timeline": "Work under the multiyear contract will continue through May 27, 2029.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This multi-year contract for AI and machine learning R&D indicates a sustained demand for advanced computing hardware, specialized software, and data science expertise, as well as potential future needs for scientific equipment to support AI model development and testing.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4503104/contracts-for-may-28-2026/"
+      },
+      {
+        "summary": "The Research Foundation for the State University of New York was awarded a $60,926,614 firm-fixed-price contract by the Army Contracting Command, Adelphi Division, Maryland, for integrated generative artificial intelligence and active inference for resilient decision-making in multi-domain operations.",
+        "project_name": "Integrated Generative AI and Active Inference for Resilient Decision-Making",
+        "scope": "Research and development for integrated generative artificial intelligence and active inference to support resilient decision-making in multi-domain operations. Work locations and funding will be determined with each order.",
+        "timeline": "The estimated completion date is May 31, 2031.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This multi-year contract for advanced AI research suggests a future demand for high-performance computing resources, specialized AI development tools, and potentially new scientific equipment for testing and validating AI models in complex operational environments.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4503104/contracts-for-may-28-2026/"
+      },
+      {
+        "summary": "The U.S. Army Corps of Engineers New England District held a topping out ceremony on May 14, 2026, on Hanscom Air Force Base, Massachusetts, to celebrate the completion of the structural steel frame for a new compound semiconductor laboratory microsystems integration facility.",
+        "project_name": "Compound Semiconductor Laboratory Microsystems Integration Facility",
+        "scope": "Construction of new laboratory infrastructure for compound semiconductor and microsystems integration. Located on Hanscom Air Force Base, Massachusetts.",
+        "timeline": "The topping out ceremony was held on May 14, 2026, marking a significant construction milestone.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "The construction of a new compound semiconductor laboratory indicates a significant future demand for specialized cleanroom equipment, semiconductor manufacturing tools, advanced microscopy, and various reagents and consumables for materials science research and development.",
+        "source_url": "https://www.dvidshub.net/video/1007051/lincoln-lab-massachusetts-institute-technology-topping-out-ceremony"
+      },
+      {
+        "summary": "CAS Severn was awarded a firm-fixed-price contract for the Department of Defense (DOD) High Performance Computing Modernization Program Technology Insertion 2026, valued at $28,000,000 for this action with a total cumulative face value of $71,820,719. This contract provides a base supercomputer system and an associated test and development system for the Army Research Laboratory DOD Supercomputing Resource Center.",
+        "project_name": "DOD High Performance Computing Modernization Program Technology Insertion 2026",
+        "scope": "Provision of a base supercomputer system and a test and development system for the Army Research Laboratory DOD Supercomputing Resource Center. Work will be performed in Aberdeen, Maryland.",
+        "timeline": "The estimated completion date is October 31, 2031.",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This multi-year contract for a supercomputer system at the Army Research Laboratory indicates a significant demand for advanced computing hardware, specialized software, and potentially associated cooling systems, power infrastructure, and data storage solutions for scientific research.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4487224/contracts-for-may-14-2026/"
+      },
+      {
+        "summary": "Teledyne Scientific and Imaging LLC was awarded a $12,258,430 modification to a cost-plus-fixed-fee contract (HR001124C0359) for a Defense Advanced Research Projects Agency (DARPA) project, increasing the total cumulative value of the contract from $5,933,474 to $18,191,904.",
+        "project_name": "DARPA Project (Contract HR001124C0359)",
+        "scope": "The modification supports a Defense Advanced Research Projects Agency (DARPA) project, implying advanced scientific research and development. Work will be performed in Thousand Oaks, California; Westlake Village, California; Raleigh, North Carolina; and Cambridge, Massachusetts.",
+        "timeline": "The expected completion date is May 2028.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "This significant contract modification for a DARPA project indicates ongoing and expanded demand for cutting-edge scientific equipment, specialized reagents, and advanced laboratory consumables to support high-risk, high-reward research in various scientific and technological domains.",
+        "source_url": "https://www.war.gov/News/Contracts/Contract/Article/4500905/contracts-for-may-26-2026/"
+      },
+      {
+        "summary": "Auburn Engineering secured a five-year contract worth up to $49 million with the Pentagon, announced on April 27, 2026, to drive research, engineering, and technology across the Army's science and technology portfolio.",
+        "project_name": "Research, Engineering, and Technology for Army Aviation and Missile Enterprise",
+        "scope": "Aligning Auburn University's research and engineering capabilities with DEVCOM Aviation and Missile Center's science and technology mission at Redstone Arsenal, covering early-stage concept development through applied engineering and prototype maturation.",
+        "timeline": "This is a five-year contract, announced on April 27, 2026.",
+        "event_date": "2026-04-27",
+        "why_it_matters": "This multi-year contract for broad scientific and engineering research indicates a sustained demand for a wide array of laboratory supplies, reagents, scientific equipment, and specialized testing apparatus to support various stages of technology development for the Army.",
+        "source_url": "https://eng.auburn.edu/news/2026/05/auburn-engineerings-49-million-pentagon-contract-built-on-trust.html"
+      }
+    ],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": [
+      {
+        "summary": "Outpatient services, including the laboratory, at Mike O'Callaghan Military Medical Center will be temporarily closed on specific dates for training and holidays.",
+        "facility_or_programme": "Mike O'Callaghan Military Medical Center Laboratory",
+        "closure_type": "Temporary Closure",
+        "effective_date": "2026-05-22",
+        "reason": "Training and holidays",
+        "event_date": "2026-05-22",
+        "why_it_matters": "Temporary closures for training or holidays may lead to a brief pause in routine lab supply orders, but do not indicate a long-term churn risk or competitive displacement opportunity for Thomas Scientific.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0NpCSQKBkOlsqm2gtRB6MoVE7KL9aIk3IbsbFJmivKCt-jVcThjETBfUOq_pXlYhZi3QySgLO5NwqGYuXjtebeS7uCJ4Qc9jq0AY3xJboRHokJcnCd6tcsqaMDXk="
+      },
+      {
+        "summary": "Outpatient labs at McDonald Army Health Center will be temporarily closed on May 21, 2026, for training.",
+        "facility_or_programme": "McDonald Army Health Center Outpatient Labs",
+        "closure_type": "Temporary Closure",
+        "effective_date": "2026-05-21",
+        "reason": "Training",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Temporary closures for training may lead to a brief pause in routine lab supply orders, but do not indicate a long-term churn risk or competitive displacement opportunity for Thomas Scientific.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZH7UgQUeUciQ7teZmpVH2qx2Anwmy2s3pWlvwRxssrvPv_HE4KxNLoqDraJtSioy3dwVZw-yH8mHA_qwyKo4ipnESIs1TBsAa9BhisSqT-YP4qnBL4849B6cyQ962HEbUKpUsfLQdIwUSxKP8ex3k9OE="
+      },
+      {
+        "summary": "The U.S. Army Corps of Engineers completed a new 33,500-square-foot welding repair facility at Anniston Army Depot, consolidating welding and administrative operations previously in Building 434.",
+        "facility_or_programme": "Welding and administrative operations at Anniston Army Depot (partial demolition of Building 434 and consolidation into new facility)",
+        "closure_type": "Consolidation",
+        "effective_date": "2026-05-20",
+        "reason": "To improve operational efficiency, worker safety, and repair capabilities through modernization.",
+        "event_date": "2026-05-21",
+        "why_it_matters": "Consolidation into a new, modernized facility at Anniston Army Depot may present opportunities for Thomas Scientific to supply new or upgraded equipment and consumables for welding and related operations, rather than churn risk.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCoWz_cUFm2qFfDW2P3J6XO1Mb2f4p4qmgOZvMTzh4CPl64zp-mMQqTFNe25oZ2HT2UHFAXUFcY7ZV9nIcE6mbn5v-CXO2SeE9jW1oYW8qUBRF53ah8jjlFB83mvSevEzbsKD7GWQ-HLde1srzQpp80iVM5JqR0dFKtTHj6tHJ_zOqJbxCknu5bf3Z-VtoRUt4WL-QsDDGRHDkYwkqqXb9z8jGukSBFP1mQEVe5muMtGJdinWysb1JQFKVjW_uh_Uz86ZD0OpU5A=="
+      },
+      {
+        "summary": "The National Nuclear Security Administration (NNSA) completed a new High Explosives Science and Engineering (HESE) facility at the Pantex Plant, consolidating nuclear-based activities like weapons maintenance and surveillance from 15 World War II-era facilities.",
+        "facility_or_programme": "High Explosives Science and Engineering (HESE) facility at Pantex Plant (consolidation of 15 WWII-era facilities)",
+        "closure_type": "Consolidation",
+        "effective_date": "2026-03-01",
+        "reason": "To strengthen and modernize America's nuclear deterrent, improve security, and provide modern mission-equipped space for high-explosive work.",
+        "event_date": "2026-05-07",
+        "why_it_matters": "Consolidation of high explosives science and engineering activities into a new facility may create opportunities for Thomas Scientific to supply new or upgraded lab equipment and consumables for nuclear-related research and maintenance, while older facilities are phased out.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTGhttfY6rmMa9KXtoTh7eXkLuu24XWDYgh5eqDt3H0qFRTLp2aD79O1o-XjSP5o4KNYB2PD6egYn_8likCstHOIfkIheenA2UekTR3n8s_5H2yGJn757ORlBCXqD29ZTUtKLpmxcqbY4Oz6YBenZ8i3ItIqFLa5zoD702e5Y_3GWeraYX-k_kQxA6BdIvCbYiUQ-Sqr2-5h1u3hZvVgo9a4NwlvxBSj0="
+      }
+    ]
+  },
+  "timestamp": "2026-05-29T10:48:17.461257",
+  "ai_summary": "The US Army is expanding research with new semiconductor and high explosives labs, and investing in AI/ML R&D. Solicitations for specialized equipment (e.g., wind tunnels, mass flow controllers) and maintenance are ongoing. Strong demand for lab consumables, reagents, and field diagnostic components creates diverse opportunities for lab supply sales, driven by new facilities, technology upgrades, and ongoing development."
+}

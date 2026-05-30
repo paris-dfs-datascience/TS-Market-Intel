@@ -1,0 +1,165 @@
+{
+  "account": "TERUMO",
+  "account_vertical": "Hospital_Health_Systems",
+  "Parent_ID": "001UR00000nP1BCYA0",
+  "signals": {
+    "grant": [
+      {
+        "summary": "Yale School of Medicine and its collaborators at Stanford University, Wake Forest University, and St. Vincent de Paul Place have been awarded a $10 million, five-year NIH RM1 team science grant for the GEO IMPACT project, which aims to address the intersecting HIV and substance use epidemics through a novel mobile pharmacy and clinic healthcare delivery model.",
+        "recipient": "Yale School of Medicine, Gregg Gonsalves (Yale School of Public Health), Mark McGovern (Stanford University School of Medicine), David Kline (Wake Forest University), Jillian Corbin (St. Vincent de Paul Place)",
+        "department_or_lab": "Professor of Medicine (Infectious Diseases) and Associate Clinical Professor of Nursing (Sandra A. Springer, MD), Epidemiology (Microbial Diseases) (Gregg Gonsalves, PhD)",
+        "amount": "$10 million",
+        "agency": "National Institutes of Health/National Institute on Drug Abuse (RM1DA064594)",
+        "event_date": "2026-04-29",
+        "why_it_matters": "This significant grant indicates a long-term research project requiring a steady supply of lab consumables, reagents, and potentially new equipment for HIV and substance use research.",
+        "source_url": "https://scitechdaily.com/how-cells-copy-dna-might-matter-more-than-we-ever-realized/"
+      },
+      {
+        "summary": "NYU Langone Health has secured a nearly $70 million, seven-year renewal grant from the National Institutes of Health (NIH) to fund its Clinical and Translational Science Institute (CTSI), representing the highest level of funding available nationally under NIH's Clinical and Translational Science Awards (CTSA) Program.",
+        "recipient": "NYU Langone Health",
+        "department_or_lab": "Clinical and Translational Science Institute (CTSI)",
+        "amount": "Nearly $70 million",
+        "agency": "National Institutes of Health (NIH) - Clinical and Translational Science Awards (CTSA) Program",
+        "event_date": "2026-05-04",
+        "why_it_matters": "This substantial, long-term funding ensures continued demand for a wide range of scientific supplies and equipment to support translational science research at NYU Langone.",
+        "source_url": "https://nyulangone.org/news/nyu-langone-health-secures-nearly-70-million-nih-grant-accelerate-scientific-discovery"
+      },
+      {
+        "summary": "Dr. Benjamin Honton reported receiving grants/research support from Terumo for his work on calcium modification techniques in coronary interventions, as presented at EuroPCR 2026.",
+        "recipient": "Dr. Benjamin Honton",
+        "department_or_lab": "Clinique Pasteur, Toulouse, France (as mentioned in the context of the EuroPCR presentation)",
+        "amount": "Not specified",
+        "agency": "Terumo",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This indicates ongoing research funded by Terumo in cardiovascular interventions, suggesting demand for related lab supplies and equipment.",
+        "source_url": "https://scitechdaily.com/how-cells-copy-dna-might-matter-more-than-we-ever-realized/"
+      },
+      {
+        "summary": "Research led by Ryota Uehara and collaborators on profiling cell proliferation after whole-genome duplication in human cells, published in Biology Open, received funding from the Terumo Life Science Foundation.",
+        "recipient": "Ryota Uehara, Guang Yang, Masaya Inoko, Kaito Ogura, Sumire Ishida-Ishihara, Yuki Tsukada, Akira Funahashi, Masanao Sato",
+        "department_or_lab": "Graduate School of Life Science, Hokkaido University (as mentioned in the article)",
+        "amount": "Not specified",
+        "agency": "Terumo Life Science Foundation",
+        "event_date": "2026-05-27",
+        "why_it_matters": "This award signals research activity in cell biology and cancer, creating demand for cell culture reagents, microscopy equipment, and genomic analysis tools.",
+        "source_url": "https://medicine.yale.edu/lab/springer/news/"
+      },
+      {
+        "summary": "A new study by researchers at Hokkaido University, including Ryota Uehara, on how cells copy DNA and its implications for cancer, was funded by the Terumo Life Science Foundation, among others.",
+        "recipient": "Ryota Uehara, Masaya Inoko, Guang Yang, Yuki Tsukada",
+        "department_or_lab": "Uehara Lab, Faculty of Advanced Life Science, Hokkaido University",
+        "amount": "Not specified",
+        "agency": "Terumo Life Science Foundation",
+        "event_date": "2026-05-06",
+        "why_it_matters": "This funding supports fundamental research in cell division and cancer, indicating a need for molecular biology reagents, cell culture supplies, and potentially imaging systems.",
+        "source_url": "https://scitechdaily.com/how-cells-copy-dna-might-matter-more-than-we-ever-realized/"
+      }
+    ],
+    "faculty": [],
+    "capital": [],
+    "contract": [],
+    "pipeline": [
+      {
+        "summary": "Terumo Neuro announced the publication of results from the landmark RAGE study for HydroCoil\u2122 Embolic System Coils for ruptured intracranial aneurysms, demonstrating strong occlusion rates and low rebleeding.",
+        "product_or_program": "HydroCoil\u2122 Embolic System Coils, RAGE study",
+        "stage": "Publication of clinical study results (post-market)",
+        "therapeutic_or_application_area": "Ruptured intracranial aneurysms, neurovascular",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This provides strong clinical evidence for Terumo Neuro's HydroCoil system, which could lead to increased adoption and demand for related neurovascular lab supplies and consumables.",
+        "source_url": "https://www.terumoneuro.com/newsroom/press-releases/terumo-neuro-announces-publication-of-landmark-rage-study-results-for-hydrogel-embolic-system-coils-for-ruptured-intracranial-aneurysms"
+      },
+      {
+        "summary": "Terumo Blood and Cell Technologies and Steminent Biotherapeutics entered a strategic collaboration to accelerate late-stage manufacturing readiness for mesenchymal stem cell (MSC) therapies, utilizing Terumo BCT's Quantum Flex\u2122 Automated Cell Expansion System.",
+        "product_or_program": "Quantum Flex\u2122 Automated Cell Expansion System, MSC therapies (Steminent)",
+        "stage": "Late-stage clinical manufacturing readiness, strategic collaboration",
+        "therapeutic_or_application_area": "Regenerative medicine, mesenchymal stem cell (MSC) therapies, cell and gene therapy manufacturing",
+        "event_date": "2026-05-13",
+        "why_it_matters": "This collaboration signals upcoming demand for cell and gene therapy manufacturing equipment, reagents, and consumables as Steminent progresses towards commercialization of MSC therapies.",
+        "source_url": "https://www.terumobct.com/en/gl/our-company/news-and-events/news-releases/2026/terumo-blood-and-cell-technologies-and-steminent-collaborate-to-.html"
+      },
+      {
+        "summary": "Circulate Health published a landmark study showing that therapeutic plasma exchange (TPE) using Terumo BCT's Spectra Optia Apheresis System can significantly reduce microplastic particles in the human bloodstream.",
+        "product_or_program": "Spectra Optia Apheresis System, Circulate Health microplastic removal study",
+        "stage": "Publication of clinical study results (new application/treatment protocol)",
+        "therapeutic_or_application_area": "Microplastic removal, therapeutic plasma exchange",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This new application for the Spectra Optia Apheresis System could open up a new market for apheresis-related consumables and reagents.",
+        "source_url": "https://www.prnewswire.com/news-releases/circulate-health-study-finds-plasma-exchange-removes-microplastics-from-the-human-bloodstream-302783701.html"
+      },
+      {
+        "summary": "A physician-initiated prospective, multicenter, post-market, single-arm study (CURRENT Registry) is underway to investigate the safety and efficacy of the Renzan\u2122 Peripheral Stent System from Terumo MicroVention Inc. in patients with femoro-popliteal disease.",
+        "product_or_program": "Renzan\u2122 Peripheral Stent System, CURRENT Registry",
+        "stage": "Post-market clinical study (registry)",
+        "therapeutic_or_application_area": "Peripheral Arterial Disease, femoro-popliteal disease, interventional cardiology",
+        "event_date": "2026-05-14",
+        "why_it_matters": "This ongoing registry study for the Renzan\u2122 Peripheral Stent System indicates continued clinical evaluation and potential for increased use of this device and associated interventional cardiology supplies.",
+        "source_url": "https://www.trialx.com/clinical-trials/listings/217680/a-prospective-multicenter-investigation/"
+      },
+      {
+        "summary": "Results from the investigator-initiated ICARE OFDI trial, supported by Terumo Europe, were published, comparing intravascular lithotripsy to rotational atherectomy for calcified coronary lesions, with all patients stented with Ultimaster Tansei DES (Terumo).",
+        "product_or_program": "Ultimaster Tansei DES (Terumo), OFDI (Terumo), ICARE OFDI trial",
+        "stage": "Publication of investigator-initiated clinical trial results",
+        "therapeutic_or_application_area": "Coronary interventions, calcified coronary lesions",
+        "event_date": "2026-05-19",
+        "why_it_matters": "This investigator-initiated study provides further clinical evidence for Terumo's Ultimaster Tansei DES and OFDI system, which could drive demand for these devices and related interventional cardiology consumables.",
+        "source_url": "https://www.tctmd.com/news/calcium-modification-techniques-abound-lesion-prep-key-success"
+      },
+      {
+        "summary": "Orchestra BioMed announced the initiation of patient enrollment in the Virtue Trial, a new clinical program in partnership with Terumo.",
+        "product_or_program": "Virtue Trial (Orchestra BioMed, in partnership with Terumo)",
+        "stage": "Initiation of patient enrollment (clinical trial)",
+        "therapeutic_or_application_area": "Cardiovascular",
+        "event_date": "2026-05-06",
+        "why_it_matters": "Initiation of patient enrollment in a new clinical trial (Virtue Trial) in partnership with Terumo indicates upcoming demand for trial-related supplies and equipment.",
+        "source_url": "https://investingnews.com/orchestra-biomed-receives-15-million-investment-from-ligand-under-previously-announced-strategic-financing-agreement/"
+      },
+      {
+        "summary": "A new clinical study, \"Prospective Evaluation of Physician Modified Endografts for Aortic Disease\" (NCT07611968), was registered, utilizing a physician-modified Terumo Treo abdominal stent-graft system for thoracoabdominal aortic aneurysms.",
+        "product_or_program": "Terumo Treo abdominal stent-graft system, Prospective Evaluation of Physician Modified Endografts for Aortic Disease study",
+        "stage": "Clinical trial registration (single group assignment, open label)",
+        "therapeutic_or_application_area": "Aortic disease, thoracoabdominal aortic aneurysms",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new clinical trial involving the Terumo Treo abdominal stent-graft system suggests potential for increased demand for these devices and associated surgical and interventional supplies.",
+        "source_url": "https://www.terumoneuro.com/newsroom/press-releases/terumo-neuro-announces-publication-of-landmark-rage-study-results-for-hydrogel-embolic-system-coils-for-ruptured-intracranial-aneurysms"
+      },
+      {
+        "summary": "Terumo Blood and Cell Technologies signed a memorandum of understanding with South Korea's KBIOHealth to strengthen cell and gene therapy (CGT) manufacturing workforce training, focusing on Terumo BCT's Quantum Flex\u2122 Cell Expansion System and Finia\u2122 Fill and Finish platform.",
+        "product_or_program": "Quantum Flex\u2122 Cell Expansion System, Finia\u2122 Fill and Finish platform, CGT manufacturing training",
+        "stage": "Workforce training and ecosystem development",
+        "therapeutic_or_application_area": "Cell and gene therapy manufacturing",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This collaboration indicates a growing focus on CGT manufacturing in Korea, which will drive demand for Terumo BCT's automated systems and related consumables for cell and gene therapy development and production.",
+        "source_url": "https://www.labmate-online.com/news/company-laboratory-news/127/terumo-bct/cell-and-gene-therapy-workforce-training-expands-in-korea/67696"
+      }
+    ],
+    "expansion": [],
+    "partnership": [
+      {
+        "summary": "Terumo Blood and Cell Technologies (Terumo BCT) and Steminent Biotherapeutics have formed a strategic collaboration to accelerate late-stage manufacturing readiness for mesenchymal stem cell (MSC) therapies. The collaboration focuses on optimizing automated cell expansion for clinical development and future commercial production of Steminent's late-stage MSC-based therapy, leveraging Terumo BCT's Quantum Flex\u2122 Automated Cell Expansion System.",
+        "partner": "Steminent Biotherapeutics Inc.",
+        "deal_type": "Strategic Collaboration / Technology Licensing Agreement",
+        "deal_value": null,
+        "event_date": "2026-05-13",
+        "why_it_matters": "This collaboration signals upcoming demand for lab supplies and equipment, particularly automated cell expansion systems and related consumables, to support the scale-up and manufacturing of late-stage mesenchymal stem cell therapies.",
+        "source_url": "https://www.terumobct.com/en/gl/our-company/news-and-events/news-releases/2026/terumo-blood-and-cell-technologies-and-steminent-collaborate-to-.html"
+      }
+    ],
+    "funding": [],
+    "project": [],
+    "regulatory": [],
+    "tender": [
+      {
+        "summary": "Tender for the supply of various medical equipment for a Cath-Lab, including Terumo guidewires, in India.",
+        "tender_name": "Supply of medical equipment for Cath-Lab (Ref.No: 95246615)",
+        "estimated_value": null,
+        "deadline": "2026-10-02",
+        "event_date": "2026-05-29",
+        "why_it_matters": "This tender indicates an upcoming demand for Terumo guidewires and other cath lab equipment, presenting a direct sales opportunity for Thomas Scientific to supply these specialized medical devices.",
+        "source_url": "https://www.gujarat-tenders.com/tender-details/95246615/supply-of-medical-equipment-for-cath-lab"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:12:53.304814",
+  "ai_summary": "Terumo is significantly expanding its cell and gene therapy (CGT) manufacturing capabilities through strategic partnerships with Steminent Biotherapeutics and KBIOHealth, leveraging its Quantum Flex\u2122 system. Additionally, the Terumo Life Science Foundation is funding critical cell biology research. This activity signals a substantial and increasing demand for lab supplies, reagents, and consumables to support their internal R&D, manufacturing scale-up, and associated academic research efforts."
+}

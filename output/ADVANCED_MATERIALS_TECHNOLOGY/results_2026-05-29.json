@@ -1,0 +1,67 @@
+{
+  "account": "ADVANCED MATERIALS TECHNOLOGY",
+  "account_vertical": "Industrial",
+  "Parent_ID": "001G000001C6wvbIAB",
+  "signals": {
+    "capital": [],
+    "expansion": [],
+    "partnership": [],
+    "funding": [
+      {
+        "summary": "IQE plc, a global supplier of compound semiconductor wafer products and advanced material solutions, announced a fundraise of \u00a381 million, which included a \u00a345 million strategic investment from MACOM Technology Solutions Inc.",
+        "amount": "\u00a345,000,000",
+        "funding_type": "Strategic Investment",
+        "use_of_proceeds": "The proceeds will support ongoing strategic investment and the Group's strategic GaN-related capacity investment into power electronics and advanced display (microLED) markets.",
+        "event_date": "2026-05-28",
+        "why_it_matters": "This investment in GaN-related capacity and strategic growth indicates increased demand for specialized materials, processing equipment, and quality control systems in advanced material manufacturing.",
+        "source_url": "https://www.iqep.com/umbraco/Surface/DisclaimerStep/CheckIsMediaItemProtectedAndProceedWithAction?mediaFilePath=%2Fmedia%2Fu2mloion%2Fiqe-fy-2025-rns.pdf"
+      },
+      {
+        "summary": "Argo Graphene Solutions Corp. announced a license and technology transfer agreement with Grapherry, Inc., a U.S.-based advanced materials technology company, which includes milestones tied to a CAD $1,000,000 equity financing and the commissioning of a graphene production facility.",
+        "amount": "CAD $1,000,000",
+        "funding_type": "Equity Financing",
+        "use_of_proceeds": "The proceeds from the equity financing will support the commissioning of a graphene production facility.",
+        "event_date": "2026-05-26",
+        "why_it_matters": "The planned equity financing and commissioning of a graphene production facility by Argo Graphene Solutions Corp. will drive demand for specialized lab equipment, processing tools, and consumables for graphene manufacturing and quality control.",
+        "source_url": "https://www.marketscreener.com/news/argo-graphene-solutions-corp-announces-license-and-technology-transfer-agreement-with-grapherry-in-ce7f5adddc89f627"
+      }
+    ],
+    "project": [],
+    "hiring": [],
+    "production": [
+      {
+        "summary": "Heraeus Precious Metals and VSParticle signed a Memorandum of Understanding (MoU) to collaborate on VSParticle's spark ablation technology for the production of next-generation Porous Transport Electrodes (PTEs) with significantly reduced iridium loading. This partnership aims to enable large-scale, cost-effective manufacturing of low-iridium PTEs, supporting the rapid expansion of green hydrogen production worldwide.",
+        "facility_or_line": "Production of Porous Transport Electrodes (PTEs) using VSParticle's spark ablation technology",
+        "change_type": "New product line, Shift in production capacity",
+        "location": null,
+        "investment_value": null,
+        "event_date": "2026-05-19",
+        "why_it_matters": "The development and large-scale manufacturing of new advanced materials for green hydrogen production will increase demand for specialized reagents, catalysts, and analytical equipment for R&D, process optimization, and quality control.",
+        "source_url": "https://www.heraeus-precious-metals.com/en/company/press-and-news/heraeus-precious-metals-and-vsparticle-sign-mou/"
+      },
+      {
+        "summary": "Eco Material Technologies announced the opening of its new pilot processing center and the expansion of its testing laboratory at its Materials Testing and Research Facility (MTRF) in Taylorsville, GA. This 16,400-square-foot research hub is designed to accelerate the development and scaled deployment of high-performance, infrastructure-ready cementitious materials.",
+        "facility_or_line": "New pilot processing center and expanded testing laboratory at Materials Testing and Research Facility (MTRF)",
+        "change_type": "New manufacturing site opening, Expansion of existing plant",
+        "location": "Taylorsville, GA",
+        "investment_value": null,
+        "event_date": "2026-05-12",
+        "why_it_matters": "The opening of a new pilot processing center and expanded testing lab will directly increase demand for a wide range of lab supplies, reagents, and scientific equipment for material characterization, concrete testing, durability analysis, and pilot-scale production of advanced cementitious materials.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/05/12/3293089/0/en/eco-material-technologies-opens-new-pilot-processing-center-and-expands-testing-lab-at-georgia-research-facility.html"
+      },
+      {
+        "summary": "Hexcel Corporation and Wichita State University's National Institute for Aviation Research (NIAR) broke ground on the new Hexcel Applications Center. This center will focus on advancing composite materials, automated processing, and aerospace manufacturing innovation, serving as a key location for developing and scaling next-generation composite materials and automated manufacturing processes.",
+        "facility_or_line": "Hexcel Applications Center at Wichita State University's National Institute for Aviation Research (NIAR)",
+        "change_type": "New manufacturing site opening",
+        "location": "Wichita, Kansas",
+        "investment_value": "More than $10 million in state-of-the-art equipment",
+        "event_date": "2026-05-28",
+        "why_it_matters": "A new applications center dedicated to advanced composite materials and automated manufacturing will require significant investment in specialized lab equipment, testing instruments, and consumables for material science research, process development, and quality assurance in aerospace and defense sectors.",
+        "source_url": "https://www.heraeus-precious-metals.com/en/"
+      }
+    ],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T16:07:06.871727",
+  "ai_summary": "Advanced materials companies are securing significant funding and expanding production capabilities across semiconductors, graphene, green hydrogen, and composites. New pilot centers, testing labs, and applications centers are being established to accelerate R&D and scaled deployment. This surge in investment and facility expansion signals a strong demand for new lab equipment, consumables, and specialized materials, creating significant sales opportunities for lab supply teams supporting these growing sectors."
+}

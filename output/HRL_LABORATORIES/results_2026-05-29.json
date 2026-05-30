@@ -1,0 +1,56 @@
+{
+  "account": "HRL LABORATORIES",
+  "account_vertical": "Government",
+  "Parent_ID": "001UR00000nP1EwYAK",
+  "signals": {
+    "grant": [],
+    "capital": [],
+    "contract": [
+      {
+        "summary": "HRL Laboratories, in partnership with the CA DREAMS hub, MOSIS 2.0, and the MMEC hub, is offering a prototype accelerator program for subsidized access to HRL's T3L GaN process technology, with an application deadline of May 8, 2026.",
+        "contract_name": "HRL's T3L GaN MPW Access Program (Prototype Accelerator Program)",
+        "estimated_value": "Not specified (applicants pay a $10,000 tile purchase fee).",
+        "deadline_or_expiration": "2026-05-08",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This prototype accelerator program indicates HRL Laboratories' active engagement in advanced GaN semiconductor development, suggesting an upcoming demand for specialized lab supplies, reagents, consumables, and scientific equipment for fabrication and testing.",
+        "source_url": "https://www.hrl.com/ganchallenge"
+      }
+    ],
+    "expansion": [],
+    "project": [
+      {
+        "summary": "HRL Laboratories achieved Manufacturing Readiness Level (MRL) 6 for its T3L 40-nanometer gallium nitride (GaN) on silicon carbide (SiC) technology through the Office of the Under Secretary of War, making it available for U.S. government programs.",
+        "project_name": "T3L 40-nanometer GaN-on-SiC Technology Maturation",
+        "scope": "Development and maturation of HRL's cutting-edge RF-GaN manufacturing technology for high-performance commercial and defense applications, achieving MRL 6. The technology is now available for purchase in support of various U.S. government programs, with high-volume manufacturing transitioning to MACOM and HRL retaining low-volume engineering foundry access.",
+        "timeline": "MRL 6 achieved on April 8, 2026. High-volume manufacturing transition to MACOM was previously announced in November 2025.",
+        "event_date": "2026-04-08",
+        "why_it_matters": "The maturation and availability of HRL's advanced GaN-on-SiC technology for government programs will drive demand for specialized GaN and SiC wafers, advanced processing chemicals, and high-frequency testing equipment for both HRL's foundry services and MACOM's high-volume manufacturing.",
+        "source_url": "https://www.hrl.com/news/2026/04/08/hrl-achieves-manufacturing-milestone-on-40-nm-gan-on-sic"
+      },
+      {
+        "summary": "HRL Laboratories, in partnership with the CA DREAMS hub, MOSIS 2.0, and the MMEC hub, launched a prototype accelerator program offering subsidized access to its T3L GaN process technology for U.S.-based designers.",
+        "project_name": "HRL's T3L GaN MPW Access Program (GaNChallenge)",
+        "scope": "The program provides subsidized access to HRL's proprietary T3L GaN process technology for GaN designers to prototype new technologies, with resources available through the MOSIS 2.0 storefront. It supports the broader Microelectronics Commons objectives of accelerating innovation and strengthening domestic design expertise.",
+        "timeline": "Application deadline was May 8, 2026, with awards scheduled for June 5, 2026. First designs are due September 4, 2026, and die delivery is expected in March 2027.",
+        "event_date": "2026-05-08",
+        "why_it_matters": "This program will directly stimulate the design and prototyping of new GaN technologies, increasing demand for specialized GaN wafers, processing chemicals, EDA tools, and characterization equipment for participants.",
+        "source_url": "https://www.hrl.com/news/2026/04/08/hrl-achieves-manufacturing-milestone-on-40-nm-gan-on-sic"
+      },
+      {
+        "summary": "Maricopa Community Colleges joined the Southwest Regional Semiconductor Workforce Initiative, which includes HRL Laboratories, to strengthen semiconductor talent pipelines and establish a $20 million learning hub.",
+        "project_name": "Southwest Regional Semiconductor Workforce Initiative (NNME Southwest Regional Node)",
+        "scope": "This major initiative, in partnership with the Arizona Commerce Authority, National Network for Microelectronics Education (NNME), SEMI Foundation, and National Science Foundation (NSF), aims to scale employer-driven training and expand hands-on learning for the semiconductor and microelectronics industry across the Southwest. It includes the development of the $20 million 'Future48 Workforce Accelerator' at GateWay Community College, featuring full-sized mock clean rooms. HRL Laboratories is listed as a global technology giant involved in the initiative.",
+        "timeline": "The NNME Southwest Regional Node was officially designated on May 27, 2026. The Future48 Workforce Accelerator is set to open in 2027.",
+        "event_date": "2026-05-27",
+        "why_it_matters": "HRL's involvement in this initiative, particularly with the development of a $20 million learning hub with mock clean rooms, indicates future demand for educational lab equipment, training consumables, and specialized tools for semiconductor processing and cleanroom operations.",
+        "source_url": "https://www.hrl.com/news/2026/04/08/hrl-achieves-manufacturing-milestone-on-40-nm-gan-on-sic"
+      }
+    ],
+    "tender": [],
+    "mandate": [],
+    "legislation": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T10:30:55.730669",
+  "ai_summary": "HRL Laboratories is actively expanding the adoption of its T3L GaN technology through a new prototype accelerator program and achieving MRL 6 for government use. They are also investing in semiconductor workforce development. This signals increased R&D, prototyping, and potential production scaling, creating significant opportunities for lab supply sales teams to support new projects, training, and expanded operations."
+}

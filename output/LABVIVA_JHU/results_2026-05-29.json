@@ -1,0 +1,37 @@
+{
+  "account": "LABVIVA JHU",
+  "account_vertical": "Education_Research",
+  "Parent_ID": "001UR00000nP1CDYA0",
+  "signals": {
+    "grant": [],
+    "faculty": [
+      {
+        "summary": "Alexis Battle has been installed as the Wu and Zhang Professor of Biomedical Engineering and Computer Science, and also serves as Director of the Malone Center for Engineering in Healthcare and Director of Research for Strategy and Partnerships, Data Science and AI Institute at Johns Hopkins University. Her research focuses on computational biology, machine learning, and genomics.",
+        "name": "Alexis Battle",
+        "department": "Biomedical Engineering, Computer Science, Data Science and AI Institute",
+        "start_date": "2026-05-01",
+        "event_date": "2026-05-01",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://engineering.jhu.edu/bme/news-events/the-installation-of-alexis-battle-as-the-wu-and-zhang-professor/"
+      },
+      {
+        "summary": "Ahmed Hassoon, an assistant research professor at Johns Hopkins Bloomberg School of Public Health, Johns Hopkins Medicine, and Johns Hopkins Whiting School of Engineering, has been named a 2026 National Academy of Medicine Scholar in Diagnostic Excellence.",
+        "name": "Ahmed Hassoon",
+        "department": "Epidemiology, Neurology, Computer Science",
+        "start_date": "2026-05-28",
+        "event_date": "2026-05-28",
+        "why_it_matters": "New hires need to outfit labs with supplies and equipment.",
+        "source_url": "https://nam.edu/national-academy-of-medicine-names-10-scholars-in-diagnostic-excellence-for-2026/"
+      }
+    ],
+    "capital": [],
+    "contract": [],
+    "expansion": [],
+    "funding": [],
+    "project": [],
+    "breakthrough": [],
+    "closure": []
+  },
+  "timestamp": "2026-05-29T06:37:03.751669",
+  "ai_summary": "Johns Hopkins University is expanding its interdisciplinary research capabilities, with Alexis Battle appointed to a new professorship and director roles in biomedical engineering, AI, and genomics. Additionally, Ahmed Hassoon was named a National Academy of Medicine Scholar for diagnostic excellence. These developments signal significant growth in high-tech, lab-intensive fields, creating new opportunities for lab supply sales teams to support expanding research programs and potentially new labs across various departments."
+}
