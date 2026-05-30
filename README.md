@@ -192,6 +192,11 @@ The container entrypoint is `python main.py`; all CLI flags pass through. Pass A
 
 ## Deploying to Azure (Container Apps Jobs)
 
+> **For the real, step-by-step deploy runbook** — exact resource names, the working
+> build path, and the hard-won gotchas (permissions, `--platform`, command/arg
+> parsing, env-wipe) — see **[`DEPLOYMENT.md`](DEPLOYMENT.md)**. The section below is
+> the conceptual overview.
+
 The pipeline is designed to run as an **Azure Container Apps Job** — a purpose-built one-shot compute unit for batch workloads. High-level steps:
 
 1. **Build and push** to Azure Container Registry:

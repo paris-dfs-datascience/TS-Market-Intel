@@ -30,7 +30,7 @@ from .storage import Sink
 # ── Configurable via env vars ─────────────────────────────────────
 MODEL          = os.environ.get("GEMINI_MODEL",       "gemini-2.5-flash")
 TEMPERATURE    = float(os.environ.get("GEMINI_TEMPERATURE", "0.2"))
-SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "4"))   # max concurrent in-flight calls per account
+SEMAPHORE_SIZE = int(os.environ.get("SEMAPHORE_SIZE", "5"))   # max concurrent in-flight calls per account
 MAX_RETRIES    = int(os.environ.get("MAX_RETRIES",    "3"))    # used by ai_summary path only; fetch_one uses the dual counters below
 # fetch_one() retry budgets — three independent counters, each only tripped by its own failure mode.
 # A single signal can therefore make up to 8 + 3 + 3 + 1 = 15 HTTP attempts if it alternates failure modes.
