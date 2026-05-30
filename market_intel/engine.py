@@ -802,12 +802,11 @@ async def run_account_async(client, account: str, category: str, signals: list,
                         or "billing details" in err_lower
                         or "exceeded your current quota" in err_lower
                     ):
-                        logger.critical(f"  {C['red']}✘ Gemini quota exhausted (billing/plan limit). Check usage and top up at aistudio.google.com, then re-run.{C['reset']}")
+                        logger.critical(f"  {C['red']}✘ Gemini quota exhausted (billing/plan limit) — full Gemini response: {err}. Check usage and top up at aistudio.google.com, then re-run.{C['reset']}")
                         raise RuntimeError("Gemini quota exhausted — check plan and billing at aistudio.google.com and re-run.")
                     elif "429" in err or "RATE" in err.upper():
                         rate_limit_attempt += 1
-                        if rate_limit_attempt == 1:
-                            logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}] — full Gemini response: {err}{C['reset']}")
+                        logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}] — full Gemini response: {err}{C['reset']}")
                         if rate_limit_attempt <= MAX_RATE_LIMIT_RETRIES:
                             retry_after = _parse_retry_after(err)
                             if retry_after is not None:

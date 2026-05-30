@@ -6,6 +6,10 @@ Examples: a university receiving a large NIH grant (new lab spend), a pharma com
 
 Uses **Gemini 2.5 Flash with Google Search grounding** to surface the signals from press releases, SEC filings, news articles, and official publications.
 
+> **Just want to run it?** See **[RUN.md](RUN.md)** for the full how-to-run guide (run
+> commands, output, one-off tools, diagnostics, watching logs). To deploy new code to
+> Azure, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
+
 ---
 
 ## Quick start
