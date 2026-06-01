@@ -37,6 +37,7 @@ MAX_RETRIES    = int(os.environ.get("MAX_RETRIES",    "3"))    # used by ai_summ
 MAX_RATE_LIMIT_RETRIES = int(os.environ.get("MAX_RATE_LIMIT_RETRIES", "8"))  # 429 / "RATE" retries
 MAX_TIMEOUT_RETRIES    = int(os.environ.get("MAX_TIMEOUT_RETRIES",    "3"))  # asyncio.TimeoutError / "timeout" / "deadline" retries
 MAX_EMPTY_RETRIES      = int(os.environ.get("MAX_EMPTY_RETRIES",      "3"))  # empty-response (safety filter, etc.) retries
+MAX_TRANSIENT_RETRIES  = int(os.environ.get("MAX_TRANSIENT_RETRIES",  "5"))  # 503/500/UNAVAILABLE (model overloaded / "high demand") retries
 RATE_LIMIT_SLEEP_CAP   = int(os.environ.get("RATE_LIMIT_SLEEP_CAP",   "60")) # max seconds to sleep between rate-limit retries (cap on exponential and on Retry-After)
 API_TIMEOUT_MS      = int(os.environ.get("API_TIMEOUT_MS",      "60000"))  # HTTP connection timeout (ms) — NOT wall-clock
 SIGNAL_HARD_TIMEOUT = int(os.environ.get("SIGNAL_HARD_TIMEOUT", "120"))    # asyncio.wait_for wall-clock kill (secs)
@@ -726,6 +727,7 @@ async def run_account_async(client, account: str, category: str, signals: list,
             rate_limit_attempt = 0
             timeout_attempt = 0
             empty_attempt = 0
+            transient_attempt = 0
             total_attempt = 0
             while True:
                 total_attempt += 1
@@ -832,6 +834,20 @@ async def run_account_async(client, account: str, category: str, signals: list,
                             continue
                         logger.warning(f"  {C['yellow']}⚠ TIMEOUT [{signal}] after {elapsed:.1f}s — max timeout retries reached, skipping.{C['reset']}")
                         if _usage: await _usage.record("timeout", signal=signal, elapsed=elapsed)
+                        return signal, []
+                    elif "UNAVAILABLE" in err.upper() or "overloaded" in err_lower or "high demand" in err_lower or "500 internal" in err_lower or "internal error" in err_lower:
+                        # Transient server-side errors (model overloaded / "experiencing high demand").
+                        # Google's side, temporary — retry with exponential backoff before giving up.
+                        transient_attempt += 1
+                        if transient_attempt <= MAX_TRANSIENT_RETRIES:
+                            base = min(5 * (2 ** transient_attempt), RATE_LIMIT_SLEEP_CAP)
+                            wait = base * random.uniform(0.75, 1.25)
+                            logger.warning(f"  {C['yellow']}⚠ Transient error [{signal}] (503/overloaded), waiting {wait:.1f}s (attempt {transient_attempt}/{MAX_TRANSIENT_RETRIES})... full Gemini response: {err}{C['reset']}")
+                            if _usage: await _usage.record("retry", signal=signal, elapsed=elapsed)
+                            await asyncio.sleep(wait)
+                            continue
+                        logger.warning(f"  {C['yellow']}⚠ [{signal}] max transient-error retries reached — skipping. Last response: {err}{C['reset']}")
+                        if _usage: await _usage.record("error", signal=signal, elapsed=elapsed)
                         return signal, []
                     else:
                         logger.error(f"  {C['red']}ERROR [{signal}] after {elapsed:.1f}s: {e}{C['reset']}")
