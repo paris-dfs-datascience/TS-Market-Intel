@@ -196,17 +196,22 @@ def step_connect(server: str, database: str, token_str: str) -> tuple[bool, obje
     return True, conn
 
 
-def step_identity_probe(conn) -> bool:
-    """Step 5 -- what does SQL think of this session?"""
+def step_identity_probe(conn, schema: str, table: str) -> bool:
+    """Step 5 -- what does SQL think of this session, and can it SELECT?
+
+    The pass/fail gate is *effective* SELECT permission on the table
+    (`HAS_PERMS_BY_NAME`), which is true whether read access was granted via
+    db_datareader, db_owner, a custom role, or a direct `GRANT SELECT`. The
+    db_datareader membership result is reported but never fails the run on its
+    own -- a principal with a direct grant reads fine without being a member.
+    """
     _header(5, "identity probe")
-    queries = [
-        ("current database",        "SELECT DB_NAME()"),
-        ("server-level principal",  "SELECT SUSER_NAME()"),
-        ("database user",           "SELECT CURRENT_USER"),
-        ("db_datareader member?",   "SELECT IS_ROLEMEMBER('db_datareader')"),
-    ]
-    all_ok = True
-    for label, sql in queries:
+    # Context facts -- these just report who SQL thinks we are.
+    for label, sql in [
+        ("current database",       "SELECT DB_NAME()"),
+        ("server-level principal", "SELECT SUSER_NAME()"),
+        ("database user",          "SELECT CURRENT_USER"),
+    ]:
         try:
             with conn.cursor() as cur:
                 cur.execute(sql)
@@ -214,18 +219,40 @@ def step_identity_probe(conn) -> bool:
                 value = row[0] if row else None
         except Exception as e:
             _fail(f"{label}: query raised {type(e).__name__}: {e}")
-            all_ok = False
-            continue
-        if label == "db_datareader member?" and value != 1:
-            _fail(
-                f"{label}: returned {value!r} (expected 1)",
-                "User exists but db_datareader role wasn't added.",
-                "Admin: `ALTER ROLE db_datareader ADD MEMBER [<name>];` in the user database.",
-            )
-            all_ok = False
-        else:
-            _ok(f"{label}: {value!r}")
-    return all_ok
+            return False
+        _ok(f"{label}: {value!r}")
+
+    # db_datareader membership -- informational only (see docstring).
+    try:
+        with conn.cursor() as cur:
+            cur.execute("SELECT IS_ROLEMEMBER('db_datareader')")
+            row = cur.fetchone()
+            member = row[0] if row else None
+    except Exception as e:
+        member = f"<query raised {type(e).__name__}>"
+    _info(f"db_datareader member?: {member!r} (informational; SELECT may come from a direct grant)")
+
+    # The real gate: can this principal SELECT the table, however granted?
+    obj = f"[{schema}].[{table}]"
+    try:
+        with conn.cursor() as cur:
+            cur.execute("SELECT HAS_PERMS_BY_NAME(?, 'OBJECT', 'SELECT')", obj)
+            row = cur.fetchone()
+            can_select = row[0] if row else None
+    except Exception as e:
+        _fail(f"effective SELECT check on {obj} raised {type(e).__name__}: {e}")
+        return False
+    if can_select == 1:
+        _ok(f"effective SELECT on {obj}: granted")
+        return True
+    _fail(
+        f"effective SELECT on {obj}: returned {can_select!r} (expected 1)",
+        "The principal cannot read the table by any grant path.",
+        "Admin (in the user database) -- either is sufficient:",
+        "  ALTER ROLE db_datareader ADD MEMBER [<name>];",
+        f"  GRANT SELECT ON {obj} TO [<name>];",
+    )
+    return False
 
 
 def step_schema_probe(conn, schema: str, table: str) -> bool:
@@ -348,7 +375,7 @@ def main() -> int:
         return 1
 
     try:
-        all_pass &= step_identity_probe(conn)
+        all_pass &= step_identity_probe(conn, env["schema"], env["table"])
         all_pass &= step_schema_probe(conn, env["schema"], env["table"])
         row_ok, _row_count = step_row_count(conn, env["schema"], env["table"])
         all_pass &= row_ok
