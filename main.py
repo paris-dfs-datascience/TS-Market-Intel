@@ -64,6 +64,29 @@ def _print_account_listing(source_label: str, accounts_by_vertical: dict) -> Non
     print(f"\n[DRY RUN] Total: {total} accounts. Stopping before signal generation.")
 
 
+def _finalize_run(sink, run_date: str, api_key: str | None = None) -> None:
+    """End-of-run finalization for a full run: validate/repair source URLs, then
+    auto-export the SF CSV. Both steps are best-effort — a failure is logged but
+    never blocks the rest (the run itself already succeeded and is checkpointed).
+
+    URL validation re-asks Gemini for any dead URL, so it adds time + a few API
+    calls at the tail. Disable it without a code change by setting AUTO_FIX_URLS=0.
+    """
+    if os.environ.get("AUTO_FIX_URLS", "1").strip().lower() not in ("0", "false", "no", "off"):
+        from tools.backfill_results import run_url_backfill
+        logger.info("Run complete — validating/repairing source URLs before export.")
+        try:
+            run_url_backfill(sink, run_date, api_key=api_key)
+        except Exception as e:
+            logger.error(f"Auto URL-fix failed (continuing to export): {e}")
+    from market_intel.export_csv import run_export
+    logger.info("Generating SF export CSV.")
+    try:
+        run_export(sink, run_date)
+    except Exception as e:
+        logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
+
+
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Thomas Scientific Market Intelligence")
     p.add_argument("--category", choices=CATEGORY_CHOICES, default="all",
@@ -181,14 +204,8 @@ def main() -> None:
                                accounts_override=acct_list, run_date=run_date)
             if remaining is not None:
                 remaining -= ran
-        # Auto-export the SF CSV at the end of a SQL-driven full run, mirroring
-        # the existing `--category all` behavior.
-        from market_intel.export_csv import run_export
-        logger.info("SQL-driven run complete — generating SF export CSV.")
-        try:
-            run_export(sink, run_date)
-        except Exception as e:
-            logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
+        # End-of-run: validate/repair URLs, then auto-export the SF CSV.
+        _finalize_run(sink, run_date, api_key=args.api_key)
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.
@@ -305,13 +322,8 @@ def main() -> None:
                                api_key=args.api_key, limit=cat_limit, run_date=run_date)
             if remaining is not None:
                 remaining -= ran
-        # Auto-export: generate the SF-import CSV from every account result just written.
-        from market_intel.export_csv import run_export
-        logger.info("All categories complete — generating SF export CSV.")
-        try:
-            run_export(sink, run_date)
-        except Exception as e:
-            logger.error(f"Auto-export failed (run finished, but CSV not generated): {e}")
+        # End-of-run: validate/repair URLs, then auto-export the SF CSV.
+        _finalize_run(sink, run_date, api_key=args.api_key)
         return
 
     run_category(_resolve_category(args.category), sink,
