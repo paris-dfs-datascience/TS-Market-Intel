@@ -6,9 +6,11 @@ Examples: a university receiving a large NIH grant (new lab spend), a pharma com
 
 Uses **Gemini 2.5 Flash with Google Search grounding** to surface the signals from press releases, SEC filings, news articles, and official publications.
 
-> **Just want to run it?** See **[RUN.md](RUN.md)** for the full how-to-run guide (run
-> commands, output, one-off tools, diagnostics, watching logs). To deploy new code to
-> Azure, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
+> **Just want to run it?**
+> - **[RUN.md](RUN.md)** — run the pipeline locally (commands, output, tools, logs).
+> - **[RUN_AZURE_VSCODE.md](RUN_AZURE_VSCODE.md)** — run it on Azure from the VS Code
+>   terminal, copy-paste: `az login` → start a run → watch logs → stop.
+> - **[DEPLOYMENT.md](DEPLOYMENT.md)** — full deploy runbook for shipping new code to Azure.
 
 ---
 
