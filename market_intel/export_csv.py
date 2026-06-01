@@ -117,7 +117,7 @@ def run_export(sink: "Sink", date_str: str | None = None) -> tuple[int, int, str
         vertical  = VERTICAL_LABELS.get(raw_vert, raw_vert)
         ingested  = result.get("timestamp", "")
         try:
-            ingested = datetime.fromisoformat(ingested).strftime("%Y-%m-%d %H:%M:%S")
+            ingested = datetime.fromisoformat(ingested).strftime("%Y-%m-%d")
         except Exception:
             pass
 
