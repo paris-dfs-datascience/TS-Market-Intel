@@ -45,6 +45,25 @@ def _resolve_category(value: str) -> str:
     return CATEGORY_SLUGS.get(value, value)
 
 
+def _print_account_listing(source_label: str, accounts_by_vertical: dict) -> None:
+    """--dry-run helper: print the accounts that would be processed, no signals fired.
+
+    Tolerates both account shapes the loaders produce: SQL/CSV yield
+    [{"name": ..., "parent_id": ...}, ...]; the --companies path yields plain
+    name strings.
+    """
+    def _name(item):
+        return item["name"] if isinstance(item, dict) else item
+    total = sum(len(v) for v in accounts_by_vertical.values())
+    print(f"\n[DRY RUN] Account retrieval from {source_label} — no signals will be generated.")
+    print(f"{total} accounts across {len(accounts_by_vertical)} verticals:\n")
+    for vertical, acct_list in accounts_by_vertical.items():
+        print(f"  {vertical}  ({len(acct_list)})")
+        for item in acct_list:
+            print(f"    - {_name(item)}")
+    print(f"\n[DRY RUN] Total: {total} accounts. Stopping before signal generation.")
+
+
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Thomas Scientific Market Intelligence")
     p.add_argument("--category", choices=CATEGORY_CHOICES, default="all",
@@ -80,6 +99,10 @@ def parse_args() -> argparse.Namespace:
                         "AZURE_SQL_DATABASE env vars; uses the same MI bound for Key Vault. "
                         "Hard-fails if the connection or query fails. "
                         "Also enabled by ACCOUNTS_SOURCE=sql.")
+    p.add_argument("--dry-run", action="store_true",
+                   help="Load and print the accounts that would be processed, then exit "
+                        "BEFORE any signals are generated (no Gemini calls, no cost). "
+                        "Use with --from-sql / --from-csv to test account retrieval only.")
     p.add_argument("--analyze-dedup", default=None, metavar="DATE",
                    help="One-off dedup analysis on _export/market_intel_export_<DATE>.csv. "
                         "Writes dedup_4a_*, dedup_4b_*, dedup_analysis_* artifacts back to "
@@ -145,6 +168,9 @@ def main() -> None:
             f"Loaded {sum(len(v) for v in sql_accounts.values())} accounts from "
             f"SalesForce.Account_base across {len(sql_accounts)} verticals."
         )
+        if args.dry_run:
+            _print_account_listing("Azure SQL (SalesForce.Account_base)", sql_accounts)
+            return
         remaining = args.total_limit
         for vertical, acct_list in sql_accounts.items():
             if remaining is not None and remaining <= 0:
@@ -173,6 +199,9 @@ def main() -> None:
         if not csv_accounts:
             logger.error(f"No Customer80/Super80 accounts found in '{csv_path}'. Check the CSV and SEGMENT_RAW_MAP.")
             sys.exit(1)
+        if args.dry_run:
+            _print_account_listing(f"CSV ({csv_path})", csv_accounts)
+            return
         remaining = args.total_limit
         for vertical, acct_list in csv_accounts.items():
             if remaining is not None and remaining <= 0:
@@ -183,6 +212,36 @@ def main() -> None:
                                accounts_override=acct_list, run_date=run_date)
             if remaining is not None:
                 remaining -= ran
+        return
+
+    # --dry-run for the hardcoded-ACCOUNTS modes. The --from-sql / --from-csv
+    # branches above already handled --dry-run and returned; this guarantees the
+    # flag never fires signals in any remaining mode either.
+    if args.dry_run:
+        if args.companies:
+            queries = {q.strip().upper() for q in args.companies.split(",") if q.strip()}
+            listing: dict[str, list] = {}
+            for acct, cat in all_accounts_flat():
+                if acct.upper() in queries:
+                    listing.setdefault(cat, []).append(acct)
+            _print_account_listing("hardcoded ACCOUNTS (--companies)", listing)
+        elif args.company:
+            query = args.company.upper()
+            listing = {}
+            for acct, cat in all_accounts_flat():
+                if acct.upper() == query:
+                    listing.setdefault(cat, []).append(acct)
+            _print_account_listing("hardcoded ACCOUNTS (--company)", listing)
+        elif args.super80:
+            listing = {cat: [a for a in accts if a in SUPER80]
+                       for cat, accts in ACCOUNTS.items()}
+            listing = {cat: accts for cat, accts in listing.items() if accts}
+            _print_account_listing("hardcoded ACCOUNTS (--super80)", listing)
+        elif args.category == "all":
+            _print_account_listing("hardcoded ACCOUNTS (--category all)", dict(ACCOUNTS))
+        else:
+            cat = _resolve_category(args.category)
+            _print_account_listing("hardcoded ACCOUNTS", {cat: ACCOUNTS.get(cat, [])})
         return
 
     if args.companies:
