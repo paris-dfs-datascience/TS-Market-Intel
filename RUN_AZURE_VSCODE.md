@@ -68,8 +68,7 @@ disturb any other (e.g. DFS) subscription; switch back later with
 ## 2. (Optional) See the current state before you touch anything
 
 ```bash
-az containerapp job show -n thomas-intel-job -g marias_advisory_ai_rg \
-  --query "properties.template.containers[0].{image:image, command:command, args:args, env:env[].{name:name,value:value}}" -o json
+az containerapp job show -n thomas-intel-job -g marias_advisory_ai_rg --query "properties.template.containers[0].{image:image, command:command, args:args, env:env[].{name:name,value:value}}" -o json
 ```
 
 You want to confirm:
@@ -124,8 +123,7 @@ docker push "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
 echo "NEW TAG: $TAG"
 
 # 3. Point the job at the new image (keeps env + identity intact)
-az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg \
-  --image "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
+az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg \--image "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
 
 # 4. Start
 az containerapp job start -n thomas-intel-job -g marias_advisory_ai_rg
@@ -143,8 +141,7 @@ A `start` kicks off an *execution* with a random suffix (e.g. `thomas-intel-job-
 Get it:
 
 ```bash
-az containerapp job execution list -n thomas-intel-job -g marias_advisory_ai_rg \
-  --query "[0].{name:name, status:properties.status, start:properties.startTime}" -o json
+az containerapp job execution list -n thomas-intel-job -g marias_advisory_ai_rg \ --query "[0].{name:name, status:properties.status, start:properties.startTime}" -o json
 ```
 
 Copy the `name` value — you'll need it to watch and to stop.
@@ -153,11 +150,24 @@ Copy the `name` value — you'll need it to watch and to stop.
 
 ## 5. Watch the logs
 
+View status of job 
+
+thomas-intel-job-xxxxxxx <-change to match job name>
+
+```bash
+az containerapp job execution show -n thomas-intel-job -g marias_advisory_ai_rg --job-execution-name thomas-intel-job-7l8uknk --query "{status:properties.status, start:properties.startTime, end:properties.endTime}" -o json
+
 **Live stream** (replace the execution name — **no `< >` brackets**, see gotcha #4):
 
 ```bash
-az containerapp job logs show -n thomas-intel-job -g marias_advisory_ai_rg --container thomas-intel-job --execution thomas-intel-job-XXXXXXX --follow --tail 200
+az containerapp job logs show -n thomas-intel-job -g marias_advisory_ai_rg --container thomas-intel-job --execution thomas-intel-job-7l8uknk --follow --tail 200
 ```
+
+**Stop Job**
+
+az containerapp job stop -n thomas-intel-job -g marias_advisory_ai_rg \ --job-execution-name thomas-intel-job-ldmhv2r
+
+
 
 Healthy startup signs in the first ~30s:
 - **no** `No Gemini API key found` → Key Vault fetch worked
@@ -170,9 +180,8 @@ Healthy startup signs in the first ~30s:
 ENV_ID=$(az containerapp job show -n thomas-intel-job -g marias_advisory_ai_rg --query "properties.environmentId" -o tsv)
 WS=$(az containerapp env show --ids "$ENV_ID" --query "properties.appLogsConfiguration.logAnalyticsConfiguration.customerId" -o tsv)
 
-az monitor log-analytics query --workspace "$WS" \
-  --analytics-query "ContainerAppConsoleLogs_CL | where Log_s has 'full Gemini response' | project TimeGenerated, Log_s | order by TimeGenerated desc | take 50" \
-  -o table
+az monitor log-analytics query --workspace "$WS" \--analytics-query "ContainerAppConsoleLogs_CL | where Log_s has 'full Gemini response' | project TimeGenerated, Log_s | order by TimeGenerated desc | take 50" \
+-o table
 ```
 
 If that returns nothing/errors on the table name, swap `ContainerAppConsoleLogs_CL` for
@@ -188,8 +197,7 @@ What the log lines mean:
 ## 6. Stop a run
 
 ```bash
-az containerapp job stop -n thomas-intel-job -g marias_advisory_ai_rg \
-  --job-execution-name thomas-intel-job-XXXXXXX
+az containerapp job stop -n thomas-intel-job -g marias_advisory_ai_rg \--job-execution-name thomas-intel-job-XXXXXXX
 ```
 
 Stopping is safe — completed accounts are checkpointed in Blob, so the next start picks
