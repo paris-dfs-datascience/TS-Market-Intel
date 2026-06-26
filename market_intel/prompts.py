@@ -56,6 +56,23 @@ JSON_INSTRUCTION = (
     "cited information."
 )
 
+# Verticals where sales engagement is site-driven: a rep acts on a specific plant,
+# R&D center, or lab — not on company-wide corporate news. For these, every signal
+# must be tied to a named physical site, or it is dropped (per client feedback).
+_SITE_SPECIFIC_CATEGORIES = {"BioPharma", "CDMO / CRO"}
+
+_SITE_SPECIFIC_GATE = (
+    "CRITICAL SITE-SPECIFICITY FILTER: Only include a signal if it can be tied to a "
+    "SPECIFIC, NAMED physical site or facility — a named plant, manufacturing site, "
+    "R&D center, lab, or campus with an identifiable location (city, and state/country) "
+    "— that a sales rep could engage directly. EXCLUDE company-wide or corporate-level "
+    "news (drug-pipeline milestones, clinical-trial results, FDA approvals, M&A, "
+    "financing, or executive moves) UNLESS the announcement names the specific site or "
+    "location where the activity physically happens. State the site name and its "
+    "location explicitly in the 'summary'. If a candidate signal cannot be tied to an "
+    "identifiable physical site or location, DROP it — do not include it."
+)
+
 # ── Category → triggers mapping (21 signals × 7 categories + cross-segment) ─
 CATEGORY_TRIGGERS = {
     # Original 12 signals + new category-specific signals
@@ -225,6 +242,11 @@ def build_prompt(signal: str, entity: str, category: str,
     entity = _entity_with_aliases(entity)          # expand to include aliases
     # Use pre-computed instruction if provided (avoids redundant date math per signal)
     RECENCY_INSTRUCTION = recency_instruction or _recency_instruction()
+
+    # For site-driven verticals (pharma/biotech), append the site-specificity gate so
+    # every signal prompt requires a named physical site and drops corporate-only news.
+    if category in _SITE_SPECIFIC_CATEGORIES:
+        RECENCY_INSTRUCTION = f"{RECENCY_INSTRUCTION} {_SITE_SPECIFIC_GATE}"
 
     if signal == "grant":
         ctx = _GRANT_CONTEXT.get(category, "NIH, NSF, or government grant awards")
