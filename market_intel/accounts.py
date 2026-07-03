@@ -245,7 +245,10 @@ SUPER80 = [
 
 # Map from Corporate_ID__c (upper-cased) → Salesforce ParentId.
 # Source: SalesForce.Account_base (Customer80 + Super80); ParentId when available,
-# account_id as fallback for accounts whose every row has a null ParentId.
+# else the account's own `Id` as a fallback (every row had a null ParentId).
+# Used only for the hardcoded-ACCOUNTS path (plain string accounts). The live
+# SQL/CSV loaders now apply the same `Id` fallback themselves at load time —
+# see load_accounts_from_sql / load_accounts_from_csv.
 PARENT_ID_MAP: dict[str, str] = {
     "2SEVENTY BIO": "001UR00000nP1bfYAC",
     "ABBOTT": "001UR00000nP1CAYA0",
@@ -795,6 +798,11 @@ def load_accounts_from_csv(filepath: str) -> dict[str, list[dict]]:
         { vertical: [{"name": <Corporate_ID__c>, "parent_id": <ParentId>}, ...] }
 
     Expected CSV columns: Corporate_ID__c, ParentId, segment_raw, tier
+    Optional column: Id — the account's own SF record id. When present, a
+    Corporate_ID__c whose every row has a null ParentId falls back to its
+    smallest account Id as the parent_id (logged), so it lands in the main SF
+    export instead of the review CSV. If the CSV has no Id column, this fallback
+    is simply skipped and behavior is unchanged.
     Rows with unknown segment_raw values are skipped with a printed warning.
     Handles Excel-generated BOM via utf-8-sig encoding.
     Deduplicates by Corporate_ID__c within each vertical (primary segment wins).
@@ -802,7 +810,7 @@ def load_accounts_from_csv(filepath: str) -> dict[str, list[dict]]:
     import csv as _csv
     from collections import defaultdict as _dd
 
-    corp_data: dict = _dd(lambda: {"segments": _dd(int), "parent_id": None})
+    corp_data: dict = _dd(lambda: {"segments": _dd(int), "parent_id": None, "account_id": None})
     with open(filepath, newline="", encoding="utf-8-sig") as f:
         reader = _csv.DictReader(f)
         for row in reader:
@@ -814,24 +822,44 @@ def load_accounts_from_csv(filepath: str) -> dict[str, list[dict]]:
                 continue
             segment = row.get("segment_raw", "").strip().upper()
             pid = row.get("ParentId", "").strip() or None
+            acct_id = row.get("Id", "").strip() or None
             corp_data[name]["segments"][segment] += 1
             if corp_data[name]["parent_id"] is None and pid and pid != "NULL":
                 corp_data[name]["parent_id"] = pid
+            # Rows aren't ordered, so keep the smallest Id for a deterministic "first".
+            if acct_id and acct_id != "NULL":
+                cur = corp_data[name]["account_id"]
+                if cur is None or acct_id < cur:
+                    corp_data[name]["account_id"] = acct_id
 
     result: dict[str, list[dict]] = {}
     skipped_segments: set[str] = set()
+    fallbacks: list[tuple[str, str]] = []
     for name, info in corp_data.items():
         primary_seg = max(info["segments"], key=lambda s: (info["segments"][s], s))
         vertical = _resolve_vertical(name, primary_seg)
         if vertical is None:
             skipped_segments.add(primary_seg)
             continue
-        result.setdefault(vertical, []).append({"name": name, "parent_id": info["parent_id"]})
+        # No ParentId on any row → fall back to the account's own Id (if the CSV
+        # carried one) so it isn't diverted to the review CSV at export time.
+        parent_id = info["parent_id"] or info["account_id"]
+        if info["parent_id"] is None and info["account_id"]:
+            fallbacks.append((name, info["account_id"]))
+        result.setdefault(vertical, []).append({"name": name, "parent_id": parent_id})
 
     if skipped_segments:
         print(
             f"WARNING: load_accounts_from_csv skipped rows with unmapped segment_raw values: "
             f"{sorted(skipped_segments)}. Add them to SEGMENT_RAW_MAP in accounts.py to include them."
         )
+
+    if fallbacks:
+        print(
+            f"INFO: load_accounts_from_csv used the first account Id as Parent_ID "
+            f"fallback for {len(fallbacks)} Corporate_ID__c with no ParentId:"
+        )
+        for nm, aid in sorted(fallbacks):
+            print(f"    {nm} -> {aid}")
 
     return result

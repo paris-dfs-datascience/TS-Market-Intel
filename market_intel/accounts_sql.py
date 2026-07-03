@@ -42,10 +42,13 @@ from .accounts import _resolve_vertical
 #   X80_20__c         → tier filter (Customer80 / Super80)
 #   Market_Segment__c → segment_raw value (used by SEGMENT_RAW_MAP)
 #   ParentId          → SF parent record id (stamped onto results)
+#   Id                → SF account record id; used as the Parent_ID fallback
+#                       for a Corporate_ID__c whose every row has a null ParentId
 _COL_NAME      = "Corporate_ID__c"
 _COL_TIER      = "X80_20__c"
 _COL_SEGMENT   = "Market_Segment__c"
 _COL_PARENT_ID = "ParentId"
+_COL_ID        = "Id"
 
 
 class SqlAccountsError(RuntimeError):
@@ -104,6 +107,11 @@ def load_accounts_from_sql() -> dict[str, list[dict]]:
     Returns a dict shaped like `accounts.load_accounts_from_csv`:
         { vertical: [{"name": <Corporate_ID__c>, "parent_id": <ParentId>}, ...] }
 
+    When a Corporate_ID__c has no ParentId on any of its rows, its own account
+    `Id` (smallest by sort order) is used as the parent_id fallback so it still
+    lands in the main SF export instead of the review CSV. Each such substitution
+    is logged.
+
     Caches the result for the lifetime of the process — accounts don't change
     mid-run. Re-import or clear the cache for tests.
     """
@@ -122,13 +130,16 @@ def load_accounts_from_sql() -> dict[str, list[dict]]:
     conn_str     = _build_connection_string()
     token_struct = _get_access_token()
 
+    # ORDER BY [Id] makes the "first account Id" fallback deterministic — the
+    # first row seen per Corporate_ID__c is the lexicographically-smallest Id.
     query = (
-        f"SELECT [{_COL_NAME}], [{_COL_TIER}], [{_COL_SEGMENT}], [{_COL_PARENT_ID}] "
+        f"SELECT [{_COL_NAME}], [{_COL_TIER}], [{_COL_SEGMENT}], [{_COL_PARENT_ID}], [{_COL_ID}] "
         f"FROM {fq_table} "
-        f"WHERE [{_COL_TIER}] IN (N'Customer80', N'Super80')"
+        f"WHERE [{_COL_TIER}] IN (N'Customer80', N'Super80') "
+        f"ORDER BY [{_COL_NAME}], [{_COL_ID}]"
     )
 
-    rows: list[tuple[str, str, str, str | None]] = []
+    rows: list[tuple[str, str, str, str | None, str | None]] = []
     try:
         # SQL_COPT_SS_ACCESS_TOKEN — pyodbc connection attribute that takes the
         # packed AAD token. MSSQL-specific; documented at
@@ -138,12 +149,13 @@ def load_accounts_from_sql() -> dict[str, list[dict]]:
             with conn.cursor() as cur:
                 cur.execute(query)
                 for r in cur.fetchall():
-                    name, tier, segment, parent_id = r
+                    name, tier, segment, parent_id, acct_id = r
                     rows.append((
                         (name or "").strip(),
                         (tier or "").strip(),
                         (segment or "").strip(),
                         (parent_id or "").strip() or None,
+                        (acct_id or "").strip() or None,
                     ))
     except SqlAccountsError:
         raise
@@ -153,24 +165,35 @@ def load_accounts_from_sql() -> dict[str, list[dict]]:
         ) from e
 
     # Deduplicate Corporate_ID__c the same way the CSV loader does:
-    # within one Corporate_ID__c, the most-frequent segment wins.
-    corp_data: dict[str, dict] = defaultdict(lambda: {"segments": defaultdict(int), "parent_id": None})
-    for name, _tier, segment, parent_id in rows:
+    # within one Corporate_ID__c, the most-frequent segment wins. Track the
+    # first (smallest) account Id per corp for the no-ParentId fallback below.
+    corp_data: dict[str, dict] = defaultdict(
+        lambda: {"segments": defaultdict(int), "parent_id": None, "account_id": None}
+    )
+    for name, _tier, segment, parent_id, acct_id in rows:
         if not name or name in ("0", "NULL"):
             continue
         corp_data[name]["segments"][segment.upper()] += 1
         if corp_data[name]["parent_id"] is None and parent_id and parent_id != "NULL":
             corp_data[name]["parent_id"] = parent_id
+        if corp_data[name]["account_id"] is None and acct_id and acct_id != "NULL":
+            corp_data[name]["account_id"] = acct_id
 
     result: dict[str, list[dict]] = {}
     skipped_segments: set[str] = set()
+    fallbacks: list[tuple[str, str]] = []
     for name, info in corp_data.items():
         primary_seg = max(info["segments"], key=lambda s: (info["segments"][s], s))
         vertical = _resolve_vertical(name, primary_seg)
         if vertical is None:
             skipped_segments.add(primary_seg)
             continue
-        result.setdefault(vertical, []).append({"name": name, "parent_id": info["parent_id"]})
+        # No ParentId on any row → fall back to the account's own Id so it isn't
+        # diverted to the review CSV at export time.
+        parent_id = info["parent_id"] or info["account_id"]
+        if info["parent_id"] is None and info["account_id"]:
+            fallbacks.append((name, info["account_id"]))
+        result.setdefault(vertical, []).append({"name": name, "parent_id": parent_id})
 
     if skipped_segments:
         print(
@@ -178,6 +201,14 @@ def load_accounts_from_sql() -> dict[str, list[dict]]:
             f"Market_Segment__c values: {sorted(skipped_segments)}. "
             f"Add them to SEGMENT_RAW_MAP in accounts.py to include them."
         )
+
+    if fallbacks:
+        print(
+            f"INFO: load_accounts_from_sql used the first account Id as Parent_ID "
+            f"fallback for {len(fallbacks)} Corporate_ID__c with no ParentId:"
+        )
+        for nm, aid in sorted(fallbacks):
+            print(f"    {nm} -> {aid}")
 
     if not result:
         raise SqlAccountsError(
