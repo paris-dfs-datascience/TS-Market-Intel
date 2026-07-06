@@ -800,15 +800,25 @@ async def run_account_async(client, account: str, category: str, signals: list,
                     err_lower = err.lower()
                     if "RESOURCE_EXHAUSTED" in err and (
                         "prepayment" in err_lower
-                        or "plan and billing" in err_lower
-                        or "billing details" in err_lower
-                        or "exceeded your current quota" in err_lower
+                        or "prepaid" in err_lower
                     ):
-                        logger.critical(f"  {C['red']}✘ Gemini quota exhausted (billing/plan limit) — full Gemini response: {err}. Check usage and top up at aistudio.google.com, then re-run.{C['reset']}")
-                        raise RuntimeError("Gemini quota exhausted — check plan and billing at aistudio.google.com and re-run.")
-                    elif "429" in err or "RATE" in err.upper():
+                        # Unambiguous hard-billing signal — prepaid credits are gone.
+                        # Retrying is pointless; abort loudly so completed accounts stay
+                        # checkpointed and no account is saved with empty signals.
+                        logger.critical(f"  {C['red']}✘ Gemini prepaid credits depleted — full Gemini response: {err}. Top up at aistudio.google.com, then re-run.{C['reset']}")
+                        raise RuntimeError("Gemini prepaid credits depleted — top up at aistudio.google.com and re-run.")
+                    elif "429" in err or "RATE" in err.upper() or "RESOURCE_EXHAUSTED" in err:
+                        # Generic quota / rate-limit 429. Gemini uses the same
+                        # "exceeded your current quota / plan and billing" text for
+                        # recoverable per-minute (RPM) and per-day (RPD) limits, so we
+                        # back off and retry rather than failing fast. `is_quota` flags
+                        # the RESOURCE_EXHAUSTED flavor so that, if backoff can't clear
+                        # it, we abort the whole run instead of skipping the signal —
+                        # skipping would checkpoint the account with empty signals and a
+                        # later re-run would drop its data permanently.
+                        is_quota = "RESOURCE_EXHAUSTED" in err or "exceeded your current quota" in err_lower
                         rate_limit_attempt += 1
-                        logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}] — full Gemini response: {err}{C['reset']}")
+                        logger.warning(f"  {C['yellow']}⚠ {'Quota' if is_quota else 'Rate'} limit [{signal}] — full Gemini response: {err}{C['reset']}")
                         if rate_limit_attempt <= MAX_RATE_LIMIT_RETRIES:
                             retry_after = _parse_retry_after(err)
                             if retry_after is not None:
@@ -818,10 +828,16 @@ async def run_account_async(client, account: str, category: str, signals: list,
                                 base = min(5 * (2 ** rate_limit_attempt), RATE_LIMIT_SLEEP_CAP)
                                 wait = base * random.uniform(0.75, 1.25)
                                 wait_source = "exponential"
-                            logger.warning(f"  {C['yellow']}⚠ Rate limit [{signal}], waiting {wait:.1f}s ({wait_source}, attempt {rate_limit_attempt}/{MAX_RATE_LIMIT_RETRIES})...{C['reset']}")
+                            logger.warning(f"  {C['yellow']}⚠ {'Quota' if is_quota else 'Rate'} limit [{signal}], waiting {wait:.1f}s ({wait_source}, attempt {rate_limit_attempt}/{MAX_RATE_LIMIT_RETRIES})...{C['reset']}")
                             if _usage: await _usage.record("retry", signal=signal, elapsed=elapsed)
                             await asyncio.sleep(wait)
                             continue
+                        if is_quota:
+                            # Backoff exhausted and still quota-limited — sustained
+                            # exhaustion (RPD cap hit, or credits actually out). Abort
+                            # the run to protect checkpoint integrity.
+                            logger.critical(f"  {C['red']}✘ Gemini quota still exhausted after {MAX_RATE_LIMIT_RETRIES} backoff retries — full Gemini response: {err}. Check plan/billing/limits at ai.dev/rate-limit and aistudio.google.com, then re-run.{C['reset']}")
+                            raise RuntimeError("Gemini quota exhausted after retries — check plan/billing/limits at ai.dev/rate-limit and re-run.")
                         logger.warning(f"  {C['yellow']}⚠ [{signal}] max rate-limit retries reached — skipping.{C['reset']}")
                         if _usage: await _usage.record("error", signal=signal, elapsed=elapsed)
                         return signal, []
