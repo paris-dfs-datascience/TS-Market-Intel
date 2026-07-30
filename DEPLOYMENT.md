@@ -48,7 +48,7 @@ commands won't exist on your machine:
 | Operator | Environment | Path to use |
 |---|---|---|
 | `matt.paris@thomassci.com` | Mac with Azure CLI + Docker Desktop | the sections below (note `--platform linux/amd64`) |
-| `neha.mazumdar@thomassci.com` | **GitHub Codespace only** — no local Azure CLI, no Docker Desktop | "Creating them — from a GitHub Codespace" under [Scheduled monthly runs](#scheduled-monthly-runs); `az login --use-device-code`, and Codespaces is amd64 so no `--platform` flag |
+| `neha.mazumdar@thomassci.com` | **GitHub Codespace only** — no local Azure CLI, no Docker Desktop | "Creating them — from a GitHub Codespace" under [Scheduled monthly runs](#scheduled-monthly-runs). Install `az` first (not in the Codespaces image), then `az login --use-device-code`; Codespaces is amd64 so no `--platform` flag |
 
 Both paths use `az acr login` + `docker build` + `docker push`; neither can use
 `az acr build` (see below). Everything after the image push — `job update`, `job start`,
@@ -242,10 +242,26 @@ fallback below — it needs only the job-*update* permission that's already prov
 
 ### Creating them — from a GitHub Codespace
 
-> Run everything in this section from a **GitHub Codespace** on this repo. Codespaces has
-> `az`, `docker` (running) and `jq` preinstalled; no local Azure CLI or Docker Desktop is
-> needed, and none is assumed. The Mac/Docker-Desktop path in the sections above is the
-> other operator's setup.
+> Run everything in this section from a **GitHub Codespace** on this repo — not from the
+> local Windows terminal, which has no `az` and no Docker. Codespaces ships `docker`
+> (running) and `jq`, but **not the Azure CLI** — install it per step 0. The
+> Mac/Docker-Desktop path in the sections above is the other operator's setup.
+
+**0. Install the Azure CLI (once per Codespace).** It is not in the default Codespaces
+image, so `az` will be "command not found" on a fresh one. Codespaces are ephemeral —
+rebuild or create a new one and this has to be repeated:
+
+```bash
+az version 2>/dev/null || curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+az version          # confirm before continuing
+jq --version        # should already be present
+docker info >/dev/null && echo "docker OK"
+```
+
+To avoid repeating it, add a `.devcontainer/devcontainer.json` with the
+`ghcr.io/devcontainers/features/azure-cli` feature — but note that introducing a
+devcontainer to a repo that currently has none changes how every future Codespace is
+built, so verify Python 3.11 and docker still work before relying on it.
 
 **1. Log in.** A Codespace has no local browser, so device code is required:
 

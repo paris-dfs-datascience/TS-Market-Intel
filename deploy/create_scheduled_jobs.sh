@@ -44,10 +44,11 @@ if [ "${1:-}" = "--check" ]; then CHECK_ONLY=1; fi
 
 for tool in az jq; do
   if ! command -v "$tool" >/dev/null; then
-    echo "ERROR: '$tool' not found on PATH. Both ship with GitHub Codespaces; if this is a"
-    echo "slimmer image, install with:"
+    echo "ERROR: '$tool' not found on PATH."
+    echo "The Azure CLI is NOT preinstalled in GitHub Codespaces (jq is). Install with:"
     echo "  az:  curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash"
     echo "  jq:  sudo apt-get update && sudo apt-get install -y jq"
+    echo "Codespaces are ephemeral — a rebuild loses az and you'll need this again."
     exit 1
   fi
 done

@@ -63,8 +63,11 @@ Full runbook in `DEPLOYMENT.md`. **Operator environment matters** — do not ass
 toolchain:
 
 - `neha.mazumdar@thomassci.com` works **exclusively in a GitHub Codespace** on this repo.
-  No local Azure CLI, no Docker Desktop. Codespaces has `az`, `docker` (running) and `jq`
-  preinstalled. Login must be `az login --use-device-code` (no local browser), and the
+  No local Azure CLI, no Docker Desktop — never propose a command for the local Windows
+  terminal. Codespaces ships `docker` (running) and `jq`, but **not the Azure CLI**: it
+  must be installed per Codespace with
+  `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`, and Codespaces are ephemeral so
+  a rebuild loses it. Login is `az login --use-device-code` (no local browser), and the
   Codespace is amd64 so `--platform linux/amd64` is unnecessary.
 - `matt.paris@thomassci.com` works from a Mac with Azure CLI + Docker Desktop, where
   `--platform linux/amd64` **is** required.
