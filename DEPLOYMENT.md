@@ -277,18 +277,146 @@ pre-`--categories` image and both scheduled jobs fail on the 1st with
 
 Build and push from the Codespace (`az acr build` fails for this account — it lacks the
 registry `listBuildSourceUploadUrl` action; `docker build` + `docker push` is the working
-path, and the Codespace is already amd64 so no `--platform` flag is needed):
+path, and the Codespace is already amd64 so no `--platform` flag is needed).
+
+`az acr login` does **not** work from this Codespace even though push rights are fine — see
+the troubleshooting block below. Authenticate docker with an Azure AD token directly
+instead; the all-zeros GUID is the well-known "this is a token, not a username" value, and
+the token is good for ~3 hours:
 
 ```bash
 git pull                                          # make sure the Codespace has the new code
-az acr login -n thomasscientificintel
+
+TENANT=$(az account show --query tenantId -o tsv)
+AAD=$(az account get-access-token --query accessToken -o tsv)
+REFRESH=$(curl -s -X POST "https://thomasscientificintel.azurecr.io/oauth2/exchange" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=access_token&service=thomasscientificintel.azurecr.io&tenant=$TENANT&access_token=$AAD" \
+  | jq -r .refresh_token)
+docker login thomasscientificintel.azurecr.io -u 00000000-0000-0000-0000-000000000000 -p "$REFRESH"
+
 TAG=$(date -u +%Y%m%d%H%M%S)
 docker build -t "thomasscientificintel.azurecr.io/ts-market-intel:$TAG" -f Dockerfile .
 docker push "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
-az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg \
-  --image "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
+az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg --image "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
 echo "NEW TAG: $TAG"
 ```
+
+> **`argument --image: expected one argument`** means `--image` got no value: either `$TAG`
+> is empty because you're in a different shell than the one that set it, or a `\`
+> line-continuation didn't survive the paste (see RUN_AZURE_VSCODE.md gotcha #4 — this bites
+> repeatedly). The `az` lines above are deliberately kept on one line each for that reason.
+> Recover the tag from the registry and pass it literally:
+>
+> ```bash
+> echo "TAG=[$TAG]"        # empty? the variable is gone
+> az acr repository show-tags -n thomasscientificintel --repository ts-market-intel --orderby time_desc --top 5 -o tsv
+> az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg --image thomasscientificintel.azurecr.io/ts-market-intel:<TAG>
+> ```
+
+#### If `az acr login` says "Failed to retrieve credentials"
+
+```
+No credential was provided to access Azure Container Registry. Trying to look up credentials...
+Failed to retrieve credentials for container registry thomasscientificintel.
+Please provide the registry username and password
+```
+
+That message is a **red herring**. `az acr login` does three things in order — resolve the
+registry over ARM, exchange your Azure AD token at the registry's `/oauth2/exchange`
+endpoint, then hand the result to `docker login`. When the *exchange* fails it silently
+falls back to admin username/password, and only the fallback's failure is printed.
+
+The registry does have `adminUserEnabled: true`, but *reading* the admin password needs
+`Microsoft.ContainerRegistry/registries/listCredentials/action` (ACR Contributor / Owner),
+which this account doesn't hold — so seeing this message at all means the fallback already
+failed too. The real failure is the step before it. Diagnose in this order:
+
+```bash
+# 1. Logged in, and pointed at the right subscription? A fresh `az login` in a new
+#    Codespace defaults to whatever subscription comes first — often the wrong one.
+az account show --query "{sub:name, subId:id, tenant:tenantId, user:user.name}" -o json
+az account set --subscription d0fb2aac-3e96-49cc-8b7f-a84c8caf4973
+
+# 2. Can you read the registry over ARM at all? This is the usual culprit.
+az acr show -n thomasscientificintel \
+  --query "{name:name, loginServer:loginServer, adminEnabled:adminUserEnabled}" -o json
+
+# 3. Is docker up? az acr login shells out to `docker login`.
+docker info >/dev/null && echo "docker OK"
+```
+
+**If step 2 fails with `AuthorizationFailed`**, that's the root cause: `AcrPush` grants only
+the data-plane actions (`registries/pull/read`, `registries/push/write`) — it does **not**
+include `Microsoft.ContainerRegistry/registries/read`. Ask for **`Reader` on the registry**
+alongside AcrPush (management-plane read only, adds no push rights).
+
+**If step 2 succeeds** (confirmed for `neha.mazumdar@thomassci.com` on 2026-07-30, along
+with the right subscription and a healthy docker), the ARM side is fine and the token
+exchange is what's failing. Test it directly — this is the one command that returns a real
+HTTP status instead of a swallowed one:
+
+```bash
+TENANT=$(az account show --query tenantId -o tsv)
+AAD=$(az account get-access-token --query accessToken -o tsv)
+curl -s -i -X POST "https://thomasscientificintel.azurecr.io/oauth2/exchange" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=access_token&service=thomasscientificintel.azurecr.io&tenant=$TENANT&access_token=$AAD" \
+  | head -20
+```
+
+Read the response body, not just the status: on success the token's own payload lists your
+effective rights, which is more direct than a role listing. Decode the middle JWT segment
+and look at `permissions.actions` — `write` is what a push needs:
+
+```bash
+echo '<refresh_token>' | cut -d. -f2 | base64 -d 2>/dev/null | jq '{sub, aud, permissions}'
+```
+
+| Exchange result | Meaning | Fix |
+|---|---|---|
+| `200`, `permissions.actions` includes `write` | Token auth and push rights are fine; the `docker login` handoff inside `az acr login` is what broke | Authenticate docker with the token yourself (below) |
+| `200` but no `write` action | Read-only at the registry (AcrPull, not AcrPush) | Role request — AcrPush at the registry scope |
+| `401` | Assignment missing, scoped elsewhere, or **PIM-eligible and not activated** | Activate in PIM if eligible, else request AcrPush |
+
+> **Observed 2026-07-30** for `neha.mazumdar@thomassci.com`: exchange returned `200` with
+> `actions: [read, write, metadata/read, deleted/read]` while `az acr login` still failed —
+> i.e. permissions were never the problem. The manual `docker login` below is the working
+> path. If you want `az acr login` itself fixed, check `~/.docker/config.json` for a
+> `"credsStore"` entry naming a helper that doesn't exist in the Codespace (e.g. `desktop`,
+> left over from a Docker Desktop config); `az` shells out to `docker login`, that fails,
+> and `az` misreports it as a registry-credential problem. Removing the `credsStore` line
+> makes docker store credentials in the file instead.
+
+To list role assignments instead, note `--scope` and `--all` are mutually exclusive
+(`--all` errors with "group or scope are not required"):
+
+```bash
+ACR_ID=$(az acr show -n thomasscientificintel --query id -o tsv)
+az role assignment list --scope "$ACR_ID" --include-inherited \
+  --assignee neha.mazumdar@thomassci.com \
+  --query "[].{role:roleDefinitionName, scope:scope}" -o table
+```
+
+To use a working token directly, bypassing `az acr login` (the all-zeros GUID is the
+well-known "this is a token, not a username" value):
+
+```bash
+REFRESH=$(curl -s -X POST "https://thomasscientificintel.azurecr.io/oauth2/exchange" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=access_token&service=thomasscientificintel.azurecr.io&tenant=$TENANT&access_token=$AAD" \
+  | jq -r .refresh_token)
+docker login thomasscientificintel.azurecr.io \
+  -u 00000000-0000-0000-0000-000000000000 -p "$REFRESH"
+```
+
+Then run the `docker build` / `docker push` from step 2 unchanged.
+
+**Last resort, since `adminUserEnabled` is true:** someone holding ACR Contributor or Owner
+can run `az acr credential show -n thomasscientificintel` and pass you the admin password
+out of band, after which `docker login thomasscientificintel.azurecr.io -u thomasscientificintel -p <password>`
+works. That is a shared static registry credential — prefer fixing the role assignment, and
+don't paste it into the repo, a chat, or the job's env.
 
 **3. Create the scheduled jobs.**
 
