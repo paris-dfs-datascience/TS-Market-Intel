@@ -73,12 +73,19 @@ ACTIONS=$(az rest --method GET \
 
 can_create=0
 can_join=0
+# Azure returns role actions with inconsistent casing — the same response mixes
+# "microsoft.app/jobs/read" and "Microsoft.App/jobs/*/read", and spells the environment
+# provider "managedenvironments" in some roles and "managedEnvironments" in others. Compare
+# case-insensitively (via tr, not ${x,,} — that needs bash 4 and macOS ships 3.2) or the
+# check reports a false negative. Patterns stay quoted so they match literally: an
+# unquoted "*" would glob against every action and pass unconditionally.
 while IFS= read -r action; do
-  case "$action" in
-    "*"|"Microsoft.App/*"|"Microsoft.App/jobs/*"|"Microsoft.App/jobs/write") can_create=1 ;;
+  a=$(printf '%s' "$action" | tr '[:upper:]' '[:lower:]')
+  case "$a" in
+    "*"|"microsoft.app/*"|"microsoft.app/jobs/*"|"microsoft.app/jobs/write") can_create=1 ;;
   esac
-  case "$action" in
-    "*"|"Microsoft.App/*"|"Microsoft.App/managedEnvironments/*"|"Microsoft.App/managedEnvironments/join/action") can_join=1 ;;
+  case "$a" in
+    "*"|"microsoft.app/*"|"microsoft.app/managedenvironments/*"|"microsoft.app/managedenvironments/join/action") can_join=1 ;;
   esac
 done <<< "$ACTIONS"
 
