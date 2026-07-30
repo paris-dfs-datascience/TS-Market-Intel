@@ -203,12 +203,22 @@ for spec in "${JOB_SPECS[@]}"; do
     continue
   fi
 
+  # --registry-server WITHOUT an identity makes the CLI hunt for the registry's ADMIN
+  # credentials (listCredentials/action). This account doesn't hold that action, and the
+  # failure surfaces as the misleading "No credential was provided to access Azure
+  # Container Registry / Failed to retrieve credentials" — nothing to do with the image.
+  # So always pair the server with an identity, falling back to the job's user-assigned MI,
+  # which is what actually pulls the image (it holds AcrPull — gotcha #7 in DEPLOYMENT.md).
   # Empty-array expansion under `set -u` is an error in bash 3.2 (macOS default), hence
-  # the ${arr[@]+...} guard.
+  # the ${arr[@]+...} guard at the call site.
   REG_FLAGS=()
   if [ -n "$REG_SERVER" ]; then
-    REG_FLAGS+=(--registry-server "$REG_SERVER")
-    if [ -n "$REG_IDENTITY" ]; then REG_FLAGS+=(--registry-identity "$REG_IDENTITY"); fi
+    REG_ID_ARG="$REG_IDENTITY"
+    if [ -z "$REG_ID_ARG" ]; then
+      REG_ID_ARG="$MI_ID"
+      echo "  (source job records no registry pull identity — using its user-assigned MI)"
+    fi
+    REG_FLAGS+=(--registry-server "$REG_SERVER" --registry-identity "$REG_ID_ARG")
   fi
 
   echo "  creating $NAME  —  cron '$CRON'  —  --categories=$CATS"
