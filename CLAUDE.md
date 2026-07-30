@@ -208,7 +208,7 @@ Output files use `results_YYYY-MM-DD.json` naming (not `results.json`). Same-day
 
 ### CLI Flags Added
 - `--categories "slug1,slug2,..."` — run an explicit subset of verticals (slugs or canonical names, case-insensitive, order-preserving, deduped). Mutually exclusive with `--category`; hard-fails on an unrecognized token so a typo in a scheduled job's args can't silently shrink a run. Finalizes (URL repair + SF CSV export) exactly like `--category all`. Also filters the `--from-sql` / `--from-csv` vertical loops.
-- `--monthly-schedule` — pick the vertical set from the UTC day-of-month via `MONTHLY_SCHEDULE` in `main.py` (1st / 15th); exits 0 with an explanatory log line on any other day. Only for driving both monthly runs off a single cron; the deployed setup uses two jobs with explicit `--categories` args instead.
+- `--monthly-schedule` — pick the vertical set from the UTC day-of-month via `MONTHLY_SCHEDULE` in `main.py` (1st / 15th); exits 0 with an explanatory log line on any other day. This is what the deployed Azure job runs — see "Scheduled Monthly Runs" below.
 - `--companies "CO1,CO2,..."` — run a subset of companies by exact name (case-insensitive); groups by category and calls `run_category` once per category with `accounts_override`
 - `--total-limit N` — cap total accounts across all categories when using `--category all`
 - `--export-csv` — skip the engine; just regenerate the SF-import CSV from every `<COMPANY>/results_<TODAY>.json` already present in the sink. Writes `_export/market_intel_export_<DATE>.csv` (UTC date) back to the sink. Pairs cleanly with `--category all`, which now auto-runs the export at the end of every full run.
@@ -237,22 +237,31 @@ az containerapp job start --name <JOB> --resource-group <RG>
 
 ### Scheduled Monthly Runs (2026-07-30)
 
-Two Schedule-triggered Container Apps Jobs alongside the Manual `thomas-intel-job`, both
-cloned from it (same image / identity / env, so identical output destination):
+Runs on the **1st and 15th at 06:00 UTC**: day 1 → all verticals except Clinical / Mol Dx
+and Government (399 accounts); day 15 → Education & Research, Clinical / Mol Dx, Government
+(143). Education & Research is deliberately run twice a month.
 
-| Job | Cron (UTC) | Verticals | Accounts |
-|---|---|---|---|
-| `thomas-intel-job-m1` | `0 6 1 * *` | all except Clinical / Mol Dx + Government | 399 |
-| `thomas-intel-job-m15` | `0 6 15 * *` | Education & Research, Clinical / Mol Dx, Government | 143 |
+There is **one** job. `thomas-intel-job` is Schedule-triggered on cron `0 6 1,15 * *` with
+`args: ["--monthly-schedule"]`. A Container Apps job holds only one cron **and** one fixed
+arg list, so the vertical set can't come from the args — `--monthly-schedule` reads
+`MONTHLY_SCHEDULE` in `main.py` and derives it from the UTC day-of-month instead.
 
-Two jobs, not one with `1,15`, because a job holds only one cron **and** one fixed arg
-list. Scope is carried in each job's `--categories` arg. Created/re-synced by
-`deploy/create_scheduled_jobs.sh`, which derives image, `replicaTimeout`, registry,
-identity and the full env block from the live job rather than hand-typing them — a
-new job's `replicaTimeout` defaults to 1800s, which would kill the multi-hour run.
-Education & Research is deliberately run twice a month. Full runbook in DEPLOYMENT.md
-("Scheduled monthly runs"); `tests/test_scheduled_categories.py` fails if the two arg
-strings stop covering every vertical or drift from `MONTHLY_SCHEDULE`.
+Consequences to keep in mind when working on this:
+
+- **Changing the scope of a run is a code change**, not an `az` command — edit
+  `MONTHLY_SCHEDULE`, then rebuild and redeploy the image. Changing the *time or dates* is
+  just the cron. Keep the cron's days consistent with the dict's keys, or a run fires and
+  exits 0 doing nothing.
+- **`thomas-intel-job` is no longer free-form for ad-hoc runs.** A manual start on any day
+  other than the 1st or 15th no-ops. Ad-hoc means swapping `--args`, starting, then swapping
+  back — forgetting the restore breaks the next scheduled run.
+- New code reaches the scheduled runs through the ordinary `job update --image`; there is no
+  separate job to re-point.
+
+`tests/test_scheduled_categories.py` pins that every vertical in `ACCOUNTS` is covered by one
+of the two dates, so adding a vertical without updating `MONTHLY_SCHEDULE` fails the suite
+rather than silently skipping it. Full runbook in DEPLOYMENT.md → "Scheduled monthly runs",
+including how to prove the cron actually fires without waiting for the 1st.
 
 ### Azure RBAC (Critical)
 Managed identity needs **`Storage Blob Data Contributor`** on the storage account — NOT just `Contributor`. `Contributor` is management-plane only and does not grant blob data-plane read/write under OAuth/token auth. Assigning `Contributor` alone causes `AuthorizationPermissionMismatch` on every blob write.
