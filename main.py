@@ -8,6 +8,7 @@ Each account's results land at `<SAFE_COMPANY>/results.json` under the sink's ro
 Usage:
   python main.py --category biopharma
   python main.py --category all
+  python main.py --categories "biopharma,cdmo_cro,education,hospital,industrial"
   python main.py --super80
   python main.py --company "YALE UNIVERSITY"
   python main.py --category biopharma --signal pipeline --limit 5
@@ -45,6 +46,125 @@ def _resolve_category(value: str) -> str:
     return CATEGORY_SLUGS.get(value, value)
 
 
+# The two monthly scheduled runs, keyed by UTC day-of-month. Single source of truth for
+# the scope of each run: the `--categories=` arg stored in each Azure scheduled job's
+# template must match these strings, and --monthly-schedule reads them directly.
+# Education & Research appears in both on purpose — it is re-run mid-month.
+# Changing a set here means updating the Azure job args too (see DEPLOYMENT.md).
+MONTHLY_SCHEDULE = {
+    1:  "biopharma,cdmo_cro,education,hospital,industrial",
+    15: "education,clinical_dx,government",
+}
+
+
+# Case-insensitive token → canonical category, accepting slugs and canonical names alike.
+# --categories bypasses argparse `choices` (it arrives as one comma-joined string), so it
+# resolves tokens through here instead.
+_CATEGORY_LOOKUP = {c.lower(): c for c in CATEGORIES}
+_CATEGORY_LOOKUP.update(CATEGORY_SLUGS)
+
+
+def _resolve_category_list(value: str) -> list[str]:
+    """Parse a comma-separated --categories value into canonical category names.
+
+    Order-preserving and deduped. Hard-fails on an unrecognized token rather than
+    skipping it — a typo in a scheduled job's args would otherwise silently shrink the
+    month's run and still exit 0, which reads as a clean run that quietly missed a vertical.
+    """
+    names: list[str] = []
+    unknown: list[str] = []
+    for raw in value.split(","):
+        token = raw.strip()
+        if not token:
+            continue
+        cat = _CATEGORY_LOOKUP.get(token.lower())
+        if cat is None:
+            unknown.append(token)
+        elif cat not in names:
+            names.append(cat)
+    if unknown:
+        logger.error(
+            f"Unrecognized --categories value(s): {', '.join(unknown)}. "
+            f"Valid slugs: {', '.join(CATEGORY_SLUGS)}."
+        )
+        sys.exit(1)
+    if not names:
+        logger.error("--categories was empty — pass at least one category slug or name.")
+        sys.exit(1)
+    return names
+
+
+def _select_verticals(available: list[str], selected: list[str] | None,
+                      source_label: str) -> list[str]:
+    """Intersect the verticals a source produced with an explicit --categories list.
+
+    Returns `available` unchanged when no --categories filter is in play. Ordered by the
+    --categories list so the run order matches what was asked for.
+    """
+    if not selected:
+        return available
+    ordered = [v for v in selected if v in available]
+    missing = [v for v in selected if v not in available]
+    if missing:
+        logger.warning(
+            f"--categories asked for {', '.join(missing)}, but {source_label} returned "
+            f"no accounts for those verticals — skipping them."
+        )
+    if not ordered:
+        logger.error(f"None of the --categories verticals are present in {source_label}.")
+        sys.exit(1)
+    return ordered
+
+
+def _run_verticals(verticals: list[str], sink, args, run_date: str,
+                   accounts_by_vertical: dict | None = None) -> None:
+    """Run each vertical in turn under one shared --total-limit budget.
+
+    accounts_by_vertical: optional {vertical: [accounts]} from --from-sql / --from-csv.
+    When omitted, run_category falls back to the baked-in ACCOUNTS list per vertical.
+    """
+    remaining = args.total_limit
+    for vertical in verticals:
+        if remaining is not None and remaining <= 0:
+            break
+        cat_limit = remaining if remaining is not None else args.limit
+        override = accounts_by_vertical.get(vertical) if accounts_by_vertical else None
+        ran = run_category(vertical, sink, signal_override=args.signal,
+                           api_key=args.api_key, limit=cat_limit,
+                           accounts_override=override, run_date=run_date)
+        if remaining is not None:
+            remaining -= ran
+
+
+def _run_and_finalize(verticals: list[str], sink, args, run_date: str,
+                      accounts_by_vertical: dict | None = None) -> None:
+    """Run the verticals, then export — even when the run aborts partway through.
+
+    The engine aborts the whole run on sustained Gemini quota exhaustion rather than
+    skipping the signal, because skipping would checkpoint the account with empty signals
+    and a later re-run would drop its data for good. Everything finished before the abort
+    is already checkpointed, so the SF CSV should still be produced for it — otherwise an
+    unattended monthly run that dies in its last vertical leaves no deliverable at all.
+
+    Both abort flavors are caught: `RuntimeError` (engine re-raises the "quota exhausted
+    after retries" one, which would otherwise surface as a raw traceback in the Azure
+    logs) and `SystemExit` (engine's own sys.exit on "credits depleted"). The non-zero
+    exit is preserved either way, so the Container Apps job still reports Failed.
+    """
+    aborted: BaseException | None = None
+    try:
+        _run_verticals(verticals, sink, args, run_date, accounts_by_vertical)
+    except (RuntimeError, SystemExit) as e:
+        aborted = e
+        logger.critical(
+            f"Run aborted before completing all verticals: {e} — exporting what "
+            f"completed, then exiting non-zero."
+        )
+    _finalize_run(sink, run_date, api_key=args.api_key, fix_urls=aborted is None)
+    if aborted is not None:
+        sys.exit(1)
+
+
 def _print_account_listing(source_label: str, accounts_by_vertical: dict) -> None:
     """--dry-run helper: print the accounts that would be processed, no signals fired.
 
@@ -64,15 +184,20 @@ def _print_account_listing(source_label: str, accounts_by_vertical: dict) -> Non
     print(f"\n[DRY RUN] Total: {total} accounts. Stopping before signal generation.")
 
 
-def _finalize_run(sink, run_date: str, api_key: str | None = None) -> None:
+def _finalize_run(sink, run_date: str, api_key: str | None = None,
+                  fix_urls: bool = True) -> None:
     """End-of-run finalization for a full run: validate/repair source URLs, then
     auto-export the SF CSV. Both steps are best-effort — a failure is logged but
     never blocks the rest (the run itself already succeeded and is checkpointed).
 
     URL validation re-asks Gemini for any dead URL, so it adds time + a few API
     calls at the tail. Disable it without a code change by setting AUTO_FIX_URLS=0.
+
+    fix_urls: pass False to skip URL repair and go straight to the export. Used on the
+              quota-abort path — repair re-asks Gemini, and the quota is exactly what
+              just died, so every dead URL would burn the full retry ladder for nothing.
     """
-    if os.environ.get("AUTO_FIX_URLS", "1").strip().lower() not in ("0", "false", "no", "off"):
+    if fix_urls and os.environ.get("AUTO_FIX_URLS", "1").strip().lower() not in ("0", "false", "no", "off"):
         from tools.backfill_results import run_url_backfill
         logger.info("Run complete — validating/repairing source URLs before export.")
         try:
@@ -89,8 +214,20 @@ def _finalize_run(sink, run_date: str, api_key: str | None = None) -> None:
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Thomas Scientific Market Intelligence")
-    p.add_argument("--category", choices=CATEGORY_CHOICES, default="all",
+    p.add_argument("--category", choices=CATEGORY_CHOICES, default=None,
                    help="Industry vertical to run (slug or canonical name; default: all)")
+    p.add_argument("--categories", default=None,
+                   help="Comma-separated list of verticals to run, e.g. "
+                        "'biopharma,cdmo_cro,education'. Slugs or canonical names, "
+                        "case-insensitive. Runs them in the order given, then finalizes "
+                        "(URL repair + SF CSV export) exactly like --category all. "
+                        "Mutually exclusive with --category. Used by the scheduled Azure jobs.")
+    p.add_argument("--monthly-schedule", action="store_true",
+                   help="Pick the vertical set from the UTC day-of-month per MONTHLY_SCHEDULE "
+                        "(1st: everything except Clinical/Mol Dx + Government; 15th: Education, "
+                        "Clinical/Mol Dx, Government). Exits without running on any other day. "
+                        "For driving both monthly runs from a single cron ('0 6 1,15 * *') when "
+                        "two separate scheduled jobs aren't an option.")
     p.add_argument("--signal", default=None,
                    help="Run a single signal type only (e.g. grant, pipeline)")
     p.add_argument("--company", default=None,
@@ -145,6 +282,36 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+
+    if args.category and args.categories:
+        logger.error(
+            "Pass either --category (one vertical, or 'all') or --categories "
+            "(a comma-separated list), not both."
+        )
+        sys.exit(1)
+    category = args.category or "all"
+    # Resolved up front so a bad --categories value fails before any Gemini call or
+    # SQL connection — a scheduled run should die in the first second, not an hour in.
+    selected = _resolve_category_list(args.categories) if args.categories else None
+
+    if args.monthly_schedule:
+        if args.category or args.categories:
+            logger.error(
+                "--monthly-schedule chooses the verticals itself — don't combine it with "
+                "--category or --categories."
+            )
+            sys.exit(1)
+        day = datetime.now(timezone.utc).day
+        if day not in MONTHLY_SCHEDULE:
+            scheduled_days = ", ".join(str(d) for d in MONTHLY_SCHEDULE)
+            logger.info(
+                f"--monthly-schedule: today is day {day} UTC and no run is scheduled for it "
+                f"(scheduled days: {scheduled_days}). Exiting 0 without running anything."
+            )
+            return
+        selected = _resolve_category_list(MONTHLY_SCHEDULE[day])
+        logger.info(f"--monthly-schedule: day {day} UTC → {', '.join(selected)}")
+
     sink = get_sink()
 
     # One UTC date for the whole process. Threaded into every run_category (result
@@ -191,21 +358,14 @@ def main() -> None:
             f"Loaded {sum(len(v) for v in sql_accounts.values())} accounts from "
             f"SalesForce.Account_base across {len(sql_accounts)} verticals."
         )
+        verticals = _select_verticals(list(sql_accounts), selected, "Azure SQL")
         if args.dry_run:
-            _print_account_listing("Azure SQL (SalesForce.Account_base)", sql_accounts)
+            _print_account_listing("Azure SQL (SalesForce.Account_base)",
+                                   {v: sql_accounts[v] for v in verticals})
             return
-        remaining = args.total_limit
-        for vertical, acct_list in sql_accounts.items():
-            if remaining is not None and remaining <= 0:
-                break
-            cat_limit = remaining if remaining is not None else args.limit
-            ran = run_category(vertical, sink, signal_override=args.signal,
-                               api_key=args.api_key, limit=cat_limit,
-                               accounts_override=acct_list, run_date=run_date)
-            if remaining is not None:
-                remaining -= ran
-        # End-of-run: validate/repair URLs, then auto-export the SF CSV.
-        _finalize_run(sink, run_date, api_key=args.api_key)
+        # End-of-run: validate/repair URLs, then auto-export the SF CSV — still exports if
+        # the run aborts on quota partway through.
+        _run_and_finalize(verticals, sink, args, run_date, sql_accounts)
         return
 
     # --from-csv (or ACCOUNTS_CSV_PATH env var): load accounts from Salesforce CSV export.
@@ -216,19 +376,12 @@ def main() -> None:
         if not csv_accounts:
             logger.error(f"No Customer80/Super80 accounts found in '{csv_path}'. Check the CSV and SEGMENT_RAW_MAP.")
             sys.exit(1)
+        verticals = _select_verticals(list(csv_accounts), selected, f"CSV ({csv_path})")
         if args.dry_run:
-            _print_account_listing(f"CSV ({csv_path})", csv_accounts)
+            _print_account_listing(f"CSV ({csv_path})",
+                                   {v: csv_accounts[v] for v in verticals})
             return
-        remaining = args.total_limit
-        for vertical, acct_list in csv_accounts.items():
-            if remaining is not None and remaining <= 0:
-                break
-            cat_limit = remaining if remaining is not None else args.limit
-            ran = run_category(vertical, sink, signal_override=args.signal,
-                               api_key=args.api_key, limit=cat_limit,
-                               accounts_override=acct_list, run_date=run_date)
-            if remaining is not None:
-                remaining -= ran
+        _run_verticals(verticals, sink, args, run_date, csv_accounts)
         return
 
     # --dry-run for the hardcoded-ACCOUNTS modes. The --from-sql / --from-csv
@@ -254,10 +407,13 @@ def main() -> None:
                        for cat, accts in ACCOUNTS.items()}
             listing = {cat: accts for cat, accts in listing.items() if accts}
             _print_account_listing("hardcoded ACCOUNTS (--super80)", listing)
-        elif args.category == "all":
+        elif selected:
+            _print_account_listing("hardcoded ACCOUNTS (--categories)",
+                                   {c: ACCOUNTS.get(c, []) for c in selected})
+        elif category == "all":
             _print_account_listing("hardcoded ACCOUNTS (--category all)", dict(ACCOUNTS))
         else:
-            cat = _resolve_category(args.category)
+            cat = _resolve_category(category)
             _print_account_listing("hardcoded ACCOUNTS", {cat: ACCOUNTS.get(cat, [])})
         return
 
@@ -312,21 +468,21 @@ def main() -> None:
                          accounts_override=priority, run_date=run_date)
         return
 
-    if args.category == "all":
-        remaining = args.total_limit
-        for cat in CATEGORIES:
-            if remaining is not None and remaining <= 0:
-                break
-            cat_limit = remaining if remaining is not None else args.limit
-            ran = run_category(cat, sink, signal_override=args.signal,
-                               api_key=args.api_key, limit=cat_limit, run_date=run_date)
-            if remaining is not None:
-                remaining -= ran
-        # End-of-run: validate/repair URLs, then auto-export the SF CSV.
-        _finalize_run(sink, run_date, api_key=args.api_key)
+    # --categories: an explicit subset of verticals. Treated as a complete run — it
+    # finalizes (URL repair + CSV export) like --category all, because that is what the
+    # scheduled monthly jobs need to leave behind.
+    if selected:
+        logger.info(f"Running {len(selected)} vertical(s): {', '.join(selected)}")
+        _run_and_finalize(selected, sink, args, run_date)
         return
 
-    run_category(_resolve_category(args.category), sink,
+    if category == "all":
+        # End-of-run: validate/repair URLs, then auto-export the SF CSV — still exports if
+        # the run aborts on quota partway through.
+        _run_and_finalize(CATEGORIES, sink, args, run_date)
+        return
+
+    run_category(_resolve_category(category), sink,
                  signal_override=args.signal,
                  api_key=args.api_key, limit=args.limit, run_date=run_date)
 

@@ -40,6 +40,20 @@ Managed Identity. That's by design.
 
 ---
 
+## Two operator environments
+
+There are two people deploying this, from different setups. Use the right path or the
+commands won't exist on your machine:
+
+| Operator | Environment | Path to use |
+|---|---|---|
+| `matt.paris@thomassci.com` | Mac with Azure CLI + Docker Desktop | the sections below (note `--platform linux/amd64`) |
+| `neha.mazumdar@thomassci.com` | **GitHub Codespace only** — no local Azure CLI, no Docker Desktop | "Creating them — from a GitHub Codespace" under [Scheduled monthly runs](#scheduled-monthly-runs); `az login --use-device-code`, and Codespaces is amd64 so no `--platform` flag |
+
+Both paths use `az acr login` + `docker build` + `docker push`; neither can use
+`az acr build` (see below). Everything after the image push — `job update`, `job start`,
+logs — is identical in both.
+
 ## Permissions: which build path you can use
 
 The deploy account (`matt.paris@thomassci.com`) holds **AcrPush**, **Container Apps
@@ -107,6 +121,10 @@ az containerapp job update \
   --image "thomasscientificintel.azurecr.io/ts-market-intel:<TAG>"
 ```
 
+> The two scheduled jobs carry their **own** image field — this command does not touch
+> them. Re-run `bash deploy/create_scheduled_jobs.sh` after every image update or the
+> monthly runs keep executing the old code. See "Scheduled monthly runs" below.
+
 ### 5. Make sure the container runs the pipeline (command fix)
 
 The job's stored `command` may be stale (it was once
@@ -172,6 +190,227 @@ empty before starting.
 
 To pull accounts from Azure SQL instead of the baked-in list, add `--from-sql` the same
 way: `--args="--from-sql"` (or set env `ACCOUNTS_SOURCE=sql`, which is dash-free).
+
+---
+
+## Scheduled monthly runs
+
+Two **additional** Container Apps Jobs run the pipeline on a cron. `thomas-intel-job`
+itself is untouched — it stays Manual-triggered for ad-hoc runs.
+
+| Job | Cron (UTC) | Fires | Verticals | Accounts |
+|---|---|---|---|---|
+| `thomas-intel-job-m1` | `0 6 1 * *` | 1st, 06:00 UTC (02:00 EDT / 01:00 EST) | BioPharma, CDMO / CRO, Education & Research, Hospital & Health Systems, Industrial | 399 |
+| `thomas-intel-job-m15` | `0 6 15 * *` | 15th, 06:00 UTC | Education & Research, Clinical / Molecular Diagnostics, Government | 143 |
+
+A job can hold only one cron and one fixed arg list, which is why this is two jobs rather
+than one with `1,15`. The scope of each run lives in its `args`:
+
+```
+--categories=biopharma,cdmo_cro,education,hospital,industrial      # m1
+--categories=education,clinical_dx,government                      # m15
+```
+
+`--categories` runs the listed verticals in order and then finalizes exactly like
+`--category all` — URL repair, then the SF export CSV at
+`_export/market_intel_export_<DATE>.csv` for that run's UTC date. Between the two jobs
+every vertical is covered, and Education & Research is the only one run twice (by
+design). `tests/test_scheduled_categories.py` fails if either stops being true.
+
+**Nothing about the output changes.** Both jobs are cloned from `thomas-intel-job` and
+carry the same image, the same `thomas-intel-identity`, and the same env block — so they
+write to the same `adlsacctmarias` / `market-intel-output` container, the same
+`<COMPANY>/results_<DATE>.json` layout, and fetch the Gemini key from the same Key Vault.
+
+### Permissions
+
+Creating a job needs `Microsoft.App/jobs/write` on the resource group **and**
+`Microsoft.App/managedEnvironments/join/action` on the Container Apps environment.
+**AcrPush is irrelevant here** — that role only governs pushing images to the registry.
+
+`neha.mazumdar@thomassci.com` has already PATCHed this job's template successfully, which
+*is* `Microsoft.App/jobs/write` — so the create action is almost certainly available. The
+open question is only the environment-join action. Check it before planning around it:
+
+```bash
+bash deploy/create_scheduled_jobs.sh --check    # prints your Microsoft.App actions, creates nothing
+```
+
+A create attempt without the role fails instantly with `AuthorizationFailed` and leaves
+nothing behind, so trying is cheap. If it is genuinely blocked, use the single-job
+fallback below — it needs only the job-*update* permission that's already proven.
+
+### Creating them — from a GitHub Codespace
+
+> Run everything in this section from a **GitHub Codespace** on this repo. Codespaces has
+> `az`, `docker` (running) and `jq` preinstalled; no local Azure CLI or Docker Desktop is
+> needed, and none is assumed. The Mac/Docker-Desktop path in the sections above is the
+> other operator's setup.
+
+**1. Log in.** A Codespace has no local browser, so device code is required:
+
+```bash
+az login --use-device-code                        # neha.mazumdar@thomassci.com
+az account set --subscription d0fb2aac-3e96-49cc-8b7f-a84c8caf4973
+```
+
+**2. Deploy the code first — this is not optional.** `--categories` is new code, and the
+script clones whatever image tag `thomas-intel-job` currently runs. Clone a
+pre-`--categories` image and both scheduled jobs fail on the 1st with
+`unrecognized arguments: --categories=...`.
+
+Build and push from the Codespace (`az acr build` fails for this account — it lacks the
+registry `listBuildSourceUploadUrl` action; `docker build` + `docker push` is the working
+path, and the Codespace is already amd64 so no `--platform` flag is needed):
+
+```bash
+git pull                                          # make sure the Codespace has the new code
+az acr login -n thomasscientificintel
+TAG=$(date -u +%Y%m%d%H%M%S)
+docker build -t "thomasscientificintel.azurecr.io/ts-market-intel:$TAG" -f Dockerfile .
+docker push "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
+az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg \
+  --image "thomasscientificintel.azurecr.io/ts-market-intel:$TAG"
+echo "NEW TAG: $TAG"
+```
+
+**3. Create the scheduled jobs.**
+
+```bash
+bash -n deploy/create_scheduled_jobs.sh           # syntax check, no side effects
+bash deploy/create_scheduled_jobs.sh --check      # permission precheck, creates nothing
+bash deploy/create_scheduled_jobs.sh              # create + verify
+```
+
+Confirm the image the script reports in its step 3 is the `$TAG` you just pushed — that's
+the check that stops both monthly jobs from running pre-`--categories` code.
+
+The script reads image, CPU/memory, `replicaTimeout`, registry config, managed identity
+and the full env block off the **live** `thomas-intel-job` and clones them, so none of it
+is hand-typed. It is idempotent — re-run it after a new image build to re-point both
+scheduled jobs. It finishes by printing a fingerprint (image + env + identity) for all
+three jobs and asserting the two new ones match the source.
+
+Two things it copies that are easy to miss by hand, and that silently break a run:
+
+- **`replicaTimeout`** — a brand-new job defaults to 1800s (30 min). The 399-account run
+  takes hours and would be killed mid-flight.
+- **the user-assigned identity** — without `thomas-intel-identity` attached (and
+  `AZURE_CLIENT_ID` in env pointing at it), the job gets a system-assigned identity with
+  no blob or Key Vault access and dies on startup.
+
+### Smoke-test before the 1st
+
+Don't wait for the cron to find out. A Schedule-triggered job can still be started by
+hand, so run one cheaply with the scope temporarily narrowed to two accounts:
+
+```bash
+az containerapp job update -n thomas-intel-job-m15 -g marias_advisory_ai_rg --args="--total-limit=2"
+az containerapp job start  -n thomas-intel-job-m15 -g marias_advisory_ai_rg
+```
+
+`args` has to stay a **single** token (gotcha #5), so it's one flag or the other —
+`--total-limit=2` alone is the better test: category defaults to `all`, it caps at 2
+accounts, and it still exercises the whole path end to end (image → Key Vault fetch →
+Gemini call → blob write → export CSV). Watch it with the same log commands as a manual
+run, and confirm no `No Gemini API key found` and no `AuthorizationPermissionMismatch`.
+
+**Then put the real args back and confirm**, or the 15th runs a 2-account month:
+
+```bash
+az containerapp job update -n thomas-intel-job-m15 -g marias_advisory_ai_rg \
+  --args="--categories=education,clinical_dx,government"
+az containerapp job show -n thomas-intel-job-m15 -g marias_advisory_ai_rg \
+  --query "properties.template.containers[0].args" -o json
+```
+
+`args` must read as **one** token: `["--categories=education,clinical_dx,government"]`.
+Two tokens or a split-on-comma list means the CLI mangled it — see gotcha #5.
+
+Note the smoke test also regenerates `_export/market_intel_export_<TODAY>.csv`, so don't
+run it on a day a real run's CSV matters.
+
+### Did it fire?
+
+```bash
+for J in thomas-intel-job-m1 thomas-intel-job-m15; do
+  az containerapp job execution list -n $J -g marias_advisory_ai_rg \
+    --query "[0].{job:'$J', status:properties.status, start:properties.startTime, end:properties.endTime}" -o json
+done
+```
+
+Logs are per-execution, same as a manual run (see RUN_AZURE_VSCODE.md §5). Container Apps
+does not notify on failure — if you want to know without checking, add an alert on the
+job's `Failed` executions.
+
+### Changing the scope or the schedule later
+
+The category sets live in **two** places that must agree: each job's `--categories` arg,
+and `MONTHLY_SCHEDULE` in `main.py` (used by the fallback below). `tests/test_scheduled_categories.py`
+pins both — update the constants there too, and it will tell you if a newly added vertical
+is covered by neither run.
+
+```bash
+# change the time (e.g. to 09:00 UTC)
+az containerapp job update -n thomas-intel-job-m1 -g marias_advisory_ai_rg --cron-expression "0 9 1 * *"
+# change the scope
+az containerapp job update -n thomas-intel-job-m1 -g marias_advisory_ai_rg --args="--categories=biopharma,industrial"
+```
+
+### Fallback: one job, day-aware (no new resources)
+
+If job creation is blocked, convert `thomas-intel-job` itself to a `0 6 1,15 * *`
+schedule and let the code pick the scope from the UTC day-of-month:
+
+```bash
+az containerapp job update -n thomas-intel-job -g marias_advisory_ai_rg --args="--monthly-schedule"
+```
+
+`--monthly-schedule` reads `MONTHLY_SCHEDULE` in `main.py`: day 1 → the five-vertical
+sweep, day 15 → the three-vertical sweep, any other day → logs why and exits 0 without
+running. Then flip the trigger to Schedule. `az containerapp job update` cannot change
+`triggerType`, so this needs a raw PATCH — and per gotcha #6 a PATCH of
+`properties.configuration` **replaces that whole object**, so send the existing
+configuration back with only the trigger changed:
+
+```bash
+JOB=thomas-intel-job; RG=marias_advisory_ai_rg
+SUB=d0fb2aac-3e96-49cc-8b7f-a84c8caf4973
+BODY=$(mktemp /tmp/jobpatch.XXXXXX.json)
+az containerapp job show -n $JOB -g $RG -o json | jq '{properties:{configuration:(.properties.configuration
+  | .triggerType="Schedule"
+  | .scheduleTriggerConfig={cronExpression:"0 6 1,15 * *", parallelism:1, replicaCompletionCount:1}
+  | del(.manualTriggerConfig))}}' > "$BODY"
+jq . "$BODY"          # eyeball it: registries + replicaTimeout must still be there
+az rest --method PATCH \
+  --url "https://management.azure.com/subscriptions/$SUB/resourceGroups/$RG/providers/Microsoft.App/jobs/$JOB?api-version=2024-03-01" \
+  --headers "Content-Type=application/json" --body @"$BODY"
+```
+
+Use a real temp file for `--body`, not process substitution — `--body @<(...)` fails with
+`'u' is an invalid start of a value`.
+
+The costs of this route: both runs share one execution history, the scope of a run is only
+visible in Python rather than in the job spec, and `thomas-intel-job` is no longer a
+free-form ad-hoc job (its args are now `--monthly-schedule`).
+
+### Operational notes
+
+- **A failed run resumes on the same UTC day.** Checkpointing is per-date, so restarting a
+  scheduled job by hand on the 1st skips the accounts already done. Start it on the 2nd and
+  it begins a fresh date and re-runs everything.
+- **Gemini quota.** The two runs total ~542 account-runs a month. Ordinary 429s are
+  retried with backoff (8 attempts, capped at 60s each), so a per-minute limit just slows
+  the run down. A sustained quota wall — daily cap hit, or prepaid credits gone — aborts
+  the run instead of skipping signals, because a skipped signal would checkpoint the
+  account with empty data that a later re-run would never revisit.
+  **The export still runs**: the CSV at `_export/market_intel_export_<DATE>.csv` covers
+  every account that completed before the abort, so a partial month is still usable. The
+  job exits non-zero and shows **Failed** in Azure. The cron won't retry before next
+  month, so top up and start the job by hand **on the same UTC date** to resume from the
+  checkpoint (a later date starts the whole vertical over).
+- **The 15th intentionally re-runs Education & Research** against a new date, producing a
+  second set of `results_<DATE>.json` files for those 61 accounts.
 
 ---
 

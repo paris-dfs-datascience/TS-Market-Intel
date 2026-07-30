@@ -57,6 +57,20 @@ docker run --env-file .env ts-market-intel --category biopharma --limit 5
 
 The container's entrypoint is `python main.py`; all CLI flags pass through.
 
+### Deploying / operating on Azure
+
+Full runbook in `DEPLOYMENT.md`. **Operator environment matters** — do not assume a local
+toolchain:
+
+- `neha.mazumdar@thomassci.com` works **exclusively in a GitHub Codespace** on this repo.
+  No local Azure CLI, no Docker Desktop. Codespaces has `az`, `docker` (running) and `jq`
+  preinstalled. Login must be `az login --use-device-code` (no local browser), and the
+  Codespace is amd64 so `--platform linux/amd64` is unnecessary.
+- `matt.paris@thomassci.com` works from a Mac with Azure CLI + Docker Desktop, where
+  `--platform linux/amd64` **is** required.
+- Neither account can use `az acr build` (missing the registry `listBuildSourceUploadUrl`
+  action). Image path is always `az acr login` → `docker build` → `docker push`.
+
 ## Environment Variables
 
 See `.env.sample` for the full list. Everything not covered below is tuning config.
@@ -190,6 +204,8 @@ All dependencies pinned in `requirements.txt`.
 Output files use `results_YYYY-MM-DD.json` naming (not `results.json`). Same-day re-runs overwrite; different dates create new files. Checkpoint reads today's dated filename.
 
 ### CLI Flags Added
+- `--categories "slug1,slug2,..."` — run an explicit subset of verticals (slugs or canonical names, case-insensitive, order-preserving, deduped). Mutually exclusive with `--category`; hard-fails on an unrecognized token so a typo in a scheduled job's args can't silently shrink a run. Finalizes (URL repair + SF CSV export) exactly like `--category all`. Also filters the `--from-sql` / `--from-csv` vertical loops.
+- `--monthly-schedule` — pick the vertical set from the UTC day-of-month via `MONTHLY_SCHEDULE` in `main.py` (1st / 15th); exits 0 with an explanatory log line on any other day. Only for driving both monthly runs off a single cron; the deployed setup uses two jobs with explicit `--categories` args instead.
 - `--companies "CO1,CO2,..."` — run a subset of companies by exact name (case-insensitive); groups by category and calls `run_category` once per category with `accounts_override`
 - `--total-limit N` — cap total accounts across all categories when using `--category all`
 - `--export-csv` — skip the engine; just regenerate the SF-import CSV from every `<COMPANY>/results_<TODAY>.json` already present in the sink. Writes `_export/market_intel_export_<DATE>.csv` (UTC date) back to the sink. Pairs cleanly with `--category all`, which now auto-runs the export at the end of every full run.
@@ -216,11 +232,56 @@ az rest --method PATCH \
 az containerapp job start --name <JOB> --resource-group <RG>
 ```
 
+### Scheduled Monthly Runs (2026-07-30)
+
+Two Schedule-triggered Container Apps Jobs alongside the Manual `thomas-intel-job`, both
+cloned from it (same image / identity / env, so identical output destination):
+
+| Job | Cron (UTC) | Verticals | Accounts |
+|---|---|---|---|
+| `thomas-intel-job-m1` | `0 6 1 * *` | all except Clinical / Mol Dx + Government | 399 |
+| `thomas-intel-job-m15` | `0 6 15 * *` | Education & Research, Clinical / Mol Dx, Government | 143 |
+
+Two jobs, not one with `1,15`, because a job holds only one cron **and** one fixed arg
+list. Scope is carried in each job's `--categories` arg. Created/re-synced by
+`deploy/create_scheduled_jobs.sh`, which derives image, `replicaTimeout`, registry,
+identity and the full env block from the live job rather than hand-typing them — a
+new job's `replicaTimeout` defaults to 1800s, which would kill the multi-hour run.
+Education & Research is deliberately run twice a month. Full runbook in DEPLOYMENT.md
+("Scheduled monthly runs"); `tests/test_scheduled_categories.py` fails if the two arg
+strings stop covering every vertical or drift from `MONTHLY_SCHEDULE`.
+
 ### Azure RBAC (Critical)
 Managed identity needs **`Storage Blob Data Contributor`** on the storage account — NOT just `Contributor`. `Contributor` is management-plane only and does not grant blob data-plane read/write under OAuth/token auth. Assigning `Contributor` alone causes `AuthorizationPermissionMismatch` on every blob write.
 
-### API Credit Depletion
-When Gemini prepaid credits run out, the engine receives `429 RESOURCE_EXHAUSTED` and exits. All previously completed accounts remain checkpointed and safe. To resume: top up credits at `aistudio.google.com`, then re-run `python main.py --category all` — the checkpoint will skip completed accounts automatically.
+### API Credit Depletion / Quota 429s (reworked 2026-07-30)
+
+Gemini reuses the same "exceeded your current quota / plan and billing" wording for a
+recoverable per-minute limit and a hard per-day or billing wall, so `engine.py` no longer
+treats that text as fatal. Current behavior in `run_account_async`:
+
+| Condition | Behavior |
+|---|---|
+| `RESOURCE_EXHAUSTED` + `prepaid`/`prepayment` | Unambiguous billing wall — abort immediately, `RuntimeError("… prepaid credits depleted …")`, caught by `run_category` → `sys.exit(1)` |
+| Any other 429 / `RATE` / `RESOURCE_EXHAUSTED` | Back off and retry, up to `MAX_RATE_LIMIT_RETRIES` (8), honoring `Retry-After` and capped at `RATE_LIMIT_SLEEP_CAP` (60s) |
+| Still quota-limited after backoff | Abort the run: `RuntimeError("Gemini quota exhausted after retries …")` |
+| Rate-limited (not quota) after backoff | Skip that one signal and continue |
+
+**Why abort rather than skip on quota**: skipping checkpoints the account with empty
+signals, and a later re-run sees a `results_<DATE>.json` and skips it — the account's data
+is lost permanently. Aborting keeps every completed account checkpointed and re-runnable.
+
+Note the abort is **not instant**: worst case is 8 retries × up to 60s of backoff per
+affected signal before the run gives up.
+
+**The SF CSV still gets written.** `main._run_and_finalize()` catches both abort flavors
+(`RuntimeError` and the engine's own `SystemExit`), runs `_finalize_run` for the accounts
+that completed, then exits non-zero so an Azure job still reports Failed. URL repair is
+skipped on that path (`fix_urls=False`) — it re-asks Gemini, and the quota is what just
+died. Covered by `tests/test_finalize_on_abort.py`.
+
+To resume: top up at `aistudio.google.com`, then re-run the same command **on the same UTC
+date** — the checkpoint skips completed accounts. A later date starts fresh.
 
 ### Run Status as of 2026-05-14 (run `thomas-intel-uq13n1x`)
 
